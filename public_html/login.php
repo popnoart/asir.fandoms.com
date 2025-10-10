@@ -13,9 +13,10 @@ if (isset($_SESSION['account'])) {
 $error = '';
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $authFile = ROOT.'/storage/data/auth.json';
+
     $data = file_get_contents($authFile);
     $auth = json_decode($data, true);
-    $user = array_filter($auth, fn($item) => $item['username'] === $_POST['username']);
+    $user = array_values(array_filter($auth, fn($item) => $item['username'] === $_POST['username']));
     if ($user && password_verify($_POST['password'], $user[0]['password_hash'])) {
         $_SESSION['account'] = $user[0]['username'];
         header('Location: index.php');
