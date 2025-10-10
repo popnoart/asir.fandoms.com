@@ -1,9 +1,12 @@
 BACKUP/
-storage/logs/
+storage/logs/*
+storage/logs/.gitkeep
 storage/temp/
 storage/cache/
 storage/files/
-storage/data/
+storage/data/auth.json
+storage/data/accounts/*
+!storage/data/accounts/.gitkeep
 public_html/tools/
 public_html/files/
 public_html/shared/
