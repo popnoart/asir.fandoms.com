@@ -4,8 +4,9 @@ if (!isset($_SESSION['account'])) {
     die('No autenticado');
 }
 
+define('ROOT', dirname(__DIR__));
 $username = $_SESSION['account'];
-$configPath = __DIR__ . "/../storage/data/accounts/$username/config.json";
+$configPath = ROOT . "/storage/data/accounts/$username/config.json";
 
 // Leer el archivo actual
 $config = [
@@ -50,9 +51,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <div class="card shadow-sm">
                 <div class="card-body">
                     <h2 class="card-title mb-4 text-center">Editar Configuración de Estados</h2>
-                    <?php if (!empty($msg)): ?>
-                        <div class="alert alert-success"> <?= htmlspecialchars($msg) ?> </div>
-                    <?php endif; ?>
                     <form method="post">
                         <?php foreach ($config as $key => $value): ?>
                             <div class="mb-3">
@@ -64,6 +62,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         <?php endforeach; ?>
                         <div class="form-text">Separa por coma.</div>
                         <div class="form-text">Para las columnas (Colx) tienes disponible; pending_tasks, units, resources, tests, notes, calendar, done_tasks</div>
+                    <?php if (!empty($msg)): ?>
+                        <div class="alert alert-success"> <?= htmlspecialchars($msg) ?> </div>
+                    <?php endif; ?>
                         <div class="d-grid">
                             <button type="submit" class="btn btn-primary">Guardar Cambios</button>
                         </div>

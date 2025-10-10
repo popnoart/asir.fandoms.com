@@ -1,7 +1,7 @@
-<?php
+<?php 
+include $_SERVER['DOCUMENT_ROOT'] . '/bootstrap.php'; 
+include $_SERVER['DOCUMENT_ROOT'] . '/assets/templates/header.php'; 
 ?>
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/bootstrap.php'; ?>
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/assets/templates/header.php'; ?>
 
 <div class="row">
     <div class="col-12 col-md-6">
@@ -114,7 +114,20 @@
                             }
                             $summary = htmlspecialchars($clase['SUMMARY']);
                             $course = !empty($clase['COURSE']) ? htmlspecialchars($clase['COURSE']) : '';
-                            echo '<div class="agenda-event card shadow-sm border-0" style="background: #f8fafc;">';
+                            // Calcular color de fondo según la fecha
+                            $fondo = '#f8fafc';
+                            $clase_fondo = '';
+                            if (isset($dt) && $dt) {
+                                $hoy = (new DateTime('now', new DateTimeZone('Europe/Madrid')))->setTime(0,0,0);
+                                $fecha_ev = clone $dt; $fecha_ev->setTime(0,0,0);
+                                $diff = (int)$hoy->diff($fecha_ev)->format('%R%a');
+                                if ($diff === 0) {
+                                    $clase_fondo = ' bg-danger text-bg-danger';
+                                } elseif ($diff > 0 && $diff <= 3) {
+                                    $clase_fondo = ' bg-warning text-bg-warning';
+                                }
+                            }
+                            echo '<div class="agenda-event card shadow-sm border-0'.$clase_fondo.'" style="background: #f8fafc;">';
                             echo '<div class="card-body d-flex align-items-center">';
                             echo '<div class="me-3 text-center" style="min-width:60px;">';
                             echo '<div class="agenda-date text-primary">';

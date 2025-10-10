@@ -1,4 +1,5 @@
 <?php
+define('ROOT', dirname(__DIR__));
 
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
@@ -11,7 +12,7 @@ if (!isset($_SESSION['account'])) {
 }
 
 //////////LOAD ALL CONFIGS & STATES\\\\\\\\\\
-$personal_path=__DIR__ . '/../storage/data/accounts/'.$_SESSION['account'].'/';
+$personal_path=ROOT.'/storage/data/accounts/'.$_SESSION['account'].'/';
 // Cargar configuración
 $config = include $_SERVER['DOCUMENT_ROOT'] . '/config.php';
 // Cargar courses

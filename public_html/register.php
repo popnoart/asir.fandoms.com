@@ -1,13 +1,16 @@
 <?php
-// register.php
-// Página de registro de usuario a partir de un enlace de invitación
+define('ROOT', dirname(__DIR__));
+
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
 
 if (empty($_GET['token'])) {
     die('Invitación no válida.');
 }
 $token = $_GET['token'];
-$invitesFile = __DIR__ . '/../storage/data/invites.json';
-$authFile = __DIR__ . '/../storage/data/auth.json';
+$invitesFile = ROOT.'/storage/data/invites.json';
+$authFile = ROOT.'/storage/data/auth.json';
 
 $invites = file_exists($invitesFile) ? json_decode(file_get_contents($invitesFile), true) : [];
 if (!isset($invites[$token]) || !is_array($invites[$token]) || !empty($invites[$token]['used'])) {
@@ -44,7 +47,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && !empty($_POST['password']) && !empt
             $invites[$token]['used'] = true;
             file_put_contents($invitesFile, json_encode($invites, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
             //Crear archivos personales   
-            $personal_path=__DIR__ . '/../storage/data/accounts/'.$_SESSION['account'].'/';  
+            $personal_path=ROOT.'/storage/data/accounts/'.$_SESSION['account'].'/';  
             $myconfig_path = $personal_path.'/config.json';
             $states_path = $personal_path.'/states.json';
             $template = $_SERVER['DOCUMENT_ROOT'] . '/data/config_template.json';
@@ -55,7 +58,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && !empty($_POST['password']) && !empt
                 file_put_contents($myconfig_path, json_encode([]));
             }
             file_put_contents($states_path, json_encode([]));
-            
+
             $success = true;
         }
     }

@@ -1,17 +1,18 @@
 <?php
+define('ROOT', dirname(__DIR__));
 
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
-
 session_start();
+
 if (isset($_SESSION['account'])) {
     header('Location: index.php');
     exit;
 }
 $error = '';
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $authFile = __DIR__ . '/../storage/data/auth.json';
+    $authFile = ROOT.'/storage/data/auth.json';
     $data = file_get_contents($authFile);
     $auth = json_decode($data, true);
     $user = array_filter($auth, fn($item) => $item['username'] === $_POST['username']);

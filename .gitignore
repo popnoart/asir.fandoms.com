@@ -8,7 +8,6 @@ storage/data/auth.json
 storage/data/invites.json
 storage/data/accounts/*
 !storage/data/accounts/.gitkeep
-public_html/tools/
 public_html/files/
 public_html/shared/
 public_html/tests/

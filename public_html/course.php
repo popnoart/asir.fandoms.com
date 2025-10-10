@@ -10,44 +10,112 @@
 </ul>
 <div class="row g-4">
     <div class="col-4">
-        
+
         <div class="card mb-3" id="pending_tasks">
             <div class="card-body">
                 <h5 class="card-title">Tareas pendientes</h5>
                 <ul class="list-group list-group-flush">
-                <?php if (!empty($pending_tasks_course)) {
-                    foreach ($pending_tasks_course as $i => $task) {
-                        $modal_id = 'pendingTaskModal' . $i;
-                ?>
-                        <li class="list-group-item "> 
-                            <?php if (!empty($task['link'])) { ?>
-                        <a href="<?= $task['link']; ?>" target="_blank"><?= htmlspecialchars($task['name']); ?></a>
-                        <?php }else{ ?>
-                        <?= htmlspecialchars($task['name']); ?>
-                        <?php } ?><br>
-                            Fin: <?= htmlspecialchars($task['end']); ?>
-                                <span class="badge <?php if($task['type'] == 'Obligatoria'){ ?> bg-danger text-bg-danger<?php }else{ ?> bg-warning text-bg-warning<?php } ?> ms-2"><?= htmlspecialchars($task['type']); ?></span>
-                                <span class="badge text-bg-secondary ms-2" style="cursor:pointer;" data-bs-toggle="modal" data-bs-target="#statusModal<?= $i; ?>"><?= htmlspecialchars($task['status']); ?></span>
+                    <?php if (!empty($pending_tasks_course)) {
+                        foreach ($pending_tasks_course as $task => $task_data) {
+                            $modal_id = 'pendingTaskModal' . $task;
+                    ?>
+                            <li class="list-group-item ">
+                                <?php if (!empty($task_data['link'])) { ?>
+                                    <a href="<?= $task_data['link']; ?>" target="_blank"><?= htmlspecialchars($task_data['name']); ?></a>
+                                <?php } else { ?>
+                                    <?= htmlspecialchars($task_data['name']); ?>
+                                <?php } ?><br>
+                                Fin: <?= htmlspecialchars($task_data['end']); ?>
+                                <span class="badge <?php if ($task_data['type'] == 'Obligatoria') { ?> bg-danger text-bg-danger<?php } else { ?> bg-warning text-bg-warning<?php } ?> ms-2"><?= htmlspecialchars($task_data['type']); ?></span>
+                                <span class="badge bg-secondary" style="cursor:pointer;" data-bs-toggle="modal" data-bs-target="#statusModal<?= $modal_id; ?>">
+                                    <?php if (!empty($task_data['status'])) {
+                                        echo htmlspecialchars($task_data['status']);
+                                    } else {
+                                        echo 'Sin estado';
+                                    } ?>
+                                </span>
+                            </li>
+
+                            <!-- Modal cambio de estado -->
+                            <div class="modal fade" id="<?= $modal_id; ?>" tabindex="-1" aria-labelledby="<?= $modal_id; ?>Label" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <form method="post" action="">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="<?= $modal_id; ?>Label">Cambiar estado de la tarea</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <input type="hidden" name="change_status_uid" value="<?= htmlspecialchars($task); ?>">
+                                                <input type="hidden" name="change_status_type" value="tasks">
+                                                <?php $status_options = $myconfig['tasks_status']; ?>
+                                                <div class="mb-3">
+                                                    <label for="new_status_<?= $task; ?>" class="form-label">Selecciona nuevo estado:</label>
+                                                    <select class="form-select" id="new_status_<?= $task; ?>" name="new_status">
+                                                        <?php foreach ($status_options as $opt): ?>
+                                                            <option value="<?= htmlspecialchars($opt); ?>" <?= $opt == $task_data['status'] ? ' selected' : '' ?>><?= htmlspecialchars($opt); ?></option>
+                                                        <?php endforeach; ?>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                                                <button type="submit" class="btn btn-primary">Guardar</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        <?php }
+                    } else { ?>
+                        <li class="list-group-item">No hay tareas pendientes.</li>
+                    <?php } ?>
+                </ul>
+            </div>
+        </div>
+
+        <div class="card mb-3" id="units">
+            <div class="card-body">
+                <h5 class="card-title">Unidades</h5>
+                <ul class="list-group list-group-flush">
+                    <?php foreach ($course_data['units'] as $unit => $unit_data) {
+                        $modal_id = 'unitModal' . $unit;
+                    ?>
+                        <li class="list-group-item">
+                            <?php if (!empty($unit_data['link'])) { ?>
+                                <a href="<?= $unit_data['link']; ?>" target="_blank"><?= htmlspecialchars($unit_data['name']); ?></a>
+                            <?php } else { ?>
+                                <?= htmlspecialchars($unit_data['name']); ?>
+                            <?php } ?>
+                            <?php if (!empty($unit_data['status'])) { ?>
+                                <span class="badge bg-secondary" style="cursor:pointer;" data-bs-toggle="modal" data-bs-target="#<?= $modal_id; ?>">
+                                    <?php if (!empty($unit_data['status'])) {
+                                        echo htmlspecialchars($unit_data['status']);
+                                    } else {
+                                        echo 'Sin estado';
+                                    } ?>
+                                </span>
+                            <?php } ?>
                         </li>
 
-                        <!-- Modal cambio de estado -->
+                        <!-- Modal cambio de estado unidad -->
                         <div class="modal fade" id="<?= $modal_id; ?>" tabindex="-1" aria-labelledby="<?= $modal_id; ?>Label" aria-hidden="true">
                             <div class="modal-dialog">
                                 <div class="modal-content">
                                     <form method="post" action="">
                                         <div class="modal-header">
-                                            <h5 class="modal-title" id="<?= $modal_id; ?>Label">Cambiar estado de la tarea</h5>
+                                            <h5 class="modal-title" id="<?= $modal_id; ?>Label">Cambiar estado de la unidad</h5>
                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
                                         </div>
                                         <div class="modal-body">
-                                            <input type="hidden" name="change_status_uid" value="<?= htmlspecialchars($i); ?>">
-                                            <input type="hidden" name="change_status_type" value="tasks">
-                                            <?php $status_options = $myconfig['tasks_status']; ?>
+                                            <input type="hidden" name="change_status_uid" value="<?= htmlspecialchars(isset($unit_data['id']) ? $unit_data['id'] : $unit); ?>">
+                                            <input type="hidden" name="change_status_type" value="units">
+                                            <?php $status_options = $myconfig['units_status']; ?>
                                             <div class="mb-3">
-                                                <label for="new_status_<?= $i; ?>" class="form-label">Selecciona nuevo estado:</label>
-                                                <select class="form-select" id="new_status_<?= $i; ?>" name="new_status">
+                                                <label for="new_status_unit_<?= $unit; ?>" class="form-label">Selecciona nuevo estado:</label>
+                                                <select class="form-select" id="new_status_unit_<?= $unit; ?>" name="new_status">
                                                     <?php foreach ($status_options as $opt): ?>
-                                                        <option value="<?= htmlspecialchars($opt); ?>" <?= $opt == $task['status'] ? ' selected' : '' ?>><?= htmlspecialchars($opt); ?></option>
+                                                        <option value="<?= htmlspecialchars($opt); ?>" <?= $opt == $unit_data['status'] ? ' selected' : '' ?>><?= htmlspecialchars($opt); ?></option>
                                                     <?php endforeach; ?>
                                                 </select>
                                             </div>
@@ -60,61 +128,6 @@
                                 </div>
                             </div>
                         </div>
-                <?php }} else { ?>
-                    <li class="list-group-item">No hay tareas pendientes.</li>
-                <?php } ?>
-                </ul>
-            </div>
-        </div>
-
-        <div class="card mb-3" id="units">
-            <div class="card-body">
-                <h5 class="card-title">Unidades</h5>
-                <ul class="list-group list-group-flush">
-                    <?php foreach ($course_data['units'] as $i => $unit_data) {
-                        $modal_id = 'unitModal' . $i;
-                    ?>
-                    <li class="list-group-item">
-                        <?php if (!empty($unit_data['link'])) { ?>
-                        <a href="<?= $unit_data['link']; ?>" target="_blank"><?= htmlspecialchars($unit_data['name']); ?></a>
-                        <?php }else{ ?>
-                        <?= htmlspecialchars($unit_data['name']); ?>
-                        <?php } ?>
-                        <?php if (!empty($unit_data['status'])) { ?>
-                            <span class="badge bg-secondary" style="cursor:pointer;" data-bs-toggle="modal" data-bs-target="#<?= $modal_id; ?>"><?= htmlspecialchars($unit_data['status']); ?></span>
-                        <?php } ?>
-                    </li>
-
-                    <!-- Modal cambio de estado unidad -->
-                    <div class="modal fade" id="<?= $modal_id; ?>" tabindex="-1" aria-labelledby="<?= $modal_id; ?>Label" aria-hidden="true">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <form method="post" action="">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="<?= $modal_id; ?>Label">Cambiar estado de la unidad</h5>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <input type="hidden" name="change_status_uid" value="<?= htmlspecialchars(isset($unit_data['id']) ? $unit_data['id'] : $i); ?>">
-                                        <input type="hidden" name="change_status_type" value="units">
-                                        <?php $status_options = $myconfig['units_status']; ?>
-                                        <div class="mb-3">
-                                            <label for="new_status_unit_<?= $i; ?>" class="form-label">Selecciona nuevo estado:</label>
-                                            <select class="form-select" id="new_status_unit_<?= $i; ?>" name="new_status">
-                                                <?php foreach ($status_options as $opt): ?>
-                                                    <option value="<?= htmlspecialchars($opt); ?>" <?= $opt == $unit_data['status'] ? ' selected' : '' ?>><?= htmlspecialchars($opt); ?></option>
-                                                <?php endforeach; ?>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-                                        <button type="submit" class="btn btn-primary">Guardar</button>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
                     <?php } ?>
                 </ul>
             </div>
@@ -124,12 +137,23 @@
             <div class="card-body">
                 <h5 class="card-title">Recursos</h5>
                 <ul class="list-group list-group-flush">
-                  <?php foreach ($course_data['resources'] as $material => $material_data) {
-                    ?>
-                    <li class="list-group-item">
-                        <a href="<?= $material_data['link']; ?>" target="_blank"><?= $material_data['name']; ?></a>
-                    </li>
-                    <span class="badge text-bg-secondary ms-2" style="cursor:pointer;" data-bs-toggle="modal" data-bs-target="#statusModal<?= $i; ?>"><?= htmlspecialchars($test_data['status']); ?></span>
+                    <?php foreach ($course_data['resources'] as $resource => $resource_data) {  ?>
+                        <li class="list-group-item">
+                            <?php if (!empty($resource_data['link'])) { ?>
+                                <a href="<?= $resource_data['link']; ?>" target="_blank"><?= htmlspecialchars($resource_data['name']); ?></a>
+                            <?php } else { ?>
+                                <?= htmlspecialchars($resource_data['name']); ?>
+                            <?php } ?>
+                            <?php if (!empty($resource_data['status'])) { ?>
+                                <span class="badge bg-secondary" style="cursor:pointer;" data-bs-toggle="modal" data-bs-target="#<?= $modal_id; ?>">
+                                    <?php if (!empty($resource_data['status'])) {
+                                        echo htmlspecialchars($resource_data['status']);
+                                    } else {
+                                        echo 'Sin estado';
+                                    } ?>
+                                </span>
+                            <?php } ?>
+                        </li>
                     <?php } ?>
                 </ul>
             </div>
@@ -143,12 +167,23 @@
             <div class="card-body">
                 <h5 class="card-title">Tests</h5>
                 <ul class="list-group list-group-flush">
-                  <?php foreach ($course_data['tests'] as $test => $test_data) {
-                    ?>
-                    <li class="list-group-item">
-                        <a href="<?= $test_data['link']; ?>" target="_blank"><?= htmlspecialchars($test_data['name']); ?></a>
-                    </li>
-                    <span class="badge text-bg-secondary ms-2" style="cursor:pointer;" data-bs-toggle="modal" data-bs-target="#statusModal<?= $i; ?>"><?= htmlspecialchars($test_data['status']); ?></span>
+                    <?php foreach ($course_data['tests'] as $test => $test_data) {?>
+                        <li class="list-group-item">
+                            <?php if (!empty($test_data['link'])) { ?>
+                                <a href="<?= $test_data['link']; ?>" target="_blank"><?= htmlspecialchars($test_data['name']); ?></a>
+                            <?php } else { ?>
+                                <?= htmlspecialchars($test_data['name']); ?>
+                            <?php } ?>
+                            <?php if (!empty($test_data['status'])) { ?>
+                                <span class="badge bg-secondary" style="cursor:pointer;" data-bs-toggle="modal" data-bs-target="#<?= $modal_id; ?>">
+                                    <?php if (!empty($test_data['status'])) {
+                                        echo htmlspecialchars($test_data['status']);
+                                    } else {
+                                        echo 'Sin estado';
+                                    } ?>
+                                </span>
+                            <?php } ?>
+                        </li>
                     <?php } ?>
                 </ul>
             </div>
@@ -158,58 +193,67 @@
             <div class="card-body">
                 <h5 class="card-title">Apuntes</h5>
                 <ul class="list-group list-group-flush">
-                  <?php foreach ($course_data['notes'] as $i => $note_data) {
-                        $modal_id = 'noteModal' . $i;
-                  ?>
-                    <li class="list-group-item">
-                        <a href="<?= $note_data['link']; ?>" target="_blank"><?= $note_data['name']; ?></a>
-                        <?php if (!empty($note_data['status'])) { ?>
-                            <span class="badge bg-secondary" style="cursor:pointer;" data-bs-toggle="modal" data-bs-target="#<?= $modal_id; ?>"><?= htmlspecialchars($note_data['status']); ?></span>
-                        <?php } ?>
-                        <span class="badge text-bg-secondary ms-2" style="cursor:pointer;" data-bs-toggle="modal" data-bs-target="#statusModal<?= $i; ?>"><?= htmlspecialchars($test_data['status']); ?></span>
-                    </li>
+                    <?php foreach ($course_data['notes'] as $note => $note_data) {
+                        $modal_id = 'noteModal' . $note;
+                    ?>
+                        <li class="list-group-item">
+                            <?php if (!empty($note_data['link'])) { ?>
+                                <a href="<?= $note_data['link']; ?>" target="_blank"><?= htmlspecialchars($note_data['name']); ?></a>
+                            <?php } else { ?>
+                                <?= htmlspecialchars($note_data['name']); ?>
+                            <?php } ?>
+                            <?php if (!empty($note_data['status'])) { ?>
+                                <span class="badge bg-secondary" style="cursor:pointer;" data-bs-toggle="modal" data-bs-target="#<?= $modal_id; ?>">
+                                    <?php if (!empty($note_data['status'])) {
+                                        echo htmlspecialchars($note_data['status']);
+                                    } else {
+                                        echo 'Sin estado';
+                                    } ?>
+                                </span>
+                            <?php } ?>
+                        </li>
 
-                    <!-- Modal cambio de estado apunte -->
-                    <div class="modal fade" id="<?= $modal_id; ?>" tabindex="-1" aria-labelledby="<?= $modal_id; ?>Label" aria-hidden="true">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <form method="post" action="">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="<?= $modal_id; ?>Label">Cambiar estado del apunte</h5>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <input type="hidden" name="change_status_uid" value="<?= htmlspecialchars(isset($note_data['id']) ? $note_data['id'] : $i); ?>">
-                                        <input type="hidden" name="change_status_type" value="notes">
-                                        <?php $status_options = $myconfig['notes_status']; ?>
-                                        <div class="mb-3">
-                                            <label for="new_status_note_<?= $i; ?>" class="form-label">Selecciona nuevo estado:</label>
-                                            <select class="form-select" id="new_status_note_<?= $i; ?>" name="new_status">
-                                                <?php foreach ($status_options as $opt): ?>
-                                                    <option value="<?= htmlspecialchars($opt); ?>" <?= $opt == $note_data['status'] ? ' selected' : '' ?>><?= htmlspecialchars($opt); ?></option>
-                                                <?php endforeach; ?>
-                                            </select>
+                        <!-- Modal cambio de estado apunte -->
+                        <div class="modal fade" id="<?= $modal_id; ?>" tabindex="-1" aria-labelledby="<?= $modal_id; ?>Label" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <form method="post" action="">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="<?= $modal_id; ?>Label">Cambiar estado del apunte</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
                                         </div>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-                                        <button type="submit" class="btn btn-primary">Guardar</button>
-                                    </div>
-                                </form>
+                                        <div class="modal-body">
+                                            <input type="hidden" name="change_status_uid" value="<?= htmlspecialchars(isset($note_data['id']) ? $note_data['id'] : $note); ?>">
+                                            <input type="hidden" name="change_status_type" value="notes">
+                                            <?php $status_options = $myconfig['notes_status']; ?>
+                                            <div class="mb-3">
+                                                <label for="new_status_note_<?= $note; ?>" class="form-label">Selecciona nuevo estado:</label>
+                                                <select class="form-select" id="new_status_note_<?= $note; ?>" name="new_status">
+                                                    <?php foreach ($status_options as $opt): ?>
+                                                        <option value="<?= htmlspecialchars($opt); ?>" <?= $opt == $note_data['status'] ? ' selected' : '' ?>><?= htmlspecialchars($opt); ?></option>
+                                                    <?php endforeach; ?>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                                            <button type="submit" class="btn btn-primary">Guardar</button>
+                                        </div>
+                                    </form>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                  <?php } ?>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
-        
+
     </div>
 
     <div class="col-4">
 
         <div class="card mb-3 border-0" id="calendar">
-                <div class="agenda-list">
+            <div class="agenda-list">
                 <?php
                 // Mostrar las próximas 6 clases de este curso
                 $clases = [];
@@ -220,12 +264,12 @@
                         }
                     }
                     // Ordenar por DTSTART (fecha de inicio)
-                    usort($clases, function($a, $b) {
+                    usort($clases, function ($a, $b) {
                         return strcmp($a['DTSTART'], $b['DTSTART']);
                     });
                     // Filtrar solo las próximas 6 clases a partir de hoy
                     $now = date('Ymd\THis\Z');
-                    $clases = array_filter($clases, function($ev) use ($now) {
+                    $clases = array_filter($clases, function ($ev) use ($now) {
                         return $ev['DTSTART'] >= $now;
                     });
                     $clases = array_slice($clases, 0, 6);
@@ -241,10 +285,10 @@
                                     if ($dt) $dt->setTimezone(new DateTimeZone('Europe/Madrid'));
                                 }
                                 if ($dt) {
-                                    $meses = ['ene','feb','mar','abr','may','jun','jul','ago','sep','oct','nov','dic'];
-                                    $dias = ['Dom','Lun','Mar','Mié','Jue','Vie','Sáb'];
+                                    $meses = ['ene', 'feb', 'mar', 'abr', 'may', 'jun', 'jul', 'ago', 'sep', 'oct', 'nov', 'dic'];
+                                    $dias = ['Dom', 'Lun', 'Mar', 'Mié', 'Jue', 'Vie', 'Sáb'];
                                     $date_big = $dt->format('j');
-                                    $mes = $meses[(int)$dt->format('n')-1];
+                                    $mes = $meses[(int)$dt->format('n') - 1];
                                     $dow = $dias[(int)$dt->format('w')];
                                     $date_small = "$mes, $dow";
                                 } else {
@@ -252,7 +296,20 @@
                                 }
                             }
                             $summary = htmlspecialchars($clase['SUMMARY']);
-                            echo '<div class="agenda-event card shadow-sm border-0" style="background: #f8fafc;">';
+                            // Calcular color de fondo según la fecha
+                            $fondo = '#f8fafc';
+                            $clase_fondo = '';
+                            if (isset($dt) && $dt) {
+                                $hoy = (new DateTime('now', new DateTimeZone('Europe/Madrid')))->setTime(0,0,0);
+                                $fecha_ev = clone $dt; $fecha_ev->setTime(0,0,0);
+                                $diff = (int)$hoy->diff($fecha_ev)->format('%R%a');
+                                if ($diff === 0) {
+                                    $clase_fondo = ' bg-danger text-bg-danger';
+                                } elseif ($diff > 0 && $diff <= 3) {
+                                    $clase_fondo = ' bg-warning text-bg-warning';
+                                }
+                            }
+                            echo '<div class="agenda-event card shadow-sm border-0'.$clase_fondo.'" style="background: #f8fafc;">';
                             echo '<div class="card-body d-flex align-items-center">';
                             echo '<div class="me-3 text-center" style="min-width:60px;">';
                             echo '<div class="agenda-date text-primary">';
@@ -271,60 +328,67 @@
                     } else {
                         echo '<div class="alert alert-secondary">No hay clases próximas.</div>';
                     }
-                }else {
+                } else {
                     echo '<div class="alert alert-warning">Hay problemas con el archivo calendar.json</div>';
                 }
                 ?>
-                </div>
+            </div>
         </div>
 
         <div class="card mb-3" id="done_tasks">
             <div class="card-body">
                 <h5 class="card-title">Tareas terminadas</h5>
                 <ul class="list-group list-group-flush">
-                <?php if (!empty($done_tasks_course)) {
-                    foreach ($done_tasks_course as $i => $task) {
-                        $modal_id = 'doneTaskModal' . $i;
-                ?>
-                        <li class="list-group-item ">
-                            <strong><?= htmlspecialchars($task['name']); ?></strong><br>
-                            Fin: <?= htmlspecialchars($task['end']); ?>
-                            <span class="badge bg-success text-bg-success ms-2" style="cursor:pointer;" data-bs-toggle="modal" data-bs-target="#<?= $modal_id; ?>"><?= htmlspecialchars($task['status']); ?></span>
-                        </li>
+                    <?php if (!empty($done_tasks_course)) {
+                        foreach ($done_tasks_course as $task => $task_data) {
+                            $modal_id = 'doneTaskModal' . $task;
+                    ?>
+                            <li class="list-group-item ">
+                                <strong><?= htmlspecialchars($task_data['name']); ?></strong><br>
+                                Fin: <?= htmlspecialchars($task_data['end']); ?>
+                                <span class="badge bg-success text-bg-success ms-2" style="cursor:pointer;" data-bs-toggle="modal" data-bs-target="#<?= $modal_id; ?>">
+                                    <?php if (!empty($task_data['status'])) {
+                                        echo htmlspecialchars($task_data['status']);
+                                    } else {
+                                        echo 'Sin estado';
+                                    } ?>
+                                </span>
+                            </li>
 
-                        <!-- Modal cambio de estado -->
-                        <div class="modal fade" id="<?= $modal_id; ?>" tabindex="-1" aria-labelledby="<?= $modal_id; ?>Label" aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <form method="post" action="">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="<?= $modal_id; ?>Label">Cambiar estado de la tarea</h5>
-                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
-                                        </div>
-                                        <div class="modal-body">
-                                            <input type="hidden" name="change_status_uid" value="<?= htmlspecialchars($i); ?>">
-                                            <input type="hidden" name="change_status_type" value="tasks">
-                                            <?php $status_options = $myconfig['tasks_status']; ?>
-                                            <div class="mb-3">
-                                                <label for="new_status_done_<?= $i; ?>" class="form-label">Selecciona nuevo estado:</label>
-                                                <select class="form-select" id="new_status_done_<?= $i; ?>" name="new_status">
-                                                    <?php foreach ($status_options as $opt): ?>
-                                                        <option value="<?= htmlspecialchars($opt); ?>" <?= $opt == $task['status'] ? ' selected' : '' ?>><?= htmlspecialchars($opt); ?></option>
-                                                    <?php endforeach; ?>
-                                                </select>
+                            <!-- Modal cambio de estado -->
+                            <div class="modal fade" id="<?= $modal_id; ?>" tabindex="-1" aria-labelledby="<?= $modal_id; ?>Label" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <form method="post" action="">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="<?= $modal_id; ?>Label">Cambiar estado de la tarea</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
                                             </div>
-                                        </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-                                            <button type="submit" class="btn btn-primary">Guardar</button>
-                                        </div>
-                                    </form>
+                                            <div class="modal-body">
+                                                <input type="hidden" name="change_status_uid" value="<?= htmlspecialchars($task); ?>">
+                                                <input type="hidden" name="change_status_type" value="tasks">
+                                                <?php $status_options = $myconfig['tasks_status']; ?>
+                                                <div class="mb-3">
+                                                    <label for="new_status_done_<?= $task; ?>" class="form-label">Selecciona nuevo estado:</label>
+                                                    <select class="form-select" id="new_status_done_<?= $task; ?>" name="new_status">
+                                                        <?php foreach ($status_options as $opt): ?>
+                                                            <option value="<?= htmlspecialchars($opt); ?>" <?= $opt == $task_data['status'] ? ' selected' : '' ?>><?= htmlspecialchars($opt); ?></option>
+                                                        <?php endforeach; ?>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                                                <button type="submit" class="btn btn-primary">Guardar</button>
+                                            </div>
+                                        </form>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                <?php }} else { ?>
-                    <li class="list-group-item">No hay tareas terminadas.</li>
-                <?php } ?>
+                        <?php }
+                    } else { ?>
+                        <li class="list-group-item">No hay tareas terminadas.</li>
+                    <?php } ?>
                 </ul>
             </div>
         </div>
