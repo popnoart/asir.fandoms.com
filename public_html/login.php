@@ -56,7 +56,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         </form>
                     </div>
                 </div>
-                <p class="text-center text-muted mt-3 small"><a href="/pass.php">&copy; <?= date('Y'); ?> - ASIR</a></p>
+                <p class="text-center text-muted mt-3 small">&copy; <?= date('Y'); ?> - ASIR </p>
             </div>
         </div>
     </div>
