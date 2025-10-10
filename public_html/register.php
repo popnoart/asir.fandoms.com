@@ -80,7 +80,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && !empty($_POST['password']) && !empt
                 <div class="card-body">
                     <h2 class="card-title mb-4 text-center">Registro de usuario</h2>
                     <?php if (!empty($success)): ?>
-                        <div class="alert alert-success">Usuario registrado correctamente. Ya puedes iniciar sesión.</div>
+                        <div class="alert alert-success">Usuario registrado correctamente. <a href="/login.php">Ya puedes iniciar sesión.</a></div>
                     <?php else: ?>
                         <?php if (!empty($error)): ?>
                             <div class="alert alert-danger"><?= htmlspecialchars($error) ?></div>
