@@ -22,10 +22,10 @@ $all_courses = json_decode(file_get_contents($courses_path), true);
 $calendar_path = $_SERVER['DOCUMENT_ROOT'] . '/data/calendar.json';
 $calendar_events = json_decode(file_get_contents($calendar_path), true);
 // Personales
-$myconfig_path = $personal_path.'/config.json';
+$myconfig_path = $personal_path.'config.json';
 $myconfig = json_decode(file_get_contents($myconfig_path), true);
 
-$states_path = $personal_path.'/states.json';
+$states_path = $personal_path.'states.json';
 $all_states = json_decode(file_get_contents($states_path), true);
 
 

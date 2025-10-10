@@ -48,8 +48,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && !empty($_POST['password']) && !empt
             file_put_contents($invitesFile, json_encode($invites, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
             //Crear archivos personales   
             $personal_path=ROOT.'/storage/data/accounts/'.$_SESSION['account'].'/';  
-            $myconfig_path = $personal_path.'/config.json';
-            $states_path = $personal_path.'/states.json';
+            $myconfig_path = $personal_path.'config.json';
+            $states_path = $personal_path.'states.json';
             $template = $_SERVER['DOCUMENT_ROOT'] . '/data/config_template.json';
             if (file_exists($template)) {
                 copy($template, $myconfig_path);
