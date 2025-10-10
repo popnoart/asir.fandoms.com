@@ -13,6 +13,7 @@ return [
             'name' => 'Calificaciones',
             'url' => 'https://campus.digitechfp.com/grade/report/user/index.php?id=[id]'
         ],
+        /*
         'task' => [
             'name' => 'Tarea',
             'url' => 'https://campus.digitechfp.com/mod/assign/index.php?id=[id]'
@@ -21,5 +22,6 @@ return [
             'name' => 'Recurso',
             'url' => 'https://campus.digitechfp.com/mod/resource/view.php?id=[id]'
         ]
+            */
     ],
 ];
