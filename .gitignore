@@ -1,0 +1,17 @@
+BACKUP/
+storage/logs/
+storage/temp/
+storage/cache/
+storage/files/
+storage/data/
+public_html/tools/
+public_html/files/
+public_html/shared/
+public_html/tests/
+*.code-workspace
+
+# Should be keep but not in live
+# .vscode/**
+
+# Site specific
+.env*

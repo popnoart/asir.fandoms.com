@@ -1,0 +1,259 @@
+{
+    "SAPS": {
+        "id": 600,
+        "name": "Sostenibilidad Aplicada al Sistema Productivo",
+        "teacher": "Ane de la Calle",
+        "teacher_mail": "ane.delacalle@digitechfp.com",
+        "units": {
+            "SAPS-1": {
+                "folder": 36764,
+                "folder_number": 1,
+                "name": "Unidad 1. Sostenibilidad en entorno actual",
+                "link": ""
+            }
+        },
+        "resources": {},
+        "tasks": {},
+        "tests": {},
+        "notes": {}
+    },
+    "DAPS": {
+        "id": 583,
+        "name": "Digitalización Aplicada al Sistema Productivo",
+        "teacher": "Victor Manuel Aparicio",
+        "teacher_mail": "victor.aparicio@digitechfp.com",
+        "units": {
+            "DAPS-1": {
+                "folder": 36765,
+                "folder_number": 2,
+                "name": "Unidad 1. Creación de entornos IT OT",
+                "link": "https://drive.google.com/file/d/1Gn_oxtDEqFh7Y5oaPfNR6Plkt7x6wUtu/view?usp=sharing"
+            },
+            "DAPS-2": {
+                "folder": 36779,
+                "folder_number": 3,
+                "name": "Unidad 2. Tecnologías Habilitadoras Digitales",
+                "link": ""
+            }
+        },
+        "resources": {},
+        "tasks": {
+            "32831": {
+                "type": "Obligatoria",
+                "start": "09-10-2025 09:30",
+                "end": "23-10-2025 11:30",
+                "name": "ACTIVIDAD TEMA 1. OBLIGATORIA. DIGITALIZACIÓN. ENTORNOS IT Y OT"
+            }
+        },
+        "tests": {},
+        "notes": {}
+    },
+    "CB": {
+        "id": 593,
+        "name": "Ciberseguridad",
+        "teacher": "Carlos Quintana",
+        "teacher_mail": "cquintana@digitechfp.com",
+        "units": {
+            "CB-1": {
+                "folder": 37772,
+                "folder_number": 1,
+                "name": "Unidad 1. Introducción a la ciberseguridad",
+                "link": "https://drive.google.com/file/d/1XS7cuMgCVG3aYCD-GHPfR4UTGfLd8-nL/view?usp=sharing"
+            }
+        },
+        "resources": {
+            "33031": {
+                "name": "APUNTES CORTAFUEGOS FÍSICOS",
+                "file": "ASA5505.docx",
+                "link": ""
+            },
+            "33049": {
+                "name": "Ejemplito de Cortafuegos Físicos",
+                "file": "CORTAFUEGOS.pkt",
+                "link": ""
+            }
+        },
+        "tasks": {
+        },
+        "tests": {},
+        "notes": {}
+    },
+    "IPE": {
+        "id": 600,
+        "name": "Itinerario Personal para la Empleabilidad II",
+        "teacher": "Victor Manuel Aparicio",
+        "teacher_mail": "victor.aparicio@digitechfp.com",
+        "units": {
+            "IPE-1": {
+                "folder": 37597,
+                "folder_number": 2,
+                "name": "La búsqueda de empleo",
+                "link": ""
+            }
+        },
+        "resources": {},
+        "tasks": {},
+        "tests": {},
+        "notes": {}
+    },
+    "ASGBD": {
+        "id": 26,
+        "name": "Administración de sistemas gestores de base de datos",
+        "teacher": "Rafael Chacón",
+        "teacher_mail": "rafa.chacon.almeda@digitechfp.com",
+        "units": {
+            "ASGBD-1": {
+                "folder": 16661,
+                "folder_number": 1,
+                "name": "Unidad 1 y 2. Instalación de un sistema gestor de bases de datos",
+                "link": "https://drive.google.com/file/d/1BiZfxIgfzv4A-dqeRcWsG8g_2y-p9H3d/view?usp=sharing"
+            }
+        },
+        "resources": {},
+        "tasks": {
+            "8735": {
+                "type": "Obligatoria",
+                "start": "07-10-2025 18:30",
+                "end": "22-10-2025 23:59",
+                "name": "Tarea 1 - Instalación de un sistema gestor de bases de datos OBLIGATORIA"
+            }
+        },
+        "tests": {},
+        "notes": {}
+    },
+    "IAW": {
+        "id": 25,
+        "name": "Implantación de aplicaciones web",
+        "teacher": "Sara Gonzalo Rojo",
+        "teacher_mail": "sgonzalo@digitechfp.com",
+        "units": {
+            "IAW-0": {
+                "folder": 15474,
+                "folder_number": 5,
+                "name": "Conceptos generales de la arquitectura aplicaciones web",
+                "link": "https://drive.google.com/file/d/1XTYFuBLCKcNKhglez_AXVgG1eSPP0jKY/view?usp=sharing"
+            },
+            "IAW-1": {
+                "folder": 0,
+                "folder_number": 0,
+                "name": "Unidad 1. Introducción a JavaScript. Parte I",
+                "link": "https://drive.google.com/file/d/1hHAxGlogU28-5afr-PcmMf09YHxlrMe0/view?usp=sharing"
+            }
+        },
+        "resources": {
+            "32881": {
+                "name": "Manual complementario HTML,CSS y JS",
+                "file": "El+gran+libro+de+HTML5+CSS3+y+Javascrip.pdf",
+                "link": ""
+            }
+        },
+        "tasks": {},
+        "tests": {},
+        "notes": {}
+    },
+    "TE": {
+        "id": 23,
+        "name": "Technical English",
+        "teacher": "Helena Muñoz",
+        "teacher_mail": "hmunoz@digitechfp.com",
+        "units": {
+            "TE-0": {
+                "folder": 16446,
+                "folder_number": 1,
+                "name": "Introduction",
+                "link": "https://drive.google.com/file/d/1ZHb25qE9ci_3kqhzj3nfQCTQRLT5phQd/view?usp=sharing"
+            }
+        },
+        "resources": {
+            "TE-1": {
+                "status": "downloaded",
+                "name": "Technical Vocabulary",
+                "file": "Technical Vocabulary.pdf",
+                "link": "https://drive.google.com/file/d/1xPmpN4DY26JrSxAPnnYukyfDAQpX6YZ8/view?usp=sharing"
+            }
+        },
+        "tasks": {
+            "14072": {
+                "type": "Obligatoria",
+                "start": "01-10-2025 00:00",
+                "end": "21-10-2025 23:59",
+                "name": "Introduction Task. MANDATORY"
+            }
+        },
+        "tests": {},
+        "notes": {}
+    },
+    "SRI": {
+        "id": 22,
+        "name": "Servicios de red e Internet",
+        "teacher": "Carlos Quintana",
+        "teacher_mail": "cquintana@digitechfp.com",
+        "units": {
+            "SRI-0": {
+                "folder": 16977,
+                "folder_number": 2,
+                "name": "Instalación y administración de servicios de nombres de dominio (Cisco)",
+                "link": ""
+            }
+        },
+        "tasks": {},
+        "resources": {},
+        "tests": {},
+        "notes": {}
+    },
+    "SAD": {
+        "id": 21,
+        "name": "Seguridad y alta disponibilidad",
+        "teacher": "Rafael Chacón",
+        "teacher_mail": "rafa.chacon.almeda@digitechfp.com",
+        "units": {
+            "SAD-1": {
+                "folder": 18346,
+                "folder_number": 1,
+                "name": "Adopción de pautas de seguridad informática",
+                "link": "https://drive.google.com/file/d/1JCJ3Z85kz039eKSSPY_mIVHEGeyf1qRg/view?usp=sharing"
+            },
+            "SAD-2": {
+                "folder": 18348,
+                "folder_number": 3,
+                "name": "Tipos de seguridad informática",
+                "link": ""
+            },
+            "SAD-3": {
+                "folder": 18347,
+                "folder_number": 2,
+                "name": "Elementos vulnerables de los sistemas informáticos",
+                "link": ""
+            }
+        },
+        "resources": {},
+        "tasks": {
+            "2406": {
+                "type": "Obligatoria",
+                "start": "15-10-2025 23:59",
+                "end": "15-10-2025 23:59",
+                "name": "Vencimiento de Tarea 1 - Adopción de pautas de seguridad informática OBLIGATORIA"
+            }
+        },
+        "tests": {},
+        "notes": {}
+    },
+    "ASO": {
+        "id": 20,
+        "name": "Administración de sistemas operativos",
+        "teacher": "Carlos Quintana",
+        "teacher_mail": "cquintana@digitechfp.com",
+        "units": {
+            "ASO-0": {
+                "folder": 18359,
+                "folder_number": 1,
+                "name": "Administración de servicio de directorio (Cisco)",
+                "link": ""
+            }
+        },
+        "resources": {},
+        "tasks": {},
+        "tests": {},
+        "notes": {}
+    }
+}

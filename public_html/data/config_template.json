@@ -1,0 +1,12 @@
+{
+    "units_status": ["Sin descargar","No empezado", "En progreso", "Completado", "Pendiente", "Repasado"],
+    "resources_status": ["Pendiente", "Repasar", "Reforzar", "Repasado"],
+    "tasks_status": ["Pendiente", "Hecha", "Entregada", "Calificada"],
+    "tests_status": ["Pendiente", "Repasar", "Reforzar", "Repasado"],
+    "notes_status": ["Pendiente", "Repasar", "Reforzar", "Repasado"],
+    "col1": ["pending_tasks", "units", "resources"],
+    "col2": ["tests", "notes"],
+    "col3": ["calendar", "done_tasks"]
+
+}
+
