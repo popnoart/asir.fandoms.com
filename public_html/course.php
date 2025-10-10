@@ -20,14 +20,12 @@
                             $modal_id = 'pendingTaskModal' . $task;
                     ?>
                             <li class="list-group-item ">
-                                <?php if (!empty($task_data['link'])) { ?>
-                                    <a href="<?= $task_data['link']; ?>" target="_blank"><?= htmlspecialchars($task_data['name']); ?></a>
-                                <?php } else { ?>
+                                <a href="https://campus.digitechfp.com/mod/assign/view.php?id=<?= htmlspecialchars($task_data['id']); ?>" target="_blank"">
                                     <?= htmlspecialchars($task_data['name']); ?>
-                                <?php } ?><br>
+                                </a><br>
                                 Fin: <?= htmlspecialchars($task_data['end']); ?>
                                 <span class="badge <?php if ($task_data['type'] == 'Obligatoria') { ?> bg-danger text-bg-danger<?php } else { ?> bg-warning text-bg-warning<?php } ?> ms-2"><?= htmlspecialchars($task_data['type']); ?></span>
-                                <span class="badge bg-secondary" style="cursor:pointer;" data-bs-toggle="modal" data-bs-target="#statusModal<?= $modal_id; ?>">
+                                <span class="badge bg-secondary" style="cursor:pointer;" data-bs-toggle="modal" data-bs-target="#<?= $modal_id; ?>">
                                     <?php if (!empty($task_data['status'])) {
                                         echo htmlspecialchars($task_data['status']);
                                     } else {
@@ -46,7 +44,7 @@
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
                                             </div>
                                             <div class="modal-body">
-                                                <input type="hidden" name="change_status_uid" value="<?= htmlspecialchars($task); ?>">
+                                                <input type="hidden" name="change_status_id" value="<?= htmlspecialchars($task_data['id']); ?>">
                                                 <input type="hidden" name="change_status_type" value="tasks">
                                                 <?php $status_options = $myconfig['tasks_status']; ?>
                                                 <div class="mb-3">
@@ -108,7 +106,7 @@
                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
                                         </div>
                                         <div class="modal-body">
-                                            <input type="hidden" name="change_status_uid" value="<?= htmlspecialchars(isset($unit_data['id']) ? $unit_data['id'] : $unit); ?>">
+                                            <input type="hidden" name="change_status_id" value="<?= htmlspecialchars(isset($unit_data['id']) ? $unit_data['id'] : $unit); ?>">
                                             <input type="hidden" name="change_status_type" value="units">
                                             <?php $status_options = $myconfig['units_status']; ?>
                                             <div class="mb-3">
@@ -223,7 +221,7 @@
                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
                                         </div>
                                         <div class="modal-body">
-                                            <input type="hidden" name="change_status_uid" value="<?= htmlspecialchars(isset($note_data['id']) ? $note_data['id'] : $note); ?>">
+                                            <input type="hidden" name="change_status_id" value="<?= htmlspecialchars(isset($note_data['id']) ? $note_data['id'] : $note); ?>">
                                             <input type="hidden" name="change_status_type" value="notes">
                                             <?php $status_options = $myconfig['notes_status']; ?>
                                             <div class="mb-3">
@@ -344,7 +342,9 @@
                             $modal_id = 'doneTaskModal' . $task;
                     ?>
                             <li class="list-group-item ">
-                                <strong><?= htmlspecialchars($task_data['name']); ?></strong><br>
+                                <a href="https://campus.digitechfp.com/mod/assign/view.php?id=<?= htmlspecialchars($task_data['id']); ?>" target="_blank"">
+                                    <?= htmlspecialchars($task_data['name']); ?>
+                                </a><br>
                                 Fin: <?= htmlspecialchars($task_data['end']); ?>
                                 <span class="badge bg-success text-bg-success ms-2" style="cursor:pointer;" data-bs-toggle="modal" data-bs-target="#<?= $modal_id; ?>">
                                     <?php if (!empty($task_data['status'])) {
@@ -365,7 +365,7 @@
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
                                             </div>
                                             <div class="modal-body">
-                                                <input type="hidden" name="change_status_uid" value="<?= htmlspecialchars($task); ?>">
+                                                <input type="hidden" name="change_status_id" value="<?= htmlspecialchars($task_data['id']); ?>">
                                                 <input type="hidden" name="change_status_type" value="tasks">
                                                 <?php $status_options = $myconfig['tasks_status']; ?>
                                                 <div class="mb-3">

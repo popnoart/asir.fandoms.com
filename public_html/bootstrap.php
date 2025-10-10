@@ -109,11 +109,11 @@ if (!empty($_GET['course'])) {
 if (!empty($course)) {
     $pending_tasks_course = [];
     $done_tasks_course = [];
-    foreach ($course_data['tasks'] as $task) {
-        if (isset($task['status']) && $task['status'] === 'Pendiente') {
-            $pending_tasks_course[] = $task + ['course' => $course];
+    foreach ($course_data['tasks'] as $task => $task_data) {
+        if (isset($task_data['status']) && $task_data['status'] === 'Pendiente') {
+            $pending_tasks_course[] = $task_data + ['course' => $course,'id' => $task];
         } else {
-            $done_tasks_course[] = $task + ['course' => $course];
+            $done_tasks_course[] = $task_data + ['course' => $course,'id' => $task];
         }
     }
     usort($pending_tasks_course, 'sort_tasks_by_end');
@@ -124,11 +124,11 @@ else{
     $pending_tasks = [];
     foreach ($all_courses as $course_key => $course_data) {
         if (!empty($course_data['tasks']) && is_array($course_data['tasks'])) {
-            foreach ($course_data['tasks'] as $task) {
-                if (isset($task['status']) && $task['status'] === 'Pendiente') {
-                    $pending_tasks[] = $task + ['course' => $course_key];
+            foreach ($course_data['tasks'] as $task => $task_data) {
+                if (isset($task_data['status']) && $task_data['status'] === 'Pendiente') {
+                    $pending_tasks[] = $task_data + ['course' => $course_key,'id' => $task];
                 } else {
-                    $done_tasks_course[] = $task + ['course' => $course_key];
+                    $done_tasks_course[] = $task_data + ['course' => $course_key,'id' => $task];
                 }
             }
         }
@@ -137,8 +137,8 @@ else{
 }
 
 // Procesar cambio de estado de tarea
-if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['change_status_uid'], $_POST['new_status'])) {
-    $uid = $_POST['change_status_uid'];
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['change_status_id'], $_POST['new_status'])) {
+    $uid = $_POST['change_status_id'];
     $type = $_POST['change_status_type'];
     $new_status = $_POST['new_status'];
     $all_states[$type][$uid] = $new_status;

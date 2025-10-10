@@ -10,41 +10,39 @@ include $_SERVER['DOCUMENT_ROOT'] . '/assets/templates/header.php';
                 <h5 class="card-title">Tareas pendientes</h5>
                 <ul class="list-group  list-group-flush">
                     <?php if (!empty($pending_tasks)) {
-                        foreach ($pending_tasks as $i => $task) {
-                            $modal_id = 'taskModal' . $i;
+                        foreach ($pending_tasks as $task=> $task_data) {
                     ?>
                             <li class="list-group-item ">
-                                <?php if (!empty($task['course'])): ?>
-                                    <a href="/course.php?course=<?= htmlspecialchars($task['course']); ?>"><span class="badge bg-info text-bg-info ms-2"><?= htmlspecialchars($task['course']); ?></span></a>
+                                <?php if (!empty($task_data['course'])): ?>
+                                    <a href="/course.php?course=<?= htmlspecialchars($task_data['course']); ?>"><span class="badge bg-info text-bg-info ms-2"><?= htmlspecialchars($task_data['course']); ?></span></a>
                                 <?php endif; ?>
-                                <a href="#<?= $modal_id; ?>" data-bs-toggle="modal" style="cursor:pointer;text-decoration:underline;">
-                                    <?= htmlspecialchars($task['name']); ?>
+                                <a href="https://campus.digitechfp.com/mod/assign/view.php?id=<?= htmlspecialchars($task_data['id']); ?>" target="_blank"">
+                                    <?= htmlspecialchars($task_data['name']); ?>
                                 </a><br>
-                                Fin: <?= htmlspecialchars($task['end']); ?>
-                                <span class="badge <?php if($task['type'] == 'Obligatoria'){ ?> bg-danger text-bg-danger<?php }else{ ?> bg-warning text-bg-warning<?php } ?> ms-2"><?= htmlspecialchars($task['type']); ?></span>
-                                <span class="badge text-bg-secondary ms-2" style="cursor:pointer;" data-bs-toggle="modal" data-bs-target="#statusModal<?= $i; ?>"><?= htmlspecialchars($task['status']); ?></span>
+                                Fin: <?= htmlspecialchars($task_data['end']); ?>
+                                <span class="badge <?php if($task_data['type'] == 'Obligatoria'){ ?> bg-danger text-bg-danger<?php }else{ ?> bg-warning text-bg-warning<?php } ?> ms-2"><?= htmlspecialchars($task_data['type']); ?></span>
+                                <span class="badge text-bg-secondary ms-2" style="cursor:pointer;" data-bs-toggle="modal" data-bs-target="#statusModal<?= $task; ?>"><?= htmlspecialchars($task_data['status']); ?></span>
                             </li>
-
                             <!-- Modal cambio de estado -->
-                            <div class="modal fade" id="statusModal<?= $i; ?>" tabindex="-1" aria-labelledby="statusModal<?= $i; ?>Label" aria-hidden="true">
+                            <div class="modal fade" id="statusModal<?= $task; ?>" tabindex="-1" aria-labelledby="statusModal<?= $task; ?>Label" aria-hidden="true">
                                 <div class="modal-dialog">
                                     <div class="modal-content">
                                         <form method="post" action="">
                                             <div class="modal-header">
-                                                <h5 class="modal-title" id="statusModal<?= $i; ?>Label">Cambiar estado de la tarea</h5>
+                                                <h5 class="modal-title" id="statusModal<?= $task; ?>Label">Cambiar estado de la tarea</h5>
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
                                             </div>
                                             <div class="modal-body">
                                                 <input type="hidden" name="change_status_type" value="tasks">
-                                                <input type="hidden" name="change_status_uid" value="<?= htmlspecialchars($task['uid']); ?>">
+                                                <input type="hidden" name="change_status_id" value="<?= htmlspecialchars($task_data['id']); ?>">
                                                 <?php
                                                 $status_options = $myconfig['tasks_status'];
                                                 ?>
                                                 <div class="mb-3">
-                                                    <label for="new_status_<?= $i; ?>" class="form-label">Selecciona nuevo estado:</label>
-                                                    <select class="form-select" id="new_status_<?= $i; ?>" name="new_status">
+                                                    <label for="new_status_<?= $task; ?>" class="form-label">Selecciona nuevo estado:</label>
+                                                    <select class="form-select" id="new_status_<?= $task; ?>" name="new_status">
                                                         <?php foreach ($status_options as $opt): ?>
-                                                            <option value="<?= htmlspecialchars($opt); ?>" <?= $opt == $task['status'] ? ' selected' : '' ?>><?= htmlspecialchars($opt); ?></option>
+                                                            <option value="<?= htmlspecialchars($opt); ?>" <?= $opt == $task_data['status'] ? ' selected' : '' ?>><?= htmlspecialchars($opt); ?></option>
                                                         <?php endforeach; ?>
                                                     </select>
                                                 </div>

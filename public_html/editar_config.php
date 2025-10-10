@@ -60,8 +60,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                                 <input type="text" class="form-control" id="<?= $key ?>" name="<?= $key ?>" value="<?= htmlspecialchars(implode(',', $value)) ?>">
                             </div>
                         <?php endforeach; ?>
-                        <div class="form-text">Separa por coma.</div>
-                        <div class="form-text">Para las columnas (Colx) tienes disponible; pending_tasks, units, resources, tests, notes, calendar, done_tasks</div>
+                        <div class="form-text">Separa por coma.<br>No elimines el estado de Pendiente de de tareas o no te aparecerá nada en la caja de Tareas pendientes<br>Para las columnas (Colx) tienes disponible; pending_tasks, units, resources, tests, notes, calendar, done_tasks</div>
                     <?php if (!empty($msg)): ?>
                         <div class="alert alert-success"> <?= htmlspecialchars($msg) ?> </div>
                     <?php endif; ?>
