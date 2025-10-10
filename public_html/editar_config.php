@@ -34,6 +34,16 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         }
     }
     file_put_contents($configPath, json_encode($config, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
+    
+    // Incrementar versión de caché para forzar recarga
+    $version_file = ROOT . '/public_html/data/cache_version.txt';
+    $version = 1;
+    if (file_exists($version_file)) {
+        $version = (int)file_get_contents($version_file);
+    }
+    $version++;
+    file_put_contents($version_file, $version);
+    
     $msg = '¡Configuración actualizada!';
 }
 ?>
