@@ -30,6 +30,29 @@ $all_states = json_decode(file_get_contents($states_path), true);
 
 
 //////////FUNCTIONS\\\\\\\\\\
+// Incrementar versión de caché para forzar recarga de JSON
+function increment_cache_version()
+{
+    $version_file = $_SERVER['DOCUMENT_ROOT'] . '/data/cache_version.txt';
+    $version = 1;
+    if (file_exists($version_file)) {
+        $version = (int)file_get_contents($version_file);
+    }
+    $version++;
+    file_put_contents($version_file, $version);
+    return $version;
+}
+
+// Obtener versión de caché actual
+function get_cache_version()
+{
+    $version_file = $_SERVER['DOCUMENT_ROOT'] . '/data/cache_version.txt';
+    if (file_exists($version_file)) {
+        return (int)file_get_contents($version_file);
+    }
+    return 1;
+}
+
 // Formatea fecha ICS a dd-mm-yyyy H:m en horario de Madrid
 function format_ics_date_madrid($ics_date)
 {
@@ -143,6 +166,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['change_status_id'], $
     $new_status = $_POST['new_status'];
     $all_states[$type][$uid] = $new_status;
     file_put_contents($states_path, json_encode($all_states, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
+    increment_cache_version();
     header('Location: ' . $_SERVER['REQUEST_URI']);
     exit;
 }

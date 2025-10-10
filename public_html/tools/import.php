@@ -135,6 +135,16 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['add_missing'])) {
 			$calendarics_events[] = $ev;
 		}
 		file_put_contents($calendar_json_path, json_encode($calendarics_events, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
+		
+		// Incrementar versión de caché para forzar recarga
+		$version_file = $_SERVER['DOCUMENT_ROOT'] . '/data/cache_version.txt';
+		$version = 1;
+		if (file_exists($version_file)) {
+			$version = (int)file_get_contents($version_file);
+		}
+		$version++;
+		file_put_contents($version_file, $version);
+		
 		$add_result = count($missing) . ' evento(s) añadidos a calendar.json.';
 		header('Location: ' . $_SERVER['REQUEST_URI']);
 		exit;

@@ -73,6 +73,16 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['add_new_tasks'])) {
 	if ($added > 0) {
 		file_put_contents($data_path, json_encode($data, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
 		file_put_contents($status_path, json_encode($tasks_status, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
+		
+		// Incrementar versión de caché para forzar recarga
+		$version_file = $_SERVER['DOCUMENT_ROOT'] . '/data/cache_version.txt';
+		$version = 1;
+		if (file_exists($version_file)) {
+			$version = (int)file_get_contents($version_file);
+		}
+		$version++;
+		file_put_contents($version_file, $version);
+		
 		$add_result = "$added tarea(s) añadidas a tasks.json.";
 	} else {
 		$add_result = "No hay tareas nuevas que añadir.";

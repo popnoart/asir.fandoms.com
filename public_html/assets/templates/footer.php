@@ -96,10 +96,18 @@
                         estadosMsg.innerHTML = alert.innerHTML;
                         estadosMsg.className = 'alert mt-2 ' + alert.className.replace('alert ', '');
                         estadosMsg.classList.remove('d-none');
+                        // Recargar la página después de 1 segundo para actualizar la configuración
+                        setTimeout(function() {
+                            window.location.reload();
+                        }, 1000);
                     } else {
                         estadosMsg.innerHTML = 'Guardado.';
                         estadosMsg.className = 'alert alert-success mt-2';
                         estadosMsg.classList.remove('d-none');
+                        // Recargar la página después de 1 segundo para actualizar la configuración
+                        setTimeout(function() {
+                            window.location.reload();
+                        }, 1000);
                     }
                 });
         });
