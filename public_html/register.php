@@ -13,30 +13,51 @@ $invites = file_exists($invitesFile) ? json_decode(file_get_contents($invitesFil
 if (!isset($invites[$token]) || !is_array($invites[$token]) || !empty($invites[$token]['used'])) {
     die('Invitación no válida o ya usada.');
 }
-$username = $invites[$token]['username'];
 
-if ($_SERVER['REQUEST_METHOD'] === 'POST' && !empty($_POST['password'])) {
+// Valor inicial sugerido por la invitación
+$suggestedUsername = $invites[$token]['username'];
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && !empty($_POST['password']) && !empty($_POST['username'])) {
+    $username = trim($_POST['username']);
     $password = $_POST['password'];
-    $hash = password_hash($password, PASSWORD_DEFAULT);
-    // Añadir usuario a auth.json
-    $auth = file_exists($authFile) ? json_decode(file_get_contents($authFile), true) : [];
-    // Evitar duplicados
-    foreach ($auth as $user) {
-        if ($user['username'] === $username) {
-            $error = 'El usuario ya existe.';
-            break;
+    // Validar patrón: solo a-z, 0-9, guion y punto
+    if (!preg_match('/^[a-z0-9.-]+$/', $username)) {
+        $error = 'El nombre de usuario solo puede contener letras minúsculas (a-z), números, guiones y puntos.';
+    } else {
+        $hash = password_hash($password, PASSWORD_DEFAULT);
+        // Añadir usuario a auth.json
+        $auth = file_exists($authFile) ? json_decode(file_get_contents($authFile), true) : [];
+        // Evitar duplicados
+        foreach ($auth as $user) {
+            if ($user['username'] === $username) {
+                $error = 'El usuario ya existe.';
+                break;
+            }
         }
-    }
-    if (empty($error)) {
-        $auth[] = [
-            'username' => $username,
-            'password_hash' => $hash
-        ];
-        file_put_contents($authFile, json_encode($auth, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
-        // Marcar invitación como usada
-        $invites[$token]['used'] = true;
-        file_put_contents($invitesFile, json_encode($invites, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
-        $success = true;
+        if (empty($error)) {
+            $auth[] = [
+                'username' => $username,
+                'password_hash' => $hash
+            ];
+            file_put_contents($authFile, json_encode($auth, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
+            // Marcar invitación como usada
+            $invites[$token]['used'] = true;
+            file_put_contents($invitesFile, json_encode($invites, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
+            //Crear archivos personales   
+            $personal_path=__DIR__ . '/../storage/data/accounts/'.$_SESSION['account'].'/';  
+            $myconfig_path = $personal_path.'/config.json';
+            $states_path = $personal_path.'/states.json';
+            $template = $_SERVER['DOCUMENT_ROOT'] . '/data/config_template.json';
+            if (file_exists($template)) {
+                copy($template, $myconfig_path);
+            } else {
+                // Si el template no existe, crea un config vacío
+                file_put_contents($myconfig_path, json_encode([]));
+            }
+            file_put_contents($states_path, json_encode([]));
+            
+            $success = true;
+        }
     }
 }
 ?>
@@ -62,15 +83,15 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && !empty($_POST['password'])) {
                         <?php endif; ?>
                         <form method="post">
                             <div class="mb-3">
-                                <label class="form-label">Usuario</label>
-                                <input type="text" class="form-control" value="<?= htmlspecialchars($username) ?>" disabled>
+                                <label for="username" class="form-label">Usuario</label>
+                                <input type="text" class="form-control" id="username" name="username" value="<?= isset($_POST['username']) ? htmlspecialchars($_POST['username']) : htmlspecialchars($suggestedUsername) ?>" required>
                             </div>
                             <div class="mb-3">
                                 <label for="password" class="form-label">Elige tu contraseña</label>
                                 <input type="password" class="form-control" id="password" name="password" required>
                             </div>
                             <div class="d-grid">
-                                <button type="submit" class="btn btn-primary">Registrar</button>
+                                <button type="submit" class="btn btn-info">Registrar</button>
                             </div>
                         </form>
                     <?php endif; ?>

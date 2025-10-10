@@ -51,7 +51,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                                 <div class="alert alert-danger py-2"><?= htmlspecialchars($error); ?></div>
                             <?php endif; ?>
                             <div class="d-grid">
-                                <button type="submit" name="Login"class="btn btn-primary">Entrar</button>
+                                <button type="submit" name="Login"class="btn btn-info">Entrar</button>
                             </div>
                         </form>
                     </div>

@@ -5,6 +5,7 @@ storage/temp/
 storage/cache/
 storage/files/
 storage/data/auth.json
+storage/data/invites.json
 storage/data/accounts/*
 !storage/data/accounts/.gitkeep
 public_html/tools/

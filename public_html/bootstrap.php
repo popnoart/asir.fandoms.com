@@ -22,21 +22,9 @@ $calendar_path = $_SERVER['DOCUMENT_ROOT'] . '/data/calendar.json';
 $calendar_events = json_decode(file_get_contents($calendar_path), true);
 // Personales
 $myconfig_path = $personal_path.'/config.json';
-if (!file_exists($myconfig_path)) {
-    $template = $_SERVER['DOCUMENT_ROOT'] . '/data/config_template.json';
-    if (file_exists($template)) {
-        copy($template, $myconfig_path);
-    } else {
-        // Si el template no existe, crea un config vacío
-        file_put_contents($myconfig_path, json_encode([]));
-    }
-}
 $myconfig = json_decode(file_get_contents($myconfig_path), true);
 
 $states_path = $personal_path.'/states.json';
-if (!file_exists($states_path)) {
-    file_put_contents($states_path, json_encode([]));
-}
 $all_states = json_decode(file_get_contents($states_path), true);
 
 
