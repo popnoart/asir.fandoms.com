@@ -142,7 +142,44 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['add_missing'])) {
 		$add_result = 'No hay eventos nuevos que añadir.';
 	}
 }
+// Eliminar evento individual de calendar.json
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['delete_uid'])) {
+	$uid_to_delete = $_POST['delete_uid'];
+	$calendar_json_path = $_SERVER['DOCUMENT_ROOT'] . '/data/calendar.json';
+	$calendarics_events = load_calendar_json($calendar_json_path);
+	$calendarics_events = array_values(array_filter($calendarics_events, function($ev) use ($uid_to_delete) {
+		return !isset($ev['UID']) || $ev['UID'] !== $uid_to_delete;
+	}));
+	file_put_contents($calendar_json_path, json_encode($calendarics_events, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
+	$add_result = 'Evento eliminado de calendar.json.';
+	header('Location: ' . $_SERVER['REQUEST_URI']);
+	exit;
+}
 
+// Actualizar evento individual si modificado en icalexport.ics
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['update_uid'])) {
+	$uid_to_update = $_POST['update_uid'];
+	$calendar_json_path = $_SERVER['DOCUMENT_ROOT'] . '/data/calendar.json';
+	$calendarics_events = load_calendar_json($calendar_json_path);
+	$icalexport_event = $icalexport_by_uid[$uid_to_update] ?? null;
+	if ($icalexport_event) {
+		// Mantener COURSE si existe en calendar.json
+		foreach ($calendarics_events as &$ev) {
+			if (isset($ev['UID']) && $ev['UID'] === $uid_to_update) {
+				if (isset($ev['COURSE'])) {
+					$icalexport_event['COURSE'] = $ev['COURSE'];
+				}
+				$ev = $icalexport_event;
+				break;
+			}
+		}
+		unset($ev);
+		file_put_contents($calendar_json_path, json_encode($calendarics_events, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
+		$add_result = 'Evento actualizado desde icalexport.ics.';
+		header('Location: ' . $_SERVER['REQUEST_URI']);
+		exit;
+	}
+}
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -236,9 +273,19 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['add_missing'])) {
 					   Fecha fin: <?php echo isset($alt_ev['DTEND']) ? format_ics_date_madrid($alt_ev['DTEND']) : ''; ?><br>
 					   <?php if ($modificado): ?>
 						   <span class="badge bg-warning text-dark">Modificado (LAST-MODIFIED distinto)</span>
-					   <?php elseif ($ev && !isset($icalexport_by_uid[$uid])): ?>
+						   <form method="post" style="display:inline">
+							   <input type="hidden" name="update_uid" value="<?php echo htmlspecialchars($uid); ?>">
+							   <button type="submit" class="btn btn-sm btn-warning ms-2">Actualizar</button>
+						   </form>
+					   <?php endif; ?>
+					   <?php if ($ev && !isset($icalexport_by_uid[$uid])): ?>
 						   <span class="badge bg-success">Solo en calendar.json</span>
-					   <?php elseif (!$ev && isset($icalexport_by_uid[$uid])): ?>
+						   <form method="post" style="display:inline">
+							   <input type="hidden" name="delete_uid" value="<?php echo htmlspecialchars($uid); ?>">
+							   <button type="submit" class="btn btn-sm btn-danger ms-2">Eliminar</button>
+						   </form>
+					   <?php endif; ?>
+					   <?php if (!$ev && isset($icalexport_by_uid[$uid])): ?>
 						   <span class="badge bg-danger">Solo en icalexport.ics</span>
 					   <?php endif; ?>
 				   </div>

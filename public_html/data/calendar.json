@@ -126,10 +126,10 @@
         "SUMMARY": "Vencimiento de Tarea 1 - Adopción de pautas de seguridad informática OBLIGATORIA",
         "DESCRIPTION": "OBJETIVO: APLICAR UN SISTEMA PARA GARANTIZAR LA CONFIDENCIALIDAD.\\n\\nDURACIÓN: ESTA TAREA ES VOLUNTARIA\\, PUEDES DEDICARLE EL TIEMPO QUE ESTIMES CONVENIENTE.\\n\\n1) Investiga que es EFS y cómo se activa en una MV de Windows de sobremesa.\\n\\n2) Utilizaremos EFS (Encrypted File System) en una MV con Windows para cifrar archivos.\\n\\nCrea al menos dos usuarios que no sean administradores.\\n\\nPara probarlo\\, desde un usuario estándar\\, crear un archivo con texto plano en una carpeta que cuelgue de la raíz del sistema y habilitar el cifrado con su correspondiente contraseña de dicho archivo.  Desde otro usuario del sistema\\, intentar copiar o modificar el archivo.\\n\\n3) Otra prueba es arrancar el Windows con un bootable con una distribución Live\\, montar la partición e intentar copiar o abrir el archivo.\\n\\nNOTA: EL CIFRADO ES INCOMPATIBLE CON LA COMPRESIÓN.\\n\\nEntrega este trabajo e un archivo de texto con el nombre TAREA1_AAN.PDF donde AAN son tus iniciales. \\n\\nPor ejemplo: en mi caso que me llamo Rafa Chacón Almeda\\, el archivo debería ser tarea1_car.pdf\\n\\n",
         "CLASS": "PUBLIC",
-        "LAST-MODIFIED": "20251003T091728Z",
-        "DTSTAMP": "20251008T103809Z",
-        "DTSTART": "20251015T215900Z",
-        "DTEND": "20251015T215900Z",
+        "LAST-MODIFIED": "20251010T071241Z",
+        "DTSTAMP": "20251010T160340Z",
+        "DTSTART": "20251022T215900Z",
+        "DTEND": "20251022T215900Z",
         "CATEGORIES": "ASIR - Seguridad y alta disponibilidad. MICROSOFT SEGURIDAD FISICA Y LÓGICA CIBERSEGURIDAD - OnLine",
         "COURSE": "SAD"
     },
@@ -168,18 +168,6 @@
         "DTEND": "20251020T153000Z",
         "CATEGORIES": "ASIR - CIberseguridad - OnLine",
         "COURSE": "CB"
-    },
-    {
-        "UID": "21586@campus.digitechfp.com",
-        "SUMMARY": "Clase 2. Administración Sistemas Gestores BD a las 17:30",
-        "DESCRIPTION": "",
-        "CLASS": "PUBLIC",
-        "LAST-MODIFIED": "20250928T173344Z",
-        "DTSTAMP": "20251008T103809Z",
-        "DTSTART": "20251021T153000Z",
-        "DTEND": "20251021T153000Z",
-        "CATEGORIES": "ASIR - Administración de sistemas gestores de base de datos. PL\/SQL AVANZADO - OnLine",
-        "COURSE": "ASGBD"
     },
     {
         "UID": "21454@campus.digitechfp.com",
@@ -223,8 +211,8 @@
         "SUMMARY": "Vencimiento de Tarea 1 - Instalación de un sistema gestor de bases de datos OBLIGATORIA",
         "DESCRIPTION": "OBJETIVOS: Implantar sistemas gestores de bases de datos analizando sus características y ajustándose a los requerimientos del sistema.\\n\\nLocaliza los requisitos básicos para la instalación de los siguientes SGBD:\\n\\n\t* Para MYSQL o MariaDB\\n\t* Para Oracle \\n\\n",
         "CLASS": "PUBLIC",
-        "LAST-MODIFIED": "20251007T142258Z",
-        "DTSTAMP": "20251008T103809Z",
+        "LAST-MODIFIED": "20251010T070426Z",
+        "DTSTAMP": "20251010T160340Z",
         "DTSTART": "20251022T215900Z",
         "DTEND": "20251022T215900Z",
         "CATEGORIES": "ASIR - Administración de sistemas gestores de base de datos. PL\/SQL AVANZADO - OnLine",
@@ -993,5 +981,41 @@
         "DTEND": "20260614T153000Z",
         "CATEGORIES": "ASIR - Itinerario Personal para la Empleabilidad II - OnLine",
         "COURSE": "IPE"
+    },
+    {
+        "UID": "22454@campus.digitechfp.com",
+        "SUMMARY": "Clase 2. Administración Sistemas Gestores BD a las 17:30",
+        "DESCRIPTION": "",
+        "CLASS": "PUBLIC",
+        "LAST-MODIFIED": "20251008T112150Z",
+        "DTSTAMP": "20251010T160340Z",
+        "DTSTART": "20251022T153000Z",
+        "DTEND": "20251022T153000Z",
+        "CATEGORIES": "ASIR - Administración de sistemas gestores de base de datos. PL\/SQL AVANZADO - OnLine",
+        "COURSE": "ASGBD"
+    },
+    {
+        "UID": "22228@campus.digitechfp.com",
+        "SUMMARY": "Vencimiento de ACTIVIDAD TEMA 1. OBLIGATORIA. DIGITALIZACIÓN. ENTORNOS IT Y OT",
+        "DESCRIPTION": "Tenéis que contestar las cuestiones del boletín en un documentoword\\, docs y pasármelo de nuevo en PDF. Un saludo de mi parte \\n",
+        "CLASS": "PUBLIC",
+        "LAST-MODIFIED": "20251009T065237Z",
+        "DTSTAMP": "20251010T160340Z",
+        "DTSTART": "20251023T073000Z",
+        "DTEND": "20251023T073000Z",
+        "CATEGORIES": "ASIR - Digitalización Aplicada al Sistema Productivo - OnLine",
+        "COURSE": "DAPS"
+    },
+    {
+        "UID": "22537@campus.digitechfp.com",
+        "SUMMARY": "Vencimiento de Ejercicio IPV4-IPV6con teléfonos y tunnel. OBLIGATORIA",
+        "DESCRIPTION": "-Configurar el segundo router de la topología siguiendo la instrucciones de las etiquetas del propio ejercicio.\\n-Todos los teléfonos y PCdeben tener conectividad\\n-Comprobar que los PC de ambos router tienen conectividad tanto con IPV4 como con IPV6\\n\\n",
+        "CLASS": "PUBLIC",
+        "LAST-MODIFIED": "20251010T084521Z",
+        "DTSTAMP": "20251010T160340Z",
+        "DTSTART": "20251027T230000Z",
+        "DTEND": "20251027T230000Z",
+        "CATEGORIES": "ASIR - Servicios de red e Internet. CCNA - OnLine",
+        "COURSE": "SRI"
     }
 ]
