@@ -14,7 +14,7 @@ $authFile = ROOT.'/storage/data/auth.json';
 
 $invites = file_exists($invitesFile) ? json_decode(file_get_contents($invitesFile), true) : [];
 if (!isset($invites[$token]) || !is_array($invites[$token]) || !empty($invites[$token]['used'])) {
-    die('Invitación no válida o ya usada.');
+    die('Invitación no válida o ya usada. Prueba a <a href="/login.php">identificarte</a> y si no funciona pide otra a Paula.');
 }
 
 // Valor inicial sugerido por la invitación

@@ -36,7 +36,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <body class="bg-light d-flex align-items-center" style="min-height: 100vh;">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-12 col-sm-8 col-md-5">
+            <div class="col-12 col-md-5">
                 <div class="card shadow-sm mt-5">
                     <div class="card-body">
                         <h2 class="card-title text-center mb-4">Iniciar sesión</h2>
