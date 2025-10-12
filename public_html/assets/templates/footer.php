@@ -55,7 +55,6 @@
 <script>
     document.addEventListener('DOMContentLoaded', function() {
         var estadosModal = document.getElementById('estadosModal');
-        var estadosForm = document.getElementById('estadosForm');
         var estadosFormFields = document.getElementById('estadosFormFields');
         var estadosMsg = document.getElementById('estadosMsg');
 
@@ -74,32 +73,6 @@
                         estadosFormFields.innerHTML = form.innerHTML;
                     } else {
                         estadosFormFields.innerHTML = '<div class="alert alert-danger">No se pudo cargar el formulario.</div>';
-                    }
-                });
-        });
-
-        estadosForm.addEventListener('submit', function(e) {
-            e.preventDefault();
-            estadosMsg.classList.add('d-none');
-            var formData = new FormData(estadosForm);
-            fetch('/editar_config.php', {
-                    method: 'POST',
-                    body: formData
-                })
-                .then(r => r.text())
-                .then(html => {
-                    // Buscar mensaje de éxito
-                    var temp = document.createElement('div');
-                    temp.innerHTML = html;
-                    var alert = temp.querySelector('.alert-success, .alert-danger');
-                    if (alert) {
-                        estadosMsg.innerHTML = alert.innerHTML;
-                        estadosMsg.className = 'alert mt-2 ' + alert.className.replace('alert ', '');
-                        estadosMsg.classList.remove('d-none');
-                    } else {
-                        estadosMsg.innerHTML = 'Guardado.';
-                        estadosMsg.className = 'alert alert-success mt-2';
-                        estadosMsg.classList.remove('d-none');
                     }
                 });
         });

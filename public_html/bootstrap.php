@@ -146,3 +146,30 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['change_status_id'], $
     header('Location: ' . $_SERVER['REQUEST_URI']);
     exit;
 }
+
+
+//////////MYCONFIG\\\\\\\\\\
+$myconfig_empty = [
+    'units_status' => [],
+    'resources_status' => [],
+    'tasks_status' => [],
+    'tests_status' => [],
+    'notes_status' => [],
+    'col1' => [],
+    'col2' => [],
+    'col3' => []
+];
+
+if (is_array($myconfig)) {
+    $myconfig_new = array_merge($myconfig_empty, $myconfig);
+}
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['UpdateMyConfig'])) {
+    foreach ($myconfig_new as $key => $value) {
+        if (isset($_POST[$key])) {
+            $myconfig_new[$key] = array_map('trim', explode(',', $_POST[$key]));
+        }
+    }
+    file_put_contents($myconfig_path, json_encode($myconfig_new, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
+    $myconfig = $myconfig_new;
+}

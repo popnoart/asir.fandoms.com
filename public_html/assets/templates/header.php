@@ -68,12 +68,12 @@
                             <a class="btn btn-outline-dark me-2" href="https://outlook.office.com/mail/" target="_blank">
                                 <i class="fas fa-envelope"></i> Outlook
                             </a>
-                            <button type="button" class="btn btn-outline-dark me-2" data-bs-toggle="modal" data-bs-target="#estadosModal">
+                            <a class="btn btn-outline-dark me-2" href="/account_config_update.php" target="_blank">
                                 <i class="fas fa-sliders-h"></i> Conf.
-                            </button>
-                                                        <a class="btn btn-outline-dark me-2" href="#" data-bs-toggle="modal" data-bs-target="#calendarSyncModal">
-                                                                <i class="fas fa-calendar-alt"></i> Sinc.
-                                                        </a>
+                            </a>
+                            <a class="btn btn-outline-dark me-2" href="#" data-bs-toggle="modal" data-bs-target="#calendarSyncModal">
+                                <i class="fas fa-calendar-alt"></i> Sinc.
+                            </a>
                             <?php if ($_SESSION['account']=='popnoart') {?>
                             <a class="btn btn-outline-light me-2" href="/tools/ocr.php" target="_blank">
                                 <i class="fas fa-file-pdf"></i>
