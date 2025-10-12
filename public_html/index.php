@@ -137,7 +137,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/assets/templates/header.php';
                             echo '<div class="flex-grow-1">';
                             echo '<div class="agenda-title fw-semibold" style="font-size:1.1em;">' . $summary . '</div>';
                             if ($course) {
-                                echo '<span class="badge bg-info ms-1">' . $course . '</span>';
+                                echo '<a href="/course.php?course=' . htmlspecialchars($course) . '"><span class="badge bg-info ms-2">' . htmlspecialchars($course) . '</span></a>';
                             }
                             echo '</div>';
                             echo '</div>';
