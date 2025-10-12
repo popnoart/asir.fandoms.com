@@ -1,21 +1,91 @@
 {
-    "SAPS": {
-        "id": 600,
-        "name": "Sostenibilidad Aplicada al Sistema Productivo",
-        "teacher": "Ane de la Calle",
-        "teacher_mail": "ane.delacalle@digitechfp.com",
+    "ASGBD": {
+        "id": 26,
+        "name": "Administración de sistemas gestores de base de datos",
+        "teacher": "Rafael Chacón",
+        "teacher_mail": "rafa.chacon.almeda@digitechfp.com",
         "units": {
-            "SAPS-1": {
-                "folder": 36764,
+            "ASGBD-1": {
+                "folder": 16661,
                 "folder_number": 1,
-                "name": "Unidad 1. Sostenibilidad en entorno actual",
+                "name": "Unidad 1 y 2. Instalación de un sistema gestor de bases de datos",
+                "link": "https://drive.google.com/file/d/1BiZfxIgfzv4A-dqeRcWsG8g_2y-p9H3d/view?usp=sharing"
+            }
+        },
+        "resources": {},
+        "tasks": {
+            "8735": {
+                "type": "Obligatoria",
+                "start": "07-10-2025 18:30",
+                "end": "22-10-2025 23:59",
+                "name": "Tarea 1 - Instalación de un sistema gestor de bases de datos OBLIGATORIA",
+            }
+        },
+        "tests": {},
+        "notes": {
+            "ASGBD-doc": {
+                "name": "Apuntes ASGBD (doc)",
+                "link": "https://docs.google.com/document/d/1VFDbbRa5pZDAaUlfkLULicYsuIojtwhCQMkDdL4nBkc/edit?usp=sharing"
+            }
+        }
+    },
+    "ASO": {
+        "id": 20,
+        "name": "Administración de sistemas operativos",
+        "teacher": "Carlos Quintana",
+        "teacher_mail": "cquintana@digitechfp.com",
+        "units": {
+            "ASO-0": {
+                "folder": 18359,
+                "folder_number": 1,
+                "name": "Administración de servicio de directorio (Cisco)",
                 "link": ""
             }
         },
         "resources": {},
         "tasks": {},
         "tests": {},
-        "notes": {}
+        "notes": {
+            "ASO-doc": {
+                "name": "Apuntes ASO (doc)",
+                "link": "https://docs.google.com/document/d/16WYQLS3ME0tRhn0M9ATMOQkpus3YQHmJxIZJ2hm-zno/edit?usp=sharing"
+            }
+        }
+    },
+    "CB": {
+        "id": 593,
+        "name": "Ciberseguridad",
+        "teacher": "Carlos Quintana",
+        "teacher_mail": "cquintana@digitechfp.com",
+        "units": {
+            "CB-1": {
+                "folder": 37772,
+                "folder_number": 1,
+                "name": "Unidad 1. Introducción a la ciberseguridad",
+                "link": "https://drive.google.com/file/d/1XS7cuMgCVG3aYCD-GHPfR4UTGfLd8-nL/view?usp=sharing"
+            }
+        },
+        "resources": {
+            "33031": {
+                "name": "APUNTES CORTAFUEGOS FÍSICOS",
+                "file": "ASA5505.docx",
+                "link": ""
+            },
+            "33049": {
+                "name": "Ejemplito de Cortafuegos Físicos",
+                "file": "CORTAFUEGOS.pkt",
+                "link": ""
+            }
+        },
+        "tasks": {
+        },
+        "tests": {},
+        "notes": {
+            "CB-doc": {
+                "name": "Apuntes CB (doc)",
+                "link": "https://docs.google.com/document/d/1QrXXcxet-LuwRDo9N-zgI0zli8hcgBNlDZwnR3fPaa4/edit?usp=sharing"
+            }
+        }
     },
     "DAPS": {
         "id": 583,
@@ -52,80 +122,12 @@
             }
         },
         "tests": {},
-        "notes": {}
-    },
-    "CB": {
-        "id": 593,
-        "name": "Ciberseguridad",
-        "teacher": "Carlos Quintana",
-        "teacher_mail": "cquintana@digitechfp.com",
-        "units": {
-            "CB-1": {
-                "folder": 37772,
-                "folder_number": 1,
-                "name": "Unidad 1. Introducción a la ciberseguridad",
-                "link": "https://drive.google.com/file/d/1XS7cuMgCVG3aYCD-GHPfR4UTGfLd8-nL/view?usp=sharing"
+        "notes": {
+            "DAPS-doc": {
+                "name": "Apuntes DAPS (doc)",
+                "link": "https://docs.google.com/document/d/1GYoO-eOPzh76NVoZX6WaHOH8gLfxFfNvw-_feuPXXck/edit?usp=sharing"
             }
-        },
-        "resources": {
-            "33031": {
-                "name": "APUNTES CORTAFUEGOS FÍSICOS",
-                "file": "ASA5505.docx",
-                "link": ""
-            },
-            "33049": {
-                "name": "Ejemplito de Cortafuegos Físicos",
-                "file": "CORTAFUEGOS.pkt",
-                "link": ""
-            }
-        },
-        "tasks": {
-        },
-        "tests": {},
-        "notes": {}
-    },
-    "IPE": {
-        "id": 600,
-        "name": "Itinerario Personal para la Empleabilidad II",
-        "teacher": "Victor Manuel Aparicio",
-        "teacher_mail": "victor.aparicio@digitechfp.com",
-        "units": {
-            "IPE-1": {
-                "folder": 37597,
-                "folder_number": 2,
-                "name": "La búsqueda de empleo",
-                "link": ""
-            }
-        },
-        "resources": {},
-        "tasks": {},
-        "tests": {},
-        "notes": {}
-    },
-    "ASGBD": {
-        "id": 26,
-        "name": "Administración de sistemas gestores de base de datos",
-        "teacher": "Rafael Chacón",
-        "teacher_mail": "rafa.chacon.almeda@digitechfp.com",
-        "units": {
-            "ASGBD-1": {
-                "folder": 16661,
-                "folder_number": 1,
-                "name": "Unidad 1 y 2. Instalación de un sistema gestor de bases de datos",
-                "link": "https://drive.google.com/file/d/1BiZfxIgfzv4A-dqeRcWsG8g_2y-p9H3d/view?usp=sharing"
-            }
-        },
-        "resources": {},
-        "tasks": {
-            "8735": {
-                "type": "Obligatoria",
-                "start": "07-10-2025 18:30",
-                "end": "22-10-2025 23:59",
-                "name": "Tarea 1 - Instalación de un sistema gestor de bases de datos OBLIGATORIA"
-            }
-        },
-        "tests": {},
-        "notes": {}
+        }
     },
     "IAW": {
         "id": 25,
@@ -155,64 +157,35 @@
         },
         "tasks": {},
         "tests": {},
-        "notes": {}
+        "notes": {
+            "IAW-doc": {
+                "name": "Apuntes IAW (doc)",
+                "link": "https://docs.google.com/document/d/1VPF808Y5k3zBbg8tPUewvFMKnqC8loSodSYEZpCntdQ/edit?usp=sharing"
+            }
+        }
     },
-    "TE": {
-        "id": 23,
-        "name": "Technical English",
-        "teacher": "Helena Muñoz",
-        "teacher_mail": "hmunoz@digitechfp.com",
+    "IPE": {
+        "id": 600,
+        "name": "Itinerario Personal para la Empleabilidad II",
+        "teacher": "Victor Manuel Aparicio",
+        "teacher_mail": "victor.aparicio@digitechfp.com",
         "units": {
-            "TE-0": {
-                "folder": 16446,
-                "folder_number": 1,
-                "name": "Introduction",
-                "link": "https://drive.google.com/file/d/1ZHb25qE9ci_3kqhzj3nfQCTQRLT5phQd/view?usp=sharing"
-            }
-        },
-        "resources": {
-            "TE-1": {
-                "status": "downloaded",
-                "name": "Technical Vocabulary",
-                "file": "Technical Vocabulary.pdf",
-                "link": "https://drive.google.com/file/d/1xPmpN4DY26JrSxAPnnYukyfDAQpX6YZ8/view?usp=sharing"
-            }
-        },
-        "tasks": {
-            "14072": {
-                "type": "Obligatoria",
-                "start": "01-10-2025 00:00",
-                "end": "21-10-2025 23:59",
-                "name": "Introduction Task. MANDATORY"
-            }
-        },
-        "tests": {},
-        "notes": {}
-    },
-    "SRI": {
-        "id": 22,
-        "name": "Servicios de red e Internet",
-        "teacher": "Carlos Quintana",
-        "teacher_mail": "cquintana@digitechfp.com",
-        "units": {
-            "SRI-0": {
-                "folder": 16977,
+            "IPE-1": {
+                "folder": 37597,
                 "folder_number": 2,
-                "name": "Instalación y administración de servicios de nombres de dominio (Cisco)",
+                "name": "La búsqueda de empleo",
                 "link": ""
             }
         },
-        "tasks": {
-            "33394": {
-                "type": "Obligatoria",
-                "start": "09-10-2025 09:30",
-                "end": "28-10-2025 11:30",
-                "name": "Ejercicio IPV4-IPV6con teléfonos y tunnel. OBLIGATORIA"
-            }
-        },
         "resources": {},
+        "tasks": {},
         "tests": {},
-        "notes": {}
+        "notes": {
+            "IPE-doc": {
+                "name": "Apuntes IPE (doc)",
+                "link": "https://docs.google.com/document/d/1hV-HHRQfjabXeDla6K1usL2Rt5uitLUXn2s1JI72Xz8/edit?usp=sharing"
+            }
+        }
     },
     "SAD": {
         "id": 21,
@@ -249,24 +222,101 @@
             }
         },
         "tests": {},
-        "notes": {}
+        "notes": {
+            "SAD-doc": {
+                "name": "Apuntes SAD (doc)",
+                "link": "https://docs.google.com/document/d/1bhVHYp2RQ0okuV_tHYmvvs3-eaP-jO_myU3DXYBxcRQ/edit?usp=sharing"
+            }
+        }
     },
-    "ASO": {
-        "id": 20,
-        "name": "Administración de sistemas operativos",
-        "teacher": "Carlos Quintana",
-        "teacher_mail": "cquintana@digitechfp.com",
+    "SAPS": {
+        "id": 600,
+        "name": "Sostenibilidad Aplicada al Sistema Productivo",
+        "teacher": "Ane de la Calle",
+        "teacher_mail": "ane.delacalle@digitechfp.com",
         "units": {
-            "ASO-0": {
-                "folder": 18359,
+            "SAPS-1": {
+                "folder": 36764,
                 "folder_number": 1,
-                "name": "Administración de servicio de directorio (Cisco)",
+                "name": "Unidad 1. Sostenibilidad en entorno actual",
                 "link": ""
             }
         },
         "resources": {},
         "tasks": {},
         "tests": {},
-        "notes": {}
+        "notes": {
+            "SAPS-doc": {
+                "name": "Apuntes SAPS (doc)",
+                "link": "https://docs.google.com/document/d/1GPSXc1NUYc8ctq-ZHu6X3iXYIRUS2DuuwMpwGoO0l90/edit?usp=sharing"
+            }
+        }
+    },
+    "SRI": {
+        "id": 22,
+        "name": "Servicios de red e Internet",
+        "teacher": "Carlos Quintana",
+        "teacher_mail": "cquintana@digitechfp.com",
+        "units": {
+            "SRI-0": {
+                "folder": 16977,
+                "folder_number": 2,
+                "name": "Instalación y administración de servicios de nombres de dominio (Cisco)",
+                "link": ""
+            }
+        },
+        "tasks": {
+            "33394": {
+                "type": "Obligatoria",
+                "start": "09-10-2025 09:30",
+                "end": "28-10-2025 11:30",
+                "name": "Ejercicio IPV4-IPV6con teléfonos y tunnel. OBLIGATORIA"
+            }
+        },
+        "resources": {},
+        "tests": {},
+        "notes": {
+            "SRI-doc": {
+                "name": "Apuntes SRI (doc)",
+                "link": "https://docs.google.com/document/d/1fqztidnHYGfsdQ1egcmHmEac8NpaEWBg6u7OqC6pQcM/edit?usp=sharing"
+            }
+        }
+    },
+    "TE": {
+        "id": 23,
+        "name": "Technical English",
+        "teacher": "Helena Muñoz",
+        "teacher_mail": "hmunoz@digitechfp.com",
+        "units": {
+            "TE-0": {
+                "folder": 16446,
+                "folder_number": 1,
+                "name": "Introduction",
+                "link": "https://drive.google.com/file/d/1ZHb25qE9ci_3kqhzj3nfQCTQRLT5phQd/view?usp=sharing"
+            }
+        },
+        "resources": {
+            "TE-1": {
+                "status": "downloaded",
+                "name": "Technical Vocabulary",
+                "file": "Technical Vocabulary.pdf",
+                "link": "https://drive.google.com/file/d/1xPmpN4DY26JrSxAPnnYukyfDAQpX6YZ8/view?usp=sharing"
+            }
+        },
+        "tasks": {
+            "14072": {
+                "type": "Obligatoria",
+                "start": "01-10-2025 00:00",
+                "end": "21-10-2025 23:59",
+                "name": "Introduction Task. MANDATORY"
+            }
+        },
+        "tests": {},
+        "notes": {
+            "TE-doc": {
+                "name": "Apuntes TE (doc)",
+                "link": "https://docs.google.com/document/d/1sNMX-Q-9u_jSlT5Xy5Xyv47EAemb0U5YgsO0QxoG2SY/edit?usp=sharing"
+            }
+        }
     }
 }
