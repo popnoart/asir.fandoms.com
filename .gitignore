@@ -11,6 +11,8 @@ storage/data/accounts/*
 public_html/files/
 public_html/shared/
 public_html/tests/
+public_html/data/calendar.json
+public_html/data/icalexport.ics
 *.code-workspace
 
 # Should be keep but not in live
