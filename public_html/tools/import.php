@@ -86,7 +86,7 @@ function load_calendar_json($json_path) {
 $message_result = $message_result ?? null;
 
 // Descargar icalexport.ics desde la URL y guardarlo localmente
-if (isset($_GET['download']) AND $_POST['download']=='ok') {
+if (isset($_GET['download']) AND $_GET['download']=='ok') {
 	$url = 'https://campus.digitechfp.com/calendar/export_execute.php?userid=1157&authtoken=324b744d6ad143f0374834c2065fb54add01e36b&preset_what=all&preset_time=custom';
 	$ics = file_get_contents($url);
 	if($ics === false) {
