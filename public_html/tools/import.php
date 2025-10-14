@@ -85,9 +85,15 @@ function load_calendar_json($json_path) {
 // Inicializar variable para evitar warning
 $add_result = $add_result ?? null;
 
-$icalexport_events = parse_ics_events($_SERVER['DOCUMENT_ROOT'] . '/data/icalexport.ics');
-//$icalexport_events = parse_ics_events('https://campus.digitechfp.com/calendar/export_execute.php?userid=1157&authtoken=324b744d6ad143f0374834c2065fb54add01e36b&preset_what=all&preset_time=custom');
+// Descargar icalexport.ics desde la URL y guardarlo localmente
+$url = 'https://campus.digitechfp.com/calendar/export_execute.php?userid=1157&authtoken=324b744d6ad143f0374834c2065fb54add01e36b&preset_what=all&preset_time=custom';
+$ics = file_get_contents($url);
+if($ics === false) {
+	die('Error al descargar icalexport.ics desde la URL.');
+}
+file_put_contents($_SERVER['DOCUMENT_ROOT'] . '/data/icalexport.ics', $ics);
 
+$icalexport_events = parse_ics_events($_SERVER['DOCUMENT_ROOT'] . '/data/icalexport.ics');
 $calendarics_events = load_calendar_json($_SERVER['DOCUMENT_ROOT'] . '/data/calendar.json');
 
 // Indexar por UID para comparación
