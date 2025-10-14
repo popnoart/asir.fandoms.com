@@ -83,16 +83,16 @@ function load_calendar_json($json_path) {
 
 
 // Inicializar variable para evitar warning
-$add_result = $add_result ?? null;
+$message_result = $message_result ?? null;
 
 // Descargar icalexport.ics desde la URL y guardarlo localmente
-if (isset($_POST['download']) AND $_POST['download']=='ok') {
+if (isset($_GET['download']) AND $_POST['download']=='ok') {
 	$url = 'https://campus.digitechfp.com/calendar/export_execute.php?userid=1157&authtoken=324b744d6ad143f0374834c2065fb54add01e36b&preset_what=all&preset_time=custom';
 	$ics = file_get_contents($url);
 	if($ics === false) {
-		$add_result = 'Error al descargar icalexport.ics desde la URL.';
+		$message_result = 'Error al descargar icalexport.ics desde la URL.';
 	}else{
-		$add_result = 'Archivo icalexport.ics descargado correctamente.';
+		$message_result = 'Archivo icalexport.ics descargado correctamente.';
 	}
 	file_put_contents($_SERVER['DOCUMENT_ROOT'] . '/data/icalexport.ics', $ics);
 }
@@ -144,11 +144,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['add_missing'])) {
 			$calendarics_events[] = $ev;
 		}
 		file_put_contents($calendar_json_path, json_encode($calendarics_events, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
-		$add_result = count($missing) . ' evento(s) añadidos a calendar.json.';
+		$message_result = count($missing) . ' evento(s) añadidos a calendar.json.';
 		header('Location: ' . $_SERVER['REQUEST_URI']);
 		exit;
 	} else {
-		$add_result = 'No hay eventos nuevos que añadir.';
+		$message_result = 'No hay eventos nuevos que añadir.';
 	}
 }
 // Eliminar evento individual de calendar.json
@@ -160,7 +160,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['delete_uid'])) {
 		return !isset($ev['UID']) || $ev['UID'] !== $uid_to_delete;
 	}));
 	file_put_contents($calendar_json_path, json_encode($calendarics_events, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
-	$add_result = 'Evento eliminado de calendar.json.';
+	$message_result = 'Evento eliminado de calendar.json.';
 	header('Location: ' . $_SERVER['REQUEST_URI']);
 	exit;
 }
@@ -184,7 +184,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['update_uid'])) {
 		}
 		unset($ev);
 		file_put_contents($calendar_json_path, json_encode($calendarics_events, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
-		$add_result = 'Evento actualizado desde icalexport.ics.';
+		$message_result = 'Evento actualizado desde icalexport.ics.';
 		header('Location: ' . $_SERVER['REQUEST_URI']);
 		exit;
 	}
@@ -201,8 +201,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['update_uid'])) {
 <div class="container my-4">
 	<h1>Importación de calendario de Digitech</h1>
 	<p class="lead">Compara y añade eventos de <code>icalexport.ics</code> a <code>calendar.json</code>. <a href="/tools/import.php?download=ok">Descargar</a>.</p>
-	<?php if ($add_result): ?>
-		<div class="alert alert-info"> <?php echo htmlspecialchars($add_result); ?> </div>
+	<?php if ($message_result): ?>
+		<div class="alert alert-info"> <?php echo htmlspecialchars($message_result); ?> </div>
 	<?php endif; ?>
 	<form method="post" class="mb-3">
 		<button type="submit" name="add_missing" value="1" class="btn btn-primary">Añadir nuevos eventos</button>
