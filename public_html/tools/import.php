@@ -90,7 +90,9 @@ if (isset($_POST['download']) AND $_POST['download']=='ok') {
 	$url = 'https://campus.digitechfp.com/calendar/export_execute.php?userid=1157&authtoken=324b744d6ad143f0374834c2065fb54add01e36b&preset_what=all&preset_time=custom';
 	$ics = file_get_contents($url);
 	if($ics === false) {
-		die('Error al descargar icalexport.ics desde la URL.');
+		$add_result = 'Error al descargar icalexport.ics desde la URL.';
+	}else{
+		$add_result = 'Archivo icalexport.ics descargado correctamente.';
 	}
 	file_put_contents($_SERVER['DOCUMENT_ROOT'] . '/data/icalexport.ics', $ics);
 }
@@ -198,7 +200,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['update_uid'])) {
 <body>
 <div class="container my-4">
 	<h1>Importación de calendario de Digitech</h1>
-	<p class="lead">Compara y añade eventos de <code>icalexport.ics</code> a <code>calendar.json</code>. <a href="/tools/import.php?download=ok" target="_blank">Descargar</a>.</p>
+	<p class="lead">Compara y añade eventos de <code>icalexport.ics</code> a <code>calendar.json</code>. <a href="/tools/import.php?download=ok">Descargar</a>.</p>
 	<?php if ($add_result): ?>
 		<div class="alert alert-info"> <?php echo htmlspecialchars($add_result); ?> </div>
 	<?php endif; ?>
