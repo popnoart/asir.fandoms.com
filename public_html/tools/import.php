@@ -86,13 +86,14 @@ function load_calendar_json($json_path) {
 $add_result = $add_result ?? null;
 
 // Descargar icalexport.ics desde la URL y guardarlo localmente
-$url = 'https://campus.digitechfp.com/calendar/export_execute.php?userid=1157&authtoken=324b744d6ad143f0374834c2065fb54add01e36b&preset_what=all&preset_time=custom';
-$ics = file_get_contents($url);
-if($ics === false) {
-	die('Error al descargar icalexport.ics desde la URL.');
+if (isset($_POST['download']) AND $_POST['download']=='ok') {
+	$url = 'https://campus.digitechfp.com/calendar/export_execute.php?userid=1157&authtoken=324b744d6ad143f0374834c2065fb54add01e36b&preset_what=all&preset_time=custom';
+	$ics = file_get_contents($url);
+	if($ics === false) {
+		die('Error al descargar icalexport.ics desde la URL.');
+	}
+	file_put_contents($_SERVER['DOCUMENT_ROOT'] . '/data/icalexport.ics', $ics);
 }
-file_put_contents($_SERVER['DOCUMENT_ROOT'] . '/data/icalexport.ics', $ics);
-
 $icalexport_events = parse_ics_events($_SERVER['DOCUMENT_ROOT'] . '/data/icalexport.ics');
 $calendarics_events = load_calendar_json($_SERVER['DOCUMENT_ROOT'] . '/data/calendar.json');
 
@@ -197,7 +198,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['update_uid'])) {
 <body>
 <div class="container my-4">
 	<h1>Importación de calendario de Digitech</h1>
-	<p class="lead">Compara y añade eventos de <code>icalexport.ics</code> a <code>calendar.json</code>. <a href="https://campus.digitechfp.com/calendar/export_execute.php?userid=1157&authtoken=324b744d6ad143f0374834c2065fb54add01e36b&preset_what=all&preset_time=custom" target="_blank">Descargar</a>.</p>
+	<p class="lead">Compara y añade eventos de <code>icalexport.ics</code> a <code>calendar.json</code>. <a href="/tools/import.php?download=ok" target="_blank">Descargar</a>.</p>
 	<?php if ($add_result): ?>
 		<div class="alert alert-info"> <?php echo htmlspecialchars($add_result); ?> </div>
 	<?php endif; ?>
