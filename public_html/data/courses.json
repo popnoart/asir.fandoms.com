@@ -39,7 +39,7 @@
                 "folder": 18359,
                 "folder_number": 1,
                 "name": "Administración de servicio de directorio (Cisco)",
-                "link": ""
+                "link": "https://drive.google.com/file/d/1Kw6Zbmpg7bTTTDhc3yN98rVPb5oKftiX/view?usp=sharing"
             }
         },
         "resources": {},
@@ -160,7 +160,7 @@
             "32881": {
                 "name": "Manual complementario HTML,CSS y JS",
                 "file": "El+gran+libro+de+HTML5+CSS3+y+Javascrip.pdf",
-                "link": ""
+                "link": "https://drive.google.com/file/d/1OgYWYltlNN_w63TSMXwdczR-kjhilI0Y/view?usp=sharing"
             }
         },
         "tasks": {},
@@ -182,7 +182,7 @@
                 "folder": 37597,
                 "folder_number": 2,
                 "name": "Unidad 1. La búsqueda de empleo",
-                "link": ""
+                "link": "https://drive.google.com/file/d/1BnKQHOP0NWu86uF8hznbmKCq6FVArZaB/view?usp=sharing"
             }
         },
         "resources": {},
@@ -195,19 +195,6 @@
             }
         }
     },
-    "PRAC": {
-        "id": 349,
-        "name": "Prácticas",
-        "teacher": "Marina Ginés",
-        "teacher_mail": "practicasonline@digitechfp.com",
-        "units": {
-        },
-        "resources": {},
-        "tasks": {},
-        "tests": {},
-        "notes": {
-        }
-    },
     "SAD": {
         "id": 21,
         "name": "Seguridad y alta disponibilidad",
@@ -217,20 +204,20 @@
             "SAD-1": {
                 "folder": 18346,
                 "folder_number": 1,
-                "name": "Unidad 1. Adopción de pautas de seguridad informática",
-                "link": "https://drive.google.com/file/d/1JCJ3Z85kz039eKSSPY_mIVHEGeyf1qRg/view?usp=sharing"
+                "name": "Unidad 1.1 Adopción de pautas de seguridad informática",
+                "link": "https://drive.google.com/file/d/1HxYrjmYHbgmPD2vYBmBAQp1TdtKwgc2K/view?usp=sharing"
             },
             "SAD-2": {
                 "folder": 18348,
                 "folder_number": 3,
-                "name": "Unidad 1. Tipos de seguridad informática",
-                "link": "https://drive.google.com/file/d/1WavyhITHNJv7N42LJNqQEukPRsjo9Am2/view?usp=sharing"
+                "name": "Unidad 1.2 Tipos de seguridad informática",
+                "link": "https://drive.google.com/file/d/1Sjk_22qgCAYCS4ECaA_gxM1Krnuc_-xq/view?usp=sharing"
             },
             "SAD-3": {
                 "folder": 18347,
                 "folder_number": 2,
-                "name": "Unidad 1. Elementos vulnerables de los sistemas informáticos",
-                "link": ""
+                "name": "Unidad 1.3 Elementos vulnerables de los sistemas informáticos",
+                "link": "https://drive.google.com/file/d/12U8rTkEIM2qW8dY4HckwgvkBcHyhKsJ1/view?usp=sharing"
             }
         },
         "units-alt": {
@@ -283,7 +270,7 @@
                 "folder": 36764,
                 "folder_number": 1,
                 "name": "Unidad 1. Sostenibilidad en entorno actual",
-                "link": ""
+                "link": "https://drive.google.com/file/d/1F5ibLnnJCWyRj2dEtdJOc6GtAmCOa9lC/view?usp=sharing"
             }
         },
         "resources": {},
@@ -306,7 +293,7 @@
                 "folder": 16977,
                 "folder_number": 2,
                 "name": "Instalación y administración de servicios de nombres de dominio (Cisco)",
-                "link": ""
+                "link": "https://drive.google.com/file/d/1tTXj5GSPJeBj5G0jhM3efP597wxXZSOx/view?usp=sharing"
             }
         },
         "tasks": {

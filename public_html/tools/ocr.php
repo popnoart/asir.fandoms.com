@@ -93,11 +93,20 @@ $all_courses = json_decode(file_get_contents($courses_path), true);
                                     $course_array = json_decode(file_get_contents($folder_downloads. 'course' . $unit_stripped . '.json'), true);
                                       if(!empty($course_array['pages']) && is_array($course_array['pages'])) {
                                         foreach ($course_array['pages'] as $key => $page_data) {
+                                            echo '<li class="list-group-item">';
+                                            /*
                                             echo '<li class="list-group-item">
                                                     <a href="https://campus.digitechfp.com/pluginfile.php/' . $unit_data['folder'] . '/mod_scorm/content/' . $unit_data['folder_number'] . '/assets/' . $page_data['filename'] . '" target="_blank">' . $page_data['title'] . '</a>';
                                             if (file_exists($folder_downloads .  $course . '/U' . $unit_stripped . '/' . $page_data['filename'])) {
                                                 echo ' (<a href="/' . $course . '/U' . $unit_stripped . '/' . $page_data['filename'] . '">Local</a>)</li>';
                                             }
+                                            */ 
+                                            if (!file_exists($folder_downloads . '/U' . $unit_stripped . '/' . $page_data['filename'])) {
+                                                echo '<a href="https://campus.digitechfp.com/pluginfile.php/' . $unit_data['folder'] . '/mod_scorm/content/' . $unit_data['folder_number'] . '/assets/' . $page_data['filename'] . '" target="_blank">' . $page_data['title'] . '</a>';
+                                            }else{
+                                                echo  $page_data['title'];
+                                            }
+                                            echo '</li>';
                                         }
                                     }else{
                                         echo 'Algo pasa con el JSON del SCORM.';
