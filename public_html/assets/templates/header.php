@@ -76,8 +76,11 @@
                             <i class="fas fa-calendar-alt"></i> Sinc.
                         </a>
                         <?php if ($_SESSION['account'] == 'popnoart') { ?>
-                            <a class="btn btn-outline-light me-2" href="/tools/ocr.php" target="_blank">
+                            <a class="btn btn-outline-light me-2" href="https://asir.fandoms.test/tools/ocr.php" target="_blank">
                                 <i class="fas fa-file-pdf"></i>
+                            </a> 
+                            <a class="btn btn-outline-light me-2" href="https://asir.fandoms.test/tools/tests.php" target="_blank">
+                                <i class="fas fa-check-square"></i>
                             </a>
                             <a class="btn btn-outline-light me-2" href="/tools/import.php" target="_blank">
                                 <i class="fas fa-calendar-alt"></i>

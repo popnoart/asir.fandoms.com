@@ -76,17 +76,15 @@
                         $modal_id = 'doneTestModal' . $test;
                 ?>
                         <li class="list-group-item">
-                            <a href="https://campus.digitechfp.com/mod/quiz/view.php?id=<?= htmlspecialchars($test_data['id']); ?>" target="_blank">
-                                <?= htmlspecialchars($test_data['name']); ?>
-                            </a><br>
-                            Fin: <?= htmlspecialchars($test_data['end']); ?>
-                            <span class="badge bg-success text-bg-success ms-2" style="cursor:pointer;" data-bs-toggle="modal" data-bs-target="#<?= $modal_id; ?>">
+                            <a href="https://campus.digitechfp.com/mod/quiz/view.php?id=<?= htmlspecialchars($test_data['id']); ?>" target="_blank"><?= htmlspecialchars($test_data['name']); ?></a> 
+                            <br><span class="badge bg-success text-bg-success ms-2" style="cursor:pointer;" data-bs-toggle="modal" data-bs-target="#<?= $modal_id; ?>">
                                 <?php if (!empty($test_data['status'])) {
                                     echo htmlspecialchars($test_data['status']);
                                 } else {
                                     echo 'Sin estado';
                                 } ?>
-                            </span>
+                            </span> [ <a href="/quiz.php?course=<?= htmlspecialchars($course); ?>&quiz=<?= htmlspecialchars($test_data['id']); ?>" target="_blank">Practicar</a> ]
+                           
                         </li>
                         <!-- Modal cambio de estado -->
                         <div class="modal fade" id="<?= $modal_id; ?>" tabindex="-1" aria-labelledby="<?= $modal_id; ?>Label" aria-hidden="true">

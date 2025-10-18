@@ -1,0 +1,252 @@
+[
+    {
+        "enunciado": "¿Cuál de los siguientes departamentos es típico de un entorno IT?",
+        "respuestas": [
+            {
+                "opcion": "a. ",
+                "texto": "Finanzas y contabilidad.",
+                "correcta": true
+            },
+            {
+                "opcion": "b. ",
+                "texto": "Planta de fabricación.",
+                "correcta": false
+            },
+            {
+                "opcion": "c. ",
+                "texto": "Producción y mantenimiento.",
+                "correcta": false
+            },
+            {
+                "opcion": "d. ",
+                "texto": "Talleres de montaje.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué es la digitalización?",
+        "respuestas": [
+            {
+                "opcion": "a. ",
+                "texto": "Crear una cultura empresarial innovadora",
+                "correcta": false
+            },
+            {
+                "opcion": "b. ",
+                "texto": "Cambiar la manera de trabajar gracias a la tecnología.",
+                "correcta": false
+            },
+            {
+                "opcion": "c. ",
+                "texto": "Automatizar la toma de decisiones con inteligencia artificial.",
+                "correcta": false
+            },
+            {
+                "opcion": "d. ",
+                "texto": "Pasar procesos manuales o en papel a formato digital",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué caracteriza a los entornos IT (Information Technology)?",
+        "respuestas": [
+            {
+                "opcion": "a. ",
+                "texto": "Son exclusivos de la producción industrial.",
+                "correcta": false
+            },
+            {
+                "opcion": "b. ",
+                "texto": "Controlan robots y sensores en planta.",
+                "correcta": false
+            },
+            {
+                "opcion": "c. ",
+                "texto": "Se enfocan en procesos físicos y maquinaria.",
+                "correcta": false
+            },
+            {
+                "opcion": "d. ",
+                "texto": "Gestionan datos, información y comunicación en la empresa.",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál de las siguientes es una ventaja de implantar tecnología digital en una empresa?",
+        "respuestas": [
+            {
+                "opcion": "a. ",
+                "texto": "Reducción de la colaboración entre empleados.",
+                "correcta": false
+            },
+            {
+                "opcion": "b. ",
+                "texto": "Mayor dependencia del trabajo manual.",
+                "correcta": false
+            },
+            {
+                "opcion": "c. ",
+                "texto": "Optimización de la toma de decisiones.",
+                "correcta": true
+            },
+            {
+                "opcion": "d. ",
+                "texto": "Aumento de papeleo.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué ejemplo corresponde a un entorno OT (Operation Technology)?",
+        "respuestas": [
+            {
+                "opcion": "a. ",
+                "texto": "Guardar facturas en PDF.",
+                "correcta": false
+            },
+            {
+                "opcion": "b. ",
+                "texto": "Usar un programa de contabilidad.",
+                "correcta": false
+            },
+            {
+                "opcion": "c. ",
+                "texto": "Realizar videollamadas con clientes.",
+                "correcta": false
+            },
+            {
+                "opcion": "d. ",
+                "texto": "PLC que controla una cinta transportadora.",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué ventaja principal ofrece el entorno OT?",
+        "respuestas": [
+            {
+                "opcion": "a. ",
+                "texto": "Facilita la planificación de proyectos.",
+                "correcta": false
+            },
+            {
+                "opcion": "b. ",
+                "texto": "Automatiza procesos administrativos.",
+                "correcta": false
+            },
+            {
+                "opcion": "c. ",
+                "texto": "Mejora la comunicación externa.",
+                "correcta": false
+            },
+            {
+                "opcion": "d. ",
+                "texto": "Garantiza la eficiencia y continuidad de la producción.",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué diferencia principal hay entre digitalización y transformación digital?",
+        "respuestas": [
+            {
+                "opcion": "a. ",
+                "texto": "No existe diferencia, son lo mismo.",
+                "correcta": false
+            },
+            {
+                "opcion": "b. ",
+                "texto": "La digitalización usa software y la transformación digital usa hardware.",
+                "correcta": false
+            },
+            {
+                "opcion": "c. ",
+                "texto": "La digitalización cambia los formatos; la transformación digital cambia la forma de trabajar.",
+                "correcta": true
+            },
+            {
+                "opcion": "d. ",
+                "texto": "La digitalización es más importante que la transformación digital.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué significa una transformación digital integral?",
+        "respuestas": [
+            {
+                "opcion": "a. ",
+                "texto": "Usar exclusivamente documentos en PDF.",
+                "correcta": false
+            },
+            {
+                "opcion": "b. ",
+                "texto": "Solo actualizar las máquinas de producción.",
+                "correcta": false
+            },
+            {
+                "opcion": "c. ",
+                "texto": "Incorporar ordenadores sin cambiar la forma de trabajar.",
+                "correcta": false
+            },
+            {
+                "opcion": "d. ",
+                "texto": "Cambiar toda la forma de trabajar usando tecnología, integrando IT y OT.",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué beneficio aporta la conexión entre IT y OT?",
+        "respuestas": [
+            {
+                "opcion": "a. ",
+                "texto": "Sustituir completamente a los trabajadores.",
+                "correcta": false
+            },
+            {
+                "opcion": "b. ",
+                "texto": "Integrar la oficina con la producción para mejorar la trazabilidad.",
+                "correcta": true
+            },
+            {
+                "opcion": "c. ",
+                "texto": "Aumentar el papeleo en la empresa.",
+                "correcta": false
+            },
+            {
+                "opcion": "d. ",
+                "texto": "Reducir la seguridad de la planta.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál de estas tecnologías pertenece a la digitalización en planta?",
+        "respuestas": [
+            {
+                "opcion": "a. ",
+                "texto": "Comercio electrónico (e-commerce).",
+                "correcta": false
+            },
+            {
+                "opcion": "b. ",
+                "texto": "CRM (gestión de clientes).",
+                "correcta": false
+            },
+            {
+                "opcion": "c. ",
+                "texto": "Robots industriales.",
+                "correcta": true
+            },
+            {
+                "opcion": "d. ",
+                "texto": "Correo electrónico.",
+                "correcta": false
+            }
+        ]
+    }
+]

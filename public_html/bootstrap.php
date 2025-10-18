@@ -108,6 +108,10 @@ file_put_contents($states_path, json_encode($all_states, JSON_PRETTY_PRINT | JSO
 if (!empty($_GET['course'])) {
     $course = $_GET['course'];
     $course_data = $all_courses[$course] ?? null;
+    if (!empty($_GET['quiz'])) {
+        $quiz = $_GET['quiz'];
+        $quiz_data = $course_data['tests'][$quiz] ?? null;
+    }
 } else {
     $course = null;
     $course_data = null;
@@ -169,7 +173,7 @@ else{
 
 //////////TESTS\\\\\\\\\\
 
-// Tareas pendientes y terminadas de la asignatura actual
+// Tests pendientes y terminados de la asignatura actual
 if (!empty($course)) {
     $pending_tests_course = [];
     $done_tests_course = [];
@@ -183,7 +187,7 @@ if (!empty($course)) {
     usort($pending_tests_course, 'sort_by_end');
     usort($done_tests_course, 'sort_by_end');
 }
-// Tareas pendientes globales
+// Tests pendientes globales
 else{
     $pending_tests = [];
     foreach ($all_courses as $course_key => $course_data) {

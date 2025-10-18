@@ -233,6 +233,29 @@
                 "link": ""
             }
         },
+        "units-alt": {
+            "SAD-UD1": {
+                "name": "Unidad 1. Introducción a la seguridad informática"
+            },
+            "SAD-UD2": {
+                "name": "Unidad 2. Implantación de mecanismos de seguridad activa"
+            },
+            "SAD-UD3": {
+                "name": "Unidad 3. Implantación de seguridad perimetral"
+            },
+            "SAD-UD4": {
+                "name": "Unidad 4. Instalación y configuración de cortafuegos"
+            },
+            "SAD-UD5": {
+                "name": "Unidad 5. instalación y configuración de servidores proxy"
+            },
+            "SAD-UD6": {
+                "name": "Unidad 6. Implantación de técnicas de acceso remoto. VPNs (Virtual Private Network)"
+            },
+            "SAD-UD7": {
+                "name": "Unidad 7. Implantación  de soluciones de alta disponibilidad"
+            }
+        },
         "resources": {},
         "tasks": {
             "2406": {
