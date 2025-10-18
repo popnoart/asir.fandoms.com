@@ -77,8 +77,7 @@
                 "link": "https://drive.google.com/file/d/1YdqrdyYI9Yk6NyIGAvTTnOl66biFIv6c/view?usp=sharing"
             }
         },
-        "tasks": {
-        },
+        "tasks": {},
         "tests": {},
         "notes": {
             "CB-doc": {
@@ -304,7 +303,173 @@
                 "name": "Ejercicio IPV4-IPV6con teléfonos y tunnel. OBLIGATORIA"
             }
         },
-        "resources": {},
+        "resources": {
+            "1": {
+                "name": "APUNTESEIGRPIPV4 (3).docx",
+                "file": "APUNTESEIGRPIPV4 (3).docx",
+                "link": "https://docs.google.com/document/d/10wGhop4ua_pSN5TghszMkst_VgzJoE1C/edit?usp=sharing&ouid=117153571465087663660&rtpof=true&sd=true"
+            },
+            "2": {
+                "name": "ApuntesSSH.docx",
+                "file": "ApuntesSSH.docx",
+                "link": "https://docs.google.com/document/d/11LGyxzhRfrWN5XUuqXvvzIEpz25xyE78/edit?usp=sharing&ouid=117153571465087663660&rtpof=true&sd=true"
+            },
+            "3": {
+                "name": "APUNTES DHCP-RELAY.docx",
+                "file": "APUNTES DHCP-RELAY.docx",
+                "link": "https://docs.google.com/document/d/11YFxZxZoME-AJ9ylDq5VVl8icuaRbKXY/edit?usp=sharing&ouid=117153571465087663660&rtpof=true&sd=true"
+            },
+            "4": {
+                "name": "APUNTESNETFLOW.docx",
+                "file": "APUNTESNETFLOW.docx",
+                "link": "https://docs.google.com/document/d/12r2KfCupvfhXFnY9aFOwB0U1lE7W4mQA/edit?usp=sharing&ouid=117153571465087663660&rtpof=true&sd=true"
+            },
+            "5": {
+                "name": "TFTP.docx",
+                "file": "TFTP.docx",
+                "link": "https://docs.google.com/document/d/13c1GB0_3w1n3I3jg3Sd2sW9SEbYrJx4J/edit?usp=sharing&ouid=117153571465087663660&rtpof=true&sd=true"
+            },
+            "6": {
+                "name": "ASA5505 CON FORMATO.docx",
+                "file": "ASA5505 CON FORMATO.docx",
+                "link": "https://docs.google.com/document/d/13ezAwm6ixdEiywUMnE3_nBC5VOqt2XkX/edit?usp=sharing&ouid=117153571465087663660&rtpof=true&sd=true"
+            },
+            "7": {
+                "name": "APUNTESDENEGARTRAFICOIPV6.docx",
+                "file": "APUNTESDENEGARTRAFICOIPV6.docx",
+                "link": "https://docs.google.com/document/d/16G3YUQwghY0GK2RB1hlt7c0TfCpNFEGQ/edit?usp=sharing&ouid=117153571465087663660&rtpof=true&sd=true"
+            },
+            "8": {
+                "name": "AAATacacsLoginyEnable.docx",
+                "file": "AAATacacsLoginyEnable.docx",
+                "link": "https://drive.google.com/file/d/16KGXxz7cc5yz6yl4TsmQnLq6GgFuXIoP/view?usp=sharing"
+            },
+            "9": {
+                "name": "ASA5505.docx",
+                "file": "ASA5505.docx",
+                "link": "https://docs.google.com/document/d/1Bk74vEXmqA412-eNmlwqbOpLN99puS5k/edit?usp=sharing&ouid=117153571465087663660&rtpof=true&sd=true"
+            },
+            "10": {
+                "name": "telnet.docx",
+                "file": "telnet.docx",
+                "link": "https://drive.google.com/file/d/1Cu_fwbVZb6FGZ0hsc-Y5vjU89clUHQ0e/view?usp=sharing"
+            },
+            "11": {
+                "name": "APUNTESEIGRPIPV4.docx",
+                "file": "APUNTESEIGRPIPV4.docx",
+                "link": "https://docs.google.com/document/d/1D-mOnD7tNoPhMWLDKrxEiIyk8r9z3aWU/edit?usp=sharing&ouid=117153571465087663660&rtpof=true&sd=true"
+            },
+            "12": {
+                "name": "VPN.pdf",
+                "file": "VPN.pdf",
+                "link": "https://docs.google.com/document/d/1FtaxuljPyPguU5qGag8nwYpGwqf_XTPy/edit?usp=sharing&ouid=117153571465087663660&rtpof=true&sd=true"
+            },
+            "13": {
+                "name": "APUNTES NETFLOW_ACTUALIZADO.docx",
+                "file": "APUNTES NETFLOW_ACTUALIZADO.docx",
+                "link": "https://docs.google.com/document/d/1Ilw1CZWYT83t-IVaP-Dukawwk2VG8EpG/edit?usp=sharing&ouid=117153571465087663660&rtpof=true&sd=true"
+            },
+            "14": {
+                "name": "SWTICH3CAPAS.docx",
+                "file": "SWTICH3CAPAS.docx",
+                "link": "https://docs.google.com/document/d/1MUOgjO5S2Y7qg55D51wC8nW97z4TnhP-/edit?usp=sharing&ouid=117153571465087663660&rtpof=true&sd=true"
+            },
+            "15": {
+                "name": "APUNTESDENEGARTRAFICO.pdf",
+                "file": "APUNTESDENEGARTRAFICO.pdf",
+                "link": "https://docs.google.com/document/d/1O1eZjvjVFA0GOFy8QqRJTFtRWpm84bpG/edit?usp=sharing&ouid=117153571465087663660&rtpof=true&sd=true"
+            },
+            "16": {
+                "name": "APUNTESVLANIPV4CONTELEFONIA.pdf",
+                "file": "APUNTESVLANIPV4CONTELEFONIA.pdf",
+                "link": "https://drive.google.com/file/d/1Qwae_3N5EBVdjZGr0Io_3IOWJVdE3jgx/view?usp=sharing"
+            },
+            "17": {
+                "name": "SEGURIDADMAC_con formato.docx",
+                "file": "SEGURIDADMAC_con formato.docx",
+                "link": "https://docs.google.com/document/d/1UxZmLeinphsyQZhtNQhwCliwYz93TwZ6/edit?usp=sharing&ouid=117153571465087663660&rtpof=true&sd=true"
+            },
+            "18": {
+                "name": "ASA5505_SINFORMATO.docx",
+                "file": "ASA5505_SINFORMATO.docx",
+                "link": "https://drive.google.com/file/d/1W9jIsPyRkQoMQNCL2hF1PcchunVZnLWv/view?usp=sharing"
+            },
+            "19": {
+                "name": "~$UNTES TUNNEL IPV6 E IPV4.docx",
+                "file": "~$UNTES TUNNEL IPV6 E IPV4.docx",
+                "link": "https://docs.google.com/document/d/1ZWz_l3deCvWsWuJBNGA7yOjXIEEbqprC/edit?usp=sharing&ouid=117153571465087663660&rtpof=true&sd=true"
+            },
+            "20": {
+                "name": "APUNTESVLANIPV6.pdf",
+                "file": "APUNTESVLANIPV6.pdf",
+                "link": "https://docs.google.com/document/d/1acGQVDRvzcxdq5sP8sAX2KG2kqZwk0oC/edit?usp=sharing&ouid=117153571465087663660&rtpof=true&sd=true"
+            },
+            "21": {
+                "name": "SYSLOG.docx",
+                "file": "SYSLOG.docx",
+                "link": "https://docs.google.com/document/d/1as_TkXcW91u5LIz1goVgmq-Y1cvnCS7z/edit?usp=sharing&ouid=117153571465087663660&rtpof=true&sd=true"
+            },
+            "22": {
+                "name": "NAT.docx",
+                "file": "NAT.docx",
+                "link": "https://docs.google.com/spreadsheets/d/1gfoxH6kJabP19i9MkuQE9jq0PWpcrfx1/edit?usp=sharing&ouid=117153571465087663660&rtpof=true&sd=true"
+            },
+            "23": {
+                "name": "VPN_FORMATO.docx",
+                "file": "VPN_FORMATO.docx",
+                "link": "https://drive.google.com/file/d/1gsm_Zm4RvJ48LG5jPHPRVBvr5dwCqwwN/view?usp=sharing"
+            },
+            "24": {
+                "name": "APUNTESTUNNELIPV6EIPV4.docx",
+                "file": "APUNTESTUNNELIPV6EIPV4.docx",
+                "link": "https://drive.google.com/file/d/1hphkzl_jCbL_0c52Bi-vkQMHwRbLqfvt/view?usp=sharing"
+            },
+            "25": {
+                "name": "APUNTES TUNNEL IPV6 E IPV4.docx",
+                "file": "APUNTES TUNNEL IPV6 E IPV4.docx",
+                "link": "https://docs.google.com/document/d/1lY7_oAWwLQcK9Bo7WYXrYtAIysvh7L-s/edit?usp=sharing&ouid=117153571465087663660&rtpof=true&sd=true"
+            },
+            "26": {
+                "name": "VPNASA5505.docx",
+                "file": "VPNASA5505.docx",
+                "link": "https://docs.google.com/document/d/1meFpEA6p6GJDD5HCJ33W-CtdF9TphRZ9/edit?usp=sharing&ouid=117153571465087663660&rtpof=true&sd=true"
+            },
+            "27": {
+                "name": "PLANTILLA CALCULAR SUBNETING_IPV6_SUMARIZAR.xlsx",
+                "file": "PLANTILLA CALCULAR SUBNETING_IPV6_SUMARIZAR.xlsx",
+                "link": "https://docs.google.com/document/d/1stKNDrRK9WmQkmwxM1C3oYyY7XPH1oS6/edit?usp=sharing&ouid=117153571465087663660&rtpof=true&sd=true"
+            },
+            "28": {
+                "name": "SEGURIDADMAC.pdf",
+                "file": "SEGURIDADMAC.pdf",
+                "link": "https://docs.google.com/document/d/1uI2-6XkFuvO44DKmgTqkMm19sOcUtqIn/edit?usp=sharing&ouid=117153571465087663660&rtpof=true&sd=true"
+            },
+            "29": {
+                "name": "OSPF.pdf",
+                "file": "OSPF.pdf",
+                "link": "https://docs.google.com/document/d/1v0OUAmw3DNBN4j1eFxSvL5Nuzmx_lzTL/edit?usp=sharing&ouid=117153571465087663660&rtpof=true&sd=true"
+            },
+            "30": {
+                "name": "ssh_asa5505.docx",
+                "file": "ssh_asa5505.docx",
+                "link": "https://docs.google.com/document/d/1vzx150zqejmmdoZv81pOrq3iGfxYjpxj/edit?usp=sharing&ouid=117153571465087663660&rtpof=true&sd=true"
+            },
+            "31": {
+                "name": "APUNTESOSPFIPV4EIPV6.pdf",
+                "file": "APUNTESOSPFIPV4EIPV6.pdf",
+                "link": "https://drive.google.com/file/d/1wN7PzIPc2rw-CeAzsFAYzK7r3cde_gNH/view?usp=sharing"
+            },
+            "32": {
+                "name": "ApuntesSniffer.docx",
+                "file": "ApuntesSniffer.docx",
+                "link": "https://docs.google.com/document/d/1wcon_HkKXCe4mMzc5ebAXkYS93r31y64/edit?usp=sharing&ouid=117153571465087663660&rtpof=true&sd=true"
+            },
+            "33": {
+                "name": "~$UNTES DHCP-RELAY.docx",
+                "file": "~$UNTES DHCP-RELAY.docx",
+                "link": "https://docs.google.com/document/d/1xAu_oN1DEqzbyKtITBNu5yci7hpK7wXU/edit?usp=sharing&ouid=117153571465087663660&rtpof=true&sd=true"
+            }
+        },
         "tests": {},
         "notes": {
             "SRI-doc": {
