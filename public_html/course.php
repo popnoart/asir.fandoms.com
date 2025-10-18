@@ -13,7 +13,7 @@
     <?php
     $columns = ['col1', 'col2', 'col3'];
     foreach ($columns as $i => $col) {
-        echo '<div class="col-4">';
+        echo '<div class="col-12 col-md-4">';
         if (isset($myconfig[$col]) && is_array($myconfig[$col])) {
             foreach ($myconfig[$col] as $card) {
                 $card_file = $_SERVER['DOCUMENT_ROOT'] . '/course_cards/' . $card . '.php';

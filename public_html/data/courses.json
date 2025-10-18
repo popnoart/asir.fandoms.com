@@ -69,12 +69,12 @@
             "33031": {
                 "name": "APUNTES CORTAFUEGOS FÍSICOS",
                 "file": "ASA5505.docx",
-                "link": ""
+                "link": "https://docs.google.com/document/d/1GyDs1CU9D0Hfa-wUqGfg2i6ZUQQ5NAks/edit?usp=sharing&ouid=117153571465087663660&rtpof=true&sd=true"
             },
             "33049": {
                 "name": "Ejemplito de Cortafuegos Físicos",
                 "file": "CORTAFUEGOS.pkt",
-                "link": ""
+                "link": "https://drive.google.com/file/d/1YdqrdyYI9Yk6NyIGAvTTnOl66biFIv6c/view?usp=sharing"
             }
         },
         "tasks": {
@@ -121,7 +121,15 @@
                 "name": "ACTIVIDAD COMPLEMENTARIA. TEMA 1 DIGITALIZACIÓN. LA DIGITALIZACIÓN. ENTORNOS IT Y OT"
             }
         },
-        "tests": {},
+        "tests": {
+            "34104": {
+                "type": "Cuestionario",
+                "start": "",
+                "end": "",
+                "name": "CUESTIONARIO TEMA 1. DIGITALIZACIÓN. ENTORNOS IT Y OT",
+                "link": ""
+            }
+        },
         "notes": {
             "DAPS-doc": {
                 "name": "Apuntes DAPS (doc)",
@@ -185,6 +193,19 @@
                 "name": "Apuntes IPE (doc)",
                 "link": "https://docs.google.com/document/d/1hV-HHRQfjabXeDla6K1usL2Rt5uitLUXn2s1JI72Xz8/edit?usp=sharing"
             }
+        }
+    },
+    "PRAC": {
+        "id": 349,
+        "name": "Prácticas",
+        "teacher": "Marina Ginés",
+        "teacher_mail": "practicasonline@digitechfp.com",
+        "units": {
+        },
+        "resources": {},
+        "tasks": {},
+        "tests": {},
+        "notes": {
         }
     },
     "SAD": {

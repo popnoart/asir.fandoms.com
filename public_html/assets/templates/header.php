@@ -43,15 +43,16 @@
             font-size: 1em;
             line-height: 1;
         }
+
     </style>
 </head>
 
 <body style="padding-top:75px;">
 
     <header class="fixed-top font-monospace">
-        <nav class="navbar navbar-expand-lg bg-info rounded"  data-bs-theme="light" aria-label="Clases">
-            <div class="container-fluid"> 
-                <a class="navbar-brand" href="/">ASIR</a> 
+        <nav class="navbar navbar-expand-lg bg-info rounded" data-bs-theme="light" aria-label="Clases">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/">ASIR</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navCourses" aria-controls="navCourses" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
                 <div class="collapse navbar-collapse" id="navCourses">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -61,20 +62,20 @@
                             </li>
                         <?php } ?>
                     </ul>
-                    <div class="justify-content-lg-end">    
+                    <div class="justify-content-lg-end">
                         <a class="btn btn-outline-dark me-2" href="https://campus.digitechfp.com/" target="_blank">
-                                <i class="fas fa-radiation"></i> Digitech
-                            </a>
-                            <a class="btn btn-outline-dark me-2" href="https://outlook.office.com/mail/" target="_blank">
-                                <i class="fas fa-envelope"></i> Outlook
-                            </a>
-                            <a class="btn btn-outline-dark me-2" href="/account_config_update.php" target="_blank">
-                                <i class="fas fa-sliders-h"></i> Conf.
-                            </a>
-                            <a class="btn btn-outline-dark me-2" href="#" data-bs-toggle="modal" data-bs-target="#calendarSyncModal">
-                                <i class="fas fa-calendar-alt"></i> Sinc.
-                            </a>
-                            <?php if ($_SESSION['account']=='popnoart') {?>
+                            <i class="fas fa-radiation"></i> Digitech
+                        </a>
+                        <a class="btn btn-outline-dark me-2" href="https://outlook.office.com/mail/" target="_blank">
+                            <i class="fas fa-envelope"></i> Outlook
+                        </a>
+                        <a class="btn btn-outline-dark me-2" href="/account_config_update.php" target="_blank">
+                            <i class="fas fa-sliders-h"></i> Conf.
+                        </a>
+                        <a class="btn btn-outline-dark me-2" href="#" data-bs-toggle="modal" data-bs-target="#calendarSyncModal">
+                            <i class="fas fa-calendar-alt"></i> Sinc.
+                        </a>
+                        <?php if ($_SESSION['account'] == 'popnoart') { ?>
                             <a class="btn btn-outline-light me-2" href="/tools/ocr.php" target="_blank">
                                 <i class="fas fa-file-pdf"></i>
                             </a>
@@ -87,8 +88,8 @@
                             <!--<a class="btn btn-outline-light me-2" href="/tools/compare.php" target="_blank">
                                 <i class="fas fa-clipboard-list"></i> Tasks
                             </a>-->
-                            <?php } ?>
-                        </div>
+                        <?php } ?>
+                    </div>
                 </div>
             </div>
         </nav>

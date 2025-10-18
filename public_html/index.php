@@ -5,7 +5,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/assets/templates/header.php';
 
 <div class="row">
     <div class="col-12 col-md-6">
-        <div class="card mb-3">
+        <div class="card mb-3" id="pending-tasks">
             <div class="card-body">
                 <h5 class="card-title">Tareas pendientes</h5>
                 <ul class="list-group  list-group-flush">
@@ -65,9 +65,74 @@ include $_SERVER['DOCUMENT_ROOT'] . '/assets/templates/header.php';
                 </ul>
             </div>
         </div>
+        <div class="card mb-3" id="pending-tests">
+            <div class="card-body">
+                <h5 class="card-title">Tests pendientes</h5>
+                <ul class="list-group  list-group-flush">
+                    <?php if (!empty($pending_tests)) {
+                        foreach ($pending_tests as $test=> $test_data) {
+                    ?>
+                            <li class="list-group-item ">
+                                <?php if (!empty($test_data['course'])): ?>
+                                    <a href="/course.php?course=<?= htmlspecialchars($test_data['course']); ?>"><span class="badge bg-info text-bg-info ms-2"><?= htmlspecialchars($test_data['course']); ?></span></a>
+                                <?php endif; ?>
+                                <a href="https://campus.digitechfp.com/mod/quiz/view.php?id=<?= htmlspecialchars($test_data['id']); ?>" target="_blank"">
+                                    <?= htmlspecialchars($test_data['name']); ?>
+                                </a><br>
+                                <?php if (!empty($test_data['end'])) { ?>
+                                    Fin: <?= htmlspecialchars($test_data['end']); ?>
+                                <?php } ?>
+                                <?php if (!empty($test_data['link'])) { ?>
+                                    <a href="<?= $test_data['link']; ?>" target="_blank">Práctica</a>
+                                <?php } ?>
+                                <span class="badge <?php if($test_data['type'] == 'Autoevaluación'){ ?> bg-danger text-bg-danger<?php }else{ ?> bg-warning text-bg-warning<?php } ?> ms-2"><?= htmlspecialchars($test_data['type']); ?></span>
+                                <span class="badge text-bg-secondary ms-2" style="cursor:pointer;" data-bs-toggle="modal" data-bs-target="#statusModal<?= $test; ?>"><?= htmlspecialchars($test_data['status']); ?></span>
+                            </li>
+                            <!-- Modal cambio de estado -->
+                            <div class="modal fade" id="statusModal<?= $test; ?>" tabindex="-1" aria-labelledby="statusModal<?= $test; ?>Label" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <form method="post" action="">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="statusModal<?= $test; ?>Label">Cambiar estado de la tarea</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <input type="hidden" name="change_status_type" value="tests">
+                                                <input type="hidden" name="change_status_id" value="<?= htmlspecialchars($test_data['id']); ?>">
+                                                <?php
+                                                $status_options = $myconfig['tests_status'];
+                                                ?>
+                                                <div class="mb-3">
+                                                    <label for="new_status_<?= $test; ?>" class="form-label">Selecciona nuevo estado:</label>
+                                                    <select class="form-select" id="new_status_<?= $test; ?>" name="new_status">
+                                                        <?php foreach ($status_options as $opt): ?>
+                                                            <option value="<?= htmlspecialchars($opt); ?>" <?= $opt == $test_data['status'] ? ' selected' : '' ?>><?= htmlspecialchars($opt); ?></option>
+                                                        <?php endforeach; ?>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                                                <button type="submit" class="btn btn-primary">Guardar</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+
+                        <?php
+                        } // fin foreach
+                    } // fin if !empty
+                    else { ?>
+                        <li class="list-group-item">No hay tareas pendientes.</li>
+                    <?php } ?>
+                </ul>
+            </div>
+        </div>
     </div>
     <div class="col-12 col-md-6">
-        <div class="card mb-3 border-0">
+        <div class="card mb-3 border-0" id="calendar"
             <div class="agenda-list">
                 <?php
                 // Mostrar las próximas 10 clases (SUMMARY empieza por 'Clase')

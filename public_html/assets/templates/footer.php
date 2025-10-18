@@ -54,6 +54,7 @@
 
 <script>
     document.addEventListener('DOMContentLoaded', function() {
+        //Statuses
         var estadosModal = document.getElementById('estadosModal');
         var estadosFormFields = document.getElementById('estadosFormFields');
         var estadosMsg = document.getElementById('estadosMsg');
@@ -75,6 +76,33 @@
                         estadosFormFields.innerHTML = '<div class="alert alert-danger">No se pudo cargar el formulario.</div>';
                     }
                 });
+        });
+        // Nav-tabs abstracto para cards con nav-tabs y collapse
+        document.querySelectorAll('.card').forEach(card => {
+            const navTabs = card.querySelector('.nav-tabs');
+            const tabContent = card.querySelector('.card-body');
+            if (!navTabs || !tabContent) return;
+            const navLinks = navTabs.querySelectorAll('.nav-link');
+            const collapses = tabContent.querySelectorAll('.tab-pane');
+
+            navLinks.forEach(link => {
+                link.addEventListener('click', function() {
+                    navLinks.forEach(l => l.classList.remove('active'));
+                    this.classList.add('active');
+                });
+            });
+
+            collapses.forEach(collapse => {
+                collapse.addEventListener('show.bs.collapse', function() {
+                    navLinks.forEach(link => {
+                        if (link.getAttribute('data-bs-target') === '#' + collapse.id) {
+                            link.classList.add('active');
+                        } else {
+                            link.classList.remove('active');
+                        }
+                    });
+                });
+            });
         });
     });
 </script>

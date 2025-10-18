@@ -44,7 +44,7 @@ function format_ics_date_madrid($ics_date)
 }
 
 // Función para ordenar por fecha de finalización ascendente
-function sort_tasks_by_end($a, $b)
+function sort_by_end($a, $b)
 {
     $a_end = strtotime(str_replace('/', '-', $a['end']));
     $b_end = strtotime(str_replace('/', '-', $b['end']));
@@ -64,6 +64,17 @@ foreach ($all_courses as $course_key => $course_data) {
                 $all_courses[$course_key]['tasks'][$task_key]['status'] = 'Pendiente';
             } else {
                 $all_courses[$course_key]['tasks'][$task_key]['status'] = $all_states['tasks'][$task_key];
+            }
+        }
+    }
+    // Tests
+    if (!empty($course_data['tests']) && is_array($course_data['tests'])) {
+        foreach ($course_data['tests'] as $test_key => $test_data) {
+            if (isset($test_key) && !isset($all_states['tests'][$test_key])) {
+                $all_states['tests'][$test_key] = 'Pendiente';
+                $all_courses[$course_key]['tests'][$test_key]['status'] = 'Pendiente';
+            } else {
+                $all_courses[$course_key]['tests'][$test_key]['status'] = $all_states['tests'][$test_key];
             }
         }
     }
@@ -102,6 +113,24 @@ if (!empty($_GET['course'])) {
     $course_data = null;
 }
 
+//////////REEMPLAZAR Y LIMPIAR PENDING_TASKS Y DONE_TASKS EN $myconfig SOLO UNA VEZ\\\\\\
+if (is_array($myconfig) && empty($myconfig['migrated_pending_done_tasks'])) {
+    foreach (['col1', 'col2', 'col3'] as $col) {
+        if (isset($myconfig[$col]) && is_array($myconfig[$col])) {
+            // Reemplazar 'pending_tasks' por 'tasks'
+            $myconfig[$col] = array_map(function($v) {
+                return $v === 'pending_tasks' ? 'tasks' : $v;
+            }, $myconfig[$col]);
+            // Eliminar 'done_tasks'
+            $myconfig[$col] = array_values(array_filter($myconfig[$col], function($v) {
+                return $v !== 'done_tasks';
+            }));
+        }
+    }
+    $myconfig['migrated_pending_done_tasks'] = true;
+    file_put_contents($myconfig_path, json_encode($myconfig, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
+}
+
 
 //////////TASKS\\\\\\\\\\
 
@@ -116,8 +145,8 @@ if (!empty($course)) {
             $done_tasks_course[] = $task_data + ['course' => $course,'id' => $task];
         }
     }
-    usort($pending_tasks_course, 'sort_tasks_by_end');
-    usort($done_tasks_course, 'sort_tasks_by_end');
+    usort($pending_tasks_course, 'sort_by_end');
+    usort($done_tasks_course, 'sort_by_end');
 }
 // Tareas pendientes globales
 else{
@@ -133,20 +162,43 @@ else{
             }
         }
     }
-    usort($pending_tasks, 'sort_tasks_by_end');
+    usort($pending_tasks, 'sort_by_end');
 }
 
-// Procesar cambio de estado de tarea
-if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['change_status_id'], $_POST['new_status'])) {
-    $uid = $_POST['change_status_id'];
-    $type = $_POST['change_status_type'];
-    $new_status = $_POST['new_status'];
-    $all_states[$type][$uid] = $new_status;
-    file_put_contents($states_path, json_encode($all_states, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
-    header('Location: ' . $_SERVER['REQUEST_URI']);
-    exit;
-}
 
+
+//////////TESTS\\\\\\\\\\
+
+// Tareas pendientes y terminadas de la asignatura actual
+if (!empty($course)) {
+    $pending_tests_course = [];
+    $done_tests_course = [];
+    foreach ($course_data['tests'] as $test => $test_data) {
+        if (isset($test_data['status']) && $test_data['status'] === 'Pendiente') {
+            $pending_tests_course[] = $test_data + ['course' => $course,'id' => $test];
+        } else {
+            $done_tests_course[] = $test_data + ['course' => $course,'id' => $test];
+        }
+    }
+    usort($pending_tests_course, 'sort_by_end');
+    usort($done_tests_course, 'sort_by_end');
+}
+// Tareas pendientes globales
+else{
+    $pending_tests = [];
+    foreach ($all_courses as $course_key => $course_data) {
+        if (!empty($course_data['tests']) && is_array($course_data['tests'])) {
+            foreach ($course_data['tests'] as $test => $test_data) {
+                if (isset($test_data['status']) && $test_data['status'] === 'Pendiente') {
+                    $pending_tests[] = $test_data + ['course' => $course_key,'id' => $test];
+                } else {
+                    $done_tests[] = $test_data + ['course' => $course_key,'id' => $test];
+                }
+            }
+        }
+    }
+    usort($pending_tests, 'sort_by_end');
+}
 
 //////////MYCONFIG\\\\\\\\\\
 $myconfig_empty = [
@@ -172,4 +224,17 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['UpdateMyConfig'])) {
     }
     file_put_contents($myconfig_path, json_encode($myconfig_new, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
     $myconfig = $myconfig_new;
+}
+
+
+//////////STATUS\\\\\\\\\\
+// Procesar cambio de estado
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['change_status_id'], $_POST['new_status'])) {
+    $uid = $_POST['change_status_id'];
+    $type = $_POST['change_status_type'];
+    $new_status = $_POST['new_status'];
+    $all_states[$type][$uid] = $new_status;
+    file_put_contents($states_path, json_encode($all_states, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
+    header('Location: ' . $_SERVER['REQUEST_URI']);
+    exit;
 }
