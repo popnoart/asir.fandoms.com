@@ -47,9 +47,9 @@
                                             <div class="mb-3">
                                                 <label for="new_status_<?= $test; ?>" class="form-label">Selecciona nuevo estado:</label>
                                                 <select class="form-select" id="new_status_<?= $test; ?>" name="new_status">
-                                                    <?php foreach ($status_options as $opt): ?>
+                                                    <?php foreach ($status_options as $opt) { ?>
                                                         <option value="<?= htmlspecialchars($opt); ?>" <?= $opt == $test_data['status'] ? ' selected' : '' ?>><?= htmlspecialchars($opt); ?></option>
-                                                    <?php endforeach; ?>
+                                                    <?php } ?>
                                                 </select>
                                             </div>
                                         </div>
@@ -104,9 +104,9 @@
                                             <div class="mb-3">
                                                 <label for="new_status_done_<?= $test; ?>" class="form-label">Selecciona nuevo estado:</label>
                                                 <select class="form-select" id="new_status_done_<?= $test; ?>" name="new_status">
-                                                    <?php foreach ($status_options as $opt): ?>
+                                                    <?php foreach ($status_options as $opt) { ?>
                                                         <option value="<?= htmlspecialchars($opt); ?>" <?= $opt == $test_data['status'] ? ' selected' : '' ?>><?= htmlspecialchars($opt); ?></option>
-                                                    <?php endforeach; ?>
+                                                    <?php } ?>
                                                 </select>
                                             </div>
                                         </div>
