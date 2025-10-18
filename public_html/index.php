@@ -21,15 +21,15 @@ include $_SERVER['DOCUMENT_ROOT'] . '/assets/templates/header.php';
                                 </a><br>
                                 Fin: <?= htmlspecialchars($task_data['end']); ?>
                                 <span class="badge <?php if($task_data['type'] == 'Obligatoria'){ ?> bg-danger text-bg-danger<?php }else{ ?> bg-warning text-bg-warning<?php } ?> ms-2"><?= htmlspecialchars($task_data['type']); ?></span>
-                                <span class="badge text-bg-secondary ms-2" style="cursor:pointer;" data-bs-toggle="modal" data-bs-target="#statusModal<?= $task; ?>"><?= htmlspecialchars($task_data['status']); ?></span>
+                                <span class="badge text-bg-secondary ms-2" style="cursor:pointer;" data-bs-toggle="modal" data-bs-target="#statusTasksModal<?= $task; ?>"><?= htmlspecialchars($task_data['status']); ?></span>
                             </li>
                             <!-- Modal cambio de estado -->
-                            <div class="modal fade" id="statusModal<?= $task; ?>" tabindex="-1" aria-labelledby="statusModal<?= $task; ?>Label" aria-hidden="true">
+                            <div class="modal fade" id="statusTasksModal<?= $task; ?>" tabindex="-1" aria-labelledby="statusTasksModal<?= $task; ?>Label" aria-hidden="true">
                                 <div class="modal-dialog">
                                     <div class="modal-content">
                                         <form method="post" action="">
                                             <div class="modal-header">
-                                                <h5 class="modal-title" id="statusModal<?= $task; ?>Label">Cambiar estado de la tarea</h5>
+                                                <h5 class="modal-title" id="statusTasksModal<?= $task; ?>Label">Cambiar estado de la tarea</h5>
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
                                             </div>
                                             <div class="modal-body">
@@ -86,15 +86,15 @@ include $_SERVER['DOCUMENT_ROOT'] . '/assets/templates/header.php';
                                     <a href="<?= $test_data['link']; ?>" target="_blank">Práctica</a>
                                 <?php } ?>
                                 <span class="badge <?php if($test_data['type'] == 'Autoevaluación'){ ?> bg-danger text-bg-danger<?php }else{ ?> bg-warning text-bg-warning<?php } ?> ms-2"><?= htmlspecialchars($test_data['type']); ?></span>
-                                <span class="badge text-bg-secondary ms-2" style="cursor:pointer;" data-bs-toggle="modal" data-bs-target="#statusModal<?= $test; ?>"><?= htmlspecialchars($test_data['status']); ?></span>
+                                <span class="badge text-bg-secondary ms-2" style="cursor:pointer;" data-bs-toggle="modal" data-bs-target="#statusTestsModal<?= $test; ?>"><?= htmlspecialchars($test_data['status']); ?></span>
                             </li>
                             <!-- Modal cambio de estado -->
-                            <div class="modal fade" id="statusModal<?= $test; ?>" tabindex="-1" aria-labelledby="statusModal<?= $test; ?>Label" aria-hidden="true">
+                            <div class="modal fade" id="statusTestsModal<?= $test; ?>" tabindex="-1" aria-labelledby="statusTestsModal<?= $test; ?>Label" aria-hidden="true">
                                 <div class="modal-dialog">
                                     <div class="modal-content">
                                         <form method="post" action="">
                                             <div class="modal-header">
-                                                <h5 class="modal-title" id="statusModal<?= $test; ?>Label">Cambiar estado de la tarea</h5>
+                                                <h5 class="modal-title" id="statusTestsModal<?= $test; ?>Label">Cambiar estado del test</h5>
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
                                             </div>
                                             <div class="modal-body">
