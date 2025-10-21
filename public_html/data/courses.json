@@ -541,7 +541,7 @@
                 "end": "03-11-2025 23:59",
                 "name": "Unit 1 Task. MANDATORY"
             }
-        },,
+        },
         "tests": {
             "14076": {
                 "type": "Cuestionario",
