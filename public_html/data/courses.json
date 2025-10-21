@@ -162,7 +162,20 @@
                 "link": "https://drive.google.com/file/d/1OgYWYltlNN_w63TSMXwdczR-kjhilI0Y/view?usp=sharing"
             }
         },
-        "tasks": {},
+        "tasks": {
+            "34421": {
+                "type": "Obligatoria",
+                "start": "21-10-2025 00:00",
+                "end": "30-10-2025 23:59",
+                "name": "Vencimiento de Tarea JavaScript"
+            },
+            "34424": {
+                "type": "Obligatoria",
+                "start": "21-10-2025 00:00",
+                "end": "30-10-2025 23:59",
+                "name": "Vencimiento de Tarea JavaScript II"
+            }
+        },
         "tests": {},
         "notes": {
             "IAW-doc": {
