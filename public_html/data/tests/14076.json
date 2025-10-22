@@ -63,6 +63,11 @@
                 "correcta": true
             },
             {
+                "opcion": "c.",
+                "texto": "are not working",
+                "correcta": true
+            },
+            {
                 "opcion": "d.",
                 "texto": "work",
                 "correcta": false
@@ -86,6 +91,11 @@
                 "opcion": "c.",
                 "texto": "Replacing the motherboard.",
                 "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Installing antivirus software.",
+                "correcta": true
             }
         ]
     },
@@ -106,6 +116,11 @@
                 "opcion": "c.",
                 "texto": "Repairing hardware issues.",
                 "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Providing IT support to users.",
+                "correcta": false
             }
         ]
     },
@@ -126,6 +141,11 @@
                 "opcion": "c.",
                 "texto": "live",
                 "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "living",
+                "correcta": false
             }
         ]
     },
@@ -146,6 +166,11 @@
                 "opcion": "c.",
                 "texto": "does not work",
                 "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Are / going",
+                "correcta": false
             }
         ]
     },
@@ -166,6 +191,11 @@
                 "opcion": "c.",
                 "texto": "Do \/ go",
                 "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Are / going",
+                "correcta": false
             }
         ]
     },
@@ -186,6 +216,11 @@
                 "opcion": "c.",
                 "texto": "is working",
                 "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "work",
+                "correcta": false
             }
         ]
     },
