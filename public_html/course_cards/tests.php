@@ -21,7 +21,9 @@
                             <a href="https://campus.digitechfp.com/mod/quiz/view.php?id=<?= htmlspecialchars($test_data['id']); ?>" target="_blank"">
                                 <?= htmlspecialchars($test_data['name']); ?>
                             </a><br>
-                            Fin: <?= htmlspecialchars($test_data['end']); ?>
+                            <?php if (!empty($test_data['end'])) { ?>
+                                Fin: <?= htmlspecialchars($test_data['end']); ?>
+                            <?php } ?>
                             <span class=" badge <?php if ($test_data['type'] == 'Obligatoria') { ?> bg-danger text-bg-danger<?php } else { ?> bg-warning text-bg-warning<?php } ?> ms-2"><?= htmlspecialchars($test_data['type']); ?></span>
                                 <span class="badge bg-secondary" style="cursor:pointer;" data-bs-toggle="modal" data-bs-target="#<?= $modal_id; ?>">
                                     <?php if (!empty($test_data['status'])) {

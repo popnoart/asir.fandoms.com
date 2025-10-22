@@ -1,0 +1,217 @@
+[
+    {
+        "enunciado": "Which word is countable?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Information",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Furniture",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Water",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "People",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "What does it mean to \"assemble\" a computer?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "To upgrade hardware components.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "To test a new program.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "To fix a problem in software.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "To put together the parts of a computer system.",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "They __________ (work) on the project this week.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "works",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "are working",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "work",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Which task involves \"upgrading\" a computer?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Removing unnecessary files.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Increasing the computer's speed.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Replacing the motherboard.",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "What is the main responsibility of someone who \"troubleshoots\" computers?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Designing new software.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Testing network connections.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Repairing hardware issues.",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "My parents __________ (live) in London.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "are living",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "lives",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "live",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "She __________ (not work) on Sundays.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "do not works",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Is not working",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "does not work",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "__________ you often __________ (go) to that restaurant?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Do \/ goes",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Does \/ are going",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Do \/ go",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "The team __________ (work) on a new project this month.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "works",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "working",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "is working",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "Which part stores information permanently on a computer?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Hard drive",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Optical drive",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "CPU",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "RAM",
+                "correcta": false
+            }
+        ]
+    }
+]

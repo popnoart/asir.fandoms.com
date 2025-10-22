@@ -19,33 +19,244 @@ $courses_path = $_SERVER['DOCUMENT_ROOT'] . '/data/courses.json';
 $all_courses = json_decode(file_get_contents($courses_path), true);
 
 
+function extraerPreguntasRespuestasv1($html) {
+    $preguntas = [];
+    $dom = new DOMDocument('1.0', 'UTF-8');
+    // Forzar encoding UTF-8
+    @$dom->loadHTML('<?xml encoding="utf-8" ?>' . $html);
+    // Buscar bloques de pregunta con clases que contengan 'que' y 'multichoice' (más tolerante)
+    foreach ($dom->getElementsByTagName('div') as $div) {
+        $class = $div->getAttribute('class');
+        if ($class && strpos($class, 'que') !== false && strpos($class, 'multichoice') !== false) {
+            $enunciado = '';
+            $respuestas = [];
+
+            // Buscar el primer elemento que tenga 'qtext' en su clase (puede tener otras clases)
+            $qtextNode = null;
+            foreach ($div->getElementsByTagName('*') as $node) {
+                $c = $node->getAttribute('class');
+                if ($c && strpos($c, 'qtext') !== false) {
+                    $qtextNode = $node;
+                    break;
+                }
+            }
+            if ($qtextNode) {
+                $enunciado = trim($qtextNode->textContent);
+            } else {
+                // Fallback: buscar primer h4, h3 o .formulation
+                foreach (['h4','h3','div'] as $tag) {
+                    foreach ($div->getElementsByTagName($tag) as $n) {
+                        $nc = $n->getAttribute('class');
+                        if ($tag !== 'div' || ($nc && strpos($nc, 'formulation') !== false)) {
+                            $text = trim($n->textContent);
+                            if ($text !== '') {
+                                $enunciado = $text;
+                                break 2;
+                            }
+                        }
+                    }
+                }
+            }
+
+            // Buscar respuestas: elementos con clase que empiece por r\n (r1, r2...) o que contengan 'answer' o 'r'
+            foreach ($div->getElementsByTagName('*') as $node) {
+                $nc = $node->getAttribute('class');
+                if (!$nc) continue;
+
+                // patrón para las clases de respuesta más comunes
+                if (preg_match('/\br\d+\b/', $nc) || strpos($nc, 'answer') !== false || preg_match('/\br[01]/', $nc)) {
+                    // label puede estar en <span>, <label> o dentro de un <input> con atributo value
+                    $label = '';
+                    $texto = '';
+
+                    // Intentar span, label, strong en ese orden
+                    $span = null;
+                    foreach (['span','label','strong'] as $tag) {
+                        $elems = $node->getElementsByTagName($tag);
+                        if ($elems->length) {
+                            $span = $elems->item(0);
+                            break;
+                        }
+                    }
+                    if ($span) {
+                        $label = trim($span->textContent);
+                    } else {
+                        // Intentar input value
+                        $inputs = $node->getElementsByTagName('input');
+                        if ($inputs->length) {
+                            $ival = $inputs->item(0)->getAttribute('value');
+                            if ($ival) $label = trim($ival);
+                        }
+                    }
+
+                    // Para el texto, preferir <p>, si no, tomar el resto del texto del nodo excluyendo el label
+                    $p = $node->getElementsByTagName('p');
+                    if ($p->length) {
+                        $texto = trim($p->item(0)->textContent);
+                    } else {
+                        // Construir texto a partir del nodo, removiendo el label si lo encontramos
+                        $full = trim($node->textContent);
+                        if ($label !== '' && strpos($full, $label) === 0) {
+                            $texto = trim(substr($full, strlen($label)));
+                        } else {
+                            $texto = $full;
+                        }
+                    }
+
+                    // Determinar si es correcta
+                    $esCorrecta = strpos($nc, 'correct') !== false || strpos($nc, 'isright') !== false;
+
+                    // Añadir solo si hay contenido relevante
+                    if ($label !== '' || $texto !== '') {
+                        $respuestas[] = [
+                            'opcion' => $label,
+                            'texto' => $texto,
+                            'correcta' => $esCorrecta
+                        ];
+                    }
+                }
+            }
+
+            $preguntas[] = [
+                'enunciado' => $enunciado,
+                'respuestas' => $respuestas
+            ];
+        }
+    }
+    return $preguntas;
+}
+
 function extraerPreguntasRespuestas($html) {
     $preguntas = [];
     $dom = new DOMDocument('1.0', 'UTF-8');
     // Forzar encoding UTF-8
     @$dom->loadHTML('<?xml encoding="utf-8" ?>' . $html);
-
+    // Buscar bloques de pregunta con clases que contengan 'que' y 'multichoice' (más tolerante)
     foreach ($dom->getElementsByTagName('div') as $div) {
-        if ($div->getAttribute('class') && strpos($div->getAttribute('class'), 'que multichoice') !== false) {
+        $class = $div->getAttribute('class');
+        if ($class && strpos($class, 'que') !== false && strpos($class, 'multichoice') !== false) {
             $enunciado = '';
             $respuestas = [];
 
-            foreach ($div->getElementsByTagName('div') as $subdiv) {
-                if ($subdiv->getAttribute('class') === 'qtext') {
-                    $enunciado = trim($subdiv->textContent);
+            // para evitar procesar el mismo nodo varias veces
+            $procesados = [];
+
+            // Buscar el primer elemento que tenga 'qtext' en su clase (puede tener otras clases)
+            $qtextNode = null;
+            foreach ($div->getElementsByTagName('*') as $node) {
+                $c = $node->getAttribute('class');
+                if ($c && strpos($c, 'qtext') !== false) {
+                    $qtextNode = $node;
+                    break;
+                }
+            }
+            if ($qtextNode) {
+                $enunciado = trim($qtextNode->textContent);
+            } else {
+                // Fallback: buscar primer h4, h3 o .formulation
+                foreach (['h4','h3','div'] as $tag) {
+                    foreach ($div->getElementsByTagName($tag) as $n) {
+                        $nc = $n->getAttribute('class');
+                        if ($tag !== 'div' || ($nc && strpos($nc, 'formulation') !== false)) {
+                            $text = trim($n->textContent);
+                            if ($text !== '') {
+                                $enunciado = $text;
+                                break 2;
+                            }
+                        }
+                    }
                 }
             }
 
-            foreach ($div->getElementsByTagName('div') as $ansDiv) {
-                if ($ansDiv->getAttribute('class') && preg_match('/^r[01]/', $ansDiv->getAttribute('class'))) {
-                    $label = $ansDiv->getElementsByTagName('span')[0]->textContent;
-                    $texto = $ansDiv->getElementsByTagName('p')[0]->textContent;
-                    $esCorrecta = strpos($ansDiv->getAttribute('class'), 'correct') !== false;
-                    $respuestas[] = [
-                        'opcion' => $label,
-                        'texto' => $texto,
-                        'correcta' => $esCorrecta
-                    ];
+            // Paso 1: buscar nodos que representen directamente opciones (clases rN)
+            foreach ($div->getElementsByTagName('*') as $node) {
+                $nc = $node->getAttribute('class');
+                if (!$nc) continue;
+                if (preg_match('/\br\d+\b/', $nc)) {
+                    $hash = spl_object_hash($node);
+                    if (isset($procesados[$hash])) continue;
+                    $procesados[$hash] = true;
+
+                    list($label, $texto) = ['', ''];
+                    // label: preferir span/label/strong
+                    foreach (['span','label','strong'] as $tag) {
+                        $elems = $node->getElementsByTagName($tag);
+                        if ($elems->length) {
+                            $label = trim($elems->item(0)->textContent);
+                            break;
+                        }
+                    }
+                    if ($label === '') {
+                        // intentar input value
+                        $inputs = $node->getElementsByTagName('input');
+                        if ($inputs->length) $label = trim($inputs->item(0)->getAttribute('value'));
+                    }
+
+                    // texto: preferir p, luego todo el texto del nodo sin el label inicial
+                    $p = $node->getElementsByTagName('p');
+                    if ($p->length) {
+                        $texto = trim($p->item(0)->textContent);
+                    } else {
+                        $full = trim($node->textContent);
+                        if ($label !== '' && strpos($full, $label) === 0) {
+                            $texto = trim(substr($full, strlen($label)));
+                        } else {
+                            $texto = $full;
+                        }
+                    }
+
+                    $esCorrecta = strpos($nc, 'correct') !== false || strpos($nc, 'isright') !== false;
+                    if ($label !== '' || $texto !== '') {
+                        $respuestas[] = ['opcion' => $label, 'texto' => $texto, 'correcta' => $esCorrecta];
+                    }
+                }
+            }
+
+            // Paso 2: si no se encontraron nodos rN, intentar procesar contenedores con clase 'answer'
+            if (empty($respuestas)) {
+                foreach ($div->getElementsByTagName('*') as $node) {
+                    $nc = $node->getAttribute('class');
+                    if (!$nc) continue;
+                    if (strpos($nc, 'answer') !== false) {
+                        // revisar hijos directos que puedan ser opciones
+                        foreach ($node->childNodes as $child) {
+                            if (!($child instanceof DOMElement)) continue;
+                            $childHash = spl_object_hash($child);
+                            if (isset($procesados[$childHash])) continue;
+                            $procesados[$childHash] = true;
+
+                            // intentar extraer label/text similar a arriba
+                            $label = '';
+                            $texto = '';
+                            foreach (['span','label','strong'] as $tag) {
+                                $elems = $child->getElementsByTagName($tag);
+                                if ($elems->length) {
+                                    $label = trim($elems->item(0)->textContent);
+                                    break;
+                                }
+                            }
+                            if ($label === '') {
+                                $inputs = $child->getElementsByTagName('input');
+                                if ($inputs->length) $label = trim($inputs->item(0)->getAttribute('value'));
+                            }
+                            $p = $child->getElementsByTagName('p');
+                            if ($p->length) {
+                                $texto = trim($p->item(0)->textContent);
+                            } else {
+                                $full = trim($child->textContent);
+                                if ($label !== '' && strpos($full, $label) === 0) {
+                                    $texto = trim(substr($full, strlen($label)));
+                                } else {
+                                    $texto = $full;
+                                }
+                            }
+                            // detectar correcta buscando 'correct' en la clase del child o del node
+                            $esCorrecta = (strpos($child->getAttribute('class'), 'correct') !== false) || (strpos($nc, 'correct') !== false) || (strpos($child->getAttribute('class'), 'isright') !== false);
+                            if ($label !== '' || $texto !== '') {
+                                $respuestas[] = ['opcion' => $label, 'texto' => $texto, 'correcta' => $esCorrecta];
+                            }
+                        }
+                    }
                 }
             }
 
