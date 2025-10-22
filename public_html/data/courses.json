@@ -10,6 +10,12 @@
                 "folder_number": 1,
                 "name": "Unidad 1 y 2. Instalación de un sistema gestor de bases de datos",
                 "link": "https://drive.google.com/file/d/1BiZfxIgfzv4A-dqeRcWsG8g_2y-p9H3d/view?usp=sharing"
+            },
+            "ASGBD-3": {
+                "folder": 16662,
+                "folder_number": 1,
+                "name": "Unidad 3. Acceso a la información DCL",
+                "link": "https://drive.google.com/file/d/1YEyzj_AUDTgnzLjVXsIEx59EyRQI6NOs/view?usp=sharing"
             }
         },
         "resources": {},
@@ -21,7 +27,15 @@
                 "name": "Tarea 1 - Instalación de un sistema gestor de bases de datos OBLIGATORIA"
             }
         },
-        "tests": {},
+        "tests": {
+            "34104": {
+                "type": "Cuestionario",
+                "start": "",
+                "end": "",
+                "name": "Cuestionario - Instalación SGBD",
+                "link": ""
+            }
+        },
         "notes": {
             "ASGBD-doc": {
                 "name": "Apuntes ASGBD (doc)",
