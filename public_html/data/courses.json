@@ -25,6 +25,24 @@
                 "start": "07-10-2025 18:30",
                 "end": "22-10-2025 23:59",
                 "name": "Tarea 1 - Instalación de un sistema gestor de bases de datos OBLIGATORIA"
+            },
+            "4475": {
+                "type": "Obligatoria",
+                "start": "23-10-2025 00:00",
+                "end": "23-11-2025 23:59",
+                "name": "Tarea 2 - Acceso a la información DCL. OBLIGATORIA"
+            },
+            "17409": {
+                "type": "Complementaria",
+                "start": "23-10-2025 10:26",
+                "end": "16-11-2025 23:59",
+                "name": "Tarea 01-02 Usuarios en BD de pedidos"
+            },
+            "9886": {
+                "type": "Complementaria",
+                "start": "23-10-2025 10:31",
+                "end": "16-11-2025 23:59",
+                "name": "Tarea 01-03 Control de la BD de pruebas"
             }
         },
         "tests": {
@@ -284,6 +302,12 @@
                 "start": "30-09-2025 23:59",
                 "end": "22-10-2025 23:59",
                 "name": "Vencimiento de Tarea 1 - Adopción de pautas de seguridad informática OBLIGATORIA"
+            },
+            "4485": {
+                "type": "Obligatoria",
+                "start": "23-10-2025 00:00",
+                "end": "23-11-2025 23:59",
+                "name": "Tarea 2 - Implantando medidas de seguridad - OBLIGATORIA"
             }
         },
         "tests": {},
