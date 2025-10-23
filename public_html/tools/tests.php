@@ -123,6 +123,22 @@ function extraerPreguntasRespuestasv1($html) {
             ];
         }
     }
+    
+    // Limpieza final: eliminar saltos de línea innecesarios
+    foreach ($preguntas as &$pregunta) {
+        // Limpiar enunciado: eliminar \n si no hay punto antes
+        $pregunta['enunciado'] = preg_replace('/(?<![.!?])\s*\n\s*/', ' ', $pregunta['enunciado']);
+        $pregunta['enunciado'] = preg_replace('/\s+/', ' ', $pregunta['enunciado']);
+        $pregunta['enunciado'] = trim($pregunta['enunciado']);
+        
+        // Limpiar respuestas
+        foreach ($pregunta['respuestas'] as &$respuesta) {
+            $respuesta['texto'] = preg_replace('/(?<![.!?])\s*\n\s*/', ' ', $respuesta['texto']);
+            $respuesta['texto'] = preg_replace('/\s+/', ' ', $respuesta['texto']);
+            $respuesta['texto'] = trim($respuesta['texto']);
+        }
+    }
+    
     return $preguntas;
 }
 
@@ -169,34 +185,86 @@ function extraerPreguntasRespuestas($html) {
             }
 
             // Paso 1: buscar nodos que representen directamente opciones (clases rN)
-            foreach ($div->getElementsByTagName('*') as $node) {
-                $nc = $node->getAttribute('class');
-                if (!$nc) continue;
-                if (preg_match('/\br\d+\b/', $nc)) {
-                    $hash = spl_object_hash($node);
-                    if (isset($procesados[$hash])) continue;
-                    $procesados[$hash] = true;
-
-                    list($label, $texto) = ['', ''];
-                    // label: preferir span/label/strong
-                    foreach (['span','label','strong'] as $tag) {
-                        $elems = $node->getElementsByTagName($tag);
-                        if ($elems->length) {
-                            $label = trim($elems->item(0)->textContent);
+            // Primero buscar el contenedor de respuestas (.ablock)
+            $answerContainer = null;
+            foreach ($div->getElementsByTagName('div') as $d) {
+                $dc = $d->getAttribute('class');
+                if ($dc && strpos($dc, 'ablock') !== false) {
+                    $answerContainer = $d;
+                    break;
+                }
+            }
+            
+            // Si encontramos .ablock, buscar su hijo .answer
+            if ($answerContainer) {
+                foreach ($answerContainer->childNodes as $child) {
+                    if ($child instanceof DOMElement) {
+                        $childClass = $child->getAttribute('class');
+                        if ($childClass && strpos($childClass, 'answer') !== false) {
+                            $answerContainer = $child;
                             break;
                         }
                     }
-                    if ($label === '') {
-                        // intentar input value
-                        $inputs = $node->getElementsByTagName('input');
-                        if ($inputs->length) $label = trim($inputs->item(0)->getAttribute('value'));
+                }
+            }
+            
+            // Ahora iterar solo sobre los hijos directos del contenedor .answer
+            $nodesToProcess = [];
+            if ($answerContainer) {
+                foreach ($answerContainer->childNodes as $child) {
+                    if ($child instanceof DOMElement) {
+                        $nc = $child->getAttribute('class');
+                        if ($nc && preg_match('/\br\d+\b/', $nc)) {
+                            $nodesToProcess[] = $child;
+                        }
                     }
+                }
+            }
+            
+            foreach ($nodesToProcess as $node) {
+                $nc = $node->getAttribute('class');
+                $hash = spl_object_hash($node);
+                if (isset($procesados[$hash])) continue;
+                $procesados[$hash] = true;
 
-                    // texto: preferir p, luego todo el texto del nodo sin el label inicial
+                list($label, $texto) = ['', ''];
+                // label: buscar span con clase 'answernumber' o similar
+                foreach (['span','label','strong'] as $tag) {
+                    $elems = $node->getElementsByTagName($tag);
+                    for ($i = 0; $i < $elems->length; $i++) {
+                        $elem = $elems->item($i);
+                        $elemClass = $elem->getAttribute('class');
+                        if (strpos($elemClass, 'answernumber') !== false) {
+                            $label = trim($elem->textContent);
+                            break 2;
+                        }
+                    }
+                    if ($elems->length && $label === '') {
+                        $label = trim($elems->item(0)->textContent);
+                        break;
+                    }
+                }
+                if ($label === '') {
+                    // intentar input value
+                    $inputs = $node->getElementsByTagName('input');
+                    if ($inputs->length) $label = trim($inputs->item(0)->getAttribute('value'));
+                }
+
+                // texto: buscar div con clase 'flex-fill' primero, luego <p>, finalmente textContent
+                $texto = '';
+                foreach ($node->getElementsByTagName('div') as $subdiv) {
+                    $subclass = $subdiv->getAttribute('class');
+                    if (strpos($subclass, 'flex-fill') !== false) {
+                        $texto = trim($subdiv->textContent);
+                        break;
+                    }
+                }
+                if ($texto === '') {
                     $p = $node->getElementsByTagName('p');
                     if ($p->length) {
                         $texto = trim($p->item(0)->textContent);
                     } else {
+                        // Construir texto a partir del nodo, removiendo el label si lo encontramos
                         $full = trim($node->textContent);
                         if ($label !== '' && strpos($full, $label) === 0) {
                             $texto = trim(substr($full, strlen($label)));
@@ -204,11 +272,11 @@ function extraerPreguntasRespuestas($html) {
                             $texto = $full;
                         }
                     }
+                }
 
-                    $esCorrecta = strpos($nc, 'correct') !== false || strpos($nc, 'isright') !== false;
-                    if ($label !== '' || $texto !== '') {
-                        $respuestas[] = ['opcion' => $label, 'texto' => $texto, 'correcta' => $esCorrecta];
-                    }
+                $esCorrecta = strpos($nc, 'correct') !== false || strpos($nc, 'isright') !== false;
+                if ($label !== '' || $texto !== '') {
+                    $respuestas[] = ['opcion' => $label, 'texto' => $texto, 'correcta' => $esCorrecta];
                 }
             }
 
@@ -266,6 +334,22 @@ function extraerPreguntasRespuestas($html) {
             ];
         }
     }
+    
+    // Limpieza final: eliminar saltos de línea innecesarios
+    foreach ($preguntas as &$pregunta) {
+        // Limpiar enunciado: eliminar \n si no hay punto antes
+        $pregunta['enunciado'] = preg_replace('/(?<![.!?])\s*\n\s*/', ' ', $pregunta['enunciado']);
+        $pregunta['enunciado'] = preg_replace('/\s+/', ' ', $pregunta['enunciado']);
+        $pregunta['enunciado'] = trim($pregunta['enunciado']);
+        
+        // Limpiar respuestas
+        foreach ($pregunta['respuestas'] as &$respuesta) {
+            $respuesta['texto'] = preg_replace('/(?<![.!?])\s*\n\s*/', ' ', $respuesta['texto']);
+            $respuesta['texto'] = preg_replace('/\s+/', ' ', $respuesta['texto']);
+            $respuesta['texto'] = trim($respuesta['texto']);
+        }
+    }
+    
     return $preguntas;
 }
 

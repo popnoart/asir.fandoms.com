@@ -1,0 +1,252 @@
+[
+    {
+        "enunciado": "Dentro de las funciones de los SGBD, la explotación de las mismas con las consultas se realiza mediante el lenguaje:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "DDL",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "DQL",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "DML",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "DCL",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "A los ficheros temporales que almacenan datos de una aplicación que no pueden ser mantenidos en memoria principal por falta de espacio, se les denomina:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Ficheros maestros",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Ninguna es correcta",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Ficheros de maniobras",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Ficheros históricos",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué información no gestiona un Sistema Gestor de Bases de Datos?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "La concurrencia",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Los permisos de acceso de los usuarios",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "El cumplimiento de la Ley de Protección de Datos",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Las relaciones entre los datos",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué tipo de datos se pueden gestionar con el lenguaje SQL?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Fechas y horas.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Todos son correctos.",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Valores alfanuméricos.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Números enteros y decimales.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Dentro de las funciones de los SGBD, la gestión de la información en las tablas se realiza mediante el lenguaje:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "DDL",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "DML",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "DCL",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "DQL",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Marca la opción que es una ventaja de la implantación de un SGBD:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Coste económico",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Complejidad",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Control centralizado",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Tamaño del gestor",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Si hablamos de las personas que tienen acceso a gestionar los accesos y permisos en una base de datos, ¿cuál de estos perfiles es uno de ellos?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Programador",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Usuario final",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Administrador",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Diseñador",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Marca la opción que no es una característica de un SGBD:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Redundancia de la información",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Flexibilidad",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Mantenimiento de la integridad",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Control de la concurrencia",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Para mejorar las búsquedas en una BD, se deben crear muchos índices en cada tabla:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Falso, hay que estudiar cada situación",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Falso, no se puede crear más de un índice en cada tabla",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Verdadero, pero no mejorará la velocidad",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Verdadero, mejorará considerablemente la velocidad",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Dentro de las funciones de los SGBD, la definición de las estructuras de las bases de datos y tablas, se realiza mediante el lenguaje:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "DCL",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "DDL",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "DML",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "DQL",
+                "correcta": false
+            }
+        ]
+    }
+]
