@@ -235,9 +235,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['update_uid'])) {
 						   // Si no existe en este archivo, buscar info en el otro
 						   $alt_ev = $ev ?: ($calendarics_by_uid[$uid] ?? []);
 					   ?>
-					   <strong><?php echo htmlspecialchars($alt_ev['SUMMARY'] ?? '(Sin resumen)'); ?></strong><br>
-					   UID: <?php echo htmlspecialchars($uid); ?><br>
-					   Fecha inicio: <?php echo isset($alt_ev['DTSTART']) ? format_ics_date_madrid($alt_ev['DTSTART']) : ''; ?><br>
+				   <strong><?php echo htmlspecialchars($alt_ev['SUMMARY'] ?? '(Sin resumen)'); ?></strong><br>
+				   UID: <?php echo htmlspecialchars($uid); ?><br>
+				   <?php if (!empty($alt_ev['CATEGORIES'])){?>
+					   <?php echo htmlspecialchars($alt_ev['CATEGORIES']); ?><br>
+				   <?php } ?>
 					   Fecha fin: <?php echo isset($alt_ev['DTEND']) ? format_ics_date_madrid($alt_ev['DTEND']) : ''; ?><br>
 					   <?php if ($modificado): ?>
 						   <span class="badge bg-warning text-dark">Modificado (LAST-MODIFIED distinto)</span>
@@ -276,13 +278,15 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['update_uid'])) {
 						   // Si no existe en este archivo, buscar info en el otro
 						   $alt_ev = $ev ?: ($icalexport_by_uid[$uid] ?? []);
 					   ?>
-					   <strong><?php echo htmlspecialchars($alt_ev['SUMMARY'] ?? '(Sin resumen)'); ?></strong><br>
-					   UID: <?php echo htmlspecialchars($uid); ?><br>
-					   Fecha inicio: <?php echo isset($alt_ev['DTSTART']) ? format_ics_date_madrid($alt_ev['DTSTART']) : ''; ?><br>
-					   Fecha fin: <?php echo isset($alt_ev['DTEND']) ? format_ics_date_madrid($alt_ev['DTEND']) : ''; ?><br>
-					   <?php if ($modificado): ?>
-						   <span class="badge bg-warning text-dark">Modificado (LAST-MODIFIED distinto)</span>
-						   <form method="post" style="display:inline">
+				   <strong><?php echo htmlspecialchars($alt_ev['SUMMARY'] ?? '(Sin resumen)'); ?></strong><br>
+				   UID: <?php echo htmlspecialchars($uid); ?><br>
+				   <?php if (!empty($alt_ev['CATEGORIES'])){?>
+					   <?php echo htmlspecialchars($alt_ev['CATEGORIES']); ?><br>
+				   <?php } ?>
+				   Fecha fin: <?php echo isset($alt_ev['DTEND']) ? format_ics_date_madrid($alt_ev['DTEND']) : ''; ?><br>
+				   <?php if ($modificado): ?>
+					   <span class="badge bg-warning text-dark">Modificado (LAST-MODIFIED distinto)</span>
+					   <form method="post" style="display:inline">
 							   <input type="hidden" name="update_uid" value="<?php echo htmlspecialchars($uid); ?>">
 							   <button type="submit" class="btn btn-sm btn-warning ms-2">Actualizar</button>
 						   </form>
