@@ -74,7 +74,13 @@
             }
         },
         "resources": {},
-        "tasks": {},
+        "tasks": {
+            "9886": {
+                "type": "Complementaria",
+                "start": "23-10-2025 00:00",
+                "end": "29-05-2026 23:00",
+                "name": "Actividad Complementaria 4"
+            }},
         "tests": {},
         "notes": {
             "ASO-doc": {
