@@ -125,7 +125,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/assets/templates/header.php';
                         } // fin foreach
                     } // fin if !empty
                     else { ?>
-                        <li class="list-group-item">No hay tareas pendientes.</li>
+                        <li class="list-group-item">No hay tests pendientes.</li>
                     <?php } ?>
                 </ul>
             </div>
