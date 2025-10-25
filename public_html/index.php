@@ -130,6 +130,9 @@ include $_SERVER['DOCUMENT_ROOT'] . '/assets/templates/header.php';
                 </ul>
             </div>
         </div>
+        <div class="card mb-3 ratio ratio-4x3" id="google-calendar">
+                <iframe src="https://calendar.google.com/calendar/embed?src=jglfvceoir6mqfm70iq1tk1gkm9fq7vc%40import.calendar.google.com&ctz=Europe%2FMadrid" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+        </div>
     </div>
     <div class="col-12 col-md-6">
         <div class="card mb-3 border-0" id="calendar"
