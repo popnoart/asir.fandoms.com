@@ -119,40 +119,6 @@
                     <?php }
                 } else { ?>
                     <li class="list-group-item">No hay tareas terminadas.</li>
-                    <li class="list-group-item">No hay tareas terminadas.</li>
-                    <li class="list-group-item">No hay tareas terminadas.</li>
-                    <li class="list-group-item">No hay tareas terminadas.</li>
-                    <li class="list-group-item">No hay tareas terminadas.</li>
-                    <li class="list-group-item">No hay tareas terminadas.</li>
-                    <li class="list-group-item">No hay tareas terminadas.</li>
-                    <li class="list-group-item">No hay tareas terminadas.</li>
-                    <li class="list-group-item">No hay tareas terminadas.</li>
-                    <li class="list-group-item">No hay tareas terminadas.</li>
-                    <li class="list-group-item">No hay tareas terminadas.</li>
-                    <li class="list-group-item">No hay tareas terminadas.</li>
-                    <li class="list-group-item">No hay tareas terminadas.</li>
-                    <li class="list-group-item">No hay tareas terminadas.</li>
-                    <li class="list-group-item">No hay tareas terminadas.</li>
-                    <li class="list-group-item">No hay tareas terminadas.</li>
-                    <li class="list-group-item">No hay tareas terminadas.</li>
-                    <li class="list-group-item">No hay tareas terminadas.</li>
-                    <li class="list-group-item">No hay tareas terminadas.</li>
-                    <li class="list-group-item">No hay tareas terminadas.</li>
-                    <li class="list-group-item">No hay tareas terminadas.</li>
-                    <li class="list-group-item">No hay tareas terminadas.</li>
-                    <li class="list-group-item">No hay tareas terminadas.</li>
-                    <li class="list-group-item">No hay tareas terminadas.</li>
-                    <li class="list-group-item">No hay tareas terminadas.</li>
-                    <li class="list-group-item">No hay tareas terminadas.</li>
-                    <li class="list-group-item">No hay tareas terminadas.</li>
-                    <li class="list-group-item">No hay tareas terminadas.</li>
-                    <li class="list-group-item">No hay tareas terminadas.</li>
-                    <li class="list-group-item">No hay tareas terminadas.</li>
-                    <li class="list-group-item">No hay tareas terminadas.</li>
-                    <li class="list-group-item">No hay tareas terminadas.</li>
-                    <li class="list-group-item">No hay tareas terminadas.</li>
-                    <li class="list-group-item">No hay tareas terminadas.</li>
-                    <li class="list-group-item">No hay tareas terminadas.</li>vv
                 <?php } ?>
             </ul>
 
