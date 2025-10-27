@@ -212,6 +212,12 @@
                 "folder_number": 0,
                 "name": "Unidad 2. JavaScript. Operadores",
                 "link": "https://drive.google.com/file/d/17uNbPBzFHgI3dhtUd0Q1_usLt6V_IdMo/view?usp=sharing"
+            },
+            "IAW-3": {
+                "folder": 0,
+                "folder_number": 0,
+                "name": "Unidad 3. JavaScript. Bucles y estructuras de control",
+                "link": "https://drive.google.com/file/d/1Kg4ZDEUZYoe03y9iQQWlCf7wjOn7Rqy2/view?usp=sharing"
             }
         },
         "resources": {
@@ -225,14 +231,26 @@
             "34421": {
                 "type": "Obligatoria",
                 "start": "21-10-2025 00:00",
-                "end": "30-10-2025 23:59",
-                "name": "Vencimiento de Tarea JavaScript"
+                "end": "04-11-2025 23:59",
+                "name": "Tarea JavaScript.OBLIGATORIA"
             },
             "34424": {
                 "type": "Obligatoria",
                 "start": "21-10-2025 00:00",
-                "end": "30-10-2025 23:59",
-                "name": "Vencimiento de Tarea JavaScript II"
+                "end": "04-11-2025 23:59",
+                "name": "Tarea JavaScript II.OBLIGATORIA"
+            },
+            "35011": {
+                "type": "Obligatoria",
+                "start": "27-10-2025 00:00",
+                "end": "10-11-2025 23:59",
+                "name": "Tarea JavaScript.OBLIGATORIA"
+            },
+            "35009": {
+                "type": "Obligatoria",
+                "start": "27-10-2025 00:00",
+                "end": "10-11-2025 23:59",
+                "name": "Tarea JavaScript II.OBLIGATORIA"
             }
         },
         "tests": {},
