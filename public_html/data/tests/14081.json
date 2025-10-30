@@ -1,0 +1,252 @@
+[
+    {
+        "enunciado": "The flight was __________ (hold up) due to technical issues.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "holds up",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "held up",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "holding up",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "hold up",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "The data center is __________ to the security office.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "opposites",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "opposite",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "nexts",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "in front",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "The IT team __________ (backup) all the files before the system update.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "backed up",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "backup",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "backing up",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "backups",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Make sure to __________ (check in) at the hotel by 3 PM.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "check in",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "checked in",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "checks in",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "checking in",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "We are __________ (plan) to upgrade the network next month.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "plans",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "planned",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "planing",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "planning",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "They __________ (install) the new software when the system crashed.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "were installing",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "installs",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "install",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "was installing",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "She __________ (use) to work as a network administrator before switching to software development.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "used",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "use",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "was using",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "uses",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "While the team __________ (test) the new software, they found several bugs.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "was testing",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "tests",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "tested",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "test",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "To get to the main office, you need to __________ (turn) left at the next intersection.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "turning",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "turned",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "turn",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "turns",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "We will __________ (set off) on our business trip early tomorrow morning.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "setting off",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "set off",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "sets off",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "setted off",
+                "correcta": false
+            }
+        ]
+    }
+]
