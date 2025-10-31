@@ -106,6 +106,7 @@
         });
     });
 </script>
+<script src="/assets/js/calendar-view.js"></script>
 </body>
 
 </html>

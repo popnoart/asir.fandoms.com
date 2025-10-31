@@ -130,8 +130,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/assets/templates/header.php';
                 </ul>
             </div>
         </div>
-        <div class="card mb-3 ratio ratio-4x3" id="google-calendar">
-                <iframe src="https://calendar.google.com/calendar/embed?src=jglfvceoir6mqfm70iq1tk1gkm9fq7vc%40import.calendar.google.com&ctz=Europe%2FMadrid" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+        <div class="card mb-3" id="google-calendar">
+            <div id="custom-calendar"></div>
         </div>
     </div>
     <div class="col-12 col-md-6">
@@ -200,7 +200,6 @@ include $_SERVER['DOCUMENT_ROOT'] . '/assets/templates/header.php';
                             echo '<span class="agenda-date-big text-primary-emphasis">' . $date_big . '</span><br>';
                             if ($date_small) echo '<span class="agenda-date-small">' . $date_small . '</span>';
                             echo '</div>';
-                            echo '<div><i class="bi bi-calendar-event" style="font-size:1.5em;color:#0d6efd;"></i></div>';
                             echo '</div>';
                             echo '<div class="flex-grow-1">';
                             echo '<div class="agenda-title fw-semibold" style="font-size:1.1em;">' . $summary . '</div>';
