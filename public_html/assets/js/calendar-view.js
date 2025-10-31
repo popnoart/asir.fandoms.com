@@ -109,9 +109,9 @@ class CalendarView {
         'SAD': '#fd79a8',
         'IAW': '#EAB543',
         'TE': '#FEA47F',
-        'IPE': '#0984e3',
-        'DAPS': '#6c5ce7',
-        'SAPS': '#D980FA'
+        'IPE': '#341f97',
+        'DAPS': '#0984e3',
+        'SAPS': '#74b9ff'
         };
         return colors[course] || '#b2bec3';
     }

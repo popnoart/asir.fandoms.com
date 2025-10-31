@@ -40,9 +40,9 @@ function get_course_color($course_code) {
         'SAD' => '#fd79a8',
         'IAW' => '#EAB543',
         'TE' => '#FEA47F',
-        'IPE' => '#0984e3',
-        'DAPS' => '#6c5ce7',
-        'SAPS' => '#D980FA'
+        'IPE' => '#341f97',
+        'DAPS' => '#0984e3',
+        'SAPS' => '#74b9ff'
     ];
     return isset($colors[$course_code]) ? $colors[$course_code] : '#b2bec3';
 }
