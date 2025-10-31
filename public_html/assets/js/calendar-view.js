@@ -11,7 +11,7 @@ class CalendarView {
         this.events = [];
         this.meses = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 
                       'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];
-        this.diasSemana = ['Dom', 'Lun', 'Mar', 'Mié', 'Jue', 'Vie', 'Sáb'];
+        this.diasSemana = ['Lun', 'Mar', 'Mié', 'Jue', 'Vie', 'Sáb', 'Dom'];
         
         this.init();
     }
@@ -70,7 +70,10 @@ class CalendarView {
     }
 
     getFirstDayOfMonth(year, month) {
-        return new Date(year, month, 1).getDay();
+        // getDay() devuelve 0=Domingo, 1=Lunes, etc.
+        // Ajustamos para que 0=Lunes, 1=Martes, ..., 6=Domingo
+        const day = new Date(year, month, 1).getDay();
+        return day === 0 ? 6 : day - 1;
     }
 
     prevMonth() {
