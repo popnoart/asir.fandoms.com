@@ -39,7 +39,7 @@ function get_course_color($course_code) {
         'IAW' => '#20c997',
         'CB' => '#6610f2',
         'ASGBD' => '#d63384',
-        'SAD' => '#e83e8c',
+        'SAD' => '#f783ac',
         'SRI' => '#007bff',
         'IPE' => '#6c757d',
         'SAPS' => '#198754'
