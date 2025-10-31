@@ -99,15 +99,15 @@ class CalendarView {
 
     getCourseColor(course) {
         const colors = {
-        'TE': '#6c5ce7',
+        'SRI': '#006266',
         'ASO': '#00b894',
-        'DAPS': '#FEA47F',
-        'IAW': '#0984e3',
         'CB': '#00cec9',
         'ASGBD': '#c44569',
         'SAD': '#fd79a8',
-        'SRI': '#006266',
-        'IPE': '#EAB543',
+        'IAW': '#EAB543',
+        'TE': '#FEA47F',
+        'IPE': '#0984e3',
+        'DAPS': '#6c5ce7',
         'SAPS': '#D980FA'
         };
         return colors[course] || '#b2bec3';
