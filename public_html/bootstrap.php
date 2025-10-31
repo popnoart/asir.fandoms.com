@@ -33,16 +33,16 @@ $all_states = json_decode(file_get_contents($states_path), true);
 // Obtiene el color del curso según su código
 function get_course_color($course_code) {
     $colors = [
-        'TE' => '#17a2b8',
-        'ASO' => '#6f42c1',
-        'DAPS' => '#fd7e14',
-        'IAW' => '#20c997',
-        'CB' => '#6610f2',
-        'ASGBD' => '#d63384',
-        'SAD' => '#f783ac',
-        'SRI' => '#007bff',
-        'IPE' => '#6c757d',
-        'SAPS' => '#198754'
+        'TE' => '#6c5ce7',
+        'ASO' => '#00b894',
+        'DAPS' => '#FEA47F',
+        'IAW' => '#0984e3',
+        'CB' => '#00cec9',
+        'ASGBD' => '#c44569',
+        'SAD' => '#e66767',
+        'SRI' => '#006266',
+        'IPE' => '#EAB543',
+        'SAPS' => '#D980FA'
     ];
     return isset($colors[$course_code]) ? $colors[$course_code] : '#6c757d';
 }
