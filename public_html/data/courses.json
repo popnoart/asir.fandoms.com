@@ -359,7 +359,14 @@
                 "name": "Tarea 2 - Implantando medidas de seguridad - OBLIGATORIA"
             }
         },
-        "tests": {},
+        "tests": {
+            "17233": {
+                "type": "Cuestionario",
+                "start": "",
+                "end": "",
+                "name": "Cuestionario - Introducción"
+            }
+        },
         "notes": {
             "SAD-doc": {
                 "name": "Apuntes SAD (doc)",
