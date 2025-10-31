@@ -77,6 +77,12 @@
                 "folder_number": 1,
                 "name": "Administración de servicio de directorio (Cisco)",
                 "link": "https://drive.google.com/file/d/1Kw6Zbmpg7bTTTDhc3yN98rVPb5oKftiX/view?usp=sharing"
+            },
+            "ASO-1": {
+                "folder": 18359,
+                "folder_number": 1,
+                "name": "ORDENES BASICAS DE UBUNTU",
+                "link": "https://drive.google.com/file/d/1zqpK3vGZw-U-wfCI8ZGV0qpzw8wP3E64/view?usp=sharing"
             }
         },
         "resources": {},
@@ -86,6 +92,12 @@
                 "start": "23-10-2025 00:00",
                 "end": "29-05-2026 23:00",
                 "name": "Actividad Complementaria 4"
+            },
+            "23366": {
+                "type": "Obligatoria",
+                "start": "30-10-2025 00:00",
+                "end": "30-11-2025 23:59",
+                "name": "Tarea Usuarios y Grupos con Ubuntu (Tarea Obligatoria)"
             }
         },
         "tests": {},
