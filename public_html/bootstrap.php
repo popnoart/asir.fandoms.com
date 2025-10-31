@@ -30,6 +30,23 @@ $all_states = json_decode(file_get_contents($states_path), true);
 
 
 //////////FUNCTIONS\\\\\\\\\\
+// Obtiene el color del curso según su código
+function get_course_color($course_code) {
+    $colors = [
+        'TE' => '#17a2b8',
+        'ASO' => '#6f42c1',
+        'DAPS' => '#fd7e14',
+        'IAW' => '#20c997',
+        'CB' => '#6610f2',
+        'ASGBD' => '#d63384',
+        'SAD' => '#e83e8c',
+        'SRI' => '#007bff',
+        'IPE' => '#6c757d',
+        'SAPS' => '#198754'
+    ];
+    return isset($colors[$course_code]) ? $colors[$course_code] : '#6c757d';
+}
+
 // Formatea fecha ICS a dd-mm-yyyy H:m en horario de Madrid
 function format_ics_date_madrid($ics_date)
 {

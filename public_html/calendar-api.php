@@ -33,14 +33,26 @@ if (file_exists($calendar_path)) {
             
             // Parsear fecha DTSTART (formato: 20251001T153000Z)
             $dtstart = $event['DTSTART'];
-            if (preg_match('/^(\d{4})(\d{2})(\d{2})/', $dtstart, $matches)) {
+            
+            // Verificar si tiene hora y es UTC (termina en Z)
+            if (preg_match('/^(\d{4})(\d{2})(\d{2})T(\d{2})(\d{2})(\d{2})Z$/', $dtstart, $matches)) {
+                // Crear DateTime en UTC y convertir a zona horaria de Madrid
+                $dt = new DateTime($matches[1].'-'.$matches[2].'-'.$matches[3].' '.$matches[4].':'.$matches[5].':'.$matches[6], new DateTimeZone('UTC'));
+                $dt->setTimezone(new DateTimeZone('Europe/Madrid'));
+                
+                $event_year = (int)$dt->format('Y');
+                $event_month = (int)$dt->format('n');
+            } elseif (preg_match('/^(\d{4})(\d{2})(\d{2})/', $dtstart, $matches)) {
+                // Fecha sin hora, usar directamente
                 $event_year = (int)$matches[1];
                 $event_month = (int)$matches[2];
-                
-                // Solo incluir eventos del mes solicitado
-                if ($event_year === $year && $event_month === $month) {
-                    $events[] = $event;
-                }
+            } else {
+                continue;
+            }
+            
+            // Solo incluir eventos del mes solicitado
+            if ($event_year === $year && $event_month === $month) {
+                $events[] = $event;
             }
         }
         

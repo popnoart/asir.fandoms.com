@@ -14,7 +14,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/assets/templates/header.php';
                     ?>
                             <li class="list-group-item ">
                                 <?php if (!empty($task_data['course'])): ?>
-                                    <a href="/course.php?course=<?= htmlspecialchars($task_data['course']); ?>"><span class="badge bg-info text-bg-info ms-2"><?= htmlspecialchars($task_data['course']); ?></span></a>
+                                    <?php $color = get_course_color($task_data['course']); ?>
+                                    <a href="/course.php?course=<?= htmlspecialchars($task_data['course']); ?>"><span class="badge ms-2" style="background-color: <?= $color; ?>; color: white;"><?= htmlspecialchars($task_data['course']); ?></span></a>
                                 <?php endif; ?>
                                 <a href="https://campus.digitechfp.com/mod/assign/view.php?id=<?= htmlspecialchars($task_data['id']); ?>" target="_blank"">
                                     <?= htmlspecialchars($task_data['name']); ?>
@@ -74,7 +75,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/assets/templates/header.php';
                     ?>
                             <li class="list-group-item ">
                                 <?php if (!empty($test_data['course'])): ?>
-                                    <a href="/course.php?course=<?= htmlspecialchars($test_data['course']); ?>"><span class="badge bg-info text-bg-info ms-2"><?= htmlspecialchars($test_data['course']); ?></span></a>
+                                    <?php $color = get_course_color($test_data['course']); ?>
+                                    <a href="/course.php?course=<?= htmlspecialchars($test_data['course']); ?>"><span class="badge ms-2" style="background-color: <?= $color; ?>; color: white;"><?= htmlspecialchars($test_data['course']); ?></span></a>
                                 <?php endif; ?>
                                 <a href="https://campus.digitechfp.com/mod/quiz/view.php?id=<?= htmlspecialchars($test_data['id']); ?>" target="_blank"">
                                     <?= htmlspecialchars($test_data['name']); ?>
@@ -204,7 +206,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/assets/templates/header.php';
                             echo '<div class="flex-grow-1">';
                             echo '<div class="agenda-title fw-semibold" style="font-size:1.1em;">' . $summary . '</div>';
                             if ($course) {
-                                echo '<a href="/course.php?course=' . htmlspecialchars($course) . '"><span class="badge bg-info ms-2">' . htmlspecialchars($course) . '</span></a>';
+                                $color = get_course_color($course);
+                                echo '<a href="/course.php?course=' . htmlspecialchars($course) . '"><span class="badge ms-2" style="background-color: ' . $color . '; color: white;">' . htmlspecialchars($course) . '</span></a>';
                             }
                             echo '</div>';
                             echo '</div>';

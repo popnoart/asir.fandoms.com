@@ -35,17 +35,20 @@ class CalendarView {
     }
 
     parseEventDate(dateStr) {
-        // Formato: 20251001T153000Z
+        // Formato: 20251001T153000Z (UTC)
         if (!dateStr || dateStr.length < 8) return null;
         
         const year = parseInt(dateStr.substring(0, 4));
         const month = parseInt(dateStr.substring(4, 6)) - 1;
         const day = parseInt(dateStr.substring(6, 8));
         
-        if (dateStr.length >= 15) {
+        if (dateStr.length >= 15 && dateStr.endsWith('Z')) {
+            // Es UTC, usar Date.UTC para crear la fecha correctamente
             const hours = parseInt(dateStr.substring(9, 11));
             const minutes = parseInt(dateStr.substring(11, 13));
-            return new Date(year, month, day, hours, minutes);
+            const seconds = dateStr.length >= 17 ? parseInt(dateStr.substring(13, 15)) : 0;
+            // Crear fecha UTC y luego convertir a fecha local
+            return new Date(Date.UTC(year, month, day, hours, minutes, seconds));
         }
         
         return new Date(year, month, day);
@@ -100,12 +103,12 @@ class CalendarView {
             'ASO': '#6f42c1',
             'DAPS': '#fd7e14',
             'IAW': '#20c997',
-            'CB': '#dc3545',
-            'ASGBD': '#ffc107',
+            'CB': '#6610f2',
+            'ASGBD': '#d63384',
             'SAD': '#e83e8c',
             'SRI': '#007bff',
             'IPE': '#6c757d',
-            'SAPS': '#28a745'
+            'SAPS': '#198754'
         };
         return colors[course] || '#6c757d';
     }
