@@ -39,12 +39,12 @@ function get_course_color($course_code) {
         'IAW' => '#0984e3',
         'CB' => '#00cec9',
         'ASGBD' => '#c44569',
-        'SAD' => '#e66767',
+        'SAD' => '#fd79a8',
         'SRI' => '#006266',
         'IPE' => '#EAB543',
         'SAPS' => '#D980FA'
     ];
-    return isset($colors[$course_code]) ? $colors[$course_code] : '#6c757d';
+    return isset($colors[$course_code]) ? $colors[$course_code] : '#b2bec3';
 }
 
 // Formatea fecha ICS a dd-mm-yyyy H:m en horario de Madrid

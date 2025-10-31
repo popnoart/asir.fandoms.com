@@ -105,12 +105,12 @@ class CalendarView {
         'IAW': '#0984e3',
         'CB': '#00cec9',
         'ASGBD': '#c44569',
-        'SAD': '#e66767',
+        'SAD': '#fd79a8',
         'SRI': '#006266',
         'IPE': '#EAB543',
         'SAPS': '#D980FA'
         };
-        return colors[course] || '#6c757d';
+        return colors[course] || '#b2bec3';
     }
 
     render() {
