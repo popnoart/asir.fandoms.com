@@ -1,0 +1,252 @@
+[
+    {
+        "enunciado": "Marca la opción que representa el concepto de AUTENTICACION:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Establece el mecanismo por el que el usuario se va a identificar en el sistema",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Busca verificar la identidad del usuario al acceder a los sistemas o información.",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Define, mantiene y elimina las autorizaciones de los usuarios del sistema.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Determina qué, cómo y cuándo, un usuario autenticado puede utilizar los recursos de la organización.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Marca la opción que representa el concepto de INTEGRIDAD:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Garantiza que el acceso a la información no se produce de forma no autorizada.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Garantiza el acceso adecuado a la información.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Garantiza que las personas o sistemas autorizados para acceder a los datos, puedan hacerlo cuando lo necesiten.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Garantiza que la información sólo puede ser modificada si se dispone de la autorización para ello.",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "Marca la opción que representa el concepto de TRAZABILIDAD:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Característica de los sistemas informáticos que busca detectar por dónde van pasando los paquetes en las comunicaciones.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Garantiza la participación de las partes en una comunicación.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Característica de los sistemas informáticos que mide el tiempo de funcionamiento sin fallos.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Busca asegurar qué en todo momento se podrá determinar quién hizo qué y en qué momento.",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "Marca la opción que representa el concepto de AUTORIZACIÓN:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Define, mantiene y elimina la administración de los permisos de los usuarios del sistema.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Define, mantiene y elimina las autorizaciones de los usuarios del sistema.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Busca verificar la identidad del usuario al acceder a los sistemas o información.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Determina qué, cómo y cuándo, un usuario autenticado puede utilizar los recursos de la organización.",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "Marca la opción que incluye los principios básicos de la Seguridad Informática:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Confidencialidad, Integridad y Autenticación",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Confidencialidad, Integridad y Autorización",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Confidencialidad, Integridad y Disponibilidad",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Confidencialidad, Autenticación y Seguridad",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Marca la opción que representa el concepto de DISPONIBILIDAD:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Garantiza que el acceso a la información no se produce de forma no autorizada.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Garantiza que el acceso a la información se realiza de forma controlada.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Garantiza que la información sólo puede ser modificada si se dispone de la autorización para ello.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Garantiza que las personas o sistemas autorizados para acceder a los datos, puedan hacerlo cuando lo necesiten.",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "Marca la opción que representa el concepto de FIABILIDAD:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Característica de los sistemas informáticos que mide el tiempo de funcionamiento sin fallos.",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Garantiza el acceso adecuado a la información.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Garantiza la participación de las partes en una comunicación.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Busca asegurar qué en todo momento se podrá determinar quién hizo qué y en qué momento.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Marca la opción que representa el concepto de CONFIDENCIALIDAD:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Garantiza que la información llega al destinatario con los permisos adecuados.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Garantiza que la información sólo puede ser modificada si se dispone de la autorización para ello.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Garantiza que el acceso a la información no se produce de forma no autorizada.",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Garantiza que las personas o sistemas autorizados para acceder a los datos, puedan hacerlo cuando lo necesiten.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Marca la opción que representa el concepto de NO REPUDIO:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Busca asegurar qué en todo momento se podrá determinar quién hizo qué y en qué momento.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Garantiza la participación de las partes en una comunicación.",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Característica de los sistemas informáticos que mide el tiempo de funcionamiento sin fallos.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Característica de los sistemas informáticos que busca evitar ser rechazado en las comunicaciones.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Marca la opción que representa el concepto de ADMINISTRACION:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Determina qué, cómo y cuándo, un usuario autenticado puede utilizar los recursos de la organización.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Determina qué, cómo y cuándo, un usuario autenticado puede compartir los recursos de la organización.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Busca verificar la identidad del usuario al acceder a los sistemas o información.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Define, mantiene y elimina las autorizaciones de los usuarios del sistema.",
+                "correcta": true
+            }
+        ]
+    }
+]
