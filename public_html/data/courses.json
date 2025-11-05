@@ -14,14 +14,20 @@
             "ASGBD-2": {
                 "folder": 16662,
                 "folder_number": 1,
-                "name": "Unidad 3. Acceso a la información DCL",
+                "name": "Unidad 3.1. Acceso a la información DCL",
                 "link": "https://drive.google.com/file/d/1YEyzj_AUDTgnzLjVXsIEx59EyRQI6NOs/view?usp=sharing"
             },
             "ASGBD-3": {
                 "folder": 16663,
                 "folder_number": 1,
-                "name": "Unidad 3. Acceso a la información: vistas",
+                "name": "Unidad 3.2. Acceso a la información: vistas",
                 "link": "https://drive.google.com/file/d/1qs2Vwn_2myZKCq0eRHpnTWuIC6r5jv63/view?usp=sharing"
+            },
+            "ASGBD-4": {
+                "folder": 16664,
+                "folder_number": 1,
+                "name": "Unidad 4. Programación de bases de datos: conceptos iniciales",
+                "link": ""
             }
         },
         "resources": {},
@@ -49,6 +55,12 @@
                 "start": "23-10-2025 10:31",
                 "end": "16-11-2025 23:59",
                 "name": "Tarea 01-03 Control de la BD de pruebas"
+            },
+            "1931": {
+                "type": "Obligatoria",
+                "start": "05-15-2025 12:32",
+                "end": "30-11-2025 23:59",
+                "name": "Tarea 3- Acceso a la información: vistas. OBLIGATORIA"
             }
         },
         "tests": {
@@ -57,6 +69,12 @@
                 "start": "",
                 "end": "",
                 "name": "Cuestionario - Instalación SGBD"
+            },
+            "17219": {
+                "type": "Cuestionario",
+                "start": "",
+                "end": "",
+                "name": "Cuestionario - Acceso a la información (DCL y vistas)"
             }
         },
         "notes": {
