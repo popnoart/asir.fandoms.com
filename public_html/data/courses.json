@@ -156,6 +156,11 @@
                 "file": "VPN.pdf",
                 "link": "https://docs.google.com/document/d/15k8adQwJYA9HsRlFCNBl7ePvUb6LEc8s0x5N214mkiU/edit?usp=sharing"
             },
+            "36099": {
+                "name": "Apuntes seguridad por MAC",
+                "file": "SEGURIDAD MAC.pdf",
+                "link": "https://docs.google.com/document/d/1jz7E9k-zeVSnN-LCnHfeUKzC-6tGfBQpuExXSne_UYQ/edit?usp=sharing"
+            },
             "33049": {
                 "name": "Ejemplito de Cortafuegos Físicos",
                 "file": "CORTAFUEGOS.pkt",
@@ -167,7 +172,14 @@
                 "link": "https://drive.google.com/file/d/1_P5vv6nYMfp_XLn1cB_oH867BbAfdjwu/view?usp=sharing"
             }
         },
-        "tasks": {},
+        "tasks": {
+            "": {
+                "type": "Obligatoria",
+                "start": "07-11-2025 20:30",
+                "end": "13-12-2026 23:59",
+                "name": "Ejercicio Cortafuegos, inalámbricas seguras y VPN (Tarea obligatoria)"
+            }
+        },
         "tests": {},
         "notes": {
             "CB-doc": {
