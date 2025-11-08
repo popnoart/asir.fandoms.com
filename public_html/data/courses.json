@@ -644,8 +644,8 @@
     "TE": {
         "id": 23,
         "name": "Technical English",
-        "teacher": "X",
-        "teacher_mail": "x@digitechfp.com",
+        "teacher": "Raquel Ujaque",
+        "teacher_mail": "rujaque@digitechfp.com",
         "units": {
             "TE-0": {
                 "folder": 16446,
