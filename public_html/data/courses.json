@@ -220,6 +220,18 @@
                 "start": "03-10-2025 09:30",
                 "end": "17-10-2025 11:30",
                 "name": "ACTIVIDAD COMPLEMENTARIA. TEMA 1 DIGITALIZACIÓN. LA DIGITALIZACIÓN. ENTORNOS IT Y OT"
+            },
+            "36111": {
+                "type": "Obligatoria",
+                "start": "08-11-2025 10:30",
+                "end": "22-11-2025 10:30",
+                "name": "ACTIVIDAD OBLIGATORIA TEMA 2. THD"
+            },
+            "36112": {
+                "type": "Complementaria",
+                "start": "08-11-2025 10:35",
+                "end": "22-11-2025 10:35",
+                "name": "ACTIVIDAD COMPLEMENTARIA TEMA 2. THD"
             }
         },
         "tests": {
