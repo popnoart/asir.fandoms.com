@@ -40,12 +40,12 @@
             {
                 "opcion": "c.",
                 "texto": "in",
-                "correcta": true
+                "correcta": false
             },
             {
                 "opcion": "d.",
                 "texto": "at",
-                "correcta": false
+                "correcta": true
             }
         ]
     },
@@ -60,7 +60,7 @@
             {
                 "opcion": "b.",
                 "texto": "in",
-                "correcta": false
+                "correcta": true
             },
             {
                 "opcion": "c.",
@@ -70,7 +70,7 @@
             {
                 "opcion": "d.",
                 "texto": "at",
-                "correcta": true
+                "correcta": false
             }
         ]
     },
