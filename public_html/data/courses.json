@@ -710,6 +710,12 @@
                 "start": "29-10-2025 17:20",
                 "end": "11-11-2025 23:59",
                 "name": "UNIT 2. Task - MANDATORY"
+            },
+            "18254": {
+                "type": "Obligatoria",
+                "start": "20-11-2025 17:20",
+                "end": "10-12-2025 23:59",
+                "name": "UNIT 3. Task - compulsory"
             }
         },
         "tests": {
@@ -724,6 +730,12 @@
                 "start": "",
                 "end": "",
                 "name": "UNIT 2. Quiz"
+            },
+            "14086": {
+                "type": "Cuestionario",
+                "start": "",
+                "end": "",
+                "name": "UNIT 3. Quiz - compulsory"
             }
         },
         "notes": {
