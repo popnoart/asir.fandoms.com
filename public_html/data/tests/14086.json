@@ -1,0 +1,252 @@
+[
+    {
+        "enunciado": "The team __________ (finish) the project before the deadline.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "was finishing",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "finishes",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "finish",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "had finished",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "The main office is __________ the corner of 5th Avenue and Main Street.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "on",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "inside",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "in",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "at",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "The printer is __________ the corner of the office.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "inside",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "in",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "on",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "at",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "The new software was installed __________ all the computers.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "in",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "at",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "inside",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "on",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "The IT team __________ (implement) new features gradually over the past few months.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "implemented",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "implements",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "was implementing",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "has been implementing",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "The files are stored __________ a secure server.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "inside",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "in",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "at",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "on",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "The system __________ (run) smoothly until the power outage.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "run",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "runs",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "have running",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "had been running",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "He __________ (work) at the company for five years before he resigned.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "works",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "work",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "worked",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "had worked",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "By the time the technician arrived, the server __________ (crash).",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "had crashed",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "crash",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "was crashing",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "crashes",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "We __________ (monitor) the network traffic since the last upgrade.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "monitors",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "monitor",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "have been monitoring",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "had monitored",
+                "correcta": false
+            }
+        ]
+    }
+]
