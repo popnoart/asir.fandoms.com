@@ -347,8 +347,28 @@
             }
         },
         "resources": {},
-        "tasks": {},
-        "tests": {},
+        "tasks": {
+            "36526": {
+                "type": "Obligatoria",
+                "start": "13-11-2025 20:30",
+                "end": "27-11-2025 20:30",
+                "name": "TAREA OBLIGATORIA TEMA 1. BÚSQUEDA ACTIVA DE EMPLEO"
+            },
+            "36527": {
+                "type": "Complementaria",
+                "start": "13-11-2025 20:30",
+                "end": "27-11-2025 20:30",
+                "name": "ACTIVIDAD COMPLEMENTARIA TEMA 1. BÚSQUEDA ACTIVA DE EMPLEO"
+            }
+        },
+        "tests": {
+            "36484": {
+                "type": "Cuestionario",
+                "start": "",
+                "end": "",
+                "name": "CUESTIONARIO 1. BÚSQUEDA ACTIVA DE EMPLEO"
+            }
+        },
         "notes": {
             "IPE-doc": {
                 "name": "Apuntes IPE (doc)",
