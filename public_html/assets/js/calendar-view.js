@@ -4,9 +4,10 @@
  */
 
 class CalendarView {
-    constructor(containerId, apiUrl = '/calendar-api.php') {
+    constructor(containerId, apiUrl = '/calendar-api.php', coursesData = null) {
         this.container = document.getElementById(containerId);
         this.apiUrl = apiUrl;
+        this.coursesData = coursesData; // Datos de courses con estados
         this.currentDate = new Date();
         this.events = [];
         this.meses = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 
@@ -28,10 +29,72 @@ class CalendarView {
             const response = await fetch(`${this.apiUrl}?year=${year}&month=${month}`);
             const data = await response.json();
             this.events = data.events || [];
+            
+            // Enriquecer eventos con información de tareas si tenemos coursesData
+            if (this.coursesData) {
+                this.enrichEventsWithTaskStatus();
+            }
+            
+            // Debug: mostrar cuántos eventos tienen información de tarea
+            const eventsWithTasks = this.events.filter(e => e.TASK_STATUS);
+            if (eventsWithTasks.length > 0) {
+                console.log(`📋 Eventos con información de tarea: ${eventsWithTasks.length}/${this.events.length}`);
+                console.log('Eventos con tareas:', eventsWithTasks.map(e => ({
+                    summary: e.SUMMARY,
+                    status: e.TASK_STATUS,
+                    type: e.TASK_TYPE
+                })));
+            } else {
+                console.log(`⚠️ No se encontraron eventos con información de tarea (Total eventos: ${this.events.length})`);
+            }
         } catch (error) {
             console.error('Error cargando eventos:', error);
             this.events = [];
         }
+    }
+
+    enrichEventsWithTaskStatus() {
+        this.events.forEach(event => {
+            if (!event.COURSE || !event.SUMMARY) return;
+            
+            const courseCode = event.COURSE;
+            const courseData = this.coursesData[courseCode];
+            
+            if (!courseData || !courseData.tasks) return;
+            
+            // Normalizar nombre del evento
+            let eventName = event.SUMMARY;
+            eventName = eventName.replace(/ a las \d{2}:\d{2}( horas?)?$/i, '');
+            eventName = eventName.replace(/^Vencimiento de /i, '');
+            eventName = eventName.trim();
+            
+            // Buscar coincidencia con alguna tarea
+            for (const [taskId, taskData] of Object.entries(courseData.tasks)) {
+                const taskName = taskData.name || '';
+                
+                // Comparar nombres
+                let match = false;
+                if (taskName) {
+                    // Método 1: Coincidencia exacta
+                    if (eventName.toLowerCase() === taskName.toLowerCase()) {
+                        match = true;
+                    }
+                    // Método 2: Uno contiene al otro (al menos 80% del tamaño)
+                    else if (eventName.toLowerCase().includes(taskName.toLowerCase()) || 
+                             taskName.toLowerCase().includes(eventName.toLowerCase())) {
+                        match = true;
+                    }
+                }
+                
+                if (match) {
+                    event.TASK_STATUS = taskData.status || 'Sin estado';
+                    event.TASK_TYPE = taskData.type || '';
+                    event.TASK_ID = taskId;
+                    event.TASK_END = taskData.end || '';
+                    break; // Solo la primera coincidencia
+                }
+            }
+        });
     }
 
     parseEventDate(dateStr) {
@@ -181,12 +244,29 @@ class CalendarView {
                 let title = summary.replace(/\s+a las \d{2}:\d{2}$/, '');
                 title = title.length > 30 ? title.substring(0, 27) + '...' : title;
                 
+                // Indicadores de estado de tarea
+                let statusIcon = '';
+                let statusClass = '';
+                
+                if (event.TASK_STATUS) {
+                    if (event.TASK_STATUS === 'Pendiente') {
+                        statusIcon = '<i class="fas fa-exclamation-circle text-warning ms-1" title="Tarea pendiente" style="font-size: 0.75rem;"></i>';
+                        statusClass = ' task-pending';
+                    } else if (event.TASK_STATUS === 'Entregada' || event.TASK_STATUS === 'Completada') {
+                        statusIcon = '<i class="fas fa-check-circle text-success ms-1" title="Tarea completada" style="font-size: 0.75rem;"></i>';
+                        statusClass = ' task-completed';
+                    } else if (event.TASK_STATUS === 'En progreso') {
+                        statusIcon = '<i class="fas fa-spinner text-info ms-1" title="En progreso" style="font-size: 0.75rem;"></i>';
+                        statusClass = ' task-progress';
+                    }
+                }
+                
                 html += `
-                    <div class="event-item" style="border-left: 3px solid ${courseColor};" 
-                         data-bs-toggle="tooltip" title="${summary}">
+                    <div class="event-item${statusClass}" style="border-left: 3px solid ${courseColor};" 
+                         data-bs-toggle="tooltip" title="${summary}${event.TASK_STATUS ? ' - Estado: ' + event.TASK_STATUS : ''}">
                         <small class="text-muted">${time}</small>
                         ${course ? `<span class="badge" style="background-color: ${courseColor}; font-size: 0.65rem;">${course}</span>` : ''}
-                        <div class="event-title">${title}</div>
+                        <div class="event-title">${title}${statusIcon}</div>
                     </div>
                 `;
             });
@@ -220,6 +300,8 @@ let calendar;
 // Inicializar cuando el DOM esté listo
 document.addEventListener('DOMContentLoaded', function() {
     if (document.getElementById('custom-calendar')) {
-        calendar = new CalendarView('custom-calendar');
+        // Pasar coursesData si está disponible
+        const coursesData = window.coursesData || null;
+        calendar = new CalendarView('custom-calendar', '/calendar-api.php', coursesData);
     }
 });

@@ -115,6 +115,34 @@
     white-space: nowrap;
 }
 
+/* Estilos para eventos con estado de tarea */
+.event-item.task-pending {
+    background-color: #fff3cd;
+    border-left-width: 4px !important;
+}
+
+.event-item.task-pending:hover {
+    background-color: #ffe69c;
+}
+
+.event-item.task-completed {
+    background-color: #d1e7dd;
+    border-left-width: 4px !important;
+}
+
+.event-item.task-completed:hover {
+    background-color: #badbcc;
+}
+
+.event-item.task-progress {
+    background-color: #cfe2ff;
+    border-left-width: 4px !important;
+}
+
+.event-item.task-progress:hover {
+    background-color: #b6d4fe;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
     .calendar-day {

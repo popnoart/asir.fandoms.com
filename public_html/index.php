@@ -227,4 +227,9 @@ include $_SERVER['DOCUMENT_ROOT'] . '/assets/templates/header.php';
     </div>
 </div>
 
+<script>
+// Pasar datos de courses con estados a JavaScript para el calendario
+window.coursesData = <?= json_encode($all_courses, JSON_UNESCAPED_UNICODE); ?>;
+</script>
+
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/assets/templates/footer.php'; ?>
