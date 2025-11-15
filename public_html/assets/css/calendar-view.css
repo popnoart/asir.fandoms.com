@@ -96,6 +96,15 @@
     background-color: #e9ecef;
 }
 
+.event-item a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.event-item a:hover {
+    text-decoration: none;
+}
+
 .event-item small {
     display: block;
     font-size: 0.7rem;
@@ -123,6 +132,7 @@
 
 .event-item.task-pending:hover {
     background-color: #ffe69c;
+    transform: translateX(2px);
 }
 
 .event-item.task-completed {
@@ -132,6 +142,7 @@
 
 .event-item.task-completed:hover {
     background-color: #badbcc;
+    transform: translateX(2px);
 }
 
 .event-item.task-progress {
@@ -141,6 +152,14 @@
 
 .event-item.task-progress:hover {
     background-color: #b6d4fe;
+    transform: translateX(2px);
+}
+
+/* Efecto de transición para eventos con tareas */
+.event-item.task-pending,
+.event-item.task-completed,
+.event-item.task-progress {
+    transition: all 0.2s ease;
 }
 
 /* Responsive */

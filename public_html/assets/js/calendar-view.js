@@ -241,12 +241,13 @@ class CalendarView {
                 const summary = event.SUMMARY || '';
                 
                 // Extraer solo el título sin la hora
-                let title = summary.replace(/\s+a las \d{2}:\d{2}$/, '');
+                let title = summary.replace(/\s+a las \d{2}:\d{2}( horas?)?$/i, '');
                 title = title.length > 30 ? title.substring(0, 27) + '...' : title;
                 
                 // Indicadores de estado de tarea
                 let statusIcon = '';
                 let statusClass = '';
+                let taskLink = '';
                 
                 if (event.TASK_STATUS) {
                     if (event.TASK_STATUS === 'Pendiente') {
@@ -259,14 +260,28 @@ class CalendarView {
                         statusIcon = '<i class="fas fa-spinner text-info ms-1" title="En progreso" style="font-size: 0.75rem;"></i>';
                         statusClass = ' task-progress';
                     }
+                    
+                    // Generar enlace a la tarea en el campus
+                    if (event.TASK_ID) {
+                        taskLink = `https://campus.digitechfp.com/mod/assign/view.php?id=${event.TASK_ID}`;
+                    }
                 }
                 
-                html += `
-                    <div class="event-item${statusClass}" style="border-left: 3px solid ${courseColor};" 
-                         data-bs-toggle="tooltip" title="${summary}${event.TASK_STATUS ? ' - Estado: ' + event.TASK_STATUS : ''}">
+                // Si hay enlace a tarea, hacer el evento clicable
+                const eventContent = taskLink 
+                    ? `<a href="${taskLink}" target="_blank" style="text-decoration: none; color: inherit; display: block;">
                         <small class="text-muted">${time}</small>
                         ${course ? `<span class="badge" style="background-color: ${courseColor}; font-size: 0.65rem;">${course}</span>` : ''}
                         <div class="event-title">${title}${statusIcon}</div>
+                       </a>`
+                    : `<small class="text-muted">${time}</small>
+                       ${course ? `<span class="badge" style="background-color: ${courseColor}; font-size: 0.65rem;">${course}</span>` : ''}
+                       <div class="event-title">${title}${statusIcon}</div>`;
+                
+                html += `
+                    <div class="event-item${statusClass}" style="border-left: 3px solid ${courseColor};" 
+                         data-bs-toggle="tooltip" title="${summary}${event.TASK_STATUS ? ' - Estado: ' + event.TASK_STATUS : ''}${taskLink ? ' - Click para ir al campus' : ''}">
+                        ${eventContent}
                     </div>
                 `;
             });
