@@ -125,7 +125,7 @@
                 "link": "https://docs.google.com/document/d/16WYQLS3ME0tRhn0M9ATMOQkpus3YQHmJxIZJ2hm-zno/edit?usp=sharing"
             },
             "ASO-LINUX-doc": {
-                "name": "Apuntes ASO LINUX(doc)",
+                "name": "Apuntes ASO LINUX (doc)",
                 "link": "https://docs.google.com/document/d/1QEuIaHtStbBaOU-TVhq_NBCaHvSyhKHUkDXKH8Lggg0/edit?usp=sharing"
             }
         }
@@ -482,21 +482,6 @@
                 "folder_number": 2,
                 "name": "Instalación y administración de servicios de nombres de dominio (Cisco)",
                 "link": "https://drive.google.com/file/d/1tTXj5GSPJeBj5G0jhM3efP597wxXZSOx/view?usp=sharing"
-            },
-            "AP30-24": {
-                "name": "APUNTES 30%: Tunnel IPv6 e IPv4",
-                "file": "APUNTESTUNNELIPV6EIPV4.docx",
-                "link": "https://drive.google.com/file/d/1hphkzl_jCbL_0c52Bi-vkQMHwRbLqfvt/view?usp=sharing"
-            },
-            "AP30-20": {
-                "name": "APUNTES 30%: VLAN IPv6",
-                "file": "APUNTESVLANIPV6.pdf",
-                "link": "https://docs.google.com/document/d/1acGQVDRvzcxdq5sP8sAX2KG2kqZwk0oC/edit?usp=sharing&ouid=117153571465087663660&rtpof=true&sd=true"
-            },
-            "AP30-16": {
-                "name": "APUNTES 30%: VLAN IPv6 con telefonía",
-                "file": "APUNTESVLANIPV4CONTELEFONIA.pdf",
-                "link": "https://drive.google.com/file/d/1Qwae_3N5EBVdjZGr0Io_3IOWJVdE3jgx/view?usp=sharing"
             }
         },
         "tasks": {
@@ -664,6 +649,21 @@
             "SRI-doc": {
                 "name": "Apuntes SRI (doc)",
                 "link": "https://docs.google.com/document/d/1fqztidnHYGfsdQ1egcmHmEac8NpaEWBg6u7OqC6pQcM/edit?usp=sharing"
+            },
+            "SRI-AP30-24-doc": {
+                "name": "APUNTES 30%: Tunnel IPv6 e IPv4 (doc)",
+                "file": "APUNTESTUNNELIPV6EIPV4.docx",
+                "link": "https://docs.google.com/document/d/1J6KSK4KQttlRTRwgp4wRvweKkSkQkmzifGU4Nze06pU/edit?usp=sharing"
+            },
+            "SRI-AP30-20-doc": {
+                "name": "APUNTES 30%: VLAN IPv6 (doc)",
+                "file": "APUNTESVLANIPV6.pdf",
+                "link": "https://docs.google.com/document/d/1c97uLVAfA7e7_dA6MJdYGn5Z5MVC9kA7jxB-h6r3wlw/edit?usp=sharing"
+            },
+            "SRI-AP30-16-doc": {
+                "name": "APUNTES 30%: VLAN IPv6 con telefonía (doc)",
+                "file": "APUNTESVLANIPV4CONTELEFONIA.pdf",
+                "link": "https://docs.google.com/document/d/17fMA46fJ8lTVFXLZOIyFU4ZvFWPQSpaBut-YW77gooM/edit?usp=sharing"
             }
         }
     },
