@@ -95,12 +95,6 @@
                 "folder_number": 1,
                 "name": "Administración de servicio de directorio (Cisco)",
                 "link": "https://drive.google.com/file/d/1Kw6Zbmpg7bTTTDhc3yN98rVPb5oKftiX/view?usp=sharing"
-            },
-            "ASO-1": {
-                "folder": 18359,
-                "folder_number": 1,
-                "name": "Órdenes básicas de Ubuntu",
-                "link": "https://docs.google.com/document/d/1QEuIaHtStbBaOU-TVhq_NBCaHvSyhKHUkDXKH8Lggg0/edit?usp=sharing"
             }
         },
         "resources": {},
@@ -129,6 +123,10 @@
             "ASO-doc": {
                 "name": "Apuntes ASO (doc)",
                 "link": "https://docs.google.com/document/d/16WYQLS3ME0tRhn0M9ATMOQkpus3YQHmJxIZJ2hm-zno/edit?usp=sharing"
+            },
+            "ASO-LINUX-doc": {
+                "name": "Apuntes ASO LINUX(doc)",
+                "link": "https://docs.google.com/document/d/1QEuIaHtStbBaOU-TVhq_NBCaHvSyhKHUkDXKH8Lggg0/edit?usp=sharing"
             }
         }
     },
@@ -147,29 +145,19 @@
         },
         "resources": {
             "33031": {
-                "name": "APUNTES CORTAFUEGOS FÍSICOS",
+                "name": "Apuntes cortafuegos físicos (doc)",
                 "file": "ASA5505.docx",
-                "link": "https://docs.google.com/document/d/1GyDs1CU9D0Hfa-wUqGfg2i6ZUQQ5NAks/edit?usp=sharing&ouid=117153571465087663660&rtpof=true&sd=true"
+                "link": "https://docs.google.com/document/d/12HVSx2Fz_Lva6DjXolEG1t9KGy5nh_6gu1_wMHP9dQQ/edit?usp=sharing"
             },
             "34392": {
-                "name": "Apuntes VPN",
+                "name": "Apuntes VPN (doc)",
                 "file": "VPN.pdf",
                 "link": "https://docs.google.com/document/d/15k8adQwJYA9HsRlFCNBl7ePvUb6LEc8s0x5N214mkiU/edit?usp=sharing"
             },
             "36099": {
-                "name": "Apuntes seguridad por MAC",
+                "name": "Apuntes seguridad por MAC (doc)",
                 "file": "SEGURIDAD MAC.pdf",
                 "link": "https://docs.google.com/document/d/1jz7E9k-zeVSnN-LCnHfeUKzC-6tGfBQpuExXSne_UYQ/edit?usp=sharing"
-            },
-            "33049": {
-                "name": "Ejemplito de Cortafuegos Físicos",
-                "file": "CORTAFUEGOS.pkt",
-                "link": "https://drive.google.com/file/d/1YdqrdyYI9Yk6NyIGAvTTnOl66biFIv6c/view?usp=sharing"
-            },
-            "34396": {
-                "name": "TOPOLOGÍA CORTAFUEGOS FISICOS (EJEMPLO DE CLASE)",
-                "file": "CORTAFUEGOS-2.pkt",
-                "link": "https://drive.google.com/file/d/1_P5vv6nYMfp_XLn1cB_oH867BbAfdjwu/view?usp=sharing"
             }
         },
         "tasks": {
