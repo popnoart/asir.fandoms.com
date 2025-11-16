@@ -144,21 +144,6 @@
             }
         },
         "resources": {
-            "33031": {
-                "name": "Apuntes cortafuegos físicos (doc)",
-                "file": "ASA5505.docx",
-                "link": "https://docs.google.com/document/d/12HVSx2Fz_Lva6DjXolEG1t9KGy5nh_6gu1_wMHP9dQQ/edit?usp=sharing"
-            },
-            "34392": {
-                "name": "Apuntes VPN (doc)",
-                "file": "VPN.pdf",
-                "link": "https://docs.google.com/document/d/15k8adQwJYA9HsRlFCNBl7ePvUb6LEc8s0x5N214mkiU/edit?usp=sharing"
-            },
-            "36099": {
-                "name": "Apuntes seguridad por MAC (doc)",
-                "file": "SEGURIDAD MAC.pdf",
-                "link": "https://docs.google.com/document/d/1jz7E9k-zeVSnN-LCnHfeUKzC-6tGfBQpuExXSne_UYQ/edit?usp=sharing"
-            }
         },
         "tasks": {
             "36100": {
@@ -173,6 +158,21 @@
             "CB-doc": {
                 "name": "Apuntes CB (doc)",
                 "link": "https://docs.google.com/document/d/1QrXXcxet-LuwRDo9N-zgI0zli8hcgBNlDZwnR3fPaa4/edit?usp=sharing"
+            },
+            "CB-01-doc": {
+                "name": "Apuntes cortafuegos físicos (doc)",
+                "file": "ASA5505.docx",
+                "link": "https://docs.google.com/document/d/12HVSx2Fz_Lva6DjXolEG1t9KGy5nh_6gu1_wMHP9dQQ/edit?usp=sharing"
+            },
+            "CB-02-doc": {
+                "name": "Apuntes VPN (doc)",
+                "file": "VPN.pdf",
+                "link": "https://docs.google.com/document/d/15k8adQwJYA9HsRlFCNBl7ePvUb6LEc8s0x5N214mkiU/edit?usp=sharing"
+            },
+            "CB-03-doc": {
+                "name": "Apuntes seguridad por MAC (doc)",
+                "file": "SEGURIDAD MAC.pdf",
+                "link": "https://docs.google.com/document/d/1jz7E9k-zeVSnN-LCnHfeUKzC-6tGfBQpuExXSne_UYQ/edit?usp=sharing"
             }
         }
     },
