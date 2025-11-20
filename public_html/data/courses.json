@@ -116,6 +116,12 @@
                 "start": "06-11-2025 17:30",
                 "end": "06-12-2025 23:59",
                 "name": "Ejercicio Script Ubuntu (Tarea obligatoria)"
+            },
+            "36950": {
+                "type": "Obligatoria",
+                "start": "20-11-2025 17:20",
+                "end": "26-12-2025 23:59",
+                "name": "Script con Windows (Configurar un script en Windows que contenga al menos 25)"
             }
         },
         "tests": {},
