@@ -38,8 +38,15 @@ if (file_exists($calendar_path)) {
             if (preg_match('/^(\d{4})(\d{2})(\d{2})T(\d{2})(\d{2})(\d{2})Z$/', $dtstart, $matches)) {
                 // Crear DateTime en UTC y convertir a zona horaria de Madrid
                 $dt = new DateTime($matches[1].'-'.$matches[2].'-'.$matches[3].' '.$matches[4].':'.$matches[5].':'.$matches[6], new DateTimeZone('UTC'));
-                $dt->setTimezone(new DateTimeZone('Europe/Madrid'));
                 
+                // Ajustar eventos con hora 00:00 al día anterior 23:59
+                if (preg_match('/T000000Z$/', $dtstart)) {
+                    // Es medianoche UTC, ajustar al día anterior 23:59 UTC
+                    $dt->modify('-1 minute');
+                    $event['DTSTART_ADJUSTED'] = $dt->format('Ymd\THis\Z');
+                }
+                
+                $dt->setTimezone(new DateTimeZone('Europe/Madrid'));
                 $event_year = (int)$dt->format('Y');
                 $event_month = (int)$dt->format('n');
             } elseif (preg_match('/^(\d{4})(\d{2})(\d{2})/', $dtstart, $matches)) {

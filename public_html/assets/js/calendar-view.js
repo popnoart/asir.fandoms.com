@@ -26,9 +26,19 @@ class CalendarView {
         try {
             const year = this.currentDate.getFullYear();
             const month = this.currentDate.getMonth() + 1;
-            const response = await fetch(`${this.apiUrl}?year=${year}&month=${month}`);
+            const response = await fetch(`${this.apiUrl}?year=${year}&month=${month}&_t=${Date.now()}`);
             const data = await response.json();
             this.events = data.events || [];
+            
+            // Debug: ver eventos ajustados
+            const adjustedEvents = this.events.filter(e => e.DTSTART_ADJUSTED);
+            if (adjustedEvents.length > 0) {
+                console.log(`🕐 Eventos con hora ajustada (00:00 -> 23:59 día anterior):`, adjustedEvents.length);
+                adjustedEvents.forEach(e => {
+                    console.log(`  - ${e.SUMMARY}`);
+                    console.log(`    Original: ${e.DTSTART} -> Ajustado: ${e.DTSTART_ADJUSTED}`);
+                });
+            }
             
             // Enriquecer eventos con información de tareas si tenemos coursesData
             if (this.coursesData) {
@@ -111,15 +121,8 @@ class CalendarView {
             const minutes = parseInt(dateStr.substring(11, 13));
             const seconds = dateStr.length >= 17 ? parseInt(dateStr.substring(13, 15)) : 0;
             
-            // Crear fecha UTC y luego convertir a fecha local
-            let date = new Date(Date.UTC(year, month, day, hours, minutes, seconds));
-            
-            // Si la hora UTC es 00:00 (medianoche), mostrar como día anterior a las 23:59
-            if (hours === 0 && minutes === 0 && seconds === 0) {
-                date = new Date(date.getTime() - 60000); // Restar 1 minuto (día anterior 23:59)
-            }
-            
-            return date;
+            // Crear fecha UTC
+            return new Date(Date.UTC(year, month, day, hours, minutes, seconds));
         }
         
         return new Date(year, month, day);
@@ -127,7 +130,9 @@ class CalendarView {
 
     getEventsForDay(year, month, day) {
         return this.events.filter(event => {
-            const eventDate = this.parseEventDate(event.DTSTART);
+            // Usar DTSTART_ADJUSTED si existe (eventos con hora 00:00 ajustados)
+            const dateStr = event.DTSTART_ADJUSTED || event.DTSTART;
+            const eventDate = this.parseEventDate(dateStr);
             if (!eventDate) return false;
             
             return eventDate.getFullYear() === year &&
@@ -162,18 +167,9 @@ class CalendarView {
         this.init();
     }
 
-    formatTime(dateStr) {
-        // Primero verificar si es medianoche UTC (00:00:00Z)
-        if (dateStr && dateStr.length >= 15 && dateStr.endsWith('Z')) {
-            const hours = parseInt(dateStr.substring(9, 11));
-            const minutes = parseInt(dateStr.substring(11, 13));
-            const seconds = dateStr.substring(13, 15) ? parseInt(dateStr.substring(13, 15)) : 0;
-            
-            // Si es medianoche UTC, mostrar 23:59
-            if (hours === 0 && minutes === 0 && seconds === 0) {
-                return '23:59';
-            }
-        }
+    formatTime(event) {
+        // Si hay DTSTART_ADJUSTED, usar ese (ya está ajustado a 23:59)
+        const dateStr = event.DTSTART_ADJUSTED || event.DTSTART;
         
         const date = this.parseEventDate(dateStr);
         if (!date) return '';
@@ -255,7 +251,7 @@ class CalendarView {
             
             // Mostrar todos los eventos del día
             dayEvents.forEach(event => {
-                const time = this.formatTime(event.DTSTART);
+                const time = this.formatTime(event);
                 const course = event.COURSE || '';
                 const courseColor = this.getCourseColor(course);
                 const summary = event.SUMMARY || '';
