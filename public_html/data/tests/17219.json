@@ -1,0 +1,252 @@
+[
+    {
+        "enunciado": "¿El permiso CREATE USER es del tipo…?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Datos.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Administración.",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Gestión.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Estructura.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Con qué instrucción podemos añadir los permisos a los usuarios?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "REVOKE",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "ALLOW",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "ACCESS",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "GRANT",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué sentencia permite denegar a un usuario la posibilidad de acceder, manipular o ejecutar objetos concretos?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "REVOKE",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "DENIED",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "DELETE",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "DROP",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Una tabla lógica (no física) que se base en otras tablas es:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Una consulta.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Un trigger",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Una vista.",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Una transacción",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Marca la opción que no es una restricción cuando trabajamos con vistas:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "La sentencia SELECT no puede hacer referencia a variables del sistema o del usuario.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Podemos asociar una vista a un disparador.",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "La sentencia SELECT no puede contener una subconsulta en su cláusula FROM.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Cualquier tabla o vista referenciada por la definición debe existir. ",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Para qué sirven las vistas en bases de datos? ",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Reusabilidad de las consultas.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Conseguir más seguridad en el acceso a los datos.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Todas las demás son correctas.",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Simplificar consultas complejas.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "La sentencia correcta para ver la estructura de una vista es:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "SHOW DESC nombre_vista;",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "DESC nombre_vista;",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "SHOW nombre_vista;",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Ninguna opción es correcta.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Sentencia que se utiliza por si la vista ya estuviera creada anteriormente. En ese caso, la sustituye por la nueva definición:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "NOT FORCE",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "OR REPLACE ",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "FORCE",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Ninguna opción es correcta.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Con qué instrucción podemos quitarle los permisos o privilegios a un usuario?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "GRANT",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "DELETE",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "DROP",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "REVOKE",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "Dado un usuario de la Base de Datos, ¿se le pueden asignar distintos permisos sobre una tabla?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Ninguna es correcta.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Sí, indicando los diferentes permisos separados por comas en la cláusula GRANT",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Sí, pero sólo es posible lanzando una sentencia GRANT para cada uno de los permisos.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "No, no se puede.",
+                "correcta": false
+            }
+        ]
+    }
+]
