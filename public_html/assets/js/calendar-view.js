@@ -26,15 +26,13 @@ class CalendarView {
         try {
             const year = this.currentDate.getFullYear();
             const month = this.currentDate.getMonth() + 1;
-            
-            // Cargar eventos del calendario (clases, etc.)
             const response = await fetch(`${this.apiUrl}?year=${year}&month=${month}`);
             const data = await response.json();
             this.events = data.events || [];
             
-            // Añadir eventos de tareas desde coursesData (más fiables que calendar.json)
+            // Enriquecer eventos con información de tareas si tenemos coursesData
             if (this.coursesData) {
-                this.addTaskEventsFromCourses(year, month);
+                this.enrichEventsWithTaskStatus();
             }
             
             // Debug: mostrar cuántos eventos tienen información de tarea
@@ -99,71 +97,6 @@ class CalendarView {
         });
     }
 
-    addTaskEventsFromCourses(year, month) {
-        // Recorrer todos los cursos y sus tareas
-        for (const [courseCode, courseData] of Object.entries(this.coursesData)) {
-            if (!courseData.tasks) continue;
-            
-            for (const [taskId, taskData] of Object.entries(courseData.tasks)) {
-                if (!taskData.end) continue;
-                
-                // Parsear fecha de fin (formato: dd-mm-yyyy HH:MM)
-                const endMatch = taskData.end.match(/(\d{2})-(\d{2})-(\d{4})\s+(\d{2}):(\d{2})/);
-                if (!endMatch) continue;
-                
-                const taskDate = new Date(
-                    parseInt(endMatch[3]), // año
-                    parseInt(endMatch[2]) - 1, // mes (0-indexed)
-                    parseInt(endMatch[1]), // día
-                    parseInt(endMatch[4]), // hora
-                    parseInt(endMatch[5])  // minuto
-                );
-                
-                // Solo añadir si es del mes actual
-                if (taskDate.getFullYear() === year && taskDate.getMonth() === month - 1) {
-                    // Verificar si ya existe un evento de esta tarea en calendar.json
-                    const existingEvent = this.events.find(e => 
-                        e.SUMMARY && e.SUMMARY.toLowerCase().includes(taskData.name.toLowerCase())
-                    );
-                    
-                    if (existingEvent) {
-                        // Actualizar el evento existente con la fecha correcta de courses.json
-                        existingEvent.DTSTART = this.formatDateToICS(taskDate);
-                        existingEvent.DTEND = existingEvent.DTSTART;
-                        existingEvent.TASK_STATUS = taskData.status || 'Sin estado';
-                        existingEvent.TASK_TYPE = taskData.type || '';
-                        existingEvent.TASK_ID = taskId;
-                        existingEvent.TASK_END = taskData.end;
-                    } else {
-                        // Crear nuevo evento para esta tarea
-                        this.events.push({
-                            UID: `task-${taskId}`,
-                            SUMMARY: taskData.name,
-                            DTSTART: this.formatDateToICS(taskDate),
-                            DTEND: this.formatDateToICS(taskDate),
-                            COURSE: courseCode,
-                            TASK_STATUS: taskData.status || 'Sin estado',
-                            TASK_TYPE: taskData.type || '',
-                            TASK_ID: taskId,
-                            TASK_END: taskData.end
-                        });
-                    }
-                }
-            }
-        }
-    }
-    
-    formatDateToICS(date) {
-        // Convertir Date a formato ICS: YYYYMMDDTHHmmssZ
-        const year = date.getFullYear();
-        const month = String(date.getMonth() + 1).padStart(2, '0');
-        const day = String(date.getDate()).padStart(2, '0');
-        const hours = String(date.getHours()).padStart(2, '0');
-        const minutes = String(date.getMinutes()).padStart(2, '0');
-        const seconds = '00';
-        return `${year}${month}${day}T${hours}${minutes}${seconds}Z`;
-    }
-
     parseEventDate(dateStr) {
         // Formato: 20251001T153000Z (UTC)
         if (!dateStr || dateStr.length < 8) return null;
@@ -177,8 +110,16 @@ class CalendarView {
             const hours = parseInt(dateStr.substring(9, 11));
             const minutes = parseInt(dateStr.substring(11, 13));
             const seconds = dateStr.length >= 17 ? parseInt(dateStr.substring(13, 15)) : 0;
+            
             // Crear fecha UTC y luego convertir a fecha local
-            return new Date(Date.UTC(year, month, day, hours, minutes, seconds));
+            let date = new Date(Date.UTC(year, month, day, hours, minutes, seconds));
+            
+            // Si la hora UTC es 00:00 (medianoche), mostrar como día anterior a las 23:59
+            if (hours === 0 && minutes === 0 && seconds === 0) {
+                date = new Date(date.getTime() - 60000); // Restar 1 minuto (día anterior 23:59)
+            }
+            
+            return date;
         }
         
         return new Date(year, month, day);
@@ -222,6 +163,18 @@ class CalendarView {
     }
 
     formatTime(dateStr) {
+        // Primero verificar si es medianoche UTC (00:00:00Z)
+        if (dateStr && dateStr.length >= 15 && dateStr.endsWith('Z')) {
+            const hours = parseInt(dateStr.substring(9, 11));
+            const minutes = parseInt(dateStr.substring(11, 13));
+            const seconds = dateStr.substring(13, 15) ? parseInt(dateStr.substring(13, 15)) : 0;
+            
+            // Si es medianoche UTC, mostrar 23:59
+            if (hours === 0 && minutes === 0 && seconds === 0) {
+                return '23:59';
+            }
+        }
+        
         const date = this.parseEventDate(dateStr);
         if (!date) return '';
         
