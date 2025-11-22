@@ -1,0 +1,252 @@
+[
+    {
+        "enunciado": " ¿Qué tipo de reclutamiento incluye la publicación de ofertas?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": " Mixto",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": " Externo",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Privado",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Interno",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué se entiende por proceso de selección?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Una entrevista grupal",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": " El conjunto de fases para elegir al candidato más idóneo",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "La formación del personal contratado",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "El envío de currículums a empresas",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Las pruebas prácticas permiten:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": " Analizar conocimientos teóricos",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Evaluar habilidades reales del puesto",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Valorar la creatividad del currículum",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Revisar la carta de presentación",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "  En la entrevista, es importante:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Llegar tarde",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": " Evitar mirar al entrevistador",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Tutear al entrevistador",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Ser puntual y mostrar naturalidad",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": " ¿Qué tipo de comunicación se refiere al lenguaje corporal, gestos y postura?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Escrita",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Emocional ",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "No verbal ",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Verbal ",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Antes de acudir a una entrevista se debe:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Informarse sobre la empresa",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": " Memorizar respuestas",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Llevar ropa informal",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Evitar repasar el currículum",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": " ¿Cuál es el objetivo principal de una dinámica de grupo?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Observar la interacción y habilidades sociales",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Evaluar velocidad de respuesta",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Analizar redacción",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Medir conocimientos técnicos",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál es la primera fase del proceso de selección?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Entrevista",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": " Reclutamiento",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": " Evaluación",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Contratación",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "El reclutamiento interno se realiza cuando:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Se buscan candidatos dentro de la propia empresa",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Se contrata personal ajeno a la empresa",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Se recurre a portales de empleo",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": " Se hace una oferta pública",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué herramienta sirve para evaluar aptitudes cognitivas como memoria o razonamiento lógico?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Test psicotécnico",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Entrevista personal",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Dinámica de grupo",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Prueba práctica",
+                "correcta": false
+            }
+        ]
+    }
+]
