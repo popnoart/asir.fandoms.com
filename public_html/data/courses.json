@@ -499,7 +499,20 @@
             }
         },
         "resources": {},
-        "tasks": {},
+        "tasks": {
+            "37323": {
+                "type": "Obligatoria",
+                "start": "23-11-2025 13:00",
+                "end": "07-12-2025 13:00",
+                "name": "ACTIVIDAD OBLIGATORIA TEMA 1. LA ECONOMÍA LINEAL Y CIRCULAR"
+            },
+            "37324": {
+                "type": "Complementaria",
+                "start": "23-11-2025 13:00",
+                "end": "07-12-2025 13:00",
+                "name": "ACTIVIDAD COMPLEMENTARIA TEMA 1. LA ECONOMÍA LINEAL Y CIRCULAR"
+            }
+        },
         "tests": {},
         "notes": {
             "SAPS-doc": {
