@@ -354,6 +354,12 @@
                 "start": "04-11-2025 09:00",
                 "end": "20-11-2025 23:59",
                 "name": "Tarea Arrays. OBLIGATORIA"
+            },
+            "37437": {
+                "type": "Obligatoria",
+                "start": "25-11-2025 09:00",
+                "end": "10-12-2025 23:59",
+                "name": "Tarea Eventos.OBLIGATORIA"
             }
         },
         "tests": {},
