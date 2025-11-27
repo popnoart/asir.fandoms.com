@@ -792,6 +792,12 @@
                 "start": "12-11-2025 19:00",
                 "end": "25-11-2025 23:59",
                 "name": "UNIT 3. Task - compulsory"
+            },
+            "14090": {
+                "type": "Obligatoria",
+                "start": "26-11-2025 15:55",
+                "end": "09-12-2025 23:59",
+                "name": "UNIT 4. Task - compulsory"
             }
         },
         "tests": {
