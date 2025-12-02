@@ -315,6 +315,18 @@
                 "folder_number": 0,
                 "name": "Unidad 1.5. JavaScript. Funciones",
                 "link": "https://drive.google.com/file/d/1sulIMesDFrZQXBrrdxcgtLrAvgupJH6s/view?usp=sharing"
+            },
+            "IAW-6": {
+                "folder": 0,
+                "folder_number": 0,
+                "name": "Unidad 2. JavaScript. Gestión de Eventos",
+                "link": ""
+            },
+            "IAW-7": {
+                "folder": 0,
+                "folder_number": 0,
+                "name": "Unidad 2. JavaScript. Gestión de nodos",
+                "link": ""
             }
         },
         "resources": {
@@ -360,6 +372,12 @@
                 "start": "25-11-2025 09:00",
                 "end": "10-12-2025 23:59",
                 "name": "Tarea Eventos.OBLIGATORIA"
+            },
+            "37867": {
+                "type": "Obligatoria",
+                "start": "01-12-2025 09:00",
+                "end": "20-12-2025 23:59",
+                "name": "Tarea Eventos II. OBLIGATORIA"
             }
         },
         "tests": {},
