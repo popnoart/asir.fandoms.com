@@ -26,8 +26,14 @@
             "ASGBD-4": {
                 "folder": 16664,
                 "folder_number": 1,
-                "name": "Unidad 4. Programación de bases de datos: conceptos iniciales",
+                "name": "Unidad 4.1. Programación de bases de datos: conceptos iniciales",
                 "link": "https://drive.google.com/file/d/1U9VYyViqzxZ_xeuQNCf28RKg5uVUKe1f/view?usp=sharing"
+            },
+            "ASGBD-5": {
+                "folder": 16665,
+                "folder_number": 1,
+                "name": "Unidad 4.2. Herramientas de programación de bases de datos",
+                "link": ""
             }
         },
         "resources": {},
@@ -319,14 +325,20 @@
             "IAW-6": {
                 "folder": 0,
                 "folder_number": 0,
-                "name": "Unidad 2. JavaScript. Gestión de Eventos",
-                "link": ""
+                "name": "Unidad 2. JavaScript. Gestión de eventos",
+                "link": "https://drive.google.com/file/d/1XmqDrsyamIjMYD1IDxrVtLOuon4NPtCr/view?usp=sharing"
             },
             "IAW-7": {
                 "folder": 0,
                 "folder_number": 0,
-                "name": "Unidad 2. JavaScript. Gestión de nodos",
-                "link": ""
+                "name": "Unidad 2. JavaScript. Listado de eventos",
+                "link": "https://drive.google.com/file/d/1x9HQLaC_-mV37VLYcb07ksYi8fZDxATi/view?usp=sharing"
+            },
+            "IAW-8": {
+                "folder": 0,
+                "folder_number": 0,
+                "name": "Unidad 3. JavaScript. Gestión de nodos",
+                "link": "https://drive.google.com/file/d/1Mscu6-oHnArFOl1kKI809yh2DXoc0mnf/view?usp=sharing"
             }
         },
         "resources": {
