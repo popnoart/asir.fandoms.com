@@ -31,7 +31,7 @@
                                     } else {
                                         echo 'Sin estado';
                                     } ?>
-                                </span>
+                                </span> [ <a href="/quiz.php?course=<?= htmlspecialchars($course); ?>&quiz=<?= htmlspecialchars($test_data['id']); ?>" target="_blank">Practicar</a> ]
                         </li>
                         <!-- Modal cambio de estado -->
                         <div class="modal fade" id="<?= $modal_id; ?>" tabindex="-1" aria-labelledby="<?= $modal_id; ?>Label" aria-hidden="true">
