@@ -269,6 +269,18 @@
                 "start": "08-11-2025 10:35",
                 "end": "22-11-2025 10:35",
                 "name": "ACTIVIDAD COMPLEMENTARIA TEMA 2. THD"
+            },
+            "38308": {
+                "type": "Obligatoria",
+                "start": "07-12-2025 19:00",
+                "end": "20-12-2025 23:59",
+                "name": "ACTIVIDAD OBLIGATORIA TEMA 3. LA NUBE DE GOOGLE"
+            },
+            "38307": {
+                "type": "Complementaria",
+                "start": "07-12-2025 19:00",
+                "end": "20-12-2025 23:59",
+                "name": "ACTIVIDAD COMPLEMENTARIA TEMA 3. LA NUBE DE GOOGLE"
             }
         },
         "tests": {
