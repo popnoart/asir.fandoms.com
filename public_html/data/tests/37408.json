@@ -1,0 +1,252 @@
+[
+    {
+        "enunciado": "¿Qué caracteriza a la economía lineal?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Producción, uso y reciclaje",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Uso de energías renovables",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Producción, uso y eliminación de residuos",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Producción y consumo responsable",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál es la última fase del modelo de economía lineal?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Producción",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Consumo",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Distribución",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Eliminación de residuos",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué principio de la economía verde busca frenar el cambio climático?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Reutilizar materiales",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Generar empleos verdes",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Promover energías renovables",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Reducir las emisiones de CO₂",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué fase NO pertenece a la economía circular?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Eliminación directa de residuos",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Diseño para la circularidad",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Reutilización",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Reciclaje",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "El ecodiseño busca principalmente:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Usar materiales caros y duraderos",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Diseñar productos desechables",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Reducir costes sin importar el impacto ambiental",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Aumentar la vida útil y reducir residuos",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué empresa transforma residuos marinos en tejidos sostenibles?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Ecoalf",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Lush",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Ikea",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Tesla",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "La economía circular propone:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Extraer, fabricar y eliminar",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Producir, usar y tirar",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Producir, usar y reciclar",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Vender, consumir y desechar",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "En la fase de declive del ciclo de vida del producto se debe:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Bajar los precios sin más",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Aumentar la producción",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Reutilizar o reciclar materiales",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Incrementar la publicidad",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "En la fase de madurez del ciclo de vida del producto se recomienda:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Destruir los excedentes",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Invertir solo en promoción",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Implementar programas de reciclaje",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Reducir la producción",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Una de las principales desventajas de la economía lineal es:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Mayor durabilidad de los productos",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Uso eficiente de energía",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Agotamiento de recursos naturales",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Reducción de residuos",
+                "correcta": false
+            }
+        ]
+    }
+]
