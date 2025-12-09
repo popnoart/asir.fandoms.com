@@ -408,6 +408,18 @@
                 "start": "01-12-2025 09:00",
                 "end": "20-12-2025 23:59",
                 "name": "Tarea Eventos II. OBLIGATORIA"
+            },
+            "38409": {
+                "type": "Obligatoria",
+                "start": "09-12-2025 09:00",
+                "end": "15-01-2026 23:59",
+                "name": "Tarea Gestión de nodos I.OBLIGATORIA"
+            },
+            "38406": {
+                "type": "Obligatoria",
+                "start": "09-12-2025 09:00",
+                "end": "20-01-2026 23:59",
+                "name": "Tarea Gestión de nodos II.OBLIGATORIA"
             }
         },
         "tests": {},
