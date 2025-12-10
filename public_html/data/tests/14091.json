@@ -215,12 +215,12 @@
             {
                 "opcion": "c.",
                 "texto": "because",
-                "correcta": true
+                "correcta": false
             },
             {
                 "opcion": "d.",
                 "texto": "although",
-                "correcta": false
+                "correcta": true
             }
         ]
     },
