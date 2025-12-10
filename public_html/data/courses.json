@@ -130,7 +130,14 @@
                 "name": "Script con Windows (Configurar un script en Windows que contenga al menos 25)"
             }
         },
-        "tests": {},
+        "tests": {
+            "ASO-T1-01": {
+                "type": "Cuestionario",
+                "start": "",
+                "end": "",
+                "name": "Repaso test 1ª autoevaluación"
+            }
+        },
         "notes": {
             "ASO-doc": {
                 "name": "Apuntes ASO (doc)",
@@ -241,7 +248,7 @@
                 "folder": 36787,
                 "folder_number": 4,
                 "name": "Unidad 3. La nube",
-                "link": ""
+                "link": "https://drive.google.com/file/d/1XTdmS5YHIz-tS2KoiLYaoQ48tPWNVwKg/view?usp=sharing"
             }
         },
         "resources": {},
