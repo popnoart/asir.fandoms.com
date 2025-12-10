@@ -1,0 +1,252 @@
+[
+    {
+        "enunciado": "We __________ (test) the new software all week, __________ the development team is working on additional features.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "will be testing \/ while",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "test \/ because",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "tests \/ although",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "testing \/ so",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "They __________ (test) the new system later today.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "are testing",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "tests",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "test",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "testing",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "By the end of this month, we __________ (complete) the system update.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "completes",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "will complete",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "completing",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "will have completed",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "He __________ (finish) the report by the time the meeting starts.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "finishes",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "will have finished",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "finishing",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "finish",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "We __________ (meet) with the developers next Monday.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "are meeting",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "meeting",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "meet",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "meets",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "We ran a diagnostic test __________ found several issues.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "or",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "and",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "but",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "so",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "By tomorrow, the IT department __________ (resolve) all the network issues.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "resolves",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "will have resolved",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "will resolve",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "resolving",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "She __________ (present) the new project plan in the meeting.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "is going to present",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "presenting",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "presents",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "won't present",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "They decided to upgrade the system __________ it was outdated.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "but",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "so",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "because",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "although",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "The technician __________ (fix) the issue by tomorrow, __________ there are no unexpected problems.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "fix \/ unless",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "fixes \/ while",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "fixing \/ because",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "will have fixed \/ despite",
+                "correcta": true
+            }
+        ]
+    }
+]
