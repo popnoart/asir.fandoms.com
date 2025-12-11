@@ -1,5 +1,6 @@
 <?php
-// Mostrar errores para debug
+define('ROOT', dirname(__DIR__));
+
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
@@ -8,7 +9,7 @@ if (!isset($_GET['token'])) {
     die('Token no proporcionado.');
 }
 $token = $_GET['token'];
-$resetFile = __DIR__ . '/../../storage/data/password_resets.json';
+$resetFile = ROOT.'/storage/data/password_resets.json';
 $resets = file_exists($resetFile) ? json_decode(file_get_contents($resetFile), true) : [];
 
 if (!isset($resets[$token])) {
@@ -24,7 +25,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && !empty($_POST['username']) && !empt
         $error = 'El usuario no coincide con el autorizado para este enlace.';
     } else {
         // Actualizar la contraseña en auth.json
-        $authFile = __DIR__ . '/../../storage/data/auth.json';
+        $authFile = ROOT.'/storage/data/auth.json';
         $auth = file_exists($authFile) ? json_decode(file_get_contents($authFile), true) : [];
         $found = false;
         foreach ($auth as &$user) {
