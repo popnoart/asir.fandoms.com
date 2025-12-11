@@ -92,6 +92,9 @@
                             <a class="btn btn-outline-light me-2" href="/tools/invite.php" target="_blank">
                                 <i class="fas fa-user-plus"></i>
                             </a>
+                            <a class="btn btn-outline-light me-2" href="/tools/password_reset_invite.php" target="_blank">
+                                <i class="fas fa-key"></i>
+                            </a>
                             <!--<a class="btn btn-outline-light me-2" href="/tools/compare.php" target="_blank">
                                 <i class="fas fa-clipboard-list"></i> Tasks
                             </a>-->
