@@ -571,6 +571,18 @@
                 "start": "23-10-2025 00:00",
                 "end": "23-11-2025 23:59",
                 "name": "Tarea 2 - Implantando medidas de seguridad - OBLIGATORIA"
+            },
+            "2884": {
+                "type": "Obligatoria",
+                "start": "17-12-2025 21:00",
+                "end": "25-12-2025 23:59",
+                "name": "Tarea 3 - Comenzamos a escanear con nmap - OBLIGATORIA"
+            },
+            "2885": {
+                "type": "Complementaria",
+                "start": "17-12-2025 21:00",
+                "end": "25-12-2025 23:59",
+                "name": "Actividad 02_01 Prácticas avanzadas con nmap"
             }
         },
         "tests": {
