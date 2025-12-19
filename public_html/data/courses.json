@@ -686,6 +686,18 @@
                 "start": "17-11-2025 23:59",
                 "end": "30-12-2025 23:59",
                 "name": "CLOUD Q0 ROUTER CON SERVIDORES Y DHCP-RELAY"
+            },
+            "39188": {
+                "type": "Obligatoria",
+                "start": "19-12-2025 19:00",
+                "end": "30-01-2026 23:59",
+                "name": "Tarea Sumarizar en IPV4"
+            },
+            "39189": {
+                "type": "Obligatoria",
+                "start": "19-12-2025 19:00",
+                "end": "30-01-2026 23:59",
+                "name": "Tarea Sumarizar en IPv6"
             }
         },
         "resources": {
