@@ -128,6 +128,18 @@
                 "start": "20-11-2025 17:20",
                 "end": "26-12-2025 23:59",
                 "name": "Script con Windows (Configurar un script en Windows que contenga al menos 25)"
+            },
+            "39151": {
+                "type": "Obligatoria",
+                "start": "18-12-2025 17:30",
+                "end": "24-01-2026 23:59",
+                "name": "Tarea PowerShell_1 (primeros pasos)"
+            },
+            "39152": {
+                "type": "Obligatoria",
+                "start": "18-12-2025 17:30",
+                "end": "30-01-2026 23:59",
+                "name": "Ejercicio_1 PowerShell (Reto)"
             }
         },
         "tests": {
