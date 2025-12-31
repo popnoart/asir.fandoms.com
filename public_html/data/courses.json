@@ -126,20 +126,20 @@
             "36950": {
                 "type": "Obligatoria",
                 "start": "20-11-2025 17:20",
-                "end": "26-12-2025 23:59",
-                "name": "Script con Windows (Configurar un script en Windows que contenga al menos 25)"
+                "end": "14-01-2026 23:59",
+                "name": "(RA3)Script con Windows (Configurar un script en Windows que contenga al menos 25 tarea obligatoria)"
             },
             "39151": {
                 "type": "Obligatoria",
                 "start": "18-12-2025 17:30",
                 "end": "24-01-2026 23:59",
-                "name": "Tarea PowerShell_1 (primeros pasos)"
+                "name": "(RA7) Tarea PowerShell_1 (primeros pasos - tarea obligatoria)"
             },
             "39152": {
                 "type": "Obligatoria",
                 "start": "18-12-2025 17:30",
                 "end": "30-01-2026 23:59",
-                "name": "Ejercicio_1 PowerShell (Reto)"
+                "name": "(RA7) Ejercicio_1 PowerShell (Reto tarea obligatoria)"
             }
         },
         "tests": {
@@ -292,13 +292,13 @@
             "38308": {
                 "type": "Obligatoria",
                 "start": "07-12-2025 19:00",
-                "end": "20-12-2025 23:59",
+                "end": "29-12-2025 23:59",
                 "name": "ACTIVIDAD OBLIGATORIA TEMA 3. LA NUBE DE GOOGLE"
             },
             "38307": {
                 "type": "Complementaria",
                 "start": "07-12-2025 19:00",
-                "end": "20-12-2025 23:59",
+                "end": "29-12-2025 23:59",
                 "name": "ACTIVIDAD COMPLEMENTARIA TEMA 3. LA NUBE DE GOOGLE"
             }
         },
@@ -684,20 +684,20 @@
             "36816": {
                 "type": "Obligatoria",
                 "start": "17-11-2025 23:59",
-                "end": "30-12-2025 23:59",
-                "name": "CLOUD Q0 ROUTER CON SERVIDORES Y DHCP-RELAY"
+                "end": "14-01-2026 23:59",
+                "name": "(RA1-RA2-RA3) CLOUD 10 ROUTER CON SERVIDORES Y DHCP-RELAY"
             },
             "39188": {
                 "type": "Obligatoria",
                 "start": "19-12-2025 19:00",
                 "end": "30-01-2026 23:59",
-                "name": "Tarea Sumarizar en IPV4"
+                "name": "(RA1)Tarea Sumarizar en IPV4"
             },
             "39189": {
                 "type": "Obligatoria",
                 "start": "19-12-2025 19:00",
                 "end": "30-01-2026 23:59",
-                "name": "Tarea Sumarizar en IPv6"
+                "name": "(RA1)Tarea Sumarizar en IPv6"
             }
         },
         "resources": {
@@ -954,7 +954,7 @@
             "38570": {
                 "type": "Obligatoria",
                 "start": "10-12-2025 19:00",
-                "end": "23-12-2025 23:59",
+                "end": "11-01-2026 23:59",
                 "name": "LISTENING UNIT 4 - COMPULSORY"
             }
         },
