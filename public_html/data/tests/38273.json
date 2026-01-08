@@ -451,7 +451,7 @@
     },
     {
         "enunciado": "Se necesita la orden Read para configurar la opción 5 que muestra la siguiente imagen en un script en Ubuntu",
-        "image": "38273_01.png",
+        "imagen": "38273_01.png",
         "respuestas": [
             {
                 "opcion": "a.",
@@ -477,7 +477,7 @@
     },
     {
         "enunciado": "¿Es estrictamente necesario la orden Read en la lista 6 que muestra la siguiente imagen en un script en Ubuntu?",
-        "image": "38273_02.png",
+        "imagen": "38273_02.png",
         "respuestas": [
             {
                 "opcion": "a.",

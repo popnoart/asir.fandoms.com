@@ -101,7 +101,7 @@
     },
     {
         "enunciado": "Enruta por estática del router de Malaga a Cadiz ",
-        "image": "38271_01.png",
+        "imagen": "38271_01.png",
         "respuestas": [
             {
                 "opcion": "a.",
@@ -177,7 +177,7 @@
     },
     {
         "enunciado": "Enrutar del Router1 al Router2 por estática",
-        "image": "38271_02.png",
+        "imagen": "38271_02.png",
         "respuestas": [
             {
                 "opcion": "a.",
@@ -228,7 +228,7 @@
     },
     {
         "enunciado": "Enrutar del Router0 al Router2",
-        "image": "38271_03.png",
+        "imagen": "38271_03.png",
         "respuestas": [
             {
                 "opcion": "a.",
@@ -279,7 +279,7 @@
     },
     {
         "enunciado": "Enrutar por estática del router1 al Router2",
-        "image": "38271_04.png",
+        "imagen": "38271_04.png",
         "respuestas": [
             {
                 "opcion": "a.",
