@@ -81,6 +81,12 @@
                 "start": "",
                 "end": "",
                 "name": "Cuestionario - Acceso a la información (DCL y vistas)"
+            },
+            "16883": {
+                "type": "Cuestionario",
+                "start": "",
+                "end": "",
+                "name": "AUTOEVALUACIÓN DICIEMBRE"
             }
         },
         "notes": {
@@ -148,6 +154,12 @@
                 "start": "",
                 "end": "",
                 "name": "Repaso test 1ª autoevaluación"
+            },
+            "38273": {
+                "type": "Cuestionario",
+                "start": "",
+                "end": "",
+                "name": "AUTOEVALUACIÓN DICIEMBRE"
             }
         },
         "notes": {
@@ -215,7 +227,13 @@
                 "name": "Vencimiento de (RA6 Y RA7) VPN_2 Y CORTAFUEGOS LÓGICOS (Tarea obligatoria)"
             }
         },
-        "tests": {},
+        "tests": {
+            "38024": {
+                "type": "Cuestionario",
+                "start": "",
+                "end": "",
+                "name": "AUTOEVALUACIÓN DICIEMBRE"
+            }},
         "notes": {
             "CB-doc": {
                 "name": "Apuntes CB (doc)",
@@ -308,6 +326,12 @@
                 "start": "",
                 "end": "",
                 "name": "CUESTIONARIO TEMA 1. DIGITALIZACIÓN. ENTORNOS IT Y OT"
+            },
+            "38368": {
+                "type": "Cuestionario",
+                "start": "",
+                "end": "",
+                "name": "AUTOEVALUACIÓN DICIEMBRE"
             }
         },
         "notes": {
@@ -441,7 +465,13 @@
                 "name": "Tarea Gestión de nodos II.OBLIGATORIA"
             }
         },
-        "tests": {},
+        "tests": {
+            "37880": {
+                "type": "Cuestionario",
+                "start": "",
+                "end": "",
+                "name": "AUTOEVALUACIÓN DICIEMBRE"
+            }},
         "notes": {
             "IAW-doc": {
                 "name": "Apuntes IAW (doc)",
@@ -489,6 +519,12 @@
                 "start": "",
                 "end": "",
                 "name": "CUESTIONARIO 1. BÚSQUEDA ACTIVA DE EMPLEO"
+            },
+            "38350": {
+                "type": "Cuestionario",
+                "start": "",
+                "end": "",
+                "name": "AUTOEVALUACIÓN DICIEMBRE"
             }
         },
         "notes": {
@@ -588,7 +624,7 @@
                 "type": "Obligatoria",
                 "start": "17-12-2025 21:00",
                 "end": "25-01-2026 23:59",
-                "name": "Tarea 3 - Comenzamos a escanear con nmap - OBLIGATORIA"
+                "name": "Tarea 3 - Comenzamos a escanear con nmap (RA3) - OBLIGATORIA"
             },
             "2885": {
                 "type": "Complementaria",
@@ -603,6 +639,12 @@
                 "start": "",
                 "end": "",
                 "name": "Cuestionario - Introducción"
+            },
+            "18609": {
+                "type": "Cuestionario",
+                "start": "",
+                "end": "",
+                "name": "AUTOEVALUACIÓN DICIEMBRE"
             }
         },
         "notes": {
@@ -652,6 +694,12 @@
                 "start": "",
                 "end": "",
                 "name": "CUESTIONARIO TEMA 1. LA ECONOMÍA LINEAL Y CIRCULAR"
+            },
+            "38378": {
+                "type": "Cuestionario",
+                "start": "",
+                "end": "",
+                "name": "AUTOEVALUACIÓN DICIEMBRE"
             }
         },
         "notes": {
@@ -852,7 +900,14 @@
                 "link": "https://docs.google.com/document/d/1xAu_oN1DEqzbyKtITBNu5yci7hpK7wXU/edit?usp=sharing&ouid=117153571465087663660&rtpof=true&sd=true"
             }
         },
-        "tests": {},
+        "tests": {
+            "38271": {
+                "type": "Cuestionario",
+                "start": "",
+                "end": "",
+                "name": "AUTOEVALUACIÓN DICIEMBRE"
+            }
+        },
         "notes": {
             "SRI-doc": {
                 "name": "Apuntes SRI (doc)",
@@ -982,6 +1037,12 @@
                 "start": "",
                 "end": "",
                 "name": "UNIT 4. Quiz - compulsory"
+            },
+            "38103": {
+                "type": "Cuestionario",
+                "start": "",
+                "end": "",
+                "name": "AUTOEVALUACIÓN DICIEMBRE"
             }
         },
         "notes": {

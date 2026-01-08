@@ -1,0 +1,506 @@
+[
+    {
+        "enunciado": "¿En IPV6, cual son los hextetos que se utilizan para conectividad con host de destino",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "El cuarto hexteto",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "El quinto y sexto",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Los cuatro últimos",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Los cuatro primeros",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "En una Cloud-PT de Cisco ¿cual es el ultimo numero que nos deja escribir en el DLCI en los seriales de la interfaz de la propia Cloud?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "1000",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "1008",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "1007",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "1001",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Nos encarga subnetear 15 ciudades, 15 oficinas y 30 departamentos para la Network 2000:AABB:BBAA::\/48 ¿Qué IP le pertenece a la Ciudad 15, Oficina 14 y departamento 25?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "2000:AABB:BBAA:FE0B::\/64",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "2000:AABB:BBAA:FE0A::\/60",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "2000:AABB:BBAA:FE0A::\/64",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "2000:AABB:BBAA:FE0B::\/60",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Tenemos que dividir la red 192.168.1.0\/24 en 50 subredes. ¿Cuál sería su nueva mascara?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "255.255.255.248",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "255.255.255.252",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "255.255.255.240",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "255.255.255.224",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Enruta por estática del router de Malaga a Cadiz ",
+        "image": "38271_01.png",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "ip route 192.168.3.0 255.255.255.224 192.168.20.2 255.255.255.0",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "ip route 192.168.3.0 255.255.255.224 192.168.20.2",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "ip route 192.168.3.0 255.255.255.240 192.168.20.2",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "ip route 192.168.3.0 255.255.255.192 192.168.20.2",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿En los router 2811 existe alguna VLAN que no puede utilizar el usuario?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Se pueden utilizar todas las que se necesiten, siempre y cuando no sobrepasen el numero 1007",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "9",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "7",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "1",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿En IPV6, cuál es la parte que se utiliza para subnetear?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Se puede utilizar todos desde el 4 hexteto en adelante",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "El cuarto hexteto",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "El tercer hexteto",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Enrutar del Router1 al Router2 por estática",
+        "image": "38271_02.png",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "ip route 192.168.40.0 255.255.255.192 30.0.0.2",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "ip route 192.168.40.0 255.255.255.192 255.0.0.0",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "ip route 192.168.40.0 255.255.255.0 30.0.0.2",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "ip route 192.168.40.0 255.255.255.192 30.0.0.1",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "En un ASA 5505 no tenemos configurado ningún DNS, los PC de la zona de seguridad 0 quieren tener acceso a los servidores web de la zona de seguridad 100. ¿Qué IP tendrán que teclear los PC de la zona de seguridad 0 para poder acceder a las paginas web que residen en la zona de seguridad 100 teniendo en cuenta que el cortafuegos esta correctamente configurado?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Como no existen DNS configurados los PC de la seguridad  0 no podrán acceder a las paginas Web de la Seguridad 100",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "La IP de los servidores Web de la Zona de seguridad 100",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "La IP de Default-Gateway de los PC de la zona de seguridad 0 el cortafuegos realiza el resto del trabajo para poder acceder a las páginas Web ",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "La IP de Default-Gateway de la zona de seguridad 100",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Enrutar del Router0 al Router2",
+        "image": "38271_03.png",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "ip route 10.0.0.0 255.224.0.0 15.0.0.2ip route 11.0.0.0 255.240.0.0 15.0.0.2",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "ip route 10.0.0.0 255.224.0.0 16.0.0.2ip route 11.0.0.0 255.240.0.0 16.0.0.2",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "ip route 10.0.0.0 255.224.0.0 15.0.0.2 255.255.255.252ip route 11.0.0.0 255.240.0.0 15.0.0.2 255.255.255.252",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "ip route 10.0.0.0 255.224.0.0 16.0.0.2 255.255.255.252ip route 11.0.0.0 255.240.0.0 16.0.0.2 255.255.255.252",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "En configuración de VLAN en IPV6 completa la línea que falta dentro de la encapsulación:Int fa0\/0.10Encapsulation dot1q 10Ipv6 add 2001:1234:1234:1234::1\/64",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Ipv6 general-prefix variable 2001:1234:1234:1234::\/64",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "ipv6 local pool variable 2001:1234:1234:1234::\/40 64",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Ipv6 add 2001:1234:1234:1234::1\/64",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "ipv6 unicast-routing",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Enrutar por estática del router1 al Router2",
+        "image": "38271_04.png",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "ip route 192.168.40.0 255.255.255.128 30.0.0.2",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "ip route 192.168.40.1 255.255.255.192 30.0.0.2",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "ip route 192.168.40.0 255.255.255.192 30.0.0.2",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "ip route 192.168.40.0 255.255.255.0 30.0.0.1",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Existe alguna VLAN reservada para configuraciones en IPV4 en un router 2811 que no podamos utilizar nosotros?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "2",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "1",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "No, se pueden utilizar tantas como necesitemos",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "En una Cloud-PT de Cisco ¿cual es el ultimo numero que nos deja escribir en el DLCI en los seriales de la interfaz de la propia Cloud?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "1000",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "1001",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "1008",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "1007",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuántos bits tiene la IPV6 \"1995:A:B:C:D:E:FFFF::\/\"",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "96",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "112",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "80",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "La orden tiene errores",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Encuentras algún error en el siguiente código?interface FastEthernet0\/0.1encapsulation dot1q 1ip add 192.168.3.1 255.255.255.224",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "La IP y la mascara son incorrectas",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "La IP es incorrecta",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "La mascara es incorrecta",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "No se puede utilizar \"interface FastEthernet0\/0.1\"",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "Queremos configurar un DHCP con la Network 192.168.1.0\/28 ¿Cuál seria su primera y ultima IP disponible?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "192.168.1.1 - 192.168.1.14",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "192.168.1.1 - 192.168.1.16",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "192.168.1.0 - 192.168.1.16",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Queremos configurar un DHCP con la Network 192.168.1.0\/27 ¿Cuál seria su primera y ultima IP disponible?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "192.168.1.1 - 192.168.1.32",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "192.168.1.1 - 192.168.1.30",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "192.168.1.0 - 192.18.1.32",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Nos encarga subnetear 15 ciudades, 15 oficinas y 30 departamentos para la Network 2000:AABB:BBAA::\/48 ¿Qué IP le pertenece a la Ciudad 11 y oficina 13?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "2000:AABB:BBAA:BD00::\/56",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "2000:AABB:BBAA:BD00::\/64",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "2000:AABB:BBAA:DB00::\/60",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "2000:AABB:BBAA:BD00::\/60",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué mascara corresponde por OSPF a la Network 255.255.128.0?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "255.255.0.255",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "0.0.31.255",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "0.0.0.255",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "0.0.127.255",
+                "correcta": true
+            }
+        ]
+    }
+]

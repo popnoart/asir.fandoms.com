@@ -1,0 +1,502 @@
+[
+    {
+        "enunciado": "De las siguientes afirmaciones indica cuál indica el concepto correcto de gusano:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Malware que se propaga insertando una copia de sí mismo dentro de otro programa.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Malware cuyo funcionamiento se  basa en la ejecución de otro programa anfitrión, ejecutado por el usuario casi siempre por engaño, que lo activa.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Malware con capacidad de autorréplica y que actúan en entornos de red explotando alguna vulnerabilidad de algún protocolo o servicio.",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Malware que ofrece un modo de acceso al sistema esquivando las medidas de seguridad dejando puertos activos abiertos.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Marca la opción que representa el concepto de TRAZABILIDAD:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Busca asegurar qué en todo momento se podrá determinar quién hizo qué y en qué momento.",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Garantiza la participación de las partes en una comunicación.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Característica de los sistemas informáticos que busca detectar por dónde van pasando los paquetes en las comunicaciones.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Característica de los sistemas informáticos que mide el tiempo de funcionamiento sin fallos.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "De las siguientes afirmaciones indica cuál no es un malware:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Troyano",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Bug",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Virus",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Rootkit",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "De las siguientes afirmaciones indicar cuál de ellas es correcta dentro del ámbito de la seguridad:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "En el sistema debe existir y utilizarse un perfil de usuario con privilegios restringidos.",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Riesgo para un sistema informático es lo mismo que amenaza.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "El riesgo mide las pérdidas económicas provocadas por una amenaza.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Respecto a posibles ataques a realizados por personas, la ingeniería social es un acto tipificado como delito por la ley.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "De las siguientes afirmaciones indica cuál no corresponde a un ataque pasivo:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Se limitan a extraer información.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "No producen cambios",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Producen cambios en el sistema.",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "En la mayoría de los casos el afectado no percibe el ataque",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Marca la opción que representa el concepto de DISPONIBILIDAD:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Garantiza que la información sólo puede ser modificada si se dispone de la autorización para ello.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Garantiza que las personas o sistemas autorizados para acceder a los datos, puedan hacerlo cuando lo necesiten.",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Garantiza que el acceso a la información se realiza de forma controlada.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Garantiza que el acceso a la información no se produce de forma no autorizada.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "De las siguientes afirmaciones indica cuál corresponde a un ataque activo de interrupción:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Sucede cuando hay un acceso no autorizado que cambia el entorno para su beneficio.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Consigue un objeto similar al atacado de forma que no resulte sencillo distinguir entre el  objeto original y el fabricado.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Ocurre si un elemento no autorizado consigue un acceso a un determinado objeto del sistema.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Puede provocar que un objeto del sistema se pierda, quede no utilizable o no disponible.",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "Marca la opción que representa el concepto de ALTA DISPONIBILIDAD:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Garantiza los cambios que se realizan a la información en todo momento. ",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Mide la capacidad de que la información se encuentre operativo para los usuarios autorizados en todo momento y sin interrupciones.",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Ninguna es correcta.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Garantiza el acceso a la información en todo momento.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Marca la opción que representa el concepto de INTEGRIDAD:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Garantiza que el acceso a la información no se produce de forma no autorizada.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Garantiza el acceso adecuado a la información.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Garantiza que la información sólo puede ser modificada si se dispone de la autorización para ello.",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Garantiza que las personas o sistemas autorizados para acceder a los datos, puedan hacerlo cuando lo necesiten.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Marca la opción que representa el concepto de CONFIDENCIALIDAD:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Garantiza que las personas o sistemas autorizados para acceder a los datos, puedan hacerlo cuando lo necesiten.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Garantiza que el acceso a la información no se produce de forma no autorizada.",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Garantiza que la información sólo puede ser modificada si se dispone de la autorización para ello.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Garantiza que la información llega al destinatario con los permisos adecuados.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Marca la opción que representa el concepto de FIABILIDAD:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Busca asegurar qué en todo momento se podrá determinar quién hizo qué y en qué momento.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Garantiza el acceso adecuado a la información.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Característica de los sistemas informáticos que mide el tiempo de funcionamiento sin fallos.",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Garantiza la participación de las partes en una comunicación.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Marca la opción que representa el concepto de NO REPUDIO:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Característica de los sistemas informáticos que busca evitar ser rechazado en las comunicaciones.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Característica de los sistemas informáticos que mide el tiempo de funcionamiento sin fallos.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Busca asegurar qué en todo momento se podrá determinar quién hizo qué y en qué momento.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Garantiza la participación de las partes en una comunicación.",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "De las siguientes afirmaciones indicar cuál de ellas es la correcta.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Un ataque es la realización de una amenaza.",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Vulnerabilidad es lo mismo que amenaza.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "El impacto mide la probabilidad de que se produzca una vulnerabilidad",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Hay riesgo en el sistema, aunque no exista amenaza.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Marca la opción que representa el concepto de AUTENTICACION:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Establece el mecanismo por el que el usuario se va a identificar en el sistema",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Busca verificar la identidad del usuario al acceder a los sistemas o información.",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Define, mantiene y elimina las autorizaciones de los usuarios del sistema.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Determina qué, cómo y cuándo, un usuario autenticado puede utilizar los recursos de la organización.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Marca la opción que incluye los principios básicos de la Seguridad Informática:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Confidencialidad, Integridad y Autorización",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Confidencialidad, Autenticación y Seguridad",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Confidencialidad, Integridad y Autenticación",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Confidencialidad, Integridad y Disponibilidad",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "De las siguientes afirmaciones indica cuál no es una amenaza lógica:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Desgaste de un dispositivo.",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Ingeniería social.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Ataque de puertos.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Malware",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "El tiempo medio entre fallos o MTTF (Mean Time To Failure) mide:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Ninguna es correcta.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "El tiempo medio transcurrido hasta que un dispositivo falla.",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "El tiempo medio tomado en restablecer la situación normal una vez que se ha producido un incidente.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "El tiempo en el que un sistema está fuera de servicio.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "De las siguientes afirmaciones indica cuál no es una vulnerabilidad de hardware:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Error de fabricación de un dispositivo.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Mal diseño del dispositivo.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Error de programación de un dispositivo.",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Fallo en el suministro de energía eléctrica.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "De las siguientes afirmaciones indica cuál indica el concepto correcto de troyano:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Malware cuyo funcionamiento se  basa en la ejecución de otro programa anfitrión, ejecutado por el usuario casi siempre por engaño, que lo activa.",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Malware que ofrece un modo de acceso al sistema esquivando las medidas de seguridad cerrando puertos.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Malware con capacidad de autorréplica y que actúan en entornos de red explotando alguna vulnerabilidad de algún protocolo o servicio.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Malware que se propaga insertando una copia de sí mismo dentro de otro programa.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "De las siguientes afirmaciones indica cuál indica el concepto correcto de virus:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Malware que ofrece un modo de acceso al sistema esquivando las medidas de seguridad dejando puertos activos abiertos.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Malware cuyo funcionamiento se  basa en la ejecución de otro programa anfitrión, ejecutado por el usuario casi siempre por engaño, que lo activa.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Malware con capacidad de autorréplica y que actúan en entornos de red explotando alguna vulnerabilidad de algún protocolo o servicio.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Malware que se propaga insertando una copia de sí mismo dentro de otro programa.",
+                "correcta": true
+            }
+        ]
+    }
+]

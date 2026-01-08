@@ -1,0 +1,502 @@
+[
+    {
+        "enunciado": "Crear copias de seguridad es...",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Seguridad activa",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Seguridad mixta",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Seguridad pasiva",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "AAA es...",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Contabilización, Autorización y Distribución",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Autentificación, Autorización y Contabilización",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Autorización, Autentificación y Legalización",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Que se entiende por VPN",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Proteger los datos cifrando la información",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Convierte la IP pública en red privada",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Cifra los datos sin proteger la información",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Que es una SAI",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Es un sistema de alimentación interrumpida",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Baterías únicamente tipo Trifásica",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Baterías únicamente tipo Monofásica",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Es un sistema de alimentación ininterrumpida",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "Escribe la orden u órdenes obligatorias para asignar seguridad por cable en cualquiera de las salidas de un Switch.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Únicamente swtichport port-security",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Switchport mode access y switchport port-security",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Únicamente Switchport mode access",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué es una clave de un sistema criptográfico?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Un conjunto de códigos utilizados para transmitir un mensaje privado cuyo contenido se quiere ocultar",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Un conjunto de signos o símbolos del mensaje original a los que se les cambia la posición",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Ninguna es cierta",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Una herramienta necesaria para enviar un archivo por internet",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Un administrador ha configurado seguridad, en el puerto fa0\/5 siempre se conecta en ese puerto un ordenador debidamente autorizado por Sticky. Puntualmente, un ordenador sin permisos se conecta en ese puerto y el puerto se apaga. ¿Cómo lo solucionarías para que el ordenador debidamente autorizado, pueda volver a conectarse a ese puerto?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Quitar el cable de red y volver a colocarlo",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Shutdown y no shutdown",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Apagar el router y volver a encenderlo",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Esperar unos minutos a que se reconfigure el swtich ",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "La ley de propiedad intelectual protege creaciones originales  como pueden ser...",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Una imagen",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Un libro o una idea",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Una coreografía",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Todas son ciertas",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "El objetivo primordial de la seguridad es proteger los archivos de la empresa, especialmente...",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Los ordenadores",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "La información",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "El software",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "El mobiliario",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Sniffer es...",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Consiste en un análisis del tráfico, habitualmente utilizado para recabar contraseñas",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Mediante una saturación de información se causa la caída del servicio de tal forma que los usuarios legítimos no la puedan usar",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "técnica de suplantación de identidad",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "El atacante se hace pasar por una persona o empresa de confianza para recabar información como: contraseñas, datos bancarios, etc.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Que se entiende por denegación de servicios",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Consiste en un análisis del tráfico, habitualmente utilizado para recabar contraseñas",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Mediante una saturación de información se causa la caída del servicio de tal forma que los usuarios legítimos no la puedan usar",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "El atacante se hace pasar por una persona o empresa de confianza para recabar información como: contraseñas, datos bancarios, etc.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Phsihing es...",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "El atacante se hace pasar por una persona o empresa de confianza para recabar información como: contraseñas, datos bancarios, etc.",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Consiste en un análisis del tráfico, habitualmente utilizado para recabar contraseñas",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "técnica de suplantación de identidad",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Mediante una saturación de información se causa la caída del servicio de tal forma que los usuarios legítimos no la puedan usar",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Spoofing es...",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "técnica de suplantación de identidad",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "El atacante se hace pasar por una persona o empresa de confianza para recabar información como: contraseñas, datos bancarios, etc",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Consiste en un análisis del tráfico, habitualmente utilizado para recabar contraseñas",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Mediante una saturación de información se causa la caída del servicio de tal forma que los usuarios legítimos no la puedan usar",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "SSH es …",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Acceso remoto no seguro a un Router o un Swtich",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Acceso local (no remoto) y no seguro a un Router o un Swtich",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Acceso local (no remoto) y Sï seguro a un Router o un Swtich",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Acceso remoto seguro a un router o un Swtich",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "Desde el punto de vista de seguridad, que es más seguro ¿Qué el administrador conozca la contraseña de un usuario de un dominio, o, que solo la conozca el propio usuario?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Usuario, administrador y administrador del dominio",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Usuario y administrador",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Únicamente el administrador",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Únicamente el usuario",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "Un empleado con la herramienta Wireshark escanea el tráfico de uno de los router de la empresa con el objetivo de conseguir información detallada de los pc y usuarios, esta técnica recibe el nombre de…",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Denegación de servicios Proxy",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Sniffer",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Spoofing",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Un empleado hace creer a un familiar de un compañero lejano de su empresa, que es una persona de confianza para tratar de robar información muy sensible como datos bancarios, ¿Qué nombre recibe dicha técnica?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Sniffer",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Spoofing",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Denegación de servicios",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Phsihing",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "Que autentificación se debe utilizar en un router en conexiones inalámbricas si queremos configurar alta seguridad.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "SSH",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Telnet",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "WPA2",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "WEP",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿NetBIOS, que puertos cierra? ",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "135, 136 Y 137",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "136, 137 Y 138",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "144, 145 Y 146",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "137, 138 Y 139",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "Que diferencia existe entre SSH y Telnet",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "SSH encripta y Telnet no",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Telnet encripta y SSH no",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Tanto SSH como Telnet encripta",
+                "correcta": false
+            }
+        ]
+    }
+]

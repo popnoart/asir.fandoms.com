@@ -1,0 +1,502 @@
+[
+    {
+        "enunciado": "La obsolescencia programada consiste en:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Ampliar la vida útil de los productos.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Diseñar productos con vida útil limitada.",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Reutilizar materiales en nuevos productos.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Diseñar productos para que duren más.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "En la economía circular, el reciclaje y regeneración permiten:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Eliminar la reutilización.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Generar más vertederos.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Evitar el uso de materias primas nuevas. ",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Aumentar la obsolescencia.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál es el primer principio de la economía verde?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Impulsar el consumo masivo.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Reducir las emisiones de gases de efecto invernadero.",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Promover las energías renovables.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Eliminar el transporte público.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": " ¿Qué empresa convierte residuos del mar en ropa sostenible?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "NaturGreen.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": " Gocycle.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Ecoalf. ",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Lush.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "En el ámbito económico, una ventaja de la economía circular es:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": " Fomentar el desperdicio.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Aumentar la dependencia de recursos escasos.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Reducir el coste de eliminación de residuos. ",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Incrementar los costes de materias primas.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "La economía verde busca principalmente:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Generar empleos verdes y promover energías limpias.",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Mantener el modelo de producción lineal.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Aumentar las emisiones de CO₂.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Reducir el uso de energías renovables.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Una de las principales consecuencias del modelo lineal es:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Disminución de residuos.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Aumento de residuos y contaminación.",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Aumento de la biodiversidad.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Reducción de la eficiencia energética.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": " ¿Qué empresa diseña bicicletas eléctricas reciclables?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "IKEA.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Lush.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Gocycle. ",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Ecoalf.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué son los empleos verdes?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Trabajos sin formación técnica.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Empleos en industrias fósiles.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Trabajos que aumentan la contaminación.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Puestos relacionados con la protección ambiental. ",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": " ¿Cuál NO es un objetivo del ecodiseño?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Aumentar la contaminación. ",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Reducir residuos.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Usar menos materias primas.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": " Facilitar el reciclaje.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "En la economía circular, el diseño para la circularidad significa:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Diseñar productos de un solo uso.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Diseñar productos pensando en su reciclaje. ",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Crear productos de bajo coste.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Diseñar productos que no se puedan reparar.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué caracteriza a la economía lineal?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": " Producir, usar y tirar.",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Reducir, reutilizar y regenerar.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Producir, usar y reciclar.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Reutilizar, reparar y reciclar.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": " Una ventaja ambiental de la economía circular es:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": " Aumento de residuos.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Reducción de la extracción de recursos naturales. ",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": " Incremento de emisiones contaminantes.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Mayor consumo energético.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "El modelo de economía circular propone:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Producir, usar y reciclar. ",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Acelerar el consumo.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Incrementar la extracción de recursos.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Eliminar los productos tras su uso.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": " ¿Cuál de los siguientes NO es un beneficio social de la economía circular?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Inclusión de grupos vulnerables.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Reducción de desigualdades.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Creación de empleo verde.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Aumento de la contaminación del agua.",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "El ecodiseño se centra en:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Crear productos de corta duración.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Diseñar productos sostenibles desde su creación. ",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Aumentar el consumo.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Maximizar el uso de materiales tóxicos.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Un ejemplo de energía renovable es:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Energía solar.",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": " Petróleo.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Carbón.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Gas natural.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "La sostenibilidad busca:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Usar más energía y materiales.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Fomentar el uso de productos desechables.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Maximizar beneficios sin importar los recursos.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Producir y consumir sin afectar a generaciones futuras. ",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál es la primera fase del modelo de economía lineal?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Consumo.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Extracción de recursos naturales.",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Producción.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Eliminación de residuos.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Un beneficio ambiental del ecodiseño es:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Menor durabilidad del producto.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Reducción de residuos y contaminación.",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Incremento del consumo energético.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Aumento del uso de plásticos.",
+                "correcta": false
+            }
+        ]
+    }
+]

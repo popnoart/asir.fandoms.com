@@ -1,0 +1,452 @@
+[
+    {
+        "enunciado": "¿Cuál es la forma correcta de declarar una variable que puede cambiar su valor en JavaScript?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "const numero = 10;",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "let numero = 10;",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "variable numero = 10",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "ar numero; numero == 10;",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué devuelve la siguiente expresión: \"5\" + 3?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "error",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "8",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "53",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "\"8\"",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué estructura se utiliza para repetir un bloque de código un número determinado de veces?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "if",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "for",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "switch",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "else",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál de los siguientes operadores compara valor?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "==",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "===",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "!=",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "=",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué valor mostrará la consola?. let x = 10; if (x > 20) {     console.log(\"Mayor\"); } else {     console.log(\"Menor o igual\"); }",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "False",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "True",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Menor o igual",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Mayor",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": " ¿Cuál de los siguientes bucles continúa ejecutándose mientras se cumpla una condición?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "while",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "for",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "do...then",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "do while",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Para declarar una variable de ámbito local, y no consumir excesivos recursos del sistema, podemos utilizar:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "declare",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "var",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Las dos anteriores son correctas",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "let",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "JavaScript realiza con los tipos de datos en las variables lo que se denomina:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Conversión explícita",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Ninguna es correcta",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Conversión implícita",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "No realiza ninguna conversión",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Con qué extensión se guarda un archivo de javascript?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": ".js",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": ".html",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": ".css",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": ".php",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué evento gestiona la carga del documento HTML?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "DOMContent",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "DOMContentReady",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "DOMContentLoaded",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "DOMReadyLoaded",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué tipo de dato se utiliza en JavaScript para los valores de tipo texto?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "chartat",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "String",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Arrays",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "chart",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Cuando se declara una variable en JavaScript, es necesario:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Las dos anteriores son correctas",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Especificar el tipo de datos",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Declarar el ámbito de la variable",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "No es necesario especificar el tipo de datos",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál es la diferencia entre un bucle for y un bucle while?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "El bucle while se ejecuta mientras se cumple una condición",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "No hay diferencia entre ellos",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Son estructuras diferentes, bucle for se ejecuta un número determinado de veces ",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Las dos respuestas anteriores son correctas",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué atributo tiene la etiqueta script para agregar el archivo js?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "type",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "src",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "rel",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "hred",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál es el propósito principal del método addEventListener() en JavaScript?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Detener la ejecución de un bloque de código.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Ejecutar una función cuando ocurre un evento específico en un elemento.",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Crear un nuevo elemento HTML en la página.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Declarar una variable que escucha cambios",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "En un bucle for, ¿Se puede interrumpir aunque la condición se siga cumpliendo, con qué claúsula?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "end",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "interrupted",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "continue",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "break",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué ocurre en este bucle? numero=0; while (numero==0) {     window.alert(\"Dentro del bucle\"); }",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Se entra una vez al bucle",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Nunca se entra al bucle",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "El bucle se ejecuta un determinado número de veces",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Nunca se sale del bucle",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "Para que se utiliza un Array",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Un tipo de variable",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Una constante",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Un tipo bucle",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Una colección de datos",
+                "correcta": true
+            }
+        ]
+    }
+]

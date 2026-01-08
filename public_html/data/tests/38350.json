@@ -1,0 +1,502 @@
+[
+    {
+        "enunciado": "¿Qué consejo se recomienda durante la despedida en una entrevista?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Salir sin hablar",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Terminar la entrevista abruptamente",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Agradecer la oportunidad y preguntar por el proceso",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Interrumpir al entrevistador",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué herramienta innovadora permite mostrar proyectos o trabajos visualmente?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Portfolio digital",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Dinámica de grupo",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Prueba teórica",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Carta de presentación",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Una mala práctica durante una entrevista sería:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Evitar contacto visual",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Gesticular en exceso o masticar chicle",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Agradecer la oportunidad",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Sonreír ocasionalmente",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué herramienta tradicional se utiliza para presentar la candidatura?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Portafolio digital",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Currículum Vitae",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Videocurrículum",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Blog profesional",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué documento acompaña al currículum y permite explicar la motivación del candidato?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Carta de recomendación",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Carta de presentación",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Certificado académico",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Portfolio digital",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué fuente pública facilita ofertas de empleo oficiales?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "LinkedIn",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "SEPE",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Indeed",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "InfoJobs",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Un ejemplo de destreza dentro de la marca personal sería:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Empatía",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Título universitario",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Resolución de problemas",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Currículum extenso",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué herramienta innovadora combina imagen y presentación personal?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Carta de recomendación",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Blog corporativo",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Videocurrículum",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Carta de presentación",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué elemento forma parte de la marca personal?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "El vestuario",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "La carta de presentación",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Las destrezas y habilidades",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "La redacción del CV",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál es una ventaja de los test psicotécnicos?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Valorar la experiencia laboral",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Sustituir la entrevista",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Evaluar la apariencia física",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Medir la capacidad de adaptación y aprendizaje",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál de las siguientes es una actitud valorada por las empresas?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Trabajo en equipo",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Creatividad técnica",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Gestión del tiempo",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Capacidad de análisis",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "En una dinámica de grupo, los evaluadores buscan:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Quién habla más",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Quién colabora, escucha y aporta",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Quién dirige el grupo",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Quién tiene mejor currículum",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué institución recopila datos estadísticos sobre empleo en España?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Infoempleo",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "INE",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "SEPE",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "LinkedIn",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué diferencia principal hay entre actitud y aptitud?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "La actitud es la forma de comportarse, la aptitud es el saber hacer",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Ninguna",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "La actitud es saber hacer; la aptitud es comportarse bien",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Ambas se refieren a conocimientos técnicos",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Por qué es importante la marca personal?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Porque permite diferenciarse y destacar",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Porque evita hacer entrevistas",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Porque sirve para cambiar de profesión",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Porque sustituye al currículum",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué actitud muestra compromiso y responsabilidad?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Puntualidad y cumplimiento de tareas",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Evitar el trabajo en equipo",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Cambiar de empleo constantemente",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Delegar sin comunicar",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál de las siguientes es una aptitud muy demandada?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Proactividad",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Adaptabilidad",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Compromiso",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Manejo de idiomas",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "La marca personal se define como:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "El diseño del currículum",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "La imagen que proyectamos profesionalmente",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Un título académico",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "El logotipo de una empresa",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Un ejemplo de buena comunicación verbal es:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Vocabulario profesional y positivo",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Silencio prolongado",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Tuteo y lenguaje coloquial",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Hablar demasiado rápido",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál es el objetivo final de este tema?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Comprender cómo mejorar la empleabilidad y destacar en procesos de selección",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Redactar informes",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Memorizar definiciones",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Aprender a escribir cartas",
+                "correcta": false
+            }
+        ]
+    }
+]

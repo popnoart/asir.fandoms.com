@@ -1,0 +1,502 @@
+[
+    {
+        "enunciado": "¿Cuál de las siguientes es una aplicación de la Inteligencia Artificial?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Cifrado de mensajes",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Control de procesos de producción y análisis predictivo",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Creación de prótesis con impresoras 3D",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Visualización de objetos 3D",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué caracteriza a un entorno OT (Operation Technology)?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Gestiona nóminas y facturas.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Controla los procesos físicos y la maquinaria de la empresa. ",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Permite realizar videollamadas corporativas.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Gestiona las bases de datos en la nube.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál de estas tecnologías pertenece a la digitalización en negocio?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Robots de ensamblaje.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Sistemas SCADA.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Sensores y actuadores.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Software ERP o CRM. ",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué es la digitalización?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Usar realidad aumentada para formación.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Crear nuevos puestos de trabajo tecnológicos.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Pasar información o procesos de formato papel a digital.",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Automatizar la producción industrial.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Una ventaja de implantar tecnología digital en una empresa es:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Dificultar la adaptación al mercado.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Aumentar el trabajo manual.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Reducir la comunicación entre empleados.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Facilitar la toma de decisiones mediante el análisis de datos.",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué papel tienen las THD en el desarrollo de productos y servicios?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Sirven únicamente para almacenar datos",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Se usan solo en el sector industrial",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Permiten diseñar, personalizar y mejorar productos de forma innovadora y eficiente",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": " Reemplazan totalmente al personal humano",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué elemento NO forma parte de un sistema ciberfísico?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Batería solar",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Sensores",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": " Actuadores",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Controlador",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál de estas tecnologías permite crear objetos físicos a partir de un diseño digital?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Manufactura o impresión 3D",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": " Inteligencia artificial",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Realidad aumentada",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Robótica avanzada",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué diferencia principal hay entre digitalización y transformación digital?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "La digitalización es más importante que la transformación digital.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "No existe diferencia, son lo mismo.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "La digitalización usa software y la transformación digital usa hardware.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "La digitalización cambia los formatos; la transformación digital cambia la forma de trabajar.",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál de las siguientes afirmaciones describe mejor el Internet de las Cosas (IoT)?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Conexión de objetos físicos a internet para recopilar y compartir datos",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Un sistema de almacenamiento local",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Un programa de inteligencia artificial para robots",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Una red de ordenadores conectados a satélites",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué función tiene el Big Data en las empresas?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Sustituye los sistemas ciberfísicos",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Permite almacenar archivos en la nube",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Protege redes informáticas frente a ataques",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Analiza grandes volúmenes de datos para obtener información útil",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué describe mejor la transformación digital integral?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "La creación de nuevas máquinas industriales.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Un cambio completo en los procesos de la empresa gracias a la tecnología. ",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "La simple digitalización de documentos.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "La sustitución de empleados por robots.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué caracteriza a la transformación digital?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": " Se limita a la automatización de máquinas.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Cambia la manera de trabajar mediante la tecnología. ",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "No implica cambios en la organización.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Solo convierte documentos a PDF.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál de las siguientes tecnologías pertenece a la digitalización en planta?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Tienda online.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Software CRM.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Robots industriales.",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Correo electrónico.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué es un entorno IT (Information Technology)?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": " Conjunto de herramientas mecánicas.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Tecnología que gestiona datos, información y comunicación en la empresa. ",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Sistema físico de sensores en planta.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Tecnología usada para controlar maquinaria.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué diferencia a la Realidad Virtual de la Realidad Aumentada?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": " La Realidad Virtual te sumerge en un entorno digital, mientras que la Aumentada añade elementos digitales al mundo real",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "La Realidad Virtual usa únicamente teléfonos móviles",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "No hay diferencia, son la misma tecnología",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "La Realidad Aumentada requiere gafas VR",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué caracteriza principalmente a la Cuarta Revolución Industrial o Industria 4.0?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "El uso del vapor como fuente de energía",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "La conectividad, la automatización y el análisis de datos",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "La producción en cadena y la electricidad",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "La invención de la imprenta",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Por qué se llaman “habilitadoras” las Tecnologías Habilitadoras Digitales (THD)?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Porque son tecnologías antiguas reutilizadas",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Porque permiten la aparición de nuevos productos, servicios y formas de trabajar",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Porque dependen de la electricidad",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Porque sustituyen completamente al trabajo humano",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Una de las ventajas principales de la transformación digital integral es:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Eliminar la comunicación interna.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Mejorar la experiencia del cliente y la eficiencia general. ",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Aumentar los costes de producción.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Reducir la innovación.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué tecnología permite almacenar y acceder a información desde cualquier dispositivo con conexión a internet?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Ciberseguridad",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Big Data",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Computación en la nube",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Robótica avanzada",
+                "correcta": false
+            }
+        ]
+    }
+]

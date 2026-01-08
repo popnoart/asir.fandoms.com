@@ -1,0 +1,504 @@
+[
+    {
+        "enunciado": "¿Recién instalado un Windows Server 2019 en modo local con las opciones predeterminadas pertenece a algún dominio?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Depende de los parámetros de la instalación",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Sí",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "No",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué puertos deshabilita NetBIOS?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "137, 138 y 139",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "136,137 y 138",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Ninguna respuesta es cierta",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "80 y 53",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué hace la orden chgrp?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Permite cambiar la Password en Linux",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Cambia el grupo de usuarios de un archivo o carpeta en Windows",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Cambia el grupo de usuarios de un archivo o carpeta en un sistema Linux",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "Instalas dos sistemas operativos Windows 10 cada uno de ellos como es lógico en su PC correspondiente. El primer Pc tiene la IP 192.168.1.2 el segundo Pc tiene la IP 192.168.1.3 ¿por defecto pueden verse en red?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Sí, pues los dos Pc están en la misma red",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "No, es necesario configurar la red correspondiente",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Depende de la versión de Windows 10",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Todas las respuestas son falsas",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Tenemos en una empresa 50 ordenadores con el sistema operativo Windows 10, con las IP desde el rango 192.168.1.2 hasta 192.168.1.70 nos solicitan conectar 2 PC nuevos con las IP 192.168.25.7\/24 y 172.172.0.44\/16 ¿podemos conseguirlo con Windows",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "No, deberíamos configurar VLAN con Cisco",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Todas las respuestas son falsas",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Sí",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Con Windows 10 Home NO, sin embargo, con Windows 10 PRO Si.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Un administrador de Windows Server puede visualizar la contraseña de un usuario en Active Directory...",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "No, pero puede modificarla",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Sí, y puede modificarla",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Depende de la configuración de la cuenta",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué orden cambia el nombre de un grupo en Linux?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Groupmod -n",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Group -n",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Todas son ciertas",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Mod -n",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué orden visualiza la versión de Linux que estamos utilizando?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "lusrmgr.msc",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Uname",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "mste.msc",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Tenemos un archivo de texto creado en Windows 10 con nuestras recetas de cocina preferidas, el archivo esta guardado en \"mis documentos \"¿Que atributo es el que no debemos utilizar nunca para este archivo?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Attrib +H",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Attrib +S",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Attrib + R",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Attrib +A",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué hace la orden touch en Linux?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Crea un archivo con texto",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Crea un archivo vacío",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Crea un directorio con texto",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Tenemos un usuario agregado al grupo \"Operadores de Cuentas\" el usuario crea una cuenta para un usuario nuevo en la empresa, una vez que el nuevo usuario inicia la sesión, ¿el Operador de cuentas puede visualizar la contraseña del nuevo usuario?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "No",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Sí",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Depende de la configuración de la cuenta del usuario nuevo",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Depende de los permisos de la cuenta del usuario que esta incluido en el grupo de operadores de cuentas",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué hace la orden Less e Linux?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Muestra un archivo pero sí deja editarlo",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Muestra un archivo pero no deja editarlo",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Crea archivos",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "La orden no es correcta",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cómo se crea un archivo en la consola de Windows 10?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "copy con",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "touch",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Nano",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "copy com",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Que valor numérico equivale a la orden \"chmod DRWX RWX --X\"",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "640",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "761",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "771",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "770",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "El usuario “Carmen” pertenece al grupo “costura” tiene control total sobre la carpeta “trajes” puede conectarse a ella perfectamente desde maquinas clientes Windows 10, el administrador incluye a “Carmen” al grupo “modas” con permiso de sin acceso para la carpeta “trajes” el usuario “Carmen” cuando trata de acceder a la carpeta “trajes” no tiene acceso, ¿Cuál crees que puede ser la causa?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Carmen no tiene permisos",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Carmen no esta en el grupo modas",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Se ha producido un error en LDAP de Windows Server",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Carmen no esta en el grupo costura",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Hemos configurado en Windows Server la Network 150.150.0.0\/18 ¿Cuántos host nos queda disponibles para utilizar en el dominio?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "32.768",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "16.384",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "254",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "512",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿cual de los siguientes elementos es un tipo de ámbito de grupo en Windows Server?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Regional",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Global",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Super usuario",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Seguridad",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Desde el punto de vista de seguridad, que es mas seguro ¿Qué el administrador conozca la contraseña de un usuario de un dominio, o, que solo la conozca el propio usuario?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Solo el usuario",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Solo el Administrador",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Usuario y Administrador",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Usuario, Administrador y Administrador del dominio",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Se necesita la orden Read para configurar la opción 5 que muestra la siguiente imagen en un script en Ubuntu",
+        "image": "38273_01.png",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Sí, concretamente dos variables",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Sí, concretamente tres variables",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "No",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Sí, concretamente una variable",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Es estrictamente necesario la orden Read en la lista 6 que muestra la siguiente imagen en un script en Ubuntu?",
+        "image": "38273_02.png",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "No",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Sí",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Depende de la versión de Linux",
+                "correcta": false
+            }
+        ]
+    }
+]

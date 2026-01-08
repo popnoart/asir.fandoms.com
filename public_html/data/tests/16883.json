@@ -1,0 +1,502 @@
+[
+    {
+        "enunciado": "A los ficheros temporales que almacenan datos de una aplicación que no pueden ser mantenidos en memoria principal por falta de espacio, se les denomina:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Ficheros históricos",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Ficheros de maniobras",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Ninguna es correcta",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Ficheros maestros",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "El comando correcto para crear una vista es:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "CREATE NEW VIEW nombre_vista AS consulta;",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "CREATE VIEW nombre_vista AS consulta;",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Ninguna de las opciones es correcta.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "CREATE VIEW nombre_vista;",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "El comando correcto para ver un procedimiento almacenado en una base de datos es:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "SHOW nombre_procedimiento;",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "SHOW CREATE PROCEDURE nombre_procedimiento;",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Ninguna de las demás opciones es correcta",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "SHOW PROCEDURE nombre_procedimiento;",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Marca la opción que no es una característica de un SGBD:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Redundancia de la información",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Mantenimiento de la integridad",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Flexibilidad",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Control de la concurrencia",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Si hablamos de las personas que tienen acceso a gestionar los accesos y permisos en una base de datos, ¿cuál de estos perfiles es uno de ellos?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Usuario final",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Diseñador",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Administrador",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Programador",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "En un procedimiento almacenado, ¿cómo se define el parámetro de entrada v_param con el tipo VARCHAR(50)? ",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "v_param varchar(50) INPUT",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "INPUT @v_param varchar(50) ",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "IN v_param varchar(50)",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "IN @v_param varchar(50) ",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "En un procedimiento:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "No es obligatorio definir parámetros.",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Como mínimo hay que tener un parámetro de salida.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Cómo mínimo hay que definir un parámetro de entrada y uno de salida.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Como mínimo hay que tener un parámetro de entrada.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Una tabla lógica (no física) que se base en otras tablas es:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Un trigger",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Una vista.",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Una transacción",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Una consulta.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "La sentencia correcta para ver la estructura de una vista es:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "SHOW nombre_vista;",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "SHOW DESC nombre_vista;",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Ninguna opción es correcta.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "DESC nombre_vista;",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "Selecciona la afirmación correcta:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Los procedimientos almacenados requieren disponer siempre de parámetros de entrada y salida",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "La claúsula RETURNS puede usarse sólo con FUNCTION, donde es obligatorio",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Ninguna de las demás opciones es correcta",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Un procedimiento se invoca usando un comando CALL y sólo puede disponer de variables de salida",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Con qué orden podemos invocar a un procedimiento definido por nosotros para ejecutarlo?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "EXECUTE",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "INVOKE",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "CALL",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "CREATE",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Marca la opción que es una ventaja de la implantación de un SGBD:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Tamaño del gestor",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Control centralizado",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Coste económico",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Complejidad",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "La forma de abandonar cualquier control de flujo, etiquetado en un procedimiento almacenado es con:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "LOOP",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "ITERATE",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "BYE",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "LEAVE",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "Una vista puede ser eliminada del esquema de la base de datos mediante la siguiente orden: ",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "DELETE VIEW FROM nombre_vista; ",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "DROP VIEW nombre_vista; ",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "DROP view_name; ",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "DELETE FROM DATABASE nombre_vista;",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué información no gestiona un Sistema Gestor de Bases de Datos?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "El cumplimiento de la Ley de Protección de Datos",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Los permisos de acceso de los usuarios",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Las relaciones entre los datos",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "La concurrencia",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Para qué sirven las vistas en bases de datos? ",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Todas las demás son correctas.",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Conseguir más seguridad en el acceso a los datos.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Reusabilidad de las consultas.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Simplificar consultas complejas.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Dentro de las funciones de los SGBD, la definición de las estructuras de las bases de datos y tablas, se realiza mediante el lenguaje:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "DQL",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "DML",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "DCL",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "DDL",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "Cambiar el delimitador de los subprogramas por un $$ o \/\/, permite poder utilizar el delimitador ; del final, sin que sea interpretado al grabar dicho subprograma:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "No siempre se pueden utilizar dichos delimitadores",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Verdadero",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Falso",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Todas las demás opciones son correctas",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Marca la opción que no es una restricción cuando trabajamos con vistas:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "La sentencia SELECT no puede hacer referencia a variables del sistema o del usuario.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "La sentencia SELECT no puede contener una subconsulta en su cláusula FROM.",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Cualquier tabla o vista referenciada por la definición debe existir. ",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Podemos asociar una vista a un disparador.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Sentencia que se utiliza por si la vista ya estuviera creada anteriormente. En ese caso, la sustituye por la nueva definición:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "NOT FORCE",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Ninguna opción es correcta.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "OR REPLACE ",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "FORCE",
+                "correcta": false
+            }
+        ]
+    }
+]

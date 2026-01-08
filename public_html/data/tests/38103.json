@@ -1,0 +1,502 @@
+[
+    {
+        "enunciado": "The firewall is located ___ the entrance of the room.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "in",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "at",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "on",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "into",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Transistors made computers smaller and more ___.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "slow",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "expensive",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "heavy",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "reliable",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "I can't talk now I ___ dinner at the moment.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "cook",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "am cooking",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "cooked",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "am cook",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "The server usually ___ at midnight to install updates.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "restarts",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "has restarted",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "restarted",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "is restarting",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Which device allows a Wi Fi compliant device to connect to a wired network",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Wireless Access Point",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Router",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Cable",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Switch",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "We ___ to the cinema last night and watched a great movie.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "were going",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "are going",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "go",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "went",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "By next semester we ___ the whole course on cybersecurity.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "will study",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "study",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "will have studied",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "have studied",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Look at those black clouds it ___ very soon.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "is going to snow",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "will snow",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "snow",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "snows",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Modern computing exists today ___ the progress made in the past.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "turned into",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "index",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "switched on",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "due to",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "We ___ a new project next month everything is already prepared.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "will start",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "started",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "start",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "are going to start",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "I ___ here in this company since 2022 and I really enjoy the work.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "have worked",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "work",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "worked",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "am working",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Which term refers to a computer or person that performs many numerical calculations",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "broadband",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "number cruncher",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "powerful",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "touchscreen",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "At 10 am tomorrow, we ___ our networking exam.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "are taken",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "will take",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "will be taking",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "take",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "She ___ the report yesterday and sent it to the manager.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "was writing",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "wrote",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "writes",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "is writing",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "I think the new patch ___ compatibility issues.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "solves",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "will solve",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "solved",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "is solving",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "My brother ___ video games on weekends with his friends.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "plays",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "played",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "is play",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "play",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "By the time we arrived, the administrator ___ the problem.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "has fixed",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "was fixing",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "had fixed",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "fixed",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Which technology allows light signals to travel through transparent cables for communication",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "fiber optic",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "magnetic tapes",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "enhanced",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "broadband",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "They usually ___ coffee in the morning before classes.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "drinks",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "are drinking",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "drink",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "doesnt drink",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Look the students ___ a project in the lab right now.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "works",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "are working",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "work",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "were working",
+                "correcta": false
+            }
+        ]
+    }
+]
