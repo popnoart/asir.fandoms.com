@@ -1,0 +1,252 @@
+[
+    {
+        "enunciado": "The developer __________ (complete) the update by now.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "must have completed",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "completes",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "should have completed",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "complete",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "The application __________ (run) efficiently on all devices.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "runs",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "runned",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "run",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "running",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "They __________ (fix) the bug, but they didn't have enough time.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "fixes",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "should fix",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "may fix",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "could have fixed",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "The team __________ (work) on the project since last month.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "work",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "has worked",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "working",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "works",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "He __________ (finish\/quickly) the report.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "finish quickly",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "will finish quickly",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "quickly finishes",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "finish quickly",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "The system __________ (fail) if there is a power outage.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "fails",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "fail",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "should fail",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "may fail",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "This smartphone is ______ (expensive) than the one I bought last year.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "most expensive",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "expensive",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "more expensive",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "expensive",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "The system __________ (upgrade) by the end of this week.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "will be upgraded",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "upgrade",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "upgrades",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "will have upgraded",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "The software update is __________ (available) online.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "always available",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "available always",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "available",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "availability",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "The IT team __________ (respond\/promptly) to all requests.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "responds",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "respond",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "respond promptly",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "promptly responds",
+                "correcta": true
+            }
+        ]
+    }
+]
