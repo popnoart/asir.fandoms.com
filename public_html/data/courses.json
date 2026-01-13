@@ -1011,6 +1011,12 @@
                 "start": "10-12-2025 19:00",
                 "end": "11-01-2026 23:59",
                 "name": "LISTENING UNIT 4 - COMPULSORY"
+            },
+            "14094": {
+                "type": "Obligatoria",
+                "start": "13-01-2026 17:00",
+                "end": "27-01-2026 23:59",
+                "name": "UNIT 5. Task - compulsory RA1,2,4Tarea"
             }
         },
         "tests": {
@@ -1043,6 +1049,12 @@
                 "start": "",
                 "end": "",
                 "name": "AUTOEVALUACIÓN DICIEMBRE"
+            },
+            "14095": {
+                "type": "Cuestionario",
+                "start": "",
+                "end": "",
+                "name": "UNIT 5. Quiz"
             }
         },
         "notes": {
