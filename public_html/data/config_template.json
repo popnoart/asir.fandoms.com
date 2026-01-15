@@ -6,7 +6,7 @@
     "notes_status": ["Pendiente", "Repasar", "Reforzar", "Repasado"],
     "col1": ["pending_tasks", "units", "resources"],
     "col2": ["tests", "notes"],
-    "col3": ["calendar", "done_tasks"]
+    "col3": ["calendar", "todo", "done_tasks"]
 
 }
 

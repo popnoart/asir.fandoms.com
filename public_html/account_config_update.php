@@ -35,7 +35,8 @@
                 <h5 class="card-title mb-4 text-center">Información</h5>
                 <p>Separa por coma.</p>
                 <p>No elimines el estado de Pendiente de de tareas o no te aparecerá nada en la caja de Tareas pendientes</p>
-                <p>Para las columnas (Colx) tienes disponible; tasks, units, resources, tests, notes, calendar</p>
+                <p>No elimines el estado de Pendiente de todo_status o no te aparecerá nada en la caja de TODO</p>
+                <p>Para las columnas (Colx) tienes disponible; tasks, units, resources, tests, notes, calendar, todo</p>
             </div>
         </div>
     </div>

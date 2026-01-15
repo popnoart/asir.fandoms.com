@@ -28,6 +28,13 @@ $myconfig = json_decode(file_get_contents($myconfig_path), true);
 $states_path = $personal_path.'states.json';
 $all_states = json_decode(file_get_contents($states_path), true);
 
+// Cargar todos
+$todos_path = $personal_path.'todo.json';
+if (!file_exists($todos_path)) {
+    file_put_contents($todos_path, json_encode([], JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
+}
+$all_todos = json_decode(file_get_contents($todos_path), true);
+
 
 //////////FUNCTIONS\\\\\\\\\\
 // Obtiene el color del curso según su código
@@ -228,6 +235,7 @@ $myconfig_empty = [
     'tasks_status' => [],
     'tests_status' => [],
     'notes_status' => [],
+    'todo_status' => [],
     'col1' => [],
     'col2' => [],
     'col3' => []
@@ -258,4 +266,65 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['change_status_id'], $
     file_put_contents($states_path, json_encode($all_states, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
     header('Location: ' . $_SERVER['REQUEST_URI']);
     exit;
+}
+
+//////////TODO\\\\\\\\\\
+// Procesar añadir todo
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['add_todo'])) {
+    $new_id = time() . rand(1000, 9999);
+    $new_todo = [
+        'name' => $_POST['todo_name'],
+        'link' => $_POST['todo_link'] ?? '',
+        'course' => $_POST['todo_course'] ?? '',
+        'status' => 'Pendiente'
+    ];
+    $all_todos[$new_id] = $new_todo;
+    file_put_contents($todos_path, json_encode($all_todos, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
+    header('Location: ' . $_SERVER['REQUEST_URI']);
+    exit;
+}
+
+// Procesar eliminar todo
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['delete_todo'])) {
+    $todo_id = $_POST['todo_id'];
+    if (isset($all_todos[$todo_id])) {
+        unset($all_todos[$todo_id]);
+        file_put_contents($todos_path, json_encode($all_todos, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
+    }
+    header('Location: ' . $_SERVER['REQUEST_URI']);
+    exit;
+}
+
+// Procesar cambio de estado de todo
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['change_todo_status'])) {
+    $todo_id = $_POST['todo_id'];
+    $new_status = $_POST['new_status'];
+    if (isset($all_todos[$todo_id])) {
+        $all_todos[$todo_id]['status'] = $new_status;
+        file_put_contents($todos_path, json_encode($all_todos, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
+    }
+    header('Location: ' . $_SERVER['REQUEST_URI']);
+    exit;
+}
+
+// Separar todos pendientes y completados
+$pending_todos = [];
+$done_todos = [];
+foreach ($all_todos as $todo_id => $todo_data) {
+    $todo_data['id'] = $todo_id;
+    if (isset($todo_data['status']) && $todo_data['status'] === 'Pendiente') {
+        $pending_todos[] = $todo_data;
+    } else {
+        $done_todos[] = $todo_data;
+    }
+}
+
+// Filtrar por curso si estamos en una página de curso
+if (!empty($course)) {
+    $pending_todos_course = array_filter($pending_todos, function($todo) use ($course) {
+        return empty($todo['course']) || $todo['course'] === $course;
+    });
+    $done_todos_course = array_filter($done_todos, function($todo) use ($course) {
+        return empty($todo['course']) || $todo['course'] === $course;
+    });
 }
