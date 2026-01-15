@@ -914,6 +914,10 @@
             }
         },
         "notes": {
+            "SRI-chuleta-doc": {
+                "name": "CHULETA PAR 1º",
+                "link": "https://docs.google.com/document/d/1Bj6twOCcQJBz4Mtu_XxZdif5tVIQvLpweXHg1gPn7uI/edit?usp=sharing"
+            },
             "SRI-doc": {
                 "name": "Apuntes SRI (doc)",
                 "link": "https://docs.google.com/document/d/1fqztidnHYGfsdQ1egcmHmEac8NpaEWBg6u7OqC6pQcM/edit?usp=sharing"

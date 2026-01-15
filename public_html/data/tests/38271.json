@@ -55,7 +55,7 @@
             {
                 "opcion": "a.",
                 "texto": "2000:AABB:BBAA:FE0B::\/64",
-                "correcta": true
+                "correcta": false
             },
             {
                 "opcion": "b.",
@@ -65,7 +65,7 @@
             {
                 "opcion": "c.",
                 "texto": "2000:AABB:BBAA:FE0A::\/64",
-                "correcta": false
+                "correcta": true
             },
             {
                 "opcion": "d.",
