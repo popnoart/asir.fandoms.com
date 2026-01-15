@@ -914,14 +914,18 @@
             }
         },
         "notes": {
-            "SRI-chuleta-doc": {
-                "name": "CHULETA PAR 1º",
-                "link": "https://docs.google.com/document/d/1Bj6twOCcQJBz4Mtu_XxZdif5tVIQvLpweXHg1gPn7uI/edit?usp=sharing"
-            },
             "SRI-doc": {
                 "name": "Apuntes SRI (doc)",
                 "link": "https://docs.google.com/document/d/1fqztidnHYGfsdQ1egcmHmEac8NpaEWBg6u7OqC6pQcM/edit?usp=sharing"
             },
+            "SRI-chuleta-doc": {
+                "name": "CHULETA PAR 1º",
+                "link": "https://docs.google.com/document/d/1Bj6twOCcQJBz4Mtu_XxZdif5tVIQvLpweXHg1gPn7uI/edit?usp=sharing"
+            },
+            "SRI-calculadora": {
+                "name": "CALCULADORA BÄSICA",
+                "link": "https://docs.google.com/spreadsheets/d/1jXlAIL4v5jmuWI8rzScRL2ynAD5LJUiw/edit?usp=sharing&ouid=117153571465087663660&rtpof=true&sd=true"
+            },            
             "SRI-AP30-24-doc": {
                 "name": "APUNTES 30%: Tunnel IPv6 e IPv4 (doc)",
                 "file": "APUNTESTUNNELIPV6EIPV4.docx",
