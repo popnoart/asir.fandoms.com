@@ -1,0 +1,497 @@
+[
+    {
+        "enunciado": "¿Cuál es la orden para visualizar la versión de Linux que estamos utilizando?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "Uname", "correcta": true},
+            {"opcion": "b.", "texto": "Mste.msc", "correcta": false},
+            {"opcion": "c.", "texto": "sudo su", "correcta": false},
+            {"opcion": "d.", "texto": "lus.msc", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Qué hace la orden groupmod -n en Ubuntu?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "Elimina un grupo", "correcta": false},
+            {"opcion": "b.", "texto": "Cambia el nombre de un grupo", "correcta": true},
+            {"opcion": "c.", "texto": "Crea grupos", "correcta": false},
+            {"opcion": "d.", "texto": "Visualiza la versión de linux que se está utilizando", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "Attrib +s se utiliza para...",
+        "respuestas": [
+            {"opcion": "a.", "texto": "Establecer attributo de lectura", "correcta": false},
+            {"opcion": "b.", "texto": "Establecer atributo de sistema", "correcta": true},
+            {"opcion": "c.", "texto": "Establecer atributo de oculto", "correcta": false},
+            {"opcion": "d.", "texto": "Establecer atributo de oculto", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "Las siguientes ordenes que están escritas corresponde a la consola de comando de Windows, escribe como se escriben en Linux.TODO",
+        "respuestas": [
+            {"opcion": "a.", "texto": "copy -> cp", "correcta": true},
+            {"opcion": "b.", "texto": "del -> rm", "correcta": true},
+            {"opcion": "c.", "texto": "attrib -> chmod", "correcta": true},
+            {"opcion": "d.", "texto": "dir -> ls", "correcta": true}
+        ]
+    },
+    {
+        "enunciado": "Completa la siguiente tabla de CHMOD, describe brevemente el significado de los siguientes números: 741, 717, 070, 007, 460, 677",
+        "respuestas": [
+            {"opcion": "a.", "texto": "741: Control total dueño, lectura grupo y ejecución resto", "correcta": true},
+            {"opcion": "b.", "texto": "717: Control total dueño, ejecutar grupo y control total resto", "correcta": true},
+            {"opcion": "c.", "texto": "070: Sin acceso al dueño y resto de usuarios y control total para el grupo", "correcta": true},
+            {"opcion": "d.", "texto": "007: Sin acceso al dueño, sin acceso al grupo y control total al resto", "correcta": true},
+            {"opcion": "e.", "texto": "460: Leer, leer y escribir y sin acceso", "correcta": true},
+            {"opcion": "f.", "texto": "677: -rw- rwxrwx", "correcta": true}
+        ]
+    },
+    {
+        "enunciado": "En cualquier sistema operativo del mundo nos encargan escribir la IP 192.168.1.0/29 ¿Qué mascara de red le pertenece?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "255.255.255.248", "correcta": true}
+        ]
+    },
+    {
+        "enunciado": "En Linux ¿Cómo conocemos la ruta completa de donde estamos situados?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "PWD", "correcta": true},
+            {"opcion": "b.", "texto": "SUDO SU", "correcta": false},
+            {"opcion": "c.", "texto": "SU", "correcta": false},
+            {"opcion": "d.", "texto": "Ninguna es cierta", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Qué hace la orden chmod - --- --X R--?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "Archivo sin acceso al dueño, ejecución para el grupo y lectura para el resto de los usuarios", "correcta": true},
+            {"opcion": "b.", "texto": "Carpeta con control total para el dueño, ejecución para el grupo y resto de usuarios", "correcta": false},
+            {"opcion": "c.", "texto": "Archivo sin acceso para el dueño, lectura para el grupo y ejecución para el resto de los usuarios", "correcta": false},
+            {"opcion": "d.", "texto": "Ninguna es cierta", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "Que valor numérico equivale a la orden que se consigue con chmod DRW- RW- RWX",
+        "respuestas": [
+            {"opcion": "a.", "texto": "667", "correcta": true},
+            {"opcion": "b.", "texto": "770", "correcta": false},
+            {"opcion": "c.", "texto": "761", "correcta": false},
+            {"opcion": "d.", "texto": "640", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "Que valor numérico equivale a la orden que se consigue con chmod - --- RW --X",
+        "respuestas": [
+            {"opcion": "a.", "texto": "061", "correcta": true},
+            {"opcion": "b.", "texto": "761", "correcta": false},
+            {"opcion": "c.", "texto": "041", "correcta": false},
+            {"opcion": "d.", "texto": "Ninguna es cierta", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Qué comando se utiliza para cambiar la contraseña de un usuario en Linux?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "passwd", "correcta": true},
+            {"opcion": "b.", "texto": "chage", "correcta": false},
+            {"opcion": "c.", "texto": "usermod", "correcta": false},
+            {"opcion": "d.", "texto": "groupmod", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Cuál es el archivo donde se almacenan las contraseñas de los usuarios en Linux?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "/etc/passwd", "correcta": true},
+            {"opcion": "b.", "texto": "/etc/shadow", "correcta": false},
+            {"opcion": "c.", "texto": "/etc/group", "correcta": false},
+            {"opcion": "d.", "texto": "/var/log/auth.log", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Qué hace el comando 'sudo' en Linux?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "Ejecuta un comando como superusuario", "correcta": true},
+            {"opcion": "b.", "texto": "Cambia el propietario de un archivo", "correcta": false},
+            {"opcion": "c.", "texto": "Copia archivos de un directorio a otro", "correcta": false},
+            {"opcion": "d.", "texto": "Mueve archivos de un directorio a otro", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Cómo se llama el proceso de asignar un nombre a un grupo de usuarios en Linux?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "Groupadd", "correcta": true},
+            {"opcion": "b.", "texto": "Useradd", "correcta": false},
+            {"opcion": "c.", "texto": "Gpasswd", "correcta": false},
+            {"opcion": "d.", "texto": "Chgrp", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Qué archivo se edita para cambiar la configuración de red en Linux?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "/etc/network/interfaces", "correcta": true},
+            {"opcion": "b.", "texto": "/etc/resolv.conf", "correcta": false},
+            {"opcion": "c.", "texto": "/etc/hosts", "correcta": false},
+            {"opcion": "d.", "texto": "/var/log/syslog", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Qué comando se utiliza para reiniciar el servicio de red en Linux?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "service networking restart", "correcta": true},
+            {"opcion": "b.", "texto": "systemctl restart network", "correcta": false},
+            {"opcion": "c.", "texto": "ifdown eth0 && ifup eth0", "correcta": false},
+            {"opcion": "d.", "texto": "Ninguna de las anteriores", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Cómo se llama el programa que permite gestionar paquetes en distribuciones basadas en Debian?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "apt-get", "correcta": true},
+            {"opcion": "b.", "texto": "yum", "correcta": false},
+            {"opcion": "c.", "texto": "dnf", "correcta": false},
+            {"opcion": "d.", "texto": "pacman", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Qué archivo se utiliza para configurar los repositorios de paquetes en Debian?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "/etc/apt/sources.list", "correcta": true},
+            {"opcion": "b.", "texto": "/etc/apt/apt.conf", "correcta": false},
+            {"opcion": "c.", "texto": "/etc/dpkg/dpkg.cfg", "correcta": false},
+            {"opcion": "d.", "texto": "/var/lib/dpkg/status", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Qué comando se utiliza para actualizar la lista de paquetes en Debian?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "apt-get update", "correcta": true},
+            {"opcion": "b.", "texto": "apt-cache policy", "correcta": false},
+            {"opcion": "c.", "texto": "dpkg --configure", "correcta": false},
+            {"opcion": "d.", "texto": "Ninguna de las anteriores", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Qué comando se utiliza para instalar un paquete en Debian?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "apt-get install nombre_paquete", "correcta": true},
+            {"opcion": "b.", "texto": "dpkg -i nombre_paquete.deb", "correcta": false},
+            {"opcion": "c.", "texto": "aptitude install nombre_paquete", "correcta": false},
+            {"opcion": "d.", "texto": "Ninguna de las anteriores", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Qué comando se utiliza para eliminar un paquete en Debian?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "apt-get remove nombre_paquete", "correcta": true},
+            {"opcion": "b.", "texto": "dpkg --remove nombre_paquete", "correcta": false},
+            {"opcion": "c.", "texto": "aptitude remove nombre_paquete", "correcta": false},
+            {"opcion": "d.", "texto": "Ninguna de las anteriores", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Qué comando se utiliza para buscar un paquete en los repositorios de Debian?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "apt-cache search nombre_paquete", "correcta": true},
+            {"opcion": "b.", "texto": "dpkg -l | grep nombre_paquete", "correcta": false},
+            {"opcion": "c.", "texto": "aptitude search nombre_paquete", "correcta": false},
+            {"opcion": "d.", "texto": "Ninguna de las anteriores", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Qué comando se utiliza para mostrar información sobre un paquete instalado en Debian?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "dpkg -s nombre_paquete", "correcta": true},
+            {"opcion": "b.", "texto": "apt-cache show nombre_paquete", "correcta": false},
+            {"opcion": "c.", "texto": "aptitude show nombre_paquete", "correcta": false},
+            {"opcion": "d.", "texto": "Ninguna de las anteriores", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Qué comando se utiliza para limpiar la caché de paquetes en Debian?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "apt-get clean", "correcta": true},
+            {"opcion": "b.", "texto": "apt-get autoclean", "correcta": false},
+            {"opcion": "c.", "texto": "dpkg -rffreedom", "correcta": false},
+            {"opcion": "d.", "texto": "Ninguna de las anteriores", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Qué comando se utiliza para ver el estado de los servicios en Debian?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "systemctl status", "correcta": true},
+            {"opcion": "b.", "texto": "service --status-all", "correcta": false},
+            {"opcion": "c.", "texto": "chkconfig --list", "correcta": false},
+            {"opcion": "d.", "texto": "Ninguna de las anteriores", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Qué comando se utiliza para iniciar un servicio en Debian?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "systemctl start nombre_servicio", "correcta": true},
+            {"opcion": "b.", "texto": "service nombre_servicio start", "correcta": false},
+            {"opcion": "c.", "texto": "invoke-rc.d nombre_servicio start", "correcta": false},
+            {"opcion": "d.", "texto": "Ninguna de las anteriores", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Qué comando se utiliza para detener un servicio en Debian?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "systemctl stop nombre_servicio", "correcta": true},
+            {"opcion": "b.", "texto": "service nombre_servicio stop", "correcta": false},
+            {"opcion": "c.", "texto": "invoke-rc.d nombre_servicio stop", "correcta": false},
+            {"opcion": "d.", "texto": "Ninguna de las anteriores", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Qué comando se utiliza para reiniciar un servicio en Debian?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "systemctl restart nombre_servicio", "correcta": true},
+            {"opcion": "b.", "texto": "service nombre_servicio restart", "correcta": false},
+            {"opcion": "c.", "texto": "invoke-rc.d nombre_servicio restart", "correcta": false},
+            {"opcion": "d.", "texto": "Ninguna de las anteriores", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Qué comando se utiliza para habilitar un servicio para que se inicie automáticamente al arrancar el sistema en Debian?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "systemctl enable nombre_servicio", "correcta": true},
+            {"opcion": "b.", "texto": "service nombre_servicio enable", "correcta": false},
+            {"opcion": "c.", "texto": "chkconfig nombre_servicio on", "correcta": false},
+            {"opcion": "d.", "texto": "Ninguna de las anteriores", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Qué comando se utiliza para deshabilitar un servicio para que no se inicie automáticamente al arrancar el sistema en Debian?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "systemctl disable nombre_servicio", "correcta": true},
+            {"opcion": "b.", "texto": "service nombre_servicio disable", "correcta": false},
+            {"opcion": "c.", "texto": "chkconfig nombre_servicio off", "correcta": false},
+            {"opcion": "d.", "texto": "Ninguna de las anteriores", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Qué comando se utiliza para ver los registros del sistema en Debian?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "journalctl", "correcta": true},
+            {"opcion": "b.", "texto": "dmesg", "correcta": false},
+            {"opcion": "c.", "texto": "tail -f /var/log/syslog", "correcta": false},
+            {"opcion": "d.", "texto": "Ninguna de las anteriores", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Qué comando se utiliza para ver los registros de un servicio en Debian?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "journalctl -u nombre_servicio", "correcta": true},
+            {"opcion": "b.", "texto": "grep nombre_servicio /var/log/syslog", "correcta": false},
+            {"opcion": "c.", "texto": "tail -f /var/log/nombre_servicio.log", "correcta": false},
+            {"opcion": "d.", "texto": "Ninguna de las anteriores", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Qué comando se utiliza para comprobar el estado de un servicio en Debian?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "systemctl is-active nombre_servicio", "correcta": true},
+            {"opcion": "b.", "texto": "service nombre_servicio status", "correcta": false},
+            {"opcion": "c.", "texto": "invoke-rc.d nombre_servicio status", "correcta": false},
+            {"opcion": "d.", "texto": "Ninguna de las anteriores", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Qué comando se utiliza para comprobar si un servicio está habilitado para iniciarse automáticamente en Debian?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "systemctl is-enabled nombre_servicio", "correcta": true},
+            {"opcion": "b.", "texto": "service nombre_servicio enabled", "correcta": false},
+            {"opcion": "c.", "texto": "chkconfig --list nombre_servicio", "correcta": false},
+            {"opcion": "d.", "texto": "Ninguna de las anteriores", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Qué comando se utiliza para recargar la configuración de un servicio en Debian sin reiniciarlo?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "systemctl reload nombre_servicio", "correcta": true},
+            {"opcion": "b.", "texto": "service nombre_servicio reload", "correcta": false},
+            {"opcion": "c.", "texto": "invoke-rc.d nombre_servicio reload", "correcta": false},
+            {"opcion": "d.", "texto": "Ninguna de las anteriores", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Qué comando se utiliza para detener todos los servicios en Debian?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "systemctl stop \*", "correcta": true},
+            {"opcion": "b.", "texto": "service --stop-all", "correcta": false},
+            {"opcion": "c.", "texto": "killall service", "correcta": false},
+            {"opcion": "d.", "texto": "Ninguna de las anteriores", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Qué comando se utiliza para iniciar todos los servicios en Debian?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "systemctl start \*", "correcta": true},
+            {"opcion": "b.", "texto": "service --start-all", "correcta": false},
+            {"opcion": "c.", "texto": "invoke-rc.d \* start", "correcta": false},
+            {"opcion": "d.", "texto": "Ninguna de las anteriores", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Qué comando se utiliza para reiniciar todos los servicios en Debian?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "systemctl restart \*", "correcta": true},
+            {"opcion": "b.", "texto": "service --restart-all", "correcta": false},
+            {"opcion": "c.", "texto": "invoke-rc.d \* restart", "correcta": false},
+            {"opcion": "d.", "texto": "Ninguna de las anteriores", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Qué comando se utiliza para habilitar todos los servicios para que se inicien automáticamente al arrancar el sistema en Debian?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "systemctl enable \*", "correcta": true},
+            {"opcion": "b.", "texto": "service --enable-all", "correcta": false},
+            {"opcion": "c.", "texto": "chkconfig --add \*", "correcta": false},
+            {"opcion": "d.", "texto": "Ninguna de las anteriores", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Qué comando se utiliza para deshabilitar todos los servicios para que no se inicien automáticamente al arrancar el sistema en Debian?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "systemctl disable \*", "correcta": true},
+            {"opcion": "b.", "texto": "service --disable-all", "correcta": false},
+            {"opcion": "c.", "texto": "chkconfig --del \*", "correcta": false},
+            {"opcion": "d.", "texto": "Ninguna de las anteriores", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Qué comando se utiliza para ver el estado de todos los servicios en Debian?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "systemctl list-units --type=service", "correcta": true},
+            {"opcion": "b.", "texto": "service --status-all", "correcta": false},
+            {"opcion": "c.", "texto": "chkconfig --list", "correcta": false},
+            {"opcion": "d.", "texto": "Ninguna de las anteriores", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Qué comando se utiliza para ver el estado de un socket en Debian?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "systemctl status nombre_socket", "correcta": true},
+            {"opcion": "b.", "texto": "service nombre_socket status", "correcta": false},
+            {"opcion": "c.", "texto": "invoke-rc.d nombre_socket status", "correcta": false},
+            {"opcion": "d.", "texto": "Ninguna de las anteriores", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Qué comando se utiliza para habilitar un socket para que se inicie automáticamente al arrancar el sistema en Debian?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "systemctl enable nombre_socket", "correcta": true},
+            {"opcion": "b.", "texto": "service nombre_socket enable", "correcta": false},
+            {"opcion": "c.", "texto": "chkconfig nombre_socket on", "correcta": false},
+            {"opcion": "d.", "texto": "Ninguna de las anteriores", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Qué comando se utiliza para deshabilitar un socket para que no se inicie automáticamente al arrancar el sistema en Debian?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "systemctl disable nombre_socket", "correcta": true},
+            {"opcion": "b.", "texto": "service nombre_socket disable", "correcta": false},
+            {"opcion": "c.", "texto": "chkconfig nombre_socket off", "correcta": false},
+            {"opcion": "d.", "texto": "Ninguna de las anteriores", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Qué comando se utiliza para ver los registros de un socket en Debian?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "journalctl -u nombre_socket", "correcta": true},
+            {"opcion": "b.", "texto": "grep nombre_socket /var/log/syslog", "correcta": false},
+            {"opcion": "c.", "texto": "tail -f /var/log/nombre_socket.log", "correcta": false},
+            {"opcion": "d.", "texto": "Ninguna de las anteriores", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Qué comando se utiliza para comprobar el estado de un socket en Debian?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "systemctl is-active nombre_socket", "correcta": true},
+            {"opcion": "b.", "texto": "service nombre_socket status", "correcta": false},
+            {"opcion": "c.", "texto": "invoke-rc.d nombre_socket status", "correcta": false},
+            {"opcion": "d.", "texto": "Ninguna de las anteriores", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Qué comando se utiliza para comprobar si un socket está habilitado para iniciarse automáticamente en Debian?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "systemctl is-enabled nombre_socket", "correcta": true},
+            {"opcion": "b.", "texto": "service nombre_socket enabled", "correcta": false},
+            {"opcion": "c.", "texto": "chkconfig --list nombre_socket", "correcta": false},
+            {"opcion": "d.", "texto": "Ninguna de las anteriores", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Qué comando se utiliza para recargar la configuración de un socket en Debian sin reiniciarlo?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "systemctl reload nombre_socket", "correcta": true},
+            {"opcion": "b.", "texto": "service nombre_socket reload", "correcta": false},
+            {"opcion": "c.", "texto": "invoke-rc.d nombre_socket reload", "correcta": false},
+            {"opcion": "d.", "texto": "Ninguna de las anteriores", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Qué comando se utiliza para detener todos los sockets en Debian?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "systemctl stop \*", "correcta": true},
+            {"opcion": "b.", "texto": "service --stop-all", "correcta": false},
+            {"opcion": "c.", "texto": "killall service", "correcta": false},
+            {"opcion": "d.", "texto": "Ninguna de las anteriores", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Qué comando se utiliza para iniciar todos los sockets en Debian?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "systemctl start \*", "correcta": true},
+            {"opcion": "b.", "texto": "service --start-all", "correcta": false},
+            {"opcion": "c.", "texto": "invoke-rc.d \* start", "correcta": false},
+            {"opcion": "d.", "texto": "Ninguna de las anteriores", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Qué comando se utiliza para reiniciar todos los sockets en Debian?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "systemctl restart \*", "correcta": true},
+            {"opcion": "b.", "texto": "service --restart-all", "correcta": false},
+            {"opcion": "c.", "texto": "invoke-rc.d \* restart", "correcta": false},
+            {"opcion": "d.", "texto": "Ninguna de las anteriores", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Qué comando se utiliza para habilitar todos los sockets para que se inicien automáticamente al arrancar el sistema en Debian?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "systemctl enable \*", "correcta": true},
+            {"opcion": "b.", "texto": "service --enable-all", "correcta": false},
+            {"opcion": "c.", "texto": "chkconfig --add \*", "correcta": false},
+            {"opcion": "d.", "texto": "Ninguna de las anteriores", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Qué comando se utiliza para deshabilitar todos los sockets para que no se inicien automáticamente al arrancar el sistema en Debian?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "systemctl disable \*", "correcta": true},
+            {"opcion": "b.", "texto": "service --disable-all", "correcta": false},
+            {"opcion": "c.", "texto": "chkconfig --del \*", "correcta": false},
+            {"opcion": "d.", "texto": "Ninguna de las anteriores", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Qué comando se utiliza para ver el estado de todos los sockets en Debian?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "systemctl list-units --type=socket", "correcta": true},
+            {"opcion": "b.", "texto": "service --status-all", "correcta": false},
+            {"opcion": "c.", "texto": "chkconfig --list", "correcta": false},
+            {"opcion": "d.", "texto": "Ninguna de las anteriores", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Cuál es la orden para eliminar un archivo en Ubuntu?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "Del", "correcta": false},
+            {"opcion": "b.", "texto": "Userdel", "correcta": false},
+            {"opcion": "c.", "texto": "Rm", "correcta": true},
+            {"opcion": "d.", "texto": "Mv", "correcta": false},
+            {"opcion": "e.", "texto": "Rmdir", "correcta": false}
+        ]
+    }
+]

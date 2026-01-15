@@ -33,10 +33,15 @@
                 "folder": 16665,
                 "folder_number": 1,
                 "name": "Unidad 4.2. Herramientas de programación de bases de datos",
-                "link": ""
+                "link": "https://drive.google.com/file/d/19slb9KtPWq5B6AA8Tk7JmqL0K1bKp_N4/view?usp=sharing"
             }
         },
-        "resources": {},
+        "resources": {
+            "CH_M-1": {       
+                "name": "Chuleta Manuel T1",
+                "file": "CHULETA BASE DE DATOS 2.pdf",
+                "link": "https://drive.google.com/file/d/1j6zoRejGQ_Yv5nWkws4OrDRj1TlhruNX/view?usp=drive_link"
+            }},
         "tasks": {
             "8735": {
                 "type": "Obligatoria",
