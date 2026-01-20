@@ -468,6 +468,12 @@
                 "start": "09-12-2025 09:00",
                 "end": "20-01-2026 23:59",
                 "name": "Tarea Gestión de nodos II.OBLIGATORIA"
+            },
+            "40091": {
+                "type": "Obligatoria",
+                "start": "19-01-2026 09:00",
+                "end": "02-02-2026 23:59",
+                "name": "RA1-RA2-RA3-RA4 Práctica Métodos Inner,setAtributte"
             }
         },
         "tests": {
@@ -924,7 +930,7 @@
             },
             "SRI-calculadora": {
                 "name": "CALCULADORA BÄSICA",
-                "link": "https://docs.google.com/spreadsheets/d/1jXlAIL4v5jmuWI8rzScRL2ynAD5LJUiw/edit?usp=sharing&ouid=117153571465087663660&rtpof=true&sd=true"
+                "link": "https://docs.google.com/spreadsheets/d/1LTd9LyWcneUbbZXBWeUk28-lf3tMkZb32BGJ_TAG6hg/edit?usp=sharing"
             },            
             "SRI-AP30-24-doc": {
                 "name": "APUNTES 30%: Tunnel IPv6 e IPv4 (doc)",
