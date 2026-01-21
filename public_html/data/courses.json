@@ -472,8 +472,8 @@
             "40091": {
                 "type": "Obligatoria",
                 "start": "19-01-2026 09:00",
-                "end": "02-02-2026 23:59",
-                "name": "RA1-RA2-RA3-RA4 Práctica Métodos Inner,setAtributte"
+                "end": "08-02-2026 23:59",
+                "name": "RA1-RA2-RA3-RA4 Práctica Visor.OBLIGATORIA"
             }
         },
         "tests": {
