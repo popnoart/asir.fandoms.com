@@ -151,6 +151,12 @@
                 "start": "18-12-2025 17:30",
                 "end": "30-01-2026 23:59",
                 "name": "(RA7) Ejercicio_1 PowerShell (Reto tarea obligatoria)"
+            },
+            "40906": {
+                "type": "Obligatoria",
+                "start": "22-01-2025 00:00",
+                "end": "28-02-2026 23:00",
+                "name": "RA4 - RELACION DE CONFIANZA ENTRE DOMINIOS"
             }
         },
         "tests": {
