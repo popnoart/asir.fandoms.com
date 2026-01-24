@@ -181,6 +181,14 @@
             "ASO-LINUX-doc": {
                 "name": "Apuntes ASO LINUX (doc)",
                 "link": "https://docs.google.com/document/d/1QEuIaHtStbBaOU-TVhq_NBCaHvSyhKHUkDXKH8Lggg0/edit?usp=sharing"
+            },
+            "ASO-POWERSHELL-doc": {
+                "name": "Apuntes ASO POWERSHELL (doc)",
+                "link": "https://docs.google.com/document/d/15V8dps3ShuA8ORqRzK4DYcrj_JGsjbN7u3pvajUgqVc/edit?usp=sharing"
+            },
+            "ISO-doc": {
+                "name": "Apuntes ISO 1º (doc)",
+                "link": "https://docs.google.com/document/d/17OCPjTD8RrtwGjszGxQEVBBY1L8voe5nbZnxG1R0tKA/edit?usp=sharing"
             }
         }
     },
