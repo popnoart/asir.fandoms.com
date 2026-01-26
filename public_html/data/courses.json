@@ -72,6 +72,36 @@
                 "start": "05-15-2025 12:32",
                 "end": "30-11-2025 23:59",
                 "name": "Tarea 3- Acceso a la información: vistas. OBLIGATORIA"
+            },
+            "3123": {
+                "type": "Obligatoria",
+                "start": "26-01-2026 12:32",
+                "end": "15-02-2026 23:59",
+                "name": "Tarea 4 - Programación de bases de datos: conceptos iniciales (RA5). OBLIGATORIA"
+            },
+            "3452": {
+                "type": "Obligatoria",
+                "start": "26-01-2026 12:32",
+                "end": "15-02-2026 23:59",
+                "name": "Tarea 5 - Programación de bases de datos: conceptos iniciales (RA5). OBLIGATORIA"
+            },
+            "3454": {
+                "type": "Complementaria",
+                "start": "26-01-2026 12:32",
+                "end": "15-02-2026 23:59",
+                "name": "Tarea 03-02 Procedimiento de calcular cuadrados"
+            },
+            "3453": {
+                "type": "Complementaria",
+                "start": "26-01-2026 12:32",
+                "end": "15-02-2026 23:59",
+                "name": "Tarea 03-03 Procedimientos en SAKILA"
+            },
+            "3451": {
+                "type": "Complementaria",
+                "start": "26-01-2026 12:32",
+                "end": "22-02-2026 23:59",
+                "name": "Tarea 03-04 Procedimientos entrada y salida iniciales (Pedidos)"
             }
         },
         "tests": {
