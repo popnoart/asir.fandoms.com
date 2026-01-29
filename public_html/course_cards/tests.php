@@ -23,7 +23,7 @@
                                 <?= htmlspecialchars($test_data['name']); ?>
                             </a>
                             <?php } else { ?> 
-                                <?= htmlspecialchars($test_data['name']); ?>
+                                <a href="/quiz.php?course=<?= htmlspecialchars($course); ?>&quiz=<?= htmlspecialchars($test_data['id']); ?>"><?= htmlspecialchars($test_data['name']); ?></a>
                             <?php } ?>
                             <br>
                             <?php if (!empty($test_data['end'])) { ?>
@@ -88,7 +88,7 @@
                                 <?= htmlspecialchars($test_data['name']); ?>
                             </a>
                             <?php } else { ?> 
-                                <?= htmlspecialchars($test_data['name']); ?>
+                                <a href="/quiz.php?course=<?= htmlspecialchars($course); ?>&quiz=<?= htmlspecialchars($test_data['id']); ?>"><?= htmlspecialchars($test_data['name']); ?></a>
                             <?php } ?>
                             <br><span class="badge bg-success text-bg-success ms-2" style="cursor:pointer;" data-bs-toggle="modal" data-bs-target="#<?= $modal_id; ?>">
                                 <?php if (!empty($test_data['status'])) {
