@@ -135,12 +135,12 @@
             {
                 "opcion": "b.",
                 "texto": "Un conjunto de signos o símbolos del mensaje original a los que se les cambia la posición",
-                "correcta": false
+                "correcta": true
             },
             {
                 "opcion": "c.",
                 "texto": "Ninguna es cierta",
-                "correcta": true
+                "correcta": false
             },
             {
                 "opcion": "d.",

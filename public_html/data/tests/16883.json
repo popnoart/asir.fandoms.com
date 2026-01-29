@@ -460,7 +460,7 @@
             {
                 "opcion": "b.",
                 "texto": "La sentencia SELECT no puede contener una subconsulta en su cláusula FROM.",
-                "correcta": true
+                "correcta": false
             },
             {
                 "opcion": "c.",
@@ -470,7 +470,7 @@
             {
                 "opcion": "d.",
                 "texto": "Podemos asociar una vista a un disparador.",
-                "correcta": false
+                "correcta": true
             }
         ]
     },

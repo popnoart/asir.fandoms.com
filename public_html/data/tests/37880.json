@@ -100,6 +100,21 @@
         ]
     },
     {
+        "enunciado": "JavaScript es un lenguaje que orientado a objetos y eventos.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Verdadero",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Falso",
+                "correcta": false
+            }
+        ]
+    },
+    {
         "enunciado": "¿Qué valor mostrará la consola?. let x = 10; if (x > 20) {     console.log(\"Mayor\"); } else {     console.log(\"Menor o igual\"); }",
         "respuestas": [
             {
@@ -196,6 +211,21 @@
                 "opcion": "d.",
                 "texto": "No realiza ninguna conversión",
                 "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué hace addEventListener en JavaScript, ejecutar un evento?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Verdadero",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Falso",
+                "correcta": false 
             }
         ]
     },
