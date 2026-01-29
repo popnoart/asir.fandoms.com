@@ -12,6 +12,12 @@
 <div class="row justify-content-center">
     <h2 class="text-center"><?= $quiz_data['name']; ?></h2>
     <?php
+    if(file_exists($_SERVER['DOCUMENT_ROOT'] . '/data/tests/' . $quiz . '.json') === false) {
+        echo '<div class="alert alert-danger" role="alert">Todavía no he hecho o subido este cuestionario.</div>';
+        include $_SERVER['DOCUMENT_ROOT'] . '/assets/templates/footer.php';
+        exit;
+    }else{
+   
     $quiz_path = $_SERVER['DOCUMENT_ROOT'] . '/data/tests/' . $quiz . '.json';
     $quiz_content = json_decode(file_get_contents($quiz_path), true);
     ?>
@@ -45,6 +51,7 @@
     <div id="feedback_total" class="mt-3"></div>
     <div id="correct_total" class="mt-3"></div>
     </form>
+    <?php  } ?>
 </div>
 
 <!-- Lightbox modal -->

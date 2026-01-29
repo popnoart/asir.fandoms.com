@@ -18,9 +18,14 @@
                         $modal_id = 'pendingTestModal' . $test;
                 ?>
                         <li class="list-group-item ">
+                            <?php if(is_numeric($test_data['id'])) { ?>
                             <a href="https://campus.digitechfp.com/mod/quiz/view.php?id=<?= htmlspecialchars($test_data['id']); ?>" target="_blank"">
                                 <?= htmlspecialchars($test_data['name']); ?>
-                            </a><br>
+                            </a>
+                            <?php } else { ?> 
+                                <?= htmlspecialchars($test_data['name']); ?>
+                            <?php } ?>
+                            <br>
                             <?php if (!empty($test_data['end'])) { ?>
                                 Fin: <?= htmlspecialchars($test_data['end']); ?>
                             <?php } ?>
@@ -78,7 +83,13 @@
                         $modal_id = 'doneTestModal' . $test;
                 ?>
                         <li class="list-group-item">
-                            <a href="https://campus.digitechfp.com/mod/quiz/view.php?id=<?= htmlspecialchars($test_data['id']); ?>" target="_blank"><?= htmlspecialchars($test_data['name']); ?></a> 
+                            <?php if(is_numeric($test_data['id'])) { ?>
+                            <a href="https://campus.digitechfp.com/mod/quiz/view.php?id=<?= htmlspecialchars($test_data['id']); ?>" target="_blank"">
+                                <?= htmlspecialchars($test_data['name']); ?>
+                            </a>
+                            <?php } else { ?> 
+                                <?= htmlspecialchars($test_data['name']); ?>
+                            <?php } ?>
                             <br><span class="badge bg-success text-bg-success ms-2" style="cursor:pointer;" data-bs-toggle="modal" data-bs-target="#<?= $modal_id; ?>">
                                 <?php if (!empty($test_data['status'])) {
                                     echo htmlspecialchars($test_data['status']);
