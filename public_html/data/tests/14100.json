@@ -1,0 +1,252 @@
+[
+    {
+        "enunciado": "If he ___ more experienced, he would have got the job.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "had been",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "is",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "were",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "was",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "She would go to the party if she ___ invited.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "were",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "was",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "has been",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "had been",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "If you ___ the instructions, you wouldn't have made that mistake.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "would follow",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "have followed",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "will follow",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "had followed",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "If I ___ you, I would have apologized.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "had been",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "have been",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "am",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "were",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "We wish it _____ raining so we could go for a walk.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "would stop",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "stops",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "stopped",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "had stopped",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "If they ___ more carefully, they wouldn't have missed the deadline.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "worked",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "have worked",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "were working",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "had worked",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "I wish I _____ more time to finish the project.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "had",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "have",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "will have",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "would have",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "They wish they _____ travel more often.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "will",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "would",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "could",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "can",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "She wishes she _____ to the party last night.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "went",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "goes",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "has gone",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "had gone",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "He wishes he _____ so much junk food yesterday.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "doesn't eat",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "hadn't eat",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "hadn't eaten",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "didn't eat",
+                "correcta": false
+            }
+        ]
+    }
+]
