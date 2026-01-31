@@ -77,10 +77,14 @@ include $_SERVER['DOCUMENT_ROOT'] . '/assets/templates/header.php';
                                 <?php if (!empty($test_data['course'])): ?>
                                     <?php $color = get_course_color($test_data['course']); ?>
                                     <a href="/course.php?course=<?= htmlspecialchars($test_data['course']); ?>"><span class="badge ms-2" style="background-color: <?= $color; ?>; color: white;"><?= htmlspecialchars($test_data['course']); ?></span></a>
-                                <?php endif; ?>
-                                <a href="https://campus.digitechfp.com/mod/quiz/view.php?id=<?= htmlspecialchars($test_data['id']); ?>" target="_blank"">
-                                    <?= htmlspecialchars($test_data['name']); ?>
-                                </a><br>
+                                <?php endif; ?> <?php if(is_numeric($test_data['id'])) { ?>
+                            <a href="https://campus.digitechfp.com/mod/quiz/view.php?id=<?= htmlspecialchars($test_data['id']); ?>" target="_blank"">
+                                <?= htmlspecialchars($test_data['name']); ?>
+                            </a>
+                            <?php } else { ?> 
+                                <a href="/quiz.php?course=<?= htmlspecialchars($course); ?>&quiz=<?= htmlspecialchars($test_data['id']); ?>"><?= htmlspecialchars($test_data['name']); ?></a>
+                            <?php } ?>
+                                <br>
                                 <?php if (!empty($test_data['end'])) { ?>
                                     Fin: <?= htmlspecialchars($test_data['end']); ?>
                                 <?php } ?>
