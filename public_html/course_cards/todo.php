@@ -21,13 +21,13 @@
                         $modal_id = 'pendingTodoModal' . $todo_data['id'];
                 ?>
                         <li class="list-group-item">
-                            <?php if (!empty($todo_data['link'])): ?>
+                            <?php if (!empty($todo_data['link'])) { ?>
                                 <a href="<?= htmlspecialchars($todo_data['link']); ?>" target="_blank">
                                     <?= htmlspecialchars($todo_data['name']); ?>
                                 </a>
-                            <?php else: ?>
+                            <?php } else { ?>
                                 <?= htmlspecialchars($todo_data['name']); ?>
-                            <?php endif; ?>
+                            <?php } ?>
                             <span class="badge bg-secondary" style="cursor:pointer;" data-bs-toggle="modal" data-bs-target="#<?= $modal_id; ?>">
                                 <?php if (!empty($todo_data['status'])) {
                                     echo htmlspecialchars($todo_data['status']);
@@ -35,7 +35,7 @@
                                     echo 'Sin estado';
                                 } ?>
                             </span>
-                            <button class="btn btn-sm btn-secondary float-end ms-2" data-bs-toggle="modal" data-bs-target="#editTodoModal<?= $todo_data['id']; } ?>">✎</button>
+                            <button class="btn btn-sm btn-secondary float-end ms-2" data-bs-toggle="modal" data-bs-target="#editTodoModal<?= $todo_data['id']; ?>">✎</button>
                             <button class="btn btn-sm btn-danger float-end" data-bs-toggle="modal" data-bs-target="#deleteTodoModal<?= $todo_data['id']; ?>">×</button>
                                                 <!-- Modal editar -->
                                                 <div class="modal fade" id="editTodoModal<?= $todo_data['id']; ?>" tabindex="-1" aria-labelledby="editTodoModal<?= $todo_data['id']; ?>Label" aria-hidden="true">
@@ -120,9 +120,9 @@
                             </div>
                         </div>
                     <?php }
-                } else { ?>
-                    <li class="list-group-item">No hay TODOs pendientes.</li>
-                <?php } ?>
+                    } else { ?>
+                        <li class="list-group-item">No hay TODOs pendientes.</li>
+                    <?php } ?>
             </ul>
         </div>
 
@@ -134,13 +134,13 @@
                         $modal_id = 'doneTodoModal' . $todo_data['id'];
                 ?>
                         <li class="list-group-item">
-                            <?php if (!empty($todo_data['link'])): ?>
+                            <?php if (!empty($todo_data['link'])) { ?>
                                 <a href="<?= htmlspecialchars($todo_data['link']); ?>" target="_blank">
                                     <?= htmlspecialchars($todo_data['name']); ?>
                                 </a>
-                            <?php else: ?>
+                            <?php } else { ?>
                                 <?= htmlspecialchars($todo_data['name']); ?>
-                            <?php endif; ?>
+                            <?php } ?>
                             <span class="badge bg-success text-bg-success ms-2" style="cursor:pointer;" data-bs-toggle="modal" data-bs-target="#<?= $modal_id; ?>">
                                 <?php if (!empty($todo_data['status'])) {
                                     echo htmlspecialchars($todo_data['status']);
@@ -148,7 +148,7 @@
                                     echo 'Sin estado';
                                 } ?>
                             </span>
-                            <button class="btn btn-sm btn-secondary float-end ms-2" data-bs-toggle="modal" data-bs-target="#editDoneTodoModal<?= $todo_data['id']; } ?>">✎</button>
+                            <button class="btn btn-sm btn-secondary float-end ms-2" data-bs-toggle="modal" data-bs-target="#editDoneTodoModal<?= $todo_data['id']; ?>">✎</button>
                             <button class="btn btn-sm btn-danger float-end" data-bs-toggle="modal" data-bs-target="#deleteDoneTodoModal<?= $todo_data['id']; ?>">×</button>
                                                 <!-- Modal editar -->
                                                 <div class="modal fade" id="editDoneTodoModal<?= $todo_data['id']; ?>" tabindex="-1" aria-labelledby="editDoneTodoModal<?= $todo_data['id']; ?>Label" aria-hidden="true">
@@ -233,9 +233,9 @@
                             </div>
                         </div>
                     <?php }
-                } else { ?>
-                    <li class="list-group-item">No hay TODOs terminados.</li>
-                <?php } ?>
+                    } else { ?>
+                        <li class="list-group-item">No hay TODOs terminados.</li>
+                    <?php } ?>
             </ul>
         </div>
     </div>
