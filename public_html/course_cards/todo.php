@@ -49,6 +49,7 @@
                                                                 <div class="modal-body">
                                                                     <input type="hidden" name="edit_todo" value="1">
                                                                     <input type="hidden" name="todo_id" value="<?= htmlspecialchars($todo_data['id']); ?>">
+                                                                    <input type="hidden" name="todo_course" value="<?= htmlspecialchars($todo_data['course'] ?? ''); ?>">
                                                                     <div class="mb-3">
                                                                         <label for="edit_todo_name_<?= $todo_data['id']; ?>" class="form-label">Descripción *</label>
                                                                         <textarea class="form-control" id="edit_todo_name_<?= $todo_data['id']; ?>" name="todo_name" rows="3" required><?= htmlspecialchars($todo_data['name']); ?></textarea>
@@ -162,6 +163,7 @@
                                                                 <div class="modal-body">
                                                                     <input type="hidden" name="edit_todo" value="1">
                                                                     <input type="hidden" name="todo_id" value="<?= htmlspecialchars($todo_data['id']); ?>">
+                                                                    <input type="hidden" name="todo_course" value="<?= htmlspecialchars($todo_data['course'] ?? ''); ?>">
                                                                     <div class="mb-3">
                                                                         <label for="edit_done_todo_name_<?= $todo_data['id']; ?>" class="form-label">Descripción *</label>
                                                                         <textarea class="form-control" id="edit_done_todo_name_<?= $todo_data['id']; ?>" name="todo_name" rows="3" required><?= htmlspecialchars($todo_data['name']); ?></textarea>

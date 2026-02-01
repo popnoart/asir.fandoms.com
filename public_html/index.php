@@ -268,6 +268,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/assets/templates/header.php';
                                                                         </div>
                                                                         <div class="modal-body">
                                                                             <input type="hidden" name="edit_todo" value="1">
+                                                                            <input type="hidden" name="todo_course" value="<?= htmlspecialchars($todo_data['course'] ?? ''); ?>">
                                                                             <input type="hidden" name="todo_id" value="<?= htmlspecialchars($todo_data['id']); ?>">
                                                                             <div class="mb-3">
                                                                                 <label for="edit_todo_name_<?= $todo_data['id']; ?>" class="form-label">Descripción *</label>
