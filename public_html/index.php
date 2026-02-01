@@ -1,5 +1,7 @@
 <?php
 include $_SERVER['DOCUMENT_ROOT'] . '/bootstrap.php';
+
+
 include $_SERVER['DOCUMENT_ROOT'] . '/assets/templates/header.php';
 ?>
 
@@ -253,7 +255,46 @@ include $_SERVER['DOCUMENT_ROOT'] . '/assets/templates/header.php';
                                     <?= htmlspecialchars($todo_data['name']); ?>
                                 <?php endif; ?>
                                 <span class="badge text-bg-secondary ms-2" style="cursor:pointer;" data-bs-toggle="modal" data-bs-target="#statusTodoModal<?= $todo_data['id']; ?>"><?= htmlspecialchars($todo_data['status']); ?></span>
+                                <button class="btn btn-sm btn-secondary float-end ms-2" data-bs-toggle="modal" data-bs-target="#editTodoModal<?= $todo_data['id']; ?>">✎</button>
                                 <button class="btn btn-sm btn-danger float-end" data-bs-toggle="modal" data-bs-target="#deleteTodoModal<?= $todo_data['id']; ?>">×</button>
+                                                        <!-- Modal editar -->
+                                                        <div class="modal fade" id="editTodoModal<?= $todo_data['id']; ?>" tabindex="-1" aria-labelledby="editTodoModal<?= $todo_data['id']; ?>Label" aria-hidden="true">
+                                                            <div class="modal-dialog">
+                                                                <div class="modal-content">
+                                                                    <form method="post" action="">
+                                                                        <div class="modal-header">
+                                                                            <h5 class="modal-title" id="editTodoModal<?= $todo_data['id']; ?>Label">Editar TODO</h5>
+                                                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                                                                        </div>
+                                                                        <div class="modal-body">
+                                                                            <input type="hidden" name="edit_todo" value="1">
+                                                                            <input type="hidden" name="todo_id" value="<?= htmlspecialchars($todo_data['id']); ?>">
+                                                                            <div class="mb-3">
+                                                                                <label for="edit_todo_name_<?= $todo_data['id']; ?>" class="form-label">Descripción *</label>
+                                                                                <textarea class="form-control" id="edit_todo_name_<?= $todo_data['id']; ?>" name="todo_name" rows="3" required><?= htmlspecialchars($todo_data['name']); ?></textarea>
+                                                                            </div>
+                                                                            <div class="mb-3">
+                                                                                <label for="edit_todo_link_<?= $todo_data['id']; ?>" class="form-label">Enlace (opcional)</label>
+                                                                                <input type="url" class="form-control" id="edit_todo_link_<?= $todo_data['id']; ?>" name="todo_link" value="<?= htmlspecialchars($todo_data['link'] ?? ''); ?>">
+                                                                            </div>
+                                                                            <div class="mb-3">
+                                                                                <label for="edit_todo_course_<?= $todo_data['id']; ?>" class="form-label">Asignatura (opcional)</label>
+                                                                                <select class="form-select" id="edit_todo_course_<?= $todo_data['id']; ?>" name="todo_course">
+                                                                                    <option value="">-- General --</option>
+                                                                                    <?php foreach ($all_courses as $course_key => $course_info): ?>
+                                                                                        <option value="<?= htmlspecialchars($course_key); ?>" <?= (isset($todo_data['course']) && $todo_data['course'] == $course_key) ? 'selected' : '' ?>><?= htmlspecialchars($course_key); ?></option>
+                                                                                    <?php endforeach; ?>
+                                                                                </select>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="modal-footer">
+                                                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                                                                            <button type="submit" class="btn btn-primary">Guardar cambios</button>
+                                                                        </div>
+                                                                    </form>
+                                                                </div>
+                                                            </div>
+                                                        </div>
                             </li>
                             <!-- Modal cambio de estado -->
                             <div class="modal fade" id="statusTodoModal<?= $todo_data['id']; ?>" tabindex="-1" aria-labelledby="statusTodoModal<?= $todo_data['id']; ?>Label" aria-hidden="true">

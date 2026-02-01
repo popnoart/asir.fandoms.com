@@ -35,7 +35,37 @@
                                     echo 'Sin estado';
                                 } ?>
                             </span>
+                            <button class="btn btn-sm btn-secondary float-end ms-2" data-bs-toggle="modal" data-bs-target="#editTodoModal<?= $todo_data['id']; } ?>">✎</button>
                             <button class="btn btn-sm btn-danger float-end" data-bs-toggle="modal" data-bs-target="#deleteTodoModal<?= $todo_data['id']; ?>">×</button>
+                                                <!-- Modal editar -->
+                                                <div class="modal fade" id="editTodoModal<?= $todo_data['id']; ?>" tabindex="-1" aria-labelledby="editTodoModal<?= $todo_data['id']; ?>Label" aria-hidden="true">
+                                                    <div class="modal-dialog">
+                                                        <div class="modal-content">
+                                                            <form method="post" action="">
+                                                                <div class="modal-header">
+                                                                    <h5 class="modal-title" id="editTodoModal<?= $todo_data['id']; ?>Label">Editar TODO</h5>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <input type="hidden" name="edit_todo" value="1">
+                                                                    <input type="hidden" name="todo_id" value="<?= htmlspecialchars($todo_data['id']); ?>">
+                                                                    <div class="mb-3">
+                                                                        <label for="edit_todo_name_<?= $todo_data['id']; ?>" class="form-label">Descripción *</label>
+                                                                        <textarea class="form-control" id="edit_todo_name_<?= $todo_data['id']; ?>" name="todo_name" rows="3" required><?= htmlspecialchars($todo_data['name']); ?></textarea>
+                                                                    </div>
+                                                                    <div class="mb-3">
+                                                                        <label for="edit_todo_link_<?= $todo_data['id']; ?>" class="form-label">Enlace (opcional)</label>
+                                                                        <input type="url" class="form-control" id="edit_todo_link_<?= $todo_data['id']; ?>" name="todo_link" value="<?= htmlspecialchars($todo_data['link'] ?? ''); ?>">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="modal-footer">
+                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                                                                    <button type="submit" class="btn btn-primary">Guardar cambios</button>
+                                                                </div>
+                                                            </form>
+                                                        </div>
+                                                    </div>
+                                                </div>
                         </li>
                         <!-- Modal cambio de estado -->
                         <div class="modal fade" id="<?= $modal_id; ?>" tabindex="-1" aria-labelledby="<?= $modal_id; ?>Label" aria-hidden="true">
@@ -118,7 +148,37 @@
                                     echo 'Sin estado';
                                 } ?>
                             </span>
+                            <button class="btn btn-sm btn-secondary float-end ms-2" data-bs-toggle="modal" data-bs-target="#editDoneTodoModal<?= $todo_data['id']; } ?>">✎</button>
                             <button class="btn btn-sm btn-danger float-end" data-bs-toggle="modal" data-bs-target="#deleteDoneTodoModal<?= $todo_data['id']; ?>">×</button>
+                                                <!-- Modal editar -->
+                                                <div class="modal fade" id="editDoneTodoModal<?= $todo_data['id']; ?>" tabindex="-1" aria-labelledby="editDoneTodoModal<?= $todo_data['id']; ?>Label" aria-hidden="true">
+                                                    <div class="modal-dialog">
+                                                        <div class="modal-content">
+                                                            <form method="post" action="">
+                                                                <div class="modal-header">
+                                                                    <h5 class="modal-title" id="editDoneTodoModal<?= $todo_data['id']; ?>Label">Editar TODO</h5>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <input type="hidden" name="edit_todo" value="1">
+                                                                    <input type="hidden" name="todo_id" value="<?= htmlspecialchars($todo_data['id']); ?>">
+                                                                    <div class="mb-3">
+                                                                        <label for="edit_done_todo_name_<?= $todo_data['id']; ?>" class="form-label">Descripción *</label>
+                                                                        <textarea class="form-control" id="edit_done_todo_name_<?= $todo_data['id']; ?>" name="todo_name" rows="3" required><?= htmlspecialchars($todo_data['name']); ?></textarea>
+                                                                    </div>
+                                                                    <div class="mb-3">
+                                                                        <label for="edit_done_todo_link_<?= $todo_data['id']; ?>" class="form-label">Enlace (opcional)</label>
+                                                                        <input type="url" class="form-control" id="edit_done_todo_link_<?= $todo_data['id']; ?>" name="todo_link" value="<?= htmlspecialchars($todo_data['link'] ?? ''); ?>">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="modal-footer">
+                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                                                                    <button type="submit" class="btn btn-primary">Guardar cambios</button>
+                                                                </div>
+                                                            </form>
+                                                        </div>
+                                                    </div>
+                                                </div>
                         </li>
                         <!-- Modal cambio de estado -->
                         <div class="modal fade" id="<?= $modal_id; ?>" tabindex="-1" aria-labelledby="<?= $modal_id; ?>Label" aria-hidden="true">

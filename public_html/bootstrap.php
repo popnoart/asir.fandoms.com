@@ -295,6 +295,22 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['delete_todo'])) {
     exit;
 }
 
+// Procesar edición de TODO
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['edit_todo'], $_POST['todo_id'])) {
+    $todo_id = $_POST['todo_id'];
+    $todo_name = trim($_POST['todo_name'] ?? '');
+    $todo_link = trim($_POST['todo_link'] ?? '');
+    $todo_course = trim($_POST['todo_course'] ?? '');
+    if (isset($all_todos[$todo_id])) {
+        $all_todos[$todo_id]['name'] = $todo_name;
+        $all_todos[$todo_id]['link'] = $todo_link;
+        $all_todos[$todo_id]['course'] = $todo_course;
+        file_put_contents($todos_path, json_encode($all_todos, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
+    }
+    header('Location: ' . $_SERVER['REQUEST_URI']);
+    exit;
+}
+
 // Procesar cambio de estado de todo
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['change_todo_status'])) {
     $todo_id = $_POST['todo_id'];
