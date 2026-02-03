@@ -207,101 +207,123 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['update_uid'])) {
 	<form method="post" class="mb-3">
 		<button type="submit" name="add_missing" value="1" class="btn btn-primary">Añadir nuevos eventos</button>
 	</form>
+
 	<div class="row mb-3">
 		<div class="col-md-6">
 			<h5><code>icalexport.ics</code></h5>
 			<div class="list-group">
-			<?php foreach ($all_uids as $uid): ?>
-				<?php $ev = $icalexport_by_uid[$uid] ?? null; ?>
-				   <div class="list-group-item<?php
-					   $both = ($ev && isset($calendarics_by_uid[$uid]));
-					   $modificado = $both && (($ev['LAST-MODIFIED'] ?? null) !== ($calendarics_by_uid[$uid]['LAST-MODIFIED'] ?? null));
-					   // Obtener fecha de inicio para comparar
-					   $alt_ev = $ev ?: ($calendarics_by_uid[$uid] ?? []);
-					   $fecha_inicio = $alt_ev['DTSTART'] ?? null;
-					   $es_pasado = false;
-					   if ($fecha_inicio) {
-						   // Normalizar a formato Ymd (sin hora)
-						   $fecha_ev = preg_replace('/[^0-9]/', '', substr($fecha_inicio,0,8));
-						   $hoy = (new DateTime('now', new DateTimeZone('Europe/Madrid')))->format('Ymd');
-						   $es_pasado = ($fecha_ev < $hoy);
-					   }
-					   if ($modificado) echo ' list-group-item-warning';
-					   elseif (!$both && $es_pasado) echo '';
-					   elseif ($ev && !isset($calendarics_by_uid[$uid])) echo ' list-group-item-success';
-					   elseif (!$ev && isset($calendarics_by_uid[$uid])) echo ' list-group-item-danger';
-				   ?>">
-					   <?php
-						   // Si no existe en este archivo, buscar info en el otro
-						   $alt_ev = $ev ?: ($calendarics_by_uid[$uid] ?? []);
-					   ?>
-				   <strong><?php echo htmlspecialchars($alt_ev['SUMMARY'] ?? '(Sin resumen)'); ?></strong><br>
-				   UID: <?php echo htmlspecialchars($uid); ?><br>
-				   <?php if (!empty($alt_ev['CATEGORIES'])){?>
-					   <?php echo htmlspecialchars($alt_ev['CATEGORIES']); ?><br>
-				   <?php } ?>
-					   Fecha fin: <?php echo isset($alt_ev['DTEND']) ? format_ics_date_madrid($alt_ev['DTEND']) : ''; ?><br>
-					   <?php if ($modificado): ?>
-						   <span class="badge bg-warning text-dark">Modificado (LAST-MODIFIED distinto)</span>
-					   <?php elseif ($ev && !isset($calendarics_by_uid[$uid])): ?>
-						   <span class="badge bg-success">Solo en icalexport.ics</span>
-					   <?php elseif (!$ev && isset($calendarics_by_uid[$uid])): ?>
-						   <span class="badge bg-danger">Solo en calendar.json</span>
-					   <?php endif; ?>
-				   </div>
+			<?php
+			foreach ($all_uids as $uid):
+				$ev = $icalexport_by_uid[$uid] ?? null;
+				$ev_json = $calendarics_by_uid[$uid] ?? null;
+				$both = ($ev && $ev_json);
+				// 1. Ocultar si coinciden completamente (todos los campos relevantes)
+				if ($both && $ev == $ev_json) continue;
+				// 2. Ocultar si solo está en calendar.json, su fecha fin ya pasó y no está en icalexport.ics
+				if (!$ev && $ev_json) {
+					$fecha_fin = $ev_json['DTEND'] ?? null;
+					$es_pasado = false;
+					if ($fecha_fin) {
+						$fecha_ev = preg_replace('/[^0-9]/', '', substr($fecha_fin,0,8));
+						$hoy = (new DateTime('now', new DateTimeZone('Europe/Madrid')))->format('Ymd');
+						$es_pasado = ($fecha_ev < $hoy);
+					}
+					if ($es_pasado) continue;
+				}
+			?>
+				<div class="list-group-item<?php
+					$modificado = $both && (($ev['LAST-MODIFIED'] ?? null) !== ($ev_json['LAST-MODIFIED'] ?? null));
+					$alt_ev = $ev ?: ($ev_json ?? []);
+					$fecha_inicio = $alt_ev['DTSTART'] ?? null;
+					$es_pasado = false;
+					if ($fecha_inicio) {
+						$fecha_ev = preg_replace('/[^0-9]/', '', substr($fecha_inicio,0,8));
+						$hoy = (new DateTime('now', new DateTimeZone('Europe/Madrid')))->format('Ymd');
+						$es_pasado = ($fecha_ev < $hoy);
+					}
+					if ($modificado) echo ' list-group-item-warning';
+					elseif ($ev && !isset($calendarics_by_uid[$uid])) echo ' list-group-item-success';
+					elseif (!$ev && isset($calendarics_by_uid[$uid])) echo ' list-group-item-danger';
+				?>">
+					<?php $alt_ev = $ev ?: ($ev_json ?? []); ?>
+					<strong><?php echo htmlspecialchars($alt_ev['SUMMARY'] ?? '(Sin resumen)'); ?></strong><br>
+					UID: <?php echo htmlspecialchars($uid); ?><br>
+					<?php if (!empty($alt_ev['CATEGORIES'])){?>
+						<?php echo htmlspecialchars($alt_ev['CATEGORIES']); ?><br>
+					<?php } ?>
+					Fecha fin: <?php echo isset($alt_ev['DTEND']) ? format_ics_date_madrid($alt_ev['DTEND']) : ''; ?><br>
+					<?php if ($modificado): ?>
+						<span class="badge bg-warning text-dark">Modificado (LAST-MODIFIED distinto)</span>
+					<?php elseif ($ev && !isset($calendarics_by_uid[$uid])): ?>
+						<span class="badge bg-success">Solo en icalexport.ics</span>
+					<?php elseif (!$ev && isset($calendarics_by_uid[$uid])): ?>
+						<span class="badge bg-danger">Solo en calendar.json</span>
+					<?php endif; ?>
+				</div>
 			<?php endforeach; ?>
 			</div>
 		</div>
 		<div class="col-md-6">
 			<h5><code>calendar.json</code></h5>
 			<div class="list-group">
-			<?php foreach ($all_uids as $uid): ?>
-				<?php $ev = $calendarics_by_uid[$uid] ?? null; ?>
-				   <div class="list-group-item<?php
-					   $both = ($ev && isset($icalexport_by_uid[$uid]));
-					   $modificado = $both && (($ev['LAST-MODIFIED'] ?? null) !== ($icalexport_by_uid[$uid]['LAST-MODIFIED'] ?? null));
-					   // Obtener fecha de inicio para comparar
-					   $alt_ev = $ev ?: ($icalexport_by_uid[$uid] ?? []);
-					   $fecha_inicio = $alt_ev['DTSTART'] ?? null;
-					   $es_pasado = false;
-					   if ($fecha_inicio) {
-						   $fecha_ev = preg_replace('/[^0-9]/', '', substr($fecha_inicio,0,8));
-						   $hoy = (new DateTime('now', new DateTimeZone('Europe/Madrid')))->format('Ymd');
-						   $es_pasado = ($fecha_ev < $hoy);
-					   }
-					   if ($modificado) echo ' list-group-item-warning';
-					   elseif (!$both && $es_pasado) echo '';
-					   elseif ($ev && !isset($icalexport_by_uid[$uid])) echo ' list-group-item-success';
-					   elseif (!$ev && isset($icalexport_by_uid[$uid])) echo ' list-group-item-danger';
-				   ?>">
-					   <?php
-						   // Si no existe en este archivo, buscar info en el otro
-						   $alt_ev = $ev ?: ($icalexport_by_uid[$uid] ?? []);
-					   ?>
-				   <strong><?php echo htmlspecialchars($alt_ev['SUMMARY'] ?? '(Sin resumen)'); ?></strong><br>
-				   UID: <?php echo htmlspecialchars($uid); ?><br>
-				   <?php if (!empty($alt_ev['CATEGORIES'])){?>
-					   <?php echo htmlspecialchars($alt_ev['CATEGORIES']); ?><br>
-				   <?php } ?>
-				   Fecha fin: <?php echo isset($alt_ev['DTEND']) ? format_ics_date_madrid($alt_ev['DTEND']) : ''; ?><br>
-				   <?php if ($modificado): ?>
-					   <span class="badge bg-warning text-dark">Modificado (LAST-MODIFIED distinto)</span>
-					   <form method="post" style="display:inline">
-							   <input type="hidden" name="update_uid" value="<?php echo htmlspecialchars($uid); ?>">
-							   <button type="submit" class="btn btn-sm btn-warning ms-2">Actualizar</button>
-						   </form>
-					   <?php endif; ?>
-					   <?php if ($ev && !isset($icalexport_by_uid[$uid])): ?>
-						   <span class="badge bg-success">Solo en calendar.json</span>
-						   <form method="post" style="display:inline">
-							   <input type="hidden" name="delete_uid" value="<?php echo htmlspecialchars($uid); ?>">
-							   <button type="submit" class="btn btn-sm btn-danger ms-2">Eliminar</button>
-						   </form>
-					   <?php endif; ?>
-					   <?php if (!$ev && isset($icalexport_by_uid[$uid])): ?>
-						   <span class="badge bg-danger">Solo en icalexport.ics</span>
-					   <?php endif; ?>
-				   </div>
+			<?php
+			foreach ($all_uids as $uid):
+				$ev = $calendarics_by_uid[$uid] ?? null;
+				$ev_ics = $icalexport_by_uid[$uid] ?? null;
+				$both = ($ev && $ev_ics);
+				// 1. Ocultar si coinciden completamente (todos los campos relevantes)
+				if ($both && $ev == $ev_ics) continue;
+				// 2. Ocultar si solo está en calendar.json, su fecha fin ya pasó y no está en icalexport.ics
+				if ($ev && !$ev_ics) {
+					$fecha_fin = $ev['DTEND'] ?? null;
+					$es_pasado = false;
+					if ($fecha_fin) {
+						$fecha_ev = preg_replace('/[^0-9]/', '', substr($fecha_fin,0,8));
+						$hoy = (new DateTime('now', new DateTimeZone('Europe/Madrid')))->format('Ymd');
+						$es_pasado = ($fecha_ev < $hoy);
+					}
+					if ($es_pasado) continue;
+				}
+			?>
+				<div class="list-group-item<?php
+					$modificado = $both && (($ev['LAST-MODIFIED'] ?? null) !== ($ev_ics['LAST-MODIFIED'] ?? null));
+					$alt_ev = $ev ?: ($ev_ics ?? []);
+					$fecha_inicio = $alt_ev['DTSTART'] ?? null;
+					$es_pasado = false;
+					if ($fecha_inicio) {
+						$fecha_ev = preg_replace('/[^0-9]/', '', substr($fecha_inicio,0,8));
+						$hoy = (new DateTime('now', new DateTimeZone('Europe/Madrid')))->format('Ymd');
+						$es_pasado = ($fecha_ev < $hoy);
+					}
+					if ($modificado) echo ' list-group-item-warning';
+					elseif ($ev && !isset($icalexport_by_uid[$uid])) echo ' list-group-item-success';
+					elseif (!$ev && isset($icalexport_by_uid[$uid])) echo ' list-group-item-danger';
+				?>">
+					<?php $alt_ev = $ev ?: ($ev_ics ?? []); ?>
+					<strong><?php echo htmlspecialchars($alt_ev['SUMMARY'] ?? '(Sin resumen)'); ?></strong><br>
+					UID: <?php echo htmlspecialchars($uid); ?><br>
+					<?php if (!empty($alt_ev['CATEGORIES'])){?>
+						<?php echo htmlspecialchars($alt_ev['CATEGORIES']); ?><br>
+					<?php } ?>
+					Fecha fin: <?php echo isset($alt_ev['DTEND']) ? format_ics_date_madrid($alt_ev['DTEND']) : ''; ?><br>
+					<?php if ($modificado): ?>
+						<span class="badge bg-warning text-dark">Modificado (LAST-MODIFIED distinto)</span>
+						<form method="post" style="display:inline">
+								<input type="hidden" name="update_uid" value="<?php echo htmlspecialchars($uid); ?>">
+								<button type="submit" class="btn btn-sm btn-warning ms-2">Actualizar</button>
+							</form>
+					<?php endif; ?>
+					<?php if ($ev && !isset($icalexport_by_uid[$uid])): ?>
+						<span class="badge bg-success">Solo en calendar.json</span>
+						<form method="post" style="display:inline">
+							<input type="hidden" name="delete_uid" value="<?php echo htmlspecialchars($uid); ?>">
+							<button type="submit" class="btn btn-sm btn-danger ms-2">Eliminar</button>
+						</form>
+					<?php endif; ?>
+					<?php if (!$ev && isset($icalexport_by_uid[$uid])): ?>
+						<span class="badge bg-danger">Solo en icalexport.ics</span>
+					<?php endif; ?>
+				</div>
 			<?php endforeach; ?>
 			</div>
 		</div>
