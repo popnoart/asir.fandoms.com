@@ -213,12 +213,21 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['update_uid'])) {
 			<h5><code>icalexport.ics</code></h5>
 			<div class="list-group">
 			<?php
+			// Función para comparar solo campos relevantes
+			function eventos_iguales($a, $b) {
+				if (!$a || !$b) return false;
+				$campos = ['UID','SUMMARY','DTSTART','DTEND','LAST-MODIFIED','CATEGORIES','COURSE'];
+				foreach ($campos as $campo) {
+					if (($a[$campo] ?? null) !== ($b[$campo] ?? null)) return false;
+				}
+				return true;
+			}
 			foreach ($all_uids as $uid):
 				$ev = $icalexport_by_uid[$uid] ?? null;
 				$ev_json = $calendarics_by_uid[$uid] ?? null;
 				$both = ($ev && $ev_json);
-				// 1. Ocultar si coinciden completamente (todos los campos relevantes)
-				if ($both && $ev == $ev_json) continue;
+				// 1. Ocultar si coinciden en los campos relevantes
+				if ($both && eventos_iguales($ev, $ev_json)) continue;
 				// 2. Ocultar si solo está en calendar.json, su fecha fin ya pasó y no está en icalexport.ics
 				if (!$ev && $ev_json) {
 					$fecha_fin = $ev_json['DTEND'] ?? null;
@@ -271,8 +280,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['update_uid'])) {
 				$ev = $calendarics_by_uid[$uid] ?? null;
 				$ev_ics = $icalexport_by_uid[$uid] ?? null;
 				$both = ($ev && $ev_ics);
-				// 1. Ocultar si coinciden completamente (todos los campos relevantes)
-				if ($both && $ev == $ev_ics) continue;
+				// 1. Ocultar si coinciden en los campos relevantes
+				if ($both && eventos_iguales($ev, $ev_ics)) continue;
 				// 2. Ocultar si solo está en calendar.json, su fecha fin ya pasó y no está en icalexport.ics
 				if ($ev && !$ev_ics) {
 					$fecha_fin = $ev['DTEND'] ?? null;
