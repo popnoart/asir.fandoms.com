@@ -532,6 +532,18 @@
                 "start": "27-01-2026 09:00",
                 "end": "18-02-2026 23:59",
                 "name": "RA1-RA2-RA3-RA4 Práctica Visor II.OBLIGATORIA"
+            },
+            "41712": {
+                "type": "Obligatoria",
+                "start": "02-02-2026 09:00",
+                "end": "22-02-2026 23:59",
+                "name": "RA1-RA2-RA3-RA4 Práctica Maquetación web con nodos.OBLIGATORIA"
+            },
+            "41785": {
+                "type": "Obligatoria",
+                "start": "06-02-2026 09:00",
+                "end": "25-02-2026 23:59",
+                "name": "RA1-RA2-RA3-RA4-RA5 Práctica nodos y objetos"
             }
         },
         "tests": {
@@ -580,6 +592,18 @@
                 "start": "13-11-2025 20:30",
                 "end": "27-11-2025 20:30",
                 "name": "ACTIVIDAD COMPLEMENTARIA TEMA 1. BÚSQUEDA ACTIVA DE EMPLEO"
+            },
+            "41767": {
+                "type": "Obligatoria",
+                "start": "02-02-2026 20:30",
+                "end": "16-02-2026 23:59",
+                "name": "ACTIVIDAD OBLIGATORIA TEMA 2. ESTRATEGIAS PARA LA MEJORA DE LA EMPLEABILIDAD"
+            },
+            "41768": {
+                "type": "Complementaria",
+                "start": "02-02-2026 20:30",
+                "end": "16-02-2026 23:59",
+                "name": "ACTIVIDAD COMPLEMENTARIA TEMA 2. ESTRATEGIAS PARA LA MEJORA DE LA EMPLEABILIDAD"
             }
         },
         "tests": {
