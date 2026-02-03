@@ -189,6 +189,39 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['update_uid'])) {
 		exit;
 	}
 }
+// Actualizar todos los eventos modificados (con botón Actualizar visible)
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['update_all_modified'])) {
+	$calendar_json_path = $_SERVER['DOCUMENT_ROOT'] . '/data/calendar.json';
+	$calendarics_events = load_calendar_json($calendar_json_path);
+	// Indexar por UID para acceso rápido
+	$calendarics_by_uid = index_by_uid($calendarics_events);
+	$updated = 0;
+	foreach ($icalexport_by_uid as $uid => $ev_ics) {
+		if (isset($calendarics_by_uid[$uid])) {
+			$ev_json = $calendarics_by_uid[$uid];
+			// Solo si LAST-MODIFIED es distinto
+			if (($ev_ics['LAST-MODIFIED'] ?? null) !== ($ev_json['LAST-MODIFIED'] ?? null)) {
+				// Mantener COURSE si existe en calendar.json
+				if (isset($ev_json['COURSE'])) {
+					$ev_ics['COURSE'] = $ev_json['COURSE'];
+				}
+				// Actualizar en el array principal
+				foreach ($calendarics_events as &$item) {
+					if (isset($item['UID']) && $item['UID'] === $uid) {
+						$item = $ev_ics;
+						break;
+					}
+				}
+				unset($item);
+				$updated++;
+			}
+		}
+	}
+	file_put_contents($calendar_json_path, json_encode($calendarics_events, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
+	$message_result = $updated . ' evento(s) actualizados desde icalexport.ics.';
+	header('Location: ' . $_SERVER['REQUEST_URI']);
+	exit;
+}
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -204,8 +237,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['update_uid'])) {
 	<?php if ($message_result): ?>
 		<div class="alert alert-info"> <?php echo htmlspecialchars($message_result); ?> </div>
 	<?php endif; ?>
-	<form method="post" class="mb-3">
+	<form method="post" class="mb-3 d-flex gap-2">
 		<button type="submit" name="add_missing" value="1" class="btn btn-primary">Añadir nuevos eventos</button>
+		<button type="submit" name="update_all_modified" value="1" class="btn btn-warning">Actualizar modificados</button>
 	</form>
 
 	<div class="row mb-3">
@@ -226,10 +260,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['update_uid'])) {
 				$ev = $icalexport_by_uid[$uid] ?? null;
 				$ev_json = $calendarics_by_uid[$uid] ?? null;
 				$both = ($ev && $ev_json);
-				// 1. Ocultar si coinciden en los campos relevantes
-				if ($both && eventos_iguales($ev, $ev_json)) continue;
+				$modificado = $both && (($ev['LAST-MODIFIED'] ?? null) !== ($ev_json['LAST-MODIFIED'] ?? null));
+				$solo_ics = ($ev && !isset($calendarics_by_uid[$uid]));
+				$solo_json = (!$ev && isset($calendarics_by_uid[$uid]));
+				// Ocultar si no cumple ninguna de las tres condiciones
+				if (!$modificado && !$solo_ics && !$solo_json) continue;
 				// 2. Ocultar si solo está en calendar.json, su fecha fin ya pasó y no está en icalexport.ics
-				if (!$ev && $ev_json) {
+				if ($solo_json) {
 					$fecha_fin = $ev_json['DTEND'] ?? null;
 					$es_pasado = false;
 					if ($fecha_fin) {
@@ -280,10 +317,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['update_uid'])) {
 				$ev = $calendarics_by_uid[$uid] ?? null;
 				$ev_ics = $icalexport_by_uid[$uid] ?? null;
 				$both = ($ev && $ev_ics);
-				// 1. Ocultar si coinciden en los campos relevantes
-				if ($both && eventos_iguales($ev, $ev_ics)) continue;
+				$modificado = $both && (($ev['LAST-MODIFIED'] ?? null) !== ($ev_ics['LAST-MODIFIED'] ?? null));
+				$solo_json = ($ev && !isset($icalexport_by_uid[$uid]));
+				$solo_ics = (!$ev && isset($icalexport_by_uid[$uid]));
+				// Ocultar si no cumple ninguna de las tres condiciones
+				if (!$modificado && !$solo_json && !$solo_ics) continue;
 				// 2. Ocultar si solo está en calendar.json, su fecha fin ya pasó y no está en icalexport.ics
-				if ($ev && !$ev_ics) {
+				if ($solo_json) {
 					$fecha_fin = $ev['DTEND'] ?? null;
 					$es_pasado = false;
 					if ($fecha_fin) {
