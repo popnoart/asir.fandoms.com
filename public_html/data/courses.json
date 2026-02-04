@@ -1183,6 +1183,12 @@
                 "start": "28-01-2026 11:55",
                 "end": "10-02-2026 23:59",
                 "name": "UNIT 6. Task - compulsory RA1,2,3,4"
+            },
+            "14103": {
+                "type": "Obligatoria",
+                "start": "03-02-2026 07:55",
+                "end": "22-02-2026 23:59",
+                "name": "UNIT 7. Task - compulsory RA1,3"
             }
         },
         "tests": {
@@ -1227,6 +1233,12 @@
                 "start": "",
                 "end": "",
                 "name": "UNIT 6. Quiz"
+            },
+            "14104": {
+                "type": "Cuestionario",
+                "start": "",
+                "end": "",
+                "name": "UNIT 7. Quiz"
             }
         },
         "notes": {
