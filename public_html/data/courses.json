@@ -460,8 +460,14 @@
             "IAW-9": {
                 "folder": 0,
                 "folder_number": 0,
-                "name": "Unidad 4. JavaScript. Objetos",
+                "name": "Unidad 4.1. JavaScript. Objetos",
                 "link": "https://drive.google.com/file/d/1W8HpZPeDPg9_VzKJJJhOaTu4VrTreFFi/view?usp=sharing"
+            },
+            "IAW-9": {
+                "folder": 0,
+                "folder_number": 0,
+                "name": "Unidad 4.2. JavaScript. Clases",
+                "link": ""
             }
         },
         "resources": {
@@ -549,6 +555,12 @@
                 "start": "06-02-2026 09:00",
                 "end": "25-02-2026 23:59",
                 "name": "RA1-RA2-RA3-RA4-RA5 Práctica nodos y objetos"
+            },
+            "44682": {
+                "type": "Obligatoria",
+                "start": "09-02-2026 14:03",
+                "end": "17-03-2026 23:59",
+                "name": "RA5 Práctica trabajo con clases"
             }
         },
         "tests": {
