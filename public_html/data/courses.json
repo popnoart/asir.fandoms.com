@@ -303,6 +303,11 @@
                 "name": "Apuntes Denegar Tráfico (PROXY) (doc)",
                 "file": "APUNTESDENEGARTRAFICO.pdf",
                 "link": "https://docs.google.com/document/d/1533EkY-9jJqa0ouYiT4TCwtVNj5-5TpBPmL6AA69Cuo/edit?usp=sharing"
+            },
+            "CB-05-doc": {
+                "name": "Apuntes Netflow, Syslog, Sniffer (doc)",
+                "file": "",
+                "link": "https://docs.google.com/document/d/1_4izvTnz9wERLE305jD3IzEMdcYi_clA2c_b6jJphy8/edit?usp=sharing"
             }
         }
     },
