@@ -12,54 +12,55 @@
 <div class="row justify-content-center">
     <h2 class="text-center"><?= $quiz_data['name']; ?></h2>
     <?php
-    if(file_exists($_SERVER['DOCUMENT_ROOT'] . '/data/tests/' . $quiz . '.json') === false) {
+    if (file_exists($_SERVER['DOCUMENT_ROOT'] . '/data/tests/' . $quiz . '.json') === false) {
         echo '<div class="alert alert-danger" role="alert">Todavía no he hecho o subido este cuestionario.</div>';
         include $_SERVER['DOCUMENT_ROOT'] . '/assets/templates/footer.php';
         exit;
-    }else{
-   
-    $quiz_path = $_SERVER['DOCUMENT_ROOT'] . '/data/tests/' . $quiz . '.json';
-    $quiz_content = json_decode(file_get_contents($quiz_path), true);
-    if(!empty($quiz_content['pre'])){
-        $pre = $quiz_content['pre'];
-        unset($quiz_content['pre']);
-        if(isset($pre[0]['file'])){
-            echo '<div class="mb-4"><audio controls><source src="/data/tests/audio/' . htmlspecialchars($pre[0]['file'], ENT_QUOTES, 'UTF-8') . '" type="audio/mpeg">Tu navegador no soporta el elemento de audio.</audio></div>';
-        }elseif(isset($pre[0]['text'])){
-            echo '<div class="mb-4"><p>' . htmlspecialchars($pre[0]['text'], ENT_QUOTES, 'UTF-8') . '</p></div>';
-        }
-    }
+    } else {
+
+        $quiz_path = $_SERVER['DOCUMENT_ROOT'] . '/data/tests/' . $quiz . '.json';
+        $quiz_content = json_decode(file_get_contents($quiz_path), true);
     ?>
-    <form id="quizForm" class="col-12 col-md-8">
-        <?php foreach ($quiz_content as $idx => $pregunta): ?>
-            <div class="card mb-4">
-                <div class="card-header">
-                    <strong>Pregunta <?php echo $idx + 1; ?>:</strong> <?php echo htmlspecialchars($pregunta['enunciado'], ENT_QUOTES, 'UTF-8'); ?>
-                    <?php if (!empty($pregunta['imagen'])): ?>
-                        <div class="mt-2 text-center">
-                            <img src="/data/tests/images/<?php echo htmlspecialchars($pregunta['imagen'], ENT_QUOTES, 'UTF-8'); ?>" alt="Imagen pregunta <?php echo $idx + 1; ?>" class="img-fluid rounded shadow quiz-img-thumb" style="max-width:400px;cursor:pointer;" onclick="mostrarLightbox(this.src)">
-                        </div>
-                    <?php endif; ?>
+        <form id="quizForm" class="col-12 col-md-8">
+            <?php if (!empty($quiz_content[0]['pre'])) {
+                $pre = $quiz_content[0]['pre'];
+                unset($quiz_content[0]);
+                if (isset($pre[0]['file'])) {
+                    echo '<div class="mb-4 d-flex justify-content-center"><audio controls><source src="/data/tests/audio/' . htmlspecialchars($pre[0]['file'], ENT_QUOTES, 'UTF-8') . '" type="audio/mpeg">Tu navegador no soporta el elemento de audio.</audio></div>';
+                } elseif (isset($pre[0]['text'])) {
+                    echo $pre[0]['text'];
+                }
+            }
+            ?>
+            <?php foreach ($quiz_content as $idx => $pregunta): ?>
+                <div class="card mb-4">
+                    <div class="card-header">
+                        <strong>Pregunta <?php echo $idx + 1; ?>:</strong> <?php echo htmlspecialchars($pregunta['enunciado'], ENT_QUOTES, 'UTF-8'); ?>
+                        <?php if (!empty($pregunta['imagen'])): ?>
+                            <div class="mt-2 text-center">
+                                <img src="/data/tests/images/<?php echo htmlspecialchars($pregunta['imagen'], ENT_QUOTES, 'UTF-8'); ?>" alt="Imagen pregunta <?php echo $idx + 1; ?>" class="img-fluid rounded shadow quiz-img-thumb" style="max-width:400px;cursor:pointer;" onclick="mostrarLightbox(this.src)">
+                            </div>
+                        <?php endif; ?>
+                    </div>
+                    <div class="card-body">
+                        <?php foreach ($pregunta['respuestas'] as $rid => $respuesta): ?>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="pregunta_<?php echo $idx; ?>" id="pregunta_<?php echo $idx; ?>_opcion_<?php echo $rid; ?>" value="<?php echo $rid; ?>">
+                                <label class="form-check-label" for="pregunta_<?php echo $idx; ?>_opcion_<?php echo $rid; ?>">
+                                    <?php echo htmlspecialchars($respuesta['opcion'] . ' ' . $respuesta['texto'], ENT_QUOTES, 'UTF-8'); ?>
+                                </label>
+                            </div>
+                        <?php endforeach; ?>
+                        <button type="button" class="btn btn-primary mt-3" onclick="evaluarPregunta(<?php echo $idx; ?>)">Respuesta</button>
+                        <div id="feedback_<?php echo $idx; ?>" class="mt-2"></div>
+                        <div id="correct_<?php echo $idx; ?>" class="mt-1"></div>
+                    </div>
                 </div>
-                <div class="card-body">
-                    <?php foreach ($pregunta['respuestas'] as $rid => $respuesta): ?>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="pregunta_<?php echo $idx; ?>" id="pregunta_<?php echo $idx; ?>_opcion_<?php echo $rid; ?>" value="<?php echo $rid; ?>">
-                            <label class="form-check-label" for="pregunta_<?php echo $idx; ?>_opcion_<?php echo $rid; ?>">
-                                <?php echo htmlspecialchars($respuesta['opcion'] . ' ' . $respuesta['texto'], ENT_QUOTES, 'UTF-8'); ?>
-                            </label>
-                        </div>
-                    <?php endforeach; ?>
-                    <button type="button" class="btn btn-primary mt-3" onclick="evaluarPregunta(<?php echo $idx; ?>)">Respuesta</button>
-                    <div id="feedback_<?php echo $idx; ?>" class="mt-2"></div>
-                    <div id="correct_<?php echo $idx; ?>" class="mt-1"></div>
-                </div>
-            </div>
-        <?php endforeach; ?>
-    <button type="button" class="btn btn-success mb-4" onclick="evaluarTodo()">Resolver</button>
-    <div id="feedback_total" class="mt-3"></div>
-    <div id="correct_total" class="mt-3"></div>
-    </form>
+            <?php endforeach; ?>
+            <button type="button" class="btn btn-success mb-4" onclick="evaluarTodo()">Resolver</button>
+            <div id="feedback_total" class="mt-3"></div>
+            <div id="correct_total" class="mt-3"></div>
+        </form>
     <?php  } ?>
 </div>
 
@@ -69,7 +70,7 @@
     <img id="quizLightboxImg" src="" alt="Imagen ampliada" style="max-width:90vw;max-height:90vh;box-shadow:0 0 30px #000;border-radius:10px;">
 </div>
 
-    <script>
+<script>
     function mostrarLightbox(src) {
         var lb = document.getElementById('quizLightbox');
         var img = document.getElementById('quizLightboxImg');
@@ -78,6 +79,7 @@
         lb.style.alignItems = 'center';
         lb.style.justifyContent = 'center';
     }
+
     function cerrarLightbox() {
         var lb = document.getElementById('quizLightbox');
         var img = document.getElementById('quizLightboxImg');
@@ -86,17 +88,17 @@
     }
     // Respuestas correctas
     const respuestasCorrectas = <?php
-        $corrects = [];
-        foreach ($quiz_content as $pregunta) {
-            foreach ($pregunta['respuestas'] as $rid => $respuesta) {
-                if ($respuesta['correcta']) {
-                    $corrects[] = $rid;
-                    break;
-                }
-            }
-        }
-        echo json_encode($corrects);
-    ?>;
+                                $corrects = [];
+                                foreach ($quiz_content as $pregunta) {
+                                    foreach ($pregunta['respuestas'] as $rid => $respuesta) {
+                                        if ($respuesta['correcta']) {
+                                            $corrects[] = $rid;
+                                            break;
+                                        }
+                                    }
+                                }
+                                echo json_encode($corrects);
+                                ?>;
 
     function mostrarCorrecta(idx) {
         const radios = document.getElementsByName('pregunta_' + idx);
@@ -160,5 +162,5 @@
         let correctTotal = document.getElementById('correct_total');
         correctTotal.innerHTML = correctasHtml;
     }
-    </script>
+</script>
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/assets/templates/footer.php'; ?>

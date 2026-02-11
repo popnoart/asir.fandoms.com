@@ -2,31 +2,7 @@
     {
         "pre": [
             {
-                "text": "
-<p><strong>System Administration on Modern IT Infrastructures</strong></p>
-<p>System administration has become a fundamental component of modern information technology infrastructures. As organisations
-increasingly rely on digital services to operate efficiently, the role of system administrators has expanded significantly. Today, their
-responsibilities go far beyond maintaining individual servers, as they are required to manage complex environments that support
-critical business operations.</p>
-<p>One of the most significant transformations in system administration is the adoption of virtualisation technologies and cloud-based
-infrastructures. Virtual machines allow multiple operating systems to run on a single physical server, optimising hardware usage and
-reducing operational costs. Cloud platforms further extend this flexibility by enabling organisations to scale resources dynamically
-according to demand. This approach not only improves performance but also simplifies disaster recovery and system deployment.</p>
-<p>Security has become one of the most critical aspects of system administration. Modern IT systems are constantly exposed to cyber
-threats, including malware, ransomware, and unauthorised access attempts. System administrators must implement comprehensive
-security strategies, such as firewall configuration, intrusion detection systems, and regular software updates. Even a small
-configuration error can create vulnerabilities that may lead to serious consequences, including data loss and service disruption.</p>
-<p>Ensuring system availability is another essential responsibility. Many organisations depend on continuous access to their services,
-and even short periods of downtime can result in financial losses and reduced user trust. To prevent this, administrators design
-backup solutions, redundancy mechanisms, and failover systems. Monitoring tools play a key role in this process, allowing
-administrators to identify potential problems and respond proactively before they affect end users.</p>
-<p>In addition to technical tasks, system administration requires careful documentation and effective communication. Detailed
-documentation helps maintain consistency across systems and allows teams to respond efficiently during incidents or system
-upgrades. Furthermore, system administrators often collaborate with developers, network engineers, and security specialists, making
-clear communication and coordination essential.</p>
-<p>In conclusion, system administration has evolved into a strategic role that combines advanced technical skills, strong security
-awareness, and proactive problem-solving. As IT infrastructures continue to grow in complexity, the importance of well-managed and
-secure systems will remain a key factor in organisational success.</p>"
+                "text": "<p><strong>System Administration on Modern IT Infrastructures</strong></p><p>System administration has become a fundamental component of modern information technology infrastructures. As organisations increasingly rely on digital services to operate efficiently, the role of system administrators has expanded significantly. Today, their responsibilities go far beyond maintaining individual servers, as they are required to manage complex environments that support critical business operations.</p><p>One of the most significant transformations in system administration is the adoption of virtualisation technologies and cloud-based infrastructures. Virtual machines allow multiple operating systems to run on a single physical server, optimising hardware usage and reducing operational costs. Cloud platforms further extend this flexibility by enabling organisations to scale resources dynamically according to demand. This approach not only improves performance but also simplifies disaster recovery and system deployment.</p><p>Security has become one of the most critical aspects of system administration. Modern IT systems are constantly exposed to cyber threats, including malware, ransomware, and unauthorised access attempts. System administrators must implement comprehensive security strategies, such as firewall configuration, intrusion detection systems, and regular software updates. Even a small configuration error can create vulnerabilities that may lead to serious consequences, including data loss and service disruption.</p><p>Ensuring system availability is another essential responsibility. Many organisations depend on continuous access to their services, and even short periods of downtime can result in financial losses and reduced user trust. To prevent this, administrators design backup solutions, redundancy mechanisms, and failover systems. Monitoring tools play a key role in this process, allowing administrators to identify potential problems and respond proactively before they affect end users.</p><p>In addition to technical tasks, system administration requires careful documentation and effective communication. Detailed documentation helps maintain consistency across systems and allows teams to respond efficiently during incidents or system upgrades. Furthermore, system administrators often collaborate with developers, network engineers, and security specialists, making clear communication and coordination essential.</p><p>In conclusion, system administration has evolved into a strategic role that combines advanced technical skills, strong security awareness, and proactive problem-solving. As IT infrastructures continue to grow in complexity, the importance of well-managed and secure systems will remain a key factor in organisational success.</p>"
             }
         ]
     },
