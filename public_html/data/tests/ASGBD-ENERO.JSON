@@ -1,0 +1,752 @@
+[
+    {
+        "enunciado": "Marca la opción que no es una característica de un SGBD:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Redundancia de la información",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Mantenimiento de la integridad",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Control de la concurrencia",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Flexibilidad",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Marca la opción que es una ventaja de la implantación de un SGBD:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Complejidad",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Coste económico",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Tamaño del gestor",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Control centralizado",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué información no gestiona un Sistema Gestor de Bases de Datos?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "La concurrencia",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Las relaciones entre los datos",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Los permisos de acceso de los usuarios",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "El cumplimiento de la Ley de Protección de Datos",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "Dentro de las funciones de los SGBD, la definición de las estructuras de las bases de datos y tablas, se realiza mediante el lenguaje:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "DDL",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "DML",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "DQL",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "DCL",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Dentro de las funciones de los SGBD, la gestión de la información en las tablas se realiza mediante el lenguaje:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "DCL",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "DQL",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "DML",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "DDL",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué tipo de datos se pueden gestionar con el lenguaje SQL?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Valores alfanuméricos.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Todos son correctos.",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Fechas y horas.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Números enteros y decimales.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Si hablamos de las personas que tienen acceso a gestionar los accesos y permisos en una base de datos, ¿cuál de estos perfiles es uno de ellos?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Administrador",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Diseñador",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Programador",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Usuario final",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Dentro de las funciones de los SGBD, la explotación de las mismas con las consultas se realiza mediante el lenguaje:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "DCL",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "DML",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "DQL",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "DDL",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué sentencia permite denegar a un usuario la posibilidad de acceder, manipular o ejecutar objetos concretos?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "DELETE",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "DENIED",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "DROP",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "REVOKE",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "Una tabla lógica (no física) que se base en otras tablas es:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Un trigger",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Una vista.",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Una consulta.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Una transacción",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "El comando correcto para crear una vista es:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "CREATE VIEW nombre_vista;",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "CREATE NEW VIEW nombre_vista AS consulta;",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "CREATE VIEW nombre_vista AS consulta;",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Ninguna de las opciones es correcta.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Una vista puede ser eliminada del esquema de la base de datos mediante la siguiente orden:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "DELETE FROM DATABASE nombre_vista;",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "DROP view_name;",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "DROP VIEW nombre_vista;",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "DELETE VIEW FROM nombre_vista;",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿El permiso CREATE USER es del tipo…?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Administración.",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Estructura.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Datos.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Gestión.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Dado un usuario de la Base de Datos, ¿se le pueden asignar distintos permisos sobre una tabla?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Ninguna es correcta.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "No, no se puede.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Sí, pero sólo es posible lanzando una sentencia GRANT para cada uno de los permisos.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Sí, indicando los diferentes permisos separados por comas en la cláusula GRANT",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Con qué instrucción podemos añadir los permisos a los usuarios?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "ALLOW",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "GRANT",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "ACCESS",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "REVOKE",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Marca la opción que no es una restricción cuando trabajamos con vistas:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Cualquier tabla o vista referenciada por la definición debe existir.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "La sentencia SELECT no puede hacer referencia a variables del sistema o del usuario.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "La sentencia SELECT no puede contener una subconsulta en su cláusula FROM.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Podemos asociar una vista a un disparador.",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "Marca cual no es un tipo de permiso que se pueda conceder a un usuario con el comando GRANT:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Global",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Base de datos",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Parcial",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Tabla",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "La sentencia correcta para ver la estructura de una vista es:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Ninguna opción es correcta.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "SHOW DESC nombre_vista;",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "SHOW nombre_vista;",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "DESC nombre_vista;",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "El comando correcto para ver un procedimiento almacenado en una base de datos es:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "SHOW PROCEDURE nombre_procedimiento;",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "SHOW CREATE PROCEDURE nombre_procedimiento;",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "SHOW nombre_procedimiento;",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Ninguna de las demás opciones es correcta",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Al declarar una variable en un subprograma en PL/SQL:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Sólo es necesario indicar el nombre de la variable.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Siempre debemos especificar el nombre de la variable, el tipo de dato y el valor por defecto.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Debemos indicar como mínimo el nombre de la variable y el tipo de dato.",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "No es necesario declarar nada, se pueden autodeclarar.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "La estructura de control repetitivo WHILE:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Siempre entra en el bucle, independientemente de si se cumple o no la condición al iniciar.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Sólo entra en el bucle, si se cumple la condición al iniciar.",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Entra en el bucle si anteponemos un IF.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Ninguna es correcta.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "La sintaxis correcta de un procedimiento que deseamos que nos calcule el cuadrado de un número que le vamos a pasar y nos devuelva el cuadrado de dicho número es:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "CREATE PROCEDURE PROG (IN V_NUMERO INT(3)) BEGIN DECLARE V_CUADRADO CHAR(5) SET V_CUADRADO:=V_NUMERO*V_NUMERO; END;",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "CREATE PROCEDURE PROG (IN V_NUMERO INT(3), OUT V_CUADRADO INT(5)) BEGIN SET V_CUADRADO:=V_NUMERO*V_NUMERO; END;",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "CREATE PROCEDURE PROG (IN V_NUMERO INT(3), IN V_CUADRADO INT(5)) BEGIN SET V_CUADRADO:=V_NUMERO*V_NUMERO; END;",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "CREATE PROCEDURE PROG (IN V_NUMERO INT(3)) BEGIN SELECT V_NUMERO*V_NUMERO; END;",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Con qué orden podemos invocar a un procedimiento definido por nosotros para ejecutarlo?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "CREATE",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "INVOKE",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "CALL",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "EXECUTE",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué sentencia repetitiva podemos utilizar en SQL?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "FOREACH",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "UNTIL",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "LOOP",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "FOR",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Cambiar el delimitador de los subprogramas por un $$ o //, permite poder utilizar el delimitador ; del final, sin que sea interpretado al grabar dicho subprograma:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Verdadero",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Falso",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Todas las demás opciones son correctas",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "No siempre se pueden utilizar dichos delimitadores",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Sabiendo que la función MOD devuelve el resto de dividir un número entre otro, selecciona cual sería la opción correcta para mostrar los números pares que hay entre el 1 y el 100 (ambos incluidos):",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "DECLARE v_numero INT DEFAULT 1; WHILE v_numero<=100 DO IF (v_numero mod 2) = 1 THEN SELECT 'par', v_numero; END IF; v_numero=v_numero+1; END WHILE;",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "DECLARE v_numero INT DEFAULT 1; WHILE v_numero<=100 DO IF (v_numero mod 2) = 0 THEN SELECT 'par', v_numero; END IF; v_numero=v_numero+1; END WHILE;",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "DECLARE v_numero INT DEFAULT 1; WHILE v_numero<100 DO IF (v_numero mod 2) = 0 THEN SELECT 'par', v_numero; END IF; v_numero=v_numero+1; END WHILE;",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "DECLARE v_numero INT DEFAULT 1; WHILE v_numero<100 DO IF (v_numero mod 2) = 1 THEN SELECT 'par', v_numero; END IF; v_numero=v_numero+1; END WHILE;",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "En un procedimiento:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Cómo mínimo hay que definir un parámetro de entrada y uno de salida.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Como mínimo hay que tener un parámetro de entrada.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "No es obligatorio definir parámetros.",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Como mínimo hay que tener un parámetro de salida.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál de los siguientes comentarios no se puede utilizar en los programas de MariaDB?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "/* COMENTARIO */",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "<! COMENTARIO -!>",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "-- COMENTARIO",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "// COMENTARIO",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "La estructura de control repetitivo REPEAT:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Sólo entra si anteponemos un IF",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Sólo entra en el bucle, si se cumple la condición al iniciar.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Siempre entra en el bucle, independientemente de si se cumple o no la condición al iniciar.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Entra en el bucle al menos una vez y ya comprueba si se cumple la condición o no.",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "En un procedimiento almacenado, ¿cómo se define el parámetro de entrada v_param con el tipo VARCHAR(50)?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "INPUT @v_param varchar(50)",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "IN v_param varchar(50)",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "v_param varchar(50) INPUT",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "IN @v_param varchar(50)",
+                "correcta": false
+            }
+        ]
+    }
+]

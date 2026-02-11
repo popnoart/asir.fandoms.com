@@ -1,0 +1,302 @@
+[
+    {
+        "enunciado": "El desarrollo sostenible se define como...",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "producción y consumo responsable, sin perjudicar a las generaciones futuras",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "utilización optima de los recursos. producir con los mínimos recursos posibles",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "los 5 grandes campos en los que las empresas se tienen que centrar a la hora de aplicar medidas",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "al aumento del bienestar de los ciudadanos, sin poner en peligro el bienestar de las generaciones futuras",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuántas P existen dentro del desarrollo sostenible?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "4",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "5",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "3",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "2",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Pasar de una economía lineal a una economía circular es una medida",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "De Gobernanza",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Social",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Ambiental",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Burocrática",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "La sostenibilidad se define como",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "los 5 grandes campos en los que las empresas se tienen que centrar a la hora de aplicar medidas, y así conseguir el desarrollo sostenible.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "al aumento del bienestar de los ciudadanos, sin poner en peligro el bienestar de las generaciones futuras",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "utilización optima de los recursos. producir con los mínimos recursos posibles.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "producción y consumo responsable, sin perjudicar a las generaciones futuras",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Si decimos comprar, usar y tirar nos referimos a:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "economía lineal",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "economía para el medioambiente",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "economía circular",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "economía cuadrada",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Si decimos comprar, usar y reciclar, nos referimos a",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "economía sostenible",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "economía lineal",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "economía circular",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "economía verde",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Un ejemplo de obsolescencia programada es",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Un bolígrafo",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Un lápiz",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "IPhone",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Un cuadro",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Señala cuál no es un principio de la economía verde",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Reducir el CO2",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Usar vehículos compartidos",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Aumento de las energías renovables",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "generar empleos verdes",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Las fases del ciclo de vida del producto son:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Ascenso, madurez, estancamiento y declive",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Introducción, crecimiento, estancamiento y deterioro",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Introducción, crecimiento, estancamiento y bajada",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Introducción, crecimiento, madurez y declive",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Dónde se tiran los brick de leche?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Contenedor amarillo",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Contenedor verde",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Contenedor rojo",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "contenedor azul",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Dónde se tiran los plásticos?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Contenedor amarillo",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Contenedor verde",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Contenedor Naranja",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Contenedor Azul",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "La ley de residuos en España es:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Ley 7/1990",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Ley 7/2024",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Ley 7/2025",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Ley 7/2022",
+                "correcta": true
+            }
+        ]
+    }
+]

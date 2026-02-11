@@ -1,0 +1,627 @@
+[
+    {
+        "enunciado": "¿Qué es JavaScript?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Un framework",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Una librería",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Un lenguaje compilado",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Un lenguaje de marcas",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cómo se crea una variable en JavaScript?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "$nombrevariable",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "def variable1",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "let nombre;",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "int numero1;",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Con qué extensión se guarda el archivo .js?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": ".html",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": ".js",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": ".java",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": ".php",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Con qué etiqueta se utiliza para agregar un archivo js en un documento html?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "<script src=\"\"></script>",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "<link rel=\"javascript\" src=\"\">",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "<link src=\"\">",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "<php src=\"\"></php>",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Si en un documento html tenemos código js, ¿cómo se guarda?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "js",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "php",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "html",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "java",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Con el método setAtribute, ¿Qué tipos de atributos se pueden modificar?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Ninguna opción es correcta",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Todos los atributos html",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Todos los atributos css",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Todas las propiedades javascript",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Dado el siguiente código, ¿qué falta? function casillas(){ if(document.miformulario.__________.checked==true) {alert(\"La edad seleccionada es: \" + document.miformulario.edad[0].value)} else{ if(document.miformulario.edad[1].checked==true) { alert(\"La edad seleccionada es: \" + document.miformulario.edad[1].value) } else { if(document.miformulario.edad[2].checked==true) { alert(\"La edad seleccionada es:\" + document.miformulario.edad[2].value) } else { alert(\"La edad seleccionada es:\" + document.miformulario.edad[3].value ) } }}}",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Íntegro",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "edad[0]",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "edad[1]",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "edad(0)",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Para declarar una variable de ámbito local, y no consumir excesivos recursos del sistema, podemos utilizar:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "def",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "let",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "declare",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "var",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "JavaScript realiza con los tipos de datos en las variables, lo que se denomina:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Ninguna es correcta",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Conversión implícita",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Conversión explícita",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "No realiza ninguna conversión",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "En el siguiente bloque de código, ¿qué valor tiene i, cuando se sale del bucle? for(i=0;i<array.length;i++) { if(parseInt(array[i])>mayor)) mayor=array[i];} }",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "i tiene que ser igual que la longitud del array",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "i alcanza el valor de array.length",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "i tiene que ser menor que la longitud del array",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Ninguna es correcta",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "En JavaScript si queremos almacenar un único carácter, podemos utilizar el tipo de dato:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "chart",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "charat",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "String",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "char",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué representa un nodo en JavaScript y DOM?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Una operación matemática",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Una entidad en la estructura jerárquica de un documento HTML",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Ninguna de las opciones es correcta",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Una operación matemática. invocamos TOGGLECLASS(X), entonces a ese elemento se le añadirá la clase",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Un evento es:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Una instrucción if",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Un tipo de bucle",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Una función",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Una acción sobre un elemento de nuestro sitio web",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "Cuando se declara una variable en JavaScript, es necesario:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Declarar el ámbito de la variable",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Especificar el tipo de dato y el ámbito",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "No es necesario especificar el tipo de datos",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Especificar el tipo de datos",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué puede pasar en un bucle for?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Por defecto, son bucles infinitos",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Por lo menos se ejecuta una vez",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Nunca se entra en un bucle for",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Siempre se ejecuta varias veces",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "Si queremos hacer referencia al evento de carga de un documento html, ¿Qué evento se añade dentro de addEventListener?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "load",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "DOMContentLoaded",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Click",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Loaded",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué propiedad se utiliza para acceder al contenido de un nodo de texto en JavaScript?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "inerText",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "inertext",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "innerText",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "innerTex",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "En un bucle for, ¿Se puede interrumpir aunque la condición se siga cumpliendo, con qué claúsula?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "end",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "interrupted",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "continue",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "break",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué ocurre en este bucle? numero=0; while (numero==0) { window.alert(\"Dentro del bucle\"); }",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "El bucle se ejecuta un determinado número de veces",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Se entra una vez al bucle",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Nunca se sale del bucle",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Nunca se entra al bucle",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Para qué se utiliza un Array?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Un tipo bucle",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Una colección de datos",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Una constante",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Un tipo de variable",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué falta en este código? if(resto==0) { document.write(\"El número es cero\"); } _______ (resto>0) { document.write(\"El número tecleado es mayor que cero\"); }",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "else if",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "elseif",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Ninguna es correcta",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "elif",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué ocurre en este bucle? int numero=0; while (numero==0) { System.out.println(\"Dentro del bucle\"); }",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Entra una vez y el flujo sale del bucle while",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Nunca entra el código en el bucle while",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Nunca saldremos del bucle while",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Se ejecuta un determinado número de veces",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué valor tiene i, cuando el flujo de código sale del bucle? int i = 1; while (i <= 3) { System.out.println(\"Iteración del while: \" + i); for (int j = 1; j <= 5; j++) { System.out.println(\"   Iteración del for: \" + j); } i++; }",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "2",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "4",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "6",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "3",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué falta en el siguiente código? let titulo1 = document.createElement(\"h3\"); let direccion1 = document.createElement(\"p\"); let sinopsis1 = document.createElement(\"p\"); body.____________(titulo1);",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "createElement()",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "appendChild()",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "parse",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "append()",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "El objetivo es agregar un elemento dentro de otro, ¿Qué falta en esta sintaxis? const contenedor = document.createElement(\"div\"); contenedor.className = \"contenedor\"; document.body.appendChild(contenedor); const titulo = document.createElement(\"div\"); titulo.className = \"titulo\"; titulo.textContent = \"Opciones del menú del día\"; ___________.appendChild(titulo);",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "body",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "p",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "contenedor",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "div",
+                "correcta": false
+            }
+        ]
+    }
+]

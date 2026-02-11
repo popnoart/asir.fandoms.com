@@ -1,0 +1,502 @@
+[
+    {
+        "enunciado": "Efitech es una empresa tecnológica que suele presumir de su cultura preventiva o de la seguridad, cuando lo hace, está haciendo referencia a:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "el contrato que debe existir entre un trabajador concreto y la empresa de la que formará parte, en el que debe haber medidas de higiene y prevención laboral.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "el compromiso que deben adquirir los trabajadores con la empresa respecto a las políticas de seguridad y salud en el trabajo.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "el compromiso que debe existir tanto en las empresas como en las políticas europeas para garantizar la seguridad laboral en las mismas.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "el compromiso que debe existir tanto en la sociedad en general como en las empresas en particular para garantizar la salud y la seguridad de los trabajadores.",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "Paola está pasando un mal momento en el trabajo, le describe a Billy los síntomas que le preocupan y Billy determina acertadamente, que, se trata de acoso laboral o:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Boreout",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Estrés laboral",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Mobbing",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Burnout",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "En este momento en la oficina: - Muriel entra en al oficina cargando demasiado peso y al perder el equilibrio deja caer el peso sobre el pie lesionándoselo. - Mientras tanto, Rodolfo envía los papeles de la baja debido a la lumbalgia crónica que sufre precisamente por haber trabajado en la carga y descarga de los almacenes de la oficina. -Eric camina distraído mirando a Muriel y no se percata de que hay un objeto en el suelo contra el que tropieza y casi deja caer el café que lleva en la mano. Determina la opción verdadera.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Eric ha sufrido un incidente laboral",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Rodolfo ha sufrido un incidente laboral",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Eric tiene una enfermedad laboral",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Muriel acaba de sufrir un incidente laboral",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Si Bruno va de su casa al trabajo de modo directo pero hace una parada previa para tomar café en la misma calle de la oficina, y al salir de ella, aún con tiempo para caminar hasta su oficina, se hace daño en un pie al pisar mal el escalón del bar, ¿ se considera un accidente in itinere?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "sólo si Bruno tomó café de manera habitual siempre en ese bar.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "sólo si Bruno lo reporta",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Sí",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "no",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Gema fue testigo de un accidente en el trabajo, y siguió los siguientes pasos: - Protección a sí misma y a la víctima. - Llamó al emergencias. - Procedió a socorrer a la víctima. Dentro del paso socorrer a la víctima debió guardar el siguiente orden comprobando:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "primero pulso, segundo consciencia ,tercero respiración",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "primero consciencia, segundo respiración, tercero pulso",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "primero consciencia, segundo pulso, tercero respiración.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "primero respiración, segundo pulso, tercero consciencia",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "En un accidente con múltiples heridos, Johana tiene que proceder al triaje, no pudiendo olvidar que a los heridos con fracturas de huesos largos y cortos tendrá que colocarles una tarjeta de color.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "rojo",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "verde",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "ámbar",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "violeta",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Anaís está a punto de usar un DEA por primera vez, ordena los pasos a seguir de modo correcto: 1- colocar los electrodos en el pecho de la víctima 2- comprobar que nadie está tocando a la víctima antes de la descarga 3- desvestir a la víctima en la zona en que se pondrán los electrodos 4- continuar con la RCP hasta que llegue la ayuda necesaria una vez acabada la función del DEA 5- comprobar el análisis que hace el propio DEA sobre la necesidad o no de aplicación de la descarga.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "3,1,5,2,4",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "2,5,4,1,3",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "5,1,3,2,4",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "1,2,5,4,3",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Julaida está comiendo naranja mientras ve vídeos en el móvil, a la hora de su descanso laboral, durante uno de estos vídeos se ríe a carcajadas y sin darse cuenta se atraganta con la naranja, empezando a toser de forma violenta. Hugo, que la ve la situación, tendrá que actuar con rapidez, y lo primero que tendrá que hacer será:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "realizar la maniobra de Heimlich",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "dar cinco golpes en la espalda",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "dejar que tosa para ver si puede expulsar por sí misma la naranja.",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "realizar la RCP",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Guillermo sufre un atragantamiento severo y pierde la consciencia, Anna deberá seguir el siguiente orden de actuación.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "1 colocarle en el suelo, 2 llamar al 112, iniciar la RCP",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "1 realizar la maniobra de Heimlich, 2 tumbarle en el suelo y 3 llamar al 112",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "1 revisar la boca, 2 dar cinco golpes en la espalda y 3 realizar la maniobra de Heimlich",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "1 llamar al 112, 2 iniciar la RCP y 3 tumbarle en el suelo",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Herminia sufre quemaduras, sabiendo que los síntomas son: enrojecimiento, dolor, hinchazón y ampollas, ¿ de qué grado de quemaduras se trata?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "primer",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "segundo",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "cuarto",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "tercer",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Patricio quiere explicar a Esteban la regla que se utiliza como herramienta para estimar el área de superficie corporal en adultos asignando porcentajes del área total del cuerpo a diferentes partes de la anatomía, las cuales representan un ........ % de la superficie corporal total o múltiplos del número.......",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "25",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "9",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "5",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "3",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Rita y Ruperto discuten sobre los factores incluidos en el concepto de salud en la empresa. Rita sostiene que incluiría solamente factores físicos y psicológicos, mientras que Ruperto determina que sólo los factores físicos junto con los factores relacionados con las relaciones sociales. ¿ Quién de los dos tiene razón?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "ninguno tiene razón",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "sólo Rita tiene razón",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "sólo Ruperto tiene razón",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Ambos tienen razón",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Apolonio acaba de hacerse un corte mientras trabajaba, se da cuenta de que la sangre que fluye por su brazo es rojo brillante con salida intermitente, por lo que deduce acertadamente que se trata de una herida en:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "arteria",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "daño craneoencefálico",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "venas",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "capilar superficial",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Ferdinand está realizando un trabajo académico sobre la salud y el medioambiente, para hacerlo del modo más exacto y correcto posible ¿ qué factores deberá incluir?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "todas las respuestas son correctas",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "calidad del agua",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "calidad del aire",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "contaminación del suelo",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "En la seguridad de la empresa; señala cuál de los siguientes factores no pertenece a los factores técnicos o condiciones inseguras, siendo defectos en:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "procesos o procedimientos",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "maquinaria",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "descuido",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "condiciones ambientales",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Guillermo ha investigado sobre los accidentes que se producen en la empresa y ha encontrado un dato curioso: determina que según la OIT, los accidentes tienen un ______% de componente correspondiente a fallos técnicos o tecnológicos.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "20",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "15",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "85",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "75",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Beatriz reclama en su empresa mejores condiciones de temperatura, humedad, luminosidad... factores ambientales que está segura de que pueden influir en el desempeño de las funciones habituales de los trabajadores en la empresa de la que forma parte. En su escrito, también hará referencia al adecuado tamaño del mobiliario respecto a la protección del cuerpo de las personas trabajadoras. Todo ello podría simplificarlo dentro de una sola palabra bastante específica, que sería:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Psicosociología",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Seguridad en el trabajo",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Ergonomía",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Higiene laboral",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "La empresa Ducasur está redactando el plan de prevención de riesgos laborales, y sabe perfectamente que en su contenido, no tiene por qué incluir:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "la organización de la prevención en cuanto a la modalidad preventiva elegida para la empresa y los órganos de representación que existan.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "los datos que identifican a la empresa así como su actividad laboral",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "la infraestructura articulada del proceso socio normativo de la empresa.",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "la estructura organizativa de la empresas identificando al comunicación entre ellos y la jerarquía de cara a los riesgos laborales.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Farah es delegada de prevención en una empresa informática, selecciona la opción que no forma parte de sus competencias según el Ministerio de Trabajo y Economía Social de España:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "realizar visitas a los lugares de trabajo para ejercer una labor de vigilancia y control de estado de las condiciones de trabajo.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Proponer al órgano de representación de los empresarios la adopción del acuerdo de paralización de actividades productivas ante situaciones de riesgo grave o inminente.",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "acompañar a los técnicos en las evaluaciones de carácter preventivo y a los inspectores de Trabajo y Seguridad Social en las visitas y verificaciones que realicen en los centros de trabajo",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Tener acceso a la documentación y a la información relativa a las condiciones de trabajo que sean necesarias para el ejercicio de sus funciones.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Dunia forma parte del comité de Seguridad y Salud, determina la opción que no es correcta sobre el mismo:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Lo forman los delegados de personal y el empresarios o sus representantes en igual número que los delegados de prevención",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Lo forman los delegados de personal y el empresario o sus representantes en número impar de miembros para que en las votaciones se asegure siempre un acuerdo.",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "puede existir un Comité intercentros para las empresas con varios centros de trabajo.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Es un órgano colegiado y paritario.",
+                "correcta": false
+            }
+        ]
+    }
+]

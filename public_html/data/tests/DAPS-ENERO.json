@@ -1,0 +1,377 @@
+[
+    {
+        "enunciado": "La digitalización es",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Cambiar la forma de producir dentro de las empresas, siempre añadiendo la inteligencia artificial",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Pasar las cosas que antes se hacían a papel o de forma manual a formato digital. cambia el formato, de papel a lo digital.",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Crear robots",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Transformar las empresas",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Di cuál de las siguientes opciones hace referencia a la digitalización:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Que haya un sistema que mande mensajes automáticos para recordar que los clientes tienen que pagar. Este mismo ejemplo, si nos referimos al formato, de las cartas a los mensajes automáticos, sería digitalización.",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Usar la realidad virtual para imaginar cómo queda una habitación de tu casa",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Las nóminas de los trabajadores no se realizan a mano sino digitalmente a través de app",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Usar la realidad aumentada para enseñar cómo montar a los alumnos de fp un coche",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Cuando hablamos de digitalización en negocio",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Cuando hablamos de digitalización en negocio, nos referimos a las tecnologías que se usan en la oficina, administración o áreas comerciales de la empresa para automatizar, controlar y mejorar los procesos de información, ventas y gestión.",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Cuando hablamos de digitalización en negocio, nos referimos a las tecnologías que se usan en casa para automatizar, controlar y mejorar los procesos de información, ventas y gestión.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Cuando hablamos de digitalización en negocio, nos referimos a las tecnologías que se usan en el área de las TIC la empresa para automatizar, controlar y mejorar los procesos de información, ventas y gestión.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Cuando hablamos de digitalización en negocio, nos referimos a las tecnologías que se usan en la parte de producción de una empresa para automatizar, controlar y mejorar los procesos de información, ventas y gestión.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "IT significa",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Tecnologías e Investigación",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Tecnologías Operativas",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Tecnologías e Industria",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Tecnologías de la Información",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "Señala cuál de las siguientes opciones forma parte del entorno OT",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Sistemas SCADA",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Drive",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Correo electrónico",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Videoconferencias",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "La cuarta revolución industrial comienza en el año",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "2011",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "2012",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "2010",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "2009",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "La tercera revolución industrial se conoce como:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "La era de la robótica",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "industria 4.0",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "industria 3.0",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "La era de la innovación",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "La cuarta revolución industrial se conoce como:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "industria 4.0",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "industria 2.0",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "industria 3.0",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "industria 2.0",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Señala cuál de estas no forma parte de las THD",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Robótica avanzada",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Sistemas ciberfísicos",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Inteligencia Artificial",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "TIC",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "Señala cuál de las siguientes opciones no tiene nada que ver con la realidad aumentada:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "combinan el mundo físico y lo digital",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Se antepone un elemento ficticio en un entorno real",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Se necesita un dispositivo",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Se necesitan gafas de realidad virtual",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "La nube se puede definir como",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Un lugar en internet en el cual puedes guardar información y utilizar programas/aplicaciones, en algunos casos como Google, sin necesidad de tenerlos en tu ordenador.",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Un lugar en internet en el cual puedes guardar información y utilizar programas/aplicaciones, en algunos casos como Google, sin necesidad de tenerlos en tu ordenador. Para su acceso no necesitas internet",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Un lugar en internet llamado drive, en el que solo se puede almacenar documentos y compartirlos",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Un lugar en internet en el cual puedes guardar información y utilizar programas/aplicaciones, en algunos casos como Google, sin necesidad de tenerlos en tu ordenador. Para su acceso no se necesita una cuenta de acceso",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Señala cuál de las siguientes NO es una ventaja de la nube",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Acceso desde cualquier lugar y dispositivo con internet",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Copias de seguridad no se hacen de forma automática, por tanto, se pierde la información",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Ahorro de espacio en tu dispositivo local.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Colaboración fácil en documentos y proyectos a la hora de trabajar en grupos.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Señala cuál de los siguientes no forma parte de las aplicaciones y programas de la nube de google",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Genially",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Google docs",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Drive",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Google keep",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Señala la correcta: El fog computing ...",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "El procesamiento de los datos se realiza en un dispositivo muy pequeño como puede ser un sensor o microcontroladores.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "El procesamiento de los datos se lleva a cabo en un dispositivo más grande como puede ser un router.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Fog computing es una capa intermedia entre los dispositivos (varios) que generan datos (como sensores, cámaras, etc.) y la nube. Ayuda a procesar los datos más cerca del lugar donde se generan",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "aquí el procesamiento de datos importantes se hace directamente en el dispositivo",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Los 3 niveles de la nube son:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Iaas, PaaS, SaaS",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Iaas, Paas, VaaS",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Taas, Pass, Zaas",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Iaas, Pass, ZaaD",
+                "correcta": false
+            }
+        ]
+    }
+]

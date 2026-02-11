@@ -117,11 +117,17 @@
                 "end": "",
                 "name": "Cuestionario - Acceso a la información (DCL y vistas)"
             },
-            "16883": {
+            "ASGBD-DICIEMBRE": {
                 "type": "Cuestionario",
                 "start": "",
                 "end": "",
                 "name": "AUTOEVALUACIÓN DICIEMBRE"
+            },
+            "ASGBD-ENERO": {
+                "type": "Cuestionario",
+                "start": "",
+                "end": "",
+                "name": "EXAMEN ENERO"
             }
         },
         "notes": {
@@ -196,11 +202,17 @@
                 "end": "",
                 "name": "Repaso test 1ª autoevaluación"
             },
-            "38273": {
+            "ASO-DICIEMBRE": {
                 "type": "Cuestionario",
                 "start": "",
                 "end": "",
                 "name": "AUTOEVALUACIÓN DICIEMBRE"
+            },
+            "ASO-ENERO": {
+                "type": "Cuestionario",
+                "start": "",
+                "end": "",
+                "name": "EXAMEN ENERO"
             }
         },
         "notes": {
@@ -273,12 +285,19 @@
             }
         },
         "tests": {
-            "38024": {
+            "CB-DICIEMBRE": {
                 "type": "Cuestionario",
                 "start": "",
                 "end": "",
                 "name": "AUTOEVALUACIÓN DICIEMBRE"
-            }},
+            },
+            "CB-ENERO": {
+                "type": "Cuestionario",
+                "start": "",
+                "end": "",
+                "name": "EXAMEN ENERO"
+            }
+        },
         "notes": {
             "CB-doc": {
                 "name": "Apuntes CB (doc)",
@@ -388,11 +407,17 @@
                 "end": "",
                 "name": "CUESTIONARIO TEMA 1. DIGITALIZACIÓN. ENTORNOS IT Y OT"
             },
-            "38368": {
+            "DAPS-DICIEMBRE": {
                 "type": "Cuestionario",
                 "start": "",
                 "end": "",
                 "name": "AUTOEVALUACIÓN DICIEMBRE"
+            },
+            "DAPS-ENERO": {
+                "type": "Cuestionario",
+                "start": "",
+                "end": "",
+                "name": "EXAMEN ENERO"
             }
         },
         "notes": {
@@ -569,12 +594,19 @@
             }
         },
         "tests": {
-            "37880": {
+            "IAW-DICIEMBRE": {
                 "type": "Cuestionario",
                 "start": "",
                 "end": "",
                 "name": "AUTOEVALUACIÓN DICIEMBRE"
-            }},
+            },
+            "IAW-ENERO": {
+                "type": "Cuestionario",
+                "start": "",
+                "end": "",
+                "name": "EXAMEN ENERO"
+            }
+        },
         "notes": {
             "IAW-doc": {
                 "name": "Apuntes IAW (doc)",
@@ -641,11 +673,17 @@
                 "end": "",
                 "name": "CUESTIONARIO 1. BÚSQUEDA ACTIVA DE EMPLEO"
             },
-            "38350": {
+            "IPE-DICIEMBRE": {
                 "type": "Cuestionario",
                 "start": "",
                 "end": "",
                 "name": "AUTOEVALUACIÓN DICIEMBRE"
+            },
+            "IPE-ENERO": {
+                "type": "Cuestionario",
+                "start": "",
+                "end": "",
+                "name": "EXAMEN ENERO"
             }
         },
         "notes": {
@@ -773,11 +811,17 @@
                 "end": "",
                 "name": "Cuestionario - Introducción"
             },
-            "18609": {
+            "SAD-DICIEMBRE": {
                 "type": "Cuestionario",
                 "start": "",
                 "end": "",
                 "name": "AUTOEVALUACIÓN DICIEMBRE"
+            },
+            "SAD-ENERO": {
+                "type": "Cuestionario",
+                "start": "",
+                "end": "",
+                "name": "EXAMEN ENERO"
             }
         },
         "notes": {
@@ -846,11 +890,17 @@
                 "end": "",
                 "name": "CUESTIONARIO TEMA 1. LA ECONOMÍA LINEAL Y CIRCULAR"
             },
-            "38378": {
+            "SAPS-DICIEMBRE": {
                 "type": "Cuestionario",
                 "start": "",
                 "end": "",
                 "name": "AUTOEVALUACIÓN DICIEMBRE"
+            },
+            "SAPS-ENERO": {
+                "type": "Cuestionario",
+                "start": "",
+                "end": "",
+                "name": "EXAMEN ENERO"
             }
         },
         "notes": {
@@ -1052,11 +1102,17 @@
             }
         },
         "tests": {
-            "38271": {
+            "SRI-DICIEMBRE": {
                 "type": "Cuestionario",
                 "start": "",
                 "end": "",
                 "name": "AUTOEVALUACIÓN DICIEMBRE"
+            },
+            "SRI-ENERO": {
+                "type": "Cuestionario",
+                "start": "",
+                "end": "",
+                "name": "EXAMEN ENERO"
             }
         },
         "notes": {
@@ -1233,11 +1289,17 @@
                 "end": "",
                 "name": "UNIT 4. Quiz - compulsory"
             },
-            "38103": {
+            "TE-DICIEMBRE": {
                 "type": "Cuestionario",
                 "start": "",
                 "end": "",
                 "name": "AUTOEVALUACIÓN DICIEMBRE"
+            },
+            "TE-ENERO": {
+                "type": "Cuestionario",
+                "start": "",
+                "end": "",
+                "name": "EXAMEN ENERO"
             },
             "14095": {
                 "type": "Cuestionario",

@@ -1,0 +1,502 @@
+[
+    {
+        "enunciado": "¿Qué significa AAA?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Autenticación, Autorización y Auto enumeración",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Autenticación, Autorización y Distribución",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Autenticación, Autorización y Contabilización",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Autenticación para soporte seguro en redes",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál es la orden para conocer si el tráfico de un router llega debidamente encriptados por una VPN?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Show run",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Show crypto ipsec sa",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Crypto ipsec sa",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Do Show run",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Un administrador ha configurado seguridad, en el puerto fa0/5 siempre se conecta en ese puerto un ordenador debidamente autorizado por Sticky. Puntualmente, un ordenador sin permisos se conecta en ese puerto y el puerto se apaga. ¿Cómo lo solucionarías para que el ordenador debidamente autorizado, pueda volver a conectarse a ese puerto?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Shutdown y no Shutdown",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Apagar el Router y volver a encenderlo",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Quitar el cable y volver a colocarlo",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Esperar a que se reconfigure el puerto",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué hace \"IPSEC\"?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Asegura los datos en el router",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Asegura tanto los datos en el router como en el cable",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Asegura los datos que viajan por el cable de extremo a extremo de un router",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué hace \"ISAKMP\"?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Todas son ciertas",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Encripta las claves del router",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Asegura los datos que viajan de extremo a extremo por el cable",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Asegura tanto los datos en el router como en el cable",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "En la configuración de una VPN en Cisco ¿cuántas opciones tiene por defecto \"Authentication\"?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Pre-key",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Pre-share y pre-shared key",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Pre-shared key",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Pre-share",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Cuando se encripta en una VPN con el algoritmo AES en Cisco tenemos varias opciones para encriptar, ¿Cuáles son?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "128-192-256-512 bits",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "64-128-192-256 bits",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "128-192-256 bits",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "192 y 256 bits",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál es la VLAN e IP que trae por defecto el ASA 5505 en Cisco?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "VLAN 1 con la IP 192.168.1.1 ya asignada",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "VLAN 1 y tendríamos que configurar la IP",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "No trae ninguna VLAN configurada, tendría que configurarlo el administrador",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "La ley de seguridad en los cortafuegos físicos afirma lo siguiente (marca la opción correcta):",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Por defecto seguridad inferior no puede comunicarse con seguridad superior",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Por defecto seguridad inferior si puede comunicarse con seguridad superior",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Por defecto no existe limite de conexiones, se puede comunicar de forma bidireccional la seguridad 100 con la seguridad 0 y viceversa",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Webvpn y enable outside se escribe para...",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Para acceder a seguridad WEB desde seguridad 0 a seguridad 100",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Establecer VPN entre dos router 2811",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Seguridad VPN en el ASA 5505 para DMZ",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Establecer y configurar políticas de seguridad como Policy 10",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuántas VLAN puede tener un ASA 5505?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Hasta 1007",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "2",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "5",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "3",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "En VPN la instrucción \"Set transform-set\" inmediatamente después va seguido un nombre ¿A qué hace referencia dicho nombre?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Es un error no se define en ninguna parte de \"Set transform-set\"",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Nombre que se ha definido en Crypto Ipsec transform-set",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Nombre de la variable cuarta de ISAKMP",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Nombre de la política de seguridad de Isakmp",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué autentificación se debe utilizar en un router en conexiones inalámbricas si queremos configurar alta seguridad?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "WEP",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "WPA2",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "login local",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "SSH",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál es el nivel de seguridad que debe tener un DMZ?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "50",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "100",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "0",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "En configuraciones de VPN, la orden \"Match address\" va seguida de un número, ¿Qué es?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Numero de la Policy",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Número declarado en la lista de control de accesos",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Numero de la variable ISAKMP",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Numero de la política de seguridad",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuáles son los principales sistemas de monitorización de Cisco?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Wireshark",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Cain y Abel",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Syslog y Netflow",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Nmap",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿NetBIOS, qué puertos cierra o abre?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "135, 137 y 139",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "144, 143 y 139",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "137, 138 y 139",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "136, 137 y 139",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Para acceder al servidor Web CACERES desde seguridad 0 ¿Qué IP tenemos que utilizar?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "192.168.1.2",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "192.168.10.1",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "192.168.1.1",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "No se puede acceder desde seguridad 0 a la seguridad 100",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Escribe la orden u órdenes obligatorias para asignar seguridad por mac en cualquiera de las salidas de un Switch.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Ninguna es cierta, no es necesario ninguno de los código anteriores",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Únicamente Switchport mode access",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Únicamente switchport port-security",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Switchport mode access y switchport port-security",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "Un empleado hace creer a un familiar de un compañero lejano de su empresa, que es una persona de confianza para tratar de robar información muy sensible como datos bancarios, ¿Qué nombre recibe dicha técnica?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Sniffer",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Denegación de servicios",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Phishing",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Syslog",
+                "correcta": false
+            }
+        ]
+    }
+]

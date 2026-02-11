@@ -1,0 +1,756 @@
+[
+    {
+        "enunciado": "¿Recién instalado un Windows Server 2019 en modo local con las opciones predeterminadas pertenece a algún dominio?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Sí",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "No",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Depende de los parámetros de la instalación",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Instalas dos sistemas operativos Windows 10 cada uno de ellos como es lógico en su PC correspondiente. El primer Pc tiene la IP 192.168.1.2 el segundo Pc tiene la IP 192.168.1.3 ¿por defecto pueden verse en red?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Todas las respuestas son falsas",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Depende de la versión de Windows 10",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "No, es necesario configurar la red correspondiente",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Sí, pues los dos Pc están en la misma red",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "Tenemos en una empresa 50 ordenadores con el sistema operativo Windows 10, con las IP desde el rango 192.168.1.2 hasta 192.168.1.70 nos solicitan conectar 2 PC nuevos con las IP 192.168.25.7/24 y 172.172.0.44/16 ¿podemos conseguirlo con Windows",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Con Windows 10 Home NO, sin embargo, con Windows 10 PRO Si.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Sí",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "No, debemos configurar VLAN",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "Tenemos un archivo de texto creado en Windows 10 con nuestra música favorita, el archivo esta guardado en \"mis documentos\" ¿Que atributo es el que no debemos utilizar nunca para este archivo?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Attrib +H",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Attrib +A",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Attrib + R",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Attrib +S",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "Tenemos un usuario agregado al grupo \"Operadores de Cuentas\" el usuario crea una cuenta para un usuario nuevo en la empresa, una vez que el nuevo usuario inicia la sesión, ¿el Operador de cuentas puede visualizar la contraseña del nuevo usuario?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Depende de la configuración de la cuenta del usuario nuevo",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Sí",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "No",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Depende de los permisos de la cuenta del usuario que esta incluido en el grupo de operadores de cuentas",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "El usuario \"lin\" pertenece al grupo \"costura\" tiene control total sobre la carpeta \"trajes\" puede conectarse a ella perfectamente desde maquinas clientes Windows 10, el administrador incluye a \"lin\" al grupo \"modas\" con permiso de sin acceso para la carpeta \"trajes\" el usuario \"lin\" cuando trata de acceder a la carpeta \"trajes\" no tiene acceso, ¿Cuál crees que puede ser la causa?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Se ha producido un error en LDAP de Windows Server",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "lin no está en el grupo costura",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "lin no tiene permisos",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "lin no está en el grupo modas",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál de los siguientes elementos es un tipo de ámbito de grupo en Windows Server?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Global",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Regional",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Seguridad",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Super usuario",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Desde el punto de vista de seguridad, que es mas seguro ¿Qué el administrador conozca la contraseña de un usuario de un dominio, o, que solo la conozca el propio usuario?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Solo el usuario",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Usuario, Administrador y Administrador del dominio",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Solo el Administrador",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Usuario y Administrador",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "No llama un cliente informándonos que no tiene la pestaña de seguridad en sus archivos de Windows Server ¿Cuál puede ser la causa?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Existe un error de instalación en Windows Server",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "La partición no esta en NTFS",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "A la hora de instalar Windows Server en una partición NTFS no se especifico la instalación de la pestaña Seguridad",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Para agregar un máquina cliente con Windows 10 a un dominio de Windows Server, es necesario...",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "-La maquina cliente tiene que estar en la misma red que Windows Server -En Default-Gateway de Windows 10 debe escribirse la IP de Windows Server -Es necesario que en la maquina cliente en el momento de agregarse al dominio del Windows Server, escribir el nombre del dominio y la contraseña del administrador",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "-La maquina cliente tiene que estar en la misma red que Windows Server -En Default-Gateway de Windows 10 debe escribirse la IP de Windows Server -Es necesario que en la maquina cliente en el momento de agregarse al dominio del Windows Server, escribir el nombre del dominio al que quiere unirse",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "-La maquina cliente tiene que estar en la misma red que Windows Server -En Default-Gateway y en DNS preferido de Windows 10 debe escribirse la IP de Windows Server -Es necesario que en la maquina cliente en el momento de agregarse al dominio del Windows Server, escribir el nombre del dominio y la contraseña del administrador",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "Los sistemas operativos pueden dividirse según la gestión de procesos. Estos pueden ser...",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Centralizado y distribuido",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Monotarea y multitarea",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Todas son ciertas",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Monousuario, multiusuario y servidores",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿A quién pertenece ANDROID?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Microsoft",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Linux",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Apple",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Unix",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué licencia utiliza Android?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Java",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Project",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Apache",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Java Script",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál es el sistema de archivos de Ubuntu?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "FAT16",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "ext4",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "NTFS",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "FAT32",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "El padre de Linux es...",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Bell AT&T",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "R. Stallman",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Paul Allen",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Bell AT",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué orden se utiliza para visualizar los procesos desde la consola de Windows?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Tasklist",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Control + Mayúsculas",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Tlist",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cómo se visualizan los procesos desde la consola de Ubuntu?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Top",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Gedit",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Less",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Para proteger un archivo con atributos de lectura y oculto en la consola de Windows se utiliza...",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Attrib +r +a",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Attrib +r +h",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Attrib +r +s",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Attrib +s +r",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué significa en Linux y qué valor numérico tiene \"-R-- --X -W-\"?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Archivo con permiso de lectura para el dueño, ejecución para el grupo y Escritura para el resto de usuarios. valor 412",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Archivo con permiso de lectura y escritura para el dueño, ejecución para el grupo y Escritura para el resto de usuarios. valor 712",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Directorio con permiso de lectura para el dueño, ejecución para el grupo y Escritura para el resto de usuarios. valor 412",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué valor numérico le pertenece en Linux a \"-RW --X -W-\"?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "622",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "612",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "712",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "714",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Se necesita la orden Read para configurar la opción 5 que muestra la siguiente imagen en un script en Ubuntu",
+        "imagen": "ASO-ENERO_01.png",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Sí, concretamente tres variables",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Sí, concretamente una variable",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "No",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Sí, concretamente dos variables",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Es estrictamente necesario la orden Read en la lista 6 que muestra la siguiente imagen en un script en Ubuntu?",
+        "imagen": "ASO-ENERO_02.png",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Sí, concretamente tres variables",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "No",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Sí, concretamente dos variables",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Sí, concretamente una variable",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Es necesario la instrucción READ para la opción 10 del menú que muestra la imagen?",
+        "imagen": "ASO-ENERO_03.png",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Sí",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "No",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Con la información que muestra la imagen, no podemos saberlo",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cómo comienza un script en Windows?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "@echo off",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "off echo",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "echo off",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cómo se ejecuta un script en Ubuntu?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "/. nombre de archivo",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "./nombre de archivo",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": ".//nombre de archivo",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Se ha escrito correctamente un script en Ubuntu, sin embargo, cuando lo ejecutamos no se abre el script. ¿Cómo lo solucionamos?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "abrir los procesos de script con top",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Reiniciar el terminal",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Otorgar permisos con chmod al archivo del script",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál es la extensión de un script en Ubuntu?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "system",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "sh",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "ini",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Ninguna es cierta",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál es la extensión de un script en Windows?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "sh",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "ini",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "system",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "bat",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cómo comienza un script en Ubuntu?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "!#/bin/bash",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "#!/bin/bash",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "#/bin/bash",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Se necesita la orden Read para configurar la opción 1 que muestra la siguiente imagen en un script en Ubuntu",
+        "imagen": "ASO-ENERO_04.png",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Sí, concretamente dos variables",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "No, no se necesita",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Sí, concretamente tres variable",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Sí, concretamente una variable",
+                "correcta": false
+            }
+        ]
+    }
+]
