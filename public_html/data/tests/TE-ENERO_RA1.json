@@ -1,0 +1,259 @@
+[
+    {
+        "pre": [
+            {
+                "file": "TE-ENERO_RA1.mp3"
+            }
+        ]
+    },
+    {
+        "enunciado": "Who is Jed in the programme?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "A university student",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "The science correspondent",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "A film director",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "A famous inventor",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Why is National Science and Engineering Week mentioned?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "To interview international scientists",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "To introduce a special programme about inventions",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "To advertise new products",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "To explain scientific careers",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "What makes modern wingsuits different from older versions?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "They are more dangerous",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "They have improved in quality and design",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "They are used mainly in films",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "They are only used professionally",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "What does the presenter say about the price of wingsuits?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "It is fixed worldwide",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "It depends on competitions",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "It is expected to continue falling",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "It will probably increase",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "What is highlighted about the solar water distiller's design?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "It is technologically complex",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "It needs constant supervision",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "It requires electricity",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "It is simple and inexpensive to produce",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "What does the interviewer suggest by asking listeners to invest in the distiller?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "The design is unfinished",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "The invention is already popular",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "The project needs financial support",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "The product is no longer useful",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Who invented the EnableTalk gloves?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Dutch designers",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "A team led by James Cameron",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "A group of Ukrainian students",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Engineers from MIT",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "What benefit of the EnableTalk gloves is emphasised?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "They reduce the cost of smartphones",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "They help people with hearing or speech impairments communicate",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "They replace human interpreters completely",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "They teach people new languages",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "What is one reason given for exploring the deep ocean?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "To improve submarine tourism",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Because much of it remains unknown",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "To find underwater cities",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "To compete with space missions",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "How does the presenter describe the indoor cloud invention overall?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Unnecessary and impractical",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Expensive but useful",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Dangerous for everyday use",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Creative and visually attractive",
+                "correcta": true
+            }
+        ]
+    }
+]

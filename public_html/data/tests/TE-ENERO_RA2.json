@@ -1,0 +1,283 @@
+[
+    {
+        "pre": [
+            {
+                "text": "
+<p><strong>System Administration on Modern IT Infrastructures</strong></p>
+<p>System administration has become a fundamental component of modern information technology infrastructures. As organisations
+increasingly rely on digital services to operate efficiently, the role of system administrators has expanded significantly. Today, their
+responsibilities go far beyond maintaining individual servers, as they are required to manage complex environments that support
+critical business operations.</p>
+<p>One of the most significant transformations in system administration is the adoption of virtualisation technologies and cloud-based
+infrastructures. Virtual machines allow multiple operating systems to run on a single physical server, optimising hardware usage and
+reducing operational costs. Cloud platforms further extend this flexibility by enabling organisations to scale resources dynamically
+according to demand. This approach not only improves performance but also simplifies disaster recovery and system deployment.</p>
+<p>Security has become one of the most critical aspects of system administration. Modern IT systems are constantly exposed to cyber
+threats, including malware, ransomware, and unauthorised access attempts. System administrators must implement comprehensive
+security strategies, such as firewall configuration, intrusion detection systems, and regular software updates. Even a small
+configuration error can create vulnerabilities that may lead to serious consequences, including data loss and service disruption.</p>
+<p>Ensuring system availability is another essential responsibility. Many organisations depend on continuous access to their services,
+and even short periods of downtime can result in financial losses and reduced user trust. To prevent this, administrators design
+backup solutions, redundancy mechanisms, and failover systems. Monitoring tools play a key role in this process, allowing
+administrators to identify potential problems and respond proactively before they affect end users.</p>
+<p>In addition to technical tasks, system administration requires careful documentation and effective communication. Detailed
+documentation helps maintain consistency across systems and allows teams to respond efficiently during incidents or system
+upgrades. Furthermore, system administrators often collaborate with developers, network engineers, and security specialists, making
+clear communication and coordination essential.</p>
+<p>In conclusion, system administration has evolved into a strategic role that combines advanced technical skills, strong security
+awareness, and proactive problem-solving. As IT infrastructures continue to grow in complexity, the importance of well-managed and
+secure systems will remain a key factor in organisational success.</p>"
+            }
+        ]
+    },
+    {
+        "enunciado": "What is the main role of system administration in modern organisations?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Developing new software products",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Managing individual computers only",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Reducing the number of IT staff",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Supporting critical digital operations",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "How has the role of system administrators expanded over time?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "They no longer deal with security issues",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "They manage complex and critical IT environments",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "They now focus mainly on user training",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "They only work with physical servers",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "What is one benefit of virtualisation mentioned in the text?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "It eliminates system failures",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "It optimises hardware usage",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "It increases hardware requirements",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "It replaces cloud services",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Why are cloud-based infrastructures important?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "They remove the need for monitoring",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "They allow systems to scale according to demand",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "They reduce the need for backups",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "They guarantee complete security",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "What is highlighted as a major security risk?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Outdated operating systems",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Lack of documentation",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Configuration errors",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Hardware malfunction",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "What can result from security vulnerabilities?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Improved system performance",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Faster system updates",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Reduced maintenance costs",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Data loss and service disruption",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "Why is system availability crucial for organisations?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "It improves internal communication",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "It reduces training costs",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "It simplifies system administration",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Downtime can cause financial and trust-related damage",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "What is the main purpose of monitoring tools?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "To replace administrators",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "To document system changes",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "To increase system complexity",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "To detect problems before users are affected",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "Why is documentation important in system administration?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "It prevents cyberattacks",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "It helps maintain consistency and efficient incident response",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "It reduces the need for collaboration",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "It replaces technical knowledge",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Which combination of skills is emphasised for modern system administrators?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Technical expertise, security awareness, and problem-solving",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Legal and financial knowledge",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Design and communication skills",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Programming and marketing skills",
+                "correcta": false
+            }
+        ]
+    }
+]

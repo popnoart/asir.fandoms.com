@@ -20,6 +20,15 @@
    
     $quiz_path = $_SERVER['DOCUMENT_ROOT'] . '/data/tests/' . $quiz . '.json';
     $quiz_content = json_decode(file_get_contents($quiz_path), true);
+    if(!empty($quiz_content['pre'])){
+        $pre = $quiz_content['pre'];
+        unset($quiz_content['pre']);
+        if(isset($pre[0]['file'])){
+            echo '<div class="mb-4"><audio controls><source src="/data/tests/audio/' . htmlspecialchars($pre[0]['file'], ENT_QUOTES, 'UTF-8') . '" type="audio/mpeg">Tu navegador no soporta el elemento de audio.</audio></div>';
+        }elseif(isset($pre[0]['text'])){
+            echo '<div class="mb-4"><p>' . htmlspecialchars($pre[0]['text'], ENT_QUOTES, 'UTF-8') . '</p></div>';
+        }
+    }
     ?>
     <form id="quizForm" class="col-12 col-md-8">
         <?php foreach ($quiz_content as $idx => $pregunta): ?>
