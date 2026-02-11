@@ -1295,11 +1295,17 @@
                 "end": "",
                 "name": "AUTOEVALUACIÓN DICIEMBRE"
             },
-            "TE-ENERO": {
+            "TE-ENERO_RA1": {
                 "type": "Cuestionario",
                 "start": "",
                 "end": "",
-                "name": "EXAMEN ENERO"
+                "name": "EXAMEN ENERO RA 1"
+            },
+            "TE-ENERO_RA2": {
+                "type": "Cuestionario",
+                "start": "",
+                "end": "",
+                "name": "EXAMEN ENERO RA 2"
             },
             "14095": {
                 "type": "Cuestionario",
