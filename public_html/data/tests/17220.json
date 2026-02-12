@@ -1,0 +1,237 @@
+[
+    {
+        "enunciado": "Selecciona la afirmación correcta:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "La claúsula RETURNS puede usarse sólo con FUNCTION, donde es obligatorio",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Un procedimiento se invoca usando un comando CALL y sólo puede disponer de variables de salida",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Los procedimientos almacenados requieren disponer siempre de parámetros de entrada y salida",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Ninguna de las demás opciones es correcta",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Un disparador (TRIGGER) de una tabla, es un objeto que se activa cuando ocurre un evento de algún comando DML (INSERT, UPDATE, DELETE) en dicha tabla:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Falso",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Sólo si la tabla ya tiene registros",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Verdadero",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "Las sentencias que pueden disparar el trigger de una tabla son:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "INSERT, UPDATE, DELETE",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "CREATE, UPDATE, DELETE",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "INSERT, SELECT, DELETE",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "En un procedimiento:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Cómo mínimo hay que definir un parámetro de entrada y uno de salida.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Como mínimo hay que tener un parámetro de entrada.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Como mínimo hay que tener un parámetro de salida.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "No es obligatorio definir parámetros.",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "Los triggers se pueden disparar antes (BEFORE) o después (AFTER) de la sentencia que lo activa:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Sólo si en la tabla en la que está el trigger ya hay registros",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Falso",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Verdadero",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "La sentencia correcta para ejecutar una función  es:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Ninguna de las demás es correcta.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "SELECT nombre_funcion(parámetros):",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "FUNCTION nombre_funcion(parámetros):",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "CALL nombre_funcion(parámetros):",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Con qué claúsula devolvemos el valor en una función SQL?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "INOUT",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "OUT",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "CALL",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "RETURN",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "Marca la afirmación correcta aplicable a las funciones: ",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "En las funciones, es necesario tener parámetros de entrada, pero no de salida.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Las funciones disponen siempre de al menos un parámetro de entrada y al menos uno de salida.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Ninguna de las demás es correcta.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Las funciones no necesitan tener parámetros de entrada, pero sí es obligatorio uno de salida.",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "Cambiar el delimitador de los subprogramas por un $$ o \/\/, permite poder utilizar el delimitador ; del final, sin que sea interpretado al grabar dicho subprograma:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "No siempre se pueden utilizar dichos delimitadores",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Verdadero",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Falso",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Todas las demás opciones son correctas",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "El comando correcto para ver un procedimiento almacenado en una base de datos es:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "SHOW PROCEDURE nombre_procedimiento;",
+                "correcta": false 
+            },
+            {
+                "opcion": "b.",
+                "texto": "SHOW nombre_procedimiento;",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Ninguna de las demás opciones es correcta",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "SHOW CREATE PROCEDURE nombre_procedimiento;",
+                "correcta": true
+            }
+        ]
+    }
+]
