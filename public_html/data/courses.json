@@ -102,6 +102,24 @@
                 "start": "26-01-2026 12:32",
                 "end": "22-02-2026 23:59",
                 "name": "Tarea 03-04 Procedimientos entrada y salida iniciales (Pedidos)"
+            },
+            "8840": {
+                "type": "Complementaria",
+                "start": "13-02-2026 12:32",
+                "end": "01-03-2026 23:59",
+                "name": "Tarea 03-05 Suma de pagos en jardinería (funciones)"
+            },
+            "8841": {
+                "type": "Complementaria",
+                "start": "13-02-2026 12:32",
+                "end": "08-03-2026 23:59",
+                "name": "Tarea 03-06 Importe de un pedido"
+            },
+            "8844": {
+                "type": "Complementaria",
+                "start": "13-02-2026 12:32",
+                "end": "08-03-2026 23:59",
+                "name": "Tarea 03-07 BD de instituto (funciones)"
             }
         },
         "tests": {
