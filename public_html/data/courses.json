@@ -622,6 +622,12 @@
                 "start": "09-02-2026 14:03",
                 "end": "17-03-2026 23:59",
                 "name": "RA5 Práctica trabajo con clases"
+            },
+            "45339": {
+                "type": "Obligatoria",
+                "start": "16-02-2026 09:00",
+                "end": "02-03-2026 23:59",
+                "name": "RA5 Práctica trabajo con clases. II"
             }
         },
         "tests": {
