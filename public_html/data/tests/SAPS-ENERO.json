@@ -35,12 +35,12 @@
             {
                 "opcion": "b.",
                 "texto": "5",
-                "correcta": false
+                "correcta": true
             },
             {
                 "opcion": "c.",
                 "texto": "3",
-                "correcta": true
+                "correcta": false
             },
             {
                 "opcion": "d.",
@@ -85,7 +85,7 @@
             {
                 "opcion": "b.",
                 "texto": "al aumento del bienestar de los ciudadanos, sin poner en peligro el bienestar de las generaciones futuras",
-                "correcta": true
+                "correcta": false
             },
             {
                 "opcion": "c.",
@@ -95,7 +95,7 @@
             {
                 "opcion": "d.",
                 "texto": "producción y consumo responsable, sin perjudicar a las generaciones futuras",
-                "correcta": false
+                "correcta": true
             }
         ]
     },
