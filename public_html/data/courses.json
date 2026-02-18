@@ -1172,19 +1172,29 @@
                 "link": "https://docs.google.com/spreadsheets/d/1LTd9LyWcneUbbZXBWeUk28-lf3tMkZb32BGJ_TAG6hg/edit?usp=sharing"
             },            
             "SRI-AP30-24-doc": {
-                "name": "APUNTES 30%: Tunnel IPv6 e IPv4 (doc)",
+                "name": "Tunnel IPv6 e IPv4 (doc)",
                 "file": "APUNTESTUNNELIPV6EIPV4.docx",
                 "link": "https://docs.google.com/document/d/1J6KSK4KQttlRTRwgp4wRvweKkSkQkmzifGU4Nze06pU/edit?usp=sharing"
             },
             "SRI-AP30-20-doc": {
-                "name": "APUNTES 30%: VLAN IPv6 (doc)",
+                "name": "VLAN IPv6 (doc)",
                 "file": "APUNTESVLANIPV6.pdf",
                 "link": "https://docs.google.com/document/d/1c97uLVAfA7e7_dA6MJdYGn5Z5MVC9kA7jxB-h6r3wlw/edit?usp=sharing"
             },
             "SRI-AP30-16-doc": {
-                "name": "APUNTES 30%: VLAN IPv6 con telefonía (doc)",
+                "name": "VLAN IPv6 con telefonía (doc)",
                 "file": "APUNTESVLANIPV4CONTELEFONIA.pdf",
                 "link": "https://docs.google.com/document/d/17fMA46fJ8lTVFXLZOIyFU4ZvFWPQSpaBut-YW77gooM/edit?usp=sharing"
+            },
+            "SRI-IPv6_route_alias-doc": {
+                "name": "Enrutamientos IPv6 por alias (doc)",
+                "file": "APUNTES ENRUTAMIENTOS ALIAS IPV6.docx",
+                "link": "https://docs.google.com/document/d/11BqdSnNxV36Veb5wwDbihH7ZWQt5zPJQnoSF9nK1sxY/edit?usp=sharing"
+            },
+            "SRI-OSPF-doc": {
+                "name": "OSPF IPv4 - IPv6 (doc)",
+                "file": "OSPF IPV4  IPV6.docx",
+                "link": "https://docs.google.com/document/d/10LZFzOZQ91M2FpA0bqQ7-P0l7vtJHxcaj6oYC7i4XRM/edit?usp=sharing"
             }
         }
     },
