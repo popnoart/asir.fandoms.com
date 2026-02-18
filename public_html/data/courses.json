@@ -521,14 +521,26 @@
             "IAW-9": {
                 "folder": 0,
                 "folder_number": 0,
-                "name": "Unidad 4.1. JavaScript. Objetos",
+                "name": "Unidad 4. JavaScript. Objetos",
                 "link": "https://drive.google.com/file/d/1W8HpZPeDPg9_VzKJJJhOaTu4VrTreFFi/view?usp=sharing"
             },
-            "IAW-9": {
+            "IAW-10": {
                 "folder": 0,
                 "folder_number": 0,
-                "name": "Unidad 4.2. JavaScript. Clases",
-                "link": ""
+                "name": "Unidad 5. JavaScript. Clases",
+                "link": "https://drive.google.com/file/d/15UNB0Xf_9iKrmtqd-5i3anE92jkFnXWS/view?usp=sharing"
+            },
+            "IAW-11": {
+                "folder": 0,
+                "folder_number": 0,
+                "name": "Unidad 6.1 JavaScript. Array de objetos",
+                "link": "https://drive.google.com/file/d/1AJfA3CdXjFbEqBtQ2g8CeyDyYyIjG164/view?usp=sharing"
+            },
+            "IAW-12": {
+                "folder": 0,
+                "folder_number": 0,
+                "name": "Unidad 6.2 JavaScript. Json",
+                "link": "https://drive.google.com/file/d/1rOKoyKLA86bqb69TtTfrgkeD4mNi1Jne/view?usp=sharing"
             }
         },
         "resources": {
