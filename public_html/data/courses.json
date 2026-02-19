@@ -1263,6 +1263,12 @@
                 "folder_number": 11,
                 "name": "UNIT 7. Passive Voice",
                 "link": "https://drive.google.com/file/d/1g6sx8ywrLgMrwKSn__eJgdJ8To-Ih-xw/view?usp=sharing"
+            } ,
+            "TE-8": {
+                "folder": 47836,
+                "folder_number": 11,
+                "name": "UNIT 8. Relative Clauses",
+                "link": ""
             } 
         },
         "resources": {
@@ -1327,6 +1333,12 @@
                 "start": "03-02-2026 07:55",
                 "end": "22-02-2026 23:59",
                 "name": "UNIT 7. Task - compulsory RA1,3"
+            },
+            "14108": {
+                "type": "Obligatoria",
+                "start": "18-02-2026 10:54",
+                "end": "03-03-2026 23:59",
+                "name": "UNIT 8. Task - compulsory RA4, RA5"
             }
         },
         "tests": {
@@ -1389,6 +1401,12 @@
                 "start": "",
                 "end": "",
                 "name": "UNIT 7. Quiz"
+            },
+            "14109": {
+                "type": "Cuestionario",
+                "start": "",
+                "end": "",
+                "name": "UNIT 8. Quiz"
             }
         },
         "notes": {
