@@ -227,7 +227,7 @@
             
         },
         "tests": {
-            "ASO-T1-01": {
+            "ASO-DICIEMBRE-REPASO": {
                 "type": "Cuestionario",
                 "start": "",
                 "end": "",
@@ -239,11 +239,23 @@
                 "end": "",
                 "name": "AUTOEVALUACIÓN DICIEMBRE"
             },
+            "ASO-ENERO-REPASO": {
+                "type": "Cuestionario",
+                "start": "",
+                "end": "",
+                "name": "Repaso test examen Enero"
+            },
             "ASO-ENERO": {
                 "type": "Cuestionario",
                 "start": "",
                 "end": "",
                 "name": "EXAMEN ENERO"
+            },
+            "ASO-FEBRERO-REPASO": {
+                "type": "Cuestionario",
+                "start": "",
+                "end": "",
+                "name": "Repaso test 2ª autoevaluación"
             }
         },
         "notes": {
