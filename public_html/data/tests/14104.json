@@ -1,0 +1,252 @@
+[
+    {
+        "enunciado": "The system _____ (update) every month to ensure security.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "updates",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "was updated",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "is updated",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "will be updated",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "I had the technician _____ (fix) the server issue yesterday.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "fixing",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "fixed",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "fixes",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "fix",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "The issue _____ (resolve) by the IT department by next week.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "is resolved",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "was resolved",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "will be resolved",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "resolves",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "The new policy _____ (announce) in the next company meeting.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "will be announced",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "was announced",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "is announced",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "has been announced",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "The software _____ (develop) by the team last year.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "will be developed",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "was developed",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "has been developed",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "is developed",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "What programming languages _____ (use) in your previous projects?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "will be used",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "are used",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "used",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "were used",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "The report _____ (submit) to the manager yesterday.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "was submitted",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "has been submitted",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "is submitted",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "will be submitted",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Can you explain how a problem _____ (troubleshoot) in a complex IT environment?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "is troubled",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "was troubleshot",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "is troubleshot",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "troubleshoots",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "She made her assistant _____ (prepare) the presentation for the client.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "preparing",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "prepared",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "prepares",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "prepare",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "The manager had the team _____ (complete) the project ahead of schedule.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "complete",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "completed",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "completing",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "completes",
+                "correcta": false
+            }
+        ]
+    }
+]

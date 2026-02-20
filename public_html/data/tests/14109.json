@@ -1,0 +1,252 @@
+[
+    {
+        "enunciado": "The girl _________boyfriend is shorter than her is my new neighbour.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "which  ",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "who  ",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "whose  ",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "that",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "The city __________ she grew up is known for its historical landmarks.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "whose  ",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "who  ",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "where",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "which  ",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "The book, _____ I borrowed from the library, is on the desk.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "who",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "whose",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "which",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "whom",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Don't forget to ___ after you finish your work.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "hack on  ",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "log off  ",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "log up  ",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "link on",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "The system, _____ the developers are currently working on, will be launched next month.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "whom",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "whose",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "who",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "which",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "My colleague, _____ I worked with on the project, has left the company.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "whom",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "whose",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "who",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "which",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "The new software, _____ we were excited to test, has been released.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "who",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "that",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "which",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "whom",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Updates ___ automatically if the system settings allow.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "install  ",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "are installed",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "installed  ",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "installing  ",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "The consultant _____ we spoke to was very knowledgeable about the latest technology trends.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "who",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "whose",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "which",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "whom",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "The programmer ___ fixed the bug is very skilled.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "whose  ",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "which  ",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "whom",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "who  ",
+                "correcta": true
+            }
+        ]
+    }
+]
