@@ -231,7 +231,7 @@
                 "type": "Cuestionario",
                 "start": "",
                 "end": "",
-                "name": "Repaso test 1ª autoevaluación"
+                "name": "Repaso previo 1ª autoevaluación"
             },
             "ASO-DICIEMBRE": {
                 "type": "Cuestionario",
@@ -243,7 +243,7 @@
                 "type": "Cuestionario",
                 "start": "",
                 "end": "",
-                "name": "Repaso test examen Enero"
+                "name": "Repaso previo examen Enero"
             },
             "ASO-ENERO": {
                 "type": "Cuestionario",
@@ -255,7 +255,7 @@
                 "type": "Cuestionario",
                 "start": "",
                 "end": "",
-                "name": "Repaso test 2ª autoevaluación"
+                "name": "Repaso previo 2ª autoevaluación"
             }
         },
         "notes": {

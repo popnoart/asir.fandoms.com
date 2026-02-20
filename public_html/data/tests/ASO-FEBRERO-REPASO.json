@@ -1,0 +1,527 @@
+[
+    {
+        "enunciado": "¿Se pueden crear usuarios y asignarles cualquier tipo de restricción horaria con PowerShell?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "No, PowerShell no permite crear usuarios",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "Sí",
+                "correcta": true
+            },
+            {
+                "opcion": "C",
+                "texto": "Solo en versiones enterprise de Windows",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "Solo se pueden crear usuarios, no asignar restricciones",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué hace la orden 'Get-NetAdapter' en PowerShell?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "Configura un nuevo adaptador de red",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "Informa de los adaptadores que tenemos en nuestro sistema",
+                "correcta": true
+            },
+            {
+                "opcion": "C",
+                "texto": "Elimina un adaptador de red existente",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "Reinicia todos los adaptadores de red",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué es la orden 'Sconfig' en PowerShell?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "Un comando para configurar servidores SQL",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "Una herramienta de diagnóstico de red",
+                "correcta": false
+            },
+            {
+                "opcion": "C",
+                "texto": "Un editor de scripts de PowerShell",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "Ampliación en PowerShell que ofrecen algunas de las configuraciones más sencillas del Server",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cómo se agrega varias IP desde PowerShell?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "Add-NetIP -interface 4 -ip 192.168.1.40/24",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "Set-NetIPAddress -index 4 -address 192.168.1.40 -mask 24",
+                "correcta": false
+            },
+            {
+                "opcion": "C",
+                "texto": "New-NetIpaddress -interfaceindex 4 -ipaddress 192.168.1.40 -prefixlengt 24",
+                "correcta": true
+            },
+            {
+                "opcion": "D",
+                "texto": "Configure-Network -adapter 4 -ip 192.168.1.40/24",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cómo agregar una IP con puerta de enlace en PowerShell?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "Add-NetIPGateway -interface 4 -ip 192.168.1.40/24 -gateway 192.168.1.1",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "New-NetIpaddress -interfaceindex 4 -ipaddress 192.168.1.40 -prefixlengt 24 -DefaultGateway 192.168.1.1",
+                "correcta": true
+            },
+            {
+                "opcion": "C",
+                "texto": "Set-NetworkAddress -adapter 4 -address 192.168.1.40 -mask 255.255.255.0 -gateway 192.168.1.1",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "Configure-IP -interface 4 -ip 192.168.1.40/24 -gateway 192.168.1.1",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cómo nos informamos del nombre de nuestro equipo?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "Get-ComputerName",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "Show-ComputerInfo",
+                "correcta": false
+            },
+            {
+                "opcion": "C",
+                "texto": "Hostname",
+                "correcta": true
+            },
+            {
+                "opcion": "D",
+                "texto": "ComputerName",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cómo se agrega DNS desde PowerShell? (versión 1)",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "Restart-computer",
+                "correcta": true
+            },
+            {
+                "opcion": "B",
+                "texto": "Add-DnsServer -address 8.8.8.8",
+                "correcta": false
+            },
+            {
+                "opcion": "C",
+                "texto": "Set-Dns -server 8.8.8.8",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "Configure-Dns -dns 8.8.8.8",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cómo agregamos DNS desde PowerShell? (versión 2)",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "Set-DnsClient -interface 4 -dns 8.8.8.8",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "Add-DnsServerAddress -index 4 -address 8.8.8.8",
+                "correcta": false
+            },
+            {
+                "opcion": "C",
+                "texto": "Set-dnsclientserveraddress -interfaceindex 4 -serveraddress 8.8.8.8",
+                "correcta": true
+            },
+            {
+                "opcion": "D",
+                "texto": "New-DnsAddress -adapter 4 -dns 8.8.8.8",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cómo visualizamos toda la información que tenga que ver con nuestras IP?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "Ipconfig",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "Get-IPInfo",
+                "correcta": false
+            },
+            {
+                "opcion": "C",
+                "texto": "Show-NetworkDetails",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "Ipconfig /all",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "Para que varios equipos clientes en la plataforma Windows 10 que pertenecen a dominios diferentes y puedan compartir recursos es necesario...",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "Que estén en el mismo grupo de trabajo",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "Establecer relación de confianza entre ambos dominios",
+                "correcta": true
+            },
+            {
+                "opcion": "C",
+                "texto": "Crear un dominio único para todos",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "Usar una VPN entre los equipos",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cómo se ejecuta un script en Ubuntu?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "run script.sh",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "execute script.sh",
+                "correcta": false
+            },
+            {
+                "opcion": "C",
+                "texto": "./archivo.sh",
+                "correcta": true
+            },
+            {
+                "opcion": "D",
+                "texto": "bash run script.sh",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Es necesario la opción read en la opción 9 del menú?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "Sí, siempre es obligatorio",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "No, no es necesario",
+                "correcta": true
+            },
+            {
+                "opcion": "C",
+                "texto": "Solo si hay más de 5 opciones",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "Depende de la versión de Ubuntu",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "El archivo /etc/samba/smb.conf es un archivo de Ubuntu. ¿Qué hacen las líneas: [carpeta] Path=/home/usuario/Escritorio/carpeta Writable = yes Guest ok = yes Browsable = yes?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "Crean una carpeta oculta en Ubuntu",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "Configuran un servidor web",
+                "correcta": false
+            },
+            {
+                "opcion": "C",
+                "texto": "Este código nos permite acceder desde Windows a Ubuntu en red y tener acceso a la carpeta \"carpeta\" y disfrutar de ella con los permisos que nos hayan otorgado desde Ubuntu",
+                "correcta": true
+            },
+            {
+                "opcion": "D",
+                "texto": "Bloquean el acceso a la carpeta desde la red",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cómo debe ser la extensión de un script en Windows?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": ".exe",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": ".ps1",
+                "correcta": false
+            },
+            {
+                "opcion": "C",
+                "texto": ".bat",
+                "correcta": true
+            },
+            {
+                "opcion": "D",
+                "texto": ".sh",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué diferencia existe entre las órdenes Adduser y useradd en Ubuntu?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "Adduser solo funciona en versiones antiguas, useradd en nuevas",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "No hay diferencia, son el mismo comando",
+                "correcta": false
+            },
+            {
+                "opcion": "C",
+                "texto": "Adduser crea usuarios sin contraseña, useradd te pide contraseña automáticamente",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "Adduser por defecto me ofrece la posibilidad de escribir contraseña al usuario. userAdd crea el usuario y por defecto no ofrece la posibilidad de configurar contraseña",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué hace la línea 'Name resolver order = lmhost hosts wins bcast' en el archivo /etc/samba/smb.conf?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "Bloquea la resolución de nombres en la red",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "Configura el servidor DNS de Ubuntu",
+                "correcta": false
+            },
+            {
+                "opcion": "C",
+                "texto": "Nos permite compartir recursos entre Windows y Ubuntu",
+                "correcta": true
+            },
+            {
+                "opcion": "D",
+                "texto": "Establece el orden de arranque del sistema",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué debemos instalar en Ubuntu para poder compartir carpetas?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "Apache",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "Samba",
+                "correcta": true
+            },
+            {
+                "opcion": "C",
+                "texto": "NFS",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "FTP Server",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "A la orden 'New-NetIpaddress -interfaceindex 4 -ipaddress 192.168.1.40 -prefixlengt 29', ¿qué máscara le corresponde?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "255.255.255.240",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "255.255.255.252",
+                "correcta": false
+            },
+            {
+                "opcion": "C",
+                "texto": "255.255.255.248",
+                "correcta": true
+            },
+            {
+                "opcion": "D",
+                "texto": "255.255.255.224",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué afirmación es correcta sobre la orden 'New-NetIpaddress -interfaceindex 4 -ipaddress 1.0.0.0 -prefixlengt 27'?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "La máscara sería 255.255.255.240",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "La orden es válida y correcta",
+                "correcta": false
+            },
+            {
+                "opcion": "C",
+                "texto": "No puede ser, la 1.0.0.0 no puede tener esos bits, la máscara sería 255.255.255.224",
+                "correcta": true
+            },
+            {
+                "opcion": "D",
+                "texto": "La máscara sería 255.255.255.248",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Desde el punto de vista de seguridad, ¿recomendarías enrutar así: 'ip route 0.0.0.0 0.0.0.0 s0/3/0'?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "Sí, es la configuración más segura",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "No es recomendable porque entraría TODO EL TRÁFICO DE RED",
+                "correcta": true
+            },
+            {
+                "opcion": "C",
+                "texto": "Sí, pero solo en redes pequeñas",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "Es recomendable solo para servidores DNS",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "En la empresa tenemos el serial 0/3/0, la red pública del serial 0/3/0 cambia todos los días. ¿Cómo podemos enrutar con una sola orden aunque la red sea diferente a diario?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "ip route 0.0.0.0 0.0.0.0 s0/3/0",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "ip route 192.168.10.0 255.255.255.0 s0/3/0",
+                "correcta": true
+            },
+            {
+                "opcion": "C",
+                "texto": "ip route dynamic s0/3/0",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "No es posible hacerlo con una sola orden",
+                "correcta": false
+            }
+        ]
+    }
+]
