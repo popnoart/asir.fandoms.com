@@ -1,0 +1,378 @@
+[
+    {
+        "enunciado": "En IPv6, ¿cuáles son los hextetos que se utilizan de conectividad con equipos host?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "Los cuatro primeros hextetos",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "Los cuatro últimos hextetos",
+                "correcta": true
+            },
+            {
+                "opcion": "C",
+                "texto": "Los dos primeros hextetos",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "Los dos últimos hextetos",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué máscara le corresponde por OSPF a la Network 192.168.1.0/27?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "255.255.255.240 y 0 0 0 15",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "255.255.255.224 y 0 0 0 31",
+                "correcta": true
+            },
+            {
+                "opcion": "C",
+                "texto": "255.255.255.192 y 0 0 0 63",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "255.255.255.248 y 0 0 0 7",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué máscara le corresponde por OSPF a la Network 172.172.0.0/18?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "255.255.192.0 y 0 0 63 255",
+                "correcta": true
+            },
+            {
+                "opcion": "B",
+                "texto": "255.255.128.0 y 0 0 127 255",
+                "correcta": false
+            },
+            {
+                "opcion": "C",
+                "texto": "255.255.224.0 y 0 0 31 255",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "255.255.240.0 y 0 0 15 255",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "En la Cloud, ¿cuál es el último número que se puede establecer en DLCI?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "1007",
+                "correcta": true
+            },
+            {
+                "opcion": "B",
+                "texto": "1008",
+                "correcta": false
+            },
+            {
+                "opcion": "C",
+                "texto": "1010",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "1023",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Estamos navegando en la vida real por internet sin problemas con el DHCP que nos asigna nuestro router, sin embargo, al escribir una IP perfectamente configurada, internet se marcha. ¿Cómo podemos solucionarlo?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "Reiniciar el router",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "Cambiar la máscara de red",
+                "correcta": false
+            },
+            {
+                "opcion": "C",
+                "texto": "Escribir las DNS",
+                "correcta": true
+            },
+            {
+                "opcion": "D",
+                "texto": "Configurar una IP estática diferente",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Tenemos la Red 192.168.1.0/26, deseamos asignar la primera y última IP disponible de esta red. ¿Cuáles son?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "192.168.1.0 y 192.168.1.63",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "192.168.1.1 y 192.168.1.62",
+                "correcta": true
+            },
+            {
+                "opcion": "C",
+                "texto": "192.168.1.0 y 192.168.1.64",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "192.168.1.1 y 192.168.1.63",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Para configurar un DHCP con la Network 172.172.0.0/19, ¿cuál sería su primera y última IP disponibles?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "172.172.0.0 y 172.172.31.255",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "172.172.0.1 y 172.172.31.254",
+                "correcta": true
+            },
+            {
+                "opcion": "C",
+                "texto": "172.172.0.1 y 172.172.63.254",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "172.172.1.0 y 172.172.31.0",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué se entiende por DNS directo y DNS inverso?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "DNS directo traduce IP a nombre, DNS inverso traduce nombre a IP",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "DNS directo se utiliza para navegar y el DNS inverso se utiliza para verificar la legitimidad de la página",
+                "correcta": true
+            },
+            {
+                "opcion": "C",
+                "texto": "DNS directo es para IPv4, DNS inverso para IPv6",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "No hay diferencia, son lo mismo",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Si estás en un cortafuegos y quieres acceder a páginas WEB sin DNS desde la zona 0 a los servidores Web de la zona de seguridad 100, ¿qué IP tenemos que utilizar?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "La IP del servidor donde está alojada la página web",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "La IP de los servidores de la zona de seguridad 100",
+                "correcta": false
+            },
+            {
+                "opcion": "C",
+                "texto": "La IP del Default-Gateway de la zona 0",
+                "correcta": true
+            },
+            {
+                "opcion": "D",
+                "texto": "La IP del Default-Gateway de la zona 100",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué VLAN no se puede utilizar por nosotros en un router 2811?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "La VLAN 0",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "La VLAN 1",
+                "correcta": true
+            },
+            {
+                "opcion": "C",
+                "texto": "La VLAN 100",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "La VLAN 4096",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál es el resultado de sumarizar las redes 192.168.10.0, 192.168.20.0 y 192.168.30.0?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "192.168.0.0/16",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "192.168.0.0/20",
+                "correcta": false
+            },
+            {
+                "opcion": "C",
+                "texto": "192.168.8.0/21",
+                "correcta": true
+            },
+            {
+                "opcion": "D",
+                "texto": "192.168.16.0/20",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Encuentra algún error en el siguiente código: Int fa0/0.1, Ip add 192.168.1.0 255.255.255.0",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "No hay ningún error",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "El error es que falta la encapsulación dot1q",
+                "correcta": true
+            },
+            {
+                "opcion": "C",
+                "texto": "La IP no puede terminar en .0",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "La máscara es incorrecta para esa IP",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Encuentra algún error en el siguiente código: Int fa0/0.10, Encapsulation dot1q 11, Ip add 192.168.1.1 255.255.255.224",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "No hay ningún error",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "El error es que la subinterfaz es .10 y el dot1q es 11, deben coincidir",
+                "correcta": true
+            },
+            {
+                "opcion": "C",
+                "texto": "La máscara es incorrecta",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "La IP es incorrecta",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "En configuraciones VLAN con IPv6, completa el siguiente código: Int fa0/0.10, Encapsulation dot1q 10",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "Ip add 192.168.1.1 255.255.255.0",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "Ip add 192.168.1.1 255.255.255.224",
+                "correcta": false
+            },
+            {
+                "opcion": "C",
+                "texto": "Ipv6 add 2001:A:A:A::1/64",
+                "correcta": true
+            },
+            {
+                "opcion": "D",
+                "texto": "Ipv6 add 2001:A:A:A::/64",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Para enrutar desde el router de Madrid a la red de Galpato, ¿cuál sería la orden correcta según el diagrama?",
+        "imagen": "SRI-ENERO-REPASO_01.png",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "Ip route 192.168.60.0 255.255.255.0 12.0.0.1",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "Ip route 192.168.60.0 255.255.255.0 12.0.0.2",
+                "correcta": true
+            },
+            {
+                "opcion": "C",
+                "texto": "Ip route 0.0.0.0 0.0.0.0 12.0.0.2",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "Ip route 192.168.60.0 255.255.0.0 12.0.0.2",
+                "correcta": false
+            }
+        ]
+    }
+]

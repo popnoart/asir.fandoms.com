@@ -1,0 +1,303 @@
+[
+    {
+        "enunciado": "¿Qué IP debemos escribir para acceder a los servidores Web desde la seguridad 0? (Basado en el diagrama)",
+        "imagen": "SRI-DICIEMBRE-REPASO_01.png",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "192.168.50.21",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "192.168.50.22",
+                "correcta": false
+            },
+            {
+                "opcion": "C",
+                "texto": "192.168.80.1",
+                "correcta": true
+            },
+            {
+                "opcion": "D",
+                "texto": "A y B son ciertas",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué nivel de seguridad debería tener por defecto un cortafuego físico en el DMZ?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "10",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "50",
+                "correcta": true
+            },
+            {
+                "opcion": "C",
+                "texto": "100",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Se puede crear con interfaz gráfica usuarios en un cortafuego físico ASA 5505?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "Sí, mediante ASDM",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "No",
+                "correcta": true
+            },
+            {
+                "opcion": "C",
+                "texto": "Solo en versiones empresariales",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué órdenes son obligatorias para escribir usuarios con seguridad VPN en un cortafuegos físico ASA 5505?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "Webvpn",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "Enable outside",
+                "correcta": false
+            },
+            {
+                "opcion": "C",
+                "texto": "Webvpn y enable outside",
+                "correcta": true
+            },
+            {
+                "opcion": "D",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuántas VLAN se pueden configurar en un cortafuegos físico ASA 5505?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "2 VLAN",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "3 VLAN (VLAN 1, VLAN 2 y VLAN 3 'dmz')",
+                "correcta": true
+            },
+            {
+                "opcion": "C",
+                "texto": "Todas las que se necesiten",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "Depende de la configuración del ASA",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué red trae por defecto la VLAN 1 en un ASA 5505?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "192.168.0.0",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "192.168.1.0 (la IP por defecto empieza en 5)",
+                "correcta": true
+            },
+            {
+                "opcion": "C",
+                "texto": "192.168.10.0",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Encuentras algún error en el siguiente código: Class-map NOMBRE1 [Match default-inspection-traffic] Exit Policy-map NOMBRE2 Class NOMBRE1 [Inspect icmp] Exit Service-policy Class-map NOMBRE1 Exit Policy-map NOMBRE2 Class NOMBRE1 Exit Service-policy",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "No hay ningún error, el código es correcto",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "Falta la línea 'Match default-inspection-traffic' que es obligatoria",
+                "correcta": true
+            },
+            {
+                "opcion": "C",
+                "texto": "Sobran las líneas 'Exit'",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "El nombre de las clases no puede repetirse",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "En una Cloud en DLCI, ¿el número máximo que se puede escribir es?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "1007",
+                "correcta": true
+            },
+            {
+                "opcion": "B",
+                "texto": "1008",
+                "correcta": false
+            },
+            {
+                "opcion": "C",
+                "texto": "1010",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "Cualquier número se puede escribir",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Se necesita subnetear para la Network 192.168.1.0/24, 45 subredes, ¿los bits de red serían?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "24 bits",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "28 bits",
+                "correcta": false
+            },
+            {
+                "opcion": "C",
+                "texto": "30 bits",
+                "correcta": true
+            },
+            {
+                "opcion": "D",
+                "texto": "32 bits",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Se necesita subnetear para la Network 170.0.0.0/16, 4 subredes, ¿los bits de red serían?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "16 bits de red",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "18 bits de red",
+                "correcta": true
+            },
+            {
+                "opcion": "C",
+                "texto": "20 bits de red",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "32 bits de red",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuántos hosts le pertenecen a la Network 172.172.0.0/20?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "2048 totales, 2046 disponibles",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "4096 totales, 4094 disponibles",
+                "correcta": true
+            },
+            {
+                "opcion": "C",
+                "texto": "8192 totales, 8190 disponibles",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "16384 totales, 16382 disponibles",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuántos hosts le pertenecen a la Network 1.0.0.0/18?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "8192 totales, 8190 disponibles",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "16384 totales, 16382 disponibles",
+                "correcta": true
+            },
+            {
+                "opcion": "C",
+                "texto": "32768 totales, 32766 disponibles",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "65536 totales, 65534 disponibles",
+                "correcta": false
+            }
+        ]
+    }
+]

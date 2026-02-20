@@ -1,0 +1,403 @@
+[
+    {
+        "enunciado": "¿Qué se entiende por Sniffer?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "Un programa que elimina virus del sistema",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "Un sistema que encripta las comunicaciones",
+                "correcta": false
+            },
+            {
+                "opcion": "C",
+                "texto": "Un tipo de firewall avanzado",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "Un sistema que esnifa red para monitorizar, conocer qué sucede en nuestros equipos y router; esencial para detectar intrusiones no deseadas",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué se entiende por Spoofing?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "Denegación de servicio",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "Suplantación de identidad",
+                "correcta": true
+            },
+            {
+                "opcion": "C",
+                "texto": "Encriptación de datos",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "Monitorización de red",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué se entiende por Phishing?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "El atacante satura un servicio para hacerlo vulnerable",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "opcion": "B",
+                "texto": "El atacante se hace pasar por una persona o empresa de confianza para robar información sensible, como contraseñas de acceso a cuentas bancarias",
+                "correcta": true
+            },
+            {
+                "opcion": "C",
+                "texto": "El atacante intercepta comunicaciones en la red",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "El atacante instala malware en el sistema",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué se entiende por denegación de servicios?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "Suplantar la identidad de un usuario legítimo",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "Consiste saturar el servicio para que al no funcionar con normalidad el atacante vea el sistema vulnerable y así consiga su mal propósito",
+                "correcta": true
+            },
+            {
+                "opcion": "C",
+                "texto": "Encriptar los datos para evitar su lectura",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "Monitorizar el tráfico de red",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué se entiende por SSH?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "Protocolo de transferencia de archivos",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "Acceso remoto NO seguro, la conexión NO está encriptada",
+                "correcta": false
+            },
+            {
+                "opcion": "C",
+                "texto": "Sistema de monitorización de red",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "Acceso remoto seguro, la conexión está encriptada",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué se entiende por Telnet?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "Acceso remoto seguro con encriptación",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "Protocolo seguro de transferencia de archivos",
+                "correcta": false
+            },
+            {
+                "opcion": "C",
+                "texto": "Acceso remoto NO seguro, la conexión NO está encriptada",
+                "correcta": true
+            },
+            {
+                "opcion": "D",
+                "texto": "Sistema de autenticación de usuarios",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué puertos cierra NetBios?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "80, 443 y 8080",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "20, 21 y 22",
+                "correcta": false
+            },
+            {
+                "opcion": "C",
+                "texto": "137, 138 y 139",
+                "correcta": true
+            },
+            {
+                "opcion": "D",
+                "texto": "25, 110 y 143",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué se entiende por Seguridad Activa?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "Copias de seguridad para recuperar datos perdidos",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "Planes de contingencia post-intrusión",
+                "correcta": false
+            },
+            {
+                "opcion": "C",
+                "texto": "La seguridad que evita la intrusión, por ejemplo los antivirus o cortafuegos",
+                "correcta": true
+            },
+            {
+                "opcion": "D",
+                "texto": "Políticas de contraseñas seguras",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué se entiende por Seguridad Pasiva?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "Firewalls y antivirus que previenen intrusiones",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "La seguridad que tenemos que tener para que una vez que se ha producido la intrusión todo vuelva a la normalidad, recuperando el software con copias de seguridad",
+                "correcta": true
+            },
+            {
+                "opcion": "C",
+                "texto": "Detección de intrusiones en tiempo real",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "Encriptación de datos en tránsito",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué se entiende por AAA?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "Autenticación, análisis y auditoría",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "Acceso, activación y almacenamiento",
+                "correcta": false
+            },
+            {
+                "opcion": "C",
+                "texto": "Autorización, autenticación y contabilización (Accounting)",
+                "correcta": true
+            },
+            {
+                "opcion": "D",
+                "texto": "Administración, autenticación y autorización",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué diferencia existe entre Radius y Tacacs?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "Radius es para conexiones inalámbricas seguras; Tacacs se utiliza para acceso a router o switch seguros",
+                "correcta": true
+            },
+            {
+                "opcion": "B",
+                "texto": "Radius es de Cisco, Tacacs es de Microsoft",
+                "correcta": false
+            },
+            {
+                "opcion": "C",
+                "texto": "Radius solo autentica, Tacacs solo autoriza",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "Son el mismo protocolo con diferente nombre",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "La ley de propiedad intelectual protege...",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "Solo el software",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "Solo las ideas y el software",
+                "correcta": false
+            },
+            {
+                "opcion": "C",
+                "texto": "Ideas, software y recetas de cocina",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "Todo (ideas, software, recetas de cocina, etc.)",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué se entiende por VPN?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "Comprime los datos para que viajen más rápido",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "Encripta los datos",
+                "correcta": true
+            },
+            {
+                "opcion": "C",
+                "texto": "Filtra paquetes maliciosos",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "Traduce direcciones IP",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué se entiende por Wireshark?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "Un cortafuegos avanzado",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "Un programa para crear VPN",
+                "correcta": false
+            },
+            {
+                "opcion": "C",
+                "texto": "Un sistema que sniffa (monitoriza) la red",
+                "correcta": true
+            },
+            {
+                "opcion": "D",
+                "texto": "Un antivirus para redes inalámbricas",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué es más seguro: que el usuario conozca solo la contraseña a un sistema informático o que la conozcan el usuario y el administrador?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "Que la conozcan el usuario y el administrador",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "Que la conozcan al menos tres personas",
+                "correcta": false
+            },
+            {
+                "opcion": "C",
+                "texto": "Solo el usuario",
+                "correcta": true
+            },
+            {
+                "opcion": "D",
+                "texto": "Que esté escrita en un lugar seguro",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Escribe las órdenes para establecer seguridad por MAC en un switch de Cisco",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "Switchport mode trunk y switchport port-security maximum 1",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "Switchport mode access y switchport port-security",
+                "correcta": true
+            },
+            {
+                "opcion": "C",
+                "texto": "Spanning-tree portfast y switchport port-security",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "No shutdown y mac-address-table secure",
+                "correcta": false
+            }
+        ]
+    }
+]

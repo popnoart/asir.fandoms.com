@@ -1,0 +1,502 @@
+[
+    {
+        "enunciado": "¿Qué hace IPSEC?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "Comprime los datos para que viajen más rápido",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "Encripta los datos que viajan por el cable",
+                "correcta": true
+            },
+            {
+                "opcion": "C",
+                "texto": "Filtra paquetes maliciosos en la red",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "Traduce direcciones IP públicas a privadas",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué hace ISAKMP?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "Encripta los datos en el propio router",
+                "correcta": true
+            },
+            {
+                "opcion": "B",
+                "texto": "Gestiona las tablas de enrutamiento",
+                "correcta": false
+            },
+            {
+                "opcion": "C",
+                "texto": "Filtra el tráfico de red entrante",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "Configura las VLAN en el switch",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "En una VPN, en la línea authentication, ¿qué opciones tenemos para elegir?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "MD5 y SHA",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "RSA y DSA",
+                "correcta": false
+            },
+            {
+                "opcion": "C",
+                "texto": "Pre-share y pre-share key",
+                "correcta": true
+            },
+            {
+                "opcion": "D",
+                "texto": "Local y radius",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "En una VPN, en la línea encryption con el algoritmo AES, ¿qué opciones tenemos para encriptar?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "56-128-256",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "128-192-256",
+                "correcta": true
+            },
+            {
+                "opcion": "C",
+                "texto": "64-128-512",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "32-64-128",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "En seguridad por MAC, una vez que el puerto está bloqueado, ¿qué debemos hacer para levantar el puerto (hacerlo operativo)?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "Reiniciar el switch",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "Shutdown no shutdown",
+                "correcta": true
+            },
+            {
+                "opcion": "C",
+                "texto": "Esperar 5 minutos automáticamente",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "Borrar la configuración de seguridad MAC",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "La VLAN que trae por defecto un cortafuegos ASA 5505 es...",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "VLAN 1 DMZ nivel de seguridad 0, 10.0.0.1",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "VLAN 1 INSIDE nivel de seguridad 100, 192.168.1.0 y la primera IP es la 192.168.1.5",
+                "correcta": true
+            },
+            {
+                "opcion": "C",
+                "texto": "VLAN 10 OUTSIDE nivel de seguridad 0, 192.168.0.1",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "VLAN 100 MANAGEMENT nivel de seguridad 50, 172.16.0.1",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "El PC6, ¿qué IP tiene que teclear para acceder al servidor de la página web www.tierra.es?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "192.168.1.1",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "195.168.2.1",
+                "correcta": true
+            },
+            {
+                "opcion": "C",
+                "texto": "10.0.0.1",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "172.16.1.1",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cómo sabemos si los datos de una VPN llegan encriptados?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "Show vpn status",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "Show ip route",
+                "correcta": false
+            },
+            {
+                "opcion": "C",
+                "texto": "Show crypto ipsec sa",
+                "correcta": true
+            },
+            {
+                "opcion": "D",
+                "texto": "Debug ipsec all",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuántas VLAN se pueden declarar en un cortafuegos ASA 5505?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "Ilimitadas",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "3 VLAN",
+                "correcta": true
+            },
+            {
+                "opcion": "C",
+                "texto": "10 VLAN",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "1 VLAN",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "En configuraciones con VPN, la orden 'Match address' va seguida de un número...",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "De puerto, por ejemplo 'port 443'",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "De VLAN, por ejemplo 'vlan 10'",
+                "correcta": false
+            },
+            {
+                "opcion": "C",
+                "texto": "De protocolo, por ejemplo 'protocol 50'",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "Lista de control de acceso, por ejemplo 'Access-list 102'",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "La ley de los cortafuegos afirma que...",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "Seguridad inferior siempre puede conectarse a seguridad superior sin restricciones",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "No existen conexiones entre diferentes niveles de seguridad",
+                "correcta": false
+            },
+            {
+                "opcion": "C",
+                "texto": "Seguridad superior puede conectarse con seguridad inferior (siempre y cuando se introduzca el código necesario)",
+                "correcta": true
+            },
+            {
+                "opcion": "D",
+                "texto": "Todos los niveles de seguridad tienen el mismo nivel de acceso",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "DMZ es una zona que se llama desmilitarizada, el nivel de seguridad que debería tener es...",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "100",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "0",
+                "correcta": false
+            },
+            {
+                "opcion": "C",
+                "texto": "50",
+                "correcta": true
+            },
+            {
+                "opcion": "D",
+                "texto": "25",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué puertos cerramos cuando deshabilitamos NetBios?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "80, 443 y 8080",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "20, 21 y 22",
+                "correcta": false
+            },
+            {
+                "opcion": "C",
+                "texto": "25, 110 y 143",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "137, 138 y 139",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuántas variables se declaran en las configuraciones de una VPN en un router Cisco?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "1 variable",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "5 variables",
+                "correcta": false
+            },
+            {
+                "opcion": "C",
+                "texto": "2 variables",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "3 variables",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "En VPN, la instrucción 'Set Transform.set' va seguida de un nombre. ¿Cuál?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "El nombre del router",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "La primera variable que declaramos en la configuración",
+                "correcta": false
+            },
+            {
+                "opcion": "C",
+                "texto": "La segunda variable que declaramos en la configuración",
+                "correcta": true
+            },
+            {
+                "opcion": "D",
+                "texto": "El nombre de la VLAN",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Sistemas de monitorización de Cisco son...",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "Wireshark y Tcpdump",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "Nagios y Cacti",
+                "correcta": false
+            },
+            {
+                "opcion": "C",
+                "texto": "Syslog y Netflow",
+                "correcta": true
+            },
+            {
+                "opcion": "D",
+                "texto": "SNMP y SMTP",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué líneas debemos escribir obligatoriamente para configurar seguridad por MAC en un switch?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "Switchport mode trunk y switchport port-security maximum 1",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "Switchport mode access y switchport port-security",
+                "correcta": true
+            },
+            {
+                "opcion": "C",
+                "texto": "Spanning-tree portfast y switchport port-security",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "No shutdown y switchport port-security mac-address sticky",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Nos llama un amigo y nos dice que es el amigo de un amigo. Sospechamos de su llamada porque nos pide algo de información personal. Este ataque recibe el nombre de...",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "Spyware",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "Malware",
+                "correcta": false
+            },
+            {
+                "opcion": "C",
+                "texto": "Phishing",
+                "correcta": true
+            },
+            {
+                "opcion": "D",
+                "texto": "Ransomware",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "La seguridad más alta que tenemos en nuestro router inalámbrico es...",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "WEP",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "WPA",
+                "correcta": false
+            },
+            {
+                "opcion": "C",
+                "texto": "WPA2",
+                "correcta": true
+            },
+            {
+                "opcion": "D",
+                "texto": "WPA3",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué diferencia existe entre Radius y Tacacs?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "Radius es para VPN, Tacacs para firewalls",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "Radius = Seguridad inalámbrica, Tacacs = Contraseñas que nos solicitará el sistema cuando tratemos de entrar en un router físico, por ejemplo 2811",
+                "correcta": true
+            },
+            {
+                "opcion": "C",
+                "texto": "Radius es de Cisco, Tacacs es de Microsoft",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "No hay diferencia, son el mismo protocolo",
+                "correcta": false
+            }
+        ]
+    }
+]
