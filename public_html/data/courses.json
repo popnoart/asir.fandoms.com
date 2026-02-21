@@ -887,6 +887,12 @@
                 "start": "17-12-2025 21:00",
                 "end": "25-01-2026 23:59",
                 "name": "Actividad 02_01 Prácticas avanzadas con nmap"
+            },
+            "4486": {
+                "type": "Complementaria",
+                "start": "21-02-2026 21:00",
+                "end": "15-03-2026 23:59",
+                "name": "Tarea 4 - IDS e IPS (RA5) - OBLIGATORIA"
             }
         },
         "tests": {
@@ -907,6 +913,12 @@
                 "start": "",
                 "end": "",
                 "name": "EXAMEN ENERO"
+            },
+            "17235": {
+                "type": "Cuestionario",
+                "start": "",
+                "end": "",
+                "name": "Seguridad activa y acceso remoto"
             }
         },
         "notes": {
