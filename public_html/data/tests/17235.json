@@ -1,0 +1,222 @@
+[
+    {
+        "enunciado": "Una VPN es:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Red privada y segura establecida sobre una infraestructura pública (segura y compartida) sin necesidad de usar tecnologías de cifrado o autenticación.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Red privada y segura establecida sobre una infraestructura pública (no segura y compartida) sin necesidad de usar tecnologías de cifrado o autenticación.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Red privada y segura establecida sobre una infraestructura pública (no segura y compartida) usando tecnologías de cifrado o autenticación.",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Red privada y segura establecida sobre una infraestructura pública (segura y compartida) usando tecnologías de cifrado o autenticación.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Un túnel es:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Un procedimiento de comunicación que permite ocultar un mensaje dentro de otro mensaje.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Un sistema de comunicación que oculta los mensajes a los usuarios que no están conectados al túnel.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Un procedimiento de comunicación que permite encapsular un protocolo dentro de otro protocolo.",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Un procedimiento de comunicación que permite introducir un mensaje dentro de otro cifrado.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Marca la afirmación que no es una ventaja de las VPNs:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "No garantiza la disponibilidad.",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Ahorro en costes.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "No se compromete la seguridad de la red empresarial.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Crear una red privada sobre una red pública es:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Una VLAN.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Una VPN.",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "No se puede realizar.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Una VPN es:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Red privada y segura establecida sobre una infraestructura pública (no segura y compartida) usando tecnologías de cifrado o autenticación.",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Red privada y segura establecida sobre una infraestructura pública (segura y compartida) sin necesidad de usar tecnologías de cifrado o autenticación.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Red privada y segura establecida sobre una infraestructura pública (segura y compartida) usando tecnologías de cifrado o autenticación.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Marca la afirmación que no es una ventaja de las VPNs:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Ahorro en costes.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "No se compromete la seguridad de la red empresarial.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "No garantiza la disponibilidad.",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "El cliente remoto adquiere la condición de miembro de la LAN (permisos, directivas de seguridad).",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Un túnel es:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Un procedimiento de comunicación que permite encapsular un protocolo dentro de otro protocolo, para hacer inaccesible la información.",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Un sistema de comunicación que oculta los mensajes a los usuarios que no están conectados al túnel.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Un procedimiento de comunicación que permite ocultar un mensaje dentro de otro mensaje.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Marca la afirmación que no es una ventaja de las VPNs:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "No se compromete la seguridad de la red empresarial.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Ahorro en costes.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "No garantiza la disponibilidad.",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "De las siguientes definiciones indicar cuál de ellas se ajusta a un IDS (Sistema de detección de intrusiones).",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Recoge y analiza información procedente de distintas áreas de un equipo o red con el objetivo de identificar posibles fallos de seguridad.",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Emite alarmas y pueden descartar paquetes y desconectar conexiones.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Analiza las conexiones y los protocolos en tiempo real para determinar si se va a producir o si se está produciendo algún incidente.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "De las siguientes definiciones indicar cuál de ellas se ajusta a un IDS (Sistema de detección de intrusiones).",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Identifica anomalías en un estado de protocolo comparando eventos actuales con actividades aceptadas predefinidas.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Emite alarmas y pueden descartar paquetes y desconectar conexiones.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Analiza las conexiones y los protocolos en tiempo real para determinar si se va a producir o si se está produciendo algún incidente.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Recoge y analiza información procedente de distintas áreas de un equipo o red con el objetivo de identificar posibles fallos de seguridad.",
+                "correcta": true
+            }
+        ]
+    }
+]

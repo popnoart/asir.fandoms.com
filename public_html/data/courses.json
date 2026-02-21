@@ -929,8 +929,12 @@
         },
         "notes": {
             "SAD-doc": {
-                "name": "Apuntes SAD (doc)",
+                "name": "Apuntes SAD (gdoc)",
                 "link": "https://docs.google.com/document/d/1bhVHYp2RQ0okuV_tHYmvvs3-eaP-jO_myU3DXYBxcRQ/edit?usp=sharing"
+            },
+            "SAD-RES-doc": {
+                "name": "Resumen SAD (gdoc)",
+                "link": "https://docs.google.com/document/d/1PT2J9N3FOELOWx9u8_kFxxYi7yCqX3vhkK-MQH2yvcM/edit?usp=sharing"
             }
         }
     },
