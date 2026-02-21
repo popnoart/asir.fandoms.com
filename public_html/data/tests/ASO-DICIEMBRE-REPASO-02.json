@@ -1,0 +1,662 @@
+[
+    {
+        "enunciado": "Attrib +s se utiliza para...",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Establecer attributo de lectura",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Establecer atributo de sistema",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Establecer atributo de oculto",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Establecer atributo de oculto",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué comando de Linux es equivalente al comando 'copy' de Windows?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "cp",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "clone",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "replicate",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿El comando 'type' de Windows para ver el contenido de un archivo equivale a qué comando en Linux?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "view",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "cat",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "show",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿El comando 'date' de Windows tiene la misma funcionalidad que en Linux?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Sí, son idénticos.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "No, en Linux 'date' muestra y permite establecer fecha y hora con un formato más flexible.",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "No, en Linux el comando equivalente es 'cal'.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué representan los números en el sistema de permisos CHMOD?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "El primer número es para el dueño, el segundo para el grupo y el tercero para otros",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Cada número es la suma de permisos: 4=lectura, 2=escritura, 1=ejecución",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Son códigos hexadecimales que representan combinaciones de permisos",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Indican el número de usuarios que pueden acceder al archivo",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué significa el permiso numérico 777?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Solo el dueño tiene todos los permisos",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Lectura, escritura y ejecución para dueño, grupo y otros",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Solo lectura para todos los usuarios",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Permisos especiales para ejecución de scripts",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cómo se representa en notación simbólica el permiso 600?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "-rw-------",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "-r--------",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "-rwx------",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "-rw-rw-rw-",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué valor CHMOD es más seguro para un archivo de contraseñas?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "644 (rw-r--r--)",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "600 (rw-------)",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "777 (rwxrwxrwx)",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "755 (rwxr-xr-x)",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "En cualquier sistema operativo del mundo nos encargan escribir la IP 192.168.1.0/29 ¿Qué mascara de red le pertenece?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "255.255.255.248",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "255.255.255.240",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "255.255.255.252",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "255.255.255.224",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Que valor numérico equivale a la orden que se consigue con chmod - --- RW --X",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "061",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "761",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "041",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué comando se utiliza para cambiar la contraseña de un usuario en Linux?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "passwd",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "chage",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "usermod",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "groupmod",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Para unir dos Windows 10 en red, deben estar ambas máquinas en...",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "Mismo grupo de trabajo, Diferente nombre de equipo, Activar detección de redes, Activar uso compartido de archivos e impresoras",
+                "correcta": true
+            },
+            {
+                "opcion": "B",
+                "texto": "Diferente grupo de trabajo, Diferente nombre de equipo, Activar detección de redes, Activar uso compartido de archivos e impresoras",
+                "correcta": false
+            },
+            {
+                "opcion": "C",
+                "texto": "Mismo grupo de trabajo, Diferente nombre de equipo, Activar detección de redes, Desactivado el uso compartido de archivos e impresoras",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "Mismo grupo de trabajo, Mismo nombre de equipo, Activar detección de redes, Activar uso compartido de archivos e impresoras",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Instalas dos sistemas operativos Windows 10 cada uno de ellos como es lógico en su PC correspondiente. El primer Pc tiene la IP 192.168.1.2 el segundo Pc tiene la IP 192.168.1.3 ¿por defecto pueden conectarse en red?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "No, es necesario configurar la red correspondiente",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "Sí, pues los dos Pc están en la misma red",
+                "correcta": true
+            },
+            {
+                "opcion": "C",
+                "texto": "Depende de la versión de Windows 10",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cómo se crea un archivo en la consola de Windows 10?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "Copy con",
+                "correcta": true
+            },
+            {
+                "opcion": "B",
+                "texto": "Copy com",
+                "correcta": false
+            },
+            {
+                "opcion": "C",
+                "texto": "Touch",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "Nano",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "En Windows 10 tenemos la dirección IPV6: 00FF:000F:F000:0000:0000:A000:A000:0000 ¿Cómo podemos abreviarla?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "FF:F:F000::A000:A000:0",
+                "correcta": true
+            },
+            {
+                "opcion": "B",
+                "texto": "FF:F:F000::A000:A:0",
+                "correcta": false
+            },
+            {
+                "opcion": "C",
+                "texto": "FF:F:F000::A000:A000:0000",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "FF:F:F::A:A:0",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Deseamos borrar todos los archivos de Excel de un directorio en Windows 10 ¿cuál seria la orden correcta que deberíamos utilizar?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "Del *.xlsx",
+                "correcta": true
+            },
+            {
+                "opcion": "B",
+                "texto": "Del *.*",
+                "correcta": false
+            },
+            {
+                "opcion": "C",
+                "texto": "Del *.txt",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "Del xlsx.*",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué orden cambia el nombre de un grupo en Linux?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "Groupmod -n",
+                "correcta": true
+            },
+            {
+                "opcion": "B",
+                "texto": "Group -n",
+                "correcta": false
+            },
+            {
+                "opcion": "C",
+                "texto": "mod -n",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué orden instala las herramientas de red en Linux para poder compartir carpetas?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "apt-get install samba",
+                "correcta": true
+            },
+            {
+                "opcion": "B",
+                "texto": "install samba",
+                "correcta": false
+            },
+            {
+                "opcion": "C",
+                "texto": "apt-get samba",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "Todas son ciertas",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Que valor numérico equivale a la orden 'chmod -RWX RW --X'",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "771",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "761",
+                "correcta": true
+            },
+            {
+                "opcion": "C",
+                "texto": "741",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Desde el punto de vista de seguridad, que es más seguro, que un usuario conozca él únicamente la contraseña de inicio de sesión, o que la conozca él y también el Administrador de red?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "Solo el usuario",
+                "correcta": true
+            },
+            {
+                "opcion": "B",
+                "texto": "El usuario y el Administrador",
+                "correcta": false
+            },
+            {
+                "opcion": "C",
+                "texto": "Solo el Administrador",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "Todas son ciertas",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué hace en la consola de Windows la orden 'echo texto > archivo'?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "Escribe texto en el archivo especificado",
+                "correcta": true
+            },
+            {
+                "opcion": "B",
+                "texto": "Muestra mensaje en pantalla",
+                "correcta": false
+            },
+            {
+                "opcion": "C",
+                "texto": "Edita y elimina texto al archivo especificado",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "Es un error de sintaxis, echo no funciona así",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Queremos vincular un archivo con el nombre de 'recetas.txt' que se encuentra en 'usuario@equipo-virtualbox:-$' a la carpeta artesanos, la ruta es: /home/pasteles/artesanos. ¿Cuál es la orden correcta?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "Ln recetas.txt /home/pasteles/artesanos",
+                "correcta": true
+            },
+            {
+                "opcion": "B",
+                "texto": "Ln -l recetas.txt /home/pasteles/artesanos",
+                "correcta": false
+            },
+            {
+                "opcion": "C",
+                "texto": "Cp -r recetas.txt /home/pasteles/artesanos",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "Ln -r recetas.txt /hombe/pasteles/artesanos",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué hace en Ubuntu la orden 'Alt+Control + t' pulsadas de forma simultánea?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "Información de un archivo",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "Entra en la consola de comandos",
+                "correcta": true
+            },
+            {
+                "opcion": "C",
+                "texto": "Sale de la consola de comandos",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "Proceso que se está ejecutando",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cómo se visualizan los procesos que se están ejecutando?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "Usermod",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "Usdermod -i",
+                "correcta": false
+            },
+            {
+                "opcion": "C",
+                "texto": "Top",
+                "correcta": true
+            },
+            {
+                "opcion": "D",
+                "texto": "Gedit",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cómo se crea un archivo vacío en Ubuntu?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "Touch",
+                "correcta": true
+            },
+            {
+                "opcion": "B",
+                "texto": "Less",
+                "correcta": false
+            },
+            {
+                "opcion": "C",
+                "texto": "Nano",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "Gedit",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cómo se visualiza en Ubuntu información detallada de los permisos?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "Cat",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "Ls",
+                "correcta": false
+            },
+            {
+                "opcion": "C",
+                "texto": "Ls -l",
+                "correcta": true
+            },
+            {
+                "opcion": "D",
+                "texto": "Man",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué numeración en formato octal corresponde a los permisos '- R-X RWX R--'?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "574",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "754",
+                "correcta": true
+            },
+            {
+                "opcion": "C",
+                "texto": "574",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "745",
+                "correcta": false
+            }
+        ]
+    }
+]

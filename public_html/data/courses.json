@@ -227,11 +227,17 @@
             
         },
         "tests": {
-            "ASO-DICIEMBRE-REPASO": {
+            "ASO-DICIEMBRE-REPASO-01": {
                 "type": "Cuestionario",
                 "start": "",
                 "end": "",
-                "name": "Repaso previo 1ª autoevaluación"
+                "name": "Repaso previo 1ª autoevaluación 1"
+            },
+            "ASO-DICIEMBRE-REPASO-02": {
+                "type": "Cuestionario",
+                "start": "",
+                "end": "",
+                "name": "Repaso previo 1ª autoevaluación 2"
             },
             "ASO-DICIEMBRE": {
                 "type": "Cuestionario",
