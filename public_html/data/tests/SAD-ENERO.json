@@ -460,7 +460,7 @@
             {
                 "opcion": "b.",
                 "texto": "Garantiza la participación de las partes en una comunicación.",
-                "correcta": false
+                "correcta": true
             },
             {
                 "opcion": "c.",
@@ -470,7 +470,7 @@
             {
                 "opcion": "d.",
                 "texto": "Busca asegurar qué en todo momento se podrá determinar quién hizo qué y en qué momento.",
-                "correcta": true
+                "correcta": false
             }
         ]
     },
@@ -505,7 +505,7 @@
             {
                 "opcion": "a.",
                 "texto": "Uso de cortafuegos.",
-                "correcta": false
+                "correcta": true
             },
             {
                 "opcion": "b.",
@@ -520,7 +520,7 @@
             {
                 "opcion": "d.",
                 "texto": "Uso de palabras claves.",
-                "correcta": true
+                "correcta": false
             }
         ]
     },
@@ -705,7 +705,7 @@
             {
                 "opcion": "a.",
                 "texto": "Autenticación, autorización y registro",
-                "correcta": false
+                "correcta": true
             },
             {
                 "opcion": "b.",
@@ -720,7 +720,7 @@
             {
                 "opcion": "d.",
                 "texto": "Ninguna es correcta.",
-                "correcta": true
+                "correcta": false
             }
         ]
     },
