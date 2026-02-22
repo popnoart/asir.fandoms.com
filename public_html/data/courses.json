@@ -156,8 +156,12 @@
         },
         "notes": {
             "ASGBD-doc": {
-                "name": "Apuntes ASGBD (doc)",
+                "name": "Apuntes ASGBD (gdoc)",
                 "link": "https://docs.google.com/document/d/1VFDbbRa5pZDAaUlfkLULicYsuIojtwhCQMkDdL4nBkc/edit?usp=sharing"
+            },
+            "ASGBD-RES-doc": {
+                "name": "Resumen ASGBD (gdoc)",
+                "link": "https://docs.google.com/document/d/1LOFGtEztsggR7ZabPOTGQFAMT-4JSGKtCxWuJcPwuOo/edit?usp=sharing"
             }
         }
     },
@@ -172,6 +176,10 @@
                 "folder_number": 1,
                 "name": "Administración de servicio de directorio (Cisco)",
                 "link": "https://drive.google.com/file/d/1Kw6Zbmpg7bTTTDhc3yN98rVPb5oKftiX/view?usp=sharing"
+            },
+            "ASO-LINUX-doc": {
+                "name": "Apuntes ASO LINUX (gdoc)",
+                "link": "https://docs.google.com/document/d/1QEuIaHtStbBaOU-TVhq_NBCaHvSyhKHUkDXKH8Lggg0/edit?usp=sharing"
             }
         },
         "resources": {},
@@ -266,15 +274,15 @@
         },
         "notes": {
             "ASO-doc": {
-                "name": "Apuntes ASO (doc)",
+                "name": "Apuntes ASO (gdoc)",
                 "link": "https://docs.google.com/document/d/16WYQLS3ME0tRhn0M9ATMOQkpus3YQHmJxIZJ2hm-zno/edit?usp=sharing"
             },
-            "ASO-LINUX-doc": {
-                "name": "Apuntes ASO LINUX (doc)",
-                "link": "https://docs.google.com/document/d/1QEuIaHtStbBaOU-TVhq_NBCaHvSyhKHUkDXKH8Lggg0/edit?usp=sharing"
+            "ASO-RES-doc": {
+                "name": "Resumen ASO (gdoc)",
+                "link": "https://docs.google.com/document/d/1Tg9XiyIoVkgZ9BXcJ7THj7fbAcgbb2pk29hseRc6Ezw/edit?usp=sharing"
             },
             "ISO-doc": {
-                "name": "Apuntes ISO 1º (doc)",
+                "name": "Apuntes ISO 1º (gdoc)",
                 "link": "https://docs.google.com/document/d/17OCPjTD8RrtwGjszGxQEVBBY1L8voe5nbZnxG1R0tKA/edit?usp=sharing"
             }
         }
@@ -290,6 +298,31 @@
                 "folder_number": 1,
                 "name": "Unidad 1. Introducción a la ciberseguridad",
                 "link": "https://drive.google.com/file/d/1XS7cuMgCVG3aYCD-GHPfR4UTGfLd8-nL/view?usp=sharing"
+            },
+            "CB-01-doc": {
+                "name": "Apuntes cortafuegos físicos (gdoc)",
+                "file": "ASA5505.docx",
+                "link": "https://docs.google.com/document/d/12HVSx2Fz_Lva6DjXolEG1t9KGy5nh_6gu1_wMHP9dQQ/edit?usp=sharing"
+            },
+            "CB-02-doc": {
+                "name": "Apuntes VPN (gdoc)",
+                "file": "VPN.pdf",
+                "link": "https://docs.google.com/document/d/15k8adQwJYA9HsRlFCNBl7ePvUb6LEc8s0x5N214mkiU/edit?usp=sharing"
+            },
+            "CB-03-doc": {
+                "name": "Apuntes seguridad por MAC (gdoc)",
+                "file": "SEGURIDAD MAC.pdf",
+                "link": "https://docs.google.com/document/d/1jz7E9k-zeVSnN-LCnHfeUKzC-6tGfBQpuExXSne_UYQ/edit?usp=sharing"
+            },
+            "CB-04-doc": {
+                "name": "Apuntes Denegar Tráfico (PROXY) (gdoc)",
+                "file": "APUNTESDENEGARTRAFICO.pdf",
+                "link": "https://docs.google.com/document/d/1533EkY-9jJqa0ouYiT4TCwtVNj5-5TpBPmL6AA69Cuo/edit?usp=sharing"
+            },
+            "CB-05-doc": {
+                "name": "Apuntes Netflow, Syslog, Sniffer (gdoc)",
+                "file": "",
+                "link": "https://docs.google.com/document/d/1_4izvTnz9wERLE305jD3IzEMdcYi_clA2c_b6jJphy8/edit?usp=sharing"
             }
         },
         "resources": {
@@ -367,33 +400,12 @@
         },
         "notes": {
             "CB-doc": {
-                "name": "Apuntes CB (doc)",
+                "name": "Apuntes CB (gdoc)",
                 "link": "https://docs.google.com/document/d/1QrXXcxet-LuwRDo9N-zgI0zli8hcgBNlDZwnR3fPaa4/edit?usp=sharing"
             },
-            "CB-01-doc": {
-                "name": "Apuntes cortafuegos físicos (doc)",
-                "file": "ASA5505.docx",
-                "link": "https://docs.google.com/document/d/12HVSx2Fz_Lva6DjXolEG1t9KGy5nh_6gu1_wMHP9dQQ/edit?usp=sharing"
-            },
-            "CB-02-doc": {
-                "name": "Apuntes VPN (doc)",
-                "file": "VPN.pdf",
-                "link": "https://docs.google.com/document/d/15k8adQwJYA9HsRlFCNBl7ePvUb6LEc8s0x5N214mkiU/edit?usp=sharing"
-            },
-            "CB-03-doc": {
-                "name": "Apuntes seguridad por MAC (doc)",
-                "file": "SEGURIDAD MAC.pdf",
-                "link": "https://docs.google.com/document/d/1jz7E9k-zeVSnN-LCnHfeUKzC-6tGfBQpuExXSne_UYQ/edit?usp=sharing"
-            },
-            "CB-04-doc": {
-                "name": "Apuntes Denegar Tráfico (PROXY) (doc)",
-                "file": "APUNTESDENEGARTRAFICO.pdf",
-                "link": "https://docs.google.com/document/d/1533EkY-9jJqa0ouYiT4TCwtVNj5-5TpBPmL6AA69Cuo/edit?usp=sharing"
-            },
-            "CB-05-doc": {
-                "name": "Apuntes Netflow, Syslog, Sniffer (doc)",
-                "file": "",
-                "link": "https://docs.google.com/document/d/1_4izvTnz9wERLE305jD3IzEMdcYi_clA2c_b6jJphy8/edit?usp=sharing"
+            "CB-RES-doc": {
+                "name": "Resumen CB (gdoc)",
+                "link": "https://docs.google.com/document/d/1PnvqAvQzD0TAS1gMMHsTAzqX4DDNKg87Lylcwoad1FQ/edit?usp=sharing"
             }
         }
     },
@@ -489,8 +501,12 @@
         },
         "notes": {
             "DAPS-doc": {
-                "name": "Apuntes DAPS (doc)",
+                "name": "Apuntes DAPS (gdoc)",
                 "link": "https://docs.google.com/document/d/1GYoO-eOPzh76NVoZX6WaHOH8gLfxFfNvw-_feuPXXck/edit?usp=sharing"
+            },
+            "DAPS-RES-doc": {
+                "name": "Resumen DAPS (gdoc)",
+                "link": "https://docs.google.com/document/d/13P6SfTkq_iRTT8VAbRx7e90BApFoUh2yv_s2kde4gds/edit?usp=sharing"
             }
         }
     },
@@ -694,8 +710,12 @@
         },
         "notes": {
             "IAW-doc": {
-                "name": "Apuntes IAW (doc)",
+                "name": "Apuntes IAW (gdoc)",
                 "link": "https://docs.google.com/document/d/1VPF808Y5k3zBbg8tPUewvFMKnqC8loSodSYEZpCntdQ/edit?usp=sharing"
+            },
+            "IAW-RES-doc": {
+                "name": "Resumen IAW (gdoc)",
+                "link": "https://docs.google.com/document/d/1y7BUEyYDKUc5TFSiRqrnEfIVtIgGJuaE6N9YmuG2-PU/edit?usp=sharing"
             }
         }
     },
@@ -773,8 +793,12 @@
         },
         "notes": {
             "IPE-doc": {
-                "name": "Apuntes IPE (doc)",
+                "name": "Apuntes IPE (gdoc)",
                 "link": "https://docs.google.com/document/d/1hV-HHRQfjabXeDla6K1usL2Rt5uitLUXn2s1JI72Xz8/edit?usp=sharing"
+            },
+            "IPE-RES-doc": {
+                "name": "Resumen IPE (gdoc)",
+                "link": "https://docs.google.com/document/d/1vMZkPXealio5N1wSHtHh9kDU3fGJ-aFTZyWfKdFdXKU/edit?usp=sharing"
             }
         }
     },
@@ -1012,8 +1036,12 @@
         },
         "notes": {
             "SAPS-doc": {
-                "name": "Apuntes SAPS (doc)",
+                "name": "Apuntes SAPS (gdoc)",
                 "link": "https://docs.google.com/document/d/1GPSXc1NUYc8ctq-ZHu6X3iXYIRUS2DuuwMpwGoO0l90/edit?usp=sharing"
+            },
+            "SAPS-RES-doc": {
+                "name": "Resumen SAPS (gdoc)",
+                "link": "https://docs.google.com/document/d/1L5hAQnFQu_h1qMBoSXfcdoS8QPkCowZ48U8Jo0UXClk/edit?usp=sharing"
             }
         }
     },
@@ -1028,6 +1056,31 @@
                 "folder_number": 2,
                 "name": "Instalación y administración de servicios de nombres de dominio (Cisco)",
                 "link": "https://drive.google.com/file/d/1tTXj5GSPJeBj5G0jhM3efP597wxXZSOx/view?usp=sharing"
+            },            
+            "SRI-AP30-24-doc": {
+                "name": "Tunnel IPv6 e IPv4 (gdoc)",
+                "file": "APUNTESTUNNELIPV6EIPV4.docx",
+                "link": "https://docs.google.com/document/d/1J6KSK4KQttlRTRwgp4wRvweKkSkQkmzifGU4Nze06pU/edit?usp=sharing"
+            },
+            "SRI-AP30-20-doc": {
+                "name": "VLAN IPv6 (gdoc)",
+                "file": "APUNTESVLANIPV6.pdf",
+                "link": "https://docs.google.com/document/d/1c97uLVAfA7e7_dA6MJdYGn5Z5MVC9kA7jxB-h6r3wlw/edit?usp=sharing"
+            },
+            "SRI-AP30-16-doc": {
+                "name": "VLAN IPv6 con telefonía (gdoc)",
+                "file": "APUNTESVLANIPV4CONTELEFONIA.pdf",
+                "link": "https://docs.google.com/document/d/17fMA46fJ8lTVFXLZOIyFU4ZvFWPQSpaBut-YW77gooM/edit?usp=sharing"
+            },
+            "SRI-IPv6_route_alias-doc": {
+                "name": "Enrutamientos IPv6 por alias (docgdoc)",
+                "file": "APUNTES ENRUTAMIENTOS ALIAS IPV6.docx",
+                "link": "https://docs.google.com/document/d/11BqdSnNxV36Veb5wwDbihH7ZWQt5zPJQnoSF9nK1sxY/edit?usp=sharing"
+            },
+            "SRI-OSPF-doc": {
+                "name": "OSPF IPv4 - IPv6 (gdoc)",
+                "file": "OSPF IPV4  IPV6.docx",
+                "link": "https://docs.google.com/document/d/10LZFzOZQ91M2FpA0bqQ7-P0l7vtJHxcaj6oYC7i4XRM/edit?usp=sharing"
             }
         },
         "tasks": {
@@ -1242,8 +1295,12 @@
         },
         "notes": {
             "SRI-doc": {
-                "name": "Apuntes SRI (doc)",
+                "name": "Apuntes SRI (gdoc)",
                 "link": "https://docs.google.com/document/d/1fqztidnHYGfsdQ1egcmHmEac8NpaEWBg6u7OqC6pQcM/edit?usp=sharing"
+            },
+            "SRI-RES-doc": {
+                "name": "Resumen SRI (gdoc)",
+                "link": "https://docs.google.com/document/d/1JBKSuTG9MRom_bcMcTiq44GImeftondUPnRHFKpTyP0/edit?usp=sharing"
             },
             "SRI-chuleta-doc": {
                 "name": "CHULETA PAR 1º",
@@ -1252,31 +1309,6 @@
             "SRI-calculadora": {
                 "name": "CALCULADORA BÄSICA",
                 "link": "https://docs.google.com/spreadsheets/d/1LTd9LyWcneUbbZXBWeUk28-lf3tMkZb32BGJ_TAG6hg/edit?usp=sharing"
-            },            
-            "SRI-AP30-24-doc": {
-                "name": "Tunnel IPv6 e IPv4 (doc)",
-                "file": "APUNTESTUNNELIPV6EIPV4.docx",
-                "link": "https://docs.google.com/document/d/1J6KSK4KQttlRTRwgp4wRvweKkSkQkmzifGU4Nze06pU/edit?usp=sharing"
-            },
-            "SRI-AP30-20-doc": {
-                "name": "VLAN IPv6 (doc)",
-                "file": "APUNTESVLANIPV6.pdf",
-                "link": "https://docs.google.com/document/d/1c97uLVAfA7e7_dA6MJdYGn5Z5MVC9kA7jxB-h6r3wlw/edit?usp=sharing"
-            },
-            "SRI-AP30-16-doc": {
-                "name": "VLAN IPv6 con telefonía (doc)",
-                "file": "APUNTESVLANIPV4CONTELEFONIA.pdf",
-                "link": "https://docs.google.com/document/d/17fMA46fJ8lTVFXLZOIyFU4ZvFWPQSpaBut-YW77gooM/edit?usp=sharing"
-            },
-            "SRI-IPv6_route_alias-doc": {
-                "name": "Enrutamientos IPv6 por alias (doc)",
-                "file": "APUNTES ENRUTAMIENTOS ALIAS IPV6.docx",
-                "link": "https://docs.google.com/document/d/11BqdSnNxV36Veb5wwDbihH7ZWQt5zPJQnoSF9nK1sxY/edit?usp=sharing"
-            },
-            "SRI-OSPF-doc": {
-                "name": "OSPF IPv4 - IPv6 (doc)",
-                "file": "OSPF IPV4  IPV6.docx",
-                "link": "https://docs.google.com/document/d/10LZFzOZQ91M2FpA0bqQ7-P0l7vtJHxcaj6oYC7i4XRM/edit?usp=sharing"
             }
         }
     },
@@ -1481,8 +1513,12 @@
         },
         "notes": {
             "TE-doc": {
-                "name": "Apuntes TE (doc)",
+                "name": "Apuntes TE (gdoc)",
                 "link": "https://docs.google.com/document/d/1sNMX-Q-9u_jSlT5Xy5Xyv47EAemb0U5YgsO0QxoG2SY/edit?usp=sharing"
+            },
+            "TE-RES-doc": {
+                "name": "Resumen TE (gdoc)",
+                "link": "https://docs.google.com/document/d/135k9m9QHj1Mz7VVH7cYhNY6haMOzIEYVeA5bedZ3KrI/edit?usp=sharing"
             }
         }
     }
