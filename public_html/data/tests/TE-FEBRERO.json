@@ -1,0 +1,527 @@
+[
+    {
+        "enunciado": "The action of generating machine-readable code from source code is called ______.",
+        "respuestas": [
+            {
+                "opcion": "A.",
+                "texto": "toggle",
+                "correcta": false
+            },
+            {
+                "opcion": "B.",
+                "texto": "debug",
+                "correcta": false
+            },
+            {
+                "opcion": "C.",
+                "texto": "override",
+                "correcta": false
+            },
+            {
+                "opcion": "D.",
+                "texto": "compile",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "By next week, the IT team ______ the software update.",
+        "respuestas": [
+            {
+                "opcion": "A.",
+                "texto": "completed",
+                "correcta": false
+            },
+            {
+                "opcion": "B.",
+                "texto": "will have completed",
+                "correcta": true
+            },
+            {
+                "opcion": "C.",
+                "texto": "will complete",
+                "correcta": false
+            },
+            {
+                "opcion": "D.",
+                "texto": "completes",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "She ______ be in the office. The lights are on.",
+        "respuestas": [
+            {
+                "opcion": "A.",
+                "texto": "can’t",
+                "correcta": false
+            },
+            {
+                "opcion": "B.",
+                "texto": "must",
+                "correcta": true
+            },
+            {
+                "opcion": "C.",
+                "texto": "shouldn’t",
+                "correcta": false
+            },
+            {
+                "opcion": "D.",
+                "texto": "wouldn’t",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "If the system crashes again, we ______ the logs immediately.",
+        "respuestas": [
+            {
+                "opcion": "A.",
+                "texto": "check",
+                "correcta": false
+            },
+            {
+                "opcion": "B.",
+                "texto": "checked",
+                "correcta": false
+            },
+            {
+                "opcion": "C.",
+                "texto": "will check",
+                "correcta": true
+            },
+            {
+                "opcion": "D.",
+                "texto": "would check",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "A symbol used to follow the value of a variable during execution is called a ______.",
+        "respuestas": [
+            {
+                "opcion": "A.",
+                "texto": "build",
+                "correcta": false
+            },
+            {
+                "opcion": "B.",
+                "texto": "watchpoint",
+                "correcta": true
+            },
+            {
+                "opcion": "C.",
+                "texto": "breakpoint",
+                "correcta": false
+            },
+            {
+                "opcion": "D.",
+                "texto": "override",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "The action of enabling or disabling a feature is called ______.",
+        "respuestas": [
+            {
+                "opcion": "A.",
+                "texto": "compile",
+                "correcta": false
+            },
+            {
+                "opcion": "B.",
+                "texto": "shift",
+                "correcta": false
+            },
+            {
+                "opcion": "C.",
+                "texto": "debug",
+                "correcta": false
+            },
+            {
+                "opcion": "D.",
+                "texto": "toggle",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "This laptop is ______ than the previous model.",
+        "respuestas": [
+            {
+                "opcion": "A.",
+                "texto": "fastest",
+                "correcta": false
+            },
+            {
+                "opcion": "B.",
+                "texto": "very fast",
+                "correcta": false
+            },
+            {
+                "opcion": "C.",
+                "texto": "faster",
+                "correcta": true
+            },
+            {
+                "opcion": "D.",
+                "texto": "more fast",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "She is the ______ efficient employee in the department.",
+        "respuestas": [
+            {
+                "opcion": "A.",
+                "texto": "more",
+                "correcta": false
+            },
+            {
+                "opcion": "B.",
+                "texto": "much",
+                "correcta": false
+            },
+            {
+                "opcion": "C.",
+                "texto": "most",
+                "correcta": true
+            },
+            {
+                "opcion": "D.",
+                "texto": "very",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "The file isn’t in the folder. You ______ deleted it by mistake.",
+        "respuestas": [
+            {
+                "opcion": "A.",
+                "texto": "can",
+                "correcta": false
+            },
+            {
+                "opcion": "B.",
+                "texto": "should",
+                "correcta": false
+            },
+            {
+                "opcion": "C.",
+                "texto": "must have",
+                "correcta": true
+            },
+            {
+                "opcion": "D.",
+                "texto": "must",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "The programs that run on a computer are called ______.",
+        "respuestas": [
+            {
+                "opcion": "A.",
+                "texto": "software",
+                "correcta": true
+            },
+            {
+                "opcion": "B.",
+                "texto": "hardware",
+                "correcta": false
+            },
+            {
+                "opcion": "C.",
+                "texto": "router",
+                "correcta": false
+            },
+            {
+                "opcion": "D.",
+                "texto": "keyboard",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "You ______ use a strong password to protect your account.",
+        "respuestas": [
+            {
+                "opcion": "A.",
+                "texto": "must",
+                "correcta": true
+            },
+            {
+                "opcion": "B.",
+                "texto": "may",
+                "correcta": false
+            },
+            {
+                "opcion": "C.",
+                "texto": "might",
+                "correcta": false
+            },
+            {
+                "opcion": "D.",
+                "texto": "can",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Students ______ wear a uniform at that school. It’s mandatory.",
+        "respuestas": [
+            {
+                "opcion": "A.",
+                "texto": "could",
+                "correcta": false
+            },
+            {
+                "opcion": "B.",
+                "texto": "might",
+                "correcta": false
+            },
+            {
+                "opcion": "C.",
+                "texto": "have to",
+                "correcta": true
+            },
+            {
+                "opcion": "D.",
+                "texto": "needn’t",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "If they had driven more carefully, they ______ the accident.",
+        "respuestas": [
+            {
+                "opcion": "A.",
+                "texto": "would have avoided",
+                "correcta": true
+            },
+            {
+                "opcion": "B.",
+                "texto": "would avoid",
+                "correcta": false
+            },
+            {
+                "opcion": "C.",
+                "texto": "will avoid",
+                "correcta": false
+            },
+            {
+                "opcion": "D.",
+                "texto": "avoid",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "A temporary stop added in program execution to check behaviour is called a ______.",
+        "respuestas": [
+            {
+                "opcion": "A.",
+                "texto": "breakpoint",
+                "correcta": true
+            },
+            {
+                "opcion": "B.",
+                "texto": "shift",
+                "correcta": false
+            },
+            {
+                "opcion": "C.",
+                "texto": "getter",
+                "correcta": false
+            },
+            {
+                "opcion": "D.",
+                "texto": "build",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "A program used to browse and access information on the Internet is a ______.",
+        "respuestas": [
+            {
+                "opcion": "A.",
+                "texto": "motherboard",
+                "correcta": false
+            },
+            {
+                "opcion": "B.",
+                "texto": "operating system",
+                "correcta": false
+            },
+            {
+                "opcion": "C.",
+                "texto": "web browser",
+                "correcta": true
+            },
+            {
+                "opcion": "D.",
+                "texto": "antivirus",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "At this time tomorrow, we ______ the new features.",
+        "respuestas": [
+            {
+                "opcion": "A.",
+                "texto": "test",
+                "correcta": false
+            },
+            {
+                "opcion": "B.",
+                "texto": "will test",
+                "correcta": false
+            },
+            {
+                "opcion": "C.",
+                "texto": "tested",
+                "correcta": false
+            },
+            {
+                "opcion": "D.",
+                "texto": "will be testing",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "A small portable storage device that connects to a USB port is a ______.",
+        "respuestas": [
+            {
+                "opcion": "A.",
+                "texto": "flash drive",
+                "correcta": true
+            },
+            {
+                "opcion": "B.",
+                "texto": "modem",
+                "correcta": false
+            },
+            {
+                "opcion": "C.",
+                "texto": "CPU",
+                "correcta": false
+            },
+            {
+                "opcion": "D.",
+                "texto": "routerboard",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "The global network that connects computers is the ______.",
+        "respuestas": [
+            {
+                "opcion": "A.",
+                "texto": "CPU",
+                "correcta": false
+            },
+            {
+                "opcion": "B.",
+                "texto": "Internet",
+                "correcta": true
+            },
+            {
+                "opcion": "C.",
+                "texto": "motherboard",
+                "correcta": false
+            },
+            {
+                "opcion": "D.",
+                "texto": "database",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "The part of a computer that shows images and text is called a ______.",
+        "respuestas": [
+            {
+                "opcion": "A.",
+                "texto": "modem",
+                "correcta": false
+            },
+            {
+                "opcion": "B.",
+                "texto": "monitor",
+                "correcta": true
+            },
+            {
+                "opcion": "C.",
+                "texto": "mouse",
+                "correcta": false
+            },
+            {
+                "opcion": "D.",
+                "texto": "motherboard",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "If I ______ more time, I would learn another programming language.",
+        "respuestas": [
+            {
+                "opcion": "A.",
+                "texto": "have",
+                "correcta": false
+            },
+            {
+                "opcion": "B.",
+                "texto": "had",
+                "correcta": true
+            },
+            {
+                "opcion": "C.",
+                "texto": "had had",
+                "correcta": false
+            },
+            {
+                "opcion": "D.",
+                "texto": "will have",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Dunia forma parte del comité de Seguridad y Salud, determina la opción que no es correcta sobre el mismo:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Lo forman los delegados de personal y el empresarios o sus representantes en igual número que los delegados de prevención",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Lo forman los delegados de personal y el empresario o sus representantes en número impar de miembros para que en las votaciones se asegure siempre un acuerdo.",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "puede existir un Comité intercentros para las empresas con varios centros de trabajo.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Es un órgano colegiado y paritario.",
+                "correcta": false
+            }
+        ]
+    }
+]
