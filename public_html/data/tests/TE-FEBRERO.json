@@ -498,30 +498,5 @@
                 "correcta": false
             }
         ]
-    },
-    {
-        "enunciado": "Dunia forma parte del comité de Seguridad y Salud, determina la opción que no es correcta sobre el mismo:",
-        "respuestas": [
-            {
-                "opcion": "a.",
-                "texto": "Lo forman los delegados de personal y el empresarios o sus representantes en igual número que los delegados de prevención",
-                "correcta": false
-            },
-            {
-                "opcion": "b.",
-                "texto": "Lo forman los delegados de personal y el empresario o sus representantes en número impar de miembros para que en las votaciones se asegure siempre un acuerdo.",
-                "correcta": true
-            },
-            {
-                "opcion": "c.",
-                "texto": "puede existir un Comité intercentros para las empresas con varios centros de trabajo.",
-                "correcta": false
-            },
-            {
-                "opcion": "d.",
-                "texto": "Es un órgano colegiado y paritario.",
-                "correcta": false
-            }
-        ]
     }
 ]
