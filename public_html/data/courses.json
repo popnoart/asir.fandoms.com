@@ -477,6 +477,18 @@
                 "start": "07-12-2025 19:00",
                 "end": "29-12-2025 23:59",
                 "name": "ACTIVIDAD COMPLEMENTARIA TEMA 3. LA NUBE DE GOOGLE"
+            },
+            "45881": {
+                "type": "Obligatoria",
+                "start": "23-02-2026 00:00",
+                "end": "09-03-2026 23:59",
+                "name": "ACTIVIDAD OBLIGATORIA TEMA 4. HERRAMIENTAS DIGITALES"
+            },
+            "45879": {
+                "type": "Complementaria",
+                "start": "23-02-2026 00:00",
+                "end": "09-03-2026 23:59",
+                "name": "ACTIVIDAD COMPLEMENTARIA TEMA 4. HERRAMIENTAS DIGITALES"
             }
         },
         "tests": {
@@ -497,6 +509,24 @@
                 "start": "",
                 "end": "",
                 "name": "EXAMEN ENERO"
+            },
+            "45877": {
+                "type": "Cuestionario",
+                "start": "",
+                "end": "",
+                "name": "CUESTIONARIO UNIDAD 2. THD"
+            },
+            "45876": {
+                "type": "Cuestionario",
+                "start": "",
+                "end": "",
+                "name": "CUESTIONARIO UNIDAD 3. LA NUBE"
+            },
+            "45882": {
+                "type": "Cuestionario",
+                "start": "",
+                "end": "",
+                "name": "TEST 4. HERRAMIENTAS DIGITALES"
             }
         },
         "notes": {
@@ -1032,6 +1062,12 @@
                 "start": "",
                 "end": "",
                 "name": "EXAMEN ENERO"
+            },
+            "45875": {
+                "type": "Cuestionario",
+                "start": "",
+                "end": "",
+                "name": "CUESTIONARIO UNIDAD 2. CONTRIBUCIÓN DE LAS EMPRESAS CON EL DESARROLLO SOSTENIBLE"
             }
         },
         "notes": {
