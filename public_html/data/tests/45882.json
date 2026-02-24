@@ -1,0 +1,252 @@
+[
+    {
+        "enunciado": "¿Qué apartado debe aparecer al inicio de un videocurrículum?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Habilidades",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Presentación personal",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Formación académica",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Experiencia laboral",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál de los siguientes NO es un apartado del portfolio digital?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Sobre mí",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Opiniones personales",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Conocimientos",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Actividades y proyectos",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál es la finalidad principal de un portfolio digital?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Mostrar trabajos, proyectos y logros",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Sustituir el correo electrónico",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Guardar archivos personales",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Crear presentaciones animadas",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué se entiende por identidad digital en el ámbito profesional?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "El número de redes sociales que usamos",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "El diseño de una página web",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "La imagen que proyectamos en entornos digitales",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "El uso exclusivo del correo electrónico",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué característica diferencia principalmente al videocurrículum del CV tradicional?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "El uso obligatorio de imágenes",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "La ausencia de datos personales",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Su formato en vídeo",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Su extensión",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué se recomienda añadir para complementar el discurso del videocurrículum?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Efectos especiales",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Fotos relacionadas con el contenido",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Música constante",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Texto largo en pantalla",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál es el formato más tradicional para presentar una candidatura laboral?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Portfolio digital",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Videocurrículum",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Presentación interactiva",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Currículum vitae",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál es la duración aproximada recomendada para un videocurrículum?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "2 minutos",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "1 minuto",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "30 segundos",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "5 minutos",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuántos apartados clave tiene el portfolio digital explicado en el tema?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "3",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "4",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "6",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "5",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué elemento permite transmitir comunicación no verbal en un videocurrículum?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "El texto escrito",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "La estructura del CV",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "El tono y el lenguaje corporal",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "El número de páginas",
+                "correcta": false
+            }
+        ]
+    }
+]

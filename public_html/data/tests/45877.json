@@ -1,0 +1,252 @@
+[
+    {
+        "enunciado": "¿Cuál es un ejemplo de aplicación del Internet de las Cosas (IoT)?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Robots industriales",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Relojes inteligentes",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Gafas de realidad virtual",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Impresoras 3D",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué caracteriza principalmente a la cuarta revolución industrial?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "La conectividad y automatización",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "El auge de la electricidad",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "La invención de la máquina de vapor",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "La producción en cadena",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué tecnología combina el mundo físico con el digital mediante sensores?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Internet de las Cosas",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Big Data",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Robótica avanzada",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Sistemas ciberfísicos",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué tecnología permite crear objetos físicos a partir de un diseño digital?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Realidad virtual",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Inteligencia artificial",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Manufactura 3D",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Big Data",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué permiten los sistemas ciberfísicos en una fábrica?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Controlar redes sociales",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Comunicación entre humanos",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Crear productos físicos",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Ajustar la producción en tiempo real",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué THD permite analizar grandes volúmenes de datos para extraer información útil?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Realidad aumentada",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Ciberseguridad",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Robótica avanzada",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Big Data",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué elemento es fundamental en la Inteligencia Artificial?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Conectores eléctricos",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Tubos de vacío",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Impresoras",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Algoritmos",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál de las siguientes opciones no pertenece a las Tecnologías Habilitadoras Digitales?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Energía nuclear",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Internet de las cosas",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Robótica avanzada",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Big Data",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué término se refiere al almacenamiento y uso de programas a través de Internet sin instalarlos localmente?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Blockchain",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Big Data",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "La nube",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Ciberseguridad",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Quién inventó la máquina de vapor que impulsó la primera revolución industrial?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Henry Ford",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "James Watt",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Isaac Newton",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Nikola Tesla",
+                "correcta": false
+            }
+        ]
+    }
+]

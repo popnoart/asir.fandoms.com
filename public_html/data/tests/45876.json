@@ -1,0 +1,252 @@
+[
+    {
+        "enunciado": "¿Cuál de las siguientes aplicaciones pertenece a la nube de Google?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Zoom",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "iCloud",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Google Drive",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "OneDrive",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué ventaja ofrece la nube frente al almacenamiento local?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Acceso desde cualquier lugar",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Aumento del consumo energético",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Menor seguridad",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Necesidad de mantenimiento continuo",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué servicio corresponde al modelo SaaS?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Heroku",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Google App Engine",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Gmail",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Amazon Web Services",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué es el fog computing?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Procesamiento en el dispositivo final",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Procesamiento en la nube central",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Almacenamiento en servidores globales",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Capa intermedia entre dispositivos y la nube",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué se necesita para acceder a los servicios en la nube?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Una cuenta de acceso y conexión a internet",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Un disco duro externo",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Solo un ordenador",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Un programa especial",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Una característica de Google Docs es:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Traducción automática",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Almacenamiento ilimitado de fotos",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Edición en tiempo real",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Envío masivo de correos",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué tipo de servicio permite crear hojas de cálculo en línea?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Google Keep",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Google Meet",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Google Sheets",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Google Forms",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué ejemplo corresponde al PaaS?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Canva",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Google App Engine",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Dropbox",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Google Cloud",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál de las siguientes es una función principal de la nube?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Optimizar el hardware del PC",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Guardar archivos y datos en servidores remotos",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Incrementar la memoria RAM",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Desfragmentar el disco duro",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "En el modelo IaaS, la nube te proporciona:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Aplicaciones de ofimática",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Infraestructura: servidores y redes",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Formularios y encuestas",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Programas listos para usar",
+                "correcta": false
+            }
+        ]
+    }
+]
