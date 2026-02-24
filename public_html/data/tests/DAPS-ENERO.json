@@ -30,7 +30,7 @@
             {
                 "opcion": "a.",
                 "texto": "Que haya un sistema que mande mensajes automáticos para recordar que los clientes tienen que pagar. Este mismo ejemplo, si nos referimos al formato, de las cartas a los mensajes automáticos, sería digitalización.",
-                "correcta": true
+                "correcta": false
             },
             {
                 "opcion": "b.",
@@ -40,7 +40,7 @@
             {
                 "opcion": "c.",
                 "texto": "Las nóminas de los trabajadores no se realizan a mano sino digitalmente a través de app",
-                "correcta": false
+                "correcta": true
             },
             {
                 "opcion": "d.",

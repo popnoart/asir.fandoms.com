@@ -512,6 +512,12 @@
                 "start": "",
                 "end": "",
                 "name": "TEST 4. HERRAMIENTAS DIGITALES"
+            },
+            "DAPS-FEBRERO": {
+                "type": "Cuestionario",
+                "start": "",
+                "end": "",
+                "name": "AUTOEVALUACIÓN FEBRERO"
             }
         },
         "notes": {

@@ -1,0 +1,502 @@
+[
+    {
+        "enunciado": "¿Qué permiten los sistemas ciberfísicos en el desarrollo de productos y servicios?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Fabricar solo productos manuales",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Sustituir completamente a la informática",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Integrar el mundo físico y digital para procesos más inteligentes",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Eliminar la necesidad de sensores",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál es una ventaja clave de las THD en los entornos IT y OT?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Aumentan la desconexión entre sistemas",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Evitan el uso de datos",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Dificultan la toma de decisiones",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Mejoran la conectividad, la seguridad y la optimización de procesos",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué es la computación en la nube?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Un lugar en Internet donde se guardan datos y se usan aplicaciones sin instalarlas",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Un programa que limpia archivos del PC",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Un tipo de memoria RAM",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Un disco duro externo conectado al ordenador",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál de las siguientes NO es una función de la nube?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Guardar archivos",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Colaborar en tiempo real",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Usar programas sin instalarlos",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Enviar USB automáticamente",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué ventaja principal ofrece la nube?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Solo funciona sin internet",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Copias de seguridad automáticas",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Mayor consumo de espacio en el dispositivo",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "No permite trabajar en grupo",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué aplicación de Google sirve para almacenar archivos?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Google Slides",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Google Docs",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Google Drive",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Google Meet",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué aplicación permite crear documentos de texto colaborativos?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Google Docs",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Google Photos",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Google Forms",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Google Sheets",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué es el fog computing?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Procesar datos directamente en el sensor",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Procesar datos únicamente en la nube",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Un router doméstico",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Una capa intermedia que procesa datos cerca de donde se generan",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Dónde se procesan los datos en el mist computing?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "En dispositivos muy pequeños como sensores",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "En grandes centros de datos lejanos",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "En servidores de Google exclusivamente",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "En routers o dispositivos más potentes",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué caracteriza al edge computing según el documento?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Procesamiento en un dispositivo grande cercano, como un router",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Procesamiento en discos duros externos",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Procesamiento solo en la nube",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Procesamiento exclusivamente en sensores",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué nivel de la nube ofrece aplicaciones ya listas para usar?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "IaaS",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "PaaS",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "SaaS",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "NaaS",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué ventaja clave aporta el IoT en la industria?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Elimina el uso de sensores en los dispositivos",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Genera datos en tiempo real que permiten mantenimiento predictivo",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Reduce la necesidad de conectividad",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Permite desconectar máquinas para ahorrar energía",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál es un ejemplo real de PaaS mencionado en el temario?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Dropbox",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Google App Engine",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Gmail",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Google Photos",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué aporta la robótica avanzada en el desarrollo de productos y servicios?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Aumenta la cantidad de errores en la producción",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Sustituye solo las tareas humanas básicas",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Permite fabricar productos con mayor precisión y rapidez",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Funciona sin sensores ni software",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál es una aplicación directa de la inteligencia artificial en los servicios digitales?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Sustituir completamente a los médicos",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Reducir el uso de datos",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Recomendaciones personalizadas en plataformas online",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Crear máquinas sin algoritmos",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué ventaja de la impresión 3D favorece la innovación en múltiples sectores?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Requiere grandes cantidades de recursos",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Crear piezas personalizadas usando solo material necesario",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "No permite fabricar prototipos",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Producir objetos solo en serie",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué permite la computación en la nube en el desarrollo digital?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Almacenar datos solo en dispositivos físicos",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Trabajar desde cualquier lugar sin depender de un equipo concreto",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Limitar el acceso a la información",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Evitar el uso de internet",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cómo contribuye el Big Data a los productos y servicios?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Evita el conocimiento del cliente",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Permite predecir demandas y personalizar servicios",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Conduce a decisiones aleatorias",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Analiza pequeños volúmenes de datos",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué beneficio aporta la realidad aumentada en el ámbito comercial?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "No puede aplicarse al diseño",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Es incompatible con smartphones",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Obliga al cliente a desplazarse a la tienda",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Permite visualizar productos en un entorno real antes de comprar",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál es un sector impulsado por las nuevas tecnologías según el texto?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Agricultura exclusivamente manual",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Producción basada en papel",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Fabricación sin automatización",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Mercado de asistentes virtuales y chatbots",
+                "correcta": true
+            }
+        ]
+    }
+]
