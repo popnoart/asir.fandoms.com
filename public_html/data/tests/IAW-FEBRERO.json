@@ -1,0 +1,507 @@
+[
+  {
+    "enunciado": "¿Cuál es la extensión de un documento de JavaScript?",
+    "respuestas": [
+      {
+        "opcion": "a.",
+        "texto": "html",
+        "correcta": false
+      },
+      {
+        "opcion": "b.",
+        "texto": "xml",
+        "correcta": false
+      },
+      {
+        "opcion": "c.",
+        "texto": "CSS",
+        "correcta": false
+      },
+      {
+        "opcion": "d.",
+        "texto": "js",
+        "correcta": true
+      }
+    ]
+  },
+  {
+    "enunciado": "¿Qué claúsula se utiliza para crear una variable?",
+    "respuestas": [
+      {
+        "opcion": "a.",
+        "texto": "let",
+        "correcta": true
+      },
+      {
+        "opcion": "b.",
+        "texto": "$",
+        "correcta": false
+      },
+      {
+        "opcion": "c.",
+        "texto": "def",
+        "correcta": false
+      },
+      {
+        "opcion": "d.",
+        "texto": "function",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "enunciado": "¿Cuándo creamos una variable en js se especifica el tipo de datos?",
+    "respuestas": [
+      {
+        "opcion": "a.",
+        "texto": "si, es obligatorio",
+        "correcta": false
+      },
+      {
+        "opcion": "b.",
+        "texto": "Si, pero solo cuando se usan funciones",
+        "correcta": false
+      },
+      {
+        "opcion": "c.",
+        "texto": "Siempre hay que declarar el tipo de datos",
+        "correcta": false
+      },
+      {
+        "opcion": "d.",
+        "texto": "no, hace conversión implícita",
+        "correcta": true
+      }
+    ]
+  },
+  {
+    "enunciado": "¿Cuál es la sintaxis de un bucle for?",
+    "respuestas": [
+      {
+        "opcion": "a.",
+        "texto": "for(def i=0;i<10;i++) {}",
+        "correcta": false
+      },
+      {
+        "opcion": "b.",
+        "texto": "for(let i=0;i<10;i++) {}",
+        "correcta": true
+      },
+      {
+        "opcion": "c.",
+        "texto": "while(let cont==0){}",
+        "correcta": false
+      },
+      {
+        "opcion": "d.",
+        "texto": "for( i=0;i<10;i++) {}",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "enunciado": "Un documento de js:",
+    "respuestas": [
+      {
+        "opcion": "a.",
+        "texto": "Necesita un archivo html que lo incruste",
+        "correcta": true
+      },
+      {
+        "opcion": "b.",
+        "texto": "No necesita un archivo HTML",
+        "correcta": false
+      },
+      {
+        "opcion": "c.",
+        "texto": "Es obligatorio crear un css para su visualización completa",
+        "correcta": false
+      },
+      {
+        "opcion": "d.",
+        "texto": "Necesita un documento php Para animar un elemento en el tiempo",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "enunciado": "Un bucle while se caracteriza por:",
+    "respuestas": [
+      {
+        "opcion": "a.",
+        "texto": "Puede que nuca se entre en el bucle",
+        "correcta": true
+      },
+      {
+        "opcion": "b.",
+        "texto": "No es un tipo de bucle en js",
+        "correcta": false
+      },
+      {
+        "opcion": "c.",
+        "texto": "Por el número de vueltas que se ejecuta el código",
+        "correcta": false
+      },
+      {
+        "opcion": "d.",
+        "texto": "Es un tipo de función",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "enunciado": "Una función que devuelve valores, necesita declarar:",
+    "respuestas": [
+      {
+        "opcion": "a.",
+        "texto": "parámetros de entrada y salida",
+        "correcta": false
+      },
+      {
+        "opcion": "b.",
+        "texto": "parámetros de salida",
+        "correcta": true
+      },
+      {
+        "opcion": "c.",
+        "texto": "Necesita variables locales",
+        "correcta": false
+      },
+      {
+        "opcion": "d.",
+        "texto": "parámetros de entrada sindicación",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "enunciado": "Una función que recibe valores:",
+    "respuestas": [
+      {
+        "opcion": "a.",
+        "texto": "Necesitamos declarar parámetros de entrada y de salida",
+        "correcta": false
+      },
+      {
+        "opcion": "b.",
+        "texto": "Necesitamos declarar parámetros de salida Mostrar un elemento con un diseño en línea",
+        "correcta": false
+      },
+      {
+        "opcion": "c.",
+        "texto": "Necesitamos declarar parámetros de entrada",
+        "correcta": true
+      },
+      {
+        "opcion": "d.",
+        "texto": "Necesitamos declarar variables locales",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "enunciado": "JavaScript es un lenguaje",
+    "respuestas": [
+      {
+        "opcion": "a.",
+        "texto": "Utiliza lenguaje SQL",
+        "correcta": false
+      },
+      {
+        "opcion": "b.",
+        "texto": "Orientado a eventos",
+        "correcta": false
+      },
+      {
+        "opcion": "c.",
+        "texto": "Orientado a objetos",
+        "correcta": false
+      },
+      {
+        "opcion": "d.",
+        "texto": "Orientado a objetos y eventos",
+        "correcta": true
+      }
+    ]
+  },
+  {
+    "enunciado": "¿Qué hace document.getElementById(\"titulo\")?",
+    "respuestas": [
+      {
+        "opcion": "a.",
+        "texto": "Cambia el texto del elemento \"titulo\"",
+        "correcta": false
+      },
+      {
+        "opcion": "b.",
+        "texto": "Devuelve el primer elemento con id \"titulo\"",
+        "correcta": true
+      },
+      {
+        "opcion": "c.",
+        "texto": "Devuelve todos los elementos con clase \"titulo\"",
+        "correcta": false
+      },
+      {
+        "opcion": "d.",
+        "texto": "Crea un elemento nuevo con id \"titulo\"",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "enunciado": "¿Qué ocurre si el id no existe en el HTML?",
+    "respuestas": [
+      {
+        "opcion": "a.",
+        "texto": "Devuelve un array vacio",
+        "correcta": false
+      },
+      {
+        "opcion": "b.",
+        "texto": "Da error automáticamente",
+        "correcta": false
+      },
+      {
+        "opcion": "c.",
+        "texto": "Devuelve null",
+        "correcta": true
+      },
+      {
+        "opcion": "d.",
+        "texto": "Devuelve false",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "enunciado": "¿Cuál es la forma correcta de cambiar el texto de un elemento con id \"mensaje\"?",
+    "respuestas": [
+      {
+        "opcion": "a.",
+        "texto": "document.getElementById(\"mensaje\").attribute = \"Hola\";",
+        "correcta": false
+      },
+      {
+        "opcion": "b.",
+        "texto": "document.getElementById(\"mensaje\").innerHTML = \"Hola\";",
+        "correcta": true
+      },
+      {
+        "opcion": "c.",
+        "texto": "document.getElementById(\"mensaje\").text = \"Hola\";",
+        "correcta": false
+      },
+      {
+        "opcion": "d.",
+        "texto": "document.getElementById(\"mensaje\").value = \"Hola\";",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "enunciado": "¿Qué hace el método setAttribute()?",
+    "respuestas": [
+      {
+        "opcion": "a.",
+        "texto": "Cambia el id de un elemento automáticamente",
+        "correcta": false
+      },
+      {
+        "opcion": "b.",
+        "texto": "Elimina un atributo de un elemento",
+        "correcta": false
+      },
+      {
+        "opcion": "c.",
+        "texto": "Crea un nuevo elemento HTML",
+        "correcta": false
+      },
+      {
+        "opcion": "d.",
+        "texto": "Añade o modifica un atributo en un elemento",
+        "correcta": true
+      }
+    ]
+  },
+  {
+    "enunciado": "¿Cuál es un ejemplo correcto de setAttribute() para cambiar la imagen?",
+    "respuestas": [
+      {
+        "opcion": "a.",
+        "texto": "img.setAttribute(\"src\", \"foto.jpg\");",
+        "correcta": true
+      },
+      {
+        "opcion": "b.",
+        "texto": "img.setAttribute(\"foto.jpg\", \"src\");",
+        "correcta": false
+      },
+      {
+        "opcion": "c.",
+        "texto": "img.setAttribute(src = \"foto.jpg\");",
+        "correcta": false
+      },
+      {
+        "opcion": "d.",
+        "texto": "img.setAttribute(\"img\", \"foto.jpg\");",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "enunciado": "¿Cuál es la forma correcta de crear un objeto en JavaScript?",
+    "respuestas": [
+      {
+        "opcion": "a.",
+        "texto": "let persona = {\"nombre\": \"Ana\", \"edad\": 20};",
+        "correcta": true
+      },
+      {
+        "opcion": "b.",
+        "texto": "let persona = [\"nombre\" = \"Ana\", \"edad\" = 20];",
+        "correcta": false
+      },
+      {
+        "opcion": "c.",
+        "texto": "let persona = <nombre=\"Ana\" edad=\"20\">;",
+        "correcta": false
+      },
+      {
+        "opcion": "d.",
+        "texto": "static",
+        "correcta": false
+      },
+      {
+        "opcion": "e.",
+        "texto": "let persona = (nombre: \"Ana\", edad: 20);",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "enunciado": "¿Cómo se accede correctamente a la propiedad edad del objeto persona?",
+    "respuestas": [
+      {
+        "opcion": "a.",
+        "texto": "persona:edad",
+        "correcta": false
+      },
+      {
+        "opcion": "b.",
+        "texto": "persona::edad",
+        "correcta": false
+      },
+      {
+        "opcion": "c.",
+        "texto": "persona.edad",
+        "correcta": true
+      },
+      {
+        "opcion": "d.",
+        "texto": "persona[edad]",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "enunciado": "¿Qué devuelve este código? let persona = { nombre: \"Luis\", edad: 30 }; console.log(persona[\"nombre\"]);",
+    "respuestas": [
+      {
+        "opcion": "a.",
+        "texto": "persona.nombre",
+        "correcta": false
+      },
+      {
+        "opcion": "b.",
+        "texto": "\"Luis\"",
+        "correcta": true
+      },
+      {
+        "opcion": "c.",
+        "texto": "30",
+        "correcta": false
+      },
+      {
+        "opcion": "d.",
+        "texto": "undefined",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "enunciado": "¿Cuál es la forma correcta de añadir valor a una nueva propiedad a un objeto?",
+    "respuestas": [
+      {
+        "opcion": "a.",
+        "texto": "ersona.add(\"altura\", 180);",
+        "correcta": false
+      },
+      {
+        "opcion": "b.",
+        "texto": "persona.setAttribute(\"altura\", 180);",
+        "correcta": false
+      },
+      {
+        "opcion": "c.",
+        "texto": "persona(\"altura\") = 180;",
+        "correcta": false
+      },
+      {
+        "opcion": "d.",
+        "texto": "persona.altura = 180;",
+        "correcta": true
+      }
+    ]
+  },
+  {
+    "enunciado": "¿Qué es un nodo en JavaScript (DOM)?",
+    "respuestas": [
+      {
+        "opcion": "a.",
+        "texto": "Un tipo de variable especial",
+        "correcta": false
+      },
+      {
+        "opcion": "b.",
+        "texto": "Un atributo del navegador",
+        "correcta": false
+      },
+      {
+        "opcion": "c.",
+        "texto": "Un método para crear clases",
+        "correcta": false
+      },
+      {
+        "opcion": "d.",
+        "texto": "Cada elemento, texto o comentario dentro del árbol HTML",
+        "correcta": true
+      }
+    ]
+  },
+  {
+    "enunciado": "¿Qué método se usa para crear un nuevo nodo elemento en el DOM?",
+    "respuestas": [
+      {
+        "opcion": "a.",
+        "texto": "document.addElement(\"div\")",
+        "correcta": false
+      },
+      {
+        "opcion": "b.",
+        "texto": "document.createElement(\"div\")",
+        "correcta": true
+      },
+      {
+        "opcion": "c.",
+        "texto": "document.createNode(\"div\")",
+        "correcta": false
+      },
+      {
+        "opcion": "d.",
+        "texto": "document.newElement(\"div\")",
+        "correcta": false
+      }
+    ]
+  }
+]

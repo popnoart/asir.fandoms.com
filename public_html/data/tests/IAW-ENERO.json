@@ -350,7 +350,7 @@
         ]
     },
     {
-        "enunciado": "¿Qué puede pasar en un bucle for?",
+        "enunciado": "¿Qué puede pasar en un bucle for? (Sin confirmar) IAs dicen que todo mal",
         "respuestas": [
             {
                 "opcion": "a.",
@@ -360,7 +360,7 @@
             {
                 "opcion": "b.",
                 "texto": "Por lo menos se ejecuta una vez",
-                "correcta": false
+                "correcta": true
             },
             {
                 "opcion": "c.",
@@ -370,7 +370,7 @@
             {
                 "opcion": "d.",
                 "texto": "Siempre se ejecuta varias veces",
-                "correcta": true
+                "correcta": false
             }
         ]
     },
