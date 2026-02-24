@@ -1,0 +1,502 @@
+[
+    {
+        "enunciado": "¿Cuál es la primera etapa del ciclo de vida del producto?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Introducción",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Madurez",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Crecimiento",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Declive",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Según el documento, reciclar aluminio permite ahorrar aproximadamente…",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "50% de la energía",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "10% de la energía",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "25% de la energía",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "95% de la energía",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál es la diferencia principal entre sostenibilidad y desarrollo sostenible?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "El desarrollo sostenible es más amplio e integra economía, medio ambiente y bienestar social.",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "La sostenibilidad incluye aspectos económicos, el desarrollo sostenible no.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "El desarrollo sostenible excluye las generaciones futuras.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "La sostenibilidad solo se aplica a las empresas.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué documento introdujo por primera vez el concepto moderno de desarrollo sostenible?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Pacto Mundial",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Agenda 2030",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Cumbre de París",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Informe Brundtland",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál es el objetivo principal del Acuerdo de París (2016)?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Regular el comercio mundial",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Proteger la biodiversidad marina",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Financiar proyectos sociales",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Limitar el calentamiento global y reducir emisiones",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué significan las siglas ASG en el ámbito empresarial?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Aprovechamiento, Sostenibilidad y Gobierno",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Ambientales, Sociales y de Gobernanza",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Actividad, Seguridad y Gestión",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Ambiente, Sociedad y Gestión",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál de los siguientes es un criterio SOCIAL dentro de los ASG?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Políticas de igualdad y diversidad",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Reducción de emisiones",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Gestión ética de compras",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Transparencia en decisiones",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Las empresas que aplican criterios ASG…",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Eliminan la necesidad de auditorías",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Dificultan la conciliación de los empleados",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Mejoran su imagen corporativa y reducen costes",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Corren más riesgos legales",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál de las 5 P del desarrollo sostenible se relaciona con alianzas internacionales?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Paz",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Personas",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Partenariado (Alianzas)",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Prosperidad",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Quiénes son los stakeholders de una empresa?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Solo clientes y proveedores",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Solo los propietarios",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Únicamente los trabajadores",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Personas o grupos afectados por decisiones de la empresa",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué tipo de inversión financia exclusivamente proyectos que ayudan al medioambiente?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Capital de riesgo social",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Fondos tradicionales",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Préstamos ordinarios",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Bonos verdes",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "En la fase de introducción, ¿qué acción está relacionada con la sostenibilidad?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Retirar el producto del mercado",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Aumentar la obsolescencia programada",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Diseñar envases ecológicos y reciclables",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Reducir la producción para evitar excedentes",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál de los siguientes es un indicador clave de sostenibilidad?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Nivel de ventas internacionales",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Número de productos en catálogo",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Consumo de energía y agua",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Coste de marketing",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué característica define la fase de crecimiento del ciclo de vida?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Fin del producto en el mercado",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Estabilización de ventas",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Aumento de la demanda",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Reducción de la demanda",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué objetivo principal tiene la fase de madurez?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Dar a conocer el producto",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Mantener la demanda estable y diferenciarse",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Retirar el producto del mercado",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Eliminar los residuos generados",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "En la fase de declive, una estrategia sostenible correcta es…",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Destruir los excedentes para liberar inventario",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Reciclar componentes para fabricar nuevos productos",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Aumentar la extracción de materias primas",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Incrementar el gasto publicitario",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué criterio de sostenibilidad busca minimizar el consumo energético durante la fabricación?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Eficiencia energética",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Obsolescencia programada",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Ecodiseño",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Economía colaborativa",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál de las siguientes opciones es un material sostenible mencionado en los criterios de sostenibilidad?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Carbón mineral",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Vidrio reciclado",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Plástico de un solo uso",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Poliestireno expandido",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Qué normativa establece la obligación de separar residuos textiles antes de 2025?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Protocolo de Kioto",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Ley 7/2022 de residuos de España",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Directiva (UE) 2018/851",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Acuerdo de París",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál es una de las ventajas del reciclaje mencionadas?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Aumenta la extracción de recursos naturales",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Requiere más energía que producir desde cero",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Reduce la vida útil de los productos reciclados",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Disminuye la contaminación y protege hábitats",
+                "correcta": true
+            }
+        ]
+    }
+]
