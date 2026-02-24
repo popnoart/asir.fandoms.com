@@ -964,7 +964,7 @@
                 "name": "Actividad 02_01 Prácticas avanzadas con nmap"
             },
             "4486": {
-                "type": "Complementaria",
+                "type": "Obligatoria",
                 "start": "21-02-2026 21:00",
                 "end": "15-03-2026 23:59",
                 "name": "Tarea 4 - IDS e IPS (RA5) - OBLIGATORIA"
