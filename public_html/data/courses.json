@@ -375,12 +375,6 @@
                 "start": "",
                 "end": "",
                 "name": "EXAMEN ENERO"
-            },
-            "CB-FEBRERO-REPASO": {
-                "type": "Cuestionario",
-                "start": "",
-                "end": "",
-                "name": "Repaso previo 2ª autoevaluación"
             }
         },
         "notes": {
@@ -1342,12 +1336,6 @@
                 "start": "",
                 "end": "",
                 "name": "EXAMEN ENERO"
-            },
-            "SRI-FEBRERO-REPASO": {
-                "type": "Cuestionario",
-                "start": "",
-                "end": "",
-                "name": "Repaso previo 2ª autoevaluación"
             }
         },
         "notes": {
