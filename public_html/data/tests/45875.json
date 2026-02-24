@@ -1,0 +1,252 @@
+[
+    {
+        "enunciado": "La economía circular se relaciona con la P de:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Paz",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Personas",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Planeta",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Prosperidad",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué acuerdo internacional estableció 17 objetivos globales?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Agenda 2030",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Acuerdo de París",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Agenda 21",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Marco Europeo 2019",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué documento definió por primera vez el desarrollo sostenible?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Pacto Mundial",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Acuerdo de París",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Agenda 2030",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Informe Brundtland",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué indicador mide los gases de efecto invernadero emitidos por una empresa?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Consumo de agua",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Condiciones laborales",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Huella de carbono",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Kilómetros recorridos",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "“Actuar de forma ética respetando derechos humanos y medio ambiente” describe al:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Acuerdo de París",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Pacto Mundial de la ONU",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Agenda 21",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Marco Estratégico de Energía y Clima",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál de los criterios ASG se centra en el uso de materias primas?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Gobernanza",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Ambiental",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Social",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Logístico",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "La conciliación laboral es una medida del criterio:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Social",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Económico",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Gobernanza",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Ambiental",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué grupo pertenece a los stakeholders?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Empresas de otro mercado",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Proveedores",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Competidores externos",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Fabricantes ajenos al sector",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué tipo de inversión busca financiar proyectos medioambientales?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Bonos sociales",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Capital riesgo social",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Fondos convencionales",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Bonos verdes",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál de estas opciones pertenece al pilar “Personas” de las 5 P?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Alianzas internacionales",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Igualdad de oportunidades",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Políticas anticorrupción",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Economía circular",
+                "correcta": false
+            }
+        ]
+    }
+]
