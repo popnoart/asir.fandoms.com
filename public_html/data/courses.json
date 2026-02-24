@@ -810,6 +810,12 @@
                 "start": "",
                 "end": "",
                 "name": "EXAMEN ENERO"
+            },
+            "IPE-FEBRERO": {
+                "type": "Cuestionario",
+                "start": "",
+                "end": "",
+                "name": "AUTOEVALUACIÓN FEBRERO"
             }
         },
         "notes": {

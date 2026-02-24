@@ -1,0 +1,502 @@
+[
+    {
+        "enunciado": "La empatía es:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Criticar.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Mandar.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Ponerse en el lugar del otro.",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Juzgar.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Las empresas públicas se caracterizan por ser:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Familiares.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Internacionales.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "De propiedad privada.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Propiedad del Estado.",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "Una microempresa tiene:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Menos de 5 trabajadores.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Menos de 10 trabajadores.",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Menos de 20 trabajadores.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Más de 100 trabajadores.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Un conflicto bien gestionado puede convertirse en:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Oportunidad de mejora.",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Problema mayor.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Castigo.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Discusión continua.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "La matriz de Eisenhower ayuda a:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Escribir informes.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Presentar trabajos.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Memorizar.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Priorizar tareas.",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "Los inputs de la empresa son:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Beneficios.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Salidas.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Productos terminados.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Entradas o materias primas.",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál es una herramienta de gestión de proyectos?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Zoom.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Gmail.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Trello.",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "WhatsApp.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "La economía circular busca:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Reducir, reutilizar y reciclar.",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Producir más residuos.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Aumentar costes.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Usar y tirar.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Google Drive se usa para:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Almacenamiento compartido.",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Videollamadas.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Control horario.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Mensajería.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Cambiar la forma de vender un producto es ejemplo de:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Innovación organizativa.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Innovación de marketing.",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Innovación de proceso.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Innovación de producto.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Los factores de producción son:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Tierra, trabajo, capital y tecnología",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Marketing y ventas.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Clientes y proveedores.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Tiempo y dinero.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Una tarea importante pero no urgente debe:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Posponerse indefinidamente.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Planificarse.",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Eliminarse.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Ignorarse.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "La técnica Pomodoro se basa en:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Delegar tareas.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Trabajar en bloques de tiempo con descansos.",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Estudiar sin parar.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Hacer varias cosas a la vez.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Mejorar la manera de fabricar un producto es innovación de:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Producto.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Marketing.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Proceso.",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Organización.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "La gestión eficaz del tiempo implica:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Hacer todo a última hora.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Organizar y priorizar tareas.",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "No descansar.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Trabajar rápido.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "La empresa es:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Un grupo social.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Unidad económica de producción.",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Un sindicato.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Una ONG.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Introducir un nuevo producto al mercado es innovación de:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Producto.",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Marketing.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Organización.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Proceso.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Una ventaja de la economía circular es:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Protección del medio ambiente.",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Menor reutilización.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Precios más altos.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Mayor contaminación.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "La comunicación no verbal transmite sobre todo:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Fechas.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Datos.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Emociones y actitudes.",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Normas.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "El liderazgo compartido significa que:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Las responsabilidades se reparten.",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Solo manda el jefe.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Nadie decide.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "No existen normas.",
+                "correcta": false
+            }
+        ]
+    }
+]
