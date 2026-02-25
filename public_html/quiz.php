@@ -44,7 +44,7 @@
                                 <img src="/data/tests/images/<?php echo htmlspecialchars($pregunta['imagen'], ENT_QUOTES, 'UTF-8'); ?>" alt="Imagen pregunta <?php echo $idx + 1; ?>" class="img-fluid rounded shadow quiz-img-thumb" style="max-width:400px;cursor:pointer;" onclick="mostrarLightbox(this.src)">
                             </div>
                         <?php } ?> <?php if (!empty($pregunta['code'])){ ?>
-                            <div class="mt-2 ">
+                            <div class="mt-2 text-success">
                                 <pre style="overflow-x:auto;"><code><?php echo htmlspecialchars($pregunta['code'], ENT_QUOTES, 'UTF-8'); ?></code></pre>
                             </div>
                         <?php } ?>
