@@ -65,12 +65,12 @@
             {
                 "opcion": "c.",
                 "texto": "Combinación de varios métodos de autenticación distintos.",
-                "correcta": false
+                "correcta": true
             },
             {
                 "opcion": "d.",
                 "texto": "Todas son ciertas.",
-                "correcta": true
+                "correcta": false
             }
         ]
     },

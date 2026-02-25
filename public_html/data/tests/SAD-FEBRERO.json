@@ -5,7 +5,7 @@
             {
                 "opcion": "a.",
                 "texto": "Todas son ciertas.",
-                "correcta": true
+                "correcta": false
             },
             {
                 "opcion": "b.",
@@ -20,7 +20,7 @@
             {
                 "opcion": "d.",
                 "texto": "Combinación de varios métodos de autenticación distintos.",
-                "correcta": false
+                "correcta": true
             }
         ]
     },
