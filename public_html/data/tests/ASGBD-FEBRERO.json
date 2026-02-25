@@ -385,12 +385,12 @@
       {
         "opcion": "b.",
         "texto": "Las funciones no necesitan tener parámetros de entrada, pero sí es obligatorio uno de salida.",
-        "correcta": false
+        "correcta": true
       },
       {
         "opcion": "c.",
         "texto": "Ninguna de las demás es correcta.",
-        "correcta": true
+        "correcta": false
       },
       {
         "opcion": "d.",
