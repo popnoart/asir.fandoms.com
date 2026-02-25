@@ -1,0 +1,502 @@
+[
+  {
+    "enunciado": "Sabiendo que la función MOD devuelve el resto de dividir un número entre otro, selecciona cual sería la opción correcta para mostrar los números pares que hay entre el 1 y el 100 (ambos incluidos):",
+    "respuestas": [
+      {
+        "opcion": "a.",
+        "texto": "DECLARE v_numero INT DEFAULT 1; WHILE v_numero<=100 DO IF (v_numero mod 2) = 0 THEN SELECT 'par', v_numero; END IF; v_numero=v_numero+1; END WHILE;",
+        "correcta": true
+      },
+      {
+        "opcion": "b.",
+        "texto": "DECLARE v_numero INT DEFAULT 1; WHILE v_numero<100 DO IF (v_numero mod 2) = 0 THEN SELECT 'par', v_numero; END IF; v_numero=v_numero+1; END WHILE;",
+        "correcta": false
+      },
+      {
+        "opcion": "c.",
+        "texto": "DECLARE v_numero INT DEFAULT 1; WHILE v_numero<100 DO IF (v_numero mod 2) = 1 THEN SELECT 'par', v_numero; END IF; v_numero=v_numero+1; END WHILE;",
+        "correcta": false
+      },
+      {
+        "opcion": "d.",
+        "texto": "DECLARE v_numero INT DEFAULT 1; WHILE v_numero<=100 DO IF (v_numero mod 2) = 1 THEN SELECT 'par', v_numero; END IF; v_numero=v_numero+1; END WHILE;",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "enunciado": "Al declarar una variable en un subprograma en PL/SQL:",
+    "respuestas": [
+      {
+        "opcion": "a.",
+        "texto": "Debemos indicar como mínimo el nombre de la variable y el tipo de dato.",
+        "correcta": true
+      },
+      {
+        "opcion": "b.",
+        "texto": "Sólo es necesario indicar el nombre de la variable.",
+        "correcta": false
+      },
+      {
+        "opcion": "c.",
+        "texto": "No es necesario declarar nada, se pueden autodeclarar.",
+        "correcta": false
+      },
+      {
+        "opcion": "d.",
+        "texto": "Siempre debemos especificar el nombre de la variable, el tipo de dato y el valor por defecto.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "enunciado": "La estructura de control repetitivo REPEAT:",
+    "respuestas": [
+      {
+        "opcion": "a.",
+        "texto": "Siempre entra en el bucle, independientemente de si se cumple o no la condición al iniciar.",
+        "correcta": false
+      },
+      {
+        "opcion": "b.",
+        "texto": "Sólo entra en el bucle, si se cumple la condición al iniciar.",
+        "correcta": false
+      },
+      {
+        "opcion": "c.",
+        "texto": "Entra en el bucle al menos una vez y ya comprueba si se cumple la condición o no.",
+        "correcta": true
+      },
+      {
+        "opcion": "d.",
+        "texto": "Sólo entra si anteponemos un IF.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "enunciado": "¿Qué sentencia repetitiva podemos utilizar en SQL?",
+    "respuestas": [
+      {
+        "opcion": "a.",
+        "texto": "FOR",
+        "correcta": false
+      },
+      {
+        "opcion": "b.",
+        "texto": "FOREACH",
+        "correcta": false
+      },
+      {
+        "opcion": "c.",
+        "texto": "LOOP",
+        "correcta": true
+      },
+      {
+        "opcion": "d.",
+        "texto": "UNTIL",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "enunciado": "Selecciona cual sería la opción correcta para mostrar los números desde el 1 hasta llegar a la variable tope:",
+    "respuestas": [
+      {
+        "opcion": "a.",
+        "texto": "DECLARE v_numero INT DEFAULT 0; REPEAT SET v_numero := v_numero + 1; UNTIL v_numero < tope END REPEAT;",
+        "correcta": false
+      },
+      {
+        "opcion": "b.",
+        "texto": "DECLARE v_numero INT DEFAULT 1; REPEAT SET v_numero := v_numero + 1; UNTIL v_numero < tope END REPEAT;",
+        "correcta": false
+      },
+      {
+        "opcion": "c.",
+        "texto": "DECLARE v_numero INT DEFAULT 0; REPEAT SET v_numero := v_numero + 1; UNTIL v_numero >= tope END REPEAT;",
+        "correcta": true
+      },
+      {
+        "opcion": "d.",
+        "texto": "DECLARE v_numero INT DEFAULT 0; REPEAT SET v_numero := v_numero + 1; UNTIL v_numero <= tope END REPEAT;",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "enunciado": "Selecciona la afirmación correcta:",
+    "respuestas": [
+      {
+        "opcion": "a.",
+        "texto": "Ninguna de las demás opciones es correcta",
+        "correcta": false
+      },
+      {
+        "opcion": "b.",
+        "texto": "Un procedimiento se invoca usando un comando CALL y sólo puede disponer de variables de salida",
+        "correcta": false
+      },
+      {
+        "opcion": "c.",
+        "texto": "Los procedimientos almacenados requieren disponer siempre de parámetros de entrada y salida",
+        "correcta": false
+      },
+      {
+        "opcion": "d.",
+        "texto": "La claúsula RETURNS puede usarse sólo con FUNCTION, donde es obligatorio",
+        "correcta": true
+      }
+    ]
+  },
+  {
+    "enunciado": "Cambiar el delimitador de los subprogramas por un $$ o //, permite poder utilizar el delimitador ; del final, sin que sea interpretado al grabar dicho subprograma:",
+    "respuestas": [
+      {
+        "opcion": "a.",
+        "texto": "Verdadero",
+        "correcta": true
+      },
+      {
+        "opcion": "b.",
+        "texto": "No siempre se pueden utilizar dichos delimitadores",
+        "correcta": false
+      },
+      {
+        "opcion": "c.",
+        "texto": "Todas las demás opciones son correctas",
+        "correcta": false
+      },
+      {
+        "opcion": "d.",
+        "texto": "Falso",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "enunciado": "¿Con qué orden podemos invocar a un procedimiento definido por nosotros para ejecutarlo?",
+    "respuestas": [
+      {
+        "opcion": "a.",
+        "texto": "INVOKE",
+        "correcta": false
+      },
+      {
+        "opcion": "b.",
+        "texto": "CREATE",
+        "correcta": false
+      },
+      {
+        "opcion": "c.",
+        "texto": "CALL",
+        "correcta": true
+      },
+      {
+        "opcion": "d.",
+        "texto": "EXECUTE",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "enunciado": "En un procedimiento almacenado, ¿cómo se define el parámetro de entrada v_param con el tipo VARCHAR(50)?",
+    "respuestas": [
+      {
+        "opcion": "a.",
+        "texto": "IN v_param varchar(50)",
+        "correcta": true
+      },
+      {
+        "opcion": "b.",
+        "texto": "INPUT @v_param varchar(50)",
+        "correcta": false
+      },
+      {
+        "opcion": "c.",
+        "texto": "IN @v_param varchar(50)",
+        "correcta": false
+      },
+      {
+        "opcion": "d.",
+        "texto": "v_param varchar(50) INPUT",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "enunciado": "¿Qué tipo de datos se pueden gestionar con el lenguaje SQL?",
+    "respuestas": [
+      {
+        "opcion": "a.",
+        "texto": "Todos son correctos.",
+        "correcta": true
+      },
+      {
+        "opcion": "b.",
+        "texto": "Números enteros y decimales.",
+        "correcta": false
+      },
+      {
+        "opcion": "c.",
+        "texto": "Valores alfanuméricos.",
+        "correcta": false
+      },
+      {
+        "opcion": "d.",
+        "texto": "Fechas y horas.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "enunciado": "¿Cuál de los siguientes comentarios no se puede utilizar en los programas de MariaDB?",
+    "respuestas": [
+      {
+        "opcion": "a.",
+        "texto": "<! COMENTARIO -!>",
+        "correcta": true
+      },
+      {
+        "opcion": "b.",
+        "texto": "/* COMENTARIO */",
+        "correcta": false
+      },
+      {
+        "opcion": "c.",
+        "texto": "-- COMENTARIO",
+        "correcta": false
+      },
+      {
+        "opcion": "d.",
+        "texto": "// COMENTARIO",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "enunciado": "La sentencia correcta para ejecutar una función es:",
+    "respuestas": [
+      {
+        "opcion": "a.",
+        "texto": "Ninguna de las demás es correcta.",
+        "correcta": false
+      },
+      {
+        "opcion": "b.",
+        "texto": "FUNCTION nombre_funcion(parámetros):",
+        "correcta": false
+      },
+      {
+        "opcion": "c.",
+        "texto": "SELECT nombre_funcion(parámetros):",
+        "correcta": true
+      },
+      {
+        "opcion": "d.",
+        "texto": "CALL nombre_funcion(parámetros):",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "enunciado": "¿Qué sentencia alternativa no está disponible en MARIADB?",
+    "respuestas": [
+      {
+        "opcion": "a.",
+        "texto": "CASE",
+        "correcta": false
+      },
+      {
+        "opcion": "b.",
+        "texto": "IF…ELSE",
+        "correcta": false
+      },
+      {
+        "opcion": "c.",
+        "texto": "SWITCH",
+        "correcta": false
+      },
+      {
+        "opcion": "d.",
+        "texto": "ALTERNATE",
+        "correcta": true
+      }
+    ]
+  },
+  {
+    "enunciado": "¿Con qué claúsula devolvemos el valor en una función SQL?",
+    "respuestas": [
+      {
+        "opcion": "a.",
+        "texto": "RETURN",
+        "correcta": true
+      },
+      {
+        "opcion": "b.",
+        "texto": "OUT",
+        "correcta": false
+      },
+      {
+        "opcion": "c.",
+        "texto": "CALL",
+        "correcta": false
+      },
+      {
+        "opcion": "d.",
+        "texto": "INOUT",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "enunciado": "El comando correcto para ver un procedimiento almacenado en una base de datos es:",
+    "respuestas": [
+      {
+        "opcion": "a.",
+        "texto": "SHOW CREATE PROCEDURE nombre_procedimiento;",
+        "correcta": true
+      },
+      {
+        "opcion": "b.",
+        "texto": "SHOW nombre_procedimiento;",
+        "correcta": false
+      },
+      {
+        "opcion": "c.",
+        "texto": "SHOW PROCEDURE nombre_procedimiento;",
+        "correcta": false
+      },
+      {
+        "opcion": "d.",
+        "texto": "Ninguna de las demás opciones es correcta",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "enunciado": "Marca la afirmación correcta aplicable a las funciones:",
+    "respuestas": [
+      {
+        "opcion": "a.",
+        "texto": "En las funciones, es necesario tener parámetros de entrada, pero no de salida.",
+        "correcta": false
+      },
+      {
+        "opcion": "b.",
+        "texto": "Las funciones no necesitan tener parámetros de entrada, pero sí es obligatorio uno de salida.",
+        "correcta": false
+      },
+      {
+        "opcion": "c.",
+        "texto": "Ninguna de las demás es correcta.",
+        "correcta": true
+      },
+      {
+        "opcion": "d.",
+        "texto": "Las funciones disponen siempre de al menos un parámetro de entrada y al menos uno de salida.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "enunciado": "En un procedimiento:",
+    "respuestas": [
+      {
+        "opcion": "a.",
+        "texto": "Como mínimo hay que tener un parámetro de salida.",
+        "correcta": false
+      },
+      {
+        "opcion": "b.",
+        "texto": "Cómo mínimo hay que definir un parámetro de entrada y uno de salida.",
+        "correcta": false
+      },
+      {
+        "opcion": "c.",
+        "texto": "No es obligatorio definir parámetros.",
+        "correcta": true
+      },
+      {
+        "opcion": "d.",
+        "texto": "Como mínimo hay que tener un parámetro de entrada.",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "enunciado": "La sintaxis correcta de un procedimiento que deseamos que nos calcule el cuadrado de un número que le vamos a pasar y nos devuelva el cuadrado de dicho número es:",
+    "respuestas": [
+      {
+        "opcion": "a.",
+        "texto": "CREATE PROCEDURE PROG (IN V_NUMERO INT(3), OUT V_CUADRADO INT(5)) BEGIN SET V_CUADRADO:=V_NUMERO*V_NUMERO; END;",
+        "correcta": true
+      },
+      {
+        "opcion": "b.",
+        "texto": "CREATE PROCEDURE PROG (IN V_NUMERO INT(3)) BEGIN DECLARE V_CUADRADO CHAR(5) SET V_CUADRADO:=V_NUMERO*V_NUMERO; END;",
+        "correcta": false
+      },
+      {
+        "opcion": "c.",
+        "texto": "CREATE PROCEDURE PROG (IN V_NUMERO INT(3)) BEGIN SELECT V_NUMERO*V_NUMERO; END;",
+        "correcta": false
+      },
+      {
+        "opcion": "d.",
+        "texto": "CREATE PROCEDURE PROG (IN V_NUMERO INT(3), IN V_CUADRADO INT(5)) BEGIN SET V_CUADRADO:=V_NUMERO*V_NUMERO; END;",
+        "correcta": false
+      }
+    ]
+  },
+  {
+    "enunciado": "La estructura de control repetitivo WHILE:",
+    "respuestas": [
+      {
+        "opcion": "a.",
+        "texto": "Ninguna es correcta.",
+        "correcta": false
+      },
+      {
+        "opcion": "b.",
+        "texto": "Siempre entra en el bucle, independientemente de si se cumple o no la condición al iniciar.",
+        "correcta": false
+      },
+      {
+        "opcion": "c.",
+        "texto": "Entra en el bucle si anteponemos un IF.",
+        "correcta": false
+      },
+      {
+        "opcion": "d.",
+        "texto": "Sólo entra en el bucle, si se cumple la condición al iniciar.",
+        "correcta": true
+      }
+    ]
+  },
+  {
+    "enunciado": "La forma de abandonar cualquier control de flujo, etiquetado en un procedimiento almacenado es con:",
+    "respuestas": [
+      {
+        "opcion": "a.",
+        "texto": "BYE",
+        "correcta": false
+      },
+      {
+        "opcion": "b.",
+        "texto": "LEAVE",
+        "correcta": true
+      },
+      {
+        "opcion": "c.",
+        "texto": "ITERATE",
+        "correcta": false
+      },
+      {
+        "opcion": "d.",
+        "texto": "LOOP",
+        "correcta": false
+      }
+    ]
+  }
+]
