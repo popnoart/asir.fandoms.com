@@ -1,0 +1,502 @@
+[
+    {
+        "enunciado": "La autenticación multimodal es:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Todas son ciertas.",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Modo de autenticación basado en sistemas biométricos.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Sistema de autenticación que permite identificar a los usuarios de diferenets formas.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Combinación de varios métodos de autenticación distintos.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "De las siguientes afirmaciones indica cuál corresponde a un ataque activo de interceptación:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Sucede cuando hay un acceso no autorizado que cambia el entorno para su beneficio.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Consigue un objeto similar al atacado de forma que no resulte sencillo distinguir entre el objeto original y el fabricado.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Puede provocar que un objeto del sistema se pierda, quede no utilizable o no disponible.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Ocurre si un elemento no autorizado consigue un acceso a un determinado objeto del sistema.",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "Si A quiere enviar un mensaje a B, con cifrado asimétrico, de forma que B sepa que el mensaje es de A:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "A deberá usar la clave pública de B para cifrar el mensaje.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "A deberá usar su clave privada para firmar el mensaje.",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "A deberá usar su clave pública para firmar el mensaje.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "A deberá usar la clave privada de B para cifrar el mensaje.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "La firma digital:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Necesita del uso de la clave pública del usuario.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Necesita del uso de la clave privada del usuario.",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Todas son correctas.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Es lo mismo que el certificado digital.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "La estenografía permite:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Cifrar la imagen por píxel.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Firmar una imagen.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Cifrar la imagen por bloques",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Transmitir información camuflándola en otra información.",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "En los algoritmos de clave pública:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "El conocimiento de la clave pública no permite obtener ninguna información sobre la correspondiente clave privada ni descifrar el texto cifrado con dicha clave pública.",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "El conocimiento de la clave pública permite deducir la correspondiente clave privada siempre que se conozca el tipo de problema en el que se basa el algoritmo.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "El conocimiento de la clave pública equivale a haber roto el algoritmo, por lo que esa clave debería descartarse y crear una nueva.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "El conocimiento de la clave pública permite descifrar el texto con ella cifrado siempre que se conozca el tipo de problema en el que se basa el algoritmo.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Marca la secuencia correcta de intercambio de flags que se realiza en el proceso de \"Tree way handshake\":",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "SYN - SYN/ACK - OK/SYN",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "SYN - SYN/ACK - FIN",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "SYN - SYN/ACK - ACK",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "SYN - SYN/ACK - OK",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "La herramienta netstat de los sistemas operativos permite:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Saber si una máquina está conectada a nivel de capa 3.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Localizar la ruta de acceso a un equipo a nivel de capa 4, basándose en el TTL.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Vincular una dirección MAC o dirección física, con una dirección IP o dirección lógica de los equipos de nuestra red.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Mostrar los puertos y servicios abiertos en nuestro equipo.",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "Marca la definición que corresponde al escaneo de puertos:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Método usado para detectar posibles amenazas y determinar si un sistema puede ser \"explotado\".",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Procedimiento para identificar los dispositivos activos en una red.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Ninguno es correcto.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Procedimiento para verificar los servicios o aplicaciones que están corriendo en un sistema objetivo o víctima.",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "Marca la respuesta que no es un sistema utilizado para el password cracking:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Ataque de ajuste de contraseñas.",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Ataque con rainbow tables",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Ataque de diccionario.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Ataque por fuerza bruta",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Si A quiere enviar un mensaje a B, con cifrado asimétrico, de forma que B sepa que el mensaje es de A:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "A deberá usar la clave privada de B para cifrar el mensaje.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "A deberá usar su clave privada para firmar el mensaje.",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "A deberá usar la clave pública de B para cifrar el mensaje.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "A deberá usar su clave pública para firmar el mensaje.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "De las siguientes afirmaciones indica cuál corresponde a un ataque activo de interrupción:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Consigue un objeto similar al atacado de forma que no resulte sencillo distinguir entre el objeto original y el fabricado.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Ocurre si un elemento no autorizado consigue un acceso a un determinado objeto del sistema.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Puede provocar que un objeto del sistema se pierda, quede no utilizable o no disponible.",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Sucede cuando hay un acceso no autorizado que cambia el entorno para su beneficio.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "La función hash aplicada a determinada información:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Genera un resumen o huella digital.",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Su longitud depende del tamaño del mensaje.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Cifra todo el mensaje.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Genera un nuevo objeto con la información cifrada.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Si una persona A quiere descifrar un mensaje que le ha enviado otra persona B con cifrado asimétrico:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Utilizará su clave pública de B para descifrarlo.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Utilizará la clave privada de A para descifrarlo.",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Utilizará la clave privada de B para descifrarlo.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Utilizará la clave pública de A para descifrarlo.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "En la fase de reconocimiento de un ataque indicar que herramienta se suele utilizar.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Herramientas de monitorización de logs.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Herramientas capturadoras de paquetes de red.",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Herramientas de eliminación de la caché y las cookies.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Herramientas de filtrado de paquetes.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Marca la definición que corresponde al concepto de puerto",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Programas o aplicaciones cargadas por el propio sistema operativo.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Dirección asociada a un programa para comunicarse a través de una red.",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Procedimiento para identificar los servicios activos en un dispositivo informático.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Ninguno es correcto.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Si una persona B quiere descifrar un mensaje que le ha enviado otra persona A con cifrado simétrico:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Utilizará la clave privada de A para descifrarlo.",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Utilizará la clave privada de B para descifrarlo.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Utilizará la clave pública de A para descifrarlo.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Utilizará la clave pública de B para descifrarlo.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Si A quiere enviar un mensaje a B, con cifrado asimétrico, de forma que B sepa que el mensaje es de A:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "A deberá usar su clave privada para firmar el mensaje.",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "A deberá usar la clave pública de B para cifrar el mensaje.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "A deberá usar la clave privada de B para cifrar el mensaje.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "A deberá usar su clave pública para firmar el mensaje.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Marca la opción que refleja la técnica de escaneo XMAS:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Ninguna es correcta.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Envía los flags FIN - URG - PUSH",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Envía los flags ACK - URG - XMS",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Envía los flags SYN - ACK - OK",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "La firma digital y el certificado digital se caracterizan porque:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "El certificado digital contiene una firma digital.",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "La firma digital contiene un certificado digital.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "La firma verifica la identidad del firmante.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "El certificado digital tiene funciones similares a las de la firma autógrafa.",
+                "correcta": false
+            }
+        ]
+    }
+]

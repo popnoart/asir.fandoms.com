@@ -25,7 +25,8 @@
         ]
     },
     {
-        "enunciado": "¿Qué devuelve la siguiente expresión: \"5\" + 3?",
+        "enunciado": "¿Qué devuelve la siguiente expresión:?",
+        "code": " \"5\" + 3",
         "respuestas": [
             {
                 "opcion": "a.",
@@ -115,7 +116,8 @@
         ]
     },
     {
-        "enunciado": "¿Qué valor mostrará la consola?. let x = 10; if (x > 20) {     console.log(\"Mayor\"); } else {     console.log(\"Menor o igual\"); }",
+        "enunciado": "¿Qué valor mostrará la consola?. ",
+        "code": "let x = 10;\nif (x > 20) {\n    console.log(\"Mayor\");\n} else {\n    console.log(\"Menor o igual\");\n}",
         "respuestas": [
             {
                 "opcion": "a.",
@@ -430,7 +432,8 @@
         ]
     },
     {
-        "enunciado": "¿Qué ocurre en este bucle? numero=0; while (numero==0) {     window.alert(\"Dentro del bucle\"); }",
+        "enunciado": "¿Qué ocurre en este bucle? ",
+        "code": "numero=0;\nwhile (numero==0) {\n    window.alert(\"Dentro del bucle\");\n}",
         "respuestas": [
             {
                 "opcion": "a.",

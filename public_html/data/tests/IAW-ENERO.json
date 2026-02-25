@@ -150,7 +150,8 @@
         ]
     },
     {
-        "enunciado": "Dado el siguiente código, ¿qué falta? function casillas(){ if(document.miformulario.__________.checked==true) {alert(\"La edad seleccionada es: \" + document.miformulario.edad[0].value)} else{ if(document.miformulario.edad[1].checked==true) { alert(\"La edad seleccionada es: \" + document.miformulario.edad[1].value) } else { if(document.miformulario.edad[2].checked==true) { alert(\"La edad seleccionada es:\" + document.miformulario.edad[2].value) } else { alert(\"La edad seleccionada es:\" + document.miformulario.edad[3].value ) } }}}",
+        "enunciado": "Dado el siguiente código, ¿qué falta? ",
+        "code": "function casillas(){\n    if(document.miformulario.__________.checked==true) {\n        alert(\"La edad seleccionada es: \" + document.miformulario.edad[0].value)\n    } else{\n        if(document.miformulario.edad[1].checked==true) {\n            alert(\"La edad seleccionada es: \" + document.miformulario.edad[1].value)\n        } else {\n            if(document.miformulario.edad[2].checked==true) {\n                alert(\"La edad seleccionada es:\" + document.miformulario.edad[2].value)\n            } else {\n                alert(\"La edad seleccionada es:\" + document.miformulario.edad[3].value )\n            }\n        }\n    }\n}",
         "respuestas": [
             {
                 "opcion": "a.",
@@ -225,7 +226,8 @@
         ]
     },
     {
-        "enunciado": "En el siguiente bloque de código, ¿qué valor tiene i, cuando se sale del bucle? for(i=0;i<array.length;i++) { if(parseInt(array[i])>mayor)) mayor=array[i];} }",
+        "enunciado": "En el siguiente bloque de código, ¿qué valor tiene i, cuando se sale del bucle? ",
+        "code": "for(i=0;i<array.length;i++) {\n    if(parseInt(array[i])>mayor))\n        mayor=array[i];\n}",
         "respuestas": [
             {
                 "opcion": "a.",
@@ -450,7 +452,8 @@
         ]
     },
     {
-        "enunciado": "¿Qué ocurre en este bucle? numero=0; while (numero==0) { window.alert(\"Dentro del bucle\"); }",
+        "enunciado": "¿Qué ocurre en este bucle? ",
+        "code": "numero=0;\nwhile (numero==0) {\n    window.alert(\"Dentro del bucle\");\n}",
         "respuestas": [
             {
                 "opcion": "a.",
@@ -500,7 +503,8 @@
         ]
     },
     {
-        "enunciado": "¿Qué falta en este código? if(resto==0) { document.write(\"El número es cero\"); } _______ (resto>0) { document.write(\"El número tecleado es mayor que cero\"); }",
+        "enunciado": "¿Qué falta en este código? ",
+        "code": "if(resto==0) {\n    document.write(\"El número es cero\");\n} _______ (resto>0) {\n    document.write(\"El número tecleado es mayor que cero\");\n}",
         "respuestas": [
             {
                 "opcion": "a.",
@@ -525,7 +529,8 @@
         ]
     },
     {
-        "enunciado": "¿Qué ocurre en este bucle? int numero=0; while (numero==0) { System.out.println(\"Dentro del bucle\"); }",
+        "enunciado": "¿Qué ocurre en este bucle? ",
+        "code": "int numero=0;\nwhile (numero==0) {\n    System.out.println(\"Dentro del bucle\");\n}",
         "respuestas": [
             {
                 "opcion": "a.",
@@ -550,7 +555,8 @@
         ]
     },
     {
-        "enunciado": "¿Qué valor tiene i, cuando el flujo de código sale del bucle? int i = 1; while (i <= 3) { System.out.println(\"Iteración del while: \" + i); for (int j = 1; j <= 5; j++) { System.out.println(\"   Iteración del for: \" + j); } i++; }",
+        "enunciado": "¿Qué valor tiene i, cuando el flujo de código sale del bucle? ",
+        "code": "int i = 1;\nwhile (i <= 3) {\n    System.out.println(\"Iteración del while: \" + i);\n    for (int j = 1; j <= 5; j++) {\n        System.out.println(\"   Iteración del for: \" + j);\n    }\n    i++;\n}",
         "respuestas": [
             {
                 "opcion": "a.",
@@ -575,7 +581,8 @@
         ]
     },
     {
-        "enunciado": "¿Qué falta en el siguiente código? let titulo1 = document.createElement(\"h3\"); let direccion1 = document.createElement(\"p\"); let sinopsis1 = document.createElement(\"p\"); body.____________(titulo1);",
+        "enunciado": "¿Qué falta en el siguiente código? ",
+        "code": "let titulo1 = document.createElement(\"h3\");\nlet direccion1 = document.createElement(\"p\");\nlet sinopsis1 = document.createElement(\"p\");\nbody.____________(titulo1);",
         "respuestas": [
             {
                 "opcion": "a.",
@@ -600,7 +607,8 @@
         ]
     },
     {
-        "enunciado": "El objetivo es agregar un elemento dentro de otro, ¿Qué falta en esta sintaxis? const contenedor = document.createElement(\"div\"); contenedor.className = \"contenedor\"; document.body.appendChild(contenedor); const titulo = document.createElement(\"div\"); titulo.className = \"titulo\"; titulo.textContent = \"Opciones del menú del día\"; ___________.appendChild(titulo);",
+        "enunciado": "El objetivo es agregar un elemento dentro de otro, ¿Qué falta en esta sintaxis? ",
+        "code": "const contenedor = document.createElement(\"div\");\ncontenedor.className = \"contenedor\";\ndocument.body.appendChild(contenedor);\n\nconst titulo = document.createElement(\"div\");\ntitulo.className = \"titulo\";\ntitulo.textContent = \"Opciones del menú del día\";\n___________.appendChild(titulo);",
         "respuestas": [
             {
                 "opcion": "a.",

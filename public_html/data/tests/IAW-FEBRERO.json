@@ -405,7 +405,8 @@
     ]
   },
   {
-    "enunciado": "¿Qué devuelve este código? let persona = { nombre: \"Luis\", edad: 30 }; console.log(persona[\"nombre\"]);",
+    "enunciado": "¿Qué devuelve este código?",
+    "code": "let persona = { nombre: \"Luis\", edad: 30 };\nconsole.log(persona[\"nombre\"]);",
     "respuestas": [
       {
         "opcion": "a.",

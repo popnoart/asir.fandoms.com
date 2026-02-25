@@ -18,6 +18,9 @@
         exit;
     } else {
 
+        if ($quiz === 'SAD_FEBRERO') {
+            echo '<div class="alert alert-danger" role="alert">Todavía no tengo las respuestas correctas. Es un 8,75. He marcado como correctas las que he puesto yo, así que tiene fallos.</div>';
+        }
         $quiz_path = $_SERVER['DOCUMENT_ROOT'] . '/data/tests/' . $quiz . '.json';
         $quiz_content = json_decode(file_get_contents($quiz_path), true);
     ?>
@@ -36,11 +39,15 @@
                 <div class="card mb-4">
                     <div class="card-header">
                         <strong>Pregunta <?php echo $idx + 1; ?>:</strong> <?php echo htmlspecialchars($pregunta['enunciado'], ENT_QUOTES, 'UTF-8'); ?>
-                        <?php if (!empty($pregunta['imagen'])): ?>
+                        <?php if (!empty($pregunta['imagen'])){ ?>
                             <div class="mt-2 text-center">
                                 <img src="/data/tests/images/<?php echo htmlspecialchars($pregunta['imagen'], ENT_QUOTES, 'UTF-8'); ?>" alt="Imagen pregunta <?php echo $idx + 1; ?>" class="img-fluid rounded shadow quiz-img-thumb" style="max-width:400px;cursor:pointer;" onclick="mostrarLightbox(this.src)">
                             </div>
-                        <?php endif; ?>
+                        <?php } ?> <?php if (!empty($pregunta['code'])){ ?>
+                            <div class="mt-2 ">
+                                <pre style="overflow-x:auto;"><code><?php echo htmlspecialchars($pregunta['code'], ENT_QUOTES, 'UTF-8'); ?></code></pre>
+                            </div>
+                        <?php } ?>
                     </div>
                     <div class="card-body">
                         <?php foreach ($pregunta['respuestas'] as $rid => $respuesta): ?>
