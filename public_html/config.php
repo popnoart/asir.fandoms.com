@@ -22,11 +22,11 @@ return [
             'name' => 'Foros',
             'url' => 'https://campus.digitechfp.com/course/view.php?id=[id]#section-6'
         ],
+        */
         'Autoevaluaciones' => [
             'name' => 'Autoevaluaciones',
             'url' => 'https://campus.digitechfp.com/course/view.php?id=[id]#section-8'
         ],
-        */
         'reports' => [
             'name' => 'Calificaciones',
             'url' => 'https://campus.digitechfp.com/grade/report/user/index.php?id=[id]'
