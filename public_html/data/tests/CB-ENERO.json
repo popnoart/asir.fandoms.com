@@ -110,12 +110,12 @@
             {
                 "opcion": "b.",
                 "texto": "Encripta las claves del router",
-                "correcta": false
+                "correcta": true
             },
             {
                 "opcion": "c.",
                 "texto": "Asegura los datos que viajan de extremo a extremo por el cable",
-                "correcta": true
+                "correcta": false
             },
             {
                 "opcion": "d.",
@@ -135,12 +135,12 @@
             {
                 "opcion": "b.",
                 "texto": "Pre-share y pre-shared key",
-                "correcta": false
+                "correcta": true
             },
             {
                 "opcion": "c.",
                 "texto": "Pre-shared key",
-                "correcta": true
+                "correcta": false
             },
             {
                 "opcion": "d.",
@@ -426,6 +426,7 @@
     },
     {
         "enunciado": "Para acceder al servidor Web CACERES desde seguridad 0 ¿Qué IP tenemos que utilizar?",
+        "imagen": "CB-ENERO_01.png",
         "respuestas": [
             {
                 "opcion": "a.",
@@ -435,12 +436,12 @@
             {
                 "opcion": "b.",
                 "texto": "192.168.10.1",
-                "correcta": false
+                "correcta": true
             },
             {
                 "opcion": "c.",
                 "texto": "192.168.1.1",
-                "correcta": true
+                "correcta": false
             },
             {
                 "opcion": "d.",
