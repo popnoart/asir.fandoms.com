@@ -808,6 +808,18 @@
                 "start": "02-02-2026 20:30",
                 "end": "16-02-2026 23:59",
                 "name": "ACTIVIDAD COMPLEMENTARIA TEMA 2. ESTRATEGIAS PARA LA MEJORA DE LA EMPLEABILIDAD"
+            },
+            "46109": {
+                "type": "Obligatoria",
+                "start": "26-02-2026 00:00",
+                "end": "12-03-2026 23:59",
+                "name": "ACTIVIDAD OBLIGATORIA TEMA 3. EL EMPRENDEDOR Y LA IDEA EMPRENDEDORA"
+            },
+            "46110": {
+                "type": "Complementaria",
+                "start": "26-02-2026 00:00",
+                "end": "12-03-2026 23:59",
+                "name": "ACTIVIDAD COMPLEMENTARIA TEMA 3. EL EMPRENDEDOR Y LA IDEA EMPRENDEDORA"
             }
         },
         "tests": {
@@ -834,7 +846,13 @@
                 "start": "",
                 "end": "",
                 "name": "AUTOEVALUACIÓN FEBRERO"
-            }
+            },
+            "46107": {
+                "type": "Cuestionario",
+                "start": "",
+                "end": "",
+                "name": "TEMA 2. ESTRATEGIAS PARA LA MEJORA DE LA EMPLEABILIDAD"
+            },
         },
         "notes": {
             "IPE-doc": {
@@ -1142,7 +1160,7 @@
                 "link": "https://docs.google.com/document/d/17fMA46fJ8lTVFXLZOIyFU4ZvFWPQSpaBut-YW77gooM/edit?usp=sharing"
             },
             "SRI-IPv6_route_alias-doc": {
-                "name": "Enrutamientos IPv6 por alias (docgdoc)",
+                "name": "Enrutamientos IPv6 por alias (gdoc)",
                 "file": "APUNTES ENRUTAMIENTOS ALIAS IPV6.docx",
                 "link": "https://docs.google.com/document/d/11BqdSnNxV36Veb5wwDbihH7ZWQt5zPJQnoSF9nK1sxY/edit?usp=sharing"
             },
@@ -1176,6 +1194,18 @@
                 "start": "19-12-2025 19:00",
                 "end": "30-01-2026 23:59",
                 "name": "(RA1)Tarea Sumarizar en IPv6"
+            },
+            "46108": {
+                "type": "Obligatoria",
+                "start": "26-02-2025 00:00",
+                "end": "20-03-2026 23:59",
+                "name": "(RA4) Tarea OSPF por IPV4"
+            },
+            "46091": {
+                "type": "Obligatoria",
+                "start": "26-02-2025 00:00",
+                "end": "20-03-2026 23:59",
+                "name": "(RA4) Tarea enrutar por \"alias\" IPV6"
             }
         },
         "resources": {
