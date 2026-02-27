@@ -40,12 +40,12 @@
             {
                 "opcion": "c.",
                 "texto": "No, es necesario configurar la red correspondiente",
-                "correcta": false
+                "correcta": true
             },
             {
                 "opcion": "d.",
                 "texto": "Sí, pues los dos Pc están en la misma red",
-                "correcta": true
+                "correcta": false
             }
         ]
     },
@@ -65,12 +65,12 @@
             {
                 "opcion": "c.",
                 "texto": "Sí",
-                "correcta": false
+                "correcta": true
             },
             {
                 "opcion": "d.",
                 "texto": "No, debemos configurar VLAN",
-                "correcta": true
+                "correcta": false
             }
         ]
     },
@@ -260,12 +260,12 @@
             {
                 "opcion": "b.",
                 "texto": "Monotarea y multitarea",
-                "correcta": false
+                "correcta": true
             },
             {
                 "opcion": "c.",
                 "texto": "Todas son ciertas",
-                "correcta": true
+                "correcta": false
             },
             {
                 "opcion": "d.",
@@ -285,7 +285,7 @@
             {
                 "opcion": "b.",
                 "texto": "Linux",
-                "correcta": false
+                "correcta": true
             },
             {
                 "opcion": "c.",
@@ -295,7 +295,8 @@
             {
                 "opcion": "d.",
                 "texto": "Unix",
-                "correcta": true
+                "correcta": false
+            }
             }
         ]
     },
@@ -360,7 +361,7 @@
             {
                 "opcion": "b.",
                 "texto": "R. Stallman",
-                "correcta": false
+                "correcta": true
             },
             {
                 "opcion": "c.",
@@ -370,7 +371,7 @@
             {
                 "opcion": "d.",
                 "texto": "Bell AT",
-                "correcta": true
+                "correcta": false
             }
         ]
     },
@@ -511,12 +512,12 @@
             {
                 "opcion": "b.",
                 "texto": "Sí, concretamente una variable",
-                "correcta": false
+                "correcta": true
             },
             {
                 "opcion": "c.",
                 "texto": "No",
-                "correcta": true
+                "correcta": false
             },
             {
                 "opcion": "d.",
@@ -537,7 +538,7 @@
             {
                 "opcion": "b.",
                 "texto": "No",
-                "correcta": true
+                "correcta": false
             },
             {
                 "opcion": "c.",
@@ -547,7 +548,7 @@
             {
                 "opcion": "d.",
                 "texto": "Sí, concretamente una variable",
-                "correcta": false
+                "correcta": true
             }
         ]
     },
@@ -568,12 +569,12 @@
             {
                 "opcion": "c.",
                 "texto": "No",
-                "correcta": false
+                "correcta": true
             },
             {
                 "opcion": "d.",
                 "texto": "Con la información que muestra la imagen, no podemos saberlo",
-                "correcta": true
+                "correcta": false
             }
         ]
     },
@@ -663,7 +664,7 @@
             {
                 "opcion": "b.",
                 "texto": "sh",
-                "correcta": false
+                "correcta": true
             },
             {
                 "opcion": "c.",
@@ -673,7 +674,7 @@
             {
                 "opcion": "d.",
                 "texto": "Ninguna es cierta",
-                "correcta": true
+                "correcta": false
             }
         ]
     },
@@ -739,7 +740,7 @@
             {
                 "opcion": "b.",
                 "texto": "No, no se necesita",
-                "correcta": true
+                "correcta": false
             },
             {
                 "opcion": "c.",
@@ -749,7 +750,7 @@
             {
                 "opcion": "d.",
                 "texto": "Sí, concretamente una variable",
-                "correcta": false
+                "correcta": true
             }
         ]
     }
