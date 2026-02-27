@@ -2,163 +2,451 @@
     {
         "enunciado": "Para proteger archivos contra lectura y oculto en la consola del Dos se utiliza…",
         "respuestas": [
-            {"opcion": "A", "texto": "HIDEFILE", "correcta": false},
-            {"opcion": "B", "texto": "PROTECT", "correcta": false},
-            {"opcion": "C", "texto": "ATTRIB", "correcta": true},
-            {"opcion": "D", "texto": "SECURE", "correcta": false}
+            {
+                "opcion": "A",
+                "texto": "HIDEFILE",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "PROTECT",
+                "correcta": false
+            },
+            {
+                "opcion": "C",
+                "texto": "ATTRIB",
+                "correcta": true
+            },
+            {
+                "opcion": "D",
+                "texto": "SECURE",
+                "correcta": false
+            }
         ]
     },
     {
         "enunciado": "Android es de la casa …",
         "respuestas": [
-            {"opcion": "A", "texto": "Microsoft", "correcta": false},
-            {"opcion": "B", "texto": "Apple", "correcta": false},
-            {"opcion": "C", "texto": "Google", "correcta": true},
-            {"opcion": "D", "texto": "IBM", "correcta": false}
+            {
+                "opcion": "A",
+                "texto": "Windows",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "Apple",
+                "correcta": false
+            },
+            {
+                "opcion": "C",
+                "texto": "Linux",
+                "correcta": true
+            },
+            {
+                "opcion": "D",
+                "texto": "Unix",
+                "correcta": false
+            }
         ]
     },
     {
         "enunciado": "¿Qué tipo de licencia utiliza Android?",
         "respuestas": [
-            {"opcion": "A", "texto": "GPL", "correcta": false},
-            {"opcion": "B", "texto": "MIT", "correcta": false},
-            {"opcion": "C", "texto": "Propietaria", "correcta": false},
-            {"opcion": "D", "texto": "Apache", "correcta": true}
+            {
+                "opcion": "A",
+                "texto": "GPL",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "MIT",
+                "correcta": false
+            },
+            {
+                "opcion": "C",
+                "texto": "Propietaria",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "Apache",
+                "correcta": true
+            }
         ]
     },
     {
         "enunciado": "¿Cuántos host tiene la network 192.168.1.0/30?",
         "respuestas": [
-            {"opcion": "A", "texto": "8", "correcta": false},
-            {"opcion": "B", "texto": "4", "correcta": false},
-            {"opcion": "C", "texto": "6", "correcta": false},
-            {"opcion": "D", "texto": "2", "correcta": true}
+            {
+                "opcion": "A",
+                "texto": "8",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "4",
+                "correcta": true
+            },
+            {
+                "opcion": "C",
+                "texto": "6",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "2",
+                "correcta": false
+            }
         ]
     },
     {
         "enunciado": "Los sistemas operativos pueden ser …",
         "respuestas": [
-            {"opcion": "A", "texto": "Solo Monotarea", "correcta": false},
-            {"opcion": "B", "texto": "Multitarea y Monotarea", "correcta": true},
-            {"opcion": "C", "texto": "Solo Multitarea", "correcta": false},
-            {"opcion": "D", "texto": "Monousuario siempre", "correcta": false}
+            {
+                "opcion": "A",
+                "texto": "Solo Monotarea",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "Multitarea y Monotarea",
+                "correcta": true
+            },
+            {
+                "opcion": "C",
+                "texto": "Solo Multitarea",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "Monousuario siempre",
+                "correcta": false
+            }
         ]
     },
     {
         "enunciado": "Windows utiliza actualmente sistema de archivo…",
         "respuestas": [
-            {"opcion": "A", "texto": "FAT16", "correcta": false},
-            {"opcion": "B", "texto": "FAT32", "correcta": false},
-            {"opcion": "C", "texto": "exFAT", "correcta": false},
-            {"opcion": "D", "texto": "NTFS", "correcta": true}
+            {
+                "opcion": "A",
+                "texto": "FAT16",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "FAT32",
+                "correcta": false
+            },
+            {
+                "opcion": "C",
+                "texto": "exFAT",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "NTFS",
+                "correcta": true
+            }
         ]
     },
     {
         "enunciado": "En un Sistema operativo de Windows a la hora de compartir no aparece la pestaña de SEGURIDAD ¿Cuál puede ser la causa?",
         "respuestas": [
-            {"opcion": "A", "texto": "Un error en la instalación", "correcta": false},
-            {"opcion": "B", "texto": "La partición no está en NTFS", "correcta": true},
-            {"opcion": "C", "texto": "Falta de permisos del usuario", "correcta": false},
-            {"opcion": "D", "texto": "Versión de Windows incompatible", "correcta": false}
+            {
+                "opcion": "A",
+                "texto": "Un error en la instalación",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "La partición no está en NTFS",
+                "correcta": true
+            },
+            {
+                "opcion": "C",
+                "texto": "Falta de permisos del usuario",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "Versión de Windows incompatible",
+                "correcta": false
+            }
         ]
     },
     {
         "enunciado": "¿Qué sucede si tenemos dos sistemas operativos con permisos NTFS copiamos parte del contenido del sistema origen1 con permisos NTFS diferentes al sistema operativo de destino2?",
         "respuestas": [
-            {"opcion": "A", "texto": "Se pierden todos los permisos", "correcta": false},
-            {"opcion": "B", "texto": "Se fusionan los permisos de ambos sistemas", "correcta": false},
-            {"opcion": "C", "texto": "Prevalece los permisos del sistema operativo de destino", "correcta": false},
-            {"opcion": "D", "texto": "Se mantienen los permisos originales del archivo copiado", "correcta": true}
+            {
+                "opcion": "A",
+                "texto": "Se pierden todos los permisos",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "Se fusionan los permisos de ambos sistemas",
+                "correcta": false
+            },
+            {
+                "opcion": "C",
+                "texto": "Prevalece los permisos del sistema operativo de destino",
+                "correcta": true
+            },
+            {
+                "opcion": "D",
+                "texto": "Se mantienen los permisos originales del archivo copiado",
+                "correcta": false
+            }
         ]
     },
     {
         "enunciado": "¿Qué significa en Linux 'DRWX --- --X'?",
         "respuestas": [
-            {"opcion": "A", "texto": "Archivo con permisos de lectura para todos", "correcta": false},
-            {"opcion": "B", "texto": "Carpeta con solo permisos de ejecución", "correcta": false},
-            {"opcion": "C", "texto": "Carpeta con permisos totales para el dueño, sin permisos para el grupo y ejecución para el resto", "correcta": true},
-            {"opcion": "D", "texto": "Archivo con control total para todos", "correcta": false}
+            {
+                "opcion": "A",
+                "texto": "Archivo con permisos de lectura para todos",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "Carpeta con solo permisos de ejecución",
+                "correcta": false
+            },
+            {
+                "opcion": "C",
+                "texto": "Carpeta con permisos totales para el dueño, sin permisos para el grupo y ejecución para el resto",
+                "correcta": true
+            },
+            {
+                "opcion": "D",
+                "texto": "Archivo con control total para todos",
+                "correcta": false
+            }
         ]
     },
     {
         "enunciado": "¿Qué valor numérico tiene 'DRWX --- --X'?",
         "respuestas": [
-            {"opcion": "A", "texto": "710", "correcta": false},
-            {"opcion": "B", "texto": "700", "correcta": false},
-            {"opcion": "C", "texto": "711", "correcta": false},
-            {"opcion": "D", "texto": "701", "correcta": true}
+            {
+                "opcion": "A",
+                "texto": "710",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "700",
+                "correcta": false
+            },
+            {
+                "opcion": "C",
+                "texto": "711",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "701",
+                "correcta": true
+            }
         ]
     },
     {
         "enunciado": "¿Qué sistema de archivos utiliza principalmente Linux?",
         "respuestas": [
-            {"opcion": "A", "texto": "NTFS", "correcta": false},
-            {"opcion": "B", "texto": "FAT32", "correcta": false},
-            {"opcion": "C", "texto": "ext2", "correcta": false},
-            {"opcion": "D", "texto": "Ext4", "correcta": true}
+            {
+                "opcion": "A",
+                "texto": "NTFS",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "FAT32",
+                "correcta": false
+            },
+            {
+                "opcion": "C",
+                "texto": "ext2",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "Ext4",
+                "correcta": true
+            }
         ]
     },
     {
         "enunciado": "Si la pila de litio del ordenador está agotada, ¿qué problema ocurre principalmente?",
         "respuestas": [
-            {"opcion": "A", "texto": "El sistema no arranca", "correcta": false},
-            {"opcion": "B", "texto": "No se puede instalar software", "correcta": false},
-            {"opcion": "C", "texto": "La fecha y hora no están actualizadas", "correcta": true},
-            {"opcion": "D", "texto": "Se pierde la configuración de red", "correcta": false}
+            {
+                "opcion": "A",
+                "texto": "El sistema no arranca",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "No se puede instalar software",
+                "correcta": false
+            },
+            {
+                "opcion": "C",
+                "texto": "La fecha y hora no están actualizadas",
+                "correcta": true
+            },
+            {
+                "opcion": "D",
+                "texto": "Se pierde la configuración de red",
+                "correcta": false
+            }
         ]
     },
     {
         "enunciado": "¿Cómo se visualizan los procesos en Linux?",
         "respuestas": [
-            {"opcion": "A", "texto": "Tasklist", "correcta": false},
-            {"opcion": "B", "texto": "Glinux", "correcta": false},
-            {"opcion": "C", "texto": "ps -aux", "correcta": false},
-            {"opcion": "D", "texto": "Top", "correcta": true}
+            {
+                "opcion": "A",
+                "texto": "Tasklist",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "Glinux",
+                "correcta": false
+            },
+            {
+                "opcion": "C",
+                "texto": "ps -aux",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "Top",
+                "correcta": true
+            }
         ]
     },
     {
         "enunciado": "¿Cómo se visualizan los procesos en Windows?",
         "respuestas": [
-            {"opcion": "A", "texto": "Top", "correcta": false},
-            {"opcion": "B", "texto": "Lusrmgr.msc", "correcta": false},
-            {"opcion": "C", "texto": "Tasklist", "correcta": true},
-            {"opcion": "D", "texto": "Processview", "correcta": false}
+            {
+                "opcion": "A",
+                "texto": "Top",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "Lusrmgr.msc",
+                "correcta": false
+            },
+            {
+                "opcion": "C",
+                "texto": "Tasklist",
+                "correcta": true
+            },
+            {
+                "opcion": "D",
+                "texto": "Processview",
+                "correcta": false
+            }
         ]
     },
     {
         "enunciado": "Un usuario pertenece a dos grupos con permisos diferentes en cada uno de los grupos en Windows Server, el primer grupo tiene control total, el segundo tiene sin acceso, ¿Cuál es el resultado final para el usuario?",
         "respuestas": [
-            {"opcion": "A", "texto": "Control total", "correcta": false},
-            {"opcion": "B", "texto": "Permisos limitados", "correcta": false},
-            {"opcion": "C", "texto": "Depende del orden de los grupos", "correcta": false},
-            {"opcion": "D", "texto": "Sin acceso", "correcta": true}
+            {
+                "opcion": "A",
+                "texto": "Control total",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "Permisos limitados",
+                "correcta": false
+            },
+            {
+                "opcion": "C",
+                "texto": "Depende del orden de los grupos",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "Sin acceso",
+                "correcta": true
+            }
         ]
     },
     {
         "enunciado": "¿Un operador de cuentas puede crear una cuenta como administrador?",
         "respuestas": [
-            {"opcion": "A", "texto": "Sí, puede crear cualquier tipo de cuenta", "correcta": false},
-            {"opcion": "B", "texto": "Solo con autorización especial", "correcta": false},
-            {"opcion": "C", "texto": "No puede, solo puede crear cuentas hasta su nivel", "correcta": true},
-            {"opcion": "D", "texto": "Depende de la configuración del dominio", "correcta": false}
+            {
+                "opcion": "A",
+                "texto": "Sí, puede crear cualquier tipo de cuenta",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "Solo con autorización especial",
+                "correcta": false
+            },
+            {
+                "opcion": "C",
+                "texto": "No puede, solo puede crear cuentas hasta su nivel",
+                "correcta": true
+            },
+            {
+                "opcion": "D",
+                "texto": "Depende de la configuración del dominio",
+                "correcta": false
+            }
         ]
     },
     {
         "enunciado": "¿Qué grupo podemos incluir a un usuario para poder iniciar sesión en el propio Windows Server de forma local (que no sea ADMINISTRADOR)?",
         "respuestas": [
-            {"opcion": "A", "texto": "Usuario del dominio", "correcta": false},
-            {"opcion": "B", "texto": "Operador de cuentas", "correcta": false},
-            {"opcion": "C", "texto": "Usuarios", "correcta": true},
-            {"opcion": "D", "texto": "Invitados", "correcta": false}
+            {
+                "opcion": "A",
+                "texto": "Usuario del dominio",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "Usuario del sistema",
+                "correcta": false
+            },
+            {
+                "opcion": "C",
+                "texto": "Operador de cuentas",
+                "correcta": true
+            },
+            {
+                "opcion": "D",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            }
         ]
     },
     {
         "enunciado": "Tenemos dos Windows 10 con la siguiente configuración: Equipo 1: 192.168.1.2, Equipo 2: 192.168.1.3. Sin hacer nada más que escribir la IP anteriores en cada sistema ¿los equipos pueden conectarse en red?",
         "respuestas": [
-            {"opcion": "A", "texto": "Solo si tienen la misma máscara", "correcta": false},
-            {"opcion": "B", "texto": "Depende de la versión de Windows", "correcta": false},
-            {"opcion": "C", "texto": "Sí, están en la misma red", "correcta": true},
-            {"opcion": "D", "texto": "No, necesitan configuración adicional", "correcta": false}
+            {
+                "opcion": "A",
+                "texto": "Solo si tienen la misma máscara",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "Depende de la versión de Windows",
+                "correcta": false
+            },
+            {
+                "opcion": "C",
+                "texto": "Sí, están en la misma red",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "No, necesitan configuración adicional",
+                "correcta": true
+            }
         ]
     }
 ]
