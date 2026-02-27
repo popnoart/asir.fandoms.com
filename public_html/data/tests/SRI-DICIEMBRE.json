@@ -55,7 +55,7 @@
             {
                 "opcion": "a.",
                 "texto": "2000:AABB:BBAA:FE0B::\/64",
-                "correcta": true
+                "correcta": false
             },
             {
                 "opcion": "b.",
@@ -65,7 +65,7 @@
             {
                 "opcion": "c.",
                 "texto": "2000:AABB:BBAA:FE0A::\/64",
-                "correcta": false
+                "correcta": true
             },
             {
                 "opcion": "d.",
@@ -232,22 +232,22 @@
         "respuestas": [
             {
                 "opcion": "a.",
-                "texto": "ip route 10.0.0.0 255.224.0.0 15.0.0.2ip route 11.0.0.0 255.240.0.0 15.0.0.2",
+                "texto": "ip route 10.0.0.0 255.224.0.0 15.0.0.2\nip route 11.0.0.0 255.240.0.0 15.0.0.2",
                 "correcta": true
             },
             {
                 "opcion": "b.",
-                "texto": "ip route 10.0.0.0 255.224.0.0 16.0.0.2ip route 11.0.0.0 255.240.0.0 16.0.0.2",
+                "texto": "ip route 10.0.0.0 255.224.0.0 16.0.0.2\nip route 11.0.0.0 255.240.0.0 16.0.0.2",
                 "correcta": false
             },
             {
                 "opcion": "c.",
-                "texto": "ip route 10.0.0.0 255.224.0.0 15.0.0.2 255.255.255.252ip route 11.0.0.0 255.240.0.0 15.0.0.2 255.255.255.252",
+                "texto": "ip route 10.0.0.0 255.224.0.0 15.0.0.2 255.255.255.252\nip route 11.0.0.0 255.240.0.0 15.0.0.2 255.255.255.252",
                 "correcta": false
             },
             {
                 "opcion": "d.",
-                "texto": "ip route 10.0.0.0 255.224.0.0 16.0.0.2 255.255.255.252ip route 11.0.0.0 255.240.0.0 16.0.0.2 255.255.255.252",
+                "texto": "ip route 10.0.0.0 255.224.0.0 16.0.0.2 255.255.255.252\nip route 11.0.0.0 255.240.0.0 16.0.0.2 255.255.255.252",
                 "correcta": false
             }
         ]
