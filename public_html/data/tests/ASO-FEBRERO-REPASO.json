@@ -150,7 +150,7 @@
         ]
     },
     {
-        "enunciado": "¿Cómo se agrega DNS desde PowerShell? (versión 1)",
+        "enunciado": "¿Cómo se reinicia un servidor desde PowerShell?",
         "respuestas": [
             {
                 "opcion": "A",
@@ -159,23 +159,23 @@
             },
             {
                 "opcion": "B",
-                "texto": "Add-DnsServer -address 8.8.8.8",
+                "texto": "Reboot-System",
                 "correcta": false
             },
             {
                 "opcion": "C",
-                "texto": "Set-Dns -server 8.8.8.8",
+                "texto": "Shutdown /r",
                 "correcta": false
             },
             {
                 "opcion": "D",
-                "texto": "Configure-Dns -dns 8.8.8.8",
+                "texto": "Reset-Server",
                 "correcta": false
             }
         ]
     },
     {
-        "enunciado": "¿Cómo agregamos DNS desde PowerShell? (versión 2)",
+        "enunciado": "¿Cómo agregamos DNS desde PowerShell?",
         "respuestas": [
             {
                 "opcion": "A",
@@ -276,6 +276,7 @@
     },
     {
         "enunciado": "¿Es necesario la opción read en la opción 9 del menú?",
+        "imagen": "ASO-FEBRERO-REPASO_01.png",
         "respuestas": [
             {
                 "opcion": "A",
@@ -300,7 +301,8 @@
         ]
     },
     {
-        "enunciado": "El archivo /etc/samba/smb.conf es un archivo de Ubuntu. ¿Qué hacen las líneas: [carpeta] Path=/home/usuario/Escritorio/carpeta Writable = yes Guest ok = yes Browsable = yes?",
+        "enunciado": "El archivo /etc/samba/smb.conf es un archivo de Ubuntu. ¿Qué hacen las líneas: ",
+        "code": "[carpeta]\n Path=/home/usuario/Escritorio/carpeta\n Writable = yes\n Guest ok = yes\n Browsable = yes?",
         "respuestas": [
             {
                 "opcion": "A",
@@ -454,23 +456,18 @@
         "respuestas": [
             {
                 "opcion": "A",
-                "texto": "La máscara sería 255.255.255.240",
+                "texto": "No puede ser",
                 "correcta": false
             },
             {
                 "opcion": "B",
-                "texto": "La orden es válida y correcta",
+                "texto": "1.0.0.0 no puede tener esos bits",
                 "correcta": false
             },
             {
                 "opcion": "C",
-                "texto": "No puede ser, la 1.0.0.0 no puede tener esos bits, la máscara sería 255.255.255.224",
+                "texto": "La máscara sería 255.255.255.224",
                 "correcta": true
-            },
-            {
-                "opcion": "D",
-                "texto": "La máscara sería 255.255.255.248",
-                "correcta": false
             }
         ]
     },
