@@ -40,7 +40,7 @@
         ]
     },
     {
-        "enunciado": "¿Qué comando de Windows es similar a 'rmdir' de Linux para eliminar directorios vacíos?",
+        "enunciado": "¿Qué comando de Windows es similar a 'rm' de Linux para eliminar directorios vacíos?",
         "respuestas": [
             {
                 "opcion": "a.",
@@ -49,7 +49,7 @@
             },
             {
                 "opcion": "b.",
-                "texto": "rd",
+                "texto": "del",
                 "correcta": true
             },
             {
@@ -226,7 +226,493 @@
                 "opcion": "B",
                 "texto": "136, 137 y 138",
                 "correcta": false
+            },[
+    {
+        "enunciado": "¿El comando 'Dir' de Windows es equivalente a qué comando en Linux?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "ls",
+                "correcta": true
             },
+            {
+                "opcion": "b.",
+                "texto": "dir",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "list",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué comando de Linux se usa para cambiar atributos de archivos, similar a 'attrib' en Windows?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "chattr",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "chmod",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "attr",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué comando de Windows es similar a 'rm' de Linux para eliminar directorios vacíos?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "del",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "remdir",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "deldir",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué valor numérico en CHMOD corresponde a los permisos '-rw-r--r--'?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "644",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "600",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "744",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "755",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué permiso numérico corresponde a 'drwxr-xr-x'?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "755",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "644",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "777",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "700",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué hace la orden chmod - --- --X R--?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Archivo sin acceso al dueño, ejecución para el grupo y lectura para el resto de los usuarios",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Archivo sin acceso para el dueño, lectura para el grupo y ejecución para el resto de los usuarios",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Carpeta con control total para el dueño, ejecución para el grupo y resto de usuarios",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué hace el comando 'sudo' en Linux?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Copia archivos de un directorio a otro",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Cambia el propietario de un archivo",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Ejecuta un comando como superusuario",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Mueve archivos de un directorio a otro",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál es la orden para eliminar un archivo en Ubuntu?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Userdel",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Mv",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Rm",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Del",
+                "correcta": false
+            },
+            {
+                "opcion": "e.",
+                "texto": "Rmdir",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "El usuario 'Carmen' pertenece al grupo 'costura' tiene control total sobre la carpeta 'trajes' puede conectarse a ella perfectamente desde máquinas clientes Windows 10, el administrador incluye a 'Carmen' al grupo 'modas' con permiso de sin acceso para la carpeta 'trajes' el usuario 'Carmen' cuando trata de acceder a la carpeta 'trajes' no tiene acceso, ¿Cuál crees que puede ser la causa?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "Carmen no está en el grupo modas",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "Carmen no tiene permisos",
+                "correcta": true
+            },
+            {
+                "opcion": "C",
+                "texto": "Se ha producido un error en LDAP de Windows Server",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "Carmen no está en el grupo costura",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué puertos deshabilita NetBIOS?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "80 y 53",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "136, 137 y 138",
+                "correcta": false
+            },
+            {
+                "opcion": "C",
+                "texto": "137, 138 y 139",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "Hemos configurado en Windows 10 la IPV6 2000:0A:BBF1:45BA:76:FF:: ¿Cuántos bits de red le pertenecen?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "112",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "96",
+                "correcta": true
+            },
+            {
+                "opcion": "C",
+                "texto": "64",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "80",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál es la orden para visualizar la versión de Linux que estamos utilizando?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "Mste.msc",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "Sudo su",
+                "correcta": false
+            },
+            {
+                "opcion": "C",
+                "texto": "Lus.msc",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "Uname -n",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué hace la orden less en Linux?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "Muestra un archivo, pero no deja editarlo",
+                "correcta": true
+            },
+            {
+                "opcion": "B",
+                "texto": "Crea directorios",
+                "correcta": false
+            },
+            {
+                "opcion": "C",
+                "texto": "Muestra un archivo y deja editarlo",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "Crea archivos",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "El usuario 'Jacinto' pertenece al grupo 'Técnicos' tiene control total sobre la carpeta 'Administrador' puede conectarse a ella perfectamente desde máquinas clientes Windows 11, el administrador incluye a 'Jacinto' al grupo 'RRHH' con permiso de sin acceso para la carpeta 'Administrador' el usuario 'Jacinto' cuando trata de acceder a la carpeta 'Administrador' no tiene acceso, ¿Cuál crees que puede ser la causa?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "La pregunta está mal formulada",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "Jacinto pertenece a dos grupos, uno de ellos tiene el permiso de sin acceso y en el otro control total por lo que sí podrá acceder a la carpeta Administrador sin ningún problema",
+                "correcta": false
+            },
+            {
+                "opcion": "C",
+                "texto": "Jacinto pertenece a dos grupos, uno de ellos tiene el permiso de sin acceso, por lo que no podrá acceder a la carpeta Administrador por falta de permisos",
+                "correcta": true
+            },
+            {
+                "opcion": "D",
+                "texto": "Jacinto no puede pertenecer a dos grupos, en el que a uno de ellos tenga control total y en el otro tenga sin acceso, el sistema no lo permite",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál es el puerto 22?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "TELNET",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "SSH",
+                "correcta": true
+            },
+            {
+                "opcion": "C",
+                "texto": "DNS",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "FTP",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cómo se visualiza la información de un archivo en Ubuntu?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "Les",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "Man",
+                "correcta": false
+            },
+            {
+                "opcion": "C",
+                "texto": "Car",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "Nano",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué hace en Ubuntu la orden 'df -h'?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "información de un archivo",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Información de disco",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Editar un archivo específico",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál es la orden para mover un archivo en Ubuntu?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Cp",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Ls",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Cd ..",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Mv",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué numeración en formato octal corresponde a los permisos 'D --- --X -W-'?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "721",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "751",
+                "correcta": false
+            },
+            {
+                "opcion": "C",
+                "texto": "731",
+                "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "741",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué numeración en formato octal corresponde a los permisos 'D -WX R-X ---'?",
+        "respuestas": [
+            {
+                "opcion": "A",
+                "texto": "750",
+                "correcta": false
+            },
+            {
+                "opcion": "B",
+                "texto": "370",
+                "correcta": false
+            },
+            {
+                "opcion": "C",
+                "texto": "730",
+                "correcta": true
+            },
+            {
+                "opcion": "D",
+                "texto": "350",
+                "correcta": false
+            }
+        ]
+    }
+]
             {
                 "opcion": "C",
                 "texto": "80 y 53",
@@ -240,12 +726,12 @@
             {
                 "opcion": "A",
                 "texto": "96",
-                "correcta": false
+                "correcta": true
             },
             {
                 "opcion": "B",
                 "texto": "80",
-                "correcta": true
+                "correcta": false
             },
             {
                 "opcion": "C",
