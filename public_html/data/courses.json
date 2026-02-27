@@ -387,6 +387,12 @@
                 "start": "",
                 "end": "",
                 "name": "EXAMEN ENERO"
+            },
+            "CB-FEBRERO": {
+                "type": "Cuestionario",
+                "start": "",
+                "end": "",
+                "name": "AUTOEVALUACIÓN FEBRERO"
             }
         },
         "notes": {
