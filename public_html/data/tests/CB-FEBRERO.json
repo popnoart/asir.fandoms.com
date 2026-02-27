@@ -26,7 +26,7 @@
     },
     {
         "enunciado": "Para acceder al servidor Web CACERES desde seguridad 0 ¿Qué IP tenemos que utilizar?",
-        "IMAGEN": "CB-FEBRERO_01.png",
+        "imagen": "CB-FEBRERO_01.png",
         "respuestas": [
             {
                 "opcion": "a.",
@@ -102,7 +102,7 @@
     },
     {
         "enunciado": "Para acceder al servidor Web MALAGA desde seguridad 0 ¿Qué IP tenemos que utilizar?",
-        "IMAGEN": "CB-FEBRERO_01.png",
+        "imagen": "CB-FEBRERO_01.png",
         "respuestas": [
             {
                 "opcion": "a.",
@@ -128,7 +128,7 @@
     },
     {
         "enunciado": "Para acceder al servidor Web VALENCIA desde seguridad 0 ¿Qué IP tenemos que utilizar?",
-        "IMAGEN": "CB-FEBRERO_01.png",
+        "imagen": "CB-FEBRERO_01.png",
         "respuestas": [
             {
                 "opcion": "a.",
