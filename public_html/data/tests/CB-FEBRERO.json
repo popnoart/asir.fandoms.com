@@ -1,0 +1,505 @@
+[
+    {
+        "enunciado": "La ley de seguridad en los cortafuegos físicos afirma lo siguiente (marca la opción correcta)",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Por defecto no existe limite de conexiones, se puede comunicar de forma bidireccional la seguridad 100 con la seguridad 0 y viceversa",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Por defecto seguridad inferior si puede comunicarse con seguridad superior",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Por defecto seguridad inferior no puede comunicarse con seguridad superior",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "Para acceder al servidor Web CACERES desde seguridad 0 ¿Qué IP tenemos que utilizar?",
+        "IMAGEN": "CB-FEBRERO_01.png",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "No se puede acceder desde seguridad 0 a la seguridad 100",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "192.168.1.2",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "192.168.10.1",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "192.168.1.1",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál es la VLAN e IP que trae por defecto el ASA 5505 en cisco?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "VLAN 1 con la IP 192.168.1.1 ya asignada",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "VLAN 1 con la IP 192.168.10.1 ya asignada",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "No trae ninguna se debe configurar previamente",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿NetBIOS, que puertos cierra o abre?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Cierra 136, 137 y 138",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Cierra 134. 135 y 136",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Cierra 137, 138 y 139",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Para acceder al servidor Web MALAGA desde seguridad 0 ¿Qué IP tenemos que utilizar?",
+        "IMAGEN": "CB-FEBRERO_01.png",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "192.168.1.1",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "192.168.10.1",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "192.168.1.3",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "No se puede acceder desde seguridad 0 a la seguridad 100",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Para acceder al servidor Web VALENCIA desde seguridad 0 ¿Qué IP tenemos que utilizar?",
+        "IMAGEN": "CB-FEBRERO_01.png",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "No se puede acceder desde seguridad 0 a la seguridad 100",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "192.168.1.1",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "192.168.10.1",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "192.168.1.4",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿En un cortafuegos físicos ASA 5505 se puede dar de alta usuarios desde la interfaz gráfica?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "No",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Sí",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Depende de la Versión del ASA 5505",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Se puede dar de alta enlaces de paginas web desde la interfaz gráfica en un cortafuegos físico ASA 5505?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Sí",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "No",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Depende de la Versión del ASA 5505",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "En VPN en la línea authentication que opciones tenemos para elegir",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Pre-share - pre-share key y AES",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "pre-share key",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Pre-share",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Pre-share y pre-share key",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "En una VPN en la línea encryption con el algoritmo AES que opciones tenemos para elegir...",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "128-192",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "128-192-256-512",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "128-192-256-512-1024",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "128-192-256",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "En seguridad por MAC una vez que el puerto esta bloqueado que debemos hacer para levantar el puerto",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Únicamente NO Shutdow",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Únicamente Shutdow",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Shutdow y no shutdow",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "Que hace IPSEC",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "En ningún caso encripta los datos",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Encripta los datos que viajan por el cable",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Encripta los datos en el router",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Cuantas VLAN se pueden declarar en un cortafuegos ASA 5505",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "No existe limite siempre y cuando no supere los 1007",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "3",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "2",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "En configuraciones con VPN la orden \"Match address\" va seguida de un numero. ¿a que hace referencia dicho numero?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "A la variable 2 declarada en la VPN",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "A la variable 1 declarada en la VPN",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Lista de control de acceso",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "A la variable 3 declarada en la VPN",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "En VPN la instrucción \"Set Transform.set\" va seguida de un nombre ¿Cuál?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "La primera variable que declaramos en la configuración",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "La segunda variable que declaramos en la configuración",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "La tercera variable que declaramos en la configuración",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Cuantas variables se declaran en las configuraciones de una VPN en un router cisco.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Un total de 4",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Un total de 3",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Un total de 5",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Un total de 2",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Que líneas debemos escribir obligatoriamente para configurar seguridad por mac en un Swtich",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Unicamente Swtichport mode",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Swtichport mode Access y Swtichport port-security",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Unicamente Swtichport port-security",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Que hace isakmp",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Encripta los datos tanto en el router como en el cable",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Encripta los datos en el cable",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Encripta los datos en el propio router",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "MZ es una zona que se llama desmilitarizada el nivel de seguridad que debería tener por defecto es...",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "0",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "100",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "50",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Como sabemos si los datos de una VPN llegan encriptados…",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Show crypto ipsec",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "crypto ipsec sa",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Show crypto ipsec sa",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Show ipsec sa",
+                "correcta": false
+            }
+        ]
+    }
+]
