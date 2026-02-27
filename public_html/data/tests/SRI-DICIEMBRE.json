@@ -253,7 +253,8 @@
         ]
     },
     {
-        "enunciado": "En configuración de VLAN en IPV6 completa la línea que falta dentro de la encapsulación:Int fa0\/0.10Encapsulation dot1q 10Ipv6 add 2001:1234:1234:1234::1\/64",
+        "enunciado": "En configuración de VLAN en IPV6 completa la línea que falta dentro de la encapsulación:",
+        "code": "Int fa0\/0.10\nEncapsulation dot1q 10\nIpv6 add 2001:1234:1234:1234::1\/64",
         "respuestas": [
             {
                 "opcion": "a.",
@@ -379,7 +380,8 @@
         ]
     },
     {
-        "enunciado": "¿Encuentras algún error en el siguiente código?interface FastEthernet0\/0.1encapsulation dot1q 1ip add 192.168.3.1 255.255.255.224",
+        "enunciado": "¿Encuentras algún error en el siguiente código?",
+        "code": "interface FastEthernet0\/0.1\nencapsulation dot1q 1\nip add 192.168.3.1 255.255.255.224",
         "respuestas": [
             {
                 "opcion": "a.",
