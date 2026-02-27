@@ -381,6 +381,11 @@
                 "opcion": "D",
                 "texto": "Nano",
                 "correcta": false
+            },
+            {
+                "opcion": "D",
+                "texto": "Ninguna es cierta",
+                "correcta": true
             }
         ]
     },
