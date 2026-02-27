@@ -1,0 +1,505 @@
+[
+    {
+        "enunciado": "Es correcta la siguiente configuración para compartir recursos entre Windows y Ubuntu...",
+        "code": "[recurso]\nPath=/home/usuario/Escritorio/recurso\nWritable = yes\nGuest ok = yes\nBrowsable = yes",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Si, esta perfectamente escrito",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "[recurso] no puede ser igual al parámetro final de la línea del path",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "No, falta la orden \"Browsable = yes\"",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cómo nos informamos de los adaptadores que tenemos desde PowerShell?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "NetAdapter",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Get-NetAdapter",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "New-Netipaddress",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Todas las respuestas dadas son ciertas",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cómo se accede al menú de aplicaciones sencillas en PowerShell?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Sconfig",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Get-NetAdapter",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Todas son falsas",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "install gnome-system-tools",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Un administrador de Windows Server puede visualizar la contraseña de un usuario que se ha configurado en Active Directory?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Depende de la configuración de la cuenta",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "No, pero puede modificarla",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Sí, y puede modificarla",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cómo se restaura el sistema desde PowerShell?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "mod -n",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Restart-computer",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "restart",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál es la orden para escribir una IP con puerta de enlace en PowerShell?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Todas son ciertas",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "sconfig",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "New-NetIpaddress -interfaceindex 4 -ipaddress 15.0.0.10 -prefixlengt 11 -DefaultGateway 15.0.0.1",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "New-NetIpaddress -interfaceindex 4 -ipaddress 15.0.0.10 -prefixlengt 11",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Cómo asignamos DNS desde PowerShell?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Set-dnsclientserveraddress -interfaceindex 4",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Set-dnsclientserveraddress -interfaceindex 4 -serveraddress 8.8.8.8",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Set-dnsclientserveraddress -serveraddress 8.8.8.8",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cómo conocemos nuestra MAC desde PowerShell?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "ipconfig /all",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Get-NetMac",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Get-Mac",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cómo se ejecuta un script en Ubuntu?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Todas son correcta",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "/archivo.sh",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": ".archivo.sh",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "./archivo.sh",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál es la extensión que debe tener un script en Windows?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": ".sh",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Todas las respuestas dadas son falsas.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": ".bah",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": ".bat",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál es el nombre de archivo en Ubuntu para poder compartir recursos entre Windows y Ubuntu?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "/etc/samba/smb.conf",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "/etc/samba/samba.conf",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "/samba/smb.conf",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué hace la orden chmod -RWX --X --X?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Carpeta con control total para el dueño, ejecución para el grupo y resto de usuarios",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Archivo con control total para el dueño, lectura para el grupo y ejecución para el resto de usuarios",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Archivo con control total para el dueño, ejecución para el grupo y resto de usuarios",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Archivo con control total para el dueño, lectura y escritura para el grupo y ejecución para el resto de usuarios",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "El usuario \"Benito\" pertenece al grupo \"poetas\" tiene control total sobre la carpeta \"belleza\" puede conectarse a ella perfectamente desde máquinas clientes Windows 10, el administrador incluye a \"Benito\" al grupo \"informáticos\" con permiso de sin acceso para la carpeta \"belleza\" el usuario \"Benito\" cuando trata de acceder a la carpeta \"Belleza\" no tiene acceso, ¿Cuál crees que puede ser la causa?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Benito pertenece a dos grupos, uno de ellos tiene el permiso de sin acceso, por lo que no podrá acceder a la carpeta Belleza por falta de permisos.",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "La pregunta esta mal formulada.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Benito no puede pertenecer a dos grupos, en el que a uno de ellos tenga control total y en el otro tenga sin acceso, el sistema no lo permite.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Benito pertenece a dos grupos, uno de ellos tiene el permiso de sin acceso y en el otro control total por lo que sí podrá acceder a la carpeta Belleza sin ningún problema",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué comando se usa para agregar un usuario en Ubuntu Server y que proporcione la opción de escribir contraseña al usuario que estamos creando?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "adduser",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "UserAdd",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "NewUser",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "CreateUser",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Cuántas variables se necesitas para configurar la opción 3 en un script en Ubuntu? Crear grupo(es la opcion 3",
+        "imagen": "ASO-FEBRERO_01.png",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Dos variables",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "3 Variables",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Una variable",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "Que valor numérico equivale a la orden \"chmod DR-X R-X --X\"",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "551",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "775",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "770",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "761",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Para unir en red Windows 10 que reside en VirtualBox con el sistema operativo físico ¿se utiliza?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Red Nat",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Adaptador Puente",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Red interna",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Nat",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Es estrictamente necesario la orden Read en la lista 10 que muestra la siguiente imagen en un script en Ubuntu? La opcion 10 es Salir",
+        "imagen": "ASO-FEBRERO_02.png",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "No",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Sí",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Depende de la versión de Linux",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "En PowerShell tenemos escrito la siguiente línea New-NetIpaddress -interfaceindex 4 -ipaddress 175.0.0.1 -prefixlengt 29 ¿Qué mascara le pertenece a la IP?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "255.255.255.252",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "255.255.248.0",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "255.255.255.0",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "255.255.255.248",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "Como comienza un script en Ubuntu...",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "#/bin/bash",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "#!/bin/bash",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "#!/bin/bat",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "#/bash",
+                "correcta": false
+            }
+        ]
+    }
+]
