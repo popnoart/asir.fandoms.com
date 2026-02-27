@@ -130,12 +130,12 @@
             {
                 "opcion": "a.",
                 "texto": "Un conjunto de códigos utilizados para transmitir un mensaje privado cuyo contenido se quiere ocultar",
-                "correcta": false
+                "correcta": true
             },
             {
                 "opcion": "b.",
                 "texto": "Un conjunto de signos o símbolos del mensaje original a los que se les cambia la posición",
-                "correcta": true
+                "correcta": false
             },
             {
                 "opcion": "c.",
