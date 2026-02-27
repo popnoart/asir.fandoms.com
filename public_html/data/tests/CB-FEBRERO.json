@@ -158,12 +158,12 @@
             {
                 "opcion": "a.",
                 "texto": "No",
-                "correcta": false
+                "correcta": true
             },
             {
                 "opcion": "b.",
                 "texto": "Sí",
-                "correcta": true
+                "correcta": false
             },
             {
                 "opcion": "c.",

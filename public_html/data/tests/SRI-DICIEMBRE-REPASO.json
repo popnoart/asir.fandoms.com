@@ -151,7 +151,8 @@
         ]
     },
     {
-        "enunciado": "Encuentras algún error en el siguiente código: Class-map NOMBRE1 [Match default-inspection-traffic] Exit Policy-map NOMBRE2 Class NOMBRE1 [Inspect icmp] Exit Service-policy Class-map NOMBRE1 Exit Policy-map NOMBRE2 Class NOMBRE1 Exit Service-policy",
+        "enunciado": "Encuentras algún error en el siguiente código:",
+        "code": "Class-map NOMBRE1\n Exit\n Policy-map NOMBRE2\n Class NOMBRE1\n Exit\n Service-policy",
         "respuestas": [
             {
                 "opcion": "A",
@@ -160,7 +161,7 @@
             },
             {
                 "opcion": "B",
-                "texto": "Falta la línea 'Match default-inspection-traffic' que es obligatoria",
+                "texto": "Falta la línea 'Match default-inspection-traffic' y 'Inspect icmp' que son obligatoria",
                 "correcta": true
             },
             {
