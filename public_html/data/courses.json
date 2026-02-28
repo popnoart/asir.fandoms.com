@@ -1402,6 +1402,12 @@
                 "start": "",
                 "end": "",
                 "name": "Repaso previo examen Febrero"
+            },
+            "SRI-FEBRERO": {
+                "type": "Cuestionario",
+                "start": "",
+                "end": "",
+                "name": "AUTOEVALUACIÓN FEBRERO"
             }
         },
         "notes": {

@@ -1,0 +1,509 @@
+[
+    {
+        "enunciado": "¿Qué intervalo admite \"router ospf ?\"",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "de 1 hasta 65535",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "de 1.1.1.1. hasta F.F.F.F",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "de 1 a 1007",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "de 1 a 1048576",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Cuando enrutamos por OSPF y queremos conectividad total con el resto de router es necesario que coincida ....",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "El area",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "el numero que se escribe después de router OSPF",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Es necesario que coincida tanto el area como el numero que se escribe después de router OSPF",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Necesitamos conectividad entre el router 1 y el router 2 por OSPF ¿observas algún error?",
+        "code": "ROUTER 1 Config#\nRouter ospf 2\nRouter-id 1.1.1.1\nNetwork 192.168.1.0 0.0.0.255 area 0\nNetwork 192.168.2.0 0.0.0.255 area 0\nExit\n\nROUTER 2 Config#\nRouter ospf 1\n\nRouter-id 1.1.1.1\nNetwork 192.168.2.0 0.0.0.255 area 0\nNetwork 192.168.3.0 0.0.0.255 area 0",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Sí, Router-id 1.1.1.1 no puede ser igual en ambos router",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "No, no existe ningún error",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Sí, Router OSPF no coincide el valor en ambos router y es necesario que sea el mismo valor para que tengas conectividad",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Necesitamos conectividad entre el router 1 y el router 2 por OSPF ¿observas algún error?",
+        "code": "ROUTER 1 Config#\nIpv6 router ospf 2\nRouter-id 1.1.1.1\nExit\nInt fa0/0\nIpv6 ospf 1 area 0\nExit\nInt s0/0/0\nIpv6 ospf 1 area 0\nExit\n\nROUTER 2 Config#\nIpv6 router ospf 1\nRouter-id 1.1.1.1\nExit\nInt fa0/0\nIpv6 ospf 1 area 0\nExit\n\nInt s0/0/0\nIpv6 ospf 1 area 0",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Sí, existe un error Router-id 1.1.1.1 no puede tener el mismo valor en ambos router",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Sí, existe un error Ipv6 router ospf 2 no puede ser diferente el valor si queremos conectividad entre ambos router",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Todas son cierta",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "No existe ningún error",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Enruta por OSPF el router 2 ¿Cuáles son las ordenes correctas?",
+        "iamgen": "SRI-FEBRERO-01.png",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "router ospf 1\nrouter-id 3.3.3.3\nNetwork 192.168.3.1  0.0.0.255 area 0\nNetwork 11.0.0.1  0.255.255.255 area 0\nNetwork 12.0.0.1  0.255.255.255. area 0",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "router ospf 1\nrouter-id 3.3.3.3\nNetwork 192.168.3.0  0.0.0.255 area 0\nNetwork 11.0.0.2  0.255.255.255 area 0\nNetwork 12.0.0.2  0.255.255.255. area 0",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "router ospf 1\nrouter-id 3.3.3.3\nNetwork 192.168.3.0  0.0.0.255 area 0\nNetwork 11.0.0.0  0.255.255.255 area 0\nNetwork 12.0.0.0  0.255.255.255. area 0",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "router ospf 1\nrouter-id 3.3.3.3\nNetwork 192.168.3.0  255.255.255.0 area 0\nNetwork 11.0.0.0  255.0.0.0 area 0\nNetwork 12.0.0.0  255.0.0.0 area 0",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Que mascara le corresponde por OSPF a la Network 192.168.1.0/30",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "0.0.0.255",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "0.0.0.4",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "255.0.0.3",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "0.0.0.3",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "Que mascara le corresponde por OSPF a la Network 10.0.0.0/11",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "0.31.0.0",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "255.0.0.31",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "0.31.255.255",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "0.32.255.255",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuándo enrutamos por OSPF es obligatorio escribir un valor para Router-id?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Es obligatorio únicamente con valor numéricos",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Es obligatorio únicamente para valores alfanuméricos",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Es completamente obligatorio de lo contrario el sistema no nos deja continuar",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "No es obligatorio, aunque si recomendable, si no escribimos ningún valor el propio sistema nos escribe uno",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál es el valor mas alto que podemos asignar en una Pt-cloud en la línea DLCI de los seriales?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Cualquier valor que no supere 65535",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "1008",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "1007",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Observas algún error en el siguiente código:",
+        "code": "int fa0/0\nIp add 192.168.1.0 255.255.255.248\nNo shut",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "La mascara es incorrecta",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "La IP es incorrecta",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "La IP y la Mascara son incorrectas",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Cuál es el resultado de sumarizar las siguientes Network:\n\n192.168.91.0\n192.168.59.0\n192.168.39.0",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "192.168.0.0 255.255.255.0",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "192.168.0.0 255.255.128.0",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "192.168.10.0 255.255.128.0",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Cual es el resultado de sumarizar las siguientes Network:\n\n2000:A:A:F::/64\n2000:A:A:C::/64\n2000:A:A:E::/64",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "2000:A:A:F:/60",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "2000:A:A:C::/62",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "2000:A:A:C::/61",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "2000:A:A:E:/60",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Que mascara le corresponde por OSPF a la Network 172.172.0.0/17",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "0.0.128.255",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "0.0.127.255",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "255.255.128.0",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Encuentras algún error en el siguiente código para VLAN?",
+        "code": "int range fa0/1-23\nSwitchport access vlan 1\nSwitchport mode access",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Únicamente es incorrecta la línea del Swtichport mode access",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Las tres líneas de código son incorrectas",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Únicamente es incorrecta la línea Switchport access vlan 1",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Únicamente la orden la línea int range fa0/1-23 es incorrecta",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Encuentras algo error en el siguiente código?",
+        "code": "Interface FastEthernet1/1.10\nencapsulation dot1Q 10\nIP address 192.168.1.1 255.255.255.128",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Únicamente la línea de encapsulation es incorrecta",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Únicamente la línea IP add es incorrecta",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Todas las líneas de código son incorrectas",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "No existe ningún error",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Encuentras algún error en el siguiente código?",
+        "code": "dial-peer voice 50 voip\ndestination-pattern 2...\nsession target ipv4:192.168.2.1 port 1000",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "destination-pattern 2... es incorrecto",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "dial-peer voice 50 voip es incorrecto",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "No existe ningún error",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "El port es incorrecto",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "Que mascara le corresponde por OSPF a la Network 10.0.0.0/30",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "0.0.0.3",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "255.0.0.0",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "0.0.0.4",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "No se puede asignar por OSPF a una Network de clase A 30 bits",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Cual es el hexteto que se utiliza para subnetear en IPV6",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "El cuarto",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "El quinto",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Es indiferente mientras que no sean los 3 primeros",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Que mascara le corresponde por OSPF a la Network 192.0.0.0/26",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "0.0.0.64",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "255.255.255.64",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "0.0.0.63",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "255.255.255.63",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Desde el punto de vista de seguridad es seguro enrutar así...\nip route 0.0.0.0 0.0.0.0 s0/0/0",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "No, no es nada seguro",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "El sistema no permite enrutar asi",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Completamente seguro pues al enrutar por estática también el router de destino tiene que enrutar asi y de esa forma existe la confianza mutua",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            }
+        ]
+    }
+]
