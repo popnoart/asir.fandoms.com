@@ -54,7 +54,7 @@
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="pregunta_<?php echo $idx; ?>" id="pregunta_<?php echo $idx; ?>_opcion_<?php echo $rid; ?>" value="<?php echo $rid; ?>">
                                 <label class="form-check-label" for="pregunta_<?php echo $idx; ?>_opcion_<?php echo $rid; ?>">
-                                    <?php echo htmlspecialchars($respuesta['opcion'] . ' ' . $respuesta['texto'], ENT_QUOTES, 'UTF-8'); ?>
+                                    <?php echo nl2br(htmlspecialchars($respuesta['opcion'] . ' ' . $respuesta['texto'], ENT_QUOTES, 'UTF-8')); ?>
                                 </label>
                             </div>
                         <?php endforeach; ?>
