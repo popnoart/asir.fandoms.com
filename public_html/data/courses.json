@@ -1408,12 +1408,16 @@
                 "link": "https://docs.google.com/document/d/1JBKSuTG9MRom_bcMcTiq44GImeftondUPnRHFKpTyP0/edit?usp=sharing"
             },
             "SRI-chuleta-doc": {
-                "name": "CHULETA PAR 1º",
-                "link": "https://docs.google.com/document/d/1Bj6twOCcQJBz4Mtu_XxZdif5tVIQvLpweXHg1gPn7uI/edit?usp=sharing"
+                "name": "CHULETA SRI",
+                "link": "https://docs.google.com/document/d/1aK2VnMSfSYq6wc875CapAw9ghksoMomLSmlLa-DW24A/edit?usp=sharing"
             },
             "SRI-calculadora": {
                 "name": "CALCULADORA BÄSICA",
                 "link": "https://docs.google.com/spreadsheets/d/1LTd9LyWcneUbbZXBWeUk28-lf3tMkZb32BGJ_TAG6hg/edit?usp=sharing"
+            },
+            "PAR-chuleta-doc": {
+                "name": "CHULETA PAR",
+                "link": "https://docs.google.com/document/d/1Bj6twOCcQJBz4Mtu_XxZdif5tVIQvLpweXHg1gPn7uI/edit?usp=sharing"
             }
         }
     },
