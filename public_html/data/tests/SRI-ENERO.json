@@ -195,7 +195,7 @@
             },
             {
                 "opcion": "d.",
-                "texto": "ipv6 route 2017:1234:5FFF:AAB0::1/64 2026:A:A:A::1 ipv6 route 2017:1234:5FFF:AAA0::1/64 2026:A:A:A::1 ipv6 route 2017:1234:5FFF:AAC0::1/64 2026:A:A:A::1 ipv6 route 2017:1234:5FFF:AAD0::1/64 2026:A:A:A::1",
+                "texto": "ipv6 route 2017:1234:5FFF:AAB0::1/64 2026:A:A:A::1\n ipv6 route 2017:1234:5FFF:AAA0::1/64 2026:A:A:A::1\n ipv6 route 2017:1234:5FFF:AAC0::1/64 2026:A:A:A::1\n ipv6 route 2017:1234:5FFF:AAD0::1/64 2026:A:A:A::1",
                 "correcta": false
             }
         ]
@@ -207,12 +207,12 @@
             {
                 "opcion": "a.",
                 "texto": "ipv6 route 2001:A:A:A::/64 2019:A:A:A::1",
-                "correcta": true
+                "correcta": false 
             },
             {
                 "opcion": "b.",
                 "texto": "ipv6 route 2001:A:A:A::/64 2019:A:A:A::2",
-                "correcta": false
+                "correcta": true
             },
             {
                 "opcion": "c.",
@@ -468,12 +468,12 @@
             {
                 "opcion": "c.",
                 "texto": "2000:AABB:BBAA:FE0B::/60",
-                "correcta": true
+                "correcta": false
             },
             {
                 "opcion": "d.",
                 "texto": "2000:AABB:BBAA:FE0A::/64",
-                "correcta": false
+                "correcta": true
             }
         ]
     },
@@ -488,7 +488,7 @@
             {
                 "opcion": "b.",
                 "texto": "255.255.255.252",
-                "correcta": false
+                "correcta": true
             },
             {
                 "opcion": "c.",
@@ -498,7 +498,7 @@
             {
                 "opcion": "d.",
                 "texto": "255.255.255.240",
-                "correcta": true
+                "correcta": false
             }
         ]
     },
@@ -533,7 +533,7 @@
             {
                 "opcion": "a.",
                 "texto": "La IP contiene errores",
-                "correcta": true
+                "correcta": false
             },
             {
                 "opcion": "b.",
@@ -543,7 +543,7 @@
             {
                 "opcion": "c.",
                 "texto": "112",
-                "correcta": false
+                "correcta": true
             },
             {
                 "opcion": "d.",
@@ -578,12 +578,13 @@
         ]
     },
     {
-        "enunciado": "¿Encuentras algún error en el siguiente código? interface FastEthernet0/0.1 encapsulation dot1q 1 ip add 192.168.3.1 255.255.255.224",
+        "enunciado": "¿Encuentras algún error en el siguiente código?",
+        "code": "interface FastEthernet0/0.1\n encapsulation dot1q 1\n ip add 192.168.3.1 255.255.255.224",
         "respuestas": [
             {
                 "opcion": "a.",
                 "texto": "No se puede utilizar \"interface FastEthernet0/0.1\"",
-                "correcta": false
+                "correcta": true
             },
             {
                 "opcion": "b.",
@@ -598,7 +599,7 @@
             {
                 "opcion": "d.",
                 "texto": "La IP es incorrecta",
-                "correcta": true
+                "correcta": false
             }
         ]
     },
@@ -608,7 +609,7 @@
             {
                 "opcion": "a.",
                 "texto": "2000:AABB:BBAA:BD00::/56",
-                "correcta": false
+                "correcta": true
             },
             {
                 "opcion": "b.",
@@ -623,7 +624,7 @@
             {
                 "opcion": "d.",
                 "texto": "2000:AABB:BBAA:BD00::/60",
-                "correcta": true
+                "correcta": false
             }
         ]
     },
@@ -633,7 +634,7 @@
             {
                 "opcion": "a.",
                 "texto": "195.168.0.0 255.255.224.0",
-                "correcta": false
+                "correcta": true
             },
             {
                 "opcion": "b.",
@@ -648,7 +649,7 @@
             {
                 "opcion": "d.",
                 "texto": "195.168.10.0 255.255.224.0",
-                "correcta": true
+                "correcta": false
             }
         ]
     },
@@ -663,7 +664,7 @@
             {
                 "opcion": "b.",
                 "texto": "2025:CAFE:AAAA:A800::/53",
-                "correcta": false
+                "correcta": true
             },
             {
                 "opcion": "c.",
@@ -673,7 +674,7 @@
             {
                 "opcion": "d.",
                 "texto": "2025:CAFE:AAAA:A800::/54",
-                "correcta": true
+                "correcta": false
             }
         ]
     },
