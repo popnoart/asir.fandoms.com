@@ -275,7 +275,8 @@
         ]
     },
     {
-        "enunciado": "Encuentra algún error en el siguiente código: Int fa0/0.1, Ip add 192.168.1.0 255.255.255.0",
+        "enunciado": "Encuentra algún error en el siguiente código:",
+        "code": "Int fa0/0.1\n Ip add 192.168.1.0 255.255.255.0",
         "respuestas": [
             {
                 "opcion": "A",
@@ -300,7 +301,8 @@
         ]
     },
     {
-        "enunciado": "Encuentra algún error en el siguiente código: Int fa0/0.10, Encapsulation dot1q 11, Ip add 192.168.1.1 255.255.255.224",
+        "enunciado": "Encuentra algún error en el siguiente código:",
+        "code": "Int fa0/0.10\n Encapsulation dot1q 11\n Ip add 192.168.1.1 255.255.255.224",
         "respuestas": [
             {
                 "opcion": "A",
@@ -325,7 +327,8 @@
         ]
     },
     {
-        "enunciado": "En configuraciones VLAN con IPv6, completa el siguiente código: Int fa0/0.10, Encapsulation dot1q 10",
+        "enunciado": "En configuraciones VLAN con IPv6, completa el siguiente código:",
+        "code": "Int fa0/0.10\n Encapsulation dot1q 10",
         "respuestas": [
             {
                 "opcion": "A",
