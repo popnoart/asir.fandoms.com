@@ -10,7 +10,7 @@
             {
                 "opcion": "b.",
                 "texto": "La IP de los servidores Web de la Zona de seguridad 100",
-                "correcta": true
+                "correcta": false
             },
             {
                 "opcion": "c.",
@@ -20,7 +20,7 @@
             {
                 "opcion": "d.",
                 "texto": "La IP de Default-Gateway de los PC de la zona de seguridad 0 el cortafuegos realiza el resto del trabajo para poder acceder a las páginas Web",
-                "correcta": false
+                "correcta": true
             }
         ]
     },
