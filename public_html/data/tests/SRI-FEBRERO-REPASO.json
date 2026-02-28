@@ -1,0 +1,411 @@
+[
+    {
+        "enunciado": "Cuando enrutamos por OSPF y queremos conectividad con otros routers tenemos que tener en cuenta que principalmente tiene que coincidir:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "El área",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "El router-id",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "La prioridad",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "El coste de la ruta",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué máscara wildcard le corresponde por OSPF a la red con máscara 255.255.255.224?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "0.0.0.15",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "0.0.0.31",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "0.0.0.63",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "0.0.0.255",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué máscara wildcard le corresponde por OSPF a la red con máscara 255.255.64.0?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "0.0.63.255",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "0.0.127.255",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "0.0.191.255",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "0.0.255.255",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué intervalo de números acepta el comando 'router OSPF'?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "0 hasta 255",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "1 hasta 65535",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "1 hasta 255",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "1 hasta 65536",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Enruta por OSPF en IPv4 el router de Madrid",
+        "imagen": "SRI-FEBRERO-REPASO_01.png",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Router ospf 1\nRouter-id 1.1.1.1\nNetwork 192.168.0.0 area 1\nNetwork 192.168.6.0 area 1\nNetwork 192.168.4.0 area 1\nNetwork 10.0.0.0 area 1",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Router ospf 1\nRouter-id 1.1.1.1\nNetwork 192.168.0.0 area 0\nNetwork 192.168.6.0 area 0\nNetwork 192.168.4.0 area 0\nNetwork 10.0.0.0 area 0",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Router ospf 2\nRouter-id 2.2.2.2\nNetwork 192.168.0.0 area 0\nNetwork 192.168.6.0 area 0\nNetwork 192.168.4.0 area 0\nNetwork 10.0.0.0 area 0",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Router ospf 1\nNetwork 192.168.0.0 area 0\nNetwork 192.168.6.0 area 0\nNetwork 192.168.4.0 area 0\nNetwork 10.0.0.0 area 0",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Es obligatorio escribir el comando 'router-id' en la configuración de OSPF?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Sí, es obligatorio para que funcione OSPF",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Obligatorio no es, sin embargo sí es recomendable",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "No es necesario, OSPF funciona sin él",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Solo es obligatorio en IPv6",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Encuentras algún error en el siguiente código:",
+        "code": "Int fa0/1.1\nEncapsulation dot1q 1\nIp add 192.168.1.1 255.255.255.0",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "No se puede encapsular con dot1q en la VLAN 1",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "La IP no es válida",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "La máscara es incorrecta",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "No hay ningún error",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Encuentras algún error en el siguiente código:",
+        "code": "Int fa0/1\nIp add 192.168.1.0 255.255.255.128",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Una IP nunca puede acabar en 0",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "La máscara es incorrecta para esa IP",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "La interfaz no puede ser fa0/1",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "No hay ningún error",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál es el último número que nos permite escribir en DLCI dentro de una PtCloud?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "1023",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "1007",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "4095",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "255",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Teniendo el siguiente código ¿Para qué sirve la primera línea?",
+        "code": "Dial-peer voice 29 voip\nDestination-pattern 2...\nSession target ipv4:192.168.2.1",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Configura una llamada a la extensión de los teléfonos del destino",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Es una llamada a la vlan de la telefonía de destino",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Define el protocolo de enrutamiento",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Establece la prioridad de la llamada",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Teniendo el siguiente código ¿Para qué sirve la segunda línea?",
+        "code": "Dial-peer voice 29 voip\nDestination-pattern 2...\nSession target ipv4:192.168.2.1",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Es una llamada a la IP de la voz del destino",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Define el código de área",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Es una llamada a la extensión de los teléfonos del destino",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Configura el tipo de código",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Teniendo el siguiente código. ¿Para qué sirve la tercera línea?",
+        "code": "Dial-peer voice 29 voip\nDestination-pattern 2...\nSession target ipv4:192.168.2.1",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Especifica la interfaz de salida",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Una llamada a la IP de la voz del destino",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Define la contraseña de autenticación",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Configura la calidad de servicio",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Encuentras algún error en el siguiente código:",
+        "code": "Int fa0/5\nSwitchport Access vlan 1\nSwitchport mode Access",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "El comando 'Switchport mode Access' está incompleto",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "No se puede utilizar la VLAN 1",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "La interfaz fa0/5 no puede ser de acceso",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "No hay ningún error",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Encuentras algún error en el siguiente código:",
+        "code": "IP DHCP POOL TECNICOS\nNetwork 192.168.1.0 255.255.255.0\nDefault-router 192.168.1.1 255.255.255.0",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Default-router no puede llevar máscara de red",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "La IP del default-router no es válida",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "La máscara de red no es correcta",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "No hay ningún error",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "En la línea 'router ospf [número]', ¿es obligatorio que coincida el número para que tengamos conectividad?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Sí, debe coincidir en todos los routers",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "No es obligatorio",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Solo es obligatorio en OSPFv3",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Debe coincidir solo en el área 0",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Encuentras algún error en el siguiente código:",
+        "code": "Network 192.168.1.64 255.255.255.192\nDefault-router 192.168.1.1",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "La máscara de red es incorrecta",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "No existe ningún error",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "El default-router debería tener máscara",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "La IP del default-router está fuera de la red",
+                "correcta": false
+            }
+        ]
+    }
+]
