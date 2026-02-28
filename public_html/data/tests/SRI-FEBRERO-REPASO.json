@@ -115,7 +115,7 @@
             },
             {
                 "opcion": "c.",
-                "texto": "Router ospf 2\nRouter-id 2.2.2.2\nNetwork 192.168.0.0 area 0\nNetwork 192.168.6.0 area 0\nNetwork 192.168.4.0 area 0\nNetwork 10.0.0.0 area 0",
+                "texto": "Router ospf 2\nRouter-id 2.2.2.2\nNetwork 192.168.5.0 area 0\nNetwork 192.168.6.0 area 0\nNetwork 192.168.4.0 area 0\nNetwork 10.0.0.0 area 0",
                 "correcta": false
             },
             {
