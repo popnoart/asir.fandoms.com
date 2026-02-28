@@ -428,7 +428,8 @@
         ]
     },
     {
-        "enunciado": "En configuración de VLAN en IPV6 completa la línea que falta dentro de la encapsulación: Int fa0/0.10 Encapsulation dot1q 10",
+        "enunciado": "En configuración de VLAN en IPV6 completa la línea que falta dentro de la encapsulación:",
+        "code": "Int fa0/0.10\nEncapsulation dot1q 10",
         "respuestas": [
             {
                 "opcion": "a.",

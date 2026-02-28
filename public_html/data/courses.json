@@ -1396,6 +1396,12 @@
                 "start": "",
                 "end": "",
                 "name": "EXAMEN ENERO"
+            },
+            "SRI-FEBRERO-REPASO": {
+                "type": "Cuestionario",
+                "start": "",
+                "end": "",
+                "name": "Repaso previo examen Febrero"
             }
         },
         "notes": {

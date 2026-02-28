@@ -408,4 +408,29 @@
             }
         ]
     }
-]
+]{
+    "enunciado": "Enruta por OSPF en IPv4 el router de Madrid",
+    "imagen": "SRI-FEBRERO-REPASO_01.png",
+    "respuestas": [
+        {
+            "opcion": "a.",
+            "texto": "Router ospf 1\nRouter-id 1.1.1.1\nNetwork 192.168.0.0 area 1\nNetwork 192.168.6.0 area 1\nNetwork 192.168.4.0 area 1\nNetwork 10.0.0.0 area 1",
+            "correcta": false
+        },
+        {
+            "opcion": "b.",
+            "texto": "Router ospf 1\nRouter-id 1.1.1.1\nNetwork 192.168.0.0 area 0\nNetwork 192.168.6.0 area 0\nNetwork 192.168.4.0 area 0\nNetwork 10.0.0.0 area 0",
+            "correcta": true
+        },
+        {
+            "opcion": "c.",
+            "texto": "Router ospf 2\nRouter-id 2.2.2.2\nNetwork 192.168.0.0 area 0\nNetwork 192.168.6.0 area 0\nNetwork 192.168.4.0 area 0\nNetwork 10.0.0.0 area 0",
+            "correcta": false
+        },
+        {
+            "opcion": "d.",
+            "texto": "Router ospf 1\nNetwork 192.168.0.0 area 0\nNetwork 192.168.6.0 area 0\nNetwork 192.168.4.0 area 0\nNetwork 10.0.0.0 area 0",
+            "correcta": false
+        }
+    ]
+}
