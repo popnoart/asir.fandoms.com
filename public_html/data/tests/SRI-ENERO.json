@@ -180,17 +180,17 @@
         "respuestas": [
             {
                 "opcion": "a.",
-                "texto": "ipv6 route 2017:1234:5FFF:AAB0::/64 2026:A:A:A::1/64 ipv6 route 2017:1234:5FFF:AAA0::/64 2026:A:A:A::1/64 ipv6 route 2017:1234:5FFF:AAC0::/64 2026:A:A:A::1/64 ipv6 route 2017:1234:5FFF:AAD0::/64 2026:A:A:A::1/64",
+                "texto": "ipv6 route 2017:1234:5FFF:AAB0::/64 2026:A:A:A::1/64\nipv6 route 2017:1234:5FFF:AAA0::/64 2026:A:A:A::1/64 \nipv6 route 2017:1234:5FFF:AAC0::/64 2026:A:A:A::1/64 \nipv6 route 2017:1234:5FFF:AAD0::/64 2026:A:A:A::1/64",
                 "correcta": false
             },
             {
                 "opcion": "b.",
-                "texto": "ipv6 route 2017:1234:5FFF:AAB0::/64 2026:A:A:A::1 ipv6 route 2017:1234:5FFF:AAA0::/64 2026:A:A:A::1 ipv6 route 2017:1234:5FFF:AAC0::/64 2026:A:A:A::1 ipv6 route 2017:1234:5FFF:AAD0::/64 2026:A:A:A::1",
+                "texto": "ipv6 route 2017:1234:5FFF:AAB0::/64 2026:A:A:A::1 \nipv6 route 2017:1234:5FFF:AAA0::/64 2026:A:A:A::1 \nipv6 route 2017:1234:5FFF:AAC0::/64 2026:A:A:A::1 \nipv6 route 2017:1234:5FFF:AAD0::/64 2026:A:A:A::1",
                 "correcta": true
             },
             {
                 "opcion": "c.",
-                "texto": "ipv6 route 2017:1234:5FFF:AAB0::/64 2026:A:A:A::2 ipv6 route 2017:1234:5FFF:AAA0::/64 2026:A:A:A::2 ipv6 route 2017:1234:5FFF:AAC0::/64 2026:A:A:A::2 ipv6 route 2017:1234:5FFF:AAD0::/64 2026:A:A:A::2",
+                "texto": "ipv6 route 2017:1234:5FFF:AAB0::/64 2026:A:A:A::2 \nipv6 route 2017:1234:5FFF:AAA0::/64 2026:A:A:A::2 \nipv6 route 2017:1234:5FFF:AAC0::/64 2026:A:A:A::2 \nipv6 route 2017:1234:5FFF:AAD0::/64 2026:A:A:A::2",
                 "correcta": false
             },
             {
