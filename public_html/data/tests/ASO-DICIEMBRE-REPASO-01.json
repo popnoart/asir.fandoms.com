@@ -280,7 +280,7 @@
             {
                 "opcion": "D",
                 "texto": "Uname -n",
-                "correcta": false
+                "correcta": true
             }
         ]
     },
@@ -335,7 +335,7 @@
         ]
     },
     {
-        "enunciado": "¿Cuál es el puerto 22? ",
+        "enunciado": "¿Cuál es el puerto 22?",
         "respuestas": [
             {
                 "opcion": "A",
@@ -383,7 +383,7 @@
                 "correcta": false
             },
             {
-                "opcion": "D",
+                "opcion": "E",
                 "texto": "Ninguna es cierta",
                 "correcta": true
             }
@@ -459,7 +459,7 @@
             },
             {
                 "opcion": "D",
-                "texto": "741",
+                "texto": "012",
                 "correcta": true
             }
         ]
