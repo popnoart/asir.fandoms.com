@@ -640,12 +640,12 @@
             {
                 "opcion": "A",
                 "texto": "574",
-                "correcta": false
+                "correcta": true
             },
             {
                 "opcion": "B",
                 "texto": "754",
-                "correcta": true
+                "correcta": false
             },
             {
                 "opcion": "C",

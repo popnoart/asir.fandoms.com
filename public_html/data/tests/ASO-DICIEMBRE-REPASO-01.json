@@ -335,7 +335,7 @@
         ]
     },
     {
-        "enunciado": "¿Cuál es el puerto 22?",
+        "enunciado": "¿Cuál es el puerto 22? ",
         "respuestas": [
             {
                 "opcion": "A",
