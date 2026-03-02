@@ -314,13 +314,13 @@
             },
             {
                 "opcion": "C",
-                "texto": "ps -aux",
-                "correcta": false
+                "texto": "Top",
+                "correcta": true
             },
             {
                 "opcion": "D",
-                "texto": "Top",
-                "correcta": true
+                "texto": "Ninguna es cierta",
+                "correcta": false
             }
         ]
     },
