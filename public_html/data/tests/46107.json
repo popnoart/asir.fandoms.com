@@ -1,0 +1,252 @@
+[
+    {
+        "enunciado": "¿Qué elemento define hoy en día un perfil profesional completo?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Conjunto de competencias profesionales, personales y sociales.",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Solo conocimientos técnicos.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Solo estudios académicos.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Solo experiencia laboral.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "La regla del YO consiste en:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Hablar desde lo que uno siente o necesita.",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Usar ironía.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Ignorar el problema.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Criticar al otro.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Las competencias personales se relacionan principalmente con:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "La contabilidad.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "El uso de máquinas.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "El desarrollo personal y la autonomía.",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "La programación.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Una ventaja clara del trabajo en equipo es:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Aumentar la competencia interna.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Eliminar responsabilidades.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Reducir la comunicación.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Favorecer la creatividad y la innovación.",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "Un objetivo es SMART cuando es:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Largo y general.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Opcional.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Flexible y abierto.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Específico, medible, alcanzable, relevante y temporal.",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "La matriz RACI sirve para:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Definir roles y responsabilidades.",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Organizar descansos.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Gestionar emociones.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Evaluar exámenes.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "La complementariedad en un equipo significa:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Que todos hacen lo mismo.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Que solo decide el líder.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Que cada miembro aporta habilidades diferentes.",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Que no existen roles.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "La comunicación efectiva debe ser:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Ambigua.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Técnica siempre.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Larga.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Clara y comprensible.",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "La escucha activa implica:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Pensar en la respuesta.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Interrumpir.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Atender y comprender al interlocutor.",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Dar consejos constantemente.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "La asertividad permite:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Evitar conflictos siempre.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Expresar opiniones con respeto.",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Callar.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Imponer ideas.",
+                "correcta": false
+            }
+        ]
+    }
+]
