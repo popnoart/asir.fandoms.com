@@ -1,0 +1,252 @@
+[
+    {
+        "enunciado": "El emprendedor se caracteriza principalmente por:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Dirigir una empresa tradicional.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Iniciar acciones creativas e innovadoras asumiendo riesgos.",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Controlar gastos.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Gestionar recursos humanos.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Cuanto mayor es la posible pérdida:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Menor es el riesgo.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Mayor es el riesgo.",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "No existe riesgo.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Da igual.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "El espíritu emprendedor está relacionado con:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Pasividad.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Creatividad e innovación.",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Rutina.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Conservadurismo.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "El riesgo empresarial aparece cuando:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Hay una sola opción.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Existen varias posibilidades con resultados inciertos.",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "No hay inversión.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Se conocen los resultados.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué habilidad pertenece al ámbito social y de dirección?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Tenacidad.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Visión de futuro.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Autonomía.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Liderazgo.",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "Una idea emprendedora surge de",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Detectar necesidades y ofrecer soluciones.",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Reducir calidad.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Imponer productos.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Copiar negocios.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Los emprendedores sociales buscan principalmente:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Reducir trabajadores.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Máximo beneficio económico.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Solucionar un problema social.",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Evitar innovación.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "El intraemprendedor es quien:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Desarrolla proyectos innovadores dentro de una empresa.",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Dirige toda la organización.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Crea su propia empresa.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Trabaja sin iniciativa.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Un empresario es una persona que:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Innova siempre.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Crea y dirige una empresa.",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Solo trabaja por cuenta ajena.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Evita riesgos.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál es una habilidad personal del emprendedor?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Negociación.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Liderazgo.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Comunicación.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Iniciativa.",
+                "correcta": true
+            }
+        ]
+    }
+]
