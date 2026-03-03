@@ -120,6 +120,24 @@
                 "start": "13-02-2026 12:32",
                 "end": "08-03-2026 23:59",
                 "name": "Tarea 03-07 BD de instituto (funciones)"
+            },
+            "22073": {
+                "type": "Complementaria",
+                "start": "02-03-2026 00:00",
+                "end": "29-03-2026 23:59",
+                "name": "Tarea 03-08 Crear email en alumnos (Instituto)"
+            },
+            "22074": {
+                "type": "Complementaria",
+                "start": "02-03-2026 00:00",
+                "end": "29-03-2026 23:59",
+                "name": "Tarea 03-09 Calcular la edad (Instituto)"
+            },
+            "11159": {
+                "type": "Complementaria",
+                "start": "02-03-2026 00:00",
+                "end": "15-03-2026 23:59",
+                "name": "Tarea 03-10 Primer trigger en pedidos"
             }
         },
         "tests": {
