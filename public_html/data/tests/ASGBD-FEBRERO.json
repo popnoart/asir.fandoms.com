@@ -315,12 +315,12 @@
       {
         "opcion": "c.",
         "texto": "SWITCH",
-        "correcta": false
+        "correcta": true
       },
       {
         "opcion": "d.",
         "texto": "ALTERNATE",
-        "correcta": true
+        "correcta": false
       }
     ]
   },

@@ -405,12 +405,12 @@
             {
                 "opcion": "a.",
                 "texto": "Utilizará la clave privada de A para descifrarlo.",
-                "correcta": true
+                "correcta": false
             },
             {
                 "opcion": "b.",
                 "texto": "Utilizará la clave privada de B para descifrarlo.",
-                "correcta": false
+                "correcta": true
             },
             {
                 "opcion": "c.",
