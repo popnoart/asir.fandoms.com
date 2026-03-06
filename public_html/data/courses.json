@@ -1597,13 +1597,13 @@
                 "type": "Obligatoria",
                 "start": "04-03-2026 00:00",
                 "end": "17-03-2026 23:59",
-                "name": "UNIT 3 - Task - Compulsory - RA3Tarea"
+                "name": "UNIT 3 - Task - Compulsory - RA3"
             },
             "46587": {
                 "type": "Complementaria",
                 "start": "04-03-2026 00:00",
                 "end": "17-03-2026 23:59",
-                "name": "TASK - PREPOSITIONS - AT IN ON - COMPLEMENTARIATarea"
+                "name": "TASK - PREPOSITIONS - AT IN ON - COMPLEMENTARIA"
             }
         },
         "tests": {
