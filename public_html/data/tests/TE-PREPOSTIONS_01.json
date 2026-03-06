@@ -1,0 +1,362 @@
+[
+    {
+        "enunciado": "There was a loud noise which woke us up ______ midnight.",
+        "respuestas": [
+            { "opcion": "a.", "texto": "in", "correcta": false },
+            { "opcion": "b.", "texto": "on", "correcta": false },
+            { "opcion": "c.", "texto": "at", "correcta": true },
+            { "opcion": "d.", "texto": "during", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "Do you usually eat chocolate eggs ______ Easter?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "in", "correcta": false },
+            { "opcion": "b.", "texto": "on", "correcta": false },
+            { "opcion": "c.", "texto": "at", "correcta": true },
+            { "opcion": "d.", "texto": "by", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "What are you doing ______ the weekend?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "in", "correcta": false },
+            { "opcion": "b.", "texto": "on", "correcta": false },
+            { "opcion": "c.", "texto": "at", "correcta": true },
+            { "opcion": "d.", "texto": "for", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "Last week, I worked ______ 9pm every night.",
+        "respuestas": [
+            { "opcion": "a.", "texto": "In", "correcta": false },
+            { "opcion": "b.", "texto": "At", "correcta": false },
+            { "opcion": "c.", "texto": "On", "correcta": false },
+            { "opcion": "d.", "texto": "until", "correcta": true }
+        ]
+    },
+    {
+        "enunciado": "My father always reads the paper ______ breakfast time.",
+        "respuestas": [
+            { "opcion": "a.", "texto": "in", "correcta": false },
+            { "opcion": "b.", "texto": "on", "correcta": false },
+            { "opcion": "c.", "texto": "at", "correcta": true },
+            { "opcion": "d.", "texto": "during", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "She plays tennis ______ Fridays.",
+        "respuestas": [
+            { "opcion": "a.", "texto": "in", "correcta": false },
+            { "opcion": "b.", "texto": "on", "correcta": true },
+            { "opcion": "c.", "texto": "at", "correcta": false },
+            { "opcion": "d.", "texto": "by", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "The trees here are really beautiful ______ the spring.",
+        "respuestas": [
+            { "opcion": "a.", "texto": "in", "correcta": true },
+            { "opcion": "b.", "texto": "on", "correcta": false },
+            { "opcion": "c.", "texto": "at", "correcta": false },
+            { "opcion": "d.", "texto": "during", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "I'll see you ______ Tuesday afternoon, then.",
+        "respuestas": [
+            { "opcion": "a.", "texto": "in", "correcta": false },
+            { "opcion": "b.", "texto": "on", "correcta": true },
+            { "opcion": "c.", "texto": "at", "correcta": false },
+            { "opcion": "d.", "texto": "by", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "Shakespeare died ______ 1616.",
+        "respuestas": [
+            { "opcion": "a.", "texto": "in", "correcta": true },
+            { "opcion": "b.", "texto": "on", "correcta": false },
+            { "opcion": "c.", "texto": "at", "correcta": false },
+            { "opcion": "d.", "texto": "during", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "She studies every day. (Choose the correct statement)",
+        "respuestas": [
+            { "opcion": "a.", "texto": "She studies in every day.", "correcta": false },
+            { "opcion": "b.", "texto": "She studies on every day.", "correcta": false },
+            { "opcion": "c.", "texto": "She studies at every day.", "correcta": false },
+            { "opcion": "d.", "texto": "She studies every day.", "correcta": true }
+        ]
+    },
+    {
+        "enunciado": "John is going to buy the presents today. (Choose the correct statement)",
+        "respuestas": [
+            { "opcion": "a.", "texto": "John is going to buy the presents in today.", "correcta": false },
+            { "opcion": "b.", "texto": "John is going to buy the presents on today.", "correcta": false },
+            { "opcion": "c.", "texto": "John is going to buy the presents at today.", "correcta": false },
+            { "opcion": "d.", "texto": "John is going to buy the presents today.", "correcta": true }
+        ]
+    },
+    {
+        "enunciado": "In my hometown the shops open early ______ the morning.",
+        "respuestas": [
+            { "opcion": "a.", "texto": "in", "correcta": true },
+            { "opcion": "b.", "texto": "on", "correcta": false },
+            { "opcion": "c.", "texto": "at", "correcta": false },
+            { "opcion": "d.", "texto": "by", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "She met her husband ______ 1998.",
+        "respuestas": [
+            { "opcion": "a.", "texto": "in", "correcta": true },
+            { "opcion": "b.", "texto": "on", "correcta": false },
+            { "opcion": "c.", "texto": "at", "correcta": false },
+            { "opcion": "d.", "texto": "since", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "The party is next Saturday. (Choose the correct statement)",
+        "respuestas": [
+            { "opcion": "a.", "texto": "The party is in next Saturday.", "correcta": false },
+            { "opcion": "b.", "texto": "The party is on next Saturday.", "correcta": false },
+            { "opcion": "c.", "texto": "The party is at next Saturday.", "correcta": false },
+            { "opcion": "d.", "texto": "The party is next Saturday.", "correcta": true }
+        ]
+    },
+    {
+        "enunciado": "We are meeting ______ Friday morning.",
+        "respuestas": [
+            { "opcion": "a.", "texto": "in", "correcta": false },
+            { "opcion": "b.", "texto": "on", "correcta": true },
+            { "opcion": "c.", "texto": "at", "correcta": false },
+            { "opcion": "d.", "texto": "by", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "I often get sleepy ______ the afternoon.",
+        "respuestas": [
+            { "opcion": "a.", "texto": "in", "correcta": true },
+            { "opcion": "b.", "texto": "on", "correcta": false },
+            { "opcion": "c.", "texto": "at", "correcta": false },
+            { "opcion": "d.", "texto": "during", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "His daughter was born ______ the 24th of August.",
+        "respuestas": [
+            { "opcion": "a.", "texto": "in", "correcta": false },
+            { "opcion": "b.", "texto": "on", "correcta": true },
+            { "opcion": "c.", "texto": "at", "correcta": false },
+            { "opcion": "d.", "texto": "by", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "Mobile phones became popular ______ the nineties.",
+        "respuestas": [
+            { "opcion": "a.", "texto": "in", "correcta": true },
+            { "opcion": "b.", "texto": "on", "correcta": false },
+            { "opcion": "c.", "texto": "at", "correcta": false },
+            { "opcion": "d.", "texto": "since", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "The meeting will take place this afternoon. (Choose the correct statement)",
+        "respuestas": [
+            { "opcion": "a.", "texto": "The meeting will take place in this afternoon.", "correcta": false },
+            { "opcion": "b.", "texto": "The meeting will take place on this afternoon.", "correcta": false },
+            { "opcion": "c.", "texto": "The meeting will take place at this afternoon.", "correcta": false },
+            { "opcion": "d.", "texto": "The meeting will take place this afternoon.", "correcta": true }
+        ]
+    },
+    {
+        "enunciado": "Luckily the weather was perfect ______ her wedding day.",
+        "respuestas": [
+            { "opcion": "a.", "texto": "in", "correcta": false },
+            { "opcion": "b.", "texto": "on", "correcta": true },
+            { "opcion": "c.", "texto": "at", "correcta": false },
+            { "opcion": "d.", "texto": "during", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "The wine is ______ the bottle.",
+        "respuestas": [
+            { "opcion": "a.", "texto": "on", "correcta": false },
+            { "opcion": "b.", "texto": "at", "correcta": false },
+            { "opcion": "c.", "texto": "in", "correcta": true },
+            { "opcion": "d.", "texto": "by", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "Pass me the dictionary, it's ______ the bookshelf.",
+        "respuestas": [
+            { "opcion": "a.", "texto": "in", "correcta": false },
+            { "opcion": "b.", "texto": "on", "correcta": true },
+            { "opcion": "c.", "texto": "at", "correcta": false },
+            { "opcion": "d.", "texto": "under", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "Jennifer is ______ work.",
+        "respuestas": [
+            { "opcion": "a.", "texto": "in", "correcta": false },
+            { "opcion": "b.", "texto": "on", "correcta": false },
+            { "opcion": "c.", "texto": "at", "correcta": true },
+            { "opcion": "d.", "texto": "by", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "Berlin is ______ Germany.",
+        "respuestas": [
+            { "opcion": "a.", "texto": "on", "correcta": false },
+            { "opcion": "b.", "texto": "at", "correcta": false },
+            { "opcion": "c.", "texto": "in", "correcta": true },
+            { "opcion": "d.", "texto": "to", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "You have something ______ your face.",
+        "respuestas": [
+            { "opcion": "a.", "texto": "in", "correcta": false },
+            { "opcion": "b.", "texto": "on", "correcta": true },
+            { "opcion": "c.", "texto": "at", "correcta": false },
+            { "opcion": "d.", "texto": "over", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "Turn left ______ the traffic lights.",
+        "respuestas": [
+            { "opcion": "a.", "texto": "in", "correcta": false },
+            { "opcion": "b.", "texto": "on", "correcta": false },
+            { "opcion": "c.", "texto": "at", "correcta": true },
+            { "opcion": "d.", "texto": "by", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "She was listening to classical music ______ the radio.",
+        "respuestas": [
+            { "opcion": "a.", "texto": "in", "correcta": false },
+            { "opcion": "b.", "texto": "on", "correcta": true },
+            { "opcion": "c.", "texto": "at", "correcta": false },
+            { "opcion": "d.", "texto": "through", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "He has a house ______ the river.",
+        "respuestas": [
+            { "opcion": "a.", "texto": "in", "correcta": false },
+            { "opcion": "b.", "texto": "on", "correcta": false },
+            { "opcion": "c.", "texto": "at", "correcta": false },
+            { "opcion": "d.", "texto": "by", "correcta": true }
+        ]
+    },
+    {
+        "enunciado": "The answer is ______ the bottom of the page.",
+        "respuestas": [
+            { "opcion": "a.", "texto": "in", "correcta": false },
+            { "opcion": "b.", "texto": "on", "correcta": false },
+            { "opcion": "c.", "texto": "at", "correcta": true },
+            { "opcion": "d.", "texto": "under", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "Julie will be ______ the plane now.",
+        "respuestas": [
+            { "opcion": "a.", "texto": "in", "correcta": false },
+            { "opcion": "b.", "texto": "on", "correcta": true },
+            { "opcion": "c.", "texto": "at", "correcta": false },
+            { "opcion": "d.", "texto": "inside", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "There are a lot of magnets ______ the fridge.",
+        "respuestas": [
+            { "opcion": "a.", "texto": "in", "correcta": false },
+            { "opcion": "b.", "texto": "on", "correcta": true },
+            { "opcion": "c.", "texto": "at", "correcta": false },
+            { "opcion": "d.", "texto": "inside", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "She lives ______ London.",
+        "respuestas": [
+            { "opcion": "a.", "texto": "on", "correcta": false },
+            { "opcion": "b.", "texto": "at", "correcta": false },
+            { "opcion": "c.", "texto": "in", "correcta": true },
+            { "opcion": "d.", "texto": "to", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "John is ______ a taxi. He's coming.",
+        "respuestas": [
+            { "opcion": "a.", "texto": "on", "correcta": false },
+            { "opcion": "b.", "texto": "at", "correcta": false },
+            { "opcion": "c.", "texto": "in", "correcta": true },
+            { "opcion": "d.", "texto": "by", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "I'll meet you ______ the airport.",
+        "respuestas": [
+            { "opcion": "a.", "texto": "in", "correcta": false },
+            { "opcion": "b.", "texto": "on", "correcta": false },
+            { "opcion": "c.", "texto": "at", "correcta": true },
+            { "opcion": "d.", "texto": "to", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "She stood ______ the window and looked out.",
+        "respuestas": [
+            { "opcion": "a.", "texto": "in", "correcta": false },
+            { "opcion": "b.", "texto": "on", "correcta": false },
+            { "opcion": "c.", "texto": "at", "correcta": true },
+            { "opcion": "d.", "texto": "by", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "The cat is ______ the house somewhere.",
+        "respuestas": [
+            { "opcion": "a.", "texto": "on", "correcta": false },
+            { "opcion": "b.", "texto": "at", "correcta": false },
+            { "opcion": "c.", "texto": "in", "correcta": true },
+            { "opcion": "d.", "texto": "inside", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "Why are you calling so late? I'm already ______ bed.",
+        "respuestas": [
+            { "opcion": "a.", "texto": "on", "correcta": false },
+            { "opcion": "b.", "texto": "at", "correcta": false },
+            { "opcion": "c.", "texto": "in", "correcta": true },
+            { "opcion": "d.", "texto": "to", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "I waited for Lucy ______ the station.",
+        "respuestas": [
+            { "opcion": "a.", "texto": "in", "correcta": false },
+            { "opcion": "b.", "texto": "on", "correcta": false },
+            { "opcion": "c.", "texto": "at", "correcta": true },
+            { "opcion": "d.", "texto": "to", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "There was a picture of flowers ______ her T-shirt.",
+        "respuestas": [
+            { "opcion": "a.", "texto": "in", "correcta": false },
+            { "opcion": "b.", "texto": "on", "correcta": true },
+            { "opcion": "c.", "texto": "at", "correcta": false },
+            { "opcion": "d.", "texto": "inside", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "She has a house ______ Japan.",
+        "respuestas": [
+            { "opcion": "a.", "texto": "on", "correcta": false },
+            { "opcion": "b.", "texto": "at", "correcta": false },
+            { "opcion": "c.", "texto": "in", "correcta": true },
+            { "opcion": "d.", "texto": "to", "correcta": false }
+        ]
+    }
+]
