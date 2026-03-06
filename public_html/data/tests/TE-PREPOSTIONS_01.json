@@ -81,21 +81,21 @@
         ]
     },
     {
-        "enunciado": "She studies every day. (Choose the correct statement)",
+        "enunciado": "She studies ______ every day.",
         "respuestas": [
-            { "opcion": "a.", "texto": "She studies in every day.", "correcta": false },
-            { "opcion": "b.", "texto": "She studies on every day.", "correcta": false },
-            { "opcion": "c.", "texto": "She studies at every day.", "correcta": false },
-            { "opcion": "d.", "texto": "She studies every day.", "correcta": true }
+            { "opcion": "a.", "texto": "in", "correcta": false },
+            { "opcion": "b.", "texto": "on", "correcta": false },
+            { "opcion": "c.", "texto": "at", "correcta": false },
+            { "opcion": "d.", "texto": "No preposition.", "correcta": true }
         ]
     },
     {
-        "enunciado": "John is going to buy the presents today. (Choose the correct statement)",
+        "enunciado": "John is going to buy the presents ______ today.",
         "respuestas": [
-            { "opcion": "a.", "texto": "John is going to buy the presents in today.", "correcta": false },
-            { "opcion": "b.", "texto": "John is going to buy the presents on today.", "correcta": false },
-            { "opcion": "c.", "texto": "John is going to buy the presents at today.", "correcta": false },
-            { "opcion": "d.", "texto": "John is going to buy the presents today.", "correcta": true }
+            { "opcion": "a.", "texto": "in .", "correcta": false },
+            { "opcion": "b.", "texto": "until.", "correcta": false },
+            { "opcion": "c.", "texto": "No preposition.", "correcta": true },
+            { "opcion": "d.", "texto": "on.", "correcta": false }
         ]
     },
     {
@@ -117,12 +117,12 @@
         ]
     },
     {
-        "enunciado": "The party is next Saturday. (Choose the correct statement)",
+        "enunciado": "The party is ______ next Saturday.",
         "respuestas": [
-            { "opcion": "a.", "texto": "The party is in next Saturday.", "correcta": false },
-            { "opcion": "b.", "texto": "The party is on next Saturday.", "correcta": false },
-            { "opcion": "c.", "texto": "The party is at next Saturday.", "correcta": false },
-            { "opcion": "d.", "texto": "The party is next Saturday.", "correcta": true }
+            { "opcion": "a.", "texto": "No preposition.", "correcta": true },
+            { "opcion": "b.", "texto": "until", "correcta": false },
+            { "opcion": "c.", "texto": "at.", "correcta": false },
+            { "opcion": "d.", "texto": "on.", "correcta": false }
         ]
     },
     {
@@ -162,12 +162,12 @@
         ]
     },
     {
-        "enunciado": "The meeting will take place this afternoon. (Choose the correct statement)",
+        "enunciado": "The meeting will take place ______ this afternoon.",
         "respuestas": [
-            { "opcion": "a.", "texto": "The meeting will take place in this afternoon.", "correcta": false },
-            { "opcion": "b.", "texto": "The meeting will take place on this afternoon.", "correcta": false },
-            { "opcion": "c.", "texto": "The meeting will take place at this afternoon.", "correcta": false },
-            { "opcion": "d.", "texto": "The meeting will take place this afternoon.", "correcta": true }
+            { "opcion": "a.", "texto": "in", "correcta": false },
+            { "opcion": "b.", "texto": "No preposition.", "correcta": true },
+            { "opcion": "c.", "texto": "at", "correcta": false },
+            { "opcion": "d.", "texto": "on", "correcta": false }
         ]
     },
     {
