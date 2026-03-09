@@ -83,6 +83,38 @@ function normalize_multiline_text($text)
     return trim($normalized);
 }
 
+// Renderiza texto de TODO con saltos de linea y siglas de asignatura coloreadas.
+function render_todo_name_with_course_colors($text)
+{
+    $safe_text = htmlspecialchars((string)$text, ENT_QUOTES, 'UTF-8');
+
+    $course_codes = [];
+    if (!empty($GLOBALS['all_courses']) && is_array($GLOBALS['all_courses'])) {
+        $course_codes = array_keys($GLOBALS['all_courses']);
+    }
+
+    if (empty($course_codes)) {
+        return nl2br($safe_text);
+    }
+
+    usort($course_codes, function ($a, $b) {
+        return strlen((string)$b) <=> strlen((string)$a);
+    });
+
+    $escaped_codes = array_map(function ($code) {
+        return preg_quote((string)$code, '/');
+    }, $course_codes);
+
+    $pattern = '/(?<![A-Z0-9])(' . implode('|', $escaped_codes) . ')(?![A-Z0-9])/iu';
+    $highlighted = preg_replace_callback($pattern, function ($matches) {
+        $matched = $matches[1];
+        $color = get_course_color(strtoupper($matched));
+        return '<span style="color: ' . $color . '; font-weight: 700;">' . $matched . '</span>';
+    }, $safe_text);
+
+    return nl2br($highlighted);
+}
+
 //////////COURSES\\\\\\\\\\
 
 // Sincronizar y cargar estados
