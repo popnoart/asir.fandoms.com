@@ -1210,6 +1210,11 @@
                 "name": "OSPF IPv4 - IPv6 (gdoc)",
                 "file": "OSPF IPV4  IPV6.docx",
                 "link": "https://docs.google.com/document/d/10LZFzOZQ91M2FpA0bqQ7-P0l7vtJHxcaj6oYC7i4XRM/edit?usp=sharing"
+            },
+            "SRI-EIGRP-doc": {
+                "name": "Enrutamiento EIGRP IPv4 - IPv6 (gdoc)",
+                "file": "APUNTESEIGRPIPV4.docx",
+                "link": "https://docs.google.com/document/d/1TLyfFnNVLqUlQ_TgSqb_SRlIGoOod_oGLLa2OmeJsKY/edit?usp=sharing"
             }
         },
         "tasks": {
