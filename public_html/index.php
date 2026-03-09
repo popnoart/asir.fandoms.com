@@ -249,10 +249,10 @@ include $_SERVER['DOCUMENT_ROOT'] . '/assets/templates/header.php';
                                 <?php endif; ?>
                                 <?php if (!empty($todo_data['link'])): ?>
                                     <a href="<?= htmlspecialchars($todo_data['link']); ?>" target="_blank">
-                                        <?= htmlspecialchars($todo_data['name']); ?>
+                                        <?= nl2br(htmlspecialchars($todo_data['name'], ENT_QUOTES, 'UTF-8')); ?>
                                     </a>
                                 <?php else: ?>
-                                    <?= htmlspecialchars($todo_data['name']); ?>
+                                    <?= nl2br(htmlspecialchars($todo_data['name'], ENT_QUOTES, 'UTF-8')); ?>
                                 <?php endif; ?>
                                 <span class="badge text-bg-secondary ms-2" style="cursor:pointer;" data-bs-toggle="modal" data-bs-target="#statusTodoModal<?= $todo_data['id']; ?>"><?= htmlspecialchars($todo_data['status']); ?></span>
                                 <button class="btn btn-sm btn-secondary float-end ms-2" data-bs-toggle="modal" data-bs-target="#editTodoModal<?= $todo_data['id']; ?>">✎</button>

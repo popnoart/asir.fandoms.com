@@ -23,10 +23,10 @@
                         <li class="list-group-item">
                             <?php if (!empty($todo_data['link'])) { ?>
                                 <a href="<?= htmlspecialchars($todo_data['link']); ?>" target="_blank">
-                                    <?= htmlspecialchars($todo_data['name']); ?>
+                                    <?= nl2br(htmlspecialchars($todo_data['name'], ENT_QUOTES, 'UTF-8')); ?>
                                 </a>
                             <?php } else { ?>
-                                <?= htmlspecialchars($todo_data['name']); ?>
+                                <?= nl2br(htmlspecialchars($todo_data['name'], ENT_QUOTES, 'UTF-8')); ?>
                             <?php } ?>
                             <span class="badge bg-secondary" style="cursor:pointer;" data-bs-toggle="modal" data-bs-target="#<?= $modal_id; ?>">
                                 <?php if (!empty($todo_data['status'])) {
@@ -137,10 +137,10 @@
                         <li class="list-group-item">
                             <?php if (!empty($todo_data['link'])) { ?>
                                 <a href="<?= htmlspecialchars($todo_data['link']); ?>" target="_blank">
-                                    <?= htmlspecialchars($todo_data['name']); ?>
+                                    <?= nl2br(htmlspecialchars($todo_data['name'], ENT_QUOTES, 'UTF-8')); ?>
                                 </a>
                             <?php } else { ?>
-                                <?= htmlspecialchars($todo_data['name']); ?>
+                                <?= nl2br(htmlspecialchars($todo_data['name'], ENT_QUOTES, 'UTF-8')); ?>
                             <?php } ?>
                             <span class="badge bg-success text-bg-success ms-2" style="cursor:pointer;" data-bs-toggle="modal" data-bs-target="#<?= $modal_id; ?>">
                                 <?php if (!empty($todo_data['status'])) {

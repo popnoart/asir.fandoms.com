@@ -76,6 +76,13 @@ function sort_by_end($a, $b)
     return ($a_end < $b_end) ? -1 : 1;
 }
 
+// Normaliza saltos de linea para guardar texto multilinea de forma consistente.
+function normalize_multiline_text($text)
+{
+    $normalized = str_replace(["\r\n", "\r"], "\n", (string)$text);
+    return trim($normalized);
+}
+
 //////////COURSES\\\\\\\\\\
 
 // Sincronizar y cargar estados
@@ -273,7 +280,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['change_status_id'], $
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['add_todo'])) {
     $new_id = time() . rand(1000, 9999);
     $new_todo = [
-        'name' => $_POST['todo_name'],
+        'name' => normalize_multiline_text($_POST['todo_name'] ?? ''),
         'link' => $_POST['todo_link'] ?? '',
         'course' => $_POST['todo_course'] ?? '',
         'status' => 'Pendiente'
@@ -298,7 +305,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['delete_todo'])) {
 // Procesar edición de TODO
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['edit_todo'], $_POST['todo_id'])) {
     $todo_id = $_POST['todo_id'];
-    $todo_name = trim($_POST['todo_name'] ?? '');
+    $todo_name = normalize_multiline_text($_POST['todo_name'] ?? '');
     $todo_link = trim($_POST['todo_link'] ?? '');
     $todo_course = trim($_POST['todo_course'] ?? '');
     if (isset($all_todos[$todo_id])) {
