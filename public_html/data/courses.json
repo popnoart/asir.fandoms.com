@@ -329,46 +329,50 @@
         "teacher": "Carlos Quintana",
         "teacher_mail": "cquintana@digitechfp.com",
         "units": {
-            "CB-1": {
-                "folder": 37772,
-                "folder_number": 1,
-                "name": "Unidad 1. Introducción a la ciberseguridad",
-                "link": "https://drive.google.com/file/d/1XS7cuMgCVG3aYCD-GHPfR4UTGfLd8-nL/view?usp=sharing"
-            },
             "CB-01-doc": {
-                "name": "Apuntes cortafuegos físicos (gdoc)",
+                "name": "Cortafuegos físicos (gdoc)",
                 "file": "ASA5505.docx",
                 "link": "https://docs.google.com/document/d/12HVSx2Fz_Lva6DjXolEG1t9KGy5nh_6gu1_wMHP9dQQ/edit?usp=sharing"
             },
             "CB-02-doc": {
-                "name": "Apuntes VPN (gdoc)",
+                "name": "VPN (gdoc)",
                 "file": "VPN.pdf",
                 "link": "https://docs.google.com/document/d/15k8adQwJYA9HsRlFCNBl7ePvUb6LEc8s0x5N214mkiU/edit?usp=sharing"
             },
             "CB-03-doc": {
-                "name": "Apuntes seguridad por MAC (gdoc)",
+                "name": "Seguridad por MAC (gdoc)",
                 "file": "SEGURIDAD MAC.pdf",
                 "link": "https://docs.google.com/document/d/1jz7E9k-zeVSnN-LCnHfeUKzC-6tGfBQpuExXSne_UYQ/edit?usp=sharing"
             },
             "CB-04-doc": {
-                "name": "Apuntes Denegar Tráfico (PROXY) (gdoc)",
+                "name": "Denegar Tráfico (PROXY) (gdoc)",
                 "file": "APUNTESDENEGARTRAFICO.pdf",
                 "link": "https://docs.google.com/document/d/1533EkY-9jJqa0ouYiT4TCwtVNj5-5TpBPmL6AA69Cuo/edit?usp=sharing"
             },
             "CB-05-doc": {
-                "name": "Apuntes Netflow, Syslog, Sniffer (gdoc)",
+                "name": "Netflow, Syslog, Sniffer (gdoc)",
                 "file": "",
                 "link": "https://docs.google.com/document/d/1_4izvTnz9wERLE305jD3IzEMdcYi_clA2c_b6jJphy8/edit?usp=sharing"
             },
             "CB-06-doc": {
-                "name": "Apuntes SSH (gdoc)",
+                "name": "SSH (gdoc)",
                 "file": "ApuntesSSH.docx",
                 "link": "https://docs.google.com/document/d/1yJVbcEbj_7B8fpR-HKqB_3iWS8NXYVlOLzxg33eXYYw/edit?usp=sharing"
             },
             "CB-07-doc": {
-                "name": "Apuntes NAT (gdoc)",
+                "name": "NAT (gdoc)",
                 "file": "APUNTES NAT.docx",
                 "link": "https://docs.google.com/document/d/1sjnWiTICk_XD-MgT9nABnBVihWeMrU6b6O4kl8XXkV8/edit?usp=sharing"
+            },
+            "CB-08-doc": {
+                "name": "AAA con Tacacs (gdoc)",
+                "file": "AAATacacsLoginyEnable_2.docx",
+                "link": "https://docs.google.com/document/d/1OQ4JJk1e7ahTeCUqeo0FLMcIueZIfwV1J37wxSUFEtQ/edit?usp=sharing"
+            },
+            "CB-09-doc": {
+                "name": "TFTP (gdoc)",
+                "file": "TFTP.docx",
+                "link": "https://docs.google.com/document/d/1hQ_YBb6OI4Yk5aID_ZHsNGzrBDO24KmjlWb0TGqG0A0/edit?usp=sharing"
             }
         },
         "resources": {
@@ -1271,6 +1275,12 @@
                 "start": "26-02-2025 00:00",
                 "end": "20-03-2026 23:59",
                 "name": "(RA4) Tarea enrutar por \"alias\" IPV6"
+            },
+            "47045": {
+                "type": "Obligatoria",
+                "start": "11-03-2025 00:00",
+                "end": "17-05-2026 23:59",
+                "name": "RA1, RA2, RA3, RA4, RA5, RA6) Tareas seguridad con clúster"
             }
         },
         "resources": {
