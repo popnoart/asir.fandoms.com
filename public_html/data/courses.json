@@ -144,6 +144,24 @@
                 "start": "02-03-2026 00:00",
                 "end": "15-03-2026 23:59",
                 "name": "Tarea 03-10 Primer trigger en pedidos"
+            },
+            "11159": {
+                "type": "Complementaria",
+                "start": "02-03-2026 00:00",
+                "end": "15-03-2026 23:59",
+                "name": "Tarea 03-10 Primer trigger en pedidos"
+            },
+            "11160": {
+                "type": "Complementaria",
+                "start": "12-03-2026 00:00",
+                "end": "29-03-2026 23:59",
+                "name": "Tarea 03-11 Archivos log para los insert"
+            },
+            "11161": {
+                "type": "Complementaria",
+                "start": "12-03-2026 00:00",
+                "end": "09-03-2026 23:59",
+                "name": "Tarea 03-12 Control de claves en alumnos del instituto"
             }
         },
         "tests": {
