@@ -896,6 +896,18 @@
                 "start": "26-02-2026 00:00",
                 "end": "12-03-2026 23:59",
                 "name": "ACTIVIDAD COMPLEMENTARIA TEMA 3. EL EMPRENDEDOR Y LA IDEA EMPRENDEDORA"
+            },
+            "47191": {
+                "type": "Obligatoria",
+                "start": "13-03-2026 00:00",
+                "end": "13-04-2026 23:59",
+                "name": "ACTIVIDAD OBLIGATORIA TEMA 4. PRIMERA PARTE PROYECTO"
+            },
+            "47192": {
+                "type": "Complementaria",
+                "start": "13-03-2026 00:00",
+                "end": "27-03-2026 23:59",
+                "name": "ACTIVIDAD COMPLEMENTARIA TEMA 4. PRIMERA PARTE PROYECTO"
             }
         },
         "tests": {
