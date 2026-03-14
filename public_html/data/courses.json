@@ -1280,8 +1280,8 @@
                 "link": "https://docs.google.com/document/d/1pQ3PI1asghvYMYdpdofkt2h15Hlu6eCo_BwrHcnjjyU/edit?usp=sharing"
             },
             "SRI-OSI-doc": {
-                "name": "OSI (gdoc)",
-                "file": "",
+                "name": "Capas OSI (gdoc)",
+                "file": "CAPAS OSI.docx",
                 "link": "https://docs.google.com/document/d/1B_x8hMB5SEwqaZfqEv3S-oK1YtiyF1RHCbkThvXBx1E/edit?usp=sharing"
             }
             
@@ -1323,6 +1323,12 @@
                 "start": "26-02-2025 00:00",
                 "end": "20-03-2026 23:59",
                 "name": "(RA4) Tarea enrutar por \"alias\" IPV6"
+            },
+            "46091": {
+                "type": "Obligatoria",
+                "start": "13-03-2025 00:00",
+                "end": "16-05-2026 23:59",
+                "name": "(RA3, RA4 )Tarea swtich 3 capas"
             }
         },
         "resources": {
