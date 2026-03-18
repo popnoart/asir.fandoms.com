@@ -1685,6 +1685,18 @@
                 "start": "04-03-2026 00:00",
                 "end": "17-03-2026 23:59",
                 "name": "TASK - PREPOSITIONS - AT IN ON - COMPLEMENTARIA"
+            },
+            "47405": {
+                "type": "Obligatoria",
+                "start": "18-03-2026 13:00",
+                "end": "31-03-2026 23:59",
+                "name": "UNIT 4. Task - compulsory RA4"
+            },
+            "47444": {
+                "type": "Obligatoria",
+                "start": "18-03-2026 13:00",
+                "end": "31-03-2026 23:59",
+                "name": "UNIT 4. Task - compulsory RA5"
             }
         },
         "tests": {
