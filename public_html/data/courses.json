@@ -39,15 +39,16 @@
                 "folder": 0,
                 "folder_number": 1,
                 "name": "Unidad 4.3. Cursores",
-                "link": ""
+                "link": "https://drive.google.com/file/d/16oFoHCaFsbWClPxZTosrt4eZ3eFWMrdJ/view?usp=sharing"
             }
         },
         "resources": {
-            "CH_M-1": {       
+            "CH_M-1": {
                 "name": "Chuleta Manuel T1",
                 "file": "CHULETA BASE DE DATOS 2.pdf",
                 "link": "https://drive.google.com/file/d/1j6zoRejGQ_Yv5nWkws4OrDRj1TlhruNX/view?usp=drive_link"
-            }},
+            }
+        },
         "tasks": {
             "8735": {
                 "type": "Obligatoria",
@@ -274,7 +275,6 @@
                 "end": "17-03-2026 23:59",
                 "name": "RA2 tarea documentar Red entre Windows y Ubuntu"
             }
-            
         },
         "tests": {
             "ASO-DICIEMBRE-REPASO-01": {
@@ -387,8 +387,7 @@
                 "link": "https://docs.google.com/document/d/1hQ_YBb6OI4Yk5aID_ZHsNGzrBDO24KmjlWb0TGqG0A0/edit?usp=sharing"
             }
         },
-        "resources": {
-        },
+        "resources": {},
         "tasks": {
             "36100": {
                 "type": "Obligatoria",
@@ -1032,10 +1031,22 @@
                 "link": "https://drive.google.com/file/d/12X2cB3QOd8uO6_qM-FP2VD4HrKVgCC8-/view?usp=sharing"
             },
             "SAD-12": {
-                "folder": 20348,
+                "folder": 0,
                 "folder_number": 2,
                 "name": "Unidad 3.2 Seguridad en redes corporativas: Cortafuegos",
-                "link": ""
+                "link": "https://drive.google.com/file/d/1VcpUXuUB8CLCJ0YFV-K06W70wxS7QUVw/view?usp=sharing"
+            },
+            "SAD-13": {
+                "folder": 0,
+                "folder_number": 2,
+                "name": "Unidad 3.3 Seguridad en redes corporativas: Cortafuegos Windows",
+                "link": "https://drive.google.com/file/d/1oGXpGBgwHxsj8ZzXOCJSI6oQWyg9htAi/view?usp=sharing"
+            },
+            "SAD-14": {
+                "folder": 0,
+                "folder_number": 2,
+                "name": "Unidad 3.4 Seguridad en redes corporativas: Cortafuegos Linux",
+                "link": "https://drive.google.com/file/d/1DmNrXBCy1-J0fJkC2_cjZd18i4qrii7U/view?usp=sharing"
             }
         },
         "units-alt": {
@@ -1243,7 +1254,7 @@
                 "folder_number": 2,
                 "name": "Instalación y administración de servicios de nombres de dominio (Cisco)",
                 "link": "https://drive.google.com/file/d/1tTXj5GSPJeBj5G0jhM3efP597wxXZSOx/view?usp=sharing"
-            },            
+            },
             "SRI-AP30-24-doc": {
                 "name": "Tunnel IPv6 e IPv4 (gdoc)",
                 "file": "APUNTESTUNNELIPV6EIPV4.docx",
@@ -1284,8 +1295,6 @@
                 "file": "CAPAS OSI.docx",
                 "link": "https://docs.google.com/document/d/1B_x8hMB5SEwqaZfqEv3S-oK1YtiyF1RHCbkThvXBx1E/edit?usp=sharing"
             }
-            
-            
         },
         "tasks": {
             "33394": {
@@ -1597,13 +1606,13 @@
                 "folder_number": 11,
                 "name": "UNIT 7. Passive Voice",
                 "link": "https://drive.google.com/file/d/1g6sx8ywrLgMrwKSn__eJgdJ8To-Ih-xw/view?usp=sharing"
-            } ,
+            },
             "TE-8": {
                 "folder": 47836,
                 "folder_number": 11,
                 "name": "UNIT 8. Relative Clauses",
                 "link": "https://drive.google.com/file/d/1lQH4sZKoRZsJGW7tKCRvA4hSRCxmnDwn/view?usp=sharing"
-            } 
+            }
         },
         "resources": {
             "TE-1": {
