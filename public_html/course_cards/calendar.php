@@ -7,7 +7,9 @@
         $clases = [];
         if (!empty($calendar_events)) {
             foreach ($calendar_events as $ev) {
-                if (isset($ev['SUMMARY']) && stripos($ev['SUMMARY'], 'Clase') === 0 && isset($ev['DTSTART']) && isset($ev['COURSE']) && $ev['COURSE'] === $course) {
+                // Considerar "clase" aunque el título empiece por ordinales (p.ej. "Sexta clase...")
+                $is_clase = isset($ev['SUMMARY']) && preg_match('/\bclase\b/i', (string)$ev['SUMMARY']);
+                if ($is_clase && isset($ev['DTSTART']) && isset($ev['COURSE']) && $ev['COURSE'] === $course) {
                     $clases[] = $ev;
                 }
             }
@@ -16,7 +18,8 @@
                 return strcmp($a['DTSTART'], $b['DTSTART']);
             });
             // Filtrar solo las próximas 6 clases a partir de hoy
-            $now = date('Ymd\THis\Z');
+            // Los DTSTART del JSON vienen en formato UTC con sufijo 'Z'
+            $now = gmdate('Ymd\THis\Z');
             $clases = array_filter($clases, function ($ev) use ($now) {
                 return $ev['DTSTART'] >= $now;
             });

@@ -149,11 +149,12 @@ include $_SERVER['DOCUMENT_ROOT'] . '/assets/templates/header.php';
         <div class="card mb-3 border-0" id="calendar"
             <div class="agenda-list">
             <?php
-            // Mostrar las próximas 10 clases (SUMMARY empieza por 'Clase')
+            // Mostrar las próximas 10 clases
             $clases = [];
             if (!empty($calendar_events)) {
                 foreach ($calendar_events as $ev) {
-                    if (isset($ev['SUMMARY']) && stripos($ev['SUMMARY'], 'Clase') === 0 && isset($ev['DTSTART'])) {
+                    $is_clase = isset($ev['SUMMARY']) && preg_match('/\bclase\b/i', (string)$ev['SUMMARY']);
+                    if ($is_clase && isset($ev['DTSTART'])) {
                         $clases[] = $ev;
                     }
                 }
@@ -161,8 +162,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/assets/templates/header.php';
                 usort($clases, function ($a, $b) {
                     return strcmp($a['DTSTART'], $b['DTSTART']);
                 });
-                // Filtrar solo las próximas 10 clases a partir de hoy
-                $now = date('Ymd\THis\Z');
+                // Filtrar solo las próximas 10 clases a partir de ahora (DTSTART está en UTC con sufijo 'Z')
+                $now = gmdate('Ymd\THis\Z');
                 $clases = array_filter($clases, function ($ev) use ($now) {
                     return $ev['DTSTART'] >= $now;
                 });
