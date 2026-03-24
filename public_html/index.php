@@ -162,10 +162,18 @@ include $_SERVER['DOCUMENT_ROOT'] . '/assets/templates/header.php';
                 usort($clases, function ($a, $b) {
                     return strcmp($a['DTSTART'], $b['DTSTART']);
                 });
-                // Filtrar solo las próximas 10 clases a partir de ahora (DTSTART está en UTC con sufijo 'Z')
-                $now = gmdate('Ymd\THis\Z');
-                $clases = array_filter($clases, function ($ev) use ($now) {
-                    return $ev['DTSTART'] >= $now;
+                // Filtrar solo las próximas 10 clases a partir de HOY (no de "ahora") en horario de Madrid.
+                $today = new DateTime('today', new DateTimeZone('Europe/Madrid'));
+                $clases = array_filter($clases, function ($ev) use ($today) {
+                    if (!isset($ev['DTSTART']) || !preg_match('/^\d{8}T\d{6}Z$/', (string)$ev['DTSTART'])) {
+                        return false;
+                    }
+                    $dt = DateTime::createFromFormat('Ymd\THis\Z', (string)$ev['DTSTART'], new DateTimeZone('UTC'));
+                    if (!$dt) {
+                        return false;
+                    }
+                    $dt->setTimezone(new DateTimeZone('Europe/Madrid'));
+                    return $dt >= $today;
                 });
                 $clases = array_slice($clases, 0, 10);
                 if (!empty($clases)) {
