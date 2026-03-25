@@ -40,6 +40,12 @@
                 "folder_number": 1,
                 "name": "Unidad 4.3. Cursores",
                 "link": "https://drive.google.com/file/d/16oFoHCaFsbWClPxZTosrt4eZ3eFWMrdJ/view?usp=sharing"
+            },
+            "ASGBD-7": {
+                "folder": 16666,
+                "folder_number": 1,
+                "name": "Unidad 5. Optimización del rendimiento: TCL",
+                "link": ""
             }
         },
         "resources": {
@@ -157,6 +163,24 @@
                 "start": "12-03-2026 00:00",
                 "end": "09-03-2026 23:59",
                 "name": "Tarea 03-12 Control de claves en alumnos del instituto"
+            },
+            "23348": {
+                "type": "Obligatoria",
+                "start": "25-03-2026 00:00",
+                "end": "19-04-2026 23:59",
+                "name": "Tarea 6 - Monitorización de errores (RA5). OBLIGATORIA"
+            },
+            "22836": {
+                "type": "Complementaria",
+                "start": "25-03-2026 00:00",
+                "end": "19-04-2026 23:59",
+                "name": "Tarea 03-13 Actualizando productos en compras"
+            },
+            "22837": {
+                "type": "Complementaria",
+                "start": "25-03-2026 00:00",
+                "end": "19-04-2026 23:59",
+                "name": "Tarea 03-14 Actualizando fabricantes en tienda de informática"
             }
         },
         "tests": {
