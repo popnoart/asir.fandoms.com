@@ -1,0 +1,252 @@
+[
+    {
+        "enunciado": "¿Qué se entiende por cambio climático?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "El aumento puntual de calor en verano",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "La desaparición de las estaciones",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Alteraciones significativas a largo plazo de los patrones climáticos",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "La contaminación del agua",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué característica tiene el cambio climático actual?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Solo modifica las precipitaciones",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Es exclusivamente natural",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Solo afecta a países pobres",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Es antropogénico y ocurre a gran velocidad",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál de estas actividades contribuye al cambio climático?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Agricultura ecológica tradicional",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Uso exclusivo de energía solar",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Reforestación",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Transporte basado en combustibles fósiles",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál de estas NO es una consecuencia del cambio climático?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Mejora automática de los ecosistemas",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Inundaciones",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Sequías",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Aumento del nivel del mar",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué es el efecto invernadero natural?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Un proceso exclusivamente perjudicial",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Un tipo de contaminación industrial",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "La principal causa de la lluvia ácida",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Un fenómeno atmosférico que permite una temperatura adecuada para la vida",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué es la contaminación ambiental?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "La pérdida de especies animales",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "La explotación forestal",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "La acumulación de residuos orgánicos únicamente",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "La introducción de agentes químicos, físicos o biológicos dañinos en el medio",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál de estas es una consecuencia de la contaminación?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Deterioro de ecosistemas",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Reducción del cambio climático",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Aumento de la biodiversidad",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Mejora de la salud pública",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué NO se menciona como consecuencia de la contaminación en el tema?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Cambio climático",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Problemas de salud",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Aumento de la fertilidad natural del suelo",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Pérdida de biodiversidad",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué significa biodiversidad?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "La cantidad de agua disponible",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "El número de árboles de una región",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "La diversidad de climas",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "La variedad de formas de vida del planeta",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál de estos factores favorece la pérdida de biodiversidad?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Sustitución de hábitats naturales por suelo urbano",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Creación de parques naturales",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Restauración de ecosistemas",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Agricultura orgánica",
+                "correcta": false
+            }
+        ]
+    }
+]
