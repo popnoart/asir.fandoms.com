@@ -1221,13 +1221,25 @@
                 "type": "Obligatoria",
                 "start": "28-01-2026 15:00",
                 "end": "10-02-2026 23:59",
-                "name": " ACTIVIDAD OBLIGATORIA TEMA 2. CONTRIBUCIÓN DE LAS EMPRESAS CON EL DESARROLLO SOSTENIBLE"
+                "name": "ACTIVIDAD OBLIGATORIA TEMA 2. CONTRIBUCIÓN DE LAS EMPRESAS CON EL DESARROLLO SOSTENIBLE"
             },
             "41478": {
                 "type": "Complementaria",
                 "start": "28-01-2026 15:00",
                 "end": "10-02-2026 23:59",
                 "name": "ACTIVIDAD COMPLEMENTARIA TEMA 2. CONTRIBUCIÓN DE LAS EMPRESAS CON EL DESARROLLO SOSTENIBLE"
+            },
+            "47942": {
+                "type": "Obligatoria",
+                "start": "25-03-2026 09:10",
+                "end": "08-04-2026 23:59",
+                "name": "ACTIVIDAD OBLIGATORIA TEMA 3. RETOS AMBIENTALES Y SOCIALES"
+            },
+            "47946": {
+                "type": "Complementaria",
+                "start": "25-03-2026 09:10",
+                "end": "08-04-2026 23:59",
+                "name": "ACTIVIDAD COMPLEMENTARIA TEMA 3. RETOS AMBIENTALES Y SOCIALES"
             }
         },
         "tests": {
