@@ -1,0 +1,702 @@
+[
+    {
+        "enunciado": "¿Qué nivel del modelo OSI es el nivel de soporte al usuario?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Capa de presentación",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Capa de sesión",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Capa de transporte",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Capa de aplicación",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué se entiende por estándar OSI?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Un modelo de hardware específico para redes locales",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Open System Interconnection, un modelo que divide la comunicación en 7 capas",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Un protocolo de enrutamiento dinámico",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Un tipo de cableado estándar para redes de fibra óptica",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Te avisan de una incidencia en una red. Después de comprobar diversas configuraciones te das cuenta de que el error estaba en un terminal RJ45 que estaba algo doblado. ¿A qué capa del modelo OSI corresponde el error?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Capa de red",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Capa de enlace de datos",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Capa física",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Capa de transporte",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "La VPN de una empresa está mal configurada. ¿A qué nivel de la capa OSI corresponde la incidencia?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Capa de sesión",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Capa de transporte",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Capa de red",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Capa de aplicación",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "NetBIOS deja pasar tráfico a través de los puertos 137, 138 y 139. ¿Qué nivel de seguridad corresponde al protocolo NetBIOS en el modelo OSI?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Capa de transporte",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Capa de sesión",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Capa de red",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Capa de presentación",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Suponiendo que no tienen ping, ¿qué nivel de capa OSI corresponde a una incidencia de conectividad donde la IP está mal configurada?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Capa de enlace de datos",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Capa física",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Capa de red",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Capa de transporte",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Los PC no tienen acceso a la aplicación www.calamares.es. Tras comprobaciones, nos damos cuenta de que el DNS está mal configurado. ¿Qué nivel de capa OSI pertenece la incidencia?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Capa de red",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Capa de sesión",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Capa de aplicación",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Capa de transporte",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Existen errores en una topología de enrutamientos. ¿A qué nivel de capa OSI pertenece la incidencia?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Capa de enlace de datos",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Capa de transporte",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Capa de red",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Capa de aplicación",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "La configuración por MAC del switch está bien, pero un usuario registrado no puede acceder porque la luz del switch está apagada y se detectó un equipo no registrado. ¿Qué capa del OSI pertenece la incidencia?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Capa física",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Capa de enlace de datos",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Capa de red",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Capa de transporte",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "El ASA de una empresa por errores de configuración no permite el acceso a páginas web y la IP del PC que quiere acceder está mal configurada. ¿A qué capas del modelo OSI pertenece la incidencia?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Capa 4 y Capa 5",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Capa 2 y Capa 3",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Capa 1 y Capa 2",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Capa 3 y Capa 7",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "La IP 192.168.1.2/27:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Es una IP pública",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Su máscara es 255.255.255.224 y tiene 27 bits de red y 5 de host",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Su máscara es 255.255.255.240 y tiene 28 bits de red",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Tiene 24 bits de red y 8 de host",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Se desea dividir la red 192.168.1.0/24 en 4 subredes. ¿Cuál es la máscara de las subredes?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "/25",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "/26",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "/27",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "/28",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "El rango útil de la red para asignar IP a dispositivos es 20.0.0.0/8:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Desde 20.0.0.1 hasta 20.0.0.255",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Desde 20.0.0.1 hasta 20.0.255.254",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Desde 20.0.0.1 hasta 20.255.255.254",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Desde 20.0.0.0 hasta 20.255.255.255",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál es la última capa del modelo OSI?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Capa de red",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Capa de transporte",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Capa de enlace de datos",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Capa de aplicación",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "El servicio de DNS se utiliza para:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Asignar la puerta de enlace por defecto",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Asignar direcciones IP automáticamente",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Resolver nombres de dominio a direcciones IP",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Gestionar el ancho de banda de la red",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "En una red inalámbrica, SSID se refiere a:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "La dirección MAC del punto de acceso",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "El canal de transmisión utilizado",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "El ancho de banda de la red",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "El nombre de la red",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "Te llaman para resolver una incidencia de una NAT. ¿Qué es lo que hace NAT y a qué capa del modelo OSI hace referencia?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Traduce direcciones MAC, Capa 2",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Traduce direcciones IP, Capa 3",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Traduce nombres de dominio, Capa 7",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Traduce puertos de aplicación, Capa 4",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Dispones de una aplicación que utiliza el protocolo SMTP. ¿Qué capa del modelo OSI representa?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Capa de sesión",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Capa de transporte",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Capa de presentación",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Capa de aplicación",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "Las aplicaciones de monitorización (Wireshark, Nmap, Syslog, Netflow) indican que los paquetes tardan demasiado tiempo en llegar a su destino. ¿Qué capas del modelo OSI pueden estar afectadas por esta incidencia?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Capa 1, Capa 2 y Capa 3",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Capa 3, Capa 4 y Capa 7",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Capa 5, Capa 6 y Capa 7",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Solo Capa 4",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "La máscara de red 255.255.255.224, ¿cuántos bits de red tiene y cuántos de host?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "24 bits de red, 8 bits de host",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "26 bits de red, 6 bits de host",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "27 bits de red, 5 bits de host",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "28 bits de red, 4 bits de host",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "La IP 172.172.0.8/20, ¿qué máscara le corresponde?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "255.255.0.0",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "255.255.240.0",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "255.255.248.0",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "255.255.255.0",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Se desea dividir la red 172.168.1.0/16 en 6 subredes. ¿Cuál es la máscara de las subredes?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "/18",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "/19",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "/20",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "/21",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Tienes un ASA configurado para acceder a un servidor WEB, pero el técnico ha configurado mal la cuenta de usuario y la contraseña. ¿Qué nivel de capa OSI pertenece?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Capa de red",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Capa de transporte",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Capa de aplicación",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Capa de enlace de datos",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "El estándar 802.3, ¿a qué hace referencia?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Redes inalámbricas (Wi-Fi)",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Redes de área amplia (WAN)",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Redes cableadas (Ethernet)",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Redes de fibra óptica",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "El estándar 802.1Q, ¿a qué hace referencia?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Seguridad en redes inalámbricas",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "VLAN (Virtual LANs)",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Protocolo de enrutamiento",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Control de acceso al medio (MAC)",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Tienes una red perfectamente configurada, pero no puedes acceder a tu cuenta de correo con el mensaje 'usuario o contraseña incorrectos'. ¿A qué capa OSI pertenece?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Capa de sesión",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Capa de presentación",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Capa de aplicación",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Capa de transporte",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Una VLAN no funciona. Compruebas que la IP en el DHCP POOL está mal configurada. ¿Qué nivel OSI pertenece la incidencia?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Capa 2 y Capa 3",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Capa 1 y Capa 2",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Solo Capa 2",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Solo Capa 3",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Tienes problemas en la configuración de un FTP y un TFTP aunque las IP están correctamente configuradas. ¿A qué capa OSI hace referencia?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Capa de red",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Capa de transporte",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Capa de aplicación",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Capa de enlace de datos",
+                "correcta": false
+            }
+        ]
+    }
+]
