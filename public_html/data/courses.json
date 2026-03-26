@@ -1386,6 +1386,12 @@
                 "start": "13-03-2025 00:00",
                 "end": "16-05-2026 23:59",
                 "name": "(RA3, RA4 )Tarea swtich 3 capas"
+            },
+            "47961" : {
+                "type": "Obligatoria",
+                "start": "25-03-2025 00:00",
+                "end": "01-04-2026 01:00",
+                "name": "(RA1) Tarea OSI"
             }
         },
         "resources": {
