@@ -281,22 +281,27 @@
         "respuestas": [
             {
                 "opcion": "a.",
-                "texto": "Es una IP pública",
+                "texto": "Su máscara de es: 11111111 11111111 11111111 11100000",
                 "correcta": false
             },
             {
                 "opcion": "b.",
-                "texto": "Su máscara es 255.255.255.224 y tiene 27 bits de red y 5 de host",
-                "correcta": true
+                "texto": "Tiene 27 bits de red y 5 de host",
+                "correcta": false
             },
             {
                 "opcion": "c.",
-                "texto": "Su máscara es 255.255.255.240 y tiene 28 bits de red",
+                "texto": "Es una IP pública",
                 "correcta": false
             },
             {
                 "opcion": "d.",
-                "texto": "Tiene 24 bits de red y 8 de host",
+                "texto": "Las respuestas 1 y 2 son correctas",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Ninguna es correcta",
                 "correcta": false
             }
         ]
@@ -341,12 +346,12 @@
             },
             {
                 "opcion": "c.",
-                "texto": "Desde 20.0.0.1 hasta 20.255.255.254",
+                "texto": "Desde 20.0.0.1 hasta 20.0.0.254",
                 "correcta": true
             },
             {
                 "opcion": "d.",
-                "texto": "Desde 20.0.0.0 hasta 20.255.255.255",
+                "texto": "Ninguna es correcta",
                 "correcta": false
             }
         ]
@@ -381,22 +386,22 @@
         "respuestas": [
             {
                 "opcion": "a.",
-                "texto": "Asignar la puerta de enlace por defecto",
+                "texto": "Asignar la IP a los equipos de la red",
                 "correcta": false
             },
             {
                 "opcion": "b.",
-                "texto": "Asignar direcciones IP automáticamente",
+                "texto": "Asigna la puerta de enlace",
                 "correcta": false
             },
             {
                 "opcion": "c.",
-                "texto": "Resolver nombres de dominio a direcciones IP",
+                "texto": "Resuelve nombres",
                 "correcta": true
             },
             {
                 "opcion": "d.",
-                "texto": "Gestionar el ancho de banda de la red",
+                "texto": "Todas son correctas",
                 "correcta": false
             }
         ]
@@ -407,22 +412,22 @@
         "respuestas": [
             {
                 "opcion": "a.",
-                "texto": "Servicio de resolución de nombres (DNS) y asignación de direcciones IP, relacionados con las capas de Red y Aplicación",
+                "texto": "3 Red",
                 "correcta": true
             },
             {
                 "opcion": "b.",
-                "texto": "Servicio de enrutamiento dinámico OSPF, relacionado con la capa de Transporte",
+                "texto": "5 Sesión",
                 "correcta": false
             },
             {
                 "opcion": "c.",
-                "texto": "Servicio de traducción de direcciones MAC (ARP), relacionado con la capa de Sesión",
+                "texto": "4 Transporte",
                 "correcta": false
             },
             {
                 "opcion": "d.",
-                "texto": "Servicio de control de congestión (TCP windowing), relacionado con la capa de Presentación",
+                "texto": "7 Aplicación",
                 "correcta": false
             }
         ]
@@ -478,7 +483,7 @@
         ]
     },
     {
-        "enunciado": "Dispones de una aplicación que utiliza el protocolo SMTP. ¿Qué capa del modelo OSI representa?",
+        "enunciado": "Dispones de una aplicación que utiliza el protocolo SMPT, este protocolo es compatible con aplicaciones de correo electrónico y con aplicaciones que son capaces de cambiar la configuración de un router de forma remota. ¿Qué modelo representa de la capa OSI?",
         "respuestas": [
             {
                 "opcion": "a.",
@@ -507,22 +512,22 @@
         "respuestas": [
             {
                 "opcion": "a.",
-                "texto": "Capa 1, Capa 2 y Capa 3",
+                "texto": "Capa 1",
                 "correcta": false
             },
             {
                 "opcion": "b.",
-                "texto": "Capa 3, Capa 4 y Capa 7",
+                "texto": "Capa 4",
                 "correcta": true
             },
             {
                 "opcion": "c.",
-                "texto": "Capa 5, Capa 6 y Capa 7",
+                "texto": "Capa 5",
                 "correcta": false
             },
             {
                 "opcion": "d.",
-                "texto": "Solo Capa 4",
+                "texto": "Capa 6",
                 "correcta": false
             }
         ]
@@ -653,7 +658,7 @@
         ]
     },
     {
-        "enunciado": "El estándar 802.1Q, ¿a qué hace referencia?",
+        "enunciado": "El estándar 802.1, ¿a qué hace referencia?",
         "respuestas": [
             {
                 "opcion": "a.",
@@ -662,7 +667,7 @@
             },
             {
                 "opcion": "b.",
-                "texto": "VLAN (Virtual LANs)",
+                "texto": "Todas las redes cableadas e inalámbricas",
                 "correcta": true
             },
             {
@@ -672,7 +677,7 @@
             },
             {
                 "opcion": "d.",
-                "texto": "Control de acceso al medio (MAC)",
+                "texto": "VLAN (Virtual LANs)",
                 "correcta": false
             }
         ]
@@ -707,22 +712,22 @@
         "respuestas": [
             {
                 "opcion": "a.",
-                "texto": "Capa 2 y Capa 3",
+                "texto": "Capa 3",
                 "correcta": true
             },
             {
                 "opcion": "b.",
-                "texto": "Capa 1 y Capa 2",
+                "texto": "Capa 1",
                 "correcta": false
             },
             {
                 "opcion": "c.",
-                "texto": "Solo Capa 2",
+                "texto": "Capa 2",
                 "correcta": false
             },
             {
                 "opcion": "d.",
-                "texto": "Solo Capa 3",
+                "texto": "Capa 4",
                 "correcta": false
             }
         ]
