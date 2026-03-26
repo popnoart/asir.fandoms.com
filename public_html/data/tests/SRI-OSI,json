@@ -126,6 +126,7 @@
     },
     {
         "enunciado": "Suponiendo que no tienen ping, ¿qué nivel de capa OSI corresponde a una incidencia de conectividad donde la IP está mal configurada?",
+        "imagen": "SRI-OSI_01.png",
         "respuestas": [
             {
                 "opcion": "a.",
@@ -151,6 +152,7 @@
     },
     {
         "enunciado": "Los PC no tienen acceso a la aplicación www.calamares.es. Tras comprobaciones, nos damos cuenta de que el DNS está mal configurado. ¿Qué nivel de capa OSI pertenece la incidencia?",
+        "imagen": "SRI-OSI_02.png",
         "respuestas": [
             {
                 "opcion": "a.",
@@ -170,6 +172,31 @@
             {
                 "opcion": "d.",
                 "texto": "Capa de transporte",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Cita todas las capas del modelo OSI en orden, desde la capa 1 hasta la capa 7.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "1 Física, 2 Enlace de datos, 3 Transporte, 4 Red, 5 Sesión, 6 Presentación, 7 Aplicación",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "1 Física, 2 Enlace de datos, 3 Red, 4 Transporte, 5 Sesión, 6 Presentación, 7 Aplicación",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "1 Física, 2 Red, 3 Enlace de datos, 4 Transporte, 5 Presentación, 6 Sesión, 7 Aplicación",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "1 Aplicación, 2 Presentación, 3 Sesión, 4 Transporte, 5 Red, 6 Enlace de datos, 7 Física",
                 "correcta": false
             }
         ]
@@ -375,6 +402,32 @@
         ]
     },
     {
+        "enunciado": "Observa la siguiente imagen. ¿Qué servicio del modelo OSI tiene relación?",
+        "imagen": "SRI-OSI_03.png",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Servicio de resolución de nombres (DNS) y asignación de direcciones IP, relacionados con las capas de Red y Aplicación",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Servicio de enrutamiento dinámico OSPF, relacionado con la capa de Transporte",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Servicio de traducción de direcciones MAC (ARP), relacionado con la capa de Sesión",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Servicio de control de congestión (TCP windowing), relacionado con la capa de Presentación",
+                "correcta": false
+            }
+        ]
+    },
+    {
         "enunciado": "En una red inalámbrica, SSID se refiere a:",
         "respuestas": [
             {
@@ -450,7 +503,7 @@
         ]
     },
     {
-        "enunciado": "Las aplicaciones de monitorización (Wireshark, Nmap, Syslog, Netflow) indican que los paquetes tardan demasiado tiempo en llegar a su destino. ¿Qué capas del modelo OSI pueden estar afectadas por esta incidencia?",
+        "enunciado": "En el trabajo te informan que la red de un departamento funciona lentamente, lo saben porque las aplicaciones de monitorización (Wireshark, Nmap, Syslog, Netflow) indican que los paquetes tardar demasiado tiempo en llegar a su destino ¿Qué capa del modelo OSI representa la incidencia?",
         "respuestas": [
             {
                 "opcion": "a.",
