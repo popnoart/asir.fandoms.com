@@ -480,12 +480,12 @@
             {
                 "opcion": "C",
                 "texto": "730",
-                "correcta": true
+                "correcta": false
             },
             {
                 "opcion": "D",
                 "texto": "350",
-                "correcta": false
+                "correcta": true
             }
         ]
     }
