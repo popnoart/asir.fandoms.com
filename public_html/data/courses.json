@@ -591,6 +591,18 @@
                 "start": "23-02-2026 00:00",
                 "end": "09-03-2026 23:59",
                 "name": "ACTIVIDAD COMPLEMENTARIA TEMA 4. HERRAMIENTAS DIGITALES"
+            },
+            "48417": {
+                "type": "Obligatoria",
+                "start": "08-04-2026 09:00",
+                "end": "30-04-2026 23:59",
+                "name": "ACTIVIDAD OBLIGATORIA TEMA 5. PROYECTO DE TRANSFORMACIÓN DIGITAL"
+            },
+            "48419": {
+                "type": "Complementaria",
+                "start": "08-04-2026 09:00",
+                "end": "30-04-2026 23:59",
+                "name": "ACTIVIDAD COMPLEMENTARIA TEMA 5. PROYECTO DE TRANSFORMACIÓN DIGITAL"
             }
         },
         "tests": {
