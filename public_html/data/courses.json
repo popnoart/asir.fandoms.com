@@ -44,8 +44,14 @@
             "ASGBD-7": {
                 "folder": 16666,
                 "folder_number": 1,
-                "name": "Unidad 5. Optimización del rendimiento: TCL",
-                "link": "https://drive.google.com/file/d/1BKQExVOE-NbRmp7GdGcSsDP13BDGrEUF/view?usp=sharing"
+                "name": "Unidad 5.1. Optimización del rendimiento: TCL",
+                "link": "https://drive.google.com/file/d/1srPQkQJQB9Zo_uicHI5VN__Nvb23DWh1/view?usp=sharing"
+            },
+            "ASGBD-8": {
+                "folder": 16666,
+                "folder_number": 1,
+                "name": "Unidad 5.2. Recuperación de errores: copias de seguridad",
+                "link": "https://drive.google.com/file/d/1B_Bs-5Zd1OgCqfth64BqPIO5qHnM-5aT/view?usp=sharing"
             }
         },
         "resources": {
@@ -181,6 +187,18 @@
                 "start": "25-03-2026 00:00",
                 "end": "19-04-2026 23:59",
                 "name": "Tarea 03-14 Actualizando fabricantes en tienda de informática"
+            },
+            "8454": {
+                "type": "Obligatoria",
+                "start": "08-04-2026 00:00",
+                "end": "03-05-2026 23:59",
+                "name": "Tarea 7 - Recuperación de errores: copias de seguridad (RA6). OBLIGATORIA"
+            },
+            "23349": {
+                "type": "Complementaria",
+                "start": "08-04-2026 00:00",
+                "end": "03-05-2026 23:59",
+                "name": "Tarea 05-02 Importando una tabla en una base de datos"
             }
         },
         "tests": {
@@ -219,6 +237,12 @@
                 "start": "",
                 "end": "",
                 "name": "AUTOEVALUACIÓN FEBRERO"
+            },
+            "17226": {
+                "type": "Cuestionario",
+                "start": "",
+                "end": "",
+                "name": "Cuestionario - Optimización del rendimiento / Copias"
             }
         },
         "notes": {
