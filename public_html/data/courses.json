@@ -1125,6 +1125,12 @@
                 "folder_number": 2,
                 "name": "Unidad 3.4 Seguridad en redes corporativas: Cortafuegos Linux",
                 "link": "https://drive.google.com/file/d/1DmNrXBCy1-J0fJkC2_cjZd18i4qrii7U/view?usp=sharing"
+            },
+            "SAD-15": {
+                "folder": 0,
+                "folder_number": 2,
+                "name": "Unidad 5 Seguridad en redes corporativas: Cortafuegos Proxy",
+                "link": "https://drive.google.com/file/d/1CPndt6eW6eYgEPnSEjsnJf3LPHbrMbp2/view?usp=sharing"
             }
         },
         "units-alt": {
@@ -1181,6 +1187,12 @@
                 "start": "21-02-2026 21:00",
                 "end": "15-03-2026 23:59",
                 "name": "Tarea 4 - IDS e IPS (RA5) - OBLIGATORIA"
+            },
+            "4487": {
+                "type": "Obligatoria",
+                "start": "08-04-2026 21:00",
+                "end": "25-04-2026 23:59",
+                "name": "Tarea 5 - Reglas de filtrado con cortafuegos (RA4) - OBLIGATORIA"
             }
         },
         "tests": {
