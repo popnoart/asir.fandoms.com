@@ -1,0 +1,252 @@
+[
+    {
+        "enunciado": "El comando ROLLBACK  dentro de una transacción sirve para:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Marca el final de una transacción correcta, implícita o explícita. ",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Revierte una transacción explícita o implícita hasta el inicio de la transacción o hasta un punto de retorno dentro de la transacción.",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Permiten manejar las transacciones por pasos, pudiendo hacer rollbacks o retrocesos hasta un punto marcado por el savepoint y no por toda la transacción.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Marca el punto de inicio de una transacción local explícita. ",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Marca el comando correcto para exportar la base de datos pedidos (con la estructura de tablas y los contenido) en el fichero copia.sql",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "# mysql -u root -p pedidos > copia.sql",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "# mysql -u root -p pedidos < copia.sql",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "# mysqldump -u root -p pedidos > copia.sql",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "# mysqldump -u root -p pedidos < copia.sql",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Marca el comando correcto para importar la base de datos pedidos (con la estructura de tablas y los contenido) desde el fichero copia.sql",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "# mysql -u root -p pedidos > copia.sql",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "# mysql -u root -p pedidos < copia.sql",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "# mysqldump -u root -p pedidos < copia.sql",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "# mysqldump -u root -p pedidos < copia.sql",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "El comando COMMIT dentro de una transacción sirve para:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Revierte una transacción explícita o implícita hasta el inicio de la transacción o hasta un punto de retorno dentro de la transacción.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Permiten manejar las transacciones por pasos, pudiendo hacer rollbacks o retrocesos hasta un punto marcado por el savepoint y no por toda la transacción.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Marca el final de una transacción correcta, implícita o explícita. ",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Marca el punto de inicio de una transacción local explícita. ",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Es posible deshacer parcialmente los cambios realizados por una transacción?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Sí, ejecutando la sentencia ROLLBACK",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "No es posible en ningún caso, una vez grabados los datos, ya no se pueden deshacer.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Sí, estableciendo un punto de restauración y ejecutando la orden de deshacer los cambios hasta ese punto.",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "No, sólo se pueden deshacer todas las operaciones contenidas en la transacción",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Se pueden recuperar los datos que borremos con DELETE?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Nunca, una vez borrado ya no se puede deshacer.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Siempre es posible con la opción de UNDO.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Cuando aún no hayamos cerrado la base de datos, sí se puede.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Sí, si está dentro de una transacción",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "Marca el concepto correcto de punto de recuperación en una transacción:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Permiten manejar las transacciones por pasos, pudiendo hacer rollbacks o retrocesos hasta un punto marcado por el savepoint y no por toda la transacción.",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Marca el final de una transacción correcta, implícita o explícita. ",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Revierte una transacción explícita o implícita hasta el inicio de la transacción o hasta un punto de retorno dentro de la transacción.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Marca el punto de inicio de una transacción local explícita. ",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Dentro de la instrucción LOAD DATA, qué tipo de archivo puede cargar?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Ninguna de las anteriores es correcta.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "SCV",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "CSV",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "CVS",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué instrucción es la correcta para importar datos a la tabla alumnos desde el archivo alumnado.csv?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "LOAD DATA INFILE 'alumnado.csv' INSERT INTO TABLE alumnos;",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Ninguna es correcta",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "LOAD INFILE 'alumnado.csv' INTO TABLE alumnos;",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "LOAD DATA INFILE 'alumnado.csv' INTO TABLE alumnos;",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "El comando BEGIN TRANSACTION dentro de una transacción sirve para:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Marca el final de una transacción correcta, implícita o explícita. ",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Permiten manejar las transacciones por pasos, pudiendo hacer rollbacks o retrocesos hasta un punto marcado por el savepoint y no por toda la transacción.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Marca el punto de inicio de una transacción local explícita. ",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Revierte una transacción explícita o implícita hasta el inicio de la transacción o hasta un punto de retorno dentro de la transacción.",
+                "correcta": false
+            }
+        ]
+    }
+]
