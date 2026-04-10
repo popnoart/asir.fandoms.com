@@ -991,6 +991,18 @@
                 "start": "13-03-2026 00:00",
                 "end": "27-03-2026 23:59",
                 "name": "ACTIVIDAD COMPLEMENTARIA TEMA 4. PRIMERA PARTE PROYECTO"
+            },
+            "48633": {
+                "type": "Obligatoria",
+                "start": "10-04-2026 21:30",
+                "end": "02-05-2026 23:59",
+                "name": "ACTIVIDAD OBLIGATORIA TEMA 5. SEGUNDA PARTE DEL PROYECTO. RA 5"
+            },
+            "48634": {
+                "type": "Complementaria",
+                "start": "10-04-2026 21:30",
+                "end": "02-05-2026 23:59",
+                "name": "ACTIVIDAD COMPLEMENTARIA TEMA 5. PROYECTO II. RA 5"
             }
         },
         "tests": {
