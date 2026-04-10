@@ -253,6 +253,10 @@
             "ASGBD-RES-doc": {
                 "name": "Resumen ASGBD (gdoc)",
                 "link": "https://docs.google.com/document/d/1LOFGtEztsggR7ZabPOTGQFAMT-4JSGKtCxWuJcPwuOo/edit?usp=sharing"
+            },
+            "ASGBD-chuleta-doc": {
+                "name": "Chuleta ASGBD (gdoc)",
+                "link": "https://docs.google.com/document/d/1-Y8KWNtih8nhxWEbwPSP21iNE0tz6wN7dTGNTNBUtb8/edit?usp=sharing"
             }
         }
     },
@@ -382,6 +386,10 @@
             "ASO-RES-doc": {
                 "name": "Resumen ASO (gdoc)",
                 "link": "https://docs.google.com/document/d/1Tg9XiyIoVkgZ9BXcJ7THj7fbAcgbb2pk29hseRc6Ezw/edit?usp=sharing"
+            },
+            "ASO-chuleta-doc": {
+                "name": "Chuleta ASO (gdoc)",
+                "link": "https://docs.google.com/document/d/16yBFrDVD2zsg7bS0BcStIV-ZucC0d_HpF5nshbougx8/edit?usp=sharing"
             },
             "ISO-doc": {
                 "name": "Apuntes ISO 1º (gdoc)",
@@ -513,6 +521,10 @@
             "CB-RES-doc": {
                 "name": "Resumen CB (gdoc)",
                 "link": "https://docs.google.com/document/d/1PnvqAvQzD0TAS1gMMHsTAzqX4DDNKg87Lylcwoad1FQ/edit?usp=sharing"
+            },
+            "CB-chuleta-doc": {
+                "name": "Chuleta CB (gdoc)",
+                "link": "https://docs.google.com/document/d/1Y9OLk56woUJlMZeMPHBDE9b1Wn7mn0uA8u1K17xoUzc/edit?usp=sharing"
             }
         }
     },
@@ -668,6 +680,10 @@
             "DAPS-RES-doc": {
                 "name": "Resumen DAPS (gdoc)",
                 "link": "https://docs.google.com/document/d/13P6SfTkq_iRTT8VAbRx7e90BApFoUh2yv_s2kde4gds/edit?usp=sharing"
+            },
+            "DAPS-chuleta-doc": {
+                "name": "Chuleta DAPS (gdoc)",
+                "link": "https://docs.google.com/document/d/1d-Mf70nV_WXB6OqTnxjxY3TeM5gEZsFsbEZFo-iuSEo/edit?usp=sharing"
             }
         }
     },
@@ -913,6 +929,10 @@
             "IAW-RES-doc": {
                 "name": "Resumen IAW (gdoc)",
                 "link": "https://docs.google.com/document/d/1y7BUEyYDKUc5TFSiRqrnEfIVtIgGJuaE6N9YmuG2-PU/edit?usp=sharing"
+            },
+            "IAW-chuleta-doc": {
+                "name": "Chuleta IAW (gdoc)",
+                "link": "https://docs.google.com/document/d/16otNyYcg5RdfkCNexF9NbFbIvv7riIZapjvx5Zysvbs/edit?usp=sharing"
             }
         }
     },
@@ -1062,6 +1082,10 @@
             "IPE-RES-doc": {
                 "name": "Resumen IPE (gdoc)",
                 "link": "https://docs.google.com/document/d/1vMZkPXealio5N1wSHtHh9kDU3fGJ-aFTZyWfKdFdXKU/edit?usp=sharing"
+            },
+            "IPE-chuleta-doc": {
+                "name": "Chuleta IPE (gdoc)",
+                "link": "https://docs.google.com/document/d/1jgDp6Yoj-Anj8Y9IC5NewNpiTFsxwgvGIiGSjY_8nS8/edit?usp=sharing"
             }
         }
     },
@@ -1264,6 +1288,10 @@
             "SAD-RES-doc": {
                 "name": "Resumen SAD (gdoc)",
                 "link": "https://docs.google.com/document/d/1PT2J9N3FOELOWx9u8_kFxxYi7yCqX3vhkK-MQH2yvcM/edit?usp=sharing"
+            },
+            "SAD-chuleta-doc": {
+                "name": "Chuleta SAD (gdoc)",
+                "link": "https://docs.google.com/document/d/19kMbABaV7ZDJD2ugGY06kKiux6UpWzjfj2AFgV56BO0/edit?usp=sharing"
             }
         }
     },
@@ -1377,6 +1405,10 @@
             "SAPS-RES-doc": {
                 "name": "Resumen SAPS (gdoc)",
                 "link": "https://docs.google.com/document/d/1L5hAQnFQu_h1qMBoSXfcdoS8QPkCowZ48U8Jo0UXClk/edit?usp=sharing"
+            },
+            "SAPS-chuleta-doc": {
+                "name": "Chuleta SAPS (gdoc)",
+                "link": "https://docs.google.com/document/d/149U3JYWYNkCvnwk-n3tH9Xj8inC2lz7yQ2CXELaD0vc/edit?usp=sharing"
             }
         }
     },
@@ -1689,7 +1721,7 @@
                 "link": "https://docs.google.com/document/d/1JBKSuTG9MRom_bcMcTiq44GImeftondUPnRHFKpTyP0/edit?usp=sharing"
             },
             "SRI-chuleta-doc": {
-                "name": "CHULETA SRI",
+                "name": "Chuleta SRI (gdoc)",
                 "link": "https://docs.google.com/document/d/1aK2VnMSfSYq6wc875CapAw9ghksoMomLSmlLa-DW24A/edit?usp=sharing"
             },
             "SRI-calculadora": {
@@ -1957,6 +1989,10 @@
             "TE-RES-doc": {
                 "name": "Resumen TE (gdoc)",
                 "link": "https://docs.google.com/document/d/135k9m9QHj1Mz7VVH7cYhNY6haMOzIEYVeA5bedZ3KrI/edit?usp=sharing"
+            },
+            "TE-chuleta-doc": {
+                "name": "Chuleta TE (gdoc)",
+                "link": "https://docs.google.com/document/d/1_cYz9DAn5PtLDgu4QtLG6FYcrDPhDlFrNgl2A402V0o/edit?usp=sharing"
             }
         }
     }
