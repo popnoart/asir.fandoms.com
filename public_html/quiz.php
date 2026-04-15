@@ -29,7 +29,7 @@
                 $pre = $quiz_content[0]['pre'];
                 unset($quiz_content[0]);
                 if (isset($pre[0]['file'])) {
-                    echo '<div class="mb-4 d-flex justify-content-center"><audio controls><source src="/data/tests/audio/' . htmlspecialchars($pre[0]['file'], ENT_QUOTES, 'UTF-8') . '" type="audio/mpeg">Tu navegador no soporta el elemento de audio.</audio></div>';
+                    echo '<div class="mb-4 d-flex justify-content-center"><audio controls><source src="/data/tests/files/' . htmlspecialchars($pre[0]['file'], ENT_QUOTES, 'UTF-8') . '" type="audio/mpeg">Tu navegador no soporta el elemento de audio.</audio></div>';
                 } elseif (isset($pre[0]['text'])) {
                     echo $pre[0]['text'];
                 }
