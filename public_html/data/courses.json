@@ -452,6 +452,11 @@
                 "name": "NMAP (gdoc)",
                 "file": "APUNTES NMAP.docx",
                 "link": "https://docs.google.com/document/d/1eTZgYxtVdc2vY1gWKGyIdKjRePmYOWzl33xPAiMBSyg/edit?usp=sharing"
+            },
+            "CB-10-doc": {
+                "name": "Wireshark (gdoc)",
+                "file": "APUNTES WIRESHARK.docx",
+                "link": "https://docs.google.com/document/d/1QLPMUNMY0PFImUSSYU_cq0myb-tMUEyrfcl-_11sDjw/edit?usp=sharing"
             }
         },
         "resources": {},
