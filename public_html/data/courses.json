@@ -484,6 +484,12 @@
                 "start": "10-04-2025 00:00",
                 "end": "16-04-2026 23:59",
                 "name": "EJERCICIOS NMAP"
+            },
+            "49114": {
+                "type": "Obligatoria",
+                "start": "16-04-2025 00:00",
+                "end": "22-04-2026 23:59",
+                "name": "RA2, RA3) Tarea Wireshark_1"
             }
         },
         "tests": {
@@ -904,6 +910,12 @@
                 "start": "10-03-2026 09:00",
                 "end": "08-04-2026 23:59",
                 "name": "RA5 Práctica JSON,AJAX y JS.OBLIGATORIA"
+            },
+            "49205": {
+                "type": "Obligatoria",
+                "start": "16-03-2026 12:00",
+                "end": "30-05-2026 23:59",
+                "name": "RA8 Práctica XML"
             }
         },
         "tests": {
