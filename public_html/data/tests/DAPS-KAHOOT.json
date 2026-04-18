@@ -1,0 +1,1002 @@
+[
+    {
+        "enunciado": "¿Cuál es la definición exacta de \"Digitalización\" según el temario?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "El rediseño total de la cultura de una empresa.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "El cambio de formato de papel a digital de tareas que antes eran manuales.",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "La sustitución de trabajadores humanos por inteligencia artificial.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "El uso exclusivo de redes sociales para vender productos.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué diferencia a la \"Transformación Digital\" de la simple digitalización?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Que la transformación digital solo se aplica en oficinas.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "No hay diferencia, son términos sinónimos.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "La transformación digital es más barata de implementar.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Que implica un cambio profundo en los procesos y modelos de negocio usando la tecnología.",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿A qué se refieren las siglas IT (Information Technology)?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "A las tecnologías para el procesamiento de datos, información y comunicación en la gestión empresarial.",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "A las máquinas que fabrican productos físicamente en una nave industrial.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "A la Inspección Técnica de los equipos de seguridad.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "A los sistemas de transporte interno de mercancías.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál es el objetivo principal del entorno OT (Operation Technology)?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Gestionar las nóminas y contratos de los empleados.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Monitorizar y controlar directamente dispositivos físicos, procesos y eventos en la producción.",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Mantener actualizada la página web de la empresa.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Realizar el marketing digital en buscadores.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál de estos departamentos pertenece típicamente al entorno IT de una empresa?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Taller de mecanizado.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Cadena de montaje final.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Contabilidad y Finanzas.",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Almacén de carga y descarga de camiones.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué elemento es característico de la digitalización en el entorno de planta (OT)?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Un software de videoconferencias.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Una hoja de cálculo para el presupuesto anual.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Sensores, actuadores y controladores lógicos (PLCs).",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Un perfil en una red social profesional.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué es un \"Gemelo Digital\" (Digital Twin)?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Un empleado que tiene las mismas funciones que otro.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Una réplica virtual de un activo o sistema físico que permite simulaciones.",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Un segundo servidor de respaldo por si falla el primero.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Una aplicación móvil que duplica la pantalla del ordenador.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál es una ventaja clave de la conexión entre los entornos IT y OT?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "La mejora de la trazabilidad y la toma de decisiones basada en datos de planta en tiempo real.",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Que se necesita menos electricidad para hacer funcionar la fábrica.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Que los departamentos de oficina y fábrica no tengan que hablarse.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "La eliminación total de los sistemas de ciberseguridad.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué tecnología de negocio permite el acceso a la información desde cualquier lugar y dispositivo?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "La robótica colaborativa (Cobots).",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "La impresión 3D de piezas metálicas.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "El Cloud Computing (La Nube).",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Los sistemas de realidad aumentada para reparaciones.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "La digitalización \"de extremo a extremo\" (end-to-end) significa:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Digitalizar solo la entrada y la salida de la fábrica.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Que el proceso de digitalización ha terminado definitivamente.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Integrar digitalmente toda la cadena de valor, desde proveedores hasta el cliente final.",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Conectar dos cables en los extremos de una máquina.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿A qué revolución industrial se asocia el concepto de \"Industria 4.0\"?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Primera Revolución (vapor).",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Segunda Revolución (electricidad).",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Tercera Revolución (informática).",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Cuarta Revolución (digitalización y sistemas ciberfísicos).",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué tecnología permite conectar objetos cotidianos a internet para recoger y compartir datos?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Realidad Virtual.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "IoT (Internet de las Cosas).",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Blockchain.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Impresión 3D.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "El análisis de grandes volúmenes de datos que superan la capacidad del software convencional se denomina:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Ciberseguridad.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Robótica colaborativa.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Big Data.",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Computación en la niebla.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál es la principal característica de los \"Cobots\"?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Sustituyen totalmente al ser humano en cualquier tarea.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Están diseñados para trabajar de forma segura junto a las personas.",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Funcionan exclusivamente de forma aislada tras una jaula de seguridad.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "No requieren programación ni mantenimiento.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué tecnología habilitadora crea una capa de información visual sobre el mundo real en tiempo real?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Realidad Virtual (RV).",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Realidad Aumentada (RA).",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Fabricación aditiva.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Cloud Computing.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál es la función del \"Blockchain\" en el entorno industrial?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Aumentar la velocidad de conexión a internet.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Imprimir piezas metálicas con gran precisión.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Garantizar la trazabilidad y seguridad de las transacciones sin intermediarios.",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Enfriar los servidores de los centros de datos.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué diferencia a la Fabricación Aditiva de la fabricación tradicional?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Construye objetos capa a capa a partir de modelos digitales.",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Elimina material de un bloque sólido hasta obtener la pieza.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "No puede utilizar materiales como el metal o la cerámica.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Solo sirve para hacer maquetas estéticas, no piezas funcionales.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "En el contexto de las THD, ¿qué es la \"Computación en el Borde\" (Edge Computing)?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Almacenar todos los datos en un servidor central lejano.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Procesar los datos cerca de donde se generan (el sensor o la máquina).",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Una técnica de diseño gráfico para interfaces de usuario.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Un sistema de seguridad física para las fronteras de la fábrica.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué tecnología es fundamental para simular procesos y predecir fallos antes de que ocurran en la realidad?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Redes sociales.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Escaneado de documentos.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Inteligencia Artificial y Gemelos Digitales.",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Correo electrónico corporativo.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál es un beneficio de las THD para la economía sostenible?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "El aumento masivo del consumo de papel.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "La optimización del consumo de energía y la reducción de residuos.",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "La necesidad de cambiar de maquinaria cada 6 meses.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "El fin de la necesidad de reciclar materiales plásticos.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Según la definición del NIST, ¿qué es el Cloud Computing?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Un sistema para enviar correos electrónicos de forma masiva.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Un modelo que permite el acceso bajo demanda a un conjunto compartido de recursos de computación configurables.",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Una tecnología para mejorar la conexión física de los routers.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "El almacenamiento de datos exclusivamente en el disco duro del ordenador.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál de estas es una función principal de la nube?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Fabricación de componentes de hardware.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Conexión física de cables en la planta de producción.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Procesamiento de datos, intercambio de información y ejecución de aplicaciones.",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Limpieza automática de virus en dispositivos desconectados de internet.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué ventaja de la nube permite aumentar o disminuir los recursos contratados según las necesidades de la empresa?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Ubicuidad.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Escalabilidad.",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Seguridad física.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Latencia.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿A qué se refiere el término \"Ubicuidad\" en el entorno Cloud?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "A que los datos se borran automáticamente cada mes.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "A que solo se puede acceder desde la oficina central.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "A la capacidad de acceder a la información desde cualquier lugar y dispositivo con internet.",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "A que el sistema es muy difícil de usar.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué nivel de la computación se encuentra más cerca de los dispositivos físicos (sensores) para reducir la latencia?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Cloud (Nube central).",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Fog Computing (Niebla).",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Edge/Mist Computing (Borde).",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Redes Sociales.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál es el objetivo principal del \"Fog Computing\" (Computación en la Niebla)?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Actuar como un nivel intermedio que procesa datos antes de enviarlos a la nube central.",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Sustituir totalmente a la nube para ahorrar costes.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Mejorar la calidad de las impresiones 3D.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Crear copias de seguridad en formato papel.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál de las siguientes es una herramienta de almacenamiento en la nube de Google?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Microsoft Azure.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "AWS (Amazon Web Services).",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Google Drive.",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Windows 11.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué permite la \"Edición Colaborativa\" en las herramientas de Google Cloud?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Que solo una persona pueda ver el archivo a la vez.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Que varios usuarios trabajen en el mismo documento simultáneamente y vean los cambios en tiempo real.",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Que el ordenador funcione más rápido sin internet.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Que los archivos se impriman automáticamente.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "En el contexto de la nube, ¿qué significa el concepto de \"Pago por uso\"?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Que hay que comprar todo el hardware antes de empezar.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Que la empresa solo paga por los recursos (almacenamiento, procesado) que utiliza realmente.",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Que el servicio es gratuito para todas las empresas.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Que se paga una cuota fija de por vida independientemente del uso.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Por qué el Edge Computing es vital en la Industria 4.0?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Porque permite enviar correos más largos.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Porque hace que las pantallas tengan más resolución.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Porque permite una respuesta casi instantánea (baja latencia) en procesos críticos de control.",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Porque elimina la necesidad de tener conexión a internet.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué es un videocurrículum?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Una película sobre la vida laboral de un actor.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Una presentación en vídeo donde el candidato explica sus competencias y experiencias.",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Un documento PDF con fotos del trabajador.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Una entrevista por videollamada en tiempo real.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál es el objetivo principal de crear un \"Portfolio Digital\"?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Mostrar una recopilación de trabajos y proyectos que demuestren las habilidades del profesional.",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Guardar las facturas de la empresa en la nube.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Crear una lista de contactos telefónicos.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Instalar programas de diseño gráfico en el ordenador.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué herramienta digital se define como un \"muro interactivo\" o tablero colaborativo?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Prezi.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Gamma.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Padlet.",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Excel.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué característica principal distingue a \"Prezi\" de otras herramientas de presentación?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Solo permite usar texto, sin imágenes.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Utiliza un lienzo infinito y efectos de zoom en lugar de diapositivas lineales.",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Es una herramienta exclusiva para programadores.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "No necesita conexión a internet para ser creada.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué ventaja ofrece \"Gamma\" al crear presentaciones?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Imprime las diapositivas automáticamente en 3D.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Utiliza Inteligencia Artificial para generar contenido y diseño de forma rápida.",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Es una red social para buscar empleo.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Permite editar vídeos de larga duración.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál es una recomendación clave para un videocurrículum efectivo?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Que dure más de 15 minutos para explicar todo detalle.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Cuidar la iluminación, el sonido y tener un guion estructurado.",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Leer directamente el currículum en papel sin mirar a cámara.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Usar muchos efectos especiales y música alta.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué plataforma es muy conocida por su versatilidad para diseñar desde infografías hasta currículums visuales?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Windows Media Player.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Canva.",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "MS-DOS.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Adobe Acrobat Reader.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Para qué se utiliza principalmente \"Genially\"?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Para gestionar las nóminas de los empleados.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Para crear bases de datos complejas.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Para crear contenidos interactivos como infografías, juegos o presentaciones dinámicas.",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Para enviar correos electrónicos de forma masiva.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "En un Portfolio Digital, es fundamental incluir:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Toda la vida personal del candidato.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Solo el nombre y el número de teléfono.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Enlaces a proyectos reales, muestras de trabajo y logros alcanzados.",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "La lista de la compra del supermercado.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Por qué es importante la \"Identidad Digital\" en la empleabilidad actual?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Porque influye directamente en la imagen que proyectamos a los reclutadores en internet.",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Porque permite navegar por internet sin usar cables.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Porque es obligatorio tener 10.000 seguidores para encontrar trabajo.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Porque sustituye legalmente al Documento Nacional de Identidad (DNI).",
+                "correcta": false
+            }
+        ]
+    }
+]
