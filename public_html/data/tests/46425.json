@@ -1,0 +1,252 @@
+[
+    {
+        "enunciado": "¿Cuál es el primer paso para generar una idea emprendedora con sentido?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Diseñar el logotipo de la empresa",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Registrar la marca en internet",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Buscar financiación inmediata",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Identificar necesidades o problemas reales del entorno",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál de los siguientes es un ejemplo de valor empresarial?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Facturación",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Amortización",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Integridad",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Inventario",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Antes de proponer una solución emprendedora, lo primero es…",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Crear una campaña publicitaria",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Identificar los problemas o necesidades de las personas destinatarias",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Diseñar el logotipo de la empresa",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Pedir un préstamo",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué herramienta se recomienda conocer antes de redactar la idea de negocio?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Balance de situación",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Organigrama empresarial",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Libro diario",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Modelo CANVAS",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "En el primer apartado del proyecto, la idea emprendedora debe presentarse…",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "En forma de esquema",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Solo con imágenes y gráficos",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Mediante un documento redactado y explicado de forma clara",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Contestando directamente las preguntas una por una",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿A qué sector pertenecería una empresa que presta servicios al cliente?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Sector industrial",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Sector primario",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Sector terciario",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Sector secundario",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué se debe destacar especialmente al explicar cómo mejora tu producto a los ya existentes?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "La sostenibilidad y la economía circular",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "El número de empleados",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "El color del local",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "El horario de apertura",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "La misión de una empresa explica…",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Los beneficios obtenidos al final del año",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "El precio de sus productos",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "La ubicación del negocio",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Por qué existe la empresa",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "La visión de una empresa se refiere a…",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Su logotipo y colores corporativos",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "El objetivo o metas que quiere alcanzar a corto y largo plazo",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Las normas internas del almacén",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Sus proveedores principales",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Los valores de una empresa son…",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "El dinero en caja",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Los descuentos aplicados",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Los productos más vendidos",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Los principios éticos que guían su actuación",
+                "correcta": true
+            }
+        ]
+    }
+]
