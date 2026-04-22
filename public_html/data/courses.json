@@ -1287,6 +1287,18 @@
                 "start": "08-04-2026 21:00",
                 "end": "25-04-2026 23:59",
                 "name": "Tarea 5 - Reglas de filtrado con cortafuegos (RA4) - OBLIGATORIA"
+            },
+            "4491": {
+                "type": "Obligatoria",
+                "start": "22-04-2026 12:00",
+                "end": "17-05-2026 23:59",
+                "name": "Tarea 6. Copias de seguridad (RA6) - OBLIGATORIA"
+            },
+            "23796": {
+                "type": "Obligatoria",
+                "start": "22-04-2026 12:00",
+                "end": "17-05-2026 23:59",
+                "name": "Tarea 7. Configurar RAID (RA7) - OBLIGATORIA"
             }
         },
         "tests": {
