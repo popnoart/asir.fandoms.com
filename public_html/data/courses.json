@@ -928,6 +928,12 @@
                 "start": "16-03-2026 12:00",
                 "end": "04-05-2026 23:59",
                 "name": "RA8 Práctica XML"
+            },
+            "49526": {
+                "type": "Complementaria",
+                "start": "21-03-2026 20:00",
+                "end": "20-05-2026 23:59",
+                "name": "Tarea Complementaria Final de asignatura Horoscopos"
             }
         },
         "tests": {
