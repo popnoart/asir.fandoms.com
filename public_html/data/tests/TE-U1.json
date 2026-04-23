@@ -1,0 +1,96 @@
+Aquí tienes el JSON con las 5 preguntas añadidas al final del array, manteniendo la misma estructura:
+
+```json
+[
+  {
+    "enunciado": "Which word is uncountable?",
+    "respuestas": [
+      { "opcion": "A.", "texto": "Book", "correcta": false },
+      { "opcion": "B.", "texto": "Desk", "correcta": false },
+      { "opcion": "C.", "texto": "Chair", "correcta": false },
+      { "opcion": "D.", "texto": "Experience", "correcta": true }
+    ]
+  },
+  {
+    "enunciado": "What is used to input data into a computer?",
+    "respuestas": [
+      { "opcion": "A.", "texto": "Monitor", "correcta": false },
+      { "opcion": "B.", "texto": "Keyboard", "correcta": true },
+      { "opcion": "C.", "texto": "CPU", "correcta": false },
+      { "opcion": "D.", "texto": "Printer", "correcta": false }
+    ]
+  },
+  {
+    "enunciado": "Which task involves 'installing' software on a computer?",
+    "respuestas": [
+      { "opcion": "A.", "texto": "Resolving software conflicts.", "correcta": false },
+      { "opcion": "B.", "texto": "Adjusting network settings.", "correcta": false },
+      { "opcion": "C.", "texto": "Setting up new user accounts.", "correcta": false },
+      { "opcion": "D.", "texto": "Adding new features to a program.", "correcta": true }
+    ]
+  },
+  {
+    "enunciado": "Which job involves 'programming' as a main duty?",
+    "respuestas": [
+      { "opcion": "A.", "texto": "IT technician.", "correcta": false },
+      { "opcion": "B.", "texto": "Help desk support.", "correcta": false },
+      { "opcion": "C.", "texto": "Software engineer.", "correcta": true },
+      { "opcion": "D.", "texto": "IT manager.", "correcta": false }
+    ]
+  },
+  {
+    "enunciado": "What is the role of a 'web developer'?",
+    "respuestas": [
+      { "opcion": "A.", "texto": "Managing internal networks.", "correcta": false },
+      { "opcion": "B.", "texto": "Designing and creating websites.", "correcta": true },
+      { "opcion": "C.", "texto": "Troubleshooting computer problems.", "correcta": false },
+      { "opcion": "D.", "texto": "Developing new software applications.", "correcta": false }
+    ]
+  },
+  {
+    "enunciado": "They ______ (watch) a movie every Friday night.",
+    "respuestas": [
+      { "opcion": "A.", "texto": "watch", "correcta": true },
+      { "opcion": "B.", "texto": "watches", "correcta": false },
+      { "opcion": "C.", "texto": "are watching", "correcta": false },
+      { "opcion": "D.", "texto": "watching", "correcta": false }
+    ]
+  },
+  {
+    "enunciado": "Peter ______ (not like) spicy food.",
+    "respuestas": [
+      { "opcion": "A.", "texto": "does not like", "correcta": true },
+      { "opcion": "B.", "texto": "do not likes", "correcta": false },
+      { "opcion": "C.", "texto": "is not liking", "correcta": false },
+      { "opcion": "D.", "texto": "not is liking", "correcta": false }
+    ]
+  },
+  {
+    "enunciado": "We ______ (study) Spanish this semester.",
+    "respuestas": [
+      { "opcion": "A.", "texto": "study", "correcta": false },
+      { "opcion": "B.", "texto": "studies", "correcta": false },
+      { "opcion": "C.", "texto": "are studying", "correcta": true },
+      { "opcion": "D.", "texto": "not are studying", "correcta": false }
+    ]
+  },
+  {
+    "enunciado": "Sarah ______ (not listen) to music at the moment.",
+    "respuestas": [
+      { "opcion": "A.", "texto": "does not listen", "correcta": false },
+      { "opcion": "B.", "texto": "do not listens", "correcta": false },
+      { "opcion": "C.", "texto": "is not listening", "correcta": true },
+      { "opcion": "D.", "texto": "not is listening", "correcta": false }
+    ]
+  },
+  {
+    "enunciado": "Who ______ (repair) the printer this afternoon?",
+    "respuestas": [
+      { "opcion": "A.", "texto": "repair", "correcta": false },
+      { "opcion": "B.", "texto": "repairs", "correcta": false },
+      { "opcion": "C.", "texto": "is repairing", "correcta": true },
+      { "opcion": "D.", "texto": "repairing", "correcta": false }
+    ]
+  }
+]
+```

@@ -1,0 +1,92 @@
+[
+  {
+    "enunciado": "If it ___ tomorrow, we will go to the beach.",
+    "respuestas": [
+      { "opcion": "A.", "texto": "rains", "correcta": true },
+      { "opcion": "B.", "texto": "rain", "correcta": false },
+      { "opcion": "C.", "texto": "will rain", "correcta": false },
+      { "opcion": "D.", "texto": "is raining", "correcta": false }
+    ]
+  },
+  {
+    "enunciado": "If I ___ a billionaire, I would travel around the world.",
+    "respuestas": [
+      { "opcion": "A.", "texto": "were", "correcta": true },
+      { "opcion": "B.", "texto": "am", "correcta": false },
+      { "opcion": "C.", "texto": "was", "correcta": false },
+      { "opcion": "D.", "texto": "would be", "correcta": false }
+    ]
+  },
+  {
+    "enunciado": "What ___ if you won the lottery?",
+    "respuestas": [
+      { "opcion": "A.", "texto": "would you do", "correcta": true },
+      { "opcion": "B.", "texto": "will you do", "correcta": false },
+      { "opcion": "C.", "texto": "do you do", "correcta": false },
+      { "opcion": "D.", "texto": "did you do", "correcta": false }
+    ]
+  },
+  {
+    "enunciado": "She would have passed the exam if she ___ harder.",
+    "respuestas": [
+      { "opcion": "A.", "texto": "studies", "correcta": false },
+      { "opcion": "B.", "texto": "studied", "correcta": false },
+      { "opcion": "C.", "texto": "had studied", "correcta": true },
+      { "opcion": "D.", "texto": "has studied", "correcta": false }
+    ]
+  },
+  {
+    "enunciado": "If you had told me earlier, I ___ helped you.",
+    "respuestas": [
+      { "opcion": "A.", "texto": "would have", "correcta": true },
+      { "opcion": "B.", "texto": "will", "correcta": false },
+      { "opcion": "C.", "texto": "would", "correcta": false },
+      { "opcion": "D.", "texto": "have", "correcta": false }
+    ]
+  },
+  {
+    "enunciado": "If you hadn't missed the train, you ___ here on time now.",
+    "respuestas": [
+      { "opcion": "A.", "texto": "would be", "correcta": true },
+      { "opcion": "B.", "texto": "will be", "correcta": false },
+      { "opcion": "C.", "texto": "would have been", "correcta": false },
+      { "opcion": "D.", "texto": "are", "correcta": false }
+    ]
+  },
+  {
+    "enunciado": "If she ___ English better, she wouldn't have struggled during the interview.",
+    "respuestas": [
+      { "opcion": "A.", "texto": "knows", "correcta": false },
+      { "opcion": "B.", "texto": "known", "correcta": false },
+      { "opcion": "C.", "texto": "knew", "correcta": true },
+      { "opcion": "D.", "texto": "had known", "correcta": false }
+    ]
+  },
+  {
+    "enunciado": "If I had studied harder, I ___ better grades now.",
+    "respuestas": [
+      { "opcion": "A.", "texto": "will have", "correcta": false },
+      { "opcion": "B.", "texto": "would have", "correcta": true },
+      { "opcion": "C.", "texto": "have had", "correcta": false },
+      { "opcion": "D.", "texto": "had", "correcta": false }
+    ]
+  },
+  {
+    "enunciado": "If they ___ more carefully, they wouldn't have crashed the car.",
+    "respuestas": [
+      { "opcion": "A.", "texto": "drove", "correcta": false },
+      { "opcion": "B.", "texto": "were driving", "correcta": false },
+      { "opcion": "C.", "texto": "had driven", "correcta": true },
+      { "opcion": "D.", "texto": "drive", "correcta": false }
+    ]
+  },
+  {
+    "enunciado": "If you had listened to the instructions, you ___ so confused now.",
+    "respuestas": [
+      { "opcion": "A.", "texto": "aren't", "correcta": false },
+      { "opcion": "B.", "texto": "wouldn't be", "correcta": true },
+      { "opcion": "C.", "texto": "won't be", "correcta": false },
+      { "opcion": "D.", "texto": "didn't", "correcta": false }
+    ]
+  }
+]

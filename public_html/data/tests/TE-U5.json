@@ -1,0 +1,92 @@
+[
+  {
+    "enunciado": "You ______ (use) a strong password to protect your account.",
+    "respuestas": [
+      { "opcion": "A.", "texto": "use", "correcta": false },
+      { "opcion": "B.", "texto": "must uses", "correcta": false },
+      { "opcion": "C.", "texto": "should use", "correcta": true },
+      { "opcion": "D.", "texto": "shall use", "correcta": false }
+    ]
+  },
+  {
+    "enunciado": "The technician ______ (fix) the computer issue by now.",
+    "respuestas": [
+      { "opcion": "A.", "texto": "fix", "correcta": false },
+      { "opcion": "B.", "texto": "fixes", "correcta": false },
+      { "opcion": "C.", "texto": "have to fix", "correcta": false },
+      { "opcion": "D.", "texto": "should fix", "correcta": true }
+    ]
+  },
+  {
+    "enunciado": "Users ______ (save) their work frequently to avoid data loss.",
+    "respuestas": [
+      { "opcion": "A.", "texto": "save", "correcta": false },
+      { "opcion": "B.", "texto": "saves", "correcta": false },
+      { "opcion": "C.", "texto": "can save", "correcta": false },
+      { "opcion": "D.", "texto": "should save", "correcta": true }
+    ]
+  },
+  {
+    "enunciado": "The new software ______ available.",
+    "respuestas": [
+      { "opcion": "A.", "texto": "already release", "correcta": false },
+      { "opcion": "B.", "texto": "releases already", "correcta": false },
+      { "opcion": "C.", "texto": "is already released", "correcta": true },
+      { "opcion": "D.", "texto": "already is released", "correcta": false }
+    ]
+  },
+  {
+    "enunciado": "This laptop is ______ (fast) than my old one.",
+    "respuestas": [
+      { "opcion": "A.", "texto": "fast", "correcta": false },
+      { "opcion": "B.", "texto": "faster", "correcta": true },
+      { "opcion": "C.", "texto": "fastest", "correcta": false },
+      { "opcion": "D.", "texto": "more fast", "correcta": false }
+    ]
+  },
+  {
+    "enunciado": "Of all the employees, Sarah is the ______ (efficient) in completing tasks.",
+    "respuestas": [
+      { "opcion": "A.", "texto": "efficient", "correcta": false },
+      { "opcion": "B.", "texto": "more efficient", "correcta": false },
+      { "opcion": "C.", "texto": "most efficient", "correcta": true },
+      { "opcion": "D.", "texto": "efficientest", "correcta": false }
+    ]
+  },
+  {
+    "enunciado": "Out of all the devices in the store, this tablet is the ______ (cheap).",
+    "respuestas": [
+      { "opcion": "A.", "texto": "cheap", "correcta": false },
+      { "opcion": "B.", "texto": "cheaper", "correcta": false },
+      { "opcion": "C.", "texto": "cheapest", "correcta": true },
+      { "opcion": "D.", "texto": "more cheap", "correcta": false }
+    ]
+  },
+  {
+    "enunciado": "The project manager ______ (approve) the plan yesterday.",
+    "respuestas": [
+      { "opcion": "A.", "texto": "approve", "correcta": false },
+      { "opcion": "B.", "texto": "approves", "correcta": false },
+      { "opcion": "C.", "texto": "approved", "correcta": true },
+      { "opcion": "D.", "texto": "approving", "correcta": false }
+    ]
+  },
+  {
+    "enunciado": "They ______ (test) the new features for hours yesterday.",
+    "respuestas": [
+      { "opcion": "A.", "texto": "will test", "correcta": false },
+      { "opcion": "B.", "texto": "have tests", "correcta": false },
+      { "opcion": "C.", "texto": "had tested", "correcta": false },
+      { "opcion": "D.", "texto": "had been testing", "correcta": true }
+    ]
+  },
+  {
+    "enunciado": "The network issues ______ (resolve) before the meeting.",
+    "respuestas": [
+      { "opcion": "A.", "texto": "may resolve", "correcta": false },
+      { "opcion": "B.", "texto": "resolves", "correcta": false },
+      { "opcion": "C.", "texto": "should be resolved", "correcta": true },
+      { "opcion": "D.", "texto": "should resolve", "correcta": false }
+    ]
+  }
+]

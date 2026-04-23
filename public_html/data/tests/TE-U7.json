@@ -1,0 +1,84 @@
+[
+  {
+    "enunciado": "Data backups ___ by the server every night.",
+    "respuestas": [
+      { "opcion": "A.", "texto": "processes", "correcta": false },
+      { "opcion": "B.", "texto": "is processed", "correcta": false },
+      { "opcion": "C.", "texto": "processing", "correcta": false },
+      { "opcion": "D.", "texto": "are processed", "correcta": true }
+    ]
+  },
+  {
+    "enunciado": "The new software ___ by the IT team next week.",
+    "respuestas": [
+      { "opcion": "A.", "texto": "installs", "correcta": false },
+      { "opcion": "B.", "texto": "is installed", "correcta": false },
+      { "opcion": "C.", "texto": "installed", "correcta": false },
+      { "opcion": "D.", "texto": "will be installed", "correcta": true }
+    ]
+  },
+  {
+    "enunciado": "Errors in the code ___ if thorough testing is not conducted.",
+    "respuestas": [
+      { "opcion": "A.", "texto": "will be fixed", "correcta": false },
+      { "opcion": "B.", "texto": "fixed", "correcta": false },
+      { "opcion": "C.", "texto": "fixing", "correcta": false },
+      { "opcion": "D.", "texto": "are fixed", "correcta": true }
+    ]
+  },
+  {
+    "enunciado": "The virus ___ from the network by the antivirus software.",
+    "respuestas": [
+      { "opcion": "A.", "texto": "removes", "correcta": false },
+      { "opcion": "B.", "texto": "was removed", "correcta": true },
+      { "opcion": "C.", "texto": "removed", "correcta": false },
+      { "opcion": "D.", "texto": "is remove", "correcta": false }
+    ]
+  },
+  {
+    "enunciado": "Security patches ___ automatically by the operating system.",
+    "respuestas": [
+      { "opcion": "A.", "texto": "create", "correcta": false },
+      { "opcion": "B.", "texto": "are creating", "correcta": false },
+      { "opcion": "C.", "texto": "created", "correcta": false },
+      { "opcion": "D.", "texto": "are created", "correcta": true }
+    ]
+  },
+  {
+    "enunciado": "The IT department ___ all employees to update their passwords monthly.",
+    "respuestas": [
+      { "opcion": "A.", "texto": "has done", "correcta": false },
+      { "opcion": "B.", "texto": "had done", "correcta": false },
+      { "opcion": "C.", "texto": "makes", "correcta": true },
+      { "opcion": "D.", "texto": "is made", "correcta": false }
+    ]
+  },
+  {
+    "enunciado": "I'm going at the new hairdresser's ______.",
+    "respuestas": [
+      { "opcion": "A.", "texto": "to get my hair cut", "correcta": true },
+      { "opcion": "B.", "texto": "to cut my hair", "correcta": false }
+    ]
+  },
+  {
+    "enunciado": "She needs to ______.",
+    "respuestas": [
+      { "opcion": "A.", "texto": "have her car repaired", "correcta": true },
+      { "opcion": "B.", "texto": "have her car repairs", "correcta": false }
+    ]
+  },
+  {
+    "enunciado": "They ought to have ______ replace the broken windows.",
+    "respuestas": [
+      { "opcion": "A.", "texto": "somebody to", "correcta": false },
+      { "opcion": "B.", "texto": "somebody", "correcta": true }
+    ]
+  },
+  {
+    "enunciado": "She didn't have time to get to the shops and ______.",
+    "respuestas": [
+      { "opcion": "A.", "texto": "get her film developed", "correcta": true },
+      { "opcion": "B.", "texto": "develop her film", "correcta": false }
+    ]
+  }
+]
