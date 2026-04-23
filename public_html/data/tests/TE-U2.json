@@ -2,91 +2,251 @@
   {
     "enunciado": "The company ______ (launch) its first software product last year.",
     "respuestas": [
-      { "opcion": "A.", "texto": "launch", "correcta": false },
-      { "opcion": "B.", "texto": "launches", "correcta": false },
-      { "opcion": "C.", "texto": "launched", "correcta": true },
-      { "opcion": "D.", "texto": "was launching", "correcta": false }
+      {
+        "opcion": "A.",
+        "texto": "launch",
+        "correcta": false
+      },
+      {
+        "opcion": "B.",
+        "texto": "launches",
+        "correcta": false
+      },
+      {
+        "opcion": "C.",
+        "texto": "launched",
+        "correcta": true
+      },
+      {
+        "opcion": "D.",
+        "texto": "was launching",
+        "correcta": false
+      }
     ]
   },
   {
     "enunciado": "He ______ (create) a new algorithm to improve the system's efficiency a few years ago.",
     "respuestas": [
-      { "opcion": "A.", "texto": "create", "correcta": false },
-      { "opcion": "B.", "texto": "creates", "correcta": false },
-      { "opcion": "C.", "texto": "created", "correcta": true },
-      { "opcion": "D.", "texto": "was creating", "correcta": false }
+      {
+        "opcion": "A.",
+        "texto": "create",
+        "correcta": false
+      },
+      {
+        "opcion": "B.",
+        "texto": "creates",
+        "correcta": false
+      },
+      {
+        "opcion": "C.",
+        "texto": "created",
+        "correcta": true
+      },
+      {
+        "opcion": "D.",
+        "texto": "was creating",
+        "correcta": false
+      }
     ]
   },
   {
     "enunciado": "The technician was ______ (set) up the new servers all day.",
     "respuestas": [
-      { "opcion": "A.", "texto": "setting", "correcta": true },
-      { "opcion": "B.", "texto": "setting", "correcta": true },
-      { "opcion": "C.", "texto": "settled", "correcta": false },
-      { "opcion": "D.", "texto": "sets", "correcta": false }
+      {
+        "opcion": "A.",
+        "texto": "setting",
+        "correcta": true
+      },
+      {
+        "opcion": "B.",
+        "texto": "setting",
+        "correcta": true
+      },
+      {
+        "opcion": "C.",
+        "texto": "settled",
+        "correcta": false
+      },
+      {
+        "opcion": "D.",
+        "texto": "sets",
+        "correcta": false
+      }
     ]
   },
   {
     "enunciado": "They ______ (use) to rely on manual backups before implementing the cloud solution.",
     "respuestas": [
-      { "opcion": "A.", "texto": "use", "correcta": false },
-      { "opcion": "B.", "texto": "uses", "correcta": false },
-      { "opcion": "C.", "texto": "used", "correcta": true },
-      { "opcion": "D.", "texto": "was using", "correcta": false }
+      {
+        "opcion": "A.",
+        "texto": "use",
+        "correcta": false
+      },
+      {
+        "opcion": "B.",
+        "texto": "uses",
+        "correcta": false
+      },
+      {
+        "opcion": "C.",
+        "texto": "used",
+        "correcta": true
+      },
+      {
+        "opcion": "D.",
+        "texto": "was using",
+        "correcta": false
+      }
     ]
   },
   {
     "enunciado": "I ______ (update) the system when the power went out.",
     "respuestas": [
-      { "opcion": "A.", "texto": "update", "correcta": false },
-      { "opcion": "B.", "texto": "updates", "correcta": false },
-      { "opcion": "C.", "texto": "was updating", "correcta": true },
-      { "opcion": "D.", "texto": "updated", "correcta": false }
+      {
+        "opcion": "A.",
+        "texto": "update",
+        "correcta": false
+      },
+      {
+        "opcion": "B.",
+        "texto": "updates",
+        "correcta": false
+      },
+      {
+        "opcion": "C.",
+        "texto": "was updating",
+        "correcta": true
+      },
+      {
+        "opcion": "D.",
+        "texto": "updated",
+        "correcta": false
+      }
     ]
   },
   {
     "enunciado": "We ______ (see off) our colleague at the airport yesterday.",
     "respuestas": [
-      { "opcion": "A.", "texto": "saw off", "correcta": true },
-      { "opcion": "B.", "texto": "see off", "correcta": false },
-      { "opcion": "C.", "texto": "seeing off", "correcta": false },
-      { "opcion": "D.", "texto": "seen off", "correcta": false }
+      {
+        "opcion": "A.",
+        "texto": "saw off",
+        "correcta": true
+      },
+      {
+        "opcion": "B.",
+        "texto": "see off",
+        "correcta": false
+      },
+      {
+        "opcion": "C.",
+        "texto": "seeing off",
+        "correcta": false
+      },
+      {
+        "opcion": "D.",
+        "texto": "seen off",
+        "correcta": false
+      }
     ]
   },
   {
     "enunciado": "He ______ (upgrade) his computer to handle more complex tasks twice a month.",
     "respuestas": [
-      { "opcion": "A.", "texto": "upgrade", "correcta": false },
-      { "opcion": "B.", "texto": "upgrades", "correcta": false },
-      { "opcion": "C.", "texto": "upgraded", "correcta": true },
-      { "opcion": "D.", "texto": "upgrading", "correcta": false }
+      {
+        "opcion": "A.",
+        "texto": "upgrade",
+        "correcta": false
+      },
+      {
+        "opcion": "B.",
+        "texto": "upgrades",
+        "correcta": false
+      },
+      {
+        "opcion": "C.",
+        "texto": "upgraded",
+        "correcta": true
+      },
+      {
+        "opcion": "D.",
+        "texto": "upgrading",
+        "correcta": false
+      }
     ]
   },
   {
     "enunciado": "While we ______ (develop) the app, we encountered several issues.",
     "respuestas": [
-      { "opcion": "A.", "texto": "developed", "correcta": false },
-      { "opcion": "B.", "texto": "develops", "correcta": false },
-      { "opcion": "C.", "texto": "was developing", "correcta": false },
-      { "opcion": "D.", "texto": "were developing", "correcta": true }
+      {
+        "opcion": "A.",
+        "texto": "developed",
+        "correcta": false
+      },
+      {
+        "opcion": "B.",
+        "texto": "develops",
+        "correcta": false
+      },
+      {
+        "opcion": "C.",
+        "texto": "was developing",
+        "correcta": false
+      },
+      {
+        "opcion": "D.",
+        "texto": "were developing",
+        "correcta": true
+      }
     ]
   },
   {
     "enunciado": "They will ______ (stop over) in Dubai on their way to Tokyo.",
     "respuestas": [
-      { "opcion": "A.", "texto": "stop over", "correcta": true },
-      { "opcion": "B.", "texto": "stopped over", "correcta": false },
-      { "opcion": "C.", "texto": "stopping over", "correcta": false },
-      { "opcion": "D.", "texto": "stops over", "correcta": false }
+      {
+        "opcion": "A.",
+        "texto": "stop over",
+        "correcta": true
+      },
+      {
+        "opcion": "B.",
+        "texto": "stopped over",
+        "correcta": false
+      },
+      {
+        "opcion": "C.",
+        "texto": "stopping over",
+        "correcta": false
+      },
+      {
+        "opcion": "D.",
+        "texto": "stops over",
+        "correcta": false
+      }
     ]
   },
   {
     "enunciado": "The programmer ______ (debug) the code to find the error.",
     "respuestas": [
-      { "opcion": "A.", "texto": "debug", "correcta": false },
-      { "opcion": "B.", "texto": "debugs", "correcta": false },
-      { "opcion": "C.", "texto": "debugged", "correcta": true },
-      { "opcion": "D.", "texto": "was debugging", "correcta": false }
+      {
+        "opcion": "A.",
+        "texto": "debug",
+        "correcta": false
+      },
+      {
+        "opcion": "B.",
+        "texto": "debugs",
+        "correcta": false
+      },
+      {
+        "opcion": "C.",
+        "texto": "debugged",
+        "correcta": true
+      },
+      {
+        "opcion": "D.",
+        "texto": "was debugging",
+        "correcta": false
+      }
     ]
   }
 ]

@@ -2,91 +2,251 @@
   {
     "enunciado": "The IT department ______ (implement) a new security protocol this month.",
     "respuestas": [
-      { "opcion": "A.", "texto": "implement", "correcta": false },
-      { "opcion": "B.", "texto": "implements", "correcta": false },
-      { "opcion": "C.", "texto": "has implemented", "correcta": true },
-      { "opcion": "D.", "texto": "implemented", "correcta": false }
+      {
+        "opcion": "A.",
+        "texto": "implement",
+        "correcta": false
+      },
+      {
+        "opcion": "B.",
+        "texto": "implements",
+        "correcta": false
+      },
+      {
+        "opcion": "C.",
+        "texto": "has implemented",
+        "correcta": true
+      },
+      {
+        "opcion": "D.",
+        "texto": "implemented",
+        "correcta": false
+      }
     ]
   },
   {
     "enunciado": "She ______ (complete) the online course on cybersecurity.",
     "respuestas": [
-      { "opcion": "A.", "texto": "complete", "correcta": false },
-      { "opcion": "B.", "texto": "completes", "correcta": false },
-      { "opcion": "C.", "texto": "has completed", "correcta": true },
-      { "opcion": "D.", "texto": "completed", "correcta": false }
+      {
+        "opcion": "A.",
+        "texto": "complete",
+        "correcta": false
+      },
+      {
+        "opcion": "B.",
+        "texto": "completes",
+        "correcta": false
+      },
+      {
+        "opcion": "C.",
+        "texto": "has completed",
+        "correcta": true
+      },
+      {
+        "opcion": "D.",
+        "texto": "completed",
+        "correcta": false
+      }
     ]
   },
   {
     "enunciado": "The developers ______ (work) on the new software update for several weeks.",
     "respuestas": [
-      { "opcion": "A.", "texto": "work", "correcta": false },
-      { "opcion": "B.", "texto": "worked", "correcta": false },
-      { "opcion": "C.", "texto": "have been working", "correcta": true },
-      { "opcion": "D.", "texto": "have worked", "correcta": false }
+      {
+        "opcion": "A.",
+        "texto": "work",
+        "correcta": false
+      },
+      {
+        "opcion": "B.",
+        "texto": "worked",
+        "correcta": false
+      },
+      {
+        "opcion": "C.",
+        "texto": "have been working",
+        "correcta": true
+      },
+      {
+        "opcion": "D.",
+        "texto": "have worked",
+        "correcta": false
+      }
     ]
   },
   {
     "enunciado": "She ______ (develop) the app for several months and finally launched it last week.",
     "respuestas": [
-      { "opcion": "A.", "texto": "develops", "correcta": false },
-      { "opcion": "B.", "texto": "developed", "correcta": false },
-      { "opcion": "C.", "texto": "had been developing", "correcta": true },
-      { "opcion": "D.", "texto": "had developed", "correcta": false }
+      {
+        "opcion": "A.",
+        "texto": "develops",
+        "correcta": false
+      },
+      {
+        "opcion": "B.",
+        "texto": "developed",
+        "correcta": false
+      },
+      {
+        "opcion": "C.",
+        "texto": "had been developing",
+        "correcta": true
+      },
+      {
+        "opcion": "D.",
+        "texto": "had developed",
+        "correcta": false
+      }
     ]
   },
   {
     "enunciado": "They ______ (use) the old software since 2010 before they upgraded.",
     "respuestas": [
-      { "opcion": "A.", "texto": "use", "correcta": false },
-      { "opcion": "B.", "texto": "uses", "correcta": false },
-      { "opcion": "C.", "texto": "had been using", "correcta": true },
-      { "opcion": "D.", "texto": "used", "correcta": false }
+      {
+        "opcion": "A.",
+        "texto": "use",
+        "correcta": false
+      },
+      {
+        "opcion": "B.",
+        "texto": "uses",
+        "correcta": false
+      },
+      {
+        "opcion": "C.",
+        "texto": "had been using",
+        "correcta": true
+      },
+      {
+        "opcion": "D.",
+        "texto": "used",
+        "correcta": false
+      }
     ]
   },
   {
     "enunciado": "They ______ (test) the new application for hours before they found the bug.",
     "respuestas": [
-      { "opcion": "A.", "texto": "have been testing", "correcta": false },
-      { "opcion": "B.", "texto": "have tested", "correcta": false },
-      { "opcion": "C.", "texto": "had been testing", "correcta": true },
-      { "opcion": "D.", "texto": "had tested", "correcta": false }
+      {
+        "opcion": "A.",
+        "texto": "have been testing",
+        "correcta": false
+      },
+      {
+        "opcion": "B.",
+        "texto": "have tested",
+        "correcta": false
+      },
+      {
+        "opcion": "C.",
+        "texto": "had been testing",
+        "correcta": true
+      },
+      {
+        "opcion": "D.",
+        "texto": "had tested",
+        "correcta": false
+      }
     ]
   },
   {
     "enunciado": "The backup servers are located ______ the data center.",
     "respuestas": [
-      { "opcion": "A.", "texto": "in", "correcta": true },
-      { "opcion": "B.", "texto": "at", "correcta": false },
-      { "opcion": "C.", "texto": "on", "correcta": false },
-      { "opcion": "D.", "texto": "under", "correcta": false }
+      {
+        "opcion": "A.",
+        "texto": "in",
+        "correcta": true
+      },
+      {
+        "opcion": "B.",
+        "texto": "at",
+        "correcta": false
+      },
+      {
+        "opcion": "C.",
+        "texto": "on",
+        "correcta": false
+      },
+      {
+        "opcion": "D.",
+        "texto": "under",
+        "correcta": false
+      }
     ]
   },
   {
     "enunciado": "The router is located ______ the top shelf.",
     "respuestas": [
-      { "opcion": "A.", "texto": "in", "correcta": false },
-      { "opcion": "B.", "texto": "at", "correcta": false },
-      { "opcion": "C.", "texto": "on", "correcta": true },
-      { "opcion": "D.", "texto": "inside", "correcta": false }
+      {
+        "opcion": "A.",
+        "texto": "in",
+        "correcta": false
+      },
+      {
+        "opcion": "B.",
+        "texto": "at",
+        "correcta": false
+      },
+      {
+        "opcion": "C.",
+        "texto": "on",
+        "correcta": true
+      },
+      {
+        "opcion": "D.",
+        "texto": "inside",
+        "correcta": false
+      }
     ]
   },
   {
     "enunciado": "The conference room is ______ the second floor.",
     "respuestas": [
-      { "opcion": "A.", "texto": "in", "correcta": false },
-      { "opcion": "B.", "texto": "at", "correcta": false },
-      { "opcion": "C.", "texto": "on", "correcta": true },
-      { "opcion": "D.", "texto": "inside", "correcta": false }
+      {
+        "opcion": "A.",
+        "texto": "in",
+        "correcta": false
+      },
+      {
+        "opcion": "B.",
+        "texto": "at",
+        "correcta": false
+      },
+      {
+        "opcion": "C.",
+        "texto": "on",
+        "correcta": true
+      },
+      {
+        "opcion": "D.",
+        "texto": "inside",
+        "correcta": false
+      }
     ]
   },
   {
     "enunciado": "The technician left the laptop ______ your desk.",
     "respuestas": [
-      { "opcion": "A.", "texto": "in", "correcta": false },
-      { "opcion": "B.", "texto": "at", "correcta": false },
-      { "opcion": "C.", "texto": "on", "correcta": true },
-      { "opcion": "D.", "texto": "inside", "correcta": false }
+      {
+        "opcion": "A.",
+        "texto": "in",
+        "correcta": false
+      },
+      {
+        "opcion": "B.",
+        "texto": "at",
+        "correcta": false
+      },
+      {
+        "opcion": "C.",
+        "texto": "on",
+        "correcta": true
+      },
+      {
+        "opcion": "D.",
+        "texto": "inside",
+        "correcta": false
+      }
     ]
   }
 ]

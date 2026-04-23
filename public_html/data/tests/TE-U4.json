@@ -2,46 +2,126 @@
   {
     "enunciado": "The new software ______ (launch) next week.",
     "respuestas": [
-      { "opcion": "A.", "texto": "launch", "correcta": false },
-      { "opcion": "B.", "texto": "launches", "correcta": false },
-      { "opcion": "C.", "texto": "will launch", "correcta": true },
-      { "opcion": "D.", "texto": "has launched", "correcta": false }
+      {
+        "opcion": "A.",
+        "texto": "launch",
+        "correcta": false
+      },
+      {
+        "opcion": "B.",
+        "texto": "launches",
+        "correcta": false
+      },
+      {
+        "opcion": "C.",
+        "texto": "will launch",
+        "correcta": true
+      },
+      {
+        "opcion": "D.",
+        "texto": "has launched",
+        "correcta": false
+      }
     ]
   },
   {
     "enunciado": "The IT team ______ (upgrade) the system soon.",
     "respuestas": [
-      { "opcion": "A.", "texto": "upgrade", "correcta": false },
-      { "opcion": "B.", "texto": "upgrades", "correcta": false },
-      { "opcion": "C.", "texto": "will upgrade", "correcta": true },
-      { "opcion": "D.", "texto": "is upgrading", "correcta": false }
+      {
+        "opcion": "A.",
+        "texto": "upgrade",
+        "correcta": false
+      },
+      {
+        "opcion": "B.",
+        "texto": "upgrades",
+        "correcta": false
+      },
+      {
+        "opcion": "C.",
+        "texto": "will upgrade",
+        "correcta": true
+      },
+      {
+        "opcion": "D.",
+        "texto": "is upgrading",
+        "correcta": false
+      }
     ]
   },
   {
     "enunciado": "They ______ (install) the antivirus software tomorrow.",
     "respuestas": [
-      { "opcion": "A.", "texto": "will install", "correcta": false },
-      { "opcion": "B.", "texto": "installs", "correcta": false },
-      { "opcion": "C.", "texto": "are going to install", "correcta": true },
-      { "opcion": "D.", "texto": "installing", "correcta": false }
+      {
+        "opcion": "A.",
+        "texto": "will install",
+        "correcta": false
+      },
+      {
+        "opcion": "B.",
+        "texto": "installs",
+        "correcta": false
+      },
+      {
+        "opcion": "C.",
+        "texto": "are going to install",
+        "correcta": true
+      },
+      {
+        "opcion": "D.",
+        "texto": "installing",
+        "correcta": false
+      }
     ]
   },
   {
     "enunciado": "At this time tomorrow, I ______ (work) on the new project.",
     "respuestas": [
-      { "opcion": "A.", "texto": "will work", "correcta": false },
-      { "opcion": "B.", "texto": "works", "correcta": false },
-      { "opcion": "C.", "texto": "will be working", "correcta": true },
-      { "opcion": "D.", "texto": "working", "correcta": false }
+      {
+        "opcion": "A.",
+        "texto": "will work",
+        "correcta": false
+      },
+      {
+        "opcion": "B.",
+        "texto": "works",
+        "correcta": false
+      },
+      {
+        "opcion": "C.",
+        "texto": "will be working",
+        "correcta": true
+      },
+      {
+        "opcion": "D.",
+        "texto": "working",
+        "correcta": false
+      }
     ]
   },
   {
     "enunciado": "By next week, the team ______ (evaluate) the software performance.",
     "respuestas": [
-      { "opcion": "A.", "texto": "will evaluate", "correcta": false },
-      { "opcion": "B.", "texto": "evaluates", "correcta": false },
-      { "opcion": "C.", "texto": "will be evaluating", "correcta": false },
-      { "opcion": "D.", "texto": "will have evaluated", "correcta": true }
+      {
+        "opcion": "A.",
+        "texto": "will evaluate",
+        "correcta": false
+      },
+      {
+        "opcion": "B.",
+        "texto": "evaluates",
+        "correcta": false
+      },
+      {
+        "opcion": "C.",
+        "texto": "will be evaluating",
+        "correcta": false
+      },
+      {
+        "opcion": "D.",
+        "texto": "will have evaluated",
+        "correcta": true
+      }
     ]
   }
 ]

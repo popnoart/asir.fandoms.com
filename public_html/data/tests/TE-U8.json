@@ -2,91 +2,251 @@
   {
     "enunciado": "The problem ___ due to a software glitch.",
     "respuestas": [
-      { "opcion": "A.", "texto": "solves", "correcta": false },
-      { "opcion": "B.", "texto": "solving", "correcta": false },
-      { "opcion": "C.", "texto": "solved", "correcta": false },
-      { "opcion": "D.", "texto": "is solved", "correcta": true }
+      {
+        "opcion": "A.",
+        "texto": "solves",
+        "correcta": false
+      },
+      {
+        "opcion": "B.",
+        "texto": "solving",
+        "correcta": false
+      },
+      {
+        "opcion": "C.",
+        "texto": "solved",
+        "correcta": false
+      },
+      {
+        "opcion": "D.",
+        "texto": "is solved",
+        "correcta": true
+      }
     ]
   },
   {
     "enunciado": "The network upgrade ___ by the end of the quarter.",
     "respuestas": [
-      { "opcion": "A.", "texto": "gets done", "correcta": false },
-      { "opcion": "B.", "texto": "got done", "correcta": false },
-      { "opcion": "C.", "texto": "will get done", "correcta": true },
-      { "opcion": "D.", "texto": "is getting done", "correcta": false }
+      {
+        "opcion": "A.",
+        "texto": "gets done",
+        "correcta": false
+      },
+      {
+        "opcion": "B.",
+        "texto": "got done",
+        "correcta": false
+      },
+      {
+        "opcion": "C.",
+        "texto": "will get done",
+        "correcta": true
+      },
+      {
+        "opcion": "D.",
+        "texto": "is getting done",
+        "correcta": false
+      }
     ]
   },
   {
     "enunciado": "The server, ___ was upgraded last month, is down again.",
     "respuestas": [
-      { "opcion": "A.", "texto": "who", "correcta": false },
-      { "opcion": "B.", "texto": "whose", "correcta": false },
-      { "opcion": "C.", "texto": "which", "correcta": true },
-      { "opcion": "D.", "texto": "whom", "correcta": false }
+      {
+        "opcion": "A.",
+        "texto": "who",
+        "correcta": false
+      },
+      {
+        "opcion": "B.",
+        "texto": "whose",
+        "correcta": false
+      },
+      {
+        "opcion": "C.",
+        "texto": "which",
+        "correcta": true
+      },
+      {
+        "opcion": "D.",
+        "texto": "whom",
+        "correcta": false
+      }
     ]
   },
   {
     "enunciado": "The software ___ I recommended is very user-friendly.",
     "respuestas": [
-      { "opcion": "A.", "texto": "who", "correcta": false },
-      { "opcion": "B.", "texto": "whose", "correcta": false },
-      { "opcion": "C.", "texto": "which", "correcta": true },
-      { "opcion": "D.", "texto": "whom", "correcta": false }
+      {
+        "opcion": "A.",
+        "texto": "who",
+        "correcta": false
+      },
+      {
+        "opcion": "B.",
+        "texto": "whose",
+        "correcta": false
+      },
+      {
+        "opcion": "C.",
+        "texto": "which",
+        "correcta": true
+      },
+      {
+        "opcion": "D.",
+        "texto": "whom",
+        "correcta": false
+      }
     ]
   },
   {
     "enunciado": "My English teacher was someone ___ I had great respect.",
     "respuestas": [
-      { "opcion": "A.", "texto": "for whom", "correcta": true },
-      { "opcion": "B.", "texto": "whose", "correcta": false },
-      { "opcion": "C.", "texto": "which", "correcta": false },
-      { "opcion": "D.", "texto": "that", "correcta": false }
+      {
+        "opcion": "A.",
+        "texto": "for whom",
+        "correcta": true
+      },
+      {
+        "opcion": "B.",
+        "texto": "whose",
+        "correcta": false
+      },
+      {
+        "opcion": "C.",
+        "texto": "which",
+        "correcta": false
+      },
+      {
+        "opcion": "D.",
+        "texto": "that",
+        "correcta": false
+      }
     ]
   },
   {
     "enunciado": "The developer decided to ___ the issue by using an old solution.",
     "respuestas": [
-      { "opcion": "A.", "texto": "back into", "correcta": true },
-      { "opcion": "B.", "texto": "boot off", "correcta": false },
-      { "opcion": "C.", "texto": "hack on", "correcta": false },
-      { "opcion": "D.", "texto": "link on", "correcta": false }
+      {
+        "opcion": "A.",
+        "texto": "back into",
+        "correcta": true
+      },
+      {
+        "opcion": "B.",
+        "texto": "boot off",
+        "correcta": false
+      },
+      {
+        "opcion": "C.",
+        "texto": "hack on",
+        "correcta": false
+      },
+      {
+        "opcion": "D.",
+        "texto": "link on",
+        "correcta": false
+      }
     ]
   },
   {
     "enunciado": "The system administrator had to ___ the intruder from the network.",
     "respuestas": [
-      { "opcion": "A.", "texto": "back into", "correcta": false },
-      { "opcion": "B.", "texto": "boot off", "correcta": true },
-      { "opcion": "C.", "texto": "hack on", "correcta": false },
-      { "opcion": "D.", "texto": "link on", "correcta": false }
+      {
+        "opcion": "A.",
+        "texto": "back into",
+        "correcta": false
+      },
+      {
+        "opcion": "B.",
+        "texto": "boot off",
+        "correcta": true
+      },
+      {
+        "opcion": "C.",
+        "texto": "hack on",
+        "correcta": false
+      },
+      {
+        "opcion": "D.",
+        "texto": "link on",
+        "correcta": false
+      }
     ]
   },
   {
     "enunciado": "She needs to ___ the new feature before the deadline.",
     "respuestas": [
-      { "opcion": "A.", "texto": "back into", "correcta": false },
-      { "opcion": "B.", "texto": "boot off", "correcta": false },
-      { "opcion": "C.", "texto": "hack on", "correcta": true },
-      { "opcion": "D.", "texto": "link on", "correcta": false }
+      {
+        "opcion": "A.",
+        "texto": "back into",
+        "correcta": false
+      },
+      {
+        "opcion": "B.",
+        "texto": "boot off",
+        "correcta": false
+      },
+      {
+        "opcion": "C.",
+        "texto": "hack on",
+        "correcta": true
+      },
+      {
+        "opcion": "D.",
+        "texto": "link on",
+        "correcta": false
+      }
     ]
   },
   {
     "enunciado": "He tried to ___ the new module with the existing system.",
     "respuestas": [
-      { "opcion": "A.", "texto": "back into", "correcta": false },
-      { "opcion": "B.", "texto": "boot off", "correcta": false },
-      { "opcion": "C.", "texto": "hack on", "correcta": false },
-      { "opcion": "D.", "texto": "link on", "correcta": true }
+      {
+        "opcion": "A.",
+        "texto": "back into",
+        "correcta": false
+      },
+      {
+        "opcion": "B.",
+        "texto": "boot off",
+        "correcta": false
+      },
+      {
+        "opcion": "C.",
+        "texto": "hack on",
+        "correcta": false
+      },
+      {
+        "opcion": "D.",
+        "texto": "link on",
+        "correcta": true
+      }
     ]
   },
   {
     "enunciado": "You should ___ your hours to keep track of your progress.",
     "respuestas": [
-      { "opcion": "A.", "texto": "back into", "correcta": false },
-      { "opcion": "B.", "texto": "log up", "correcta": true },
-      { "opcion": "C.", "texto": "hack on", "correcta": false },
-      { "opcion": "D.", "texto": "link on", "correcta": false }
+      {
+        "opcion": "A.",
+        "texto": "back into",
+        "correcta": false
+      },
+      {
+        "opcion": "B.",
+        "texto": "log up",
+        "correcta": true
+      },
+      {
+        "opcion": "C.",
+        "texto": "hack on",
+        "correcta": false
+      },
+      {
+        "opcion": "D.",
+        "texto": "link on",
+        "correcta": false
+      }
     ]
   }
 ]
