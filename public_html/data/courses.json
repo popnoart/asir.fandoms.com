@@ -1293,12 +1293,6 @@
                 "start": "22-04-2026 12:00",
                 "end": "17-05-2026 23:59",
                 "name": "Tarea 6. Copias de seguridad (RA6) - OBLIGATORIA"
-            },
-            "23796": {
-                "type": "Obligatoria",
-                "start": "22-04-2026 12:00",
-                "end": "17-05-2026 23:59",
-                "name": "Tarea 7. Configurar RAID (RA7) - OBLIGATORIA"
             }
         },
         "tests": {
