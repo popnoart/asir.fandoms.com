@@ -1,0 +1,222 @@
+[
+    {
+        "enunciado": "¿Qué hace este comando iptables −A INPUT −s 0.0.0.0\/0 −p tcp −dport 1:1024 −j DROP?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Deshabilita la salida a los puertos del 1 al 1024 para las IPs exteriores.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Deshabilita los puertos del 1 al 1024.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Deshabilita el acceso a los puertos del 1 al 1024 para las IPs exteriores.",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál de las siguientes afirmaciones define una subred protegida débil?:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Tiene un equipo bastión sin proteger.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Sitúa a la DMZ entre dos cortafuegos.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Sitúa a la DMZ detrás de un router.",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "No tiene equipo bastión.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál es la política más aconsejable para disponer de máxima seguridad al configurar un cortafuegos?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Tanto ACEPTAR, como DENEGAR cumplen la integridad total de la información, y aseguran la seguridad del sistema.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "La más aconsejable sería ACEPTAR. Es la más sencilla y segura de ambas, puesto que DENEGAR limita excesivamente el acceso, y es imprescindible una compleja configuración para su correcto funcionamiento.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Denegarlo todo sería lo más seguro.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "La más aconsejable sería DENEGAR, siempre y cuando sepamos configurar correctamente el sistema y sin caer en la tentación de empezar a meter reglas excesivamente permisivas.",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "Marca la opción que no corresponde a ningún tipo de cortafuegos:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Filtrado de paquetes: seleccionan la información que dejan pasar en función de la información contenida en cada paquete recibido\/enviado.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Filtrado de circuitos: comprueban las IPs, los puertos, la información de la sesión y los números de secuencia de los paquetes enviados.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Filtrado de aplicaciones: interceptan los mensajes entre aplicaciones y bloquean las aplicaciones no permitidas.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Filtrado de equipos\/usuarios:  permiten filtrar los accesos de equipos y\/o usuarios no permitidos de forma eficiente.",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Dónde debería ubicarse un servidor que contiene información confidencial de sus empleados y al que sólo deben acceder el personal intermo de la empresa?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "En la red interna, donde solo los empleados puedan acceder.",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "En la Zona Desmilitarizada.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "En una VPN, para garantizar su seguridad.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "En un servidor web para acceder cómodamente.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Marca la opción que no corresponde a ningún tipo de cortafuegos:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Filtrado de circuitos: comprueban las IPs, los puertos, la información de la sesión y los números de secuencia de los paquetes enviados.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Filtrado de paquetes: seleccionan la información que dejan pasar en función de la información contenida en cada paquete recibido\/enviado.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Filtrado de equipos\/usuarios:  permiten filtrar los accesos de equipos y\/o usuarios no permitidos de forma eficiente.",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué hace este comando iptables -A INPUT -p tcp -i eth0 --dport 80 -j DROP ?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Cerrar las conexiones entrantes por el interfaz eth0 y hacia el puerto (local) 80 (HTTP)",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Cerrar todas las conexiones desde eth0 y hacia el puerto (local) 80 (HTTP)",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Cerrar todas las conexiones excepto desde eth0 hasta el puerto (local) 80 (HTTP)",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Marca la opción que corresponde a los cortafuegos de aplicación:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Filtrado de aplicaciones: interceptan los mensajes entre aplicaciones y bloquean las aplicaciones no permitidas.",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Filtrado de paquetes: seleccionan la información que dejan pasar en función de la información contenida en cada paquete recibido\/enviado.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Filtrado de circuitos: comprueban las IPs, los puertos, la información de la sesión y los números de secuencia de los paquetes enviados.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál de las siguientes afirmaciones define una subred protegida débil?:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Sitúa a la DMZ entre dos cortafuegos.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Sitúa a la DMZ detrás de un cortafuegos.",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Tiene un equipo bastión sin proteger.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué tipo de cortafuegos se ha de utilizar para filtrar ataques por IP, protocolos y puertos?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Cortafuegos de web.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "No se utiliza un cortafuegos, se utiliza un IDS.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Cortafuegos de capa de red y transporte.",
+                "correcta": true
+            }
+        ]
+    }
+]
