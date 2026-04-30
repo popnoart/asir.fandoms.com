@@ -1422,6 +1422,30 @@
                 "start": "25-03-2026 09:10",
                 "end": "08-04-2026 23:59",
                 "name": "ACTIVIDAD COMPLEMENTARIA TEMA 3. RETOS AMBIENTALES Y SOCIALES"
+            },
+            "50536": {
+                "type": "Obligatoria",
+                "start": "29-04-2026 20:30",
+                "end": "20-05-2026 23:59",
+                "name": "ACTIVIDAD OBLIGATORIA TEMA 4. RA 3"
+            },
+            "50537": {
+                "type": "Complementariaia",
+                "start": "29-04-2026 20:30",
+                "end": "20-05-2026 23:59",
+                "name": "ACTIVIDAD COMPLEMENTARIA TEMA 4. RA 3"
+            },
+            "50540": {
+                "type": "Obligatoria",
+                "start": "29-04-2026 20:30",
+                "end": "20-05-2026 23:59",
+                "name": "ACTIVIDAD OBLIGATORIA TEMA 5. RA 6"
+            },
+            "50538": {
+                "type": "Complementaria",
+                "start": "29-04-2026 20:30",
+                "end": "20-05-2026 23:59",
+                "name": "ACTIVIDAD COMPLEMENTARIA TEMA 5. RA 6"
             }
         },
         "tests": {
