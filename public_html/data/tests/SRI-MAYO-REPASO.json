@@ -1,0 +1,639 @@
+[
+    {
+        "enunciado": "¿Qué puerto utiliza HTTP?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "8080",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "80",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "443",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "21",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Enruta por OSPF el router SEGOVIA",
+        "imagen": "SRI-MAYO-REPASO-01.png",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "router ospf 2\nnetwork 192.168.50.0 0.0.0.255 area 0\nnetwork 20.0.0.0 0.255.255.255 area 0",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "router ospf 1\nnetwork 192.168.50.0 0.0.0.255 area 0\nnetwork 20.0.0.0 0.255.255.255 area 0\nnetwork 30.0.0.0 0.255.255.255 area 0",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "router ospf 1\nnetwork 192.168.50.0 0.0.0.0 area 0\nnetwork 20.0.0.0 0.0.0.0 area 0",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "router ospf 1\nnetwork 192.168.50.0 0.0.255.255 area 0\nnetwork 30.0.0.0 0.255.255.255 area 0",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué hace la siguiente línea?",
+        "code": "tunnel mode ipv6ip",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Desactiva el modo túnel",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Modo del túnel IPv4 sobre IPv6",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Modo GRE genérico",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Modo del túnel en el que estamos trabajando IPv6 sobre IPv4",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "Resultado de sumarizar: 192.168.10.0, 192.168.30.0, 192.168.40.0",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "192.168.10.0 255.255.255.0",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "192.168.0.0 255.255.0.0",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "192.168.0.0 255.255.192.0",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "192.168.32.0 255.255.224.0",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué puerto utiliza DNS?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "25",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "53",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "110",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "143",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Enruta por RIP el router GUADALAJARA",
+        "imagen": "SRI-MAYO-REPASO-01.png",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "router rip\nnetwork 151.0.0.0\nnetwork 30.0.0.0",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "router rip\nnetwork 151.151.0.0\nnetwork 40.0.0.0",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "router rip\nnetwork 151.0.0.0\nnetwork 40.0.0.0\nnetwork 20.0.0.0",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "router rip\nnetwork 151.0.0.0 0.0.255.255\nnetwork 20.0.0.0",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué hace la siguiente línea?",
+        "code": "int tunnel 1",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Crea un túnel con el nombre 1",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Asigna una IP al túnel 1",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Borra el túnel número 1",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Muestra la configuración del túnel 1",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "La capa 3 del modelo OSI se llama...",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Capa de enlace",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Capa de aplicación",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Capa de red",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Capa de transporte",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Configurar un DHCP con la Network 192.168.10.0/29. ¿Cuál es su primera y última IP disponible?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "192.168.10.0 y 192.168.10.7",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "192.168.10.2 y 192.168.10.7",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "192.168.10.1 y 192.168.10.6",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "192.168.10.1 y 192.168.10.5",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Enruta por EIGRP el router GUADALAJARA",
+        "imagen": "SRI-MAYO-REPASO-01.png",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "eigrp 20\nnetwork 151.151.0.0\nnetwork 20.0.0.0",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "eigrp 20\nnetwork 151.151.0.0\nnetwork 20.0.0.0\nnetwork 40.0.0.0",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "eigrp 10\nnetwork 151.151.0.0\nnetwork 40.0.0.0",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "router eigrp 20\nnetwork 151.151.0.0 0.0.255.255",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué puerto utiliza SSH?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "22",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "23",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "21",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "25",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Resultado de sumarizar: 2000:B:C:D:E:1234::, 2000:B:C:D:E:12A4::, 2000:B:C:D:E:12FF::",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "2000:B:C:D:E:1200::/88",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "2000:B:C:D:E::/80",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "2000:B:C:D:E:1000::/84",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "2000:B:C:D:E:12FF::/96",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué hace la siguiente línea?",
+        "code": "tunnel destination 10.0.0.2",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "IP del destino que SÍ TIENE QUE EXISTIR EN EL SERIAL",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "IP de loopback del router origen",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "IP del origen del túnel",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "IP virtual del túnel",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué puerto utiliza FTP?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "22",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "21",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "20",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "23",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Enruta por RIP el router SEGOVIA",
+        "imagen": "SRI-MAYO-REPASO-01.png",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "router rip\nnetwork 192.168.50.0\nnetwork 20.0.0.0",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "router rip\nnetwork 192.168.50\nnetwork 20.0.0.0\nnetwork 30.0.0.0",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "router rip\nnetwork 192.168.50.0 0.0.0.255\nnetwork 20.0.0.0",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "router rip\nnetwork 192.168.50.0\nnetwork 30.0.0.0",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué puerto utiliza SMTP?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "587",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "25",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "110",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "143",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué hace la siguiente línea?",
+        "code": "IPV6 enable",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Desactiva IPv6 en el túnel",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Muestra las IPv6 del túnel",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Activa el servicio del túnel",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Borra la IPv6 del túnel",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cómo se escribe una IP en un Switch de 3 capas en la salida fa0/15 con la IP 192.168.1.1? Escribe el código.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Int fa0/15 / Ip add 192.168.1.1 /24 / No shut",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Setup fa0/15 / No switchport / Ip 192.168.1.1 mask 255.255.255.0",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Int fa0/15 / No switchport / Ip add 192.168.1.1 255.255.255.0",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Interface fa0/15 / Switchport / Ip address 192.168.1.1 /24",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Enruta por OSPF el router GUADALAJARA",
+        "imagen": "SRI-MAYO-REPASO-01.png",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "router ospf 2\nnetwork 151.151.0.0 0.0.255.255 area 0\nnetwork 20.0.0.0 0.255.255.255 area 0",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "router ospf 1\nnetwork 151.151.0.0 0.0.0.255 area 0\nnetwork 40.0.0.0 0.255.255.255 area 0",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "router ospf 2\nnetwork 151.151.0.0 0.0.0.255 area 0\nnetwork 40.0.0.0 0.255.255.255 area 0\nnetwork 20.0.0.0 0.255.255.255 area 0",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "router ospf 3\nnetwork 151.151.0.0 0.0.0.0 area 0\nnetwork 40.0.0.0 0.0.0.0 area 0",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué puerto utiliza monitorizar por Netflow?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "161",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "514",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "9996",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "443",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "La capa 5 del modelo OSI se llama...",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Capa de sesión",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Capa de presentación",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Capa de transporte",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Capa de red",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué hace la siguiente línea?",
+        "code": "IPV6 add 2001:A:A:A::1/64",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "IPV6 del router origen y la IP solo existe en el túnel, NO EN EL SERIAL",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "IPV6 del router destino",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "IPV6 del router vecino",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "IPV6 de la interfaz serie",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Enruta por EIGRP el router SEGOVIA",
+        "imagen": "SRI-MAYO-REPASO-01.png",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "eigrp 20\nnetwork 192.168.50.0\nnetwork 40.0.0.0",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "router eigrp 1\nnetwork 192.168.50.0 0.0.0.255",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "eigrp 20\nnetwork 192.168.50.0\nnetwork 20.0.0.0\nnetwork 30.0.0.0",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "eigrp 10\nnetwork 192.168.50.0\nnetwork 10.0.0.0",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué hace la siguiente línea?",
+        "code": "tunnel source s0/3/0",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Serial donde va a circular el tráfico tanto por IPv4 como por IPv6",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Interfaz loopback de origen",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Modo del túnel",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "IP del destino del túnel",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué puerto utiliza la telefonía IP?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "2000",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "5060",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "1720",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "8080",
+                "correcta": false
+            }
+        ]
+    }
+]
