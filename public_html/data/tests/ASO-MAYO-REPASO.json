@@ -1,0 +1,202 @@
+[
+    {
+        "enunciado": "En Windows Server configuramos un DHCP con la Network 192.168.1.0/27. ¿Cuál sería la última IP disponible (Dirección IP final)?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "192.168.1.32",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "192.168.1.30",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "192.168.1.255",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "192.168.1.31",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "En Windows Server configuramos un DHCP con la Network 192.168.1.0/29. ¿Cuál sería la última IP disponible (Dirección IP final)?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "192.168.1.7",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "192.168.1.5",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "192.168.1.6",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "192.168.1.8",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "En Windows Server configuramos un DHCP con la Network 192.168.1.0/30. ¿Cuál sería la última IP disponible (Dirección IP final)?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "192.168.1.3",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "192.168.1.1",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "192.168.1.2",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "192.168.1.0",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Creamos un usuario en Windows Server con los permisos que trae por defecto el Server. ¿Un usuario del dominio puede iniciar sesión localmente en el mismo Server?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Sí, siempre",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Solo si pertenece al grupo Administradores",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "No",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Sí, si se configura en Directiva de Grupo",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Creamos un usuario en Windows Server con los permisos estándar (por defecto). ¿Se puede configurar el server para que un usuario o grupo que NO pertenezca a ningún grupo con privilegios de inicio de sesión pueda iniciar sesión en el mismo server?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "No, nunca se puede",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Sí, se puede",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Solo si es administrador local",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "No, porque los permisos estándar lo impiden",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "En Windows Server podemos establecer historial de contraseñas. ¿Cuál es el número máximo?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "30",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "1007",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "24",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "10",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "En PowerShell, ¿qué hace la orden 'get-NetAdapter'?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Configura una nueva IP en el adaptador",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Elimina un adaptador de red",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Muestra cuántos adaptadores tenemos en nuestro sistema",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Desactiva todos los adaptadores",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cómo se muestran los elementos compartidos en Windows Server?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Get-sharedfolder",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Show-smb",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Get-smbshare",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Get-net share",
+                "correcta": false
+            }
+        ]
+    }
+]
