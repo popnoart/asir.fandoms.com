@@ -1,0 +1,455 @@
+[
+    {
+        "enunciado": "¿Cómo se copia la configuración a un TFTP?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "copy running-config tftp",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "copy flash tftp",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "tftp copy flash",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "backup flash tftp",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cómo se copia la flash de un TFTP a un router?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "copy tftp flash",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "copy flash tftp",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "tftp copy to flash",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "restore flash tftp",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Cuando configuramos SSH en Cisco nos pregunta el tamaño de las claves de seguridad. ¿Qué tamaños son válidos?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "256 - 512 - 1024",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "128 - 256 - 512",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "512 - 1024 - 2048 - 4096",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "1024 - 2048 - 3072",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Escaneamos con Wireshark los puertos 443 y 53. ¿Cuál es la orden?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "tcp.port==443 or tcp.port==53",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "tcp.port==443 && tcp.port==53",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "port 443 and port 53",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "tcp.443 && tcp.53",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué hace la orden en Wireshark: tcp.dstport==443?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Localiza tráfico por puerto de origen 443 (HTTPS)",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Localiza tráfico por puerto de destino 443 (HTTPS)",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Localiza tráfico por puerto 443 origen o destino",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Localiza tráfico UDP puerto 443",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué hace la orden en Wireshark: tcp.srcport==443?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Localiza tráfico por puerto de destino 443",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Localiza tráfico UDP puerto 443",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Localiza tráfico por puerto de origen 443 (HTTPS)",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Localiza tráfico por puerto 443 origen o destino",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué hace en Wireshark: tcp.port==443?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Escanea solo puerto de origen 443",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Escanea solo puerto de destino 443",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Escanea todo el tráfico tanto por origen como destino en el puerto 443",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Escanea tráfico UDP 443",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cómo conocemos la IP de digitech.es con Wireshark?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "ip.contains \"digitech.es\"",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "dns contains digitech.es",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "frame contains \"digitech.es\"",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "http contains digitech.es",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cómo conocemos la IP de digitech.es con Nmap?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "nslookup digitech.es",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "nmap digitech.es",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "dig digitech.es",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "host digitech.es",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cómo localizar los primeros 5000 puertos de la IP 192.168.1.50?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "nmap -p 5000 192.168.1.50",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "nmap -p 1-5000 192.168.1.50",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "nmap --top-ports 5000 192.168.1.50",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "nmap -p0-5000 192.168.1.50",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Escaneamos la network 192.168.1.0 excluyendo desde la 1 hasta la 50",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "nmap 192.168.1.0/24 --exclude 192.168.1.1-50",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "nmap 192.168.1.* --exclude 192.168.1.1-50",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "nmap 192.168.1.1-254 --exclude 192.168.1.1-50",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "nmap 192.168.1.0-255 --exclude 192.168.1.1-50",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué IP tiene que teclear el PC6 para acceder a la web www.tierra.es?",
+        "imagen": "CB-MAYO-REPASO_01.png",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "192.168.1.21",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "192.168.2.1",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "192.168.1.22",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cómo accedemos desde el PC1 a la página www.tierra.es?",
+        "imagen": "CB-MAYO-REPASO_01.png",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "192.168.2.1",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "192.168.1.22",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "192.168.1.21",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "192.168.1.1",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué afirma la ley de los cortafuegos?", 
+        "respuestas": [
+        {
+            "opcion": "a.",
+            "texto": "Seguridad superior puede comunicarse con seguridad inferior sin restricciones",
+            "correcta": false
+        },
+        {
+            "opcion": "b.",
+            "texto": "Seguridad inferior no puede comunicarse con seguridad superior",
+            "correcta": true
+        },
+        {
+            "opcion": "c.",
+            "texto": "Todos los niveles de seguridad pueden comunicarse libremente",
+            "correcta": false
+        },
+        {
+            "opcion": "d.",
+            "texto": "La seguridad se mide por el número de puertos abiertos",
+            "correcta": false
+        }
+    ]
+    },
+    {
+        "enunciado": "Syslog y Netflow se utilizan para...",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Monitorizar y es de licencia de software libre",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Enrutar y es de licencia propietaria",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Monitorizar y es de licencia de propietario",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Filtrar tráfico y es de licencia libre",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Wireshark y Nmap se utilizan para...",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Monitorizar y es de licencia de propietario",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Monitorizar y es de licencia de software libre",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Enrutar y es de licencia libre",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Filtrar tráfico y es de licencia propietaria",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Encuentras algún error en el siguiente código de ACL?",
+        "code": "Ip Access-list extended variable\nDeny icmp host 192.168.1.2 host 192.168.2.2 echo\nPermit ip any any\nDeny icmp host 192.168.10.2 host 192.168.20.2 echo",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Falta el \"permit\" al principio",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "El orden correcto es: deny icmp, deny icmp, permit ip any any",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Falta la wildcard mask",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "No hay ningún error",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál es la configuración correcta de NAT en interfaces?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Int fa0/0: ip nat inside / Int s0/3/0: ip nat outside",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Int fa0/0: ip nat outside / Int s0/3/0: ip nat inside",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Int fa0/0: ip nat external / Int s0/3/0: ip nat internal",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Int fa0/0: ip nat public / Int s0/3/0: ip nat private",
+                "correcta": false
+            }
+        ]
+    }
+]

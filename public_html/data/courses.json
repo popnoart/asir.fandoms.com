@@ -534,7 +534,13 @@
                 "start": "",
                 "end": "",
                 "name": "AUTOEVALUACIÓN FEBRERO"
-            }
+            },
+            "CB-MAYO-REPASO": {
+                "type": "Cuestionario",
+                "start": "",
+                "end": "",
+                "name": "Repaso previo 3ª autoevaluación"
+            },
         },
         "notes": {
             "CB-doc": {
@@ -543,7 +549,7 @@
             },
             "CB-RES-doc": {
                 "name": "Resumen CB (gdoc)",
-                "link": "https://docs.google.com/document/d/1PnvqAvQzD0TAS1gMMHsTAzqX4DDNKg87Lylcwoad1FQ/edit?usp=sharing"
+                "link": "https://docs.google.com/document/d/1aBYAfqaFFKJaRqcEsNkMgg1D8ICmSqxGCDm8nbyYOWQ/edit?usp=sharing"
             },
             "CB-chuleta-doc": {
                 "name": "Chuleta CB (gdoc)",
