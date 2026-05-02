@@ -179,7 +179,7 @@
         "respuestas": [
             {
                 "opcion": "A",
-                "texto": "DNS directo traduce IP a nombre, DNS inverso traduce nombre a IP",
+                "texto": "DNS directo traduce DNS a nombre de dominio, DNS inverso traduce nombre de dominio a DNS",
                 "correcta": false
             },
             {
