@@ -695,12 +695,12 @@
             {
                 "opcion": "c.",
                 "texto": "El quinto y sexto",
-                "correcta": true
+                "correcta": false
             },
             {
                 "opcion": "d.",
                 "texto": "Los cuatro últimos",
-                "correcta": false
+                "correcta": true
             }
         ]
     },
