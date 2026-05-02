@@ -366,7 +366,7 @@
             },
             {
                 "opcion": "b.",
-                "texto": "router rip\nnetwork 192.168.50\nnetwork 20.0.0.0\nnetwork 30.0.0.0",
+                "texto": "router rip\nnetwork 192.168.50.0\nnetwork 20.0.0.0\nnetwork 30.0.0.0",
                 "correcta": true
             },
             {
@@ -437,22 +437,22 @@
         "respuestas": [
             {
                 "opcion": "a.",
-                "texto": "Int fa0/15 / Ip add 192.168.1.1 /24 / No shut",
+                "texto": "Int fa0/15\nIp add 192.168.1.1 /24\nNo shut",
                 "correcta": false
             },
             {
                 "opcion": "b.",
-                "texto": "Setup fa0/15 / No switchport / Ip 192.168.1.1 mask 255.255.255.0",
+                "texto": "Setup fa0/15\nNo switchport\nIp 192.168.1.1 mask 255.255.255.0",
                 "correcta": false
             },
             {
                 "opcion": "c.",
-                "texto": "Int fa0/15 / No switchport / Ip add 192.168.1.1 255.255.255.0",
+                "texto": "Int fa0/15\nNo switchport\nIp add 192.168.1.1 255.255.255.0",
                 "correcta": true
             },
             {
                 "opcion": "d.",
-                "texto": "Interface fa0/15 / Switchport / Ip address 192.168.1.1 /24",
+                "texto": "Interface fa0/15\nSwitchport\nIp address 192.168.1.1 /24",
                 "correcta": false
             }
         ]
