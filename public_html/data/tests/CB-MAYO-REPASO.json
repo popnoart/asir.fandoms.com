@@ -432,22 +432,22 @@
         "respuestas": [
             {
                 "opcion": "a.",
-                "texto": "Int fa0/0: ip nat inside / Int s0/3/0: ip nat outside",
+                "texto": "Int fa0/0: ip nat inside\nInt s0/3/0: ip nat outside",
                 "correcta": true
             },
             {
                 "opcion": "b.",
-                "texto": "Int fa0/0: ip nat outside / Int s0/3/0: ip nat inside",
+                "texto": "Int fa0/0: ip nat outside\nInt s0/3/0: ip nat inside",
                 "correcta": false
             },
             {
                 "opcion": "c.",
-                "texto": "Int fa0/0: ip nat external / Int s0/3/0: ip nat internal",
+                "texto": "Int fa0/0: ip nat external\nInt s0/3/0: ip nat internal",
                 "correcta": false
             },
             {
                 "opcion": "d.",
-                "texto": "Int fa0/0: ip nat public / Int s0/3/0: ip nat private",
+                "texto": "Int fa0/0: ip nat public\nInt s0/3/0: ip nat private",
                 "correcta": false
             }
         ]
