@@ -160,7 +160,7 @@
             {
                 "opcion": "b.",
                 "texto": "Hambre cero",
-                "correcta": false
+                "correcta": true
             },
             {
                 "opcion": "c.",
@@ -170,7 +170,7 @@
             {
                 "opcion": "d.",
                 "texto": "Salud y bienestar",
-                "correcta": true
+                "correcta": false
             }
         ]
     },
