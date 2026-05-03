@@ -1,0 +1,252 @@
+[
+    {
+        "enunciado": "¿Qué es la Agenda 2030?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Un tratado económico europeo",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Un programa educativo local",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Un acuerdo militar internacional",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Un plan global para mejorar la vida y el planeta",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué objetivo promueve energías renovables?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Vida terrestre",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Energía asequible y no contaminante",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Industria e innovación",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Producción responsable",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿En qué año se aprobó la Agenda 2030?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "2015",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "2005",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "2010",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "2020",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuántos Objetivos de Desarrollo Sostenible existen?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "10",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "12",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "17",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "20",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué organización impulsó la Agenda 2030?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "OTAN",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Unión Europea",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Banco Mundial",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Naciones Unidas",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué ODS busca eliminar la pobreza extrema?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Igualdad de género",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Educación de calidad",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Fin de la pobreza",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Hambre cero",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué objetivo promueve una alimentación suficiente y saludable?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Producción responsable",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Hambre cero",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Vida submarina",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Salud y bienestar",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué ODS se centra en garantizar servicios sanitarios de calidad?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Energía sostenible",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Educación",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Salud y bienestar",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Agua limpia",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué objetivo busca eliminar la discriminación contra mujeres y niñas?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Reducción de desigualdades",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Paz y justicia",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Igualdad de género",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Trabajo decente",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué ODS trata sobre el acceso al agua potable?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Vida submarina",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Agua limpia y saneamiento",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Energía sostenible",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Acción climática",
+                "correcta": false
+            }
+        ]
+    }
+]
