@@ -290,12 +290,12 @@
             {
                 "opcion": "A",
                 "texto": "No, es necesario configurar la red correspondiente",
-                "correcta": false
+                "correcta": true
             },
             {
                 "opcion": "B",
                 "texto": "Sí, pues los dos Pc están en la misma red",
-                "correcta": true
+                "correcta": false
             },
             {
                 "opcion": "C",
