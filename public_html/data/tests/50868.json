@@ -1,0 +1,252 @@
+[
+    {
+        "enunciado": "¿Qué es un plan de sostenibilidad empresarial?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Un informe legal obligatorio",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Un documento financiero anual",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Un plan para aumentar beneficios",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Una estrategia para gestionar impactos ASG",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué es un informe de sostenibilidad?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Un contrato laboral",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Un documento con resultados ASG",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Un balance económico",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Un plan de marketing",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué significan las siglas ASG?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Ahorro, Sistema y Gestión",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Acción, Sociedad y Gobierno",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Ambiental, Social y Gobernanza",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Análisis, Sistema y Globalización",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué buscan los criterios ASG en una empresa?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Reducir impuestos",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Solo beneficios económicos",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Evaluar su comportamiento responsable",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Mejorar la publicidad",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Quiénes son los grupos de interés de una empresa?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Actores que influyen o se ven afectados por ella",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Solo los directivos",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Personas que no influyen en la empresa",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Solo los clientes",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál de los siguientes es un grupo de interés?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Empleados",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Edificios",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Productos",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Maquinaria",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué es un indicador de sostenibilidad?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Un dato para medir resultados",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Una ley",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Un objetivo empresarial",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Una opinión",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál es un indicador ambiental?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Número de empleados",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Emisiones de CO₂",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Ventas anuales",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Salario medio",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál es un indicador social?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Porcentaje de mujeres directivas",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Emisiones contaminantes",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Consumo de energía",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Uso de materias primas",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál es un indicador de gobernanza?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Número de clientes",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Consumo de agua",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Producción anual",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Auditorías internas",
+                "correcta": true
+            }
+        ]
+    }
+]

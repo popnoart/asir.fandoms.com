@@ -1,0 +1,252 @@
+[
+    {
+        "enunciado": "El pensamiento de diseño se utiliza para:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Aumentar el salario de los trabajadores.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Reducir impuestos empresariales.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Detectar necesidades sociales y medioambientales.",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Elaborar únicamente el balance final.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "El activo de una empresa está formado por:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Los bienes y derechos de cobro.",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Las deudas.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Las obligaciones fiscales.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Los salarios pendientes.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "El liderazgo en las organizaciones actuales debe ser:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Autoritario y competitivo.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Ético y sostenible.",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Exclusivamente tecnológico.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Individualista y centrado solo en beneficios.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "El plan de recursos humanos tiene como finalidad principal:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Elaborar campañas de marketing.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Gestionar adecuadamente a los trabajadores.",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Calcular impuestos.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Comprar maquinaria.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "La previsión de necesidades de personal consiste en:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Calcular cuántos trabajadores se necesitan y en qué puestos.",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Subir el sueldo a todos los trabajadores.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Externalizar toda la actividad.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Despedir empleados innecesarios.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "La política de externalización implica:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Contratar solo familiares.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Delegar determinadas funciones a empresas externas.",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Aumentar el capital social.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Eliminar puestos de trabajo.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "En la política de selección de personal se debe definir:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "El capital mínimo legal.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "El perfil del trabajador y el proceso de selección.",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "El precio de los productos.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "El tipo de impuesto a pagar.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "La política salarial indica:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Las vacaciones de los socios.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "El número de clientes.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "El sueldo, pagas extra e incentivos de los trabajadores.",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "El precio de venta.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "La política de prevención de riesgos laborales busca:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Reducir impuestos.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Mejorar la publicidad.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Aumentar beneficios.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Proteger la salud y seguridad de los trabajadores.",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "La ecuación fundamental de la contabilidad es:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Pasivo = Patrimonio Neto",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Activo = Patrimonio Neto",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Activo = Patrimonio Neto + Pasivo",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Activo = Pasivo",
+                "correcta": false
+            }
+        ]
+    }
+]
