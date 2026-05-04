@@ -1,0 +1,182 @@
+[
+  {
+    "enunciado": "A software company introduced a new cybersecurity system after several employees received suspicious emails. The IT department organised a training session to teach staff how to identify phishing attempts and create stronger passwords. As a result, the number of security incidents decreased significantly over the following months. What was one result of the training session?",
+    "respuestas": [
+      { "opcion": "a.", "texto": "The company hired more technicians.", "correcta": false },
+      { "opcion": "b.", "texto": "The company changed its office location.", "correcta": false },
+      { "opcion": "c.", "texto": "The number of security incidents decreased.", "correcta": true },
+      { "opcion": "d.", "texto": "Employees stopped using email.", "correcta": false }
+    ]
+  },
+  {
+    "enunciado": "A program that detects and removes malicious software is called:",
+    "respuestas": [
+      { "opcion": "a.", "texto": "antivirus", "correcta": true },
+      { "opcion": "b.", "texto": "spreadsheet", "correcta": false },
+      { "opcion": "c.", "texto": "browser", "correcta": false },
+      { "opcion": "d.", "texto": "motherboard", "correcta": false }
+    ]
+  },
+  {
+    "enunciado": "She _________ in the company for five years before she became a project manager.",
+    "respuestas": [
+      { "opcion": "a.", "texto": "had worked", "correcta": true },
+      { "opcion": "b.", "texto": "worked", "correcta": false },
+      { "opcion": "c.", "texto": "works", "correcta": false },
+      { "opcion": "d.", "texto": "has worked", "correcta": false }
+    ]
+  },
+  {
+    "enunciado": "When assembling a computer, you should always _________ the case carefully before touching any components.",
+    "respuestas": [
+      { "opcion": "a.", "texto": "connect", "correcta": false },
+      { "opcion": "b.", "texto": "remove", "correcta": false },
+      { "opcion": "c.", "texto": "check", "correcta": true },
+      { "opcion": "d.", "texto": "run", "correcta": false }
+    ]
+  },
+  {
+    "enunciado": "Which type of document is normally used to describe an unexpected technical problem?",
+    "respuestas": [
+      { "opcion": "a.", "texto": "User manual", "correcta": false },
+      { "opcion": "b.", "texto": "Presentation", "correcta": false },
+      { "opcion": "c.", "texto": "Incident report", "correcta": true },
+      { "opcion": "d.", "texto": "Job offer", "correcta": false }
+    ]
+  },
+  {
+    "enunciado": "The new graphics card is _________ than the previous model.",
+    "respuestas": [
+      { "opcion": "a.", "texto": "powerfully", "correcta": false },
+      { "opcion": "b.", "texto": "most powerful", "correcta": false },
+      { "opcion": "c.", "texto": "powerful", "correcta": false },
+      { "opcion": "d.", "texto": "more powerful", "correcta": true }
+    ]
+  },
+  {
+    "enunciado": "A field that contains a unique value for each record is called a:",
+    "respuestas": [
+      { "opcion": "a.", "texto": "footer", "correcta": false },
+      { "opcion": "b.", "texto": "primary key", "correcta": true },
+      { "opcion": "c.", "texto": "transition", "correcta": false },
+      { "opcion": "d.", "texto": "column", "correcta": false }
+    ]
+  },
+  {
+    "enunciado": "You _________ interrupt your colleagues during a meeting.",
+    "respuestas": [
+      { "opcion": "a.", "texto": "mustn't", "correcta": true },
+      { "opcion": "b.", "texto": "should", "correcta": false },
+      { "opcion": "c.", "texto": "can", "correcta": false },
+      { "opcion": "d.", "texto": "may", "correcta": false }
+    ]
+  },
+  {
+    "enunciado": "The application update was delayed _________ an unexpected technical problem.",
+    "respuestas": [
+      { "opcion": "a.", "texto": "due to", "correcta": true },
+      { "opcion": "b.", "texto": "although", "correcta": false },
+      { "opcion": "c.", "texto": "however", "correcta": false },
+      { "opcion": "d.", "texto": "because", "correcta": false }
+    ]
+  },
+  {
+    "enunciado": "A printed message placed at the bottom of each page in a document is called a:",
+    "respuestas": [
+      { "opcion": "a.", "texto": "record", "correcta": false },
+      { "opcion": "b.", "texto": "column", "correcta": false },
+      { "opcion": "c.", "texto": "footer", "correcta": true },
+      { "opcion": "d.", "texto": "range", "correcta": false }
+    ]
+  },
+  {
+    "enunciado": "At this moment, the technicians _________ the cause of the server outage.",
+    "respuestas": [
+      { "opcion": "a.", "texto": "investigated", "correcta": false },
+      { "opcion": "b.", "texto": "have investigated", "correcta": false },
+      { "opcion": "c.", "texto": "are investigating", "correcta": true },
+      { "opcion": "d.", "texto": "investigate", "correcta": false }
+    ]
+  },
+  {
+    "enunciado": "If I had more time, I _________ an advanced programming course.",
+    "respuestas": [
+      { "opcion": "a.", "texto": "would take", "correcta": true },
+      { "opcion": "b.", "texto": "will take", "correcta": false },
+      { "opcion": "c.", "texto": "took", "correcta": false },
+      { "opcion": "d.", "texto": "take", "correcta": false }
+    ]
+  },
+  {
+    "enunciado": "In British workplace culture, being late to a meeting is considered:",
+    "respuestas": [
+      { "opcion": "a.", "texto": "friendly", "correcta": false },
+      { "opcion": "b.", "texto": "acceptable", "correcta": false },
+      { "opcion": "c.", "texto": "unprofessional", "correcta": true },
+      { "opcion": "d.", "texto": "professional", "correcta": false }
+    ]
+  },
+  {
+    "enunciado": "A device that stores all the data and the operating system is called a:",
+    "respuestas": [
+      { "opcion": "a.", "texto": "heat sink", "correcta": false },
+      { "opcion": "b.", "texto": "hard drive", "correcta": true },
+      { "opcion": "c.", "texto": "socket", "correcta": false },
+      { "opcion": "d.", "texto": "motherboard", "correcta": false }
+    ]
+  },
+  {
+    "enunciado": "The report _________ by the manager before the meeting started.",
+    "respuestas": [
+      { "opcion": "a.", "texto": "checked", "correcta": false },
+      { "opcion": "b.", "texto": "was checked", "correcta": true },
+      { "opcion": "c.", "texto": "was checking", "correcta": false },
+      { "opcion": "d.", "texto": "has checking", "correcta": false }
+    ]
+  },
+  {
+    "enunciado": "A professional email should normally end with:",
+    "respuestas": [
+      { "opcion": "a.", "texto": "No problem", "correcta": false },
+      { "opcion": "b.", "texto": "Kind regards", "correcta": true },
+      { "opcion": "c.", "texto": "See you soon", "correcta": false },
+      { "opcion": "d.", "texto": "Bye", "correcta": false }
+    ]
+  },
+  {
+    "enunciado": "By this time next year, they _________ the new software.",
+    "respuestas": [
+      { "opcion": "a.", "texto": "will have developed", "correcta": true },
+      { "opcion": "b.", "texto": "developed", "correcta": false },
+      { "opcion": "c.", "texto": "are developing", "correcta": false },
+      { "opcion": "d.", "texto": "develop", "correcta": false }
+    ]
+  },
+  {
+    "enunciado": "A small portable storage device that connects to a USB port is called a:",
+    "respuestas": [
+      { "opcion": "a.", "texto": "browser", "correcta": false },
+      { "opcion": "b.", "texto": "byte", "correcta": false },
+      { "opcion": "c.", "texto": "motherboard", "correcta": false },
+      { "opcion": "d.", "texto": "flash drive", "correcta": true }
+    ]
+  },
+  {
+    "enunciado": "The technician is the person _________ repaired the network server.",
+    "respuestas": [
+      { "opcion": "a.", "texto": "which", "correcta": false },
+      { "opcion": "b.", "texto": "whose", "correcta": false },
+      { "opcion": "c.", "texto": "where", "correcta": false },
+      { "opcion": "d.", "texto": "who", "correcta": true }
+    ]
+  },
+  {
+    "enunciado": "Which expression is the most appropriate when asking a manager for help?",
+    "respuestas": [
+      { "opcion": "a.", "texto": "You have to solve this.", "correcta": false },
+      { "opcion": "b.", "texto": "Help me now.", "correcta": false },
+      { "opcion": "c.", "texto": "Could you please help me with this issue?", "correcta": true },
+      { "opcion": "d.", "texto": "I need this immediately.", "correcta": false }
+    ]
+  }
+]
