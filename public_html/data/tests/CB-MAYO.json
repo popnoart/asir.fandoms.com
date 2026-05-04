@@ -80,7 +80,7 @@
             {
                 "opcion": "a.",
                 "texto": "tcp.port==443 && tcp.port==80",
-                "correcta": false
+                "correcta": true
             },
             {
                 "opcion": "b.",
@@ -95,7 +95,7 @@
             {
                 "opcion": "d.",
                 "texto": "tcp.port==443 || tcp.port==80",
-                "correcta": true
+                "correcta": false
             }
         ]
     },
@@ -204,22 +204,22 @@
         "respuestas": [
             {
                 "opcion": "a.",
-                "texto": "nmap digitech.es \"IP resultado 172.172.149.150\" nmap -TA 1-600 172.172.149.150",
+                "texto": "nmap digitech.es \"IP resultado 172.172.149.150\"\n nmap -TA 1-600 172.172.149.150",
                 "correcta": false
             },
             {
                 "opcion": "b.",
-                "texto": "nmap digitech.es \"IP resultado 172.172.149.150\" nmap -p 1-600 172.172.149.150",
+                "texto": "nmap digitech.es \"IP resultado 172.172.149.150\"\n nmap -p 1-600 172.172.149.150",
                 "correcta": true
             },
             {
                 "opcion": "c.",
-                "texto": "nmap digitech.es \"IP resultado 172.172.149.150\" nmap -* 1-600 172.172.149.150",
+                "texto": "nmap digitech.es \"IP resultado 172.172.149.150\"\n nmap -* 1-600 172.172.149.150",
                 "correcta": false
             },
             {
                 "opcion": "d.",
-                "texto": "nmap digitech.es \"IP resultado 172.172.149.150\" nmap -k 1-600 172.172.149.150",
+                "texto": "nmap digitech.es \"IP resultado 172.172.149.150\"\n nmap -k 1-600 172.172.149.150",
                 "correcta": false
             }
         ]
@@ -455,11 +455,12 @@
         ]
     },
     {
-        "enunciado": "Encuentras algún error en el siguiente código de denegar tráfico de red. (ip access-list extended variable ...)",
+        "enunciado": "Encuentras algún error en el siguiente código de denegar tráfico de red:",
+        "code": "ip access-list extended variable\n deny icmp host 192.168.1.2 host 192.168.2.2 echo\n permit ip any any\n deny icmp host 192.168.3.2 host 192.168.4.2 echo\n int fa0/0\n ip access-group variable in\n exit",
         "respuestas": [
             {
                 "opcion": "a.",
-                "texto": "Sí, la instrucción 'permit ip any any' debe escribirse después de denegar todas las IP que se deseen, debería quedar así: ip access-list extended variable / deny icmp host 192.168.1.2 host 192.168.2.2 echo / deny icmp host 192.168.3.2 host 192.168.4.2 echo / permit ip any any / int fa0/0 / ip access-group variable in / exit",
+                "texto": "Sí, la instrucción \"permit ip any any\" debe escribirse después de denegar todas las IP que se deseen, debería quedar así:\n ip access-list extended variable\n deny icmp host 192.168.1.2 host 192.168.2.2 echo\n permit ip any any\n deny icmp host 192.168.3.2 host 192.168.4.2 echo\n int fa0/0\n ip access-group variable in\n exit",
                 "correcta": true
             },
             {
@@ -469,27 +470,28 @@
             },
             {
                 "opcion": "c.",
-                "texto": "Sí, la instrucción 'permit ip any any' debe escribirse antes de denegar todas las IP que se deseen...",
+                "texto": "Sí, la instrucción \"permit ip any any\" debe escribirse antes de denegar todas las IP que se deseen, debería quedar así:\n ip access-list extended variable\n permit ip any any\n deny icmp host 192.168.1.2 host 192.168.2.2 echo\n deny icmp host 192.168.3.2 host 192.168.4.2 echo\n int fa0/0\n ip access-group variable in\n exit",
                 "correcta": false
             },
             {
                 "opcion": "d.",
-                "texto": "La línea 'ip access-group variable in' debería acabar en out...",
+                "texto": "La línea \"ip access-group variable in\" debería acabar en out, debería quedar el código de la siguiente forma:\n ip access-list extended variable\n deny icmp host 192.168.1.2 host 192.168.2.2 echo\n permit ip any any\n deny icmp host 192.168.3.2 host 192.168.4.2 echo\n int fa0/0\n ip access-group variable out\n exit",
                 "correcta": false
             }
         ]
     },
     {
-        "enunciado": "Es correcto el siguiente código NAT (ip nat pool 5 10.0.0.2 10.0.0.1 netmask 255.255.255.0 ...)",
+        "enunciado": "Es correcto el siguiente código NAT:",
+        "code": "ip nat pool 5 10.0.0.2 10.0.0.1 netmask 255.255.255.0\n ip nat inside source list 1 interface Serial0/3/0 overload\n ip nat inside source list 5 pool 5 overload\n ip nat inside source static 192.168.30.5 192.168.30.200\n access-list 1 permit 192.168.30.0 0.0.0.255\n access-list 5 permit 192.168.30.0 0.0.0.255\n int fa0/0\n ip nat outside\n int s0/3/0\n ip nat inside",
         "respuestas": [
             {
                 "opcion": "a.",
-                "texto": "No, no es correcto, el código debería quedar así: ... int fa0/0 ip nat inside / int s0/3/0 ip nat outside",
+                "texto": "No, no es correcto, el código debería quedar así:\n ip nat pool 5 10.0.0.2 10.0.0.1 netmask 255.255.255.0ip nat inside source list 1 interface Serial0/3/0 overload\n ip nat inside source list 5 pool 5 overload\n ip nat inside source static 192.168.30.5 192.168.30.200  \n access-list 1 permit 192.168.30.0 0.0.0.255\n access-list 5 permit 192.168.30.0 0.0.0.255\n int fa0/0\n ip nat inside\n int s0/3/0\n ip nat outside",
                 "correcta": true
             },
             {
                 "opcion": "b.",
-                "texto": "No es correcto, el código debería quedar así: ... s0/3/0 ip nat inside",
+                "texto": "No es correcto, el código debería quedar así:\n ip nat pool 5 10.0.0.2 10.0.0.1 netmask 255.255.255.0\n ip nat inside source list 1 interface Serial0/3/0 overload\n ip nat inside source list 5 pool 5 overload\n ip nat inside source static 192.168.30.5 192.168.30.200  \n access-list 1 permit 192.168.30.0 0.0.0.255\n access-list 5 permit 192.168.30.0 0.0.0.255\n s0/3/0\n ip nat inside",
                 "correcta": false
             },
             {
