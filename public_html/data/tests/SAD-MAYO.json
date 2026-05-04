@@ -1,0 +1,182 @@
+[
+    {
+        "enunciado": "Marca la afirmación correcta asociada al concepto de RAID:",
+        "respuestas": [
+            {"opcion": "a.", "texto": "Tecnología que permite optimizar el espacio compartido entre varios discos duros.", "correcta": false},
+            {"opcion": "b.", "texto": "Tecnología que permite optimizar el uso de los discos duros en servidores.", "correcta": false},
+            {"opcion": "c.", "texto": "Todas son correctas.", "correcta": false},
+            {"opcion": "d.", "texto": "Tecnología que permite combinar varios discos duros para mejorar el rendimiento y la redundancia de datos.", "correcta": true}
+        ]
+    },
+    {
+        "enunciado": "Un IPS es:",
+        "respuestas": [
+            {"opcion": "a.", "texto": "Sistema configurado y conectado a una red para que pueda ser sondeado, atacado e incluso comprometido por intrusos.", "correcta": false},
+            {"opcion": "b.", "texto": "Elemento que ejerce el control en una red informática para detectar y prevenir los procesos de acceso a los sistemas de ataques y abusos.", "correcta": true},
+            {"opcion": "c.", "texto": "Software que tiene el propósito de detectar y eliminar programas perjudiciales.", "correcta": false},
+            {"opcion": "d.", "texto": "Elemento de un sistema diseñado para bloquear el acceso no autorizado de los usuarios, permitiendo al mismo tiempo comunicaciones autorizadas.", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "Marca la afirmación correcta asociada al RAID 5:",
+        "respuestas": [
+            {"opcion": "a.", "texto": "Es la arquitectura más rápida que presenta tolerancia a fallos.", "correcta": false},
+            {"opcion": "b.", "texto": "Todas son correctas.", "correcta": false},
+            {"opcion": "c.", "texto": "Con un mínimo de dos discos es suficiente.", "correcta": false},
+            {"opcion": "d.", "texto": "No se desaprovecha ningún disco exclusivamente para almacenar códigos de paridad.", "correcta": true}
+        ]
+    },
+    {
+        "enunciado": "¿Cuál es la herramienta de seguridad que intenta detectar o monitorizar los eventos ocurridos en un determinado sistema informático en busca de intentos de comprometer la seguridad de dicho sistema?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "IPS", "correcta": false},
+            {"opcion": "b.", "texto": "ISD", "correcta": false},
+            {"opcion": "c.", "texto": "Cortafuegos", "correcta": false},
+            {"opcion": "d.", "texto": "IDS", "correcta": true}
+        ]
+    },
+    {
+        "enunciado": "Marca la opción que no corresponde a ningún tipo de cortafuegos (primera versión, con opciones a, b, c, d):",
+        "respuestas": [
+            {"opcion": "a.", "texto": "Filtrado de equipos/usuarios: permiten filtrar los accesos de equipos y/o usuarios no permitidos de forma eficiente.", "correcta": true},
+            {"opcion": "b.", "texto": "Filtrado de paquetes: seleccionan la información que dejan pasar en función de la información contenida en cada paquete recibido/enviado.", "correcta": false},
+            {"opcion": "c.", "texto": "Ninguna es correcta.", "correcta": false},
+            {"opcion": "d.", "texto": "Filtrado de circuitos: comprueban las IPs, los puertos, la información de la sesión y los números de secuencia de los paquetes enviados.", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Dónde debería ubicarse un servidor que contiene información confidencial de sus empleados y al que sólo deben acceder el personal interno de la empresa?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "En la red interna, donde solo los empleados puedan acceder.", "correcta": true},
+            {"opcion": "b.", "texto": "En la Zona Desmilitarizada.", "correcta": false},
+            {"opcion": "c.", "texto": "En una VPN, para garantizar su seguridad.", "correcta": false},
+            {"opcion": "d.", "texto": "En un servidor web para acceder cómodamente.", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Dónde se coloca comúnmente un IPS en una red?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "En coordinación con el cortafuegos.", "correcta": false},
+            {"opcion": "b.", "texto": "Delante del firewall, en la parte de la red exterior.", "correcta": false},
+            {"opcion": "c.", "texto": "En el dispositivo de los usuarios finales.", "correcta": false},
+            {"opcion": "d.", "texto": "Detrás del firewall, en la parte de la red interior.", "correcta": true}
+        ]
+    },
+    {
+        "enunciado": "¿Cuál es la política más aconsejable para disponer de máxima seguridad al configurar un cortafuegos?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "Tanto ACEPTAR, como DENEGAR cumplen la integridad total de la información, y aseguran la seguridad del sistema.", "correcta": false},
+            {"opcion": "b.", "texto": "La más aconsejable sería DENEGAR, siempre y cuando sepamos configurar correctamente el sistema y sin caer en la tentación de empezar a meter reglas excesivamente permisivas.", "correcta": true},
+            {"opcion": "c.", "texto": "Denegarlo todo sería lo más seguro.", "correcta": false},
+            {"opcion": "d.", "texto": "La más aconsejable sería ACEPTAR. Es la más sencilla y segura de ambas, puesto que DENEGAR limita excesivamente el acceso, y es imprescindible una compleja configuración para su correcto funcionamiento.", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Cuál de las siguientes afirmaciones define una subred protegida débil?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "Tiene un equipo bastión sin proteger.", "correcta": false},
+            {"opcion": "b.", "texto": "Sitúa a la DMZ entre dos cortafuegos.", "correcta": false},
+            {"opcion": "c.", "texto": "Ninguna es correcta.", "correcta": false},
+            {"opcion": "d.", "texto": "Sitúa a la DMZ detrás de un router, sin utilizar cortafuegos.", "correcta": true}
+        ]
+    },
+    {
+        "enunciado": "Cuando se habla de IDS / IPS, ¿qué es una firma?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "Ninguna es cierta.", "correcta": false},
+            {"opcion": "b.", "texto": "Patrones de actividad o código correspondiente a ataques.", "correcta": true},
+            {"opcion": "c.", "texto": "Comportamiento normal de la red de referencia.", "correcta": false},
+            {"opcion": "d.", "texto": "Una firma electrónica utilizada para autenticar la identidad de un usuario en la red.", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Qué tipo de cortafuegos se ha de utilizar para filtrar ataques a una aplicación web?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "No se utiliza un cortafuegos, se utiliza un IDS.", "correcta": false},
+            {"opcion": "b.", "texto": "Cortafuegos de capa de red.", "correcta": false},
+            {"opcion": "c.", "texto": "Cortafuegos de capa de aplicación.", "correcta": true},
+            {"opcion": "d.", "texto": "Cortafuegos específico web.", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "Un falso positivo se puede definir como:",
+        "respuestas": [
+            {"opcion": "a.", "texto": "Ninguna es cierta.", "correcta": false},
+            {"opcion": "b.", "texto": "Una alerta que indica actividad nefasta en un sistema que, tras una inspección más detallada, resulta representar tráfico o comportamiento legítimo de la red.", "correcta": true},
+            {"opcion": "c.", "texto": "La falta de una alerta de actividad nefasta.", "correcta": false},
+            {"opcion": "d.", "texto": "Una alerta que indica actividad nefasta en un sistema que, tras una inspección más profunda, resulta ser una actividad nefasta.", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Qué hace este comando iptables −A INPUT -i eth0 −p tcp −-dport 80 −j DROP?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "Cerrar las conexiones entrantes por el interfaz eth0 y hacia el puerto (local) 80", "correcta": true},
+            {"opcion": "b.", "texto": "Ninguna es correcta.", "correcta": false},
+            {"opcion": "c.", "texto": "Cerrar todas las conexiones excepto desde eth0 hasta el puerto (local) 80", "correcta": false},
+            {"opcion": "d.", "texto": "Cerrar todas las conexiones desde eth0 y hacia el puerto (local) 80", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "Las reglas de filtrado de iptables se organizan en:",
+        "respuestas": [
+            {"opcion": "a.", "texto": "INPUT y OUTPUT.", "correcta": false},
+            {"opcion": "b.", "texto": "INPUT, OUTPUT, FORWARD, PREROUTING y POSTROUTING", "correcta": true},
+            {"opcion": "c.", "texto": "INPUT, OUTPUT y FORWARD.", "correcta": false},
+            {"opcion": "d.", "texto": "Ninguna es correcta.", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "Marca la opción que corresponde a los cortafuegos de aplicación:",
+        "respuestas": [
+            {"opcion": "a.", "texto": "Todas son correctas.", "correcta": false},
+            {"opcion": "b.", "texto": "Filtrado de paquetes: seleccionan la información que dejan pasar en función de la información contenida en cada paquete recibido/enviado.", "correcta": false},
+            {"opcion": "c.", "texto": "Filtrado de circuitos: comprueban las IPs, los puertos, la información de la sesión y los números de secuencia de los paquetes enviados.", "correcta": false},
+            {"opcion": "d.", "texto": "Filtrado de aplicaciones: interceptan los mensajes entre aplicaciones y bloquean las aplicaciones no permitidas.", "correcta": true}
+        ]
+    },
+    {
+        "enunciado": "Marca la opción que no corresponde a ningún tipo de cortafuegos (segunda versión, misma pregunta pero con opciones modificadas):",
+        "respuestas": [
+            {"opcion": "a.", "texto": "Filtrado de circuitos: comprueban las IPs, los puertos, la información de la sesión y los números de secuencia de los paquetes enviados", "correcta": false},
+            {"opcion": "b.", "texto": "Filtrado de paquetes: seleccionan la información que dejan pasar en función de la información contenida en cada paquete recibido/enviado.", "correcta": false},
+            {"opcion": "c.", "texto": "Filtrado de equipos/usuarios: permiten filtrar los accesos de equipos y/o usuarios no permitidos de forma eficiente.", "correcta": true},
+            {"opcion": "d.", "texto": "Filtrado de aplicaciones: interceptan los mensajes entre aplicaciones y bloquean las aplicaciones no permitidas.", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Qué hace este comando iptables −A INPUT −s 0.0.0.0/0 −p tcp −dport 1:1024 −j DROP?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "Es una instrucción no válida, tiene errores.", "correcta": false},
+            {"opcion": "b.", "texto": "Deshabilita la salida a los puertos del 1 al 1024 para las IPs exteriores.", "correcta": false},
+            {"opcion": "c.", "texto": "Deshabilita los puertos del 1 al 1024.", "correcta": false},
+            {"opcion": "d.", "texto": "Deshabilita el acceso a los puertos del 1 al 1024 para las IPs exteriores.", "correcta": true}
+        ]
+    },
+    {
+        "enunciado": "¿Cuál es la política más aconsejable para disponer de máxima seguridad al configurar un cortafuegos? (pregunta repetida)",
+        "respuestas": [
+            {"opcion": "a.", "texto": "Tanto ACEPTAR, como DENEGAR cumplen la integridad total de la información, y aseguran la seguridad del sistema.", "correcta": false},
+            {"opcion": "b.", "texto": "La más aconsejable sería ACEPTAR. Es la más sencilla y segura de ambas, puesto que DENEGAR limita excesivamente el acceso, y es imprescindible una compleja configuración para su correcto funcionamiento.", "correcta": false},
+            {"opcion": "c.", "texto": "Denegarlo todo sería lo más seguro.", "correcta": false},
+            {"opcion": "d.", "texto": "La más aconsejable sería DENEGAR, siempre y cuando sepamos configurar correctamente el sistema y sin caer en la tentación de empezar a meter reglas excesivamente permisivas.", "correcta": true}
+        ]
+    },
+    {
+        "enunciado": "¿Dónde debería ubicarse un servidor que contiene información confidencial de sus empleados y al que sólo deben acceder el personal interno de la empresa? (pregunta repetida)",
+        "respuestas": [
+            {"opcion": "a.", "texto": "En la Zona Desmilitarizada.", "correcta": false},
+            {"opcion": "b.", "texto": "En un servidor web para acceder cómodamente.", "correcta": false},
+            {"opcion": "c.", "texto": "En una VPN, para garantizar su seguridad.", "correcta": false},
+            {"opcion": "d.", "texto": "En la red interna, donde solo los empleados puedan acceder.", "correcta": true}
+        ]
+    },
+    {
+        "enunciado": "Si detecta una amenaza, un IPS puede:",
+        "respuestas": [
+            {"opcion": "a.", "texto": "Registrar los detalles de la amenaza", "correcta": false},
+            {"opcion": "b.", "texto": "Informar de la amenaza a los administradores de seguridad.", "correcta": false},
+            {"opcion": "c.", "texto": "Tomar medidas preventivas para detener la amenaza.", "correcta": false},
+            {"opcion": "d.", "texto": "Todas las demás son ciertas.", "correcta": true}
+        ]
+    }
+]
