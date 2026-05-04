@@ -1,0 +1,502 @@
+[
+    {
+        "enunciado": "¿Qué significa mitigación del cambio climático?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Aumentar la producción industrial",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Adaptarse sin cambiar el modelo energético",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Acciones para reducir emisiones de gases de efecto invernadero",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Construir más carreteras",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál de estos efectos afecta al sector primario?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Menor dependencia del clima",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Mejora espontánea de los pastos",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Disminución de polinizadores",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Reducción de la necesidad de agua en cultivos",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué ocurrió en Yellowstone al desaparecer los lobos?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Aumentó la vegetación ribereña",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Se redujo la población de herbívoros",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Mejoró el equilibrio natural",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Aumentó la población de ciervos y alces y se degradó la vegetación",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál de estas es una medida de eficiencia energética?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Cargar dispositivos innecesariamente",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Instalar iluminación LED",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Usar más climatización",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Mantener luces encendidas",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué es el estrés hídrico?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Situación en la que la demanda de agua supera la cantidad disponible",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Contaminación por aguas residuales",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Pérdida de peces en ríos",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Falta de lluvias durante un día",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál de estas NO es una causa de la escasez de agua?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Sequías",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Deforestación y degradación del suelo",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Uso de sistemas eficientes de ahorro de agua",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Despilfarro de agua",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "La deforestación consiste en:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "La construcción de carreteras rurales",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "La eliminación de bosques y selvas",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "La contaminación del suelo agrícola",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "El aumento de la masa forestal",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál de estas es una causa de la erosión del suelo?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Agricultura no sostenible",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Uso de transporte público",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Instalación de placas solares",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Reciclaje doméstico",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué significa “España vaciada”?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "El abandono de las zonas costeras",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Zonas con despoblación intensa, envejecimiento y falta de servicios",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "El crecimiento industrial en pueblos",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "El aumento del turismo rural",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué representa el día del sobregiro de la Tierra?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "El día mundial del reciclaje",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "El día con más contaminación del año",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "El inicio del verano climático",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "El momento en que la humanidad agota los recursos que la Tierra puede regenerar en un año",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué problema puede sufrir el sector secundario?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Reducción de costes energéticos por calor extremo",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Escasez de materias primas por sobreexplotación de recursos",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Aumento del atractivo turístico",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Menor dependencia de materias primas",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué es un residuo según el tema?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Un material que siempre puede reutilizarse",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Solo basura industrial peligrosa",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Solo los restos orgánicos domésticos",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Cualquier material generado por la actividad humana que se desecha o abandona",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué es la transición energética?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "El aumento del uso de petróleo",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "La reducción del transporte público",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "La sustitución progresiva de energías no renovables por renovables",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "El cierre de toda actividad industrial",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué modelo económico genera muchos residuos?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Economía circular",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Economía colaborativa",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Economía lineal",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Economía verde",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué actividad pertenece al sector primario?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Turismo",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Pesca",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Comercio",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Transporte",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué sector se ve muy afectado por huracanes, inundaciones o pérdida del paisaje?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Sector industrial",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Sector agrícola",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Sector terciario, especialmente el turismo",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Sector minero",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué puede provocar la desaparición de una especie?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Ningún cambio importante",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Más recursos para todas las especies",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Mayor estabilidad ecológica",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Alteración de la cadena alimentaria",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué es la movilidad sostenible?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Eliminación del transporte público",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Desplazamiento rápido sin importar el impacto ambiental",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Desplazamiento eficiente, accesible y seguro minimizando el impacto ambiental",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Uso exclusivo del coche privado",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué es la pobreza?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Falta de estudios superiores",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Carencia exclusiva de vivienda",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Situación en la que no se pueden cubrir necesidades básicas",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Ausencia temporal de empleo únicamente",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué es la sobreexplotación de los recursos naturales?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "La recuperación de ecosistemas",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "El uso eficiente del agua",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "La protección de especies amenazadas",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "El uso insostenible de recursos a mayor ritmo del que la naturaleza los regenera",
+                "correcta": true
+            }
+        ]
+    }
+]

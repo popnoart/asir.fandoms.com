@@ -1,0 +1,502 @@
+[
+    {
+        "enunciado": "Un objetivo es SMART cuando es:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Opcional.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Largo y general.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Específico, medible, alcanzable, relevante y temporal.",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Flexible y abierto.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "La técnica Pomodoro se basa en:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Hacer varias cosas a la vez.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Estudiar sin parar.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Trabajar en bloques de tiempo con descansos.",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Delegar tareas.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Las empresas públicas se caracterizan por ser:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Propiedad del Estado.",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "De propiedad privada.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Internacionales.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Familiares.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué herramienta innovadora permite mostrar proyectos o trabajos visualmente?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Portfolio digital",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Dinámica de grupo",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Prueba teórica",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Carta de presentación",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué se analiza principalmente en el microentorno según el tema?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "La inflación mundial",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "El clima de otros países",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "La legislación internacional",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "La competencia",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué herramienta tradicional se utiliza para presentar la candidatura?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Videocurrículum",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Portafolio digital",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Blog profesional",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Currículum Vitae",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "Introducir un nuevo producto al mercado es innovación de:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Producto.",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Organización.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Proceso.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Marketing.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué diferencia principal hay entre actitud y aptitud?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "La actitud es saber hacer; la aptitud es comportarse bien",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Ninguna",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "La actitud es la forma de comportarse, la aptitud es el saber hacer",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Ambas se refieren a conocimientos técnicos",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Una microempresa tiene:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Menos de 10 trabajadores.",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Menos de 20 trabajadores.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Más de 100 trabajadores.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Menos de 5 trabajadores.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Una idea emprendedora surge de:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Reducir calidad.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Copiar negocios.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Detectar necesidades y ofrecer soluciones.",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Imponer productos.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué significa la letra “A” en DAFO?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Amenazas",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Ahorro",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Alianzas",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Activos",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué institución recopila datos estadísticos sobre empleo en España?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "SEPE",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "LinkedIn",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Infoempleo",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "INE",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "En el análisis DAFO, las fortalezas y debilidades pertenecen al…",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Análisis externo",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Análisis político",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Análisis legal",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Análisis interno",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "Los emprendedores sociales buscan principalmente:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Máximo beneficio económico.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Solucionar un problema social.",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Reducir trabajadores.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Evitar innovación.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuáles son las 4P del marketing tradicional?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Producto, Proveedor, Público y Planificación",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Precio, Personas, Producción y Publicidad",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Producto, Precio, Punto de venta y Promoción",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Producto, Personalización, Participación y Publicidad",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "El macroentorno está formado por…",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Variables internas de la empresa",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Variables externas que afectan a todas las empresas por igual",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Solo los competidores directos",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Únicamente los clientes habituales",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "La complementariedad en un equipo significa:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Que cada miembro aporta habilidades diferentes.",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Que todos hacen lo mismo.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Que solo decide el líder.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Que no existen roles.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Un conflicto bien gestionado puede convertirse en:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Problema mayor.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Discusión continua.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Oportunidad de mejora.",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Castigo.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "La escucha activa implica:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Dar consejos constantemente.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Interrumpir.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Pensar en la respuesta.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Atender y comprender al interlocutor.",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué fuente pública facilita ofertas de empleo oficiales?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Indeed",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "LinkedIn",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "InfoJobs",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "SEPE",
+                "correcta": true
+            }
+        ]
+    }
+]
