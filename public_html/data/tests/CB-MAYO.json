@@ -1,0 +1,507 @@
+[
+    {
+        "enunciado": "Para copiar a un TFTP la orden correcta es...",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Copy flash tftp",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "copy ftp flash",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "copy flash ftp",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Copy tftp flash",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Para copiar la flash de un TFTP a un router se utiliza...",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "copy flash tftp",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "copy flash ftp",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "copy tftp flash",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "copy ftp flash",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Cuando configuramos SSH en Cisco, el tamaño de las claves puede ser...",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "512 - 1024",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "1024 o 2048",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "1024 - 2048 - 4096",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "512 - 1024 - 2048",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Escanear con Wireshark los puertos 443 y 80 en una sola orden",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "tcp.port==443 && tcp.port==80",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "tcp.addr==443 || tcp.port==80",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "tcp.addr==443 && tcp.port==80",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "tcp.port==443 || tcp.port==80",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "La orden en Wireshark: tcp.dstport=443 ¿Qué hace?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "localiza tráfico tcp por el puerto origen 443",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Localiza tanto el puerto de destino como el de origen siempre que sea igual al 443",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "localiza tráfico tcp por el puerto destino 443",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "Necesitamos escanear con NMAP en la misma orden varias IP ¿Cuál es la orden correcta?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "nmap 192.168.10.5 || 192.168.10.88",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "nmap 192.168.10.5 192.168.10.88",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "nmap 192.168.10.5 - 192.168.10.88",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Necesitamos conocer la IP de \"digitech.es\" ¿Cuál es la orden correcta?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "nmap digitech.es",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "nmap digitech.es -||",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "nmap -- digitech.es",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Necesitamos escáner los primeros 300 puertos de la IP 192.168.88.8 ¿Cuál es la orden correcta?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "nmap p 1-300 192.168.88.8",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "nmap -p 1-300 192.168.88.8",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "nmap -k 1-300 192.168.88.8",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Necesitamos conocer los 600 puertos primeros de la IP de digitech.es",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "nmap digitech.es \"IP resultado 172.172.149.150\" nmap -TA 1-600 172.172.149.150",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "nmap digitech.es \"IP resultado 172.172.149.150\" nmap -p 1-600 172.172.149.150",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "nmap digitech.es \"IP resultado 172.172.149.150\" nmap -* 1-600 172.172.149.150",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "nmap digitech.es \"IP resultado 172.172.149.150\" nmap -k 1-600 172.172.149.150",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Cual es la orden correcta para escanear con NMAP la red 192.168.5.0 excluyendo la IP 192.168.5.50",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "nmap -k 192.168.5.* --exclude 192.168.5.50",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "nmap 192.168.5.* --exclude 192.168.5.50",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "nmap -p 192.168.5.* --exclude 192.168.5.50",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "El pc con el nombre de INTERNET que IP debe teclear para acceder a la web WWW.VIOLINES.ES",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "192.168.10.27",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "172.172.0.1",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "172.172.1.1",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "192.168.10.1",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "La ley de los cortafuegos afirma que...",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "PC de seguridad superior se pueden conectar con pc de la seguridad inferior",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "PC de seguridad inferior se pueden conectar con pc de la seguridad superior",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Todas son ciertas",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Se pueden conectar todos los PC no importa el nivel de seguridad que tengan establecidas las zonas",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Syslog se utiliza para...",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Monitorizar y es software privado",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Monitorizar y es software Open Source",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Todas son ciertas",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Se utiliza para configurar SSH",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Que orden se debe teclear para saber si una VPN funciona correctamente",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Router>show crypto ipsec sa",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Router(config)#show crypto ipsec sa",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "show ipsec sa",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "router#show crypto ipsec sa",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "Netflow se utiliza para...",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Se utiliza para configurar conexiones SSH",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Se utiliza para conexiones Telnet",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Monitorizar es de licencia de propietario",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Monitorizar es de licencia de Open Source",
+                "correcta": false
+            },
+            {
+                "opcion": "e.",
+                "texto": "Incorrecta",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Wireshark se utiliza para ...",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Monitorizar es de licencia Open source",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Monitorizar es de licencia de propietario",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Se utiliza estrictamente para detectar intrusos o accesos no autorizados",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Sniffer es capaz de monitorizar las VLAN",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Sniffer escucha las VLAN dependiendo de su versión",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "No, no puede monitorizar tráfico de VLAN",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Sí, sin ningún problema",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Syslog y Netflow son capaces de monitorizar VLAN",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "No, no pueden.",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Son capaces de Monitorizar las VLAN dependiendo de las versiones de Syslog y Netflow",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Sí, sin ningún problema",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Encuentras algún error en el siguiente código de denegar tráfico de red. (ip access-list extended variable ...)",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Sí, la instrucción 'permit ip any any' debe escribirse después de denegar todas las IP que se deseen, debería quedar así: ip access-list extended variable / deny icmp host 192.168.1.2 host 192.168.2.2 echo / deny icmp host 192.168.3.2 host 192.168.4.2 echo / permit ip any any / int fa0/0 / ip access-group variable in / exit",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "No existe ningún error",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Sí, la instrucción 'permit ip any any' debe escribirse antes de denegar todas las IP que se deseen...",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "La línea 'ip access-group variable in' debería acabar en out...",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Es correcto el siguiente código NAT (ip nat pool 5 10.0.0.2 10.0.0.1 netmask 255.255.255.0 ...)",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "No, no es correcto, el código debería quedar así: ... int fa0/0 ip nat inside / int s0/3/0 ip nat outside",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "No es correcto, el código debería quedar así: ... s0/3/0 ip nat inside",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Sí, es correcto",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            }
+        ]
+    }
+]
