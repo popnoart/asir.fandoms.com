@@ -384,6 +384,12 @@
                 "start": "",
                 "end": "",
                 "name": "Repaso previo 3ª autoevaluación"
+            },
+            "ASO-MAYO": {
+                "type": "Cuestionario",
+                "start": "",
+                "end": "",
+                "name": "AUTOEVALUACIÓN MAYO"
             }
         },
         "notes": {
