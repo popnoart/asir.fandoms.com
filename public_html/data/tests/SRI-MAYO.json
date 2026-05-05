@@ -1,0 +1,184 @@
+[
+    {
+        "enunciado": "La capa 5 del modelo OSI se llama...",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Capa de Transporte", "correcta": false },
+            { "opcion": "b.", "texto": "Capa de Sesión", "correcta": true },
+            { "opcion": "c.", "texto": "Capa de Enlace de datos", "correcta": false },
+            { "opcion": "d.", "texto": "Capa de presentación", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "La capa de red pertenece a...",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Capa 2", "correcta": false },
+            { "opcion": "b.", "texto": "Capa 7", "correcta": false },
+            { "opcion": "c.", "texto": "Capa 3", "correcta": true },
+            { "opcion": "d.", "texto": "Capa 1", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "La capa de presentación pertenece a...",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Capa 1", "correcta": false },
+            { "opcion": "b.", "texto": "Capa 6", "correcta": true },
+            { "opcion": "c.", "texto": "Capa 7", "correcta": false },
+            { "opcion": "d.", "texto": "Capa 5", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "Que se entiende por estándar OSI...",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Open de sistemas interconectados entre si en red LAN", "correcta": false },
+            { "opcion": "b.", "texto": "Open System interconnection", "correcta": true },
+            { "opcion": "c.", "texto": "System Interconnection", "correcta": false },
+            { "opcion": "d.", "texto": "Todas son ciertas", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "Para poder escribir una IP en un Switch de 3 capas se escribe la orden...",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Switchport y añadir la IP que deseemos", "correcta": false },
+            { "opcion": "b.", "texto": "No switchport y añadir la IP que deseemos", "correcta": true },
+            { "opcion": "c.", "texto": "En un switch de 3 capas no se puede escribir IP solo se pueden configurar VLAN", "correcta": false },
+            { "opcion": "d.", "texto": "No es necesario hacer nada, solo escribir la IP", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "Resultado de sumarizar las Network: 192.168.10.0, 192.168.20.0, 192.168.30.0",
+        "respuestas": [
+            { "opcion": "a.", "texto": "192.168.10.0 255.255.255.0", "correcta": false },
+            { "opcion": "b.", "texto": "192.168.10.0 255.255.255.224", "correcta": false },
+            { "opcion": "c.", "texto": "192.168.0.0 255.255.224.0", "correcta": true },
+            { "opcion": "d.", "texto": "Ninguna es cierta", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "Resultado de sumarizar las Network: 172.172.0.0, 172.180.0.0, 172.190.0.0",
+        "respuestas": [
+            { "opcion": "a.", "texto": "172.0.0.0 255.224.0.0", "correcta": false },
+            { "opcion": "b.", "texto": "Ninguna es cierta", "correcta": false },
+            { "opcion": "c.", "texto": "172.190.0.0 255.224.0.0", "correcta": false },
+            { "opcion": "d.", "texto": "172.160.0.0 255.224.0.0", "correcta": true }
+        ]
+    },
+    {
+        "enunciado": "Sumarizar las Network: 2001:CAFE:1234:ABCD, 2001:CAFE:1234:ABBB, 2001:CAFE:1234:FFFF. ¿Qué resultado es el correcto?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "2001:CAFE:1234:8A00::/52", "correcta": false },
+            { "opcion": "b.", "texto": "Ninguna es cierta", "correcta": false },
+            { "opcion": "c.", "texto": "2001:CAFE:1234:AA00::/52", "correcta": false },
+            { "opcion": "d.", "texto": "2001:CAFE:1234:8000::/49", "correcta": true }
+        ]
+    },
+    {
+        "enunciado": "Encuentras algún error en el código siguiente de enrutación por EIGRP (realmente cuál está bien)...",
+        "respuestas": [
+            { "opcion": "a.", "texto": "router eigrp 20\\nNetwork 192.168.10.0\\nNetwork 10.0.0.0", "correcta": true },
+            { "opcion": "b.", "texto": "router eigrp 20\\nNetwork 192.168.10.1 255.255.255.0\\nNetwork 10.0.0.1 10.0.0.0", "correcta": false },
+            { "opcion": "c.", "texto": "router eigrp 20\\nNetwork 192.168.10.1\\nNetwork 10.0.0.1", "correcta": false },
+            { "opcion": "d.", "texto": "router eigrp 20\\nNetwork 192.168.10.0 255.255.255.0\\nNetwork 10.0.0.0 10.0.0.0", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "Encuentras algún error en la sintaxis de la siguiente enrutación por RIP (realmente cuál está bien)...",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Router Rip\\nNetwork 192.168.50.0 255.255.255.0\\nNetwork 192.168.1.0 255.255.255.0\\nNetwork 10.0.0.0 255.0.0.0", "correcta": false },
+            { "opcion": "b.", "texto": "Router Rip\\nNetwork 192.168.50.1 255.255.255.0\\nNetwork 192.168.1.1 255.255.255.0\\nNetwork 10.0.0.1 255.0.0.0", "correcta": false },
+            { "opcion": "c.", "texto": "Router Rip\\nNetwork 192.168.50.1 0.0.0.255\\nNetwork 192.168.1.1 0.0.0.255\\nNetwork 10.0.0.1 0.255.255.255", "correcta": false },
+            { "opcion": "d.", "texto": "Router Rip\\nNetwork 192.168.50.0\\nNetwork 192.168.1.0\\nNetwork 10.0.0.0", "correcta": true }
+        ]
+    },
+    {
+        "enunciado": "El sistema binario y la MAC pertenecen a la Capa OSI...",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Capa 4", "correcta": false },
+            { "opcion": "b.", "texto": "Capa 3", "correcta": false },
+            { "opcion": "c.", "texto": "Capa 5", "correcta": false },
+            { "opcion": "d.", "texto": "Capa 2", "correcta": true }
+        ]
+    },
+    {
+        "enunciado": "Configurar un DHCP con la Network 192.168.10.0/26 ¿Cuál es su primera y última IP disponible?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "192.168.10.1 - 192.168.10.62", "correcta": true },
+            { "opcion": "b.", "texto": "192.168.10.0 - 192.168.10.255", "correcta": false },
+            { "opcion": "c.", "texto": "192.168.10.0 - 192.168.10.254", "correcta": false },
+            { "opcion": "d.", "texto": "192.168.10.1 - 192.168.10.64", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "NetBIOS pertenece a la Capa OSI...",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Capa 2", "correcta": false },
+            { "opcion": "b.", "texto": "Capa 7", "correcta": false },
+            { "opcion": "c.", "texto": "Capa 1", "correcta": false },
+            { "opcion": "d.", "texto": "Capa 5", "correcta": true }
+        ]
+    },
+    {
+        "enunciado": "Cuando se configuran VLAN para telefonía IP ¿Qué puerto pertenece por defecto los teléfonos IP?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "1007", "correcta": false },
+            { "opcion": "b.", "texto": "2000", "correcta": true },
+            { "opcion": "c.", "texto": "1000", "correcta": false },
+            { "opcion": "d.", "texto": "3000", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "En un router se puede configurar simultáneamente enrutaciones por: RIP, EIGRP, OSPF y Estática",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Se puede combinar todas las enrutaciones simultáneamente excepto EIGRP y OSPF a la vez pues son incompatibles", "correcta": false },
+            { "opcion": "b.", "texto": "Se puede combinar todas las enrutaciones simultáneamente excepto RIP y EIGRP a la vez pues son incompatibles", "correcta": false },
+            { "opcion": "c.", "texto": "No es posible", "correcta": false },
+            { "opcion": "d.", "texto": "Sí, sin problema", "correcta": true }
+        ]
+    },
+    {
+        "enunciado": "¿Qué puerto utiliza Netflow?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "9000", "correcta": false },
+            { "opcion": "b.", "texto": "9996", "correcta": true },
+            { "opcion": "c.", "texto": "1007", "correcta": false },
+            { "opcion": "d.", "texto": "9995", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "Configurar un DHCP con la Network 192.168.10.0/27 ¿Cuál es su primera y última IP disponible?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "192.168.10.1 - 192.168.10.254", "correcta": false },
+            { "opcion": "b.", "texto": "192.168.10.1 - 192.168.10.32", "correcta": false },
+            { "opcion": "c.", "texto": "192.168.10.1 - 192.168.10.30", "correcta": true },
+            { "opcion": "d.", "texto": "192.168.10.0 - 192.168.10.255", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "Existe sintácticamente hablando el servicio de 'proxy' en Cisco",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Sí", "correcta": false },
+            { "opcion": "b.", "texto": "Depende de la versión y modelo del switch de Cisco que se utilice", "correcta": false },
+            { "opcion": "c.", "texto": "Depende de la versión y modelo del router de Cisco que se utilice", "correcta": false },
+            { "opcion": "d.", "texto": "No", "correcta": true }
+        ]
+    },
+    {
+        "enunciado": "Observa el siguiente código y contesta que hace la segunda orden 'IPV6 add 2001:A:A:A::1/64' ...",
+        "code": "int tunnel 1\nIPV6 add 2001:A:A:A::1/64\nIPV6 enable\nTunnel Source s0/3/0\nTunnel destination 10.0.0.2\ntunnel mode ipv6ipv6",
+        "respuestas": [
+            { "opcion": "a.", "texto": "IPv6 del router de destino, tiene que existir físicamente en el serial 0/3/0", "correcta": false },
+            { "opcion": "b.", "texto": "IPv6 del router de origen, tiene que existir físicamente en el serial 0/3/0", "correcta": false },
+            { "opcion": "c.", "texto": "IPv6 del router de origen, no puede existir en el serial físicamente, sino únicamente se configura dentro del tunnel", "correcta": true },
+            { "opcion": "d.", "texto": "IPv6 del router de destino, no puede existir en el serial físicamente, sino únicamente se configura dentro del tunnel", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "Observa el siguiente código y contesta que hace la orden 'TUNNEL DESTINATION 10.0.0.2' ...",
+        "code": "int tunnel 1\nIPV6 add 2001:A:A:A::1/64\nIPV6 enable\nTunnel Source s0/3/0\nTunnel destination 10.0.0.2\ntunnel mode ipv6ip",
+        "respuestas": [
+            { "opcion": "a.", "texto": "IPv4 del router de origen, no tiene que existir físicamente en el serial 0/3/0 sino únicamente en la configuración del tunnel", "correcta": false },
+            { "opcion": "b.", "texto": "IPv4 del router de origen, tiene que existir físicamente en el serial 0/3/0", "correcta": false },
+            { "opcion": "c.", "texto": "IPv4 del router de destino, tiene que existir físicamente en el serial 0/3/0", "correcta": true },
+            { "opcion": "d.", "texto": "IPv4 del router de destino, no tiene que existir físicamente en el serial 0/3/0 sino únicamente en la configuración del tunnel", "correcta": false }
+        ]
+    }
+]

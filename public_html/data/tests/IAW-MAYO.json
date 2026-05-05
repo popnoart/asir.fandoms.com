@@ -1,0 +1,182 @@
+[
+    {
+        "enunciado": "¿Qué significa AJAX en el desarrollo web?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Automated JSON and XML", "correcta": false },
+            { "opcion": "b.", "texto": "Asynchronous JavaScript and XML", "correcta": true },
+            { "opcion": "c.", "texto": "Autority JavaScript and XHTML", "correcta": false },
+            { "opcion": "d.", "texto": "Advanced JavaScript and XHTML", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál es el propósito principal de AJAX en el desarrollo web?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Realizar solicitudes asíncronas al servidor sin recargar toda la página", "correcta": true },
+            { "opcion": "b.", "texto": "Mejorar la seguridad del sitio web", "correcta": false },
+            { "opcion": "c.", "texto": "Mejorar el rendimiento del procesador", "correcta": false },
+            { "opcion": "d.", "texto": "Optimizar el rendimiento del navegador", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "¿Qué objeto de JavaScript se utiliza para realizar solicitudes AJAX?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "JSONParser", "correcta": false },
+            { "opcion": "b.", "texto": "XMLHttpRequest", "correcta": true },
+            { "opcion": "c.", "texto": "Submit", "correcta": false },
+            { "opcion": "d.", "texto": "HTMLRequest", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "¿Qué función de JavaScript se utiliza para manejar las respuestas de una solicitud AJAX?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "onRelease", "correcta": false },
+            { "opcion": "b.", "texto": "onreadystatechange", "correcta": true },
+            { "opcion": "c.", "texto": "onReceive", "correcta": false },
+            { "opcion": "d.", "texto": "onResponse", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "¿Qué método de XMLHttpRequest se utiliza para enviar una solicitud al servidor?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "sendRequest()", "correcta": false },
+            { "opcion": "b.", "texto": "set()", "correcta": false },
+            { "opcion": "c.", "texto": "send()", "correcta": true },
+            { "opcion": "d.", "texto": "open()", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál es el formato de datos comúnmente utilizado para intercambiar información entre el cliente y el servidor en aplicaciones AJAX?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "JSON", "correcta": true },
+            { "opcion": "b.", "texto": "JS", "correcta": false },
+            { "opcion": "c.", "texto": "XML", "correcta": false },
+            { "opcion": "d.", "texto": "HTML", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "¿Qué significa el término \"callback\" en el contexto de las solicitudes AJAX?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Una función que se ejecuta después de que se completa una solicitud AJAX", "correcta": true },
+            { "opcion": "b.", "texto": "Una función que se ejecuta cuando se inicia una solicitud AJAX", "correcta": false },
+            { "opcion": "c.", "texto": "Una propiedad que se ejecuta después de que se completa una solicitud AJAX", "correcta": false },
+            { "opcion": "d.", "texto": "Una propiedad que se ejecuta cuando se inicia una solicitud AJAX", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "Para visualizar un nodo creado desde Javascript se utiliza el método:",
+        "respuestas": [
+            { "opcion": "a.", "texto": "set()", "correcta": false },
+            { "opcion": "b.", "texto": "getElementById()", "correcta": false },
+            { "opcion": "c.", "texto": "appendChild()", "correcta": true },
+            { "opcion": "d.", "texto": "appendchild", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "¿Se puede eliminar un nodo con la orden deletenode()?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "No", "correcta": true },
+            { "opcion": "b.", "texto": "delnode()", "correcta": false },
+            { "opcion": "c.", "texto": "Si", "correcta": false },
+            { "opcion": "d.", "texto": "Si, pero solo el último declarado", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "Un archivo JSON es:",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Un objeto", "correcta": false },
+            { "opcion": "b.", "texto": "Una dotación octal de objetos", "correcta": true },
+            { "opcion": "c.", "texto": "No es una dotación octal de objetos", "correcta": false },
+            { "opcion": "d.", "texto": "Una variable de tipo colección de datos", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "¿Qué significa JSON?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "JavaScript Object Notation", "correcta": true },
+            { "opcion": "b.", "texto": "avaScript Object Notation Notafication", "correcta": false },
+            { "opcion": "c.", "texto": "Data Object Notation", "correcta": false },
+            { "opcion": "d.", "texto": "avaScript Object Note", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "¿Para qué se utiliza el método appendChild()?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Para agregar un nuevo nodo", "correcta": false },
+            { "opcion": "b.", "texto": "Para visualizar un nuevo nodo", "correcta": true },
+            { "opcion": "c.", "texto": "Para modificar un nodo", "correcta": false },
+            { "opcion": "d.", "texto": "Para eliminar un nodo", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "¿Qué es un nodo en el contexto de JavaScript y el DOM?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Representa un elemento", "correcta": true },
+            { "opcion": "b.", "texto": "Una función para manipular eventos", "correcta": false },
+            { "opcion": "c.", "texto": "Un atributo CSS", "correcta": false },
+            { "opcion": "d.", "texto": "Una función para manipular eventos", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "XML se utiliza para:",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Permite dibujar datos", "correcta": false },
+            { "opcion": "b.", "texto": "Crear la arquitectura web de un sitio", "correcta": false },
+            { "opcion": "c.", "texto": "Crear la arquitectura de un documento html", "correcta": false },
+            { "opcion": "d.", "texto": "Estructurar un documento visualmente", "correcta": true }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál de las siguientes opciones es un ejemplo válido de un objeto JSON?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "{\"name\":\"juan\",\"age:30\"}", "correcta": false },
+            { "opcion": "b.", "texto": "{name:\"juan\",age:30}", "correcta": false },
+            { "opcion": "c.", "texto": "{\"name\":\"juan\",age:30}", "correcta": false },
+            { "opcion": "d.", "texto": "{\"name\":\"juan\",\"age\":30}", "correcta": true }
+        ]
+    },
+    {
+        "enunciado": "¿Para qué se utiliza el método InnerHML?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Crear un archivo XML", "correcta": false },
+            { "opcion": "b.", "texto": "Crear un archivo JSON", "correcta": false },
+            { "opcion": "c.", "texto": "Agregar texto a un elemento", "correcta": true },
+            { "opcion": "d.", "texto": "Crear un nodo de imagen", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "¿Para qué se utiliza el método: newXMLHttpRequest()?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Permite crear un nodo XML", "correcta": false },
+            { "opcion": "b.", "texto": "Permite acceder a un archivo JSON", "correcta": false },
+            { "opcion": "c.", "texto": "Permite navegar y manipular datos XML", "correcta": false },
+            { "opcion": "d.", "texto": "Permite trabajar con datos XML", "correcta": true }
+        ]
+    },
+    {
+        "enunciado": "JSON es un lenguaje que trabaja con",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Dotación octal de objetos", "correcta": true },
+            { "opcion": "b.", "texto": "Colección de variables", "correcta": false },
+            { "opcion": "c.", "texto": "Es una dotación de datos", "correcta": false },
+            { "opcion": "d.", "texto": "Colección de métodos", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "El método getElementById(), se utiliza para:",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Modificar un nodo", "correcta": false },
+            { "opcion": "b.", "texto": "Agregar un nodo nuevo", "correcta": false },
+            { "opcion": "c.", "texto": "Eliminar un nodo", "correcta": false },
+            { "opcion": "d.", "texto": "Seleccionar y manipular un elemento HTML", "correcta": true }
+        ]
+    },
+    {
+        "enunciado": "Una conexión asincrónica:",
+        "respuestas": [
+            { "opcion": "a.", "texto": "las operaciones se ejecutan de manera independiente con necesidad de actualización", "correcta": false },
+            { "opcion": "b.", "texto": "Es un tipo de petición", "correcta": false },
+            { "opcion": "c.", "texto": "las operaciones se ejecutan de manera independiente sin necesidad de actualización", "correcta": true },
+            { "opcion": "d.", "texto": "las operaciones no se ejecutan de manera independiente sin necesidad de actualización", "correcta": false }
+        ]
+    }
+]

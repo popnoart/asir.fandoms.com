@@ -964,6 +964,12 @@
                 "start": "",
                 "end": "",
                 "name": "AUTOEVALUACIÓN FEBRERO"
+            },
+            "IAW-MAYO": {
+                "type": "Cuestionario",
+                "start": "",
+                "end": "",
+                "name": "AUTOEVALUACIÓN MAYO"
             }
         },
         "notes": {
@@ -1840,6 +1846,12 @@
                 "start": "",
                 "end": "",
                 "name": "Repaso previo 3ª autoevaluación"
+            },
+            "SRI-MAYO": {
+                "type": "Cuestionario",
+                "start": "",
+                "end": "",
+                "name": "AUTOEVALUACIÓN MAYO"
             }
         },
         "notes": {
