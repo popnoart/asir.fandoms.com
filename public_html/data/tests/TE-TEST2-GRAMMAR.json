@@ -1,0 +1,267 @@
+[
+    {
+        "enunciado": "If the company had invested more in security, it ______ the cyberattack.",
+        "respuestas": [
+            { "opcion": "a.", "texto": "avoided", "correcta": false },
+            { "opcion": "b.", "texto": "would avoid", "correcta": false },
+            { "opcion": "c.", "texto": "would have avoided", "correcta": true },
+            { "opcion": "d.", "texto": "had avoided", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "The data ______ every evening automatically.",
+        "respuestas": [
+            { "opcion": "a.", "texto": "backs up", "correcta": false },
+            { "opcion": "b.", "texto": "is backed up", "correcta": true },
+            { "opcion": "c.", "texto": "backed up", "correcta": false },
+            { "opcion": "d.", "texto": "backing up", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "At this time next week, they ______ the final tests.",
+        "respuestas": [
+            { "opcion": "a.", "texto": "complete", "correcta": false },
+            { "opcion": "b.", "texto": "completed", "correcta": false },
+            { "opcion": "c.", "texto": "will be completing", "correcta": true },
+            { "opcion": "d.", "texto": "have completed", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "She asked me where I ______ the previous day.",
+        "respuestas": [
+            { "opcion": "a.", "texto": "was", "correcta": false },
+            { "opcion": "b.", "texto": "had been", "correcta": true },
+            { "opcion": "c.", "texto": "have been", "correcta": false },
+            { "opcion": "d.", "texto": "am", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "The employee, ______ laptop was stolen, informed the police.",
+        "respuestas": [
+            { "opcion": "a.", "texto": "who", "correcta": false },
+            { "opcion": "b.", "texto": "which", "correcta": false },
+            { "opcion": "c.", "texto": "where", "correcta": false },
+            { "opcion": "d.", "texto": "whose", "correcta": true }
+        ]
+    },
+    {
+        "enunciado": "You ______ interrupt people during a formal presentation.",
+        "respuestas": [
+            { "opcion": "a.", "texto": "shouldn't", "correcta": true },
+            { "opcion": "b.", "texto": "should", "correcta": false },
+            { "opcion": "c.", "texto": "may", "correcta": false },
+            { "opcion": "d.", "texto": "can", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "We haven't had ______ complaints from customers this month.",
+        "respuestas": [
+            { "opcion": "a.", "texto": "much", "correcta": false },
+            { "opcion": "b.", "texto": "many", "correcta": true }
+        ]
+    },
+    {
+        "enunciado": "By the end of this year, the company ______ more than 500 people.",
+        "respuestas": [
+            { "opcion": "a.", "texto": "employs", "correcta": false },
+            { "opcion": "b.", "texto": "employed", "correcta": false },
+            { "opcion": "c.", "texto": "will have employed", "correcta": true },
+            { "opcion": "d.", "texto": "is employing", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "He is not used to ______ in such a large office.",
+        "respuestas": [
+            { "opcion": "a.", "texto": "work", "correcta": false },
+            { "opcion": "b.", "texto": "to work", "correcta": false },
+            { "opcion": "c.", "texto": "working", "correcta": true },
+            { "opcion": "d.", "texto": "worked", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "The project was delayed ______ technical difficulties.",
+        "respuestas": [
+            { "opcion": "a.", "texto": "because", "correcta": false },
+            { "opcion": "b.", "texto": "because of", "correcta": true },
+            { "opcion": "c.", "texto": "however", "correcta": false },
+            { "opcion": "d.", "texto": "although", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "This is the factory ______ the parts are produced.",
+        "respuestas": [
+            { "opcion": "a.", "texto": "who", "correcta": false },
+            { "opcion": "b.", "texto": "where", "correcta": true },
+            { "opcion": "c.", "texto": "which", "correcta": false },
+            { "opcion": "d.", "texto": "whose", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "The manager said that the team ______ the task successfully.",
+        "respuestas": [
+            { "opcion": "a.", "texto": "completed", "correcta": false },
+            { "opcion": "b.", "texto": "had completed", "correcta": true },
+            { "opcion": "c.", "texto": "completes", "correcta": false },
+            { "opcion": "d.", "texto": "has completed", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "The new policy is ______ strict than the old one.",
+        "respuestas": [
+            { "opcion": "a.", "texto": "more", "correcta": true },
+            { "opcion": "b.", "texto": "much", "correcta": false },
+            { "opcion": "c.", "texto": "many", "correcta": false },
+            { "opcion": "d.", "texto": "most", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "I wish the office ______ closer to my house.",
+        "respuestas": [
+            { "opcion": "a.", "texto": "is", "correcta": false },
+            { "opcion": "b.", "texto": "was", "correcta": false },
+            { "opcion": "c.", "texto": "were", "correcta": true }
+        ]
+    },
+    {
+        "enunciado": "They suggested ______ a new database system.",
+        "respuestas": [
+            { "opcion": "a.", "texto": "install", "correcta": false },
+            { "opcion": "b.", "texto": "to install", "correcta": false },
+            { "opcion": "c.", "texto": "installing", "correcta": true },
+            { "opcion": "d.", "texto": "installed", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "The computers ______ by the technicians tomorrow morning.",
+        "respuestas": [
+            { "opcion": "a.", "texto": "repair", "correcta": false },
+            { "opcion": "b.", "texto": "repaired", "correcta": false },
+            { "opcion": "c.", "texto": "will repair", "correcta": false },
+            { "opcion": "d.", "texto": "will be repaired", "correcta": true }
+        ]
+    },
+    {
+        "enunciado": "She has been working here ______ six months.",
+        "respuestas": [
+            { "opcion": "a.", "texto": "since", "correcta": false },
+            { "opcion": "b.", "texto": "for", "correcta": true },
+            { "opcion": "c.", "texto": "ago", "correcta": false },
+            { "opcion": "d.", "texto": "during", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "Unless we leave now, we ______ late for the conference.",
+        "respuestas": [
+            { "opcion": "a.", "texto": "are", "correcta": false },
+            { "opcion": "b.", "texto": "were", "correcta": false },
+            { "opcion": "c.", "texto": "will be", "correcta": true },
+            { "opcion": "d.", "texto": "would be", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "He speaks English fluently, ______ he still makes small mistakes.",
+        "respuestas": [
+            { "opcion": "a.", "texto": "because", "correcta": false },
+            { "opcion": "b.", "texto": "so", "correcta": false },
+            { "opcion": "c.", "texto": "although", "correcta": false },
+            { "opcion": "d.", "texto": "however", "correcta": true }
+        ]
+    },
+    {
+        "enunciado": "I am responsible ______ updating the website.",
+        "respuestas": [
+            { "opcion": "a.", "texto": "in", "correcta": false },
+            { "opcion": "b.", "texto": "on", "correcta": false },
+            { "opcion": "c.", "texto": "for", "correcta": true },
+            { "opcion": "d.", "texto": "at", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "The new software is one of ______ applications on the market.",
+        "respuestas": [
+            { "opcion": "a.", "texto": "better", "correcta": false },
+            { "opcion": "b.", "texto": "the better", "correcta": false },
+            { "opcion": "c.", "texto": "best", "correcta": false },
+            { "opcion": "d.", "texto": "the best", "correcta": true }
+        ]
+    },
+    {
+        "enunciado": "She admitted ______ the wrong file.",
+        "respuestas": [
+            { "opcion": "a.", "texto": "send", "correcta": false },
+            { "opcion": "b.", "texto": "to send", "correcta": false },
+            { "opcion": "c.", "texto": "sending", "correcta": true },
+            { "opcion": "d.", "texto": "sent", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "We ______ for the bus when it started raining.",
+        "respuestas": [
+            { "opcion": "a.", "texto": "waited", "correcta": false },
+            { "opcion": "b.", "texto": "were waiting", "correcta": true },
+            { "opcion": "c.", "texto": "wait", "correcta": false },
+            { "opcion": "d.", "texto": "have waited", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "If I were you, I ______ contact technical support.",
+        "respuestas": [
+            { "opcion": "a.", "texto": "will", "correcta": false },
+            { "opcion": "b.", "texto": "would", "correcta": true },
+            { "opcion": "c.", "texto": "can", "correcta": false },
+            { "opcion": "d.", "texto": "should to", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "The company has reduced costs ______ improving efficiency.",
+        "respuestas": [
+            { "opcion": "a.", "texto": "by", "correcta": true },
+            { "opcion": "b.", "texto": "for", "correcta": false },
+            { "opcion": "c.", "texto": "with", "correcta": false },
+            { "opcion": "d.", "texto": "from", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "He asked whether the documents ______ already.",
+        "respuestas": [
+            { "opcion": "a.", "texto": "printed", "correcta": false },
+            { "opcion": "b.", "texto": "had been printed", "correcta": true },
+            { "opcion": "c.", "texto": "have printed", "correcta": false },
+            { "opcion": "d.", "texto": "are printed", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "The meeting ______ before we reached the office.",
+        "respuestas": [
+            { "opcion": "a.", "texto": "starts", "correcta": false },
+            { "opcion": "b.", "texto": "started", "correcta": false },
+            { "opcion": "c.", "texto": "had started", "correcta": true },
+            { "opcion": "d.", "texto": "has started", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "She is interested ______ artificial intelligence.",
+        "respuestas": [
+            { "opcion": "a.", "texto": "on", "correcta": false },
+            { "opcion": "b.", "texto": "in", "correcta": true }
+        ]
+    },
+    {
+        "enunciado": "Despite ______ very busy, he finished the report on time.",
+        "respuestas": [
+            { "opcion": "a.", "texto": "be", "correcta": false },
+            { "opcion": "b.", "texto": "to be", "correcta": false },
+            { "opcion": "c.", "texto": "being", "correcta": true },
+            { "opcion": "d.", "texto": "been", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "The training course was ______ useful than I expected.",
+        "respuestas": [
+            { "opcion": "a.", "texto": "much more", "correcta": true },
+            { "opcion": "b.", "texto": "more much", "correcta": false },
+            { "opcion": "c.", "texto": "many more", "correcta": false },
+            { "opcion": "d.", "texto": "most more", "correcta": false }
+        ]
+    }
+]
