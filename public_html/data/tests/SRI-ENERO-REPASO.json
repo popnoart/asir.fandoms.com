@@ -286,12 +286,12 @@
             {
                 "opcion": "B",
                 "texto": "El error es que falta la encapsulación dot1q",
-                "correcta": true
+                "correcta": false
             },
             {
                 "opcion": "C",
                 "texto": "La IP no puede terminar en .0",
-                "correcta": false
+                "correcta": true
             },
             {
                 "opcion": "D",
