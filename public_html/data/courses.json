@@ -1263,6 +1263,18 @@
                 "folder_number": 2,
                 "name": "Unidad 6 Seguridad en redes corporativas: VPN",
                 "link": "https://drive.google.com/file/d/1_iv_xWrJj9qW9gcZIsqC2NpafLIdLSe4/view?usp=sharing"
+            },
+            "SAD-17": {
+                "folder": 0,
+                "folder_number": 2,
+                "name": "Unidad 7 Herramientas para alta disponibilidad: copias de seguridad. SAIS",
+                "link": "https://drive.google.com/file/d/1Q6giEVyMWGvK35_uC4hlx_9Y9MEBsL58/view?usp=sharing"
+            },
+            "SAD-18": {
+                "folder": 0,
+                "folder_number": 2,
+                "name": "Unidad 8 Legislación y normas sobre seguridad de la información",
+                "link": "https://drive.google.com/file/d/1CelB8lRTeZVToPM4GZBeGn50pNTTxSpO/view?usp=sharing"
             }
         },
         "units-alt": {
@@ -1331,6 +1343,12 @@
                 "start": "22-04-2026 12:00",
                 "end": "20-05-2026 23:59",
                 "name": "Tarea 6. Copias de seguridad (RA6) - OBLIGATORIA"
+            },
+            "23796": {
+                "type": "Obligatoria",
+                "start": "06-05-2026 20:00",
+                "end": "20-05-2026 23:59",
+                "name": "Tarea 7. Aplicación del RGPD (RA7) - OBLIGATORIA"
             }
         },
         "tests": {
