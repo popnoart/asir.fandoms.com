@@ -1,4 +1,5 @@
 BACKUP/
+ESTUDIO/
 storage/logs/*
 storage/logs/.gitkeep
 storage/temp/
