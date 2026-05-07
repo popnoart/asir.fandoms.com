@@ -1,0 +1,242 @@
+[
+    {
+        "enunciado": "Las controladoras RAID 5 permiten:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Dividir la información entre dos discos duros y tener uno más para la redundancia, de forma que se van rotando los tres discos mínimos",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Disponer de dos copias en tiempo real en dos discos duros ",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Dividir la información de cada archivo entre dos discos duros consiguiendo más velocidad",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Ninguna es correcta",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Marca los problemas que creas que soluciona un SAI:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Calentamiento excesivo de la fuente de alimentación",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Prolongado corte de suministro",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Breve corte de suministro",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Calentamiento excesivo de la CPU",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "En referencia a las copias de seguridad de un Sistema Operativo, restaurar una imagen significa:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Restaurar un archivo de la Papelera de Reciclaje",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Recuperar una copia de seguridad de archivos y documentos.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Recuperar todos los controladores al estado de fábrica.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Restaurar el S.O. mediante un archivo de imagen creado anteriormente.",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "Para mantener constante la temperatura, ¿podemos abrir las ventanas de la habitación dónde se encuentren los equipos?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Sólo si hace calor.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": " No, en ningún caso. ",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Sí, si la temperatura del CPD así lo aconseja.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Sí, porque conseguiremos que baje la temperatura. ",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Un SAI permite seguir trabajando con normalidad durante un apagón (corto período de tiempo):",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Falso",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Verdadero",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "Una copia de seguridad o backup es:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Realizar el borrado de archivos importantes del sistema operativo.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Copiar todos los archivos en otro dispositivo.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Un respaldo de la información que tenemos en un archivo.",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Ninguna es correcta",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Marca cual es el concepto correcto de clonar un disco completo",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Ninguna es correcta",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Se copian todas las particiones existentes en el disco duro y la tabla de particiones, pero no se puede utilizar el disco clonado de forma similar al original",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Se copian todas las particiones existentes en el disco duro pero no se copia la tabla de particiones",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Se copian todas las particiones existentes en el disco duro y la tabla de particiones, pudiendo utilizar el disco clonado de forma similar al original",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "Las controladoras RAID 0 permiten:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Disponer de dos copias en tiempo real en dos discos duros",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Ninguna es correcta",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Disponer de dos discos completos extendidos en capacidad",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Dividir la información de cada archivo entre dos discos duros consiguiendo más velocidad",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Un CPD debe tener previsto y seguir funcionando ante un apagón general?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "No, en ningún caso. ",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "No necesariamente, dependerá del objetivo empresarial y del nivel crítico de los datos a proteger. ",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Con disponer de un SAI potente sería suficiente.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Sí, siempre debe disponer de un generador eléctrico industrial.",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "Las controladoras RAID 1 permiten:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Disponer de dos copias en tiempo real en dos discos duros ",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Disponer de dos discos completos extendidos en capacidad",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Dividir la información de cada archivo entre dos discos duros consiguiendo más velocidad",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Ninguna es correcta",
+                "correcta": false
+            }
+        ]
+    }
+]
