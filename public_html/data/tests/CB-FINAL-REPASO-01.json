@@ -25,7 +25,8 @@
         ]
     },
     {
-        "enunciado": "¿Encuentras algún error en el siguiente código? ip nat pool 5 10.0.0.2 10.0.0.1 netmask 255.255.255.0 ... access-list 2 permit 192.168.30.0 0.0.0.255 access-list 7 permit 192.168.30.0 0.0.0.255",
+        "enunciado": "¿Encuentras algún error en el siguiente código? 5",
+        "code": "ip nat pool 5 10.0.0.2 10.0.0.1 netmask 255.255.255.0\nip nat inside source list 1 interface Serial0/3/0 overload\nip nat inside source list 5 pool 5 overload\nip nat inside static 192.168.30.5 192.168.30.200\naccess-list 2 permit 192.168.30.0 0.0.0.255\naccess-list 7 permit 192.168.30.0 0.0.0.255",
         "respuestas": [
             {
                 "opcion": "a.",
@@ -125,7 +126,8 @@
         ]
     },
     {
-        "enunciado": "Escribe las órdenes para enrutar por EIGRP la siguiente red (Router0 con redes 192.168.1.0, 10.0.0.0, 20.0.0.0)",
+        "enunciado": "Escribe las órdenes para enrutar por EIGRP la siguiente red",
+        "imagen" : "CB-FINAL-REPASO-01_01.png",
         "respuestas": [
             {
                 "opcion": "a.",
@@ -150,7 +152,8 @@
         ]
     },
     {
-        "enunciado": "Enruta por EIGRP la siguiente topología (Router0 con redes 192.168.1.64, 192.168.1.32) ¿cuál es la opción correcta?",
+        "enunciado": "Enruta por EIGRP la siguiente topología ¿cuál es la opción correcta?",
+        "imagen" : "CB-FINAL-REPASO-01_02.png",
         "respuestas": [
             {
                 "opcion": "a.",
