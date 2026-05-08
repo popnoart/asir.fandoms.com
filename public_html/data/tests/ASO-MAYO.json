@@ -67,8 +67,8 @@
         "respuestas": [
             {"opcion": "a.", "texto": "Ninguna es cierta", "correcta": false},
             {"opcion": "b.", "texto": "Depende de la versión de Windows Server", "correcta": false},
-            {"opcion": "c.", "texto": "Sí", "correcta": false},
-            {"opcion": "d.", "texto": "No", "correcta": true}
+            {"opcion": "c.", "texto": "Sí", "correcta": true},
+            {"opcion": "d.", "texto": "No", "correcta": false}
         ]
     },
     {
@@ -155,10 +155,10 @@
     {
         "enunciado": "Que hace la orden chgrp en Linux",
         "respuestas": [
-            {"opcion": "a.", "texto": "Agrega un usuario o grupo a un archivo o carpeta", "correcta": false},
+            {"opcion": "a.", "texto": "Agrega un usuario o grupo a un archivo o carpeta", "correcta": true},
             {"opcion": "b.", "texto": "Nos muestra la ruta de donde estamos", "correcta": false},
             {"opcion": "c.", "texto": "Es similar a la orden echo@", "correcta": false},
-            {"opcion": "d.", "texto": "Ninguna es cierta", "correcta": true}
+            {"opcion": "d.", "texto": "Ninguna es cierta", "correcta": false}
         ]
     },
     {

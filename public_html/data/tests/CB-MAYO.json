@@ -60,12 +60,12 @@
             {
                 "opcion": "b.",
                 "texto": "1024 o 2048",
-                "correcta": false
+                "correcta": true
             },
             {
                 "opcion": "c.",
                 "texto": "1024 - 2048 - 4096",
-                "correcta": true
+                "correcta": false
             },
             {
                 "opcion": "d.",

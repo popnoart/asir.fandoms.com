@@ -120,8 +120,8 @@
         "enunciado": "Las reglas de filtrado de iptables se organizan en:",
         "respuestas": [
             {"opcion": "a.", "texto": "INPUT y OUTPUT.", "correcta": false},
-            {"opcion": "b.", "texto": "INPUT, OUTPUT, FORWARD, PREROUTING y POSTROUTING", "correcta": true},
-            {"opcion": "c.", "texto": "INPUT, OUTPUT y FORWARD.", "correcta": false},
+            {"opcion": "b.", "texto": "INPUT, OUTPUT, FORWARD, PREROUTING y POSTROUTING", "correcta": false},
+            {"opcion": "c.", "texto": "INPUT, OUTPUT y FORWARD.", "correcta": true},
             {"opcion": "d.", "texto": "Ninguna es correcta.", "correcta": false}
         ]
     },

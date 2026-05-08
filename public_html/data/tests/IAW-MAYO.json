@@ -101,8 +101,8 @@
     {
         "enunciado": "¿Para qué se utiliza el método appendChild()?",
         "respuestas": [
-            { "opcion": "a.", "texto": "Para agregar un nuevo nodo", "correcta": false },
-            { "opcion": "b.", "texto": "Para visualizar un nuevo nodo", "correcta": true },
+            { "opcion": "a.", "texto": "Para agregar un nuevo nodo", "correcta": true },
+            { "opcion": "b.", "texto": "Para visualizar un nuevo nodo", "correcta": false },
             { "opcion": "c.", "texto": "Para modificar un nodo", "correcta": false },
             { "opcion": "d.", "texto": "Para eliminar un nodo", "correcta": false }
         ]
@@ -121,8 +121,8 @@
         "respuestas": [
             { "opcion": "a.", "texto": "Permite dibujar datos", "correcta": false },
             { "opcion": "b.", "texto": "Crear la arquitectura web de un sitio", "correcta": false },
-            { "opcion": "c.", "texto": "Crear la arquitectura de un documento html", "correcta": false },
-            { "opcion": "d.", "texto": "Estructurar un documento visualmente", "correcta": true }
+            { "opcion": "c.", "texto": "Crear la arquitectura de un documento html", "correcta": true },
+            { "opcion": "d.", "texto": "Estructurar un documento visualmente", "correcta": false }
         ]
     },
     {
@@ -148,8 +148,8 @@
         "respuestas": [
             { "opcion": "a.", "texto": "Permite crear un nodo XML", "correcta": false },
             { "opcion": "b.", "texto": "Permite acceder a un archivo JSON", "correcta": false },
-            { "opcion": "c.", "texto": "Permite navegar y manipular datos XML", "correcta": false },
-            { "opcion": "d.", "texto": "Permite trabajar con datos XML", "correcta": true }
+            { "opcion": "c.", "texto": "Permite navegar y manipular datos XML", "correcta": true },
+            { "opcion": "d.", "texto": "Permite trabajar con datos XML", "correcta": false }
         ]
     },
     {
