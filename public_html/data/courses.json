@@ -552,6 +552,18 @@
                 "start": "",
                 "end": "",
                 "name": "AUTOEVALUACIÓN MAYO"
+            },
+            "CB-FINAL-REPASO-01": {
+                "type": "Cuestionario",
+                "start": "",
+                "end": "",
+                "name": "Test 3 repaso final"
+            },
+            "CB-FINAL-REPASO-02": {
+                "type": "Cuestionario",
+                "start": "",
+                "end": "",
+                "name": "Test 4 repaso final"
             }
         },
         "notes": {

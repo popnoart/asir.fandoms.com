@@ -1,0 +1,204 @@
+```json
+[
+    {
+        "enunciado": "Para que se utilizan los puertos VTY 0 4",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Para VLAN",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Para conexiones remotas SSH o Telnet",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Guarda configuración de las contraseñas remotas",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Para administración local por consola",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Cuando se teclea la orden 'crypto key generate rsa' ¿qué pregunta inmediatamente después Cisco?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Username nombre del router privilege 15 y asignamos la contraseña",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Login local",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Elegir tamaño de las claves",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Login vty 0 4",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál es la VLAN e ip que trae por defecto el ASA 5505 en Cisco?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "VLAN 1 y tendríamos que configurar la IP",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "VLAN 1 con la IP 192.168.1.1 ya asignada",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "No trae ninguna VLAN configurada, tendría que configurarlo el administrador",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "VLAN 100 con IP 10.0.0.1",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué orden se debe escribir para incomunicar el DMZ con la VLAN 1 de seguridad 100?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "DENY DMZ VLAN 1",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "NO FORWARD int vlan 1",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "BLOCK int vlan 1",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "DROP DMZ to VLAN 1",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "En el ASA se ha configurado el código necesario para establecer conectividad entre la seguridad 100 y la seguridad 0, sin embargo, el DMZ con seguridad 50 no tiene comunicación con la seguridad 0 ¿Cuál crees que puede ser la causa?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Hace falta escribir en la salida donde esté conectado el DMZ: Switchport Access vlan 3",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Falta configurar el routing entre VLANs",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "El ASA no permite DMZ con seguridad 50",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Problema con la tabla ARP",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Se han dado de alta usuarios en un ASA para conectarse con servidores web, sin embargo, no funciona, el sistema nos informa que contraseña incorrecta. ¿Cómo podrías arreglarlo?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Reiniciar el servicio webvpn",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Eliminar la línea 'username usuario password xxxxx' y volver a escribir el usuario con una contraseña nueva",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Cambiar el grupo de políticas",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Actualizar el firmware del ASA",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "En el ASA se ha configurado un DMZ con una VLAN (3) con el código necesario para conectarse con la seguridad 0, sin embargo, el DMZ no funciona, ¿Cuál puede ser la causa?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "No se ha dado de alta la contraseña",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Falta asignar la VLAN a la salida del ASA donde está conectado el DMZ",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "La VLAN (3) está mal configurada",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Encuentras algún error en la siguiente configuración EIGRP para IPv6 teniendo en cuenta que queremos conectividad con todos los equipos? (Router eigrp 10, network 192.168.1.0, network 10.0.0.0, ipv6 router eigrp 2, eigrp router-id 2.2.2.2, int fa0/0: ipv6 eigrp 2, int s0/3/0: ipv6 eigrp 2)",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Falta el comando 'no shutdown' en IPv6",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "El número de EIGRP para IPv6 tiene que llamarse igual que en el EIGRP de IPv4, es decir, en este caso sería 10",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "El router-id debe ser una IPv4 válida y única",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Falta configurar las redes IPv6 con 'network' bajo ipv6 router eigrp",
+                "correcta": false
+            }
+        ]
+    }
+]
+```

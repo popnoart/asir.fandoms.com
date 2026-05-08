@@ -1,0 +1,252 @@
+[
+    {
+        "enunciado": "La orden 'IP ROUTE 0.0.0.0 0.0.0.0 s0/0/0' desde el punto de vista de seguridad, ¿es efectiva para proteger los datos de una empresa? SI o NO, explica por qué.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Sí, porque redirige todo el tráfico a una interfaz segura.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "No, porque permite que cualquier persona pueda acceder a los equipos.",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Sí, porque la ruta por defecto oculta la red interna.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "No, porque esa orden no tiene efecto en la seguridad.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Encuentras algún error en el siguiente código? ip nat pool 5 10.0.0.2 10.0.0.1 netmask 255.255.255.0 ... access-list 2 permit 192.168.30.0 0.0.0.255 access-list 7 permit 192.168.30.0 0.0.0.255",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "El error está en el comando ip nat pool por orden inverso de direcciones.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "El error es que falta el comando 'ip nat inside' en las interfaces.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Lo correcto sería access-list 5 permit 192.168.30.0 0.0.0.255 y access-list 1 permit 192.168.30.0 0.0.0.255",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "El error es usar netmask en lugar de subnet mask.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "En un Switch de 3 capas es necesario introducir una orden para poder enrutar ¿Cuál es?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "enable routing",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "ip routing",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "router eigrp",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "no switchport",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Es compatible SSH en un Switch de 3 capas?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Sí",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "No",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Solo en versiones antiguas",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Solo si tiene módulo adicional",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "En un Switch de doble capa se ha configurado un SSH, el PC que se conecta a la salida del Switch para conexión remota, ¿tiene comunicación con el resto de la red?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Sí",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "No",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Solo si el Switch tiene IP routing",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Depende del VLAN configurado",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Escribe las órdenes para enrutar por EIGRP la siguiente red (Router0 con redes 192.168.1.0, 10.0.0.0, 20.0.0.0)",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "router eigrp 10\nnetwork 192.168.1.0\nnetwork 10.0.0.0\nnetwork 20.0.0.0",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "router eigrp 1\nnetwork 192.168.1.0 255.255.255.0",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "ip eigrp 10\nred 192.168.1.0\nred 10.0.0.0",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "router eigrp 100\nnetwork 0.0.0.0",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Enruta por EIGRP la siguiente topología (Router0 con redes 192.168.1.64, 192.168.1.32) ¿cuál es la opción correcta?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Eigrp 10\nNetwork 192.168.1.0\nNetwork 192.168.1.122\nNetwork 192.1681.226",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Eigrp 10\nNetwork 192.168.1.0",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Eigrp 20\nNetwork 192.168.1.0 255.255.255.0",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Eigrp 10\nNetwork 192.168.1.64\nNetwork 192.168.1.32",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Cuando se deniega a un PC en IPv6, ¿es bidireccional?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Sí, siempre",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "No, si se escribe el código de denegar únicamente en un solo router, el de origen",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Sí, porque IPv6 lo permite por defecto",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Depende del tipo de ACL",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Escribe las órdenes para conectarse remotamente desde un PC a un router con SSH. Username: papel, Contraseña: ochenta, IP: 192.168.20.1",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "ssh papel@192.168.20.1\nochenta",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "ssh -l papel 192.168.20.1\nPassword: ochenta",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "connect ssh papel 192.168.20.1 ochenta",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "telnet 192.168.20.1\nlogin: papel\npassword: ochenta",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Se ha configurado la denegación de tráfico entre dos máquinas, funciona. Luego se deniega otro PC en el mismo router pero no funciona. ¿Cuál puede ser la causa?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Es necesario crear un Access-list nueva",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Suprimir Permit ip any any y volver a escribir la orden",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Reiniciar el router",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Ninguna es correcta",
+                "correcta": false
+            }
+        ]
+    }
+]
