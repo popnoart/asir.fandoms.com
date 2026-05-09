@@ -1,0 +1,1585 @@
+[
+    {
+        "enunciado": "RA1: ¿Recién instalado un Windows Server 2019 en modo local con las opciones predeterminadas pertenece a algún dominio?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Sí, pertenece al dominio local por defecto",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "No",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Sí, pero solo si se eligió la opción de dominio durante la instalación",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Sí, automáticamente se une a un dominio ficticio",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA1: Instalas dos sistemas operativos Windows 10 cada uno de ellos como es lógico en su PC correspondiente. El primer PC tiene la IP 192.168.1.2 el segundo PC tiene la IP 192.168.1.3 ¿por defecto pueden conectarse en red?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Sí, porque están en la misma subred",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Sí, automáticamente al tener IPs válidas",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "No",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Solo si se configuran con puerta de enlace manual",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA1: ¿Puede degradarse un Controlador de dominio?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "No, una vez controlador siempre controlador",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Sí, pero solo si se reinstala el sistema operativo",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Si",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Solo en versiones Enterprise",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA1: Al crear un usuario en Windows Server ¿por defecto el usuario puede iniciar sesión localmente en la misma máquina donde está instalado el servidor?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Sí, siempre por defecto",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "No",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Sí, si es administrador",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Depende de la versión de Windows Server",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA1: ¿Se puede configurar Windows Server para que un usuario del dominio sin pertenecer a grupos importantes pueda iniciar sesión en Windows Server?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Si",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "No, necesitan ser administradores del dominio",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Solo si son operadores de cuentas",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "No, está prohibido por defecto",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA1: En el historial de contraseñas de Windows Server, ¿cuál es el valor máximo que podemos configurar?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "10",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "24",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "50",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "5",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA1: ¿Se puede restringir configurando una GPO a los Administradores y a los Administradores del dominio?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "No, los administradores son inmunes a las GPO",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Sí, pero solo los del dominio",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Si",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Solo se puede restringir a usuarios normales",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA1: No disponemos de la pestaña de SEGURIDAD en Nuestro Windows Server. ¿Cuál crees que puede ser la causa?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Falta de memoria RAM",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "La instalación no se realizó con formato NTFS, quizás FAT32 o FAT16",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "El usuario no es administrador",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Windows Server no tiene pestaña de seguridad por defecto",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA1: El sistema de archivo NTFS se creó con la finalidad de:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Mayor velocidad de acceso",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Seguridad",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Compatibilidad con otros sistemas",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Compresión de archivos exclusivamente",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA1: ¿Cuáles son las características de instalar Windows Server Core?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Incluye toda la interfaz gráfica completa",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Instalaciones con recursos limitados, se utilizan para PC con poca memoria o recursos",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Es solo para servidores virtuales",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "No incluye compatibilidad de red",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA2: Un usuario puede pertenecer a dos grupos diferentes. ¿Qué sucede si un usuario pertenece a un grupo con privilegios de administrador y a otro grupo sin privilegios y otorgamos permisos a una carpeta a dicho usuario?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Siempre prevalecen los privilegios de administrador",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "El permiso más restrictivo es el que prevalece",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "El usuario no puede acceder por conflicto",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "El permiso menos restrictivo es el que prevalece",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA2: Al cambiar el nombre de un dominio en Windows Server, ¿cambia el Identificador de Seguridad (SID)?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Sí, cambia automáticamente",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "No cambia",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Solo cambia en los controladores secundarios",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Cambia si se reinicia el servidor",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA2: La relación de confianza entre dos Windows Server puede hacerse de forma:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Solo unidireccional",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Solo bidireccional",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Se puede configurar de las dos maneras: unidireccional y bidireccional",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "No se puede establecer confianza",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA2: ¿Qué sucede a las máquinas clientes si cerramos una sesión local en el servidor? Nota: se refiere a apagar el servidor (shutdown) no a un logout",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Los clientes siguen funcionando sin problemas",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Nos quedamos con los recursos locales, si nuestro trabajo depende del acceso a los recursos del servidor no podríamos trabajar",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Los clientes se apagan automáticamente",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Los clientes pierden su configuración de red",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA2: ¿Qué se consigue con el permiso 'toma de posesión'?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Leer archivos temporalmente",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Ser dueños y señores de la carpeta una vez que hemos tomado posesión de la carpeta o del archivo",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Compartir archivos en red",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Eliminar archivos sin permiso",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA2: ¿Qué hace el comando 'Attrib +r'?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Elimina atributo de lectura",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Asigna atributo de lectura",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Oculta el archivo",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Asigna atributo de sistema",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA2: ¿Qué hace el comando 'Attrib -h'?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Elimina atributo de lectura",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Quita atributo de oculto",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Oculta el archivo",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Asigna atributo de sistema",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA2: ¿Qué hace el comando 'Attrib -r -h'?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Elimina atributo de lectura",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Asigna atributo de lectura",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Oculta el archivo",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Quita atributo de lectura y oculto",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "RA2: ¿Qué hace el comando 'Attrib +s'?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Elimina atributo de lectura",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Asigna atributo de lectura",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Oculta el archivo",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Asigna atributo de sistema",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "RA2: La MAC de un equipo está compuesta por ¿Cuántos bits?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "24 bits",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "32 bits",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "48 bits",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "64 bits",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA2: ¿Qué representan los primeros 3 pares de datos de una dirección MAC?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "El número de serie del dispositivo",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "El fabricante (OUI - Organizationally Unique Identifier)",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "El modelo del hardware",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "La versión del firmware",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA2: ¿Qué representan los últimos 3 pares de datos de una dirección MAC?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "El código del país de origen",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "El identificador del fabricante",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "El número de serie único del dispositivo (NIC - Network Interface Controller)",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "La versión del protocolo de red",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA3: ¿Cómo comienza un script en Ubuntu?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "#!/bin/bash",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "#!/bash",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "#!/bin/",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Ninguna es cierta",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA3: ¿Cuántas variables se necesitan para configurar la opción 9 del siguiente menú?",
+        "imagen": "ASO-FINAL-REPASO-01_01.png",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Una variable",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Ninguna (si es listar usuarios de un grupo entonces necesitamos una variable opción 8)",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Dos variables",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Tres variables",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA3: ¿Cuántas variables se necesitan para configurar la opción 2 del siguiente menú?",
+        "imagen": "ASO-FINAL-REPASO-01_01.png",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Ninguna",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Una",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Dos",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Tres",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA3: En Linux, ¿qué se consigue con el siguiente código suponiendo que lo estamos escribiendo dentro de un script?",
+        "code": "echo 'mensaje'\nread variable\ncat /etc/group $variable",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Listar grupos",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Eliminar grupos",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Crear un grupo",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Mostrar mensaje de error",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA3: ¿Cómo se ejecuta un script en Ubuntu?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "./nombre.sh",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "nombre.sh",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "run nombre.sh",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "exec nombre.sh",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA3: El SuperUsuario crea un script en Ubuntu para los usuarios de la empresa, ¿qué tiene que hacer para que los usuarios puedan ejecutar el script?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Otorgar permisos con chmod",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Copiarlo a la carpeta del usuario",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Ejecutarlo como root",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Renombrar el script",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA3: ¿Qué orden tenemos que utilizar en Ubuntu para visualizar los permisos?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "ls -l",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "permisos",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "chmod -l",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "show permissions",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA3: ¿Qué extensión debe tener un script en Windows?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": ".sh",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": ".bat",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": ".exe",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": ".cmdline",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA3: ¿Es correcto el siguiente código para configurar un script en Windows?",
+        "code": "@echo off\nTitle mi script\n:menú\nPause\nCls\nEcho mensaje\necho 1- www.google.es\necho 2- salir\necho 3- Word\necho elegir una opción\nset \/p variable= \nif %caceres% ==1 goto opcion1\nif %caceres% ==2 goto opcion2\nif %caceres% ==3 goto opcion3\n:opcion1\nstart www.google.es\ngoto menu\n:opcion2\nexit\n:opcion3\nstart winword.exe",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "El código es completamente correcto y funcionará sin errores",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Esta línea debe ser: set /p variable=caceres",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "El error está en que 'start winword.exe' debería ser 'start word.exe' porque ese es el ejecutable real de Microsoft Word",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "El error está en que 'Pause' debería ir después de 'Cls' y no antes",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA4: ¿SSH encripta y a qué puerto pertenece?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "No encripta, puerto 23",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Sí encripta, puerto 22",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Encripta solo contraseñas, puerto 21",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Encripta, puerto 443",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA4: ¿Telnet encripta y a qué puerto pertenece?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Encripta, puerto 22",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "No encripta, puerto 23",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Encripta, puerto 443",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "No encripta, puerto 21",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA4: ¿Cuál es la orden para llamar al escritorio remoto en Windows?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "rdp",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "mstsc",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "remote",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "start rdp",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA4: El acceso remoto ¿permite realizar instalaciones y desinstalaciones en el equipo destino?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Solo permite ver la pantalla",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Permite absolutamente de todo: instalar, eliminar, editar, etc.",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Solo permite transferir archivos",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "No permite instalaciones por seguridad",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA4: ¿Cuál de las siguientes es una aplicación gratuita para acceso remoto?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "AnyDesk",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Splashtop",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "TeamViewer",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "LogMeIn Pro",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA4: ¿Cuál de las siguientes es una aplicación de pago para acceso remoto?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "TeamViewer",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Chrome Remote Desktop",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "VNC Connect",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "AnyDesk",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "RA4: ¿Encuentras algún error en el siguiente código? Nota: la respuesta no es correcta, no tiene porqué ser así",
+        "code": "Hostname valencia\nIp domain-name Valencia.es\nCrypto key generate rsa \nUsername router1 privilege 15 secret icarly 1234\nLine vty 0 4\nTransport input SSH \nLogin local",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "El comando 'Crypto key generate rsa' falta especificar el tamaño de la clave (ej: 1024)",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Falta el comando 'ip ssh version 2' para activar SSH versión 2",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Hostname valencia y Username router1 deberían ser iguales",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "El comando 'Login local' debería ir antes de 'Transport input SSH'",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA4: ¿Encuentras algún error en el siguiente código?",
+        "code": "Hostname toledo\nIp domain-name Valencia.es\nCrypto key generate rsa \nUsername toledo privilege 15 secret icarly 1234\nLine vty 0 5\nTransport input SSH \nLogin local",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "El nombre de dominio 'Valencia.es' no coincide con el hostname 'toledo'",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "La contraseña 'icarly 1234' contiene un espacio, lo que puede causar errores",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Falta el comando 'enable secret' para la contraseña de modo privilegiado",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Line vty 0 5 debería ser Line vty 0 4",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "RA4: ¿Cuál es el código para acceder por SSH a un router con el nombre de usuario 'valencia'?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "ssh valencia@ip",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "ssh -l valencia ip",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "ssh /user valencia ip",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "login valencia ip",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA4: ¿Se puede configurar accesos remotos a Switch o únicamente a router?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Solo se puede configurar en routers, los switches no permiten acceso remoto",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Solo se puede configurar en switches de gama alta, los routers no lo permiten",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Se puede acceder perfectamente tanto a un router como a un Switch, teniendo en cuenta que para acceder a un Switch se necesita crear una VLAN para poder acceder por IP",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "No se puede configurar acceso remoto en ningún dispositivo de red, solo acceso físico por consola",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA4: Escribe el código para acceder por ssh desde el Madrid donde esta JULIAN al router de CADIZ",
+        "imagen": "ASO-FINAL-REPASO-01_02.png",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Ssh -l madrid 150.150.0.1",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Ssh -l cadiz 150.150.0.2",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Ssh -l julian 150.150.0.2",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Ssh -l valencia 192.168.1.1",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA4: Escribe el código para acceder por SSH desde el equipo de ANA a su propio router de Cadiz.",
+        "imagen": "ASO-FINAL-REPASO-01_02.png",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Ssh -l ana 192.168.2.2",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Ssh -l cadiz 192.168.2.1",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Ssh -l ana 150.150.0.1",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Ssh -l router 192.168.1.1",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA5: ¿Cual es el puerto TCP estándar para impresoras de red?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "8080",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "9100",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "80",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "443",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA5: ¿Qué puerto TCP utilizan los sistemas antiguos que necesitan colas de impresión para la gestión de impresión?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "TCP 9100",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "TCP 515",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "TCP 443",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "TCP 631",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA5: ¿Qué puerto se utiliza para imprimir a través de internet o en redes locales?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "TCP 515",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "TCP 9100",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "TCP 631",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "UDP 161",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA5: ¿Cuál es el puerto físico paralelo tradicionalmente utilizado para conectar impresoras a una computadora?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "USB",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "RS-232",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "LPT1 (DB25)",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "RJ45",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA5: ¿Qué tipo de conexión se utiliza comúnmente para impresoras industriales?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "USB 3.0",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "LPT1",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "RS-232",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Thunderbolt",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA5: ¿Qué puerto y protocolo se utiliza para monitorear el estado de una impresora (como nivel de papel o tinta) sin enviar trabajos de impresión?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "TCP 443",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "UDP 161 (SNMP)",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "TCP 9100",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "UDP 631",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA5: ¿Qué puerto TCP permite imprimir de forma segura y encriptada?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "TCP 80",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "TCP 515",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "TCP 443",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "UDP 161",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA6: ¿Cuál es el nombre del archivo en Ubuntu para poder compartir recursos entre Windows y Ubuntu?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "/etc/samba/smb.conf",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "/etc/samba.conf",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "/var/samba/smb.conf",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "/etc/smb.conf",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA6: ¿Qué debemos instalar en Linux para compartir recursos con Windows?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "NFS",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Apache",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Samba",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "FTP",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA6: Para establecer red y poder compartir recursos entre Windows y Ubuntu debemos escribir, en el archivo por el que hemos preguntado antes, una línea. ¿Cuál es?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Name resolver order = lmhosts hosts wins bcast",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "wins support = yes",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "security = share",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "workgroup = WORKGROUP",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA6: Para establecer red y compartir archivos entre Windows y Linux debemos editar dos archivos de Linux ¿Cuáles son?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "/etc/network/interfaces y /etc/hostname",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "/etc/resolv.conf y /etc/hosts",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "/etc/samba/smbusers y /var/log/samba/log",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "/etc/nsswitch.conf y /etc/samba/smb.conf",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "RA7: ¿Cuales son los lenguajes de programación más populares en la actualidad (según Carlos)?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Javascript, Python, PHP",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Fortran, Python, C++",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "React, Bootstrap, Javascript",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Python, Rust, Bootstrap",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA7: ¿En qué lenguaje de programación esta escrito el office de Microsoft?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": ".NET",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Visual Basic 6.0",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "C++",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Java",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA7: ¿A qué compañía pertenece el lenguaje de programación Java?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Microsoft",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Oracle (originalmente Sun Microsystems)",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "IBM",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Google",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA7: ¿Se puede programar con cisco?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "No, solo se puede configurar mediante comandos básicos",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "No, los dispositivos Cisco no tienen capacidad de programación",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Solo se puede programar en routers, no en switches",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Sí, claro que se puede",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "RA7: ¿Qué diferencia existe entre Office estándar y Office profesional?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Office estándar tiene todas las aplicaciones excepto Access. Profesional incluye Access",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Office profesional no tiene Outlook",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Son idénticos",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Profesional incluye más memoria RAM",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA7: Convierte en letras los siguientes permisos creados con CHMOD: 217",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "- -W- --X RWX",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "- RW- R-- ---",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "- --X -W- -W-",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "- R-- --X RWX",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA7: Convierte en letras los siguientes permisos creados con CHMOD: 071",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "- --- RWX --X",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "- --- --- --X",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "- --- RW- R--",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "- --- RWX --X",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "RA7: Convierte en letras los siguientes permisos creados con CHMOD: 764",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "RWX R-- R--",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "RWX RW- R--",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "R-- RWX ---",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "RW- R-- R--",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA7: Se puede eliminar o copiar un archivo desde la consola de Windows con la orden del o copy que esta oculto.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Sí, se puede copiar y eliminar sin problemas aunque esté oculto",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "No, debemos quitar el atributo de oculto y así podremos eliminar o copiar nuestro archivo",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Sí, solo se puede copiar pero no eliminar si está oculto",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "No, los archivos ocultos nunca se pueden copiar ni eliminar ni siquiera quitando el atributo",
+                "correcta": false
+            }
+        ]
+    }
+]

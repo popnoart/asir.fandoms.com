@@ -59,7 +59,7 @@
             },
             {
                 "opcion": "b.",
-                "texto": "1024 o 2048",
+                "texto": "512 -1024- 2048- 4096",
                 "correcta": true
             },
             {
@@ -80,7 +80,7 @@
             {
                 "opcion": "a.",
                 "texto": "tcp.port==443 && tcp.port==80",
-                "correcta": true
+                "correcta": false
             },
             {
                 "opcion": "b.",
@@ -95,7 +95,7 @@
             {
                 "opcion": "d.",
                 "texto": "tcp.port==443 || tcp.port==80",
-                "correcta": false
+                "correcta": true
             }
         ]
     },
