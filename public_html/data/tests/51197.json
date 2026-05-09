@@ -1,0 +1,162 @@
+[
+    {
+        "enunciado": "¿Qué significan los derechos ARCO?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Acceso, Registro, Control y Organización.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Acceso, Rectificación, Cancelación y Oposición.",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Análisis, Revisión, Control y Optimización.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué tipo de datos requieren un nivel de seguridad alto?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Datos de salud o ideología.",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Dirección de correo electrónico.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Número de teléfono.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Quién puede ejercer los derechos ARCO?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "El propio interesado.",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Cualquier empleado de la empresa o entidad.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "El encargado del tratamiento.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué derecho permite solicitar la eliminación de datos personales?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Derecho al olvido.",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Derecho de información.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Derecho de acceso.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué significa RGPD?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Reglamento General de Procesos Digitales.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Reglamento General de Protección de Datos.",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Régimen General de Privacidad de Datos.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué tipo de datos requieren un nivel de seguridad baja?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Datos financieros.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Datos tributarios.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Nombre y apellidos.",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué es un fichero de datos personales según el RGPD?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Un conjunto organizado de datos personales.",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Archivos que almacenan información personal secreta.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Un documento de cualquier tipo que contenga datos.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué principio del RGPD indica que los datos deben ser correctos y actualizados?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Confidencialidad.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Transparencia.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Exactitud.",
+                "correcta": true
+            }
+        ]
+    }
+]

@@ -1417,6 +1417,12 @@
                 "start": "",
                 "end": "",
                 "name": "Cuestionario - Alta disponibilidad"
+            },
+            "51197": {
+                "type": "Cuestionario",
+                "start": "",
+                "end": "",
+                "name": "Cuestionario - Legislación"
             }
         },
         "notes": {
