@@ -325,7 +325,8 @@
         ]
     },
     {
-        "enunciado": "RA2: ¿Qué sucede a las máquinas clientes si cerramos una sesión local en el servidor? Nota: se refiere a apagar el servidor (shutdown) no a un logout",
+        "enunciado": "RA2: ¿Qué sucede a las máquinas clientes si cerramos una sesión local en el servidor?",
+        "note": "Se refiere a apagar el servidor (shutdown) no a un logout",
         "respuestas": [
             {
                 "opcion": "a.",
@@ -929,7 +930,8 @@
         ]
     },
     {
-        "enunciado": "RA4: ¿Encuentras algún error en el siguiente código? Nota: la respuesta no es correcta, no tiene porqué ser así",
+        "enunciado": "RA4: ¿Encuentras algún error en el siguiente código?",
+        "note": "La respuesta no es correcta, no tiene porqué ser así. Nombre del router y suasuario peuden tener distintos nombres.",
         "code": "Hostname valencia\nIp domain-name Valencia.es\nCrypto key generate rsa \nUsername router1 privilege 15 secret icarly 1234\nLine vty 0 4\nTransport input SSH \nLogin local",
         "respuestas": [
             {
