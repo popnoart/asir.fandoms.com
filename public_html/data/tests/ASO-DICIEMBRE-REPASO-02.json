@@ -514,22 +514,22 @@
         "respuestas": [
             {
                 "opcion": "A",
-                "texto": "Ln recetas.txt /home/pasteles/artesanos",
+                "texto": "ln recetas.txt /home/pasteles/artesanos",
                 "correcta": true
             },
             {
                 "opcion": "B",
-                "texto": "Ln -l recetas.txt /home/pasteles/artesanos",
+                "texto": "ln -l recetas.txt /home/pasteles/artesanos",
                 "correcta": false
             },
             {
                 "opcion": "C",
-                "texto": "Cp -r recetas.txt /home/pasteles/artesanos",
+                "texto": "cp -r recetas.txt /home/pasteles/artesanos",
                 "correcta": false
             },
             {
                 "opcion": "D",
-                "texto": "Ln -r recetas.txt /hombe/pasteles/artesanos",
+                "texto": "ln -r recetas.txt /home/pasteles/artesanos",
                 "correcta": false
             }
         ]
@@ -564,22 +564,22 @@
         "respuestas": [
             {
                 "opcion": "A",
-                "texto": "Usermod",
+                "texto": "usermod",
                 "correcta": false
             },
             {
                 "opcion": "B",
-                "texto": "Usdermod -i",
+                "texto": "usermod -i",
                 "correcta": false
             },
             {
                 "opcion": "C",
-                "texto": "Top",
+                "texto": "top",
                 "correcta": true
             },
             {
                 "opcion": "D",
-                "texto": "Gedit",
+                "texto": "gedit",
                 "correcta": false
             }
         ]
@@ -589,22 +589,22 @@
         "respuestas": [
             {
                 "opcion": "A",
-                "texto": "Touch",
+                "texto": "touch",
                 "correcta": true
             },
             {
                 "opcion": "B",
-                "texto": "Less",
+                "texto": "less",
                 "correcta": false
             },
             {
                 "opcion": "C",
-                "texto": "Nano",
+                "texto": "nano",
                 "correcta": false
             },
             {
                 "opcion": "D",
-                "texto": "Gedit",
+                "texto": "gedit",
                 "correcta": false
             }
         ]
@@ -614,22 +614,22 @@
         "respuestas": [
             {
                 "opcion": "A",
-                "texto": "Cat",
+                "texto": "cat",
                 "correcta": false
             },
             {
                 "opcion": "B",
-                "texto": "Ls",
+                "texto": "ls",
                 "correcta": false
             },
             {
                 "opcion": "C",
-                "texto": "Ls -l",
+                "texto": "ls -l",
                 "correcta": true
             },
             {
                 "opcion": "D",
-                "texto": "Man",
+                "texto": "man",
                 "correcta": false
             }
         ]
