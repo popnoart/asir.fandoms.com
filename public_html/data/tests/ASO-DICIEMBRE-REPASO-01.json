@@ -164,27 +164,27 @@
         "respuestas": [
             {
                 "opcion": "a.",
-                "texto": "Userdel",
+                "texto": "userdel",
                 "correcta": false
             },
             {
                 "opcion": "b.",
-                "texto": "Mv",
+                "texto": "mv",
                 "correcta": false
             },
             {
                 "opcion": "c.",
-                "texto": "Rm",
+                "texto": "rm",
                 "correcta": true
             },
             {
                 "opcion": "d.",
-                "texto": "Del",
+                "texto": "del",
                 "correcta": false
             },
             {
                 "opcion": "e.",
-                "texto": "Rmdir",
+                "texto": "rmdir",
                 "correcta": false
             }
         ]
@@ -365,22 +365,22 @@
         "respuestas": [
             {
                 "opcion": "A",
-                "texto": "Les",
+                "texto": "les",
                 "correcta": false
             },
             {
                 "opcion": "B",
-                "texto": "Man",
+                "texto": "man",
                 "correcta": false
             },
             {
                 "opcion": "C",
-                "texto": "Car",
+                "texto": "car",
                 "correcta": false
             },
             {
                 "opcion": "D",
-                "texto": "Nano",
+                "texto": "nano",
                 "correcta": false
             },
             {
