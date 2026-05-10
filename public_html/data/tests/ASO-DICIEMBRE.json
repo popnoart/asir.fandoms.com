@@ -184,7 +184,7 @@
             },
             {
                 "opcion": "b.",
-                "texto": "Uname",
+                "texto": "uname",
                 "correcta": true
             },
             {
@@ -275,7 +275,7 @@
         ]
     },
     {
-        "enunciado": "¿Qué hace la orden Less e Linux?",
+        "enunciado": "¿Qué hace la orden less en Linux?",
         "respuestas": [
             {
                 "opcion": "a.",

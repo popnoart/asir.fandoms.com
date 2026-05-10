@@ -269,7 +269,7 @@
             },
             {
                 "opcion": "B",
-                "texto": "Sudo su",
+                "texto": "sudo su",
                 "correcta": false
             },
             {
@@ -279,7 +279,7 @@
             },
             {
                 "opcion": "D",
-                "texto": "Uname -n",
+                "texto": "uname -n",
                 "correcta": true
             }
         ]

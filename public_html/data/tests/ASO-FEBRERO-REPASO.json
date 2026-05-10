@@ -352,11 +352,11 @@
         ]
     },
     {
-        "enunciado": "¿Qué diferencia existe entre las órdenes Adduser y useradd en Ubuntu?",
+        "enunciado": "¿Qué diferencia existe entre las órdenes adduser y useradd en Ubuntu?",
         "respuestas": [
             {
                 "opcion": "A",
-                "texto": "Adduser solo funciona en versiones antiguas, useradd en nuevas",
+                "texto": "adduser solo funciona en versiones antiguas, useradd en nuevas",
                 "correcta": false
             },
             {
@@ -366,12 +366,12 @@
             },
             {
                 "opcion": "C",
-                "texto": "Adduser crea usuarios sin contraseña, useradd te pide contraseña automáticamente",
+                "texto": "adduser crea usuarios sin contraseña, useradd te pide contraseña automáticamente",
                 "correcta": false
             },
             {
                 "opcion": "D",
-                "texto": "Adduser por defecto me ofrece la posibilidad de escribir contraseña al usuario. userAdd crea el usuario y por defecto no ofrece la posibilidad de configurar contraseña",
+                "texto": "adduser por defecto me ofrece la posibilidad de escribir contraseña al usuario. useradd crea el usuario y por defecto no ofrece la posibilidad de configurar contraseña",
                 "correcta": true
             }
         ]
