@@ -89,7 +89,7 @@
         "respuestas": [
             {
                 "opcion": "a.",
-                "texto": "El primer número es para el dueño, el segundo para el grupo y el tercero para otros",
+                "texto": "El primer número es para el grupo, el segundo para el dueño y el tercero para otros",
                 "correcta": false
             },
             {
