@@ -154,12 +154,12 @@
         "respuestas": [
             {
                 "opcion": "a.",
-                "texto": "Groupmod -n",
+                "texto": "groupmod -n",
                 "correcta": true
             },
             {
                 "opcion": "b.",
-                "texto": "Group -n",
+                "texto": "group -n",
                 "correcta": false
             },
             {
@@ -169,7 +169,7 @@
             },
             {
                 "opcion": "d.",
-                "texto": "Mod -n",
+                "texto": "mod -n",
                 "correcta": false
             }
         ]

@@ -389,12 +389,12 @@
         "respuestas": [
             {
                 "opcion": "A",
-                "texto": "Groupmod -n",
+                "texto": "groupmod -n",
                 "correcta": true
             },
             {
                 "opcion": "B",
-                "texto": "Group -n",
+                "texto": "group -n",
                 "correcta": false
             },
             {
