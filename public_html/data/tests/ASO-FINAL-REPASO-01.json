@@ -764,7 +764,7 @@
             },
             {
                 "opcion": "b.",
-                "texto": "En vez de variable deb ser caceres: set /p caceres=",
+                "texto": "En vez de /p variable= debe ser: set /p caceres=",
                 "correcta": true
             },
             {
@@ -831,6 +831,7 @@
     },
     {
         "enunciado": "RA4: ¿Cuál es la orden para llamar al escritorio remoto en Windows?",
+        "note": "mstsc = Microsoft Terminal Services Client",
         "respuestas": [
             {
                 "opcion": "a.",
@@ -931,7 +932,7 @@
     },
     {
         "enunciado": "RA4: ¿Encuentras algún error en el siguiente código?",
-        "note": "La respuesta no es correcta, no tiene porqué ser así. Nombre del router y suasuario peuden tener distintos nombres.",
+        "note": "La respuesta no es correcta, no tiene porqué ser así. Nombre del router y suasuario pueden tener distintos nombres.",
         "code": "Hostname valencia\nIp domain-name Valencia.es\nCrypto key generate rsa \nUsername router1 privilege 15 secret icarly 1234\nLine vty 0 4\nTransport input SSH \nLogin local",
         "respuestas": [
             {
@@ -1445,7 +1446,7 @@
             {
                 "opcion": "b.",
                 "texto": "No, los dispositivos Cisco no tienen capacidad de programación",
-                "correcta": true
+                "correcta": false
             },
             {
                 "opcion": "c.",

@@ -335,17 +335,17 @@
             },
             {
                 "opcion": "b.",
-                "texto": "UserAdd",
+                "texto": "useradd",
                 "correcta": false
             },
             {
                 "opcion": "c.",
-                "texto": "NewUser",
+                "texto": "newuser",
                 "correcta": false
             },
             {
                 "opcion": "d.",
-                "texto": "CreateUser",
+                "texto": "createuser",
                 "correcta": false
             }
         ]
