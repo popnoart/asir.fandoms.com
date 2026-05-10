@@ -62,6 +62,7 @@
                         <button type="button" class="btn btn-primary mt-3" onclick="evaluarPregunta(<?php echo $idx; ?>)">Respuesta</button>
                         <div id="feedback_<?php echo $idx; ?>" class="mt-2"></div>
                         <div id="correct_<?php echo $idx; ?>" class="mt-1"></div>
+                        <div id="note_<?php echo $idx; ?>" class="mt-1"></div>
                     </div>
                 </div>
             <?php endforeach; ?>
@@ -97,6 +98,7 @@
     // Respuestas correctas
     const respuestasCorrectas = <?php
                                 $corrects = [];
+                                $notes = [];
                                 foreach ($quiz_content as $pregunta) {
                                     foreach ($pregunta['respuestas'] as $rid => $respuesta) {
                                         if ($respuesta['correcta']) {
@@ -104,9 +106,11 @@
                                             break;
                                         }
                                     }
+                                    $notes[] = isset($pregunta['note']) ? $pregunta['note'] : null;
                                 }
                                 echo json_encode($corrects);
                                 ?>;
+    const notas = <?php echo json_encode($notes); ?>;
 
     function mostrarCorrecta(idx) {
         const radios = document.getElementsByName('pregunta_' + idx);
@@ -117,6 +121,10 @@
         }
         let correctDiv = document.getElementById('correct_' + idx);
         correctDiv.innerHTML = `<span class="text-info">Respuesta correcta: <strong>${label ? label.textContent : ''}</strong></span>`;
+        let noteDiv = document.getElementById('note_' + idx);
+        if (noteDiv && notas[idx]) {
+            noteDiv.innerHTML = `<div class="alert alert-secondary py-2 px-3 mt-2"><small><strong>Nota:</strong> ${notas[idx]}</small></div>`;
+        }
     }
 
     function evaluarPregunta(idx) {
@@ -142,6 +150,7 @@
     function evaluarTodo() {
         let total = respuestasCorrectas.length;
         let aciertos = 0;
+        let fallos = 0;
         let correctasHtml = '';
         for (let idx = 0; idx < total; idx++) {
             const radios = document.getElementsByName('pregunta_' + idx);
@@ -158,6 +167,7 @@
                 aciertos++;
             } else if (seleccion !== -1) {
                 feedback.innerHTML = '<span class="text-danger">Incorrecto.</span>';
+                fallos++;
             } else {
                 feedback.innerHTML = '<span class="text-warning">Sin responder. <br>La respuesta correcta era:</span>';
             }
@@ -165,8 +175,12 @@
             let label = document.querySelector(`label[for='pregunta_${idx}_opcion_${respuestasCorrectas[idx]}']`);
             correctasHtml += `<div><span class='text-info'>Pregunta ${idx+1} correcta: <strong>${label ? label.textContent : ''}</strong></span></div>`;
         }
+        let puntuacion = aciertos - (fallos * 0.25);
+        let sobreDiez = (puntuacion / total) * 10;
+        let puntuacionStr = puntuacion.toFixed(2).replace('.', ',');
+        let sobreDiezStr = sobreDiez.toFixed(2).replace('.', ',');
         let feedbackTotal = document.getElementById('feedback_total');
-        feedbackTotal.innerHTML = `<strong>Resultado:</strong> ${aciertos} de ${total} correctas.`;
+        feedbackTotal.innerHTML = `<div class="alert alert-primary mt-3"><strong>Resultado:</strong> ${puntuacionStr}/${total} pts &rarr; <strong>${sobreDiezStr}/10</strong> <small class="text-muted">(+1 correcta, -0,25 incorrecta)</small></div>`;
         let correctTotal = document.getElementById('correct_total');
         correctTotal.innerHTML = correctasHtml;
     }
