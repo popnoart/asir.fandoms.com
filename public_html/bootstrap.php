@@ -307,6 +307,17 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['change_status_id'], $
     exit;
 }
 
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['bulk_status_ids'], $_POST['bulk_new_status'])) {
+    $type = $_POST['bulk_status_type'] ?? 'tests';
+    $new_status = $_POST['bulk_new_status'];
+    foreach ((array) $_POST['bulk_status_ids'] as $uid) {
+        $all_states[$type][$uid] = $new_status;
+    }
+    file_put_contents($states_path, json_encode($all_states, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
+    header('Location: ' . $_SERVER['REQUEST_URI']);
+    exit;
+}
+
 //////////TODO\\\\\\\\\\
 // Procesar añadir todo
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['add_todo'])) {
