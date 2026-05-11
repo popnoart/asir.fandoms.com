@@ -126,7 +126,7 @@
         ]
     },
     {
-        "enunciado": "Escribe las órdenes para enrutar por EIGRP la siguiente red",
+        "enunciado": "Escribe las órdenes para enrutar por EIGRP el Router0",
         "imagen" : "CB-FINAL-REPASO-01_01.png",
         "respuestas": [
             {
@@ -152,7 +152,7 @@
         ]
     },
     {
-        "enunciado": "Enruta por EIGRP la siguiente topología ¿cuál es la opción correcta?",
+        "enunciado": "Enruta por EIGRP el Router0 ¿cuál es la opción correcta?",
         "imagen" : "CB-FINAL-REPASO-01_02.png",
         "respuestas": [
             {
