@@ -551,6 +551,7 @@
     },
     {
         "enunciado": "¿Con qué orden podemos invocar a un procedimiento definido por nosotros para ejecutarlo?",
+        "note": "EXECUTE es solo para ciertos servidores, como SQL Server, pero no es un comando estándar de SQL para invocar procedimientos almacenados.",
         "respuestas": [
             {
                 "opcion": "a.",
