@@ -76,6 +76,7 @@
     },
     {
         "enunciado": "Escanear con Wireshark los puertos 443 y 80 en una sola orden",
+        "note": "Hemos quedado con Carlos que para escanear ambos debe ser el operador lógico || (OR)",
         "respuestas": [
             {
                 "opcion": "a.",

@@ -76,16 +76,17 @@
     },
     {
         "enunciado": "Escaneamos con Wireshark los puertos 443 y 53. ¿Cuál es la orden?",
+        "note": "Hemos quedado con Carlos que para escanear ambos debe ser el operador lógico || (OR)",
         "respuestas": [
             {
                 "opcion": "a.",
-                "texto": "tcp.port==443 or tcp.port==53",
-                "correcta": false
+                "texto": "tcp.port==443 || tcp.port==53",
+                "correcta": true
             },
             {
                 "opcion": "b.",
                 "texto": "tcp.port==443 && tcp.port==53",
-                "correcta": true
+                "correcta": false
             },
             {
                 "opcion": "c.",
