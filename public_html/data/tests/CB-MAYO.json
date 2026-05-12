@@ -462,7 +462,7 @@
         "respuestas": [
             {
                 "opcion": "a.",
-                "texto": "Sí, la instrucción \"permit ip any any\" debe escribirse después de denegar todas las IP que se deseen, debería quedar así:\n ip access-list extended variable\n deny icmp host 192.168.1.2 host 192.168.2.2 echo\n permit ip any any\n deny icmp host 192.168.3.2 host 192.168.4.2 echo\n int fa0/0\n ip access-group variable in\n exit",
+                "texto": "Sí, la instrucción \"permit ip any any\" debe escribirse después de denegar todas las IP que se deseen, debería quedar así:\n ip access-list extended variable\n deny icmp host 192.168.1.2 host 192.168.2.2 echo\ndeny icmp host 192.168.3.2 host 192.168.4.2 echo\n permit ip any any\n  int fa0/0\n ip access-group variable in\n exit",
                 "correcta": true
             },
             {
