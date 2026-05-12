@@ -1,0 +1,252 @@
+[
+    {
+        "enunciado": "¿Qué es un proyecto de transformación digital?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Un proceso exclusivo de grandes empresas tecnológicas.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Un plan organizado para mejorar el funcionamiento de la empresa mediante tecnologías digitales.",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Un sistema de marketing digital únicamente.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Un plan para despedir empleados y reducir costes.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué acción puede proponerse para mejorar la adaptación del personal?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Cambiar el uniforme.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Reducir vacaciones.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Eliminar departamentos.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Formación en nuevas tecnologías.",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál de los siguientes elementos debe aparecer en la introducción del proyecto?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "La situación actual de digitalización de la empresa.",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "La bibliografía empleada.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "El organigrama político del país.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Los salarios de todos los trabajadores.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "En el apartado de objetivos estratégicos se deben incluir:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Únicamente las herramientas tecnológicas concretas.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Los logros que se quieren alcanzar con la digitalización.",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Las nóminas de los empleados.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Fotografías de la empresa.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué se digitaliza realmente en el apartado “Áreas susceptibles de ser digitalizadas”?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Los empleados.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Los edificios.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Solo los ordenadores.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Las áreas de la empresa.",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué debe hacerse en el apartado de implantación de tecnologías?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Desarrollar detalladamente cómo se digitalizarán las áreas seleccionadas.",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Hablar únicamente de redes sociales.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Explicar la historia de Internet.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Solo nombrar herramientas digitales.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué debe tenerse en cuenta al implantar tecnologías?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "La opinión de otras empresas.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Solo el presupuesto económico.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Las necesidades presentes y futuras de la empresa.",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Exclusivamente el marketing.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál de los siguientes es un ejemplo de brecha de seguridad?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "El cambio de uniforme.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "El número de empleados.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Accesos no autorizados a la información.",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "La decoración de la oficina.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "¿Qué medida ayuda a reducir riesgos de seguridad?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "No actualizar los programas.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Permitir acceso libre a todos los usuarios.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Compartir contraseñas entre empleados.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Realizar copias de seguridad.",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "En la idoneidad de los recursos humanos se analiza:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "La antigüedad del edificio.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "La situación económica nacional.",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Si el personal tiene habilidades para adaptarse a la transformación digital.",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "La decoración de la empresa.",
+                "correcta": false
+            }
+        ]
+    }
+]
