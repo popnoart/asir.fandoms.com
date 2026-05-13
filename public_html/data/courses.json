@@ -2116,6 +2116,12 @@
                 "start": "05-05-2026 17:00",
                 "end": "18-05-2026 23:59",
                 "name": "TEST 2 - GRAMMAR - OPTIONAL - COMPLEMENTARIA"
+            },
+            "51692": {
+                "type": "Complementaria",
+                "start": "12-05-2026 17:00",
+                "end": "20-05-2026 23:59",
+                "name": "TEST 1 - VOCABULARY REVIEW - GENERAL - OPTIONAL - COMPLEMENTARIA"
             }
         },
         "tests": {
@@ -2262,6 +2268,12 @@
                 "start": "",
                 "end": "",
                 "name": "Test 2 - Gramática"
+            },
+            "TE-TEST1-VOCABULARY": {
+                "type": "Cuestionario",
+                "start": "",
+                "end": "",
+                "name": "Test 1 - VOCABULARY REVIEW"
             }
         },
         "notes": {

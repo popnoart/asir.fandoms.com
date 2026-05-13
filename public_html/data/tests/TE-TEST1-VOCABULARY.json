@@ -1,0 +1,360 @@
+[
+    {
+        "enunciado": "Which program detects and removes malicious software?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Browser", "correcta": false },
+            { "opcion": "b.", "texto": "Operating system", "correcta": false },
+            { "opcion": "c.", "texto": "Antivirus", "correcta": true },
+            { "opcion": "d.", "texto": "Database", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "The pharmacist recommended a simple and plenty of rest.",
+        "respuestas": [
+            { "opcion": "a.", "texto": "symptom", "correcta": false },
+            { "opcion": "b.", "texto": "appointment", "correcta": false },
+            { "opcion": "c.", "texto": "temperature", "correcta": false },
+            { "opcion": "d.", "texto": "treatment", "correcta": true }
+        ]
+    },
+    {
+        "enunciado": "Which component stores all the data and the operating system?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Heat sink", "correcta": false },
+            { "opcion": "b.", "texto": "Hard drive", "correcta": true },
+            { "opcion": "c.", "texto": "Fan", "correcta": false },
+            { "opcion": "d.", "texto": "Socket", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "Which word means 'having or exerting great power or force'?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "powerful", "correcta": true },
+            { "opcion": "b.", "texto": "purpose", "correcta": false },
+            { "opcion": "c.", "texto": "enhanced", "correcta": false },
+            { "opcion": "d.", "texto": "broadband", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "A primary key is:",
+        "respuestas": [
+            { "opcion": "a.", "texto": "a movement effect in a slide", "correcta": false },
+            { "opcion": "b.", "texto": "a printed message at the bottom of a page", "correcta": false },
+            { "opcion": "c.", "texto": "a field with a unique value for each record", "correcta": true },
+            { "opcion": "d.", "texto": "a blank document template", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "Which term refers to 'a single category of information stored in a table'?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Record", "correcta": false },
+            { "opcion": "b.", "texto": "Field", "correcta": true },
+            { "opcion": "c.", "texto": "Footer", "correcta": false },
+            { "opcion": "d.", "texto": "Range", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "Always ______ the case carefully before touching any components.",
+        "respuestas": [
+            { "opcion": "a.", "texto": "run", "correcta": false },
+            { "opcion": "b.", "texto": "plug", "correcta": false },
+            { "opcion": "c.", "texto": "(missing in PDF)", "correcta": false },
+            { "opcion": "d.", "texto": "turn off", "correcta": true }
+        ]
+    },
+    {
+        "enunciado": "Which definition matches 'thermal compound'?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "A slot where the CPU is inserted", "correcta": false },
+            { "opcion": "b.", "texto": "A paste that improves heat transfer", "correcta": true },
+            { "opcion": "c.", "texto": "A device that stores files", "correcta": false },
+            { "opcion": "d.", "texto": "A cable that carries data", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "What is RAM?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Temporary memory used while the computer is running", "correcta": true },
+            { "opcion": "b.", "texto": "A type of browser", "correcta": false },
+            { "opcion": "c.", "texto": "A security program", "correcta": false },
+            { "opcion": "d.", "texto": "A storage device connected by USB", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "The first computers used magnetic ______ to store information.",
+        "respuestas": [
+            { "opcion": "a.", "texto": "fields", "correcta": false },
+            { "opcion": "b.", "texto": "records", "correcta": false },
+            { "opcion": "c.", "texto": "tapes", "correcta": true },
+            { "opcion": "d.", "texto": "ranges", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "Which device is used to move the pointer on a screen?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Keyboard", "correcta": false },
+            { "opcion": "b.", "texto": "Monitor", "correcta": false },
+            { "opcion": "c.", "texto": "Printer", "correcta": false },
+            { "opcion": "d.", "texto": "Mouse", "correcta": true }
+        ]
+    },
+    {
+        "enunciado": "A vertical group of cells in a worksheet is called a:",
+        "respuestas": [
+            { "opcion": "a.", "texto": "record", "correcta": false },
+            { "opcion": "b.", "texto": "column", "correcta": true },
+            { "opcion": "c.", "texto": "range", "correcta": false },
+            { "opcion": "d.", "texto": "row", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "Which term refers to 'movement effects applied to objects in a slide'?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Transitions", "correcta": false },
+            { "opcion": "b.", "texto": "Animation", "correcta": true },
+            { "opcion": "c.", "texto": "Updating", "correcta": false },
+            { "opcion": "d.", "texto": "Footer", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "What is a modem used for?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Producing images on paper", "correcta": false },
+            { "opcion": "b.", "texto": "Storing information", "correcta": false },
+            { "opcion": "c.", "texto": "(missing)", "correcta": false },
+            { "opcion": "d.", "texto": "Connecting to the internet", "correcta": true }
+        ]
+    },
+    {
+        "enunciado": "Computers ______ essential tools for education and business.",
+        "respuestas": [
+            { "opcion": "a.", "texto": "switched on", "correcta": false },
+            { "opcion": "b.", "texto": "modeled", "correcta": false },
+            { "opcion": "c.", "texto": "condensed", "correcta": false },
+            { "opcion": "d.", "texto": "turned into", "correcta": true }
+        ]
+    },
+    {
+        "enunciado": "Which definition matches 'byte'?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "A system that manages hardware", "correcta": false },
+            { "opcion": "b.", "texto": "A unit of data representing 8 bits", "correcta": true },
+            { "opcion": "c.", "texto": "A portable storage device", "correcta": false },
+            { "opcion": "d.", "texto": "A program that removes viruses", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "A database is:",
+        "respuestas": [
+            { "opcion": "a.", "texto": "a portable computer", "correcta": false },
+            { "opcion": "b.", "texto": "a cooling system", "correcta": false },
+            { "opcion": "c.", "texto": "an organized collection of data", "correcta": true },
+            { "opcion": "d.", "texto": "a program for browsing the internet", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "Which term refers to 'a transmission technique using a wide range of frequencies'?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "broadband", "correcta": true },
+            { "opcion": "b.", "texto": "touchscreen", "correcta": false },
+            { "opcion": "c.", "texto": "time sharing", "correcta": false },
+            { "opcion": "d.", "texto": "purpose", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "What is the main function of a motherboard?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "To cool the processor", "correcta": false },
+            { "opcion": "b.", "texto": "To connect all computer components", "correcta": true },
+            { "opcion": "c.", "texto": "To store temporary files", "correcta": false },
+            { "opcion": "d.", "texto": "To provide internet access", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "Modern computing exists today ______ the progress made in the past.",
+        "respuestas": [
+            { "opcion": "a.", "texto": "switched on", "correcta": false },
+            { "opcion": "b.", "texto": "modeled", "correcta": false },
+            { "opcion": "c.", "texto": "reliable", "correcta": false },
+            { "opcion": "d.", "texto": "due to", "correcta": true }
+        ]
+    },
+    {
+        "enunciado": "Which option allows users to move through hidden parts of a window?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Footer", "correcta": false },
+            { "opcion": "b.", "texto": "Scroll bar", "correcta": true }
+        ]
+    },
+    {
+        "enunciado": "Hardware refers to:",
+        "respuestas": [
+            { "opcion": "a.", "texto": "the operating system", "correcta": false },
+            { "opcion": "b.", "texto": "internet applications", "correcta": false },
+            { "opcion": "c.", "texto": "the physical parts of a computer", "correcta": true },
+            { "opcion": "d.", "texto": "computer viruses", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "______ the RAM modules into their slots.",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Insert", "correcta": true },
+            { "opcion": "b.", "texto": "Check", "correcta": false },
+            { "opcion": "c.", "texto": "Turn", "correcta": false },
+            { "opcion": "d.", "texto": "Attach", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "A record in a database is:",
+        "respuestas": [
+            { "opcion": "a.", "texto": "a vertical group of cells", "correcta": false },
+            { "opcion": "b.", "texto": "a single field in a table", "correcta": false },
+            { "opcion": "c.", "texto": "an animation effect", "correcta": false },
+            { "opcion": "d.", "texto": "a complete set of fields describing one item", "correcta": true }
+        ]
+    },
+    {
+        "enunciado": "Which option means 'to run an application to remove errors'?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Build project", "correcta": false },
+            { "opcion": "b.", "texto": "Generate comment", "correcta": false },
+            { "opcion": "c.", "texto": "Debug", "correcta": true },
+            { "opcion": "d.", "texto": "Shift right", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "Integrated circuits ______ thousands of components into one chip.",
+        "respuestas": [
+            { "opcion": "a.", "texto": "turned into", "correcta": false },
+            { "opcion": "b.", "texto": "condensed", "correcta": true },
+            { "opcion": "c.", "texto": "wanted", "correcta": false },
+            { "opcion": "d.", "texto": "indexed", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "Which word refers to 'business transactions conducted on the internet'?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "e-commerce", "correcta": true },
+            { "opcion": "b.", "texto": "broadband", "correcta": false },
+            { "opcion": "c.", "texto": "touchscreen", "correcta": false },
+            { "opcion": "d.", "texto": "fiber-optic", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "A touchscreen is:",
+        "respuestas": [
+            { "opcion": "a.", "texto": "a device that stores files online", "correcta": false },
+            { "opcion": "b.", "texto": "a cable for internet connections", "correcta": false },
+            { "opcion": "c.", "texto": "(missing)", "correcta": false },
+            { "opcion": "d.", "texto": "a touch-sensitive screen that detects user interaction", "correcta": true }
+        ]
+    },
+    {
+        "enunciado": "In programming, a breakpoint is:",
+        "respuestas": [
+            { "opcion": "a.", "texto": "a completed program", "correcta": false },
+            { "opcion": "b.", "texto": "a debugging stop point", "correcta": true },
+            { "opcion": "c.", "texto": "a code translation system", "correcta": false },
+            { "opcion": "d.", "texto": "a memory module", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "Which term means 'the programs that run on a computer'?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Hardware", "correcta": false },
+            { "opcion": "b.", "texto": "Keyboard", "correcta": false },
+            { "opcion": "c.", "texto": "Software", "correcta": true },
+            { "opcion": "d.", "texto": "Monitor", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "Transistors made computers smaller and more ______.",
+        "respuestas": [
+            { "opcion": "a.", "texto": "reliable", "correcta": true },
+            { "opcion": "b.", "texto": "condensed", "correcta": false },
+            { "opcion": "c.", "texto": "modeled", "correcta": false },
+            { "opcion": "d.", "texto": "switched on", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "Which component cools computer parts by moving air?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Socket", "correcta": false },
+            { "opcion": "b.", "texto": "Fan", "correcta": true },
+            { "opcion": "c.", "texto": "Module", "correcta": false },
+            { "opcion": "d.", "texto": "Cable", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "Which component manages video and image processing?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Power supply", "correcta": false },
+            { "opcion": "b.", "texto": "Socket", "correcta": false },
+            { "opcion": "c.", "texto": "Module", "correcta": false },
+            { "opcion": "d.", "texto": "Graphics card", "correcta": true }
+        ]
+    },
+    {
+        "enunciado": "Which term describes 'the process of changing or modifying existing information in a table'?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Updating", "correcta": true },
+            { "opcion": "b.", "texto": "Animation", "correcta": false },
+            { "opcion": "c.", "texto": "Blank presentation", "correcta": false },
+            { "opcion": "d.", "texto": "Type", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "A comment in source code is:",
+        "respuestas": [
+            { "opcion": "a.", "texto": "a memory address inspected during execution", "correcta": false },
+            { "opcion": "b.", "texto": "executable machine language", "correcta": false },
+            { "opcion": "c.", "texto": "a non-executable explanation in source code", "correcta": true },
+            { "opcion": "d.", "texto": "(missing)", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "Which component provides electricity to the computer?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Graphics card", "correcta": false },
+            { "opcion": "b.", "texto": "Power supply", "correcta": true },
+            { "opcion": "c.", "texto": "Heat sink", "correcta": false },
+            { "opcion": "d.", "texto": "Hard drive", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "What is a cell?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "A group of adjacent selected cells", "correcta": false },
+            { "opcion": "b.", "texto": "A complete database table", "correcta": false },
+            { "opcion": "c.", "texto": "A visual presentation effect", "correcta": false },
+            { "opcion": "d.", "texto": "The intersection of a row and a column", "correcta": true }
+        ]
+    },
+    {
+        "enunciado": "Getter and setter methods are used to:",
+        "respuestas": [
+            { "opcion": "a.", "texto": "connect hardware components", "correcta": false },
+            { "opcion": "b.", "texto": "store internet signals", "correcta": false },
+            { "opcion": "c.", "texto": "get or set object data", "correcta": true },
+            { "opcion": "d.", "texto": "compile source code", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "I don't want this to ______.",
+        "respuestas": [
+            { "opcion": "a.", "texto": "worsen", "correcta": true },
+            { "opcion": "b.", "texto": "model", "correcta": false },
+            { "opcion": "c.", "texto": "switch on", "correcta": false },
+            { "opcion": "d.", "texto": "condense", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "Which term refers to 'a small connector standard for peripherals'?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "CPU", "correcta": false },
+            { "opcion": "b.", "texto": "USB", "correcta": true },
+            { "opcion": "c.", "texto": "Routerboard", "correcta": false },
+            { "opcion": "d.", "texto": "Database", "correcta": false }
+        ]
+    }
+]
