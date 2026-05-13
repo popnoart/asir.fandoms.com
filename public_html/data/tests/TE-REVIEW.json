@@ -1,0 +1,627 @@
+[
+    {
+        "enunciado": "The technician __________ the network every morning before classes start.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "check",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "checks",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "is checking",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "checked",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "At the moment, the students __________ a new cybersecurity project.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "develop",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "developed",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "are developing",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "develops",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "She __________ just __________ the professional email.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "has / sent",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "have / sent",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "is / sending",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "did / send",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "While the programmer was fixing the bug, the server __________ unexpectedly.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "crash",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "crashes",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "crashed",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "crashing",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "They __________ to use manual backups before cloud storage became popular.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "use",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "used",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "were using",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "using",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "By next month, the company __________ the new operating system.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "installs",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "installed",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "will have installed",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "installing",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Look at those dark clouds! It __________ rain soon.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "will",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "goes to",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "is going to",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "going to",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "If I __________ more time, I would learn another programming language.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "have",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "had",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "will have",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "had had",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Users __________ save their passwords in insecure websites.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "should",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "mustn't",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "can",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "might",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "At this time tomorrow, we __________ the new software update.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "install",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "installed",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "will be installing",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "have installed",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "The router is located __________ the second floor.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "at",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "on",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "in",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "under",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "The developers __________ on the application for several weeks.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "work",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "worked",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "have been working",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "has worked",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "If she had studied harder, she __________ the certification exam.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "passed",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "would pass",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "would have passed",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "will pass",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "This processor is __________ than the previous one.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "fast",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "fastest",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "more faster",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "faster",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "There isn't __________ information about the incident yet.",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "many",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "some",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "much",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "a few",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Which expression is the most appropriate in a professional meeting?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "That idea is terrible.",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Could you clarify that point, please?",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "You are completely wrong.",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "I don't care about the project.",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "What is the purpose of a professional email?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "To entertain the reader",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "To use informal language",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "To communicate formally in workplace contexts",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "To write personal stories",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Which register is usually recommended in professional situations?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Aggressive",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Informal slang",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Neutral or formal",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Emotional",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "A well-structured oral message should include:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Introduction, development and conclusion",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Only technical vocabulary",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Long unrelated ideas",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Informal jokes",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Which behaviour is appropriate in professional communication?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Interrupting constantly",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Using offensive comments",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Remaining calm and solution-oriented",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Ignoring deadlines",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Which text type commonly uses imperative verbs?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "User manual",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Academic article",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "CV",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Incident report",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "What is the main purpose of a technical report?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "To advertise products",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "To analyse or evaluate systems",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "To tell personal stories",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "To invite people to events",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "The sentence \"The system was tested under simulated conditions\" is an example of:",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Present continuous",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Modal verb",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Passive voice",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Future simple",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Which document usually contains sections such as \"Education\" and \"Skills\"?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Incident report",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Technical report",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "CV",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "User manual",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "Which connector is common in academic texts?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "BTW",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Gonna",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "However",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Yep",
+                "correcta": false
+            }
+        ]
+    }
+]
