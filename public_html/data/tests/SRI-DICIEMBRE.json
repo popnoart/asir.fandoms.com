@@ -269,12 +269,12 @@
             {
                 "opcion": "c.",
                 "texto": "Ipv6 add 2001:1234:1234:1234::1\/64",
-                "correcta": true
+                "correcta": false
             },
             {
                 "opcion": "d.",
-                "texto": "ipv6 unicast-routing",
-                "correcta": false
+                "texto": "Ninguna es cierta",
+                "correcta": true
             }
         ]
     },
