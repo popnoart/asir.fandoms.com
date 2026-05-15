@@ -36,7 +36,7 @@
         ]
     },
     {
-        "enunciado": "Marca la opción que no corresponde a ningún tipo de cortafuegos (primera versión, con opciones a, b, c, d):",
+        "enunciado": "Marca la opción que no corresponde a ningún tipo de cortafuegos:",
         "respuestas": [
             {"opcion": "a.", "texto": "Filtrado de equipos/usuarios: permiten filtrar los accesos de equipos y/o usuarios no permitidos de forma eficiente.", "correcta": true},
             {"opcion": "b.", "texto": "Filtrado de paquetes: seleccionan la información que dejan pasar en función de la información contenida en cada paquete recibido/enviado.", "correcta": false},
