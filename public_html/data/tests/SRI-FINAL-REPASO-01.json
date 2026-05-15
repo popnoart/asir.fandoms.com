@@ -1,0 +1,1206 @@
+[
+    {
+        "enunciado": "RA1 - El puerto que pertenece a los DNS es ..",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "80",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "53",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "443",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "25",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA1 - ¿Qué describe a una red en topología en estrella?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Una red descentralizada",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Es una red centralizada",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Una red en anillo",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Una red en bus",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA1 - Disponemos una red local que funciona perfectamente por DHCP, sin embargo, cuando asignamos IP estáticas perfectamente configuradas, la conexión a internet se pierde ¿Cuál es la solución?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Reiniciar el router",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Configurar una IP dinámica",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Escribir las DNS alternativa y preferida",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "Deshabilitar el firewall",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA1 - ¿Cuál es la diferencia entre los DNS alternativo y preferido?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "El DNS preferido es más rápido",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "El DNS alternativo se usa para correo",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "DNS PREFERIDO = principal; DNS ALTERNATIVO = respaldo si el preferido falla",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "No hay diferencia",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA1 - ¿Qué herramienta en Windows permite consultar servidores DNS?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "ping",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "tracert",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "nslookup",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "netstat",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA1 - ¿Cómo puedo vaciar la caché DNS en mi equipo?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "ipconfig /renew",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "ipconfig /flushdns",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "ipconfig /release",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "ipconfig /all",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA1 - ¿Qué es el DNS directo?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Se introduce la IP y devuelve el dominio",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Se escribe el nombre de la web y el servidor devuelve la IP",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Se usa solo en redes locales",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Es otro nombre para el DNS inverso",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA1 - ¿Qué es el DNS indirecto?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Se introduce la IP y el sistema devuelve el nombre del dominio",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Se escribe el nombre y devuelve la IP",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Se usa solo en IPv6",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "No existe ese concepto",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA2 - Debemos configurar una DHCP-RELAY ¿Qué orden debemos asignar obligatoriamente en las interfaz de los router de destino donde queremos que lleguen las IP del DHCP-RELAY",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "ip dhcp pool",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "ip helper-address (IP del DHCP-RELAY)",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "ip forward-protocol",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "dhcp relay enable",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA2 - ¿Es correcta la siguiente configuración teniendo en cuenta la mascara de red?",
+        "imagen": "SRI-FINAL-REPASO-01_01.png",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "No, la última ip que podemos poner es 192.168.1.15",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "No, la última ip que podemos poner es 192.168.1.14",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Si",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "No se puede determinar",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA2 - ¿Es correcta la siguiente configuración teniendo en cuenta la máscara de red?",
+        "imagen": "SRI-FINAL-REPASO-01_02.png",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Si",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "No, la última ip que podemos poner es 192.168.1.126",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "No, la última ip que podemos poner es 192.168.1.124",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "No, la última ip que podemos poner es 192.168.1.125",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "RA2 - Que diferencia existe entre el DHCP y DHCP-RELAY",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "El DHCP solo asigna direcciones IPv6, mientras que el DHCP-RELAY solo funciona con IPv4",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "El DHCP otorga Ip a los equipos del mismo switch o router y el DHCP-RELAY permite que los equipos de una red diferente reciban IPs del servidor DHCP",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "El DHCP-RELAY es un protocolo más seguro que reemplaza completamente al DHCP original",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "El DHCP se usa solo en redes inalámbricas y el DHCP-RELAY solo en redes cableadas",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA3 - ¿Qué se entiende por IIS?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Internet Information Services, servidor web de Microsoft",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Un sistema operativo",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Un firewall",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Un protocolo de correo",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA3 - Sabemos que el puerto 80 es el que utiliza HTTP sin embargo si este puerto está ocupado, ¿por cuál le podemos reemplazar?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "8080 y 8081",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "21 y 22",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "443 y 444",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "25 y 110",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA3 - ¿Cómo se pueden gestionar máquinas virtuales en Windows sin usar VirtualBox?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "VMware",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Hyper-V",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "KVM",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Xen",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA3 - En un ASA 5505 no tenemos configurado ningún DNS, los PC de la zona de seguridad 0 quieren tener acceso a los servidores web de la zona de seguridad 100. ¿Qué IP tendrán que teclear los PC de la zona de seguridad 0 para poder acceder a las páginas web que residen en la zona de seguridad 100 teniendo en cuenta que el cortafuegos esta correctamente configurado?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "La IP del servidor web",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "La puerta de enlace de los PC de la seguridad 0",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "La IP del DNS",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Localhost",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA3 - Tienes un DNS con la IP 172.0.0./25 ¿Qué máscara le corresponde por OSPF?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "255.255.255.0",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "0.255.255.127",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "255.255.0.0",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "0.0.0.255",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA3 - ¿Cómo se escribe un DNS al configurar una VLAN?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "ip name-server",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "dns-server 8.8.8.8",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "set dns",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "dns default",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA3 - ¿Cómo se comprueba si IIS está instalado y funcionando en un equipo local?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "http://localhost",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "ping localhost",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "ipconfig /all",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "net start iis",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA3 - ¿Qué puerto utiliza Netflow?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "514",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "9996",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "443",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "21",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA3 - ¿Qué puertos utiliza Syslog?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "80 y 443",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "514 o 601 (6514 con cifrado)",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "22 y 23",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "161 y 162",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA4 - ¿Cuántos permisos se pueden configurar en un FTP?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "3 (READ, WRITE, EXECUTE)",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "4 (READ, WRITE, DELETE, LIST)",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "5 (WRITE, READ, DELETE, RENAME, LIST)",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "6 (READ, WRITE, DELETE, RENAME, LIST, EXECUTE)",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA4 - ¿Puertos alternativos para FTP si el 21 está ocupado?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "80, 443",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "2121, 2222, 8021, 51021, 62021",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "8080, 8081",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "25, 110",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA4 - ¿Qué comando FTP sube archivos?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "get",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "put",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "dir",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "send",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA4 - ¿Qué comando FTP descarga archivos?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "put",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "download",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "get",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "recv",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA4 - ¿Qué comando FTP permite salir del programa?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "exit",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "close",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "quit",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "bye",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA4 - ¿Qué comando FTP crea una carpeta en el servidor remoto?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "mkdir",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "makefolder",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "createdir",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "makedir",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA4 - ¿Qué comando FTP elimina una carpeta vacía en el servidor remoto?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "rmdir",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "deletefolder",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "removedir",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "deldir",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA4 - ¿Qué comando FTP elimina un archivo en el servidor remoto?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "erase",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "remove",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "del",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "delete",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "RA4 - ¿Qué comando FTP muestra el contenido de un directorio remoto?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "ls",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "list",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "dir",
+                "correcta": true
+            },
+            {
+                "opcion": "d.",
+                "texto": "show",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA4 - ¿Qué comando FTP muestra la ruta completa del directorio remoto actual?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "pwd",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "cwd",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "path",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "dirpath",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA5 - Puertos para SMTP (servidor de correos) en envío con cifrado seguro",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "25",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "587 o 465",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "993 o 995",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "993",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA5 - Puertos para SMTP sin envío con cifrado seguro",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "25",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "587 o 465",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "995",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "110",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA5 - Puertos para POP3 para recepción con cifrado seguro",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "995",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "465",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "993 o 995",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "110",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA5 - Puertos para IMAP con cifrado seguro",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "995",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "43",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "465",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "993",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "RA5 - ¿Es necesario configurar un DNS para configurar un servidor de correos?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Sí",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "No",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Solo para el envío",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Solo para la recepción",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA5 - Observas algún error en la siguiente configuración de servidor de correos en Cisco",
+        "imagen": "SRI-FINAL-REPASO-01_03.png",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Sí, el servidor entrante y saliente deberia ser el dominio del correo",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "No, todo está correcto",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Sí, el servidor entrante y saliente deberian ser distintos",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Sí, hay que añadir la máscara del servidor entrante y saliente ",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA6 - ¿Qué puerto utiliza WhatsApp?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "80",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "443",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "21",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "25",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA6 - ¿Qué otro puerto utiliza WhatsApp?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "80",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "53",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "21",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "6667",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "enunciado": "RA4 - Observa el siguiente código y contesta: ¿qué hace el comando \"IPV6 add 2001:A:A:A::1/64\" en un túnel IPv6?",
+        "code": "IPV6 add 2001:A:A:A::1/64\nIPV6 enable\nTunnel Source s0/3/0\nTunnel destination 10.0.0.2\ntunnel mode ipv6ip",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Elimina la dirección IPv6 del túnel",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Asigna una dirección IPv6 al túnel con prefijo /64",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Establece la máscara de red IPv4 del túnel",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Configura la puerta de enlace IPv6 por defecto",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA4 - Observa el siguiente código y contesta: ¿qué efecto tiene el comando \"IPV6 enable\" en la configuración de un túnel?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Activa el procesamiento de paquetes IPv6 en la interfaz",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Desactiva temporalmente IPv4 en esa interfaz",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Habilita el enrutamiento IPv6 dinámico con RIPng",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Configura una dirección IPv6 automática por DHCPv6",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA4 - Observa el siguiente código y contesta: ¿qué función cumple \"Tunnel Source s0/3/0\" en un túnel IPv6 sobre IPv4?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Indica la dirección IP de destino del túnel",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Especifica la interfaz de origen o IP local del túnel",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Define el modo de encapsulación del túnel",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Establece la clave de autenticación del túnel",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA4 - Observa el siguiente código y contesta: ¿qué hace el comando \"Tunnel destination 10.0.0.2\"?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Configura la dirección IPv4 del extremo remoto del túnel",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "Asigna la dirección IPv6 de destino del túnel",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "Define la máscara de subred del túnel",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Establece el puerto de origen para el túnel",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA4 - Observa el siguiente código y contesta: ¿qué significa el comando \"tunnel mode ipv6ip\"?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "El túnel transporta IPv6 sobre IPv4 (encapsulación 6over4)",
+                "correcta": true
+            },
+            {
+                "opcion": "b.",
+                "texto": "El túnel transporta IPv4 sobre IPv6",
+                "correcta": false
+            },
+            {
+                "opcion": "c.",
+                "texto": "El túnel usa modo GRE genérico",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "El túnel solo transporta tráfico multicast",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA6 - ¿Qué tipo de mensajería utiliza Windows?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "Skype",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Microsoft Teams",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "Outlook",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "Windows Messenger",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA6 - ¿Qué puertos utiliza Microsoft Teams?",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "80 y 443",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "443, 3478 y 3481",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "5060 y 5061",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "21 y 22",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA8 - Programa de audio para invidentes mencionado",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "NVDA",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "JAWS",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "VoiceOver",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "TalkBack",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "enunciado": "RA8 - Aplicación de video en Windows",
+        "respuestas": [
+            {
+                "opcion": "a.",
+                "texto": "VLC",
+                "correcta": false
+            },
+            {
+                "opcion": "b.",
+                "texto": "Windows Media Player",
+                "correcta": true
+            },
+            {
+                "opcion": "c.",
+                "texto": "QuickTime",
+                "correcta": false
+            },
+            {
+                "opcion": "d.",
+                "texto": "PotPlayer",
+                "correcta": false
+            }
+        ]
+    }
+]

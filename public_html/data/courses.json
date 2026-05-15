@@ -1918,6 +1918,12 @@
                 "start": "",
                 "end": "",
                 "name": "AUTOEVALUACIÓN MAYO"
+            },
+            "SRI-FINAL-REPASO-01": {
+                "type": "Cuestionario",
+                "start": "",
+                "end": "",
+                "name": "Test repaso final"
             }
         },
         "notes": {

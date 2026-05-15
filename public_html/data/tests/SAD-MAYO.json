@@ -135,7 +135,7 @@
         ]
     },
     {
-        "enunciado": "Marca la opción que no corresponde a ningún tipo de cortafuegos (segunda versión, misma pregunta pero con opciones modificadas):",
+        "enunciado": "Marca la opción que no corresponde a ningún tipo de cortafuegos:",
         "respuestas": [
             {"opcion": "a.", "texto": "Filtrado de circuitos: comprueban las IPs, los puertos, la información de la sesión y los números de secuencia de los paquetes enviados", "correcta": false},
             {"opcion": "b.", "texto": "Filtrado de paquetes: seleccionan la información que dejan pasar en función de la información contenida en cada paquete recibido/enviado.", "correcta": false},
@@ -153,7 +153,7 @@
         ]
     },
     {
-        "enunciado": "¿Cuál es la política más aconsejable para disponer de máxima seguridad al configurar un cortafuegos? (pregunta repetida)",
+        "enunciado": "¿Cuál es la política más aconsejable para disponer de máxima seguridad al configurar un cortafuegos?",
         "respuestas": [
             {"opcion": "a.", "texto": "Tanto ACEPTAR, como DENEGAR cumplen la integridad total de la información, y aseguran la seguridad del sistema.", "correcta": false},
             {"opcion": "b.", "texto": "La más aconsejable sería ACEPTAR. Es la más sencilla y segura de ambas, puesto que DENEGAR limita excesivamente el acceso, y es imprescindible una compleja configuración para su correcto funcionamiento.", "correcta": false},
@@ -162,7 +162,7 @@
         ]
     },
     {
-        "enunciado": "¿Dónde debería ubicarse un servidor que contiene información confidencial de sus empleados y al que sólo deben acceder el personal interno de la empresa? (pregunta repetida)",
+        "enunciado": "¿Dónde debería ubicarse un servidor que contiene información confidencial de sus empleados y al que sólo deben acceder el personal interno de la empresa?",
         "respuestas": [
             {"opcion": "a.", "texto": "En la Zona Desmilitarizada.", "correcta": false},
             {"opcion": "b.", "texto": "En un servidor web para acceder cómodamente.", "correcta": false},
