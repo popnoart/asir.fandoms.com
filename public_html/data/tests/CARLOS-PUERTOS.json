@@ -1,0 +1,344 @@
+[
+    {
+        "enunciado": "¿Qué puerto utiliza SSH para acceso remoto seguro?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "23", "correcta": false},
+            {"opcion": "b.", "texto": "22", "correcta": true},
+            {"opcion": "c.", "texto": "21", "correcta": false},
+            {"opcion": "d.", "texto": "25", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Qué puerto utiliza Telnet para acceso remoto no seguro?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "22", "correcta": false},
+            {"opcion": "b.", "texto": "23", "correcta": true},
+            {"opcion": "c.", "texto": "21", "correcta": false},
+            {"opcion": "d.", "texto": "20", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Qué puerto se usa para la transferencia de datos en FTP?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "21", "correcta": false},
+            {"opcion": "b.", "texto": "22", "correcta": false},
+            {"opcion": "c.", "texto": "20", "correcta": true},
+            {"opcion": "d.", "texto": "2121", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Qué puerto se usa para el control y comandos en FTP?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "20", "correcta": false},
+            {"opcion": "b.", "texto": "21", "correcta": true},
+            {"opcion": "c.", "texto": "22", "correcta": false},
+            {"opcion": "d.", "texto": "2121", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Qué puerto alternativo de FTP es estándar y fácil de controlar?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "2222", "correcta": false},
+            {"opcion": "b.", "texto": "2121", "correcta": true},
+            {"opcion": "c.", "texto": "8021", "correcta": false},
+            {"opcion": "d.", "texto": "51021", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Qué puerto alternativo de FTP es seguro y compatible con SSH?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "2121", "correcta": false},
+            {"opcion": "b.", "texto": "8021", "correcta": false},
+            {"opcion": "c.", "texto": "2222", "correcta": true},
+            {"opcion": "d.", "texto": "51021", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Qué puerto alternativo de FTP se usa para routers que tengan ocupado el puerto 21?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "2121", "correcta": false},
+            {"opcion": "b.", "texto": "2222", "correcta": false},
+            {"opcion": "c.", "texto": "8021", "correcta": true},
+            {"opcion": "d.", "texto": "51021", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Qué puertos alternativos de FTP usan servidores empresariales para reducir ciberataques?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "2121 y 2222", "correcta": false},
+            {"opcion": "b.", "texto": "8021 y 8080", "correcta": false},
+            {"opcion": "c.", "texto": "51021 y 62021", "correcta": true},
+            {"opcion": "d.", "texto": "20 y 21", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Qué puerto utiliza HTTP para navegación web sin cifrado?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "443", "correcta": false},
+            {"opcion": "b.", "texto": "8080", "correcta": false},
+            {"opcion": "c.", "texto": "80", "correcta": true},
+            {"opcion": "d.", "texto": "8081", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Qué puerto utiliza HTTPS para navegación web con cifrado?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "80", "correcta": false},
+            {"opcion": "b.", "texto": "443", "correcta": true},
+            {"opcion": "c.", "texto": "8080", "correcta": false},
+            {"opcion": "d.", "texto": "8081", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Qué puerto alternativo de HTTP reemplaza al 80 si está ocupado?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "443", "correcta": false},
+            {"opcion": "b.", "texto": "8081", "correcta": false},
+            {"opcion": "c.", "texto": "8080", "correcta": true},
+            {"opcion": "d.", "texto": "80", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Qué otro puerto alternativo de HTTP reemplaza al 80 si está ocupado?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "8080", "correcta": false},
+            {"opcion": "b.", "texto": "8081", "correcta": true},
+            {"opcion": "c.", "texto": "443", "correcta": false},
+            {"opcion": "d.", "texto": "80", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Qué puerto utiliza el protocolo DNS?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "52", "correcta": false},
+            {"opcion": "b.", "texto": "54", "correcta": false},
+            {"opcion": "c.", "texto": "53", "correcta": true},
+            {"opcion": "d.", "texto": "55", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Qué puerto SMTP se usa para envío de correo sin cifrado y comunicaciones entre servidores?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "465", "correcta": false},
+            {"opcion": "b.", "texto": "587", "correcta": false},
+            {"opcion": "c.", "texto": "25", "correcta": true},
+            {"opcion": "d.", "texto": "993", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Qué puerto SMTP se usa para envío de correo con cifrado SSL?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "25", "correcta": false},
+            {"opcion": "b.", "texto": "587", "correcta": false},
+            {"opcion": "c.", "texto": "993", "correcta": false},
+            {"opcion": "d.", "texto": "465", "correcta": true}
+        ]
+    },
+    {
+        "enunciado": "¿Qué puerto SMTP se usa para envío de correo con cifrado TLS?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "465", "correcta": false},
+            {"opcion": "b.", "texto": "25", "correcta": false},
+            {"opcion": "c.", "texto": "587", "correcta": true},
+            {"opcion": "d.", "texto": "995", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Qué puerto POP3 se usa para recepción de correo con cifrado?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "993", "correcta": false},
+            {"opcion": "b.", "texto": "995", "correcta": true},
+            {"opcion": "c.", "texto": "25", "correcta": false},
+            {"opcion": "d.", "texto": "587", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Qué puerto IMAP se usa para recepción de correo con cifrado?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "995", "correcta": false},
+            {"opcion": "b.", "texto": "465", "correcta": false},
+            {"opcion": "c.", "texto": "993", "correcta": true},
+            {"opcion": "d.", "texto": "25", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Qué puerto TCP se usa en sistemas antiguos para impresión con colas?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "631", "correcta": false},
+            {"opcion": "b.", "texto": "9100", "correcta": false},
+            {"opcion": "c.", "texto": "515", "correcta": true},
+            {"opcion": "d.", "texto": "161", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Qué puerto IPP se usa para impresión por internet o redes locales?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "515", "correcta": false},
+            {"opcion": "b.", "texto": "631", "correcta": true},
+            {"opcion": "c.", "texto": "9100", "correcta": false},
+            {"opcion": "d.", "texto": "161", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Qué puerto TCP es el estándar para impresoras de red?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "515", "correcta": false},
+            {"opcion": "b.", "texto": "631", "correcta": false},
+            {"opcion": "c.", "texto": "9100", "correcta": true},
+            {"opcion": "d.", "texto": "161", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Qué puerto SNMP se usa para monitorizar el estado de una impresora (tinta, papel) sin imprimir?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "515", "correcta": false},
+            {"opcion": "b.", "texto": "631", "correcta": false},
+            {"opcion": "c.", "texto": "9100", "correcta": false},
+            {"opcion": "d.", "texto": "161", "correcta": true}
+        ]
+    },
+    {
+        "enunciado": "¿Qué puerto TCP se usa para impresión segura y encriptada?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "80", "correcta": false},
+            {"opcion": "b.", "texto": "443", "correcta": true},
+            {"opcion": "c.", "texto": "8080", "correcta": false},
+            {"opcion": "d.", "texto": "631", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Qué puerto físico paralelo se usaba tradicionalmente para conectar impresoras a una computadora?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "RS-232", "correcta": false},
+            {"opcion": "b.", "texto": "USB", "correcta": false},
+            {"opcion": "c.", "texto": "LPT1 (DB25)", "correcta": true},
+            {"opcion": "d.", "texto": "RJ45", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Qué conexión física se usa comúnmente para impresoras industriales?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "LPT1", "correcta": false},
+            {"opcion": "b.", "texto": "USB", "correcta": false},
+            {"opcion": "c.", "texto": "RS-232", "correcta": true},
+            {"opcion": "d.", "texto": "HDMI", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Qué puerto utiliza SNMP para monitorización de dispositivos de red?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "514", "correcta": false},
+            {"opcion": "b.", "texto": "161", "correcta": true},
+            {"opcion": "c.", "texto": "601", "correcta": false},
+            {"opcion": "d.", "texto": "6514", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Qué puerto utiliza Syslog para registro de eventos de red (UDP)?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "161", "correcta": false},
+            {"opcion": "b.", "texto": "514", "correcta": true},
+            {"opcion": "c.", "texto": "601", "correcta": false},
+            {"opcion": "d.", "texto": "6514", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Qué puerto utiliza Syslog para registro de eventos de red (TCP)?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "514", "correcta": false},
+            {"opcion": "b.", "texto": "161", "correcta": false},
+            {"opcion": "c.", "texto": "601", "correcta": true},
+            {"opcion": "d.", "texto": "6514", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Qué puerto utiliza Syslog TLS con cifrado?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "514", "correcta": false},
+            {"opcion": "b.", "texto": "601", "correcta": false},
+            {"opcion": "c.", "texto": "6514", "correcta": true},
+            {"opcion": "d.", "texto": "9996", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Qué puerto utiliza NetFlow de Cisco para monitorización de tráfico de red?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "6514", "correcta": false},
+            {"opcion": "b.", "texto": "514", "correcta": false},
+            {"opcion": "c.", "texto": "9996", "correcta": true},
+            {"opcion": "d.", "texto": "601", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Qué puerto utiliza NetBIOS?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "138", "correcta": false},
+            {"opcion": "b.", "texto": "80,8080, 8081", "correcta": false},
+            {"opcion": "c.", "texto": "137,138,139", "correcta": true},
+            {"opcion": "d.", "texto": "53", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Qué puertos se cierran al deshabilitar NetBIOS?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "80, 443, 8080", "correcta": false},
+            {"opcion": "b.", "texto": "20, 21, 22", "correcta": false},
+            {"opcion": "c.", "texto": "137, 138, 139", "correcta": true},
+            {"opcion": "d.", "texto": "25, 465, 587", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Qué puerto por defecto usa la VLAN de voz en telefonía IP Cisco?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "443", "correcta": false},
+            {"opcion": "b.", "texto": "2000", "correcta": true},
+            {"opcion": "c.", "texto": "3478", "correcta": false},
+            {"opcion": "d.", "texto": "3481", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Qué puerto usa WhatsApp como principal?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "6667", "correcta": false},
+            {"opcion": "b.", "texto": "3478", "correcta": false},
+            {"opcion": "c.", "texto": "443", "correcta": true},
+            {"opcion": "d.", "texto": "3481", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Qué puerto alternativo usa WhatsApp?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "443", "correcta": false},
+            {"opcion": "b.", "texto": "3478", "correcta": false},
+            {"opcion": "c.", "texto": "3481", "correcta": false},
+            {"opcion": "d.", "texto": "6667", "correcta": true}
+        ]
+    },
+    {
+        "enunciado": "¿Qué puerto usa Microsoft Teams como principal?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "3478", "correcta": false},
+            {"opcion": "b.", "texto": "3481", "correcta": false},
+            {"opcion": "c.", "texto": "443", "correcta": true},
+            {"opcion": "d.", "texto": "6667", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Qué puerto usa Microsoft Teams para multimedia?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "443", "correcta": false},
+            {"opcion": "b.", "texto": "6667", "correcta": false},
+            {"opcion": "c.", "texto": "3478", "correcta": true},
+            {"opcion": "d.", "texto": "2000", "correcta": false}
+        ]
+    },
+    {
+        "enunciado": "¿Qué otro puerto usa Microsoft Teams para multimedia?",
+        "respuestas": [
+            {"opcion": "a.", "texto": "443", "correcta": false},
+            {"opcion": "b.", "texto": "3478", "correcta": false},
+            {"opcion": "c.", "texto": "6667", "correcta": false},
+            {"opcion": "d.", "texto": "3481", "correcta": true}
+        ]
+    }
+]
