@@ -9,7 +9,7 @@
         ]
     },
     {
-        "enunciado": "The pharmacist recommended a simple and plenty of rest.",
+        "enunciado": "The pharmacist recommended a simple ______ and plenty of rest.",
         "respuestas": [
             { "opcion": "a.", "texto": "symptom", "correcta": false },
             { "opcion": "b.", "texto": "appointment", "correcta": false },
