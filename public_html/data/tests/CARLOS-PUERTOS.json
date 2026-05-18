@@ -225,21 +225,12 @@
         ]
     },
     {
-        "enunciado": "¿Qué puerto utiliza Syslog para registro de eventos de red (UDP)?",
+        "enunciado": "¿Qué puertos utiliza Syslog para registro de eventos de red (UDP y TCP)?",
         "respuestas": [
-            {"opcion": "a.", "texto": "161", "correcta": false},
-            {"opcion": "b.", "texto": "514", "correcta": true},
-            {"opcion": "c.", "texto": "601", "correcta": false},
-            {"opcion": "d.", "texto": "6514", "correcta": false}
-        ]
-    },
-    {
-        "enunciado": "¿Qué puerto utiliza Syslog para registro de eventos de red (TCP)?",
-        "respuestas": [
-            {"opcion": "a.", "texto": "514", "correcta": false},
-            {"opcion": "b.", "texto": "161", "correcta": false},
-            {"opcion": "c.", "texto": "601", "correcta": true},
-            {"opcion": "d.", "texto": "6514", "correcta": false}
+            {"opcion": "a.", "texto": "161 y 601", "correcta": false},
+            {"opcion": "b.", "texto": "514 y 601", "correcta": true},
+            {"opcion": "c.", "texto": "6514 y 601", "correcta": false},
+            {"opcion": "d.", "texto": "6514 y 6601", "correcta": false}
         ]
     },
     {
