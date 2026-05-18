@@ -402,7 +402,7 @@
         ]
     },
     {
-        "enunciado": "RA3 - Tienes un DNS con la IP 172.0.0./25 ¿Qué máscara le corresponde por OSPF?",
+        "enunciado": "RA3 - Tienes un DNS con la IP 172.0.0.0/25 ¿Qué máscara le corresponde por OSPF?",
         "respuestas": [
             {
                 "opcion": "a.",
