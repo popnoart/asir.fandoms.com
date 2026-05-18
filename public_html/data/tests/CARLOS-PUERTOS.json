@@ -309,18 +309,9 @@
         "enunciado": "¿Qué puerto usa Microsoft Teams para multimedia?",
         "respuestas": [
             {"opcion": "a.", "texto": "443", "correcta": false},
-            {"opcion": "b.", "texto": "6667", "correcta": false},
-            {"opcion": "c.", "texto": "3478", "correcta": true},
-            {"opcion": "d.", "texto": "2000", "correcta": false}
+            {"opcion": "b.", "texto": "6667 y 3481", "correcta": false},
+            {"opcion": "c.", "texto": "3478 y 3481", "correcta": true},
+            {"opcion": "d.", "texto": "6667", "correcta": false}
         ]
     },
-    {
-        "enunciado": "¿Qué otro puerto usa Microsoft Teams para multimedia?",
-        "respuestas": [
-            {"opcion": "a.", "texto": "443", "correcta": false},
-            {"opcion": "b.", "texto": "3478", "correcta": false},
-            {"opcion": "c.", "texto": "6667", "correcta": false},
-            {"opcion": "d.", "texto": "3481", "correcta": true}
-        ]
-    }
 ]
