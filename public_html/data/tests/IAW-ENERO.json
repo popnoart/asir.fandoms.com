@@ -352,7 +352,8 @@
         ]
     },
     {
-        "enunciado": "¿Qué puede pasar en un bucle for? (Sin confirmar) IAs dicen que todo mal",
+        "enunciado": "¿Qué puede pasar en un bucle for?",
+        "note": "No es correcta: tanto for como while pueden no entrar nunca ya que evalúan primero la condición y luego ejecutan el código del bucle sólo si se cumple.",
         "respuestas": [
             {
                 "opcion": "a.",
