@@ -18,16 +18,7 @@
         ]
     },
     {
-        "enunciado": "¿Qué puerto se usa para la transferencia de datos en FTP?",
-        "respuestas": [
-            {"opcion": "a.", "texto": "21", "correcta": false},
-            {"opcion": "b.", "texto": "22", "correcta": false},
-            {"opcion": "c.", "texto": "20", "correcta": true},
-            {"opcion": "d.", "texto": "2121", "correcta": false}
-        ]
-    },
-    {
-        "enunciado": "¿Qué puerto se usa para el control y comandos en FTP?",
+        "enunciado": "¿Qué puerto se usa habitualmente en FTP?",
         "respuestas": [
             {"opcion": "a.", "texto": "20", "correcta": false},
             {"opcion": "b.", "texto": "21", "correcta": true},
