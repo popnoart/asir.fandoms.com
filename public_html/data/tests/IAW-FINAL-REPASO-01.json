@@ -190,7 +190,8 @@
         ]
     },
     {
-        "enunciado": "¿Qué hace esta línea? let xhr = new XMLHttpRequest();",
+        "enunciado": "¿Qué hace esta línea?",
+        "code": "let xhr = new XMLHttpRequest();",
         "respuestas": [
             { "opcion": "a.", "texto": "Envía datos", "correcta": false },
             { "opcion": "b.", "texto": "Crea una petición", "correcta": true },
