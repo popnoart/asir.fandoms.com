@@ -466,7 +466,7 @@
         ]
     },
     {
-        "enunciado": "¿Qué numeración en formato octal corresponde a los permisos 'D W-X R-X ---'?",
+        "enunciado": "¿Qué numeración en formato octal corresponde a los permisos 'D -WX R-X ---'?",
         "respuestas": [
             {
                 "opcion": "A",
