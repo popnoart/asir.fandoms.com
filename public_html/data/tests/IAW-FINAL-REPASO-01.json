@@ -1,0 +1,364 @@
+[
+    {
+        "enunciado": "¿Qué tipo de lenguaje es JavaScript?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Lenguaje compilado", "correcta": false },
+            { "opcion": "b.", "texto": "Lenguaje de marcas", "correcta": false },
+            { "opcion": "c.", "texto": "Lenguaje de scripting interpretado", "correcta": true },
+            { "opcion": "d.", "texto": "Lenguaje de bases de datos", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "¿Dónde se ejecuta principalmente JavaScript?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "En el servidor", "correcta": false },
+            { "opcion": "b.", "texto": "En el navegador", "correcta": true },
+            { "opcion": "c.", "texto": "En la base de datos", "correcta": false },
+            { "opcion": "d.", "texto": "En el sistema operativo", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál es la forma correcta de declarar una variable?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "variable x;", "correcta": false },
+            { "opcion": "b.", "texto": "var x;", "correcta": true },
+            { "opcion": "c.", "texto": "int x;", "correcta": false },
+            { "opcion": "d.", "texto": "x := 5;", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "¿Qué muestra este código? console.log(typeof 5);",
+        "respuestas": [
+            { "opcion": "a.", "texto": "number", "correcta": true },
+            { "opcion": "b.", "texto": "int", "correcta": false },
+            { "opcion": "c.", "texto": "string", "correcta": false },
+            { "opcion": "d.", "texto": "float", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "¿Qué significa DOM?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Document Oriented Model", "correcta": false },
+            { "opcion": "b.", "texto": "Data Object Model", "correcta": false },
+            { "opcion": "c.", "texto": "Document Object Model", "correcta": true },
+            { "opcion": "d.", "texto": "Dynamic Object Model", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "¿Para qué sirve el DOM?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Validar HTML", "correcta": false },
+            { "opcion": "b.", "texto": "Aplicar estilos CSS", "correcta": false },
+            { "opcion": "c.", "texto": "Acceder y modificar la estructura HTML", "correcta": true },
+            { "opcion": "d.", "texto": "Crear bases de datos", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "¿Qué devuelve document.getElementById()?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Un array", "correcta": false },
+            { "opcion": "b.", "texto": "Un elemento HTML", "correcta": true },
+            { "opcion": "c.", "texto": "Una cadena", "correcta": false },
+            { "opcion": "d.", "texto": "Un nodo de texto", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "Si el id no existe, getElementById() devuelve:",
+        "respuestas": [
+            { "opcion": "a.", "texto": "false", "correcta": false },
+            { "opcion": "b.", "texto": "\"\"", "correcta": false },
+            { "opcion": "c.", "texto": "null", "correcta": true },
+            { "opcion": "d.", "texto": "undefined", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "¿Qué método crea un nuevo elemento HTML?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "createNode()", "correcta": false },
+            { "opcion": "b.", "texto": "newElement()", "correcta": false },
+            { "opcion": "c.", "texto": "createElement()", "correcta": true },
+            { "opcion": "d.", "texto": "addElement()", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "¿Qué crea document.createElement()?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Un elemento HTML", "correcta": true },
+            { "opcion": "b.", "texto": "Un nodo de texto", "correcta": false },
+            { "opcion": "c.", "texto": "Un comentario", "correcta": false },
+            { "opcion": "d.", "texto": "Un atributo", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál es el orden correcto para añadir un nodo al DOM?",
+        "note": "Originalmente había dicho la b.",
+        "respuestas": [
+            { "opcion": "a.", "texto": "create → append", "correcta": true },
+            { "opcion": "b.", "texto": "select → create → append", "correcta": false },
+            { "opcion": "c.", "texto": "append → create → select", "correcta": false },
+            { "opcion": "d.", "texto": "select → append → create", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "¿Qué método inserta un nodo como hijo?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "add()", "correcta": false },
+            { "opcion": "b.", "texto": "push()", "correcta": false },
+            { "opcion": "c.", "texto": "appendChild()", "correcta": true },
+            { "opcion": "d.", "texto": "insert()", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "¿Qué hace setAttribute()?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Elimina un atributo", "correcta": false },
+            { "opcion": "b.", "texto": "Lee un atributo", "correcta": false },
+            { "opcion": "c.", "texto": "Establece un atributo", "correcta": true },
+            { "opcion": "d.", "texto": "Crea un nodo", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "¿Uso correcto de setAttribute()?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "element.setAttribute(id=\"caja\")", "correcta": false },
+            { "opcion": "b.", "texto": "setAttribute(\"id\",\"caja\")", "correcta": false },
+            { "opcion": "c.", "texto": "element.setAttribute(\"id\",\"caja\")", "correcta": true },
+            { "opcion": "d.", "texto": "element.addAttribute(\"id\",\"caja\")", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "¿Qué método obtiene el valor de un atributo?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "getValue()", "correcta": false },
+            { "opcion": "b.", "texto": "getAttribute()", "correcta": true },
+            { "opcion": "c.", "texto": "readAttribute()", "correcta": false },
+            { "opcion": "d.", "texto": "value()", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "¿Qué significa JSON?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Java Source Object Notation", "correcta": false },
+            { "opcion": "b.", "texto": "JavaScript Object Notation", "correcta": true },
+            { "opcion": "c.", "texto": "Java Structured Object Network", "correcta": false },
+            { "opcion": "d.", "texto": "JavaScript Oriented Network", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál es un JSON válido?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "{nombre: \"Ana\"}", "correcta": false },
+            { "opcion": "b.", "texto": "{ \"nombre\": \"Ana\" }", "correcta": true },
+            { "opcion": "c.", "texto": "{ 'nombre': 'Ana' }", "correcta": false },
+            { "opcion": "d.", "texto": "( \"nombre\": \"Ana\" )", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "¿Qué método convierte JSON a objeto JavaScript?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "JSON.stringify()", "correcta": false },
+            { "opcion": "b.", "texto": "JSON.convert()", "correcta": false },
+            { "opcion": "c.", "texto": "JSON.parse()", "correcta": true },
+            { "opcion": "d.", "texto": "JSON.object()", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "¿Qué método convierte un objeto a JSON?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "JSON.parse()", "correcta": false },
+            { "opcion": "b.", "texto": "JSON.stringify()", "correcta": true },
+            { "opcion": "c.", "texto": "JSON.encode()", "correcta": false },
+            { "opcion": "d.", "texto": "toJSON()", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "¿Para qué se usa principalmente JSON?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Crear estilos", "correcta": false },
+            { "opcion": "b.", "texto": "Mostrar datos", "correcta": false },
+            { "opcion": "c.", "texto": "Intercambio de datos", "correcta": true },
+            { "opcion": "d.", "texto": "Validar HTML", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "¿Para qué sirve XMLHttpRequest?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Validar XML", "correcta": false },
+            { "opcion": "b.", "texto": "Crear JSON", "correcta": false },
+            { "opcion": "c.", "texto": "Enviar y recibir datos con un servidor", "correcta": true },
+            { "opcion": "d.", "texto": "Crear nodos DOM", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "¿Qué hace esta línea? let xhr = new XMLHttpRequest();",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Envía datos", "correcta": false },
+            { "opcion": "b.", "texto": "Crea una petición", "correcta": true },
+            { "opcion": "c.", "texto": "Recibe datos", "correcta": false },
+            { "opcion": "d.", "texto": "Ejecuta el servidor", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "¿Qué método configura la petición de los datos del archivo?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "send()", "correcta": false },
+            { "opcion": "b.", "texto": "open()", "correcta": true },
+            { "opcion": "c.", "texto": "request()", "correcta": false },
+            { "opcion": "d.", "texto": "connect()", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "¿Qué método envía la petición?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "open()", "correcta": false },
+            { "opcion": "b.", "texto": "send()", "correcta": true },
+            { "opcion": "c.", "texto": "get()", "correcta": false },
+            { "opcion": "d.", "texto": "post()", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "¿Qué valor indica que la respuesta está lista?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "readyState = 2", "correcta": false },
+            { "opcion": "b.", "texto": "readyState = 3", "correcta": false },
+            { "opcion": "c.", "texto": "readyState = 4", "correcta": true },
+            { "opcion": "d.", "texto": "readyState = 5", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "¿Qué significa XML?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Extra Markup Language", "correcta": false },
+            { "opcion": "b.", "texto": "Extensible Markup Language", "correcta": true },
+            { "opcion": "c.", "texto": "Example Markup Language", "correcta": false },
+            { "opcion": "d.", "texto": "External Markup Language", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál es una estructura XML correcta?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "<nombre>Ana", "correcta": false },
+            { "opcion": "b.", "texto": "<nombre>Ana</nombre>", "correcta": true },
+            { "opcion": "c.", "texto": "<nombre>Ana</>", "correcta": false },
+            { "opcion": "d.", "texto": "<nombre>Ana>", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "En XML, las etiquetas deben:",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Estar en mayúsculas", "correcta": false },
+            { "opcion": "b.", "texto": "Cerrarse correctamente", "correcta": true },
+            { "opcion": "c.", "texto": "Llevar atributos", "correcta": false },
+            { "opcion": "d.", "texto": "No tener texto", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "¿XML distingue entre mayúsculas y minúsculas?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "No", "correcta": false },
+            { "opcion": "b.", "texto": "Depende del navegador", "correcta": false },
+            { "opcion": "c.", "texto": "Sí", "correcta": true },
+            { "opcion": "d.", "texto": "Solo en atributos", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "¿Cuántos elementos raíz puede tener un XML?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Ninguno", "correcta": false },
+            { "opcion": "b.", "texto": "Uno es conveniente", "correcta": true },
+            { "opcion": "c.", "texto": "Dos", "correcta": false },
+            { "opcion": "d.", "texto": "Los que quiera", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "Resultado del código:",
+        "code": "let x = document.getElementById(\"caja\");",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Un array", "correcta": false },
+            { "opcion": "b.", "texto": "Un elemento", "correcta": true },
+            { "opcion": "c.", "texto": "Un texto", "correcta": false },
+            { "opcion": "d.", "texto": "Un número", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "¿Qué hace este código? div.appendChild(texto);",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Elimina texto", "correcta": false },
+            { "opcion": "b.", "texto": "Inserta texto dentro del div", "correcta": true },
+            { "opcion": "c.", "texto": "Borra el div", "correcta": false },
+            { "opcion": "d.", "texto": "Cambia el id", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "¿Qué objeto se usa para trabajar con JSON en JavaScript?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Object", "correcta": false },
+            { "opcion": "b.", "texto": "JSON", "correcta": true },
+            { "opcion": "c.", "texto": "Data", "correcta": false },
+            { "opcion": "d.", "texto": "Ajax", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "¿Qué devuelve JSON.parse() si el texto no es válido?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "null", "correcta": false },
+            { "opcion": "b.", "texto": "false", "correcta": false },
+            { "opcion": "c.", "texto": "Error", "correcta": true },
+            { "opcion": "d.", "texto": "Objeto vacío", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "¿En qué formato suele recibirse una respuesta AJAX moderna?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "TXT", "correcta": false },
+            { "opcion": "b.", "texto": "HTML", "correcta": false },
+            { "opcion": "c.", "texto": "JSON", "correcta": true },
+            { "opcion": "d.", "texto": "CSV", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "En un listado de elemento html, si solamente queremos seleccionar el primero, ¿Qué método utilizamos?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "getElementById()", "correcta": false },
+            { "opcion": "b.", "texto": "querySelector()", "correcta": true },
+            { "opcion": "c.", "texto": "queryAll()", "correcta": false },
+            { "opcion": "d.", "texto": "getElementsByClass()", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "¿Qué se modifica con innerText o textContent?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Estilos", "correcta": false },
+            { "opcion": "b.", "texto": "Atributos", "correcta": false },
+            { "opcion": "c.", "texto": "Contenido de texto", "correcta": true },
+            { "opcion": "d.", "texto": "Eventos", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "¿Qué método elimina un elemento del DOM?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "remove()", "correcta": true },
+            { "opcion": "b.", "texto": "delete()", "correcta": false },
+            { "opcion": "c.", "texto": "cut()", "correcta": false },
+            { "opcion": "d.", "texto": "clear()", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "¿Qué ventaja tiene XML frente a HTML?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Da estilo", "correcta": false },
+            { "opcion": "b.", "texto": "Es más flexible para datos", "correcta": true },
+            { "opcion": "c.", "texto": "Es más visual", "correcta": false },
+            { "opcion": "d.", "texto": "Es más rápido", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "¿Qué tienen en común JSON y XML?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Usan CSS", "correcta": false },
+            { "opcion": "b.", "texto": "Son lenguajes de programación", "correcta": false },
+            { "opcion": "c.", "texto": "Sirven para intercambiar datos", "correcta": true },
+            { "opcion": "d.", "texto": "Se ejecutan en el navegador", "correcta": false }
+        ]
+    }
+]

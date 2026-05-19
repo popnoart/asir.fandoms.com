@@ -1032,6 +1032,12 @@
                 "start": "",
                 "end": "",
                 "name": "AUTOEVALUACIÓN MAYO"
+            },
+            "IAW-FINAL-REPASO-01": {
+                "type": "Cuestionario",
+                "start": "",
+                "end": "",
+                "name": "Test repaso final"
             }
         },
         "notes": {
