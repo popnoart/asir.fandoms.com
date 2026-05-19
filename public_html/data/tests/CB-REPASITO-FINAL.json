@@ -270,8 +270,8 @@
         ]
     },
     {
-        "enunciado": "RA4 - Pregunta con imagen: El PC con nombre INTERNET, ¿qué IP debe teclear para acceder a la web WWW.VIOLINES.ES?",
-        "image": "CB-REPASITO-FINAL_01.png",
+        "enunciado": "RA4 - El PC con nombre INTERNET, ¿qué IP debe teclear para acceder a la web WWW.VIOLINES.ES?",
+        "imagen": "CB-REPASITO-FINAL_01.png",
         "respuestas": [
             { "opcion": "a.", "texto": "172.172.0.0", "correcta": false },
             { "opcion": "b.", "texto": "172.172.0.1", "correcta": true },
