@@ -586,6 +586,12 @@
                 "start": "",
                 "end": "",
                 "name": "Puertos"
+            },
+            "CB-REPASITO-FINAL": {
+                "type": "Cuestionario",
+                "start": "",
+                "end": "",
+                "name": "Repasito final"
             }
         },
         "notes": {

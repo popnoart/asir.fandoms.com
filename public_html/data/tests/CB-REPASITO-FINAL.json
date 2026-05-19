@@ -1,0 +1,444 @@
+[
+    {
+        "enunciado": "¿Qué es un AAA?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Un sistema que proporciona auditoría y acceso", "correcta": false },
+            { "opcion": "b.", "texto": "Un sistema que proporciona autenticación, autorización y contabilización", "correcta": true },
+            { "opcion": "c.", "texto": "Un sistema que proporciona solo autenticación", "correcta": false },
+            { "opcion": "d.", "texto": "Un antivirus", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "Desde el punto de vista de seguridad, ¿qué es más seguro: que un usuario conozca únicamente la contraseña, o que la conozca el usuario y el administrador?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Que la conozcan ambos", "correcta": false },
+            { "opcion": "b.", "texto": "Solo el usuario", "correcta": true },
+            { "opcion": "c.", "texto": "Depende del tipo de contraseña", "correcta": false },
+            { "opcion": "d.", "texto": "Es igual de seguro", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "NetBIOS es propiedad de Microsoft y le pertenecen los puertos:",
+        "respuestas": [
+            { "opcion": "a.", "texto": "80, 443 y 8080", "correcta": false },
+            { "opcion": "b.", "texto": "21, 22 y 23", "correcta": false },
+            { "opcion": "c.", "texto": "137, 138 y 139", "correcta": true },
+            { "opcion": "d.", "texto": "53, 67 y 68", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "En redes de seguridad inalámbricas se utiliza AAA. El servidor AAA tiene que disponer de seguridad llamada... y el router con seguridad con el nombre de...",
+        "respuestas": [
+            { "opcion": "a.", "texto": "TACACS y WEP", "correcta": false },
+            { "opcion": "b.", "texto": "RADIUS y WPA2", "correcta": true },
+            { "opcion": "c.", "texto": "Kerberos y WPA", "correcta": false },
+            { "opcion": "d.", "texto": "LDAP y WPA3", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "¿Qué es un sniffer?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Un software antivirus", "correcta": false },
+            { "opcion": "b.", "texto": "Un componente físico o software que se utiliza para monitorizar", "correcta": true },
+            { "opcion": "c.", "texto": "Un cortafuegos", "correcta": false },
+            { "opcion": "d.", "texto": "Un sistema de cifrado", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "Un antivirus es seguridad:",
+        "respuestas": [
+            { "opcion": "a.", "texto": "PASIVA", "correcta": false },
+            { "opcion": "b.", "texto": "ACTIVA", "correcta": true },
+            { "opcion": "c.", "texto": "Física", "correcta": false },
+            { "opcion": "d.", "texto": "Preventiva", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "¿Para qué se utiliza TACACS en AAA?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Para monitorizar el tráfico", "correcta": false },
+            { "opcion": "b.", "texto": "Para asegurar que el usuario o administrador teclee una contraseña segura para acceder a un router o switch", "correcta": true },
+            { "opcion": "c.", "texto": "Para cifrar discos duros", "correcta": false },
+            { "opcion": "d.", "texto": "Para hacer copias de seguridad", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "Un administrador crea un usuario en Windows Server, ¿por defecto puede iniciar sesión el usuario en el PC en el que está instalado Windows Server?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Sí, automáticamente", "correcta": false },
+            { "opcion": "b.", "texto": "No puede iniciar sesión por defecto en el mismo servidor", "correcta": true },
+            { "opcion": "c.", "texto": "Solo si es administrador", "correcta": false },
+            { "opcion": "d.", "texto": "Depende de la versión", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "Un cortafuegos es seguridad:",
+        "respuestas": [
+            { "opcion": "a.", "texto": "PASIVA", "correcta": false },
+            { "opcion": "b.", "texto": "ACTIVA", "correcta": true },
+            { "opcion": "c.", "texto": "Física", "correcta": false },
+            { "opcion": "d.", "texto": "Correctiva", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "Las copias de seguridad son seguridad:",
+        "respuestas": [
+            { "opcion": "a.", "texto": "ACTIVA", "correcta": false },
+            { "opcion": "b.", "texto": "PASIVA", "correcta": true },
+            { "opcion": "c.", "texto": "Preventiva", "correcta": false },
+            { "opcion": "d.", "texto": "Lógica", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "¿Qué se entiende por monitorización?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Instalar antivirus", "correcta": false },
+            { "opcion": "b.", "texto": "Observar y analizar una red para saber quién se conecta con quién y conocer datos de posibles atacantes", "correcta": true },
+            { "opcion": "c.", "texto": "Hacer copias de seguridad", "correcta": false },
+            { "opcion": "d.", "texto": "Cifrar comunicaciones", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "¿Qué licencia tiene Wireshark?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Propietario", "correcta": false },
+            { "opcion": "b.", "texto": "Open Source", "correcta": true },
+            { "opcion": "c.", "texto": "Freemium", "correcta": false },
+            { "opcion": "d.", "texto": "Comercial", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "¿Qué licencia tiene Nmap?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Propietario", "correcta": false },
+            { "opcion": "b.", "texto": "Open Source", "correcta": true },
+            { "opcion": "c.", "texto": "Shareware", "correcta": false },
+            { "opcion": "d.", "texto": "Gratuito pero cerrado", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "¿Qué licencia tienen Syslog y Netflow?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Open Source", "correcta": false },
+            { "opcion": "b.", "texto": "Es de licencia de propietario", "correcta": true },
+            { "opcion": "c.", "texto": "GNU", "correcta": false },
+            { "opcion": "d.", "texto": "Creative Commons", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "¿A qué puerto pertenece FTP?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "22", "correcta": false },
+            { "opcion": "b.", "texto": "21", "correcta": true },
+            { "opcion": "c.", "texto": "23", "correcta": false },
+            { "opcion": "d.", "texto": "25", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "¿A qué puerto pertenece DNS?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "53", "correcta": true },
+            { "opcion": "b.", "texto": "80", "correcta": false },
+            { "opcion": "c.", "texto": "443", "correcta": false },
+            { "opcion": "d.", "texto": "25", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "¿Qué es SSH y a qué puerto pertenece?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Acceso remoto, puerto 22", "correcta": true },
+            { "opcion": "b.", "texto": "Correo seguro, puerto 25", "correcta": false },
+            { "opcion": "c.", "texto": "Web seguro, puerto 443", "correcta": false },
+            { "opcion": "d.", "texto": "Transferencia de archivos, puerto 21", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "¿Qué se entiende por el puerto 443?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "HTTP", "correcta": false },
+            { "opcion": "b.", "texto": "HTTPS", "correcta": true },
+            { "opcion": "c.", "texto": "FTP", "correcta": false },
+            { "opcion": "d.", "texto": "SSH", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "¿Qué se entiende por el puerto 80?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Puerto seguro HTTPS", "correcta": false },
+            { "opcion": "b.", "texto": "Puerto NO seguro HTTP", "correcta": true },
+            { "opcion": "c.", "texto": "Puerto SMTP", "correcta": false },
+            { "opcion": "d.", "texto": "Puerto DNS", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "¿Cómo se visualiza la MAC en Windows desde la consola de comando?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "ipconfig", "correcta": false },
+            { "opcion": "b.", "texto": "getmac", "correcta": false },
+            { "opcion": "c.", "texto": "ipconfig /all", "correcta": true },
+            { "opcion": "d.", "texto": "netstat -r", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "¿Qué se entiende por VPN?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Antivirus en la nube", "correcta": false },
+            { "opcion": "b.", "texto": "Encripta datos, red virtual privada y segura", "correcta": true },
+            { "opcion": "c.", "texto": "Red de área local", "correcta": false },
+            { "opcion": "d.", "texto": "Cortafuegos físico", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "¿Cuántas variables se declaran en una VPN?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Dos", "correcta": false },
+            { "opcion": "b.", "texto": "Tres", "correcta": true },
+            { "opcion": "c.", "texto": "Cuatro", "correcta": false },
+            { "opcion": "d.", "texto": "Cinco", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "¿Qué se entiende por lista de control de acceso?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Lista de redes que NO pueden navegar", "correcta": false },
+            { "opcion": "b.", "texto": "Redes que se incluyen en la lista de control de acceso y SÍ pueden navegar", "correcta": true },
+            { "opcion": "c.", "texto": "Lista de contraseñas", "correcta": false },
+            { "opcion": "d.", "texto": "Lista de usuarios", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "¿Cuántas VLAN se pueden declarar en un cortafuegos de Cisco?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Dos", "correcta": false },
+            { "opcion": "b.", "texto": "Tres", "correcta": true },
+            { "opcion": "c.", "texto": "Cinco", "correcta": false },
+            { "opcion": "d.", "texto": "Diez", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "¿IPSEC se utiliza para...?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Encripta los datos que viajan por el cable", "correcta": true },
+            { "opcion": "b.", "texto": "Autenticar usuarios", "correcta": false },
+            { "opcion": "c.", "texto": "Monitorizar red", "correcta": false },
+            { "opcion": "d.", "texto": "Hacer copias de seguridad", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "¿ISAKMP se utiliza para...?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Encriptar datos en el propio router", "correcta": true },
+            { "opcion": "b.", "texto": "Filtrar paquetes", "correcta": false },
+            { "opcion": "c.", "texto": "Monitorizar tráfico", "correcta": false },
+            { "opcion": "d.", "texto": "Gestionar logs", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "En una VPN, en la línea encryption con el algoritmo AES, ¿qué opciones tenemos para encriptar?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Solo AES", "correcta": false },
+            { "opcion": "b.", "texto": "AES, 3DES y DES", "correcta": true },
+            { "opcion": "c.", "texto": "RSA y AES", "correcta": false },
+            { "opcion": "d.", "texto": "Solo 3DES", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "En configuraciones con VPN, la orden 'Match address' va seguida de un número. ¿Cuál es?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "El número de puerto", "correcta": false },
+            { "opcion": "b.", "texto": "La lista de control de acceso con máscara en OSPF", "correcta": true },
+            { "opcion": "c.", "texto": "La VLAN ID", "correcta": false },
+            { "opcion": "d.", "texto": "El número de secuencia", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "¿Qué orden se debe teclear para saber si una VPN funciona correctamente?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "show vpn status", "correcta": false },
+            { "opcion": "b.", "texto": "show crypto ipsec sa", "correcta": true },
+            { "opcion": "c.", "texto": "show ip vpn", "correcta": false },
+            { "opcion": "d.", "texto": "debug vpn", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "Desde el punto de vista de seguridad, ¿cuál es el eslabón más débil en una empresa?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "El cortafuegos", "correcta": false },
+            { "opcion": "b.", "texto": "El usuario", "correcta": true },
+            { "opcion": "c.", "texto": "El servidor", "correcta": false },
+            { "opcion": "d.", "texto": "El antivirus", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "RA4 - Pregunta con imagen: El PC con nombre INTERNET, ¿qué IP debe teclear para acceder a la web WWW.VIOLINES.ES?",
+        "image": "CB-REPASITO-FINAL_01.png",
+        "respuestas": [
+            { "opcion": "a.", "texto": "172.172.0.0", "correcta": false },
+            { "opcion": "b.", "texto": "172.172.0.1", "correcta": true },
+            { "opcion": "c.", "texto": "No aplica", "correcta": false },
+            { "opcion": "d.", "texto": "Falta información", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "¿Qué se entiende por acceso remoto y qué puerto utiliza?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Configurar un dispositivo remotamente, puerto 22 (SSH)", "correcta": true },
+            { "opcion": "b.", "texto": "Acceso local, puerto 80", "correcta": false },
+            { "opcion": "c.", "texto": "Escritorio remoto, puerto 3389 solo", "correcta": false },
+            { "opcion": "d.", "texto": "Transferencia remota, puerto 21", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "¿Qué se entiende por Telnet y qué puerto utiliza?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Acceso remoto seguro, puerto 22", "correcta": false },
+            { "opcion": "b.", "texto": "Acceso remoto no encriptado, puerto 23", "correcta": true },
+            { "opcion": "c.", "texto": "Transferencia de archivos, puerto 21", "correcta": false },
+            { "opcion": "d.", "texto": "Correo, puerto 25", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "¿Cuál es la ventaja y desventaja de Telnet y SSH?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "SSH no encripta, Telnet encripta", "correcta": false },
+            { "opcion": "b.", "texto": "SSH acceso remoto y encripta; Telnet acceso remoto pero no encripta", "correcta": true },
+            { "opcion": "c.", "texto": "Ambos son iguales", "correcta": false },
+            { "opcion": "d.", "texto": "Telnet es más seguro", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "¿Qué hacen las órdenes webvpn y enable Outside en un cortafuegos de Cisco?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Protegen a los usuarios de seguridad 100 para que no vean contraseñas de seguridad 0", "correcta": true },
+            { "opcion": "b.", "texto": "Activan el antivirus", "correcta": false },
+            { "opcion": "c.", "texto": "Desactivan el cortafuegos", "correcta": false },
+            { "opcion": "d.", "texto": "Monitorean tráfico", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "¿Qué se entiende por una DMZ?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Zona de administración", "correcta": false },
+            { "opcion": "b.", "texto": "Zona desmilitarizada", "correcta": true },
+            { "opcion": "c.", "texto": "Zona de copias", "correcta": false },
+            { "opcion": "d.", "texto": "Zona de usuarios", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "¿Qué nivel de seguridad debe tener una DMZ?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "100", "correcta": false },
+            { "opcion": "b.", "texto": "0", "correcta": false },
+            { "opcion": "c.", "texto": "50", "correcta": true },
+            { "opcion": "d.", "texto": "75", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "Cisco Packet Tracer incluye un DMZ, ¿funciona correctamente?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Sí", "correcta": false },
+            { "opcion": "b.", "texto": "No, por razones de negocio", "correcta": true },
+            { "opcion": "c.", "texto": "Solo en versiones de pago", "correcta": false },
+            { "opcion": "d.", "texto": "Depende del hardware", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "¿Qué nombre recibe el cortafuegos físico en Cisco?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "PIX", "correcta": false },
+            { "opcion": "b.", "texto": "ASA 5505", "correcta": true },
+            { "opcion": "c.", "texto": "Firepower", "correcta": false },
+            { "opcion": "d.", "texto": "Router 1900", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "La ley de los cortafuegos afirma que...",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Todos pueden comunicarse", "correcta": false },
+            { "opcion": "b.", "texto": "Los PC de seguridad inferior no pueden comunicarse con los de seguridad superior", "correcta": true },
+            { "opcion": "c.", "texto": "Los de seguridad superior no pueden comunicarse con los inferiores", "correcta": false },
+            { "opcion": "d.", "texto": "Solo se comunican con la DMZ", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "El cortafuegos de Windows es lógico o físico.",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Físico", "correcta": false },
+            { "opcion": "b.", "texto": "Lógico", "correcta": true },
+            { "opcion": "c.", "texto": "Ambos", "correcta": false },
+            { "opcion": "d.", "texto": "Ninguno", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "El cortafuegos de Cisco es lógico o físico.",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Lógico", "correcta": false },
+            { "opcion": "b.", "texto": "Físico", "correcta": true },
+            { "opcion": "c.", "texto": "Virtual", "correcta": false },
+            { "opcion": "d.", "texto": "Software", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "¿Dispone de cortafuegos las versiones de Ubuntu?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "No", "correcta": false },
+            { "opcion": "b.", "texto": "Sí, UFW (Uncomplicated Firewall)", "correcta": true },
+            { "opcion": "c.", "texto": "Solo la versión server", "correcta": false },
+            { "opcion": "d.", "texto": "Es opcional instalar", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "¿Qué se entiende por seguridad lógica?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Puertas y cerraduras", "correcta": false },
+            { "opcion": "b.", "texto": "Protocolos, algoritmos y programas que manipulan directamente la información", "correcta": true },
+            { "opcion": "c.", "texto": "Seguridad física de servidores", "correcta": false },
+            { "opcion": "d.", "texto": "Cableado estructurado", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "¿Es compatible configurar en una empresa un cortafuegos físico y a la vez un cortafuegos lógico?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "No", "correcta": false },
+            { "opcion": "b.", "texto": "Sí", "correcta": true },
+            { "opcion": "c.", "texto": "Depende del sistema operativo", "correcta": false },
+            { "opcion": "d.", "texto": "Solo en redes pequeñas", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "Una empresa tiene el cableado de red suelto por el suelo. ¿Está incumpliendo alguna norma?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "No", "correcta": false },
+            { "opcion": "b.", "texto": "Sí, normas ANSI/TIA-568 sobre cableado estructurado", "correcta": true },
+            { "opcion": "c.", "texto": "Solo si hay interferencias", "correcta": false },
+            { "opcion": "d.", "texto": "Depende de la empresa", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "¿Qué es un DATA CENTER?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Sala de juntas", "correcta": false },
+            { "opcion": "b.", "texto": "Habitación donde residen los servidores, switches, routers, etc.", "correcta": true },
+            { "opcion": "c.", "texto": "Oficina de administración", "correcta": false },
+            { "opcion": "d.", "texto": "Centro de copias de seguridad", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "¿Qué temperatura debe tener un DATA CENTER?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "10-15 grados", "correcta": false },
+            { "opcion": "b.", "texto": "18-22 grados", "correcta": true },
+            { "opcion": "c.", "texto": "25-30 grados", "correcta": false },
+            { "opcion": "d.", "texto": "Ambiente", "correcta": false }
+        ]
+    },
+    {
+        "enunciado": "¿Cómo se podría asegurar un DATA CENTER?",
+        "respuestas": [
+            { "opcion": "a.", "texto": "Solo con llaves", "correcta": false },
+            { "opcion": "b.", "texto": "Dispositivos de control de iris, huellas, tarjetas, llaves", "correcta": true },
+            { "opcion": "c.", "texto": "Solo con cámaras", "correcta": false },
+            { "opcion": "d.", "texto": "Con antivirus", "correcta": false }
+        ]
+    }
+]
