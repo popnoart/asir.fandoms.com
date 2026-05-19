@@ -336,7 +336,7 @@
             },
             {
                 "opcion": "B",
-                "texto": ".ps1",
+                "texto": ".bash",
                 "correcta": false
             },
             {
