@@ -271,12 +271,12 @@
     },
     {
         "enunciado": "RA4 - El PC con nombre INTERNET, ¿qué IP debe teclear para acceder a la web WWW.VIOLINES.ES?",
-        "imagen": "CB-REPASITO-FINAL_01.png",
+        "image": "CB-REPASITO-FINAL_01.png",
         "respuestas": [
             { "opcion": "a.", "texto": "172.172.0.0", "correcta": false },
             { "opcion": "b.", "texto": "172.172.0.1", "correcta": true },
-            { "opcion": "c.", "texto": "No aplica", "correcta": false },
-            { "opcion": "d.", "texto": "Falta información", "correcta": false }
+            { "opcion": "c.", "texto": "192.168.10.1", "correcta": false },
+            { "opcion": "d.", "texto": "192.168.10.27", "correcta": false }
         ]
     },
     {
