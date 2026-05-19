@@ -932,33 +932,6 @@
     },
     {
         "enunciado": "RA4: ¿Encuentras algún error en el siguiente código?",
-        "note": "La respuesta no es correcta, no tiene porqué ser así. Nombre del router y suasuario pueden tener distintos nombres.",
-        "code": "Hostname valencia\nIp domain-name Valencia.es\nCrypto key generate rsa \nUsername router1 privilege 15 secret icarly 1234\nLine vty 0 4\nTransport input SSH \nLogin local",
-        "respuestas": [
-            {
-                "opcion": "a.",
-                "texto": "El comando 'Crypto key generate rsa' falta especificar el tamaño de la clave (ej: 1024)",
-                "correcta": false
-            },
-            {
-                "opcion": "b.",
-                "texto": "Falta el comando 'ip ssh version 2' para activar SSH versión 2",
-                "correcta": false
-            },
-            {
-                "opcion": "c.",
-                "texto": "Hostname valencia y Username router1 deberían ser iguales",
-                "correcta": true
-            },
-            {
-                "opcion": "d.",
-                "texto": "El comando 'Login local' debería ir antes de 'Transport input SSH'",
-                "correcta": false
-            }
-        ]
-    },
-    {
-        "enunciado": "RA4: ¿Encuentras algún error en el siguiente código?",
         "code": "Hostname toledo\nIp domain-name Valencia.es\nCrypto key generate rsa \nUsername toledo privilege 15 secret icarly 1234\nLine vty 0 5\nTransport input SSH \nLogin local",
         "respuestas": [
             {
