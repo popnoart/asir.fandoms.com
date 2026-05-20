@@ -74,19 +74,19 @@
     {
         "enunciado": "Encuentras algún error en el código siguiente de enrutación por EIGRP (realmente cuál está bien)...",
         "respuestas": [
-            { "opcion": "a.", "texto": "router eigrp 20\\nNetwork 192.168.10.0\\nNetwork 10.0.0.0", "correcta": true },
-            { "opcion": "b.", "texto": "router eigrp 20\\nNetwork 192.168.10.1 255.255.255.0\\nNetwork 10.0.0.1 10.0.0.0", "correcta": false },
-            { "opcion": "c.", "texto": "router eigrp 20\\nNetwork 192.168.10.1\\nNetwork 10.0.0.1", "correcta": false },
-            { "opcion": "d.", "texto": "router eigrp 20\\nNetwork 192.168.10.0 255.255.255.0\\nNetwork 10.0.0.0 10.0.0.0", "correcta": false }
+            { "opcion": "a.", "texto": "router eigrp 20\nNetwork 192.168.10.0\nNetwork 10.0.0.0", "correcta": true },
+            { "opcion": "b.", "texto": "router eigrp 20\nNetwork 192.168.10.1 255.255.255.0\nNetwork 10.0.0.1 10.0.0.0", "correcta": false },
+            { "opcion": "c.", "texto": "router eigrp 20\nNetwork 192.168.10.1\nNetwork 10.0.0.1", "correcta": false },
+            { "opcion": "d.", "texto": "router eigrp 20\nNetwork 192.168.10.0 255.255.255.0\nNetwork 10.0.0.0 10.0.0.0", "correcta": false }
         ]
     },
     {
         "enunciado": "Encuentras algún error en la sintaxis de la siguiente enrutación por RIP (realmente cuál está bien)...",
         "respuestas": [
-            { "opcion": "a.", "texto": "Router Rip\\nNetwork 192.168.50.0 255.255.255.0\\nNetwork 192.168.1.0 255.255.255.0\\nNetwork 10.0.0.0 255.0.0.0", "correcta": false },
-            { "opcion": "b.", "texto": "Router Rip\\nNetwork 192.168.50.1 255.255.255.0\\nNetwork 192.168.1.1 255.255.255.0\\nNetwork 10.0.0.1 255.0.0.0", "correcta": false },
-            { "opcion": "c.", "texto": "Router Rip\\nNetwork 192.168.50.1 0.0.0.255\\nNetwork 192.168.1.1 0.0.0.255\\nNetwork 10.0.0.1 0.255.255.255", "correcta": false },
-            { "opcion": "d.", "texto": "Router Rip\\nNetwork 192.168.50.0\\nNetwork 192.168.1.0\\nNetwork 10.0.0.0", "correcta": true }
+            { "opcion": "a.", "texto": "Router Rip\nNetwork 192.168.50.0 255.255.255.0\nNetwork 192.168.1.0 255.255.255.0\nNetwork 10.0.0.0 255.0.0.0", "correcta": false },
+            { "opcion": "b.", "texto": "Router Rip\nNetwork 192.168.50.1 255.255.255.0\nNetwork 192.168.1.1 255.255.255.0\nNetwork 10.0.0.1 255.0.0.0", "correcta": false },
+            { "opcion": "c.", "texto": "Router Rip\nNetwork 192.168.50.1 0.0.0.255\nNetwork 192.168.1.1 0.0.0.255\nNetwork 10.0.0.1 0.255.255.255", "correcta": false },
+            { "opcion": "d.", "texto": "Router Rip\nNetwork 192.168.50.0\nNetwork 192.168.1.0\nNetwork 10.0.0.0", "correcta": true }
         ]
     },
     {
